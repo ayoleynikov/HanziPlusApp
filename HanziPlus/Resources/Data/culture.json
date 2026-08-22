@@ -8,14 +8,32 @@
       {
         "hanzi": "春节是中国人最重要的节日。",
         "pinyin": "Chūnjié shì Zhōngguó rén zuì zhòngyào de jiérì.",
-        "english": "Spring Festival is the most important Chinese holiday."
+        "english": "Spring Festival is the most important Chinese holiday.",
+        "translations": {
+          "en": "Spring Festival is the most important Chinese holiday.",
+          "ru": "Чуньцзе — главный праздник китайцев.",
+          "es": "El Año Nuevo Chino es la fiesta más importante de China.",
+          "pt-BR": "O Ano Novo Chinês é a festa mais importante da China."
+        }
       },
       {
         "hanzi": "我们回老家过春节。",
         "pinyin": "Wǒmen huí lǎojiā guò Chūnjié.",
-        "english": "We go home to celebrate Spring Festival."
+        "english": "We go home to celebrate Spring Festival.",
+        "translations": {
+          "en": "We go home to celebrate Spring Festival.",
+          "ru": "Мы едем в родной город на Чуньцзе.",
+          "es": "Volvemos al pueblo a pasar el Año Nuevo.",
+          "pt-BR": "Voltamos à cidade natal para o Ano Novo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Spring Festival / Chinese New Year",
+      "ru": "Чуньцзе / китайский Новый год",
+      "es": "Año Nuevo Chino / Fiesta de la Primavera",
+      "pt-BR": "Ano Novo Chinês / Festival da Primavera"
+    }
   },
   {
     "section": "cny",
@@ -26,14 +44,32 @@
       {
         "hanzi": "长辈给孩子发红包。",
         "pinyin": "Zhǎngbèi gěi háizi fā hóngbāo.",
-        "english": "Elders give red envelopes to children."
+        "english": "Elders give red envelopes to children.",
+        "translations": {
+          "en": "Elders give red envelopes to children.",
+          "ru": "Старшие дают детям красные конверты.",
+          "es": "Los mayores dan sobres rojos a los niños.",
+          "pt-BR": "Os mais velhos dão envelopes vermelhos às crianças."
+        }
       },
       {
         "hanzi": "谢谢你的红包。",
         "pinyin": "Xièxie nǐ de hóngbāo.",
-        "english": "Thank you for the red envelope."
+        "english": "Thank you for the red envelope.",
+        "translations": {
+          "en": "Thank you for the red envelope.",
+          "ru": "Спасибо за хунбао.",
+          "es": "Gracias por el sobre rojo.",
+          "pt-BR": "Obrigado pelo envelope vermelho."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "red envelope",
+      "ru": "красный конверт / хунбао",
+      "es": "sobre rojo / hongbao",
+      "pt-BR": "envelope vermelho / hongbao"
+    }
   },
   {
     "section": "cny",
@@ -44,14 +80,32 @@
       {
         "hanzi": "全家人一起吃年夜饭。",
         "pinyin": "Quán jiārén yīqǐ chī niányèfàn.",
-        "english": "The whole family eats New Year's Eve dinner together."
+        "english": "The whole family eats New Year's Eve dinner together.",
+        "translations": {
+          "en": "The whole family eats New Year's Eve dinner together.",
+          "ru": "Вся семья собирается на новогодний ужин.",
+          "es": "Toda la familia cena junta en Nochevieja.",
+          "pt-BR": "A família toda janta junta na véspera."
+        }
       },
       {
         "hanzi": "年夜饭很丰盛。",
         "pinyin": "Niányèfàn hěn fēngshèng.",
-        "english": "The reunion dinner is lavish."
+        "english": "The reunion dinner is lavish.",
+        "translations": {
+          "en": "The reunion dinner is lavish.",
+          "ru": "Новогодний стол очень обильный.",
+          "es": "La cena de reunión es muy abundante.",
+          "pt-BR": "A ceia de reunião é muito farta."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "New Year's Eve dinner",
+      "ru": "новогодний ужин / няньефань",
+      "es": "cena de Nochevieja lunar",
+      "pt-BR": "ceia da véspera do Ano Novo"
+    }
   },
   {
     "section": "cny",
@@ -62,14 +116,32 @@
       {
         "hanzi": "门口贴上了春联。",
         "pinyin": "Ménkǒu tiē shàng le chūnlián.",
-        "english": "Spring couplets were pasted on the door."
+        "english": "Spring couplets were pasted on the door.",
+        "translations": {
+          "en": "Spring couplets were pasted on the door.",
+          "ru": "На дверь наклеили чуньлянь.",
+          "es": "Pegaron dísticos en la puerta.",
+          "pt-BR": "Colaram dísticos na porta."
+        }
       },
       {
         "hanzi": "这幅春联写得很工整。",
         "pinyin": "Zhè fú chūnlián xiě de hěn gōngzhěng.",
-        "english": "This couplet is written very neatly."
+        "english": "This couplet is written very neatly.",
+        "translations": {
+          "en": "This couplet is written very neatly.",
+          "ru": "Эти надписи написаны очень аккуратно.",
+          "es": "Este dístico está escrito con mucha pulcritud.",
+          "pt-BR": "Este dístico está escrito com muita capricho."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Spring Festival couplets",
+      "ru": "весенние парные надписи / чуньлянь",
+      "es": "dísticos de Año Nuevo / chunlian",
+      "pt-BR": "dísticos de Ano Novo / chunlian"
+    }
   },
   {
     "section": "cny",
@@ -80,14 +152,32 @@
       {
         "hanzi": "除夕夜看烟花。",
         "pinyin": "Chúxī yè kàn yānhuā.",
-        "english": "Watch fireworks on New Year's Eve."
+        "english": "Watch fireworks on New Year's Eve.",
+        "translations": {
+          "en": "Watch fireworks on New Year's Eve.",
+          "ru": "В канун Нового года смотрят фейерверк.",
+          "es": "En Nochevieja se ven fuegos artificiales.",
+          "pt-BR": "Na véspera se ve fogos de artifício."
+        }
       },
       {
         "hanzi": "城市禁止燃放烟花。",
         "pinyin": "Chéngshì jìnzhǐ ránfàng yānhuā.",
-        "english": "The city bans fireworks."
+        "english": "The city bans fireworks.",
+        "translations": {
+          "en": "The city bans fireworks.",
+          "ru": "В городе запрещено запускать фейерверк.",
+          "es": "La ciudad prohíbe los fuegos artificiales.",
+          "pt-BR": "A cidade proíbe fogos de artifício."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "fireworks",
+      "ru": "фейерверк",
+      "es": "fuegos artificiales",
+      "pt-BR": "fogos de artifício"
+    }
   },
   {
     "section": "cny",
@@ -98,14 +188,32 @@
       {
         "hanzi": "大年初一去拜年。",
         "pinyin": "Dànián chūyī qù bàinián.",
-        "english": "Visit relatives on the first day of the new year."
+        "english": "Visit relatives on the first day of the new year.",
+        "translations": {
+          "en": "Visit relatives on the first day of the new year.",
+          "ru": "В первый день года ходят поздравлять родственников.",
+          "es": "El primer día se visita a los parientes.",
+          "pt-BR": "No primeiro dia se visita os parentes."
+        }
       },
       {
         "hanzi": "我给你拜年了。",
         "pinyin": "Wǒ gěi nǐ bàinián le.",
-        "english": "I'm paying you a New Year visit."
+        "english": "I'm paying you a New Year visit.",
+        "translations": {
+          "en": "I'm paying you a New Year visit.",
+          "ru": "Поздравляю вас с Новым годом.",
+          "es": "Le deseo un feliz Año Nuevo.",
+          "pt-BR": "Desejo a você um feliz Ano Novo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to pay New Year visits",
+      "ru": "ходить с новогодними поздравлениями / байнянь",
+      "es": "visitar para desear el Año Nuevo",
+      "pt-BR": "visitar para desejar o Ano Novo"
+    }
   },
   {
     "section": "cny",
@@ -116,14 +224,32 @@
       {
         "hanzi": "街上挂满了红灯笼。",
         "pinyin": "Jiē shàng guà mǎn le hóng dēnglong.",
-        "english": "Red lanterns hang all over the street."
+        "english": "Red lanterns hang all over the street.",
+        "translations": {
+          "en": "Red lanterns hang all over the street.",
+          "ru": "На улицах полно красных фонарей.",
+          "es": "La calle está llena de farolillos rojos.",
+          "pt-BR": "A rua está cheia de lanternas vermelhas."
+        }
       },
       {
         "hanzi": "这个灯笼很漂亮。",
         "pinyin": "Zhège dēnglong hěn piàoliang.",
-        "english": "This lantern is beautiful."
+        "english": "This lantern is beautiful.",
+        "translations": {
+          "en": "This lantern is beautiful.",
+          "ru": "Этот фонарь очень красивый.",
+          "es": "Este farolillo es muy bonito.",
+          "pt-BR": "Esta lanterna é muito bonita."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "lantern",
+      "ru": "фонарь / фонарик",
+      "es": "linterna / farolillo",
+      "pt-BR": "lanterna / lampião"
+    }
   },
   {
     "section": "cny",
@@ -134,14 +260,32 @@
       {
         "hanzi": "春节有舞龙表演。",
         "pinyin": "Chūnjié yǒu wǔ lóng biǎoyǎn.",
-        "english": "There are dragon dances during Spring Festival."
+        "english": "There are dragon dances during Spring Festival.",
+        "translations": {
+          "en": "There are dragon dances during Spring Festival.",
+          "ru": "На Чуньцзе показывают танец дракона.",
+          "es": "En el Año Nuevo hay danza del dragón.",
+          "pt-BR": "No Ano Novo há dança do dragão."
+        }
       },
       {
         "hanzi": "舞龙队伍很壮观。",
         "pinyin": "Wǔ lóng duìwu hěn zhuàngguān.",
-        "english": "The dragon dance troupe is spectacular."
+        "english": "The dragon dance troupe is spectacular.",
+        "translations": {
+          "en": "The dragon dance troupe is spectacular.",
+          "ru": "Команда танца дракона очень зрелищная.",
+          "es": "La troupe del dragón es espectacular.",
+          "pt-BR": "O grupo da dança do dragão é espetacular."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "dragon dance",
+      "ru": "танец дракона",
+      "es": "danza del dragón",
+      "pt-BR": "dança do dragão"
+    }
   },
   {
     "section": "cny",
@@ -152,14 +296,32 @@
       {
         "hanzi": "春节是团圆的日子。",
         "pinyin": "Chūnjié shì tuányuán de rìzi.",
-        "english": "Spring Festival is a time for reunion."
+        "english": "Spring Festival is a time for reunion.",
+        "translations": {
+          "en": "Spring Festival is a time for reunion.",
+          "ru": "Чуньцзе — день семейного воссоединения.",
+          "es": "El Año Nuevo es tiempo de reunión familiar.",
+          "pt-BR": "O Ano Novo é tempo de reunião familiar."
+        }
       },
       {
         "hanzi": "一家人团圆最重要。",
         "pinyin": "Yī jiā rén tuányuán zuì zhòngyào.",
-        "english": "Family reunion matters most."
+        "english": "Family reunion matters most.",
+        "translations": {
+          "en": "Family reunion matters most.",
+          "ru": "Главное — чтобы семья была вместе.",
+          "es": "Lo más importante es reunirse en familia.",
+          "pt-BR": "O mais importante é a família estar junta."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "reunion",
+      "ru": "воссоединение семьи / туанъюань",
+      "es": "reunión familiar",
+      "pt-BR": "reunião familiar"
+    }
   },
   {
     "section": "cny",
@@ -170,14 +332,32 @@
       {
         "hanzi": "我们除夕守岁。",
         "pinyin": "Wǒmen chúxī shǒusuì.",
-        "english": "We stay up on New Year's Eve."
+        "english": "We stay up on New Year's Eve.",
+        "translations": {
+          "en": "We stay up on New Year's Eve.",
+          "ru": "В канун Нового года мы не ложимся до полуночи.",
+          "es": "Velamos la Nochevieja lunar.",
+          "pt-BR": "Passamos a véspera em claro."
+        }
       },
       {
         "hanzi": "守岁到半夜。",
         "pinyin": "Shǒusuì dào bànyè.",
-        "english": "Stay up until midnight."
+        "english": "Stay up until midnight.",
+        "translations": {
+          "en": "Stay up until midnight.",
+          "ru": "Бдим до полуночи.",
+          "es": "Velamos hasta medianoche.",
+          "pt-BR": "Ficamos acordados até meia-noite."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to stay up on New Year's Eve",
+      "ru": "встречать Новый год не ложась спать / шоусы",
+      "es": "velar la Nochevieja lunar",
+      "pt-BR": "passar a virada em claro"
+    }
   },
   {
     "section": "dragon_boat",
@@ -188,14 +368,32 @@
       {
         "hanzi": "端午节在农历五月初五。",
         "pinyin": "Duānwǔ Jié zài nónglì wǔ yuè chū wǔ.",
-        "english": "Dragon Boat Festival is on the fifth day of the fifth lunar month."
+        "english": "Dragon Boat Festival is on the fifth day of the fifth lunar month.",
+        "translations": {
+          "en": "Dragon Boat Festival is on the fifth day of the fifth lunar month.",
+          "ru": "Дуаньу — пятый день пятого лунного месяца.",
+          "es": "El Festival del Bote del Dragón es el 5 del 5.º mes lunar.",
+          "pt-BR": "O Festival das Barcas-Dragão é no 5.º dia do 5.º mês lunar."
+        }
       },
       {
         "hanzi": "端午节吃粽子。",
         "pinyin": "Duānwǔ Jié chī zòngzi.",
-        "english": "People eat zongzi during Dragon Boat Festival."
+        "english": "People eat zongzi during Dragon Boat Festival.",
+        "translations": {
+          "en": "People eat zongzi during Dragon Boat Festival.",
+          "ru": "На Дуаньу едят цзунцзы.",
+          "es": "En el festival se comen zongzi.",
+          "pt-BR": "No festival se come zongzi."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Dragon Boat Festival",
+      "ru": "праздник лодок-драконов / Дуаньу",
+      "es": "Festival del Bote del Dragón",
+      "pt-BR": "Festival das Barcas-Dragão"
+    }
   },
   {
     "section": "dragon_boat",
@@ -206,14 +404,32 @@
       {
         "hanzi": "我喜欢肉粽子。",
         "pinyin": "Wǒ xǐhuan ròu zòngzi.",
-        "english": "I like savory zongzi."
+        "english": "I like savory zongzi.",
+        "translations": {
+          "en": "I like savory zongzi.",
+          "ru": "Я люблю мясные цзунцзы.",
+          "es": "Me gustan los zongzi salados.",
+          "pt-BR": "Gosto de zongzi salgado."
+        }
       },
       {
         "hanzi": "妈妈包了一锅粽子。",
         "pinyin": "Māma bāo le yī guō zòngzi.",
-        "english": "Mom made a pot of zongzi."
+        "english": "Mom made a pot of zongzi.",
+        "translations": {
+          "en": "Mom made a pot of zongzi.",
+          "ru": "Мама сварила кастрюлю цзунцзы.",
+          "es": "Mamá hizo una olla de zongzi.",
+          "pt-BR": "A mamãe fez uma panela de zongzi."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "sticky rice dumpling",
+      "ru": "цзунцзы (рисовые треугольники в листьях)",
+      "es": "zongzi (bollo de arroz glutinoso)",
+      "pt-BR": "zongzi (bolinho de arroz glutinoso)"
+    }
   },
   {
     "section": "dragon_boat",
@@ -224,14 +440,32 @@
       {
         "hanzi": "龙舟比赛很激烈。",
         "pinyin": "Lóngzhōu bǐsài hěn jīliè.",
-        "english": "Dragon boat racing is intense."
+        "english": "Dragon boat racing is intense.",
+        "translations": {
+          "en": "Dragon boat racing is intense.",
+          "ru": "Гонки лодок-драконов очень напряжённые.",
+          "es": "La regata de botes del dragón es intensa.",
+          "pt-BR": "A corrida de barcas-dragão é intensa."
+        }
       },
       {
         "hanzi": "他们队龙舟划得很快。",
         "pinyin": "Tāmen duì lóngzhōu huá de hěn kuài.",
-        "english": "Their team paddles very fast."
+        "english": "Their team paddles very fast.",
+        "translations": {
+          "en": "Their team paddles very fast.",
+          "ru": "Их команда гребёт очень быстро.",
+          "es": "Su equipo rema muy rápido.",
+          "pt-BR": "O time deles rema muito rápido."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "dragon boat",
+      "ru": "лодка-дракон",
+      "es": "bote del dragón",
+      "pt-BR": "barca-dragão"
+    }
   },
   {
     "section": "dragon_boat",
@@ -242,14 +476,32 @@
       {
         "hanzi": "端午节纪念屈原。",
         "pinyin": "Duānwǔ Jié jìniàn Qū Yuán.",
-        "english": "Dragon Boat Festival commemorates Qu Yuan."
+        "english": "Dragon Boat Festival commemorates Qu Yuan.",
+        "translations": {
+          "en": "Dragon Boat Festival commemorates Qu Yuan.",
+          "ru": "Дуаньу посвящён памяти Цюй Юаня.",
+          "es": "El festival conmemora a Qu Yuan.",
+          "pt-BR": "O festival homenageia Qu Yuan."
+        }
       },
       {
         "hanzi": "屈原是伟大的诗人。",
         "pinyin": "Qū Yuán shì wěidà de shīrén.",
-        "english": "Qu Yuan was a great poet."
+        "english": "Qu Yuan was a great poet.",
+        "translations": {
+          "en": "Qu Yuan was a great poet.",
+          "ru": "Цюй Юань был великим поэтом.",
+          "es": "Qu Yuan fue un gran poeta.",
+          "pt-BR": "Qu Yuan foi um grande poeta."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Qu Yuan",
+      "ru": "Цюй Юань",
+      "es": "Qu Yuan",
+      "pt-BR": "Qu Yuan"
+    }
   },
   {
     "section": "dragon_boat",
@@ -260,14 +512,32 @@
       {
         "hanzi": "门口挂艾草驱邪。",
         "pinyin": "Ménkǒu guà àicǎo qū xié.",
-        "english": "Mugwort is hung at the door to ward off evil."
+        "english": "Mugwort is hung at the door to ward off evil.",
+        "translations": {
+          "en": "Mugwort is hung at the door to ward off evil.",
+          "ru": "Над дверью вешают полынь от нечисти.",
+          "es": "Se cuelga artemisa en la puerta para ahuyentar el mal.",
+          "pt-BR": "Pendura-se artemísia na porta para afastar o mal."
+        }
       },
       {
         "hanzi": "艾草有特殊香味。",
         "pinyin": "Àicǎo yǒu tèshū xiāngwèi.",
-        "english": "Mugwort has a distinct scent."
+        "english": "Mugwort has a distinct scent.",
+        "translations": {
+          "en": "Mugwort has a distinct scent.",
+          "ru": "У полыни особый запах.",
+          "es": "La artemisa tiene un aroma especial.",
+          "pt-BR": "A artemísia tem um cheiro especial."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "mugwort",
+      "ru": "полынь / айцао",
+      "es": "artemisa / mugwort",
+      "pt-BR": "artemísia / mugwort"
+    }
   },
   {
     "section": "dragon_boat",
@@ -278,14 +548,32 @@
       {
         "hanzi": "孩子佩戴香囊。",
         "pinyin": "Háizi pèidài xiāngnáng.",
-        "english": "Children wear scented sachets."
+        "english": "Children wear scented sachets.",
+        "translations": {
+          "en": "Children wear scented sachets.",
+          "ru": "Дети носят ароматные мешочки.",
+          "es": "Los niños llevan saquitos aromáticos.",
+          "pt-BR": "As crianças usam saquinhos aromáticos."
+        }
       },
       {
         "hanzi": "这个香囊是手工做的。",
         "pinyin": "Zhège xiāngnáng shì shǒugōng zuò de.",
-        "english": "This sachet is handmade."
+        "english": "This sachet is handmade.",
+        "translations": {
+          "en": "This sachet is handmade.",
+          "ru": "Этот мешочек сделан вручную.",
+          "es": "Este saquito es hecho a mano.",
+          "pt-BR": "Este saquinho é feito à mão."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "sachet / scented pouch",
+      "ru": "ароматный мешочек / сяннан",
+      "es": "saquito aromático",
+      "pt-BR": "saquinho aromático"
+    }
   },
   {
     "section": "dragon_boat",
@@ -296,14 +584,32 @@
       {
         "hanzi": "明天有赛龙舟。",
         "pinyin": "Míngtiān yǒu sài lóngzhōu.",
-        "english": "There's a dragon boat race tomorrow."
+        "english": "There's a dragon boat race tomorrow.",
+        "translations": {
+          "en": "There's a dragon boat race tomorrow.",
+          "ru": "Завтра гонка лодок-драконов.",
+          "es": "Mañana hay una regata de botes del dragón.",
+          "pt-BR": "Amanhã tem corrida de barcas-dragão."
+        }
       },
       {
         "hanzi": "赛龙舟是传统活动。",
         "pinyin": "Sài lóngzhōu shì chuántǒng huódòng.",
-        "english": "Dragon boat racing is a traditional activity."
+        "english": "Dragon boat racing is a traditional activity.",
+        "translations": {
+          "en": "Dragon boat racing is a traditional activity.",
+          "ru": "Гонки — традиционное мероприятие.",
+          "es": "La regata es una actividad tradicional.",
+          "pt-BR": "A corrida é uma atividade tradicional."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "dragon boat race",
+      "ru": "гонка лодок-драконов",
+      "es": "regata de botes del dragón",
+      "pt-BR": "corrida de barcas-dragão"
+    }
   },
   {
     "section": "dragon_boat",
@@ -314,14 +620,32 @@
       {
         "hanzi": "端午喝雄黄酒是习俗。",
         "pinyin": "Duānwǔ hē xiónghuángjiǔ shì xísú.",
-        "english": "Drinking realgar wine is a Dragon Boat custom."
+        "english": "Drinking realgar wine is a Dragon Boat custom.",
+        "translations": {
+          "en": "Drinking realgar wine is a Dragon Boat custom.",
+          "ru": "Пить вино с реальгаром — обычай Дуаньу.",
+          "es": "Beber vino de rejalgar es una costumbre del festival.",
+          "pt-BR": "Beber vinho de realgar é um costume do festival."
+        }
       },
       {
         "hanzi": "现在很少喝雄黄酒了。",
         "pinyin": "Xiànzài hěn shǎo hē xiónghuángjiǔ le.",
-        "english": "Realgar wine is rarely consumed now."
+        "english": "Realgar wine is rarely consumed now.",
+        "translations": {
+          "en": "Realgar wine is rarely consumed now.",
+          "ru": "Сейчас его пьют редко.",
+          "es": "Ahora rara vez se bebe vino de rejalgar.",
+          "pt-BR": "Agora raramente se bebe vinho de realgar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "realgar wine",
+      "ru": "вино с реальгаром / сюнхуанцзю",
+      "es": "vino de rejalgar",
+      "pt-BR": "vinho de realgar"
+    }
   },
   {
     "section": "dragon_boat",
@@ -332,14 +656,32 @@
       {
         "hanzi": "给孩子系五彩绳。",
         "pinyin": "Gěi háizi jì wǔcǎi shéng.",
-        "english": "Tie colorful cords on children."
+        "english": "Tie colorful cords on children.",
+        "translations": {
+          "en": "Tie colorful cords on children.",
+          "ru": "Детям завязывают пятицветный шнурок.",
+          "es": "Se ata un cordón de cinco colores a los niños.",
+          "pt-BR": "Amarra-se um cordão de cinco cores nas crianças."
+        }
       },
       {
         "hanzi": "五彩绳寓意平安。",
         "pinyin": "Wǔcǎi shéng yùyì píng'ān.",
-        "english": "Colorful cords symbolize safety."
+        "english": "Colorful cords symbolize safety.",
+        "translations": {
+          "en": "Colorful cords symbolize safety.",
+          "ru": "Шнурок символизирует благополучие.",
+          "es": "El cordón simboliza la seguridad.",
+          "pt-BR": "O cordão simboliza proteção."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "colorful braided cord",
+      "ru": "пятицветный шнурок",
+      "es": "cuerda de cinco colores",
+      "pt-BR": "cordão de cinco cores"
+    }
   },
   {
     "section": "dragon_boat",
@@ -350,14 +692,32 @@
       {
         "hanzi": "队员整齐地划桨。",
         "pinyin": "Duìyuán zhěngqí de huájiǎng.",
-        "english": "Team members paddle in unison."
+        "english": "Team members paddle in unison.",
+        "translations": {
+          "en": "Team members paddle in unison.",
+          "ru": "Гребцы гребут слаженно.",
+          "es": "Los remeros reman al unísono.",
+          "pt-BR": "Os remadores remam em uníssono."
+        }
       },
       {
         "hanzi": "划桨需要很大力气。",
         "pinyin": "Huájiǎng xūyào hěn dà lìqi.",
-        "english": "Paddling takes a lot of strength."
+        "english": "Paddling takes a lot of strength.",
+        "translations": {
+          "en": "Paddling takes a lot of strength.",
+          "ru": "Грести нужно с силой.",
+          "es": "Remar exige mucha fuerza.",
+          "pt-BR": "Remar exige muita força."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to paddle",
+      "ru": "грести",
+      "es": "remar",
+      "pt-BR": "remar"
+    }
   },
   {
     "section": "lantern",
@@ -368,14 +728,32 @@
       {
         "hanzi": "元宵节是春节的最后一天。",
         "pinyin": "Yuánxiāo Jié shì Chūnjié de zuìhòu yī tiān.",
-        "english": "Lantern Festival is the last day of Spring Festival."
+        "english": "Lantern Festival is the last day of Spring Festival.",
+        "translations": {
+          "en": "Lantern Festival is the last day of Spring Festival.",
+          "ru": "Юаньсяо — последний день Чуньцзе.",
+          "es": "El Festival de los Faroles cierra el Año Nuevo.",
+          "pt-BR": "O Festival das Lanternas fecha o Ano Novo."
+        }
       },
       {
         "hanzi": "元宵节看花灯。",
         "pinyin": "Yuánxiāo Jié kàn huādēng.",
-        "english": "People view lanterns on Lantern Festival."
+        "english": "People view lanterns on Lantern Festival.",
+        "translations": {
+          "en": "People view lanterns on Lantern Festival.",
+          "ru": "На Юаньсяо смотрят фонари.",
+          "es": "En el festival se contemplan faroles.",
+          "pt-BR": "No festival se admiram lanternas."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Lantern Festival",
+      "ru": "праздник фонарей / Юаньсяо",
+      "es": "Festival de los Faroles",
+      "pt-BR": "Festival das Lanternas"
+    }
   },
   {
     "section": "lantern",
@@ -386,14 +764,32 @@
       {
         "hanzi": "公园里有各种花灯。",
         "pinyin": "Gōngyuán lǐ yǒu gè zhǒng huādēng.",
-        "english": "There are all kinds of lanterns in the park."
+        "english": "There are all kinds of lanterns in the park.",
+        "translations": {
+          "en": "There are all kinds of lanterns in the park.",
+          "ru": "В парке разные фонари.",
+          "es": "En el parque hay faroles de todo tipo.",
+          "pt-BR": "No parque há lanternas de todo tipo."
+        }
       },
       {
         "hanzi": "这个花灯是兔子的形状。",
         "pinyin": "Zhège huādēng shì tùzi de xíngzhuàng.",
-        "english": "This lantern is shaped like a rabbit."
+        "english": "This lantern is shaped like a rabbit.",
+        "translations": {
+          "en": "This lantern is shaped like a rabbit.",
+          "ru": "Этот фонарь в форме кролика.",
+          "es": "Este farol tiene forma de conejo.",
+          "pt-BR": "Esta lanterna tem forma de coelho."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "decorative lantern",
+      "ru": "декоративный фонарь / хуадэн",
+      "es": "farol decorativo",
+      "pt-BR": "lanterna decorativa"
+    }
   },
   {
     "section": "lantern",
@@ -404,14 +800,32 @@
       {
         "hanzi": "我们在灯会上猜灯谜。",
         "pinyin": "Wǒmen zài dēnghuì shàng cāi dēngmí.",
-        "english": "We guess lantern riddles at the fair."
+        "english": "We guess lantern riddles at the fair.",
+        "translations": {
+          "en": "We guess lantern riddles at the fair.",
+          "ru": "На ярмарке фонарей мы отгадываем загадки.",
+          "es": "En la feria adivinamos acertijos de faroles.",
+          "pt-BR": "Na feira adivinhamos charadas das lanternas."
+        }
       },
       {
         "hanzi": "这个灯谜很难。",
         "pinyin": "Zhège dēngmí hěn nán.",
-        "english": "This lantern riddle is hard."
+        "english": "This lantern riddle is hard.",
+        "translations": {
+          "en": "This lantern riddle is hard.",
+          "ru": "Эта загадка очень сложная.",
+          "es": "Este acertijo es muy difícil.",
+          "pt-BR": "Esta charada é muito difícil."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to guess lantern riddles",
+      "ru": "отгадывать загадки на фонарях",
+      "es": "adivinar acertijos de faroles",
+      "pt-BR": "adivinhar charadas das lanternas"
+    }
   },
   {
     "section": "lantern",
@@ -422,14 +836,32 @@
       {
         "hanzi": "元宵节吃汤圆。",
         "pinyin": "Yuánxiāo Jié chī tāngyuán.",
-        "english": "Eat tangyuan on Lantern Festival."
+        "english": "Eat tangyuan on Lantern Festival.",
+        "translations": {
+          "en": "Eat tangyuan on Lantern Festival.",
+          "ru": "На Юаньсяо едят танъюань.",
+          "es": "En el Festival de los Faroles se comen tangyuan.",
+          "pt-BR": "No Festival das Lanternas se come tangyuan."
+        }
       },
       {
         "hanzi": "芝麻汤圆很好吃。",
         "pinyin": "Zhīma tāngyuán hěn hǎochī.",
-        "english": "Sesame tangyuan is delicious."
+        "english": "Sesame tangyuan is delicious.",
+        "translations": {
+          "en": "Sesame tangyuan is delicious.",
+          "ru": "Кунжутные танъюань очень вкусные.",
+          "es": "Los tangyuan de sésamo están riquísimos.",
+          "pt-BR": "Tangyuan de gergelim está uma delícia."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "tangyuan",
+      "ru": "танъюань (сладкие рисовые шарики)",
+      "es": "tangyuan (bolitas de arroz glutinoso)",
+      "pt-BR": "tangyuan (bolinho de arroz glutinoso)"
+    }
   },
   {
     "section": "lantern",
@@ -440,14 +872,32 @@
       {
         "hanzi": "灯会很热闹。",
         "pinyin": "Dēnghuì hěn rènao.",
-        "english": "The lantern fair is lively."
+        "english": "The lantern fair is lively.",
+        "translations": {
+          "en": "The lantern fair is lively.",
+          "ru": "Ярмарка фонарей очень оживлённая.",
+          "es": "La feria de faroles está muy animada.",
+          "pt-BR": "A feira de lanternas está bem animada."
+        }
       },
       {
         "hanzi": "我们全家去逛灯会。",
         "pinyin": "Wǒmen quán jiā qù guàng dēnghuì.",
-        "english": "Our whole family goes to the lantern fair."
+        "english": "Our whole family goes to the lantern fair.",
+        "translations": {
+          "en": "Our whole family goes to the lantern fair.",
+          "ru": "Вся семья идёт на ярмарку фонарей.",
+          "es": "Toda la familia va a la feria de faroles.",
+          "pt-BR": "A família toda vai à feira de lanternas."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "lantern fair",
+      "ru": "ярмарка фонарей",
+      "es": "feria de faroles",
+      "pt-BR": "feira de lanternas"
+    }
   },
   {
     "section": "lantern",
@@ -458,14 +908,32 @@
       {
         "hanzi": "走马灯里的图案会动。",
         "pinyin": "Zǒumǎdēng lǐ de tú'àn huì dòng.",
-        "english": "The pictures inside a revolving lantern move."
+        "english": "The pictures inside a revolving lantern move.",
+        "translations": {
+          "en": "The pictures inside a revolving lantern move.",
+          "ru": "Картинки внутри вращающегося фонаря движутся.",
+          "es": "Las figuras del farol giratorio se mueven.",
+          "pt-BR": "As figuras da lanterna giratória se movem."
+        }
       },
       {
         "hanzi": "这种走马灯很精巧。",
         "pinyin": "Zhè zhǒng zǒumǎdēng hěn jīngqiǎo.",
-        "english": "This type of revolving lantern is intricate."
+        "english": "This type of revolving lantern is intricate.",
+        "translations": {
+          "en": "This type of revolving lantern is intricate.",
+          "ru": "Этот вращающийся фонарь очень искусный.",
+          "es": "Este farol giratorio es muy ingenioso.",
+          "pt-BR": "Esta lanterna giratória é muito engenhosa."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "revolving lantern",
+      "ru": "вращающийся фонарь / цзоумадэн",
+      "es": "farol giratorio",
+      "pt-BR": "lanterna giratória"
+    }
   },
   {
     "section": "lantern",
@@ -476,14 +944,32 @@
       {
         "hanzi": "人们放孔明灯许愿。",
         "pinyin": "Rénmen fàng kǒngmíng dēng xǔyuàn.",
-        "english": "People release sky lanterns to make wishes."
+        "english": "People release sky lanterns to make wishes.",
+        "translations": {
+          "en": "People release sky lanterns to make wishes.",
+          "ru": "Люди запускают фонарики и загадывают желания.",
+          "es": "La gente suelta faroles voladores para pedir deseos.",
+          "pt-BR": "As pessoas soltam lanternas voadoras para fazer pedidos."
+        }
       },
       {
         "hanzi": "孔明灯慢慢升上天空。",
         "pinyin": "Kǒngmíng dēng mànmàn shēng shàng tiānkōng.",
-        "english": "Sky lanterns slowly rise into the sky."
+        "english": "Sky lanterns slowly rise into the sky.",
+        "translations": {
+          "en": "Sky lanterns slowly rise into the sky.",
+          "ru": "Фонарики медленно поднимаются в небо.",
+          "es": "Los faroles suben despacio al cielo.",
+          "pt-BR": "As lanternas sobem devagar no céu."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "sky lantern",
+      "ru": "небесный фонарик / кунминдэн",
+      "es": "farol volador / farol Kongming",
+      "pt-BR": "lanterna voadora / lanterna Kongming"
+    }
   },
   {
     "section": "lantern",
@@ -494,14 +980,32 @@
       {
         "hanzi": "元宵夜一起赏月。",
         "pinyin": "Yuánxiāo yè yīqǐ shǎng yuè.",
-        "english": "Admire the moon together on Lantern Festival night."
+        "english": "Admire the moon together on Lantern Festival night.",
+        "translations": {
+          "en": "Admire the moon together on Lantern Festival night.",
+          "ru": "В ночь Юаньсяо вместе любуются луной.",
+          "es": "En la noche del festival contemplamos la luna juntos.",
+          "pt-BR": "Na noite do festival admiramos a lua juntos."
+        }
       },
       {
         "hanzi": "我们在阳台赏月。",
         "pinyin": "Wǒmen zài yángtái shǎng yuè.",
-        "english": "We admire the moon from the balcony."
+        "english": "We admire the moon from the balcony.",
+        "translations": {
+          "en": "We admire the moon from the balcony.",
+          "ru": "Мы любуемся луной с балкона.",
+          "es": "Contemplamos la luna desde el balcón.",
+          "pt-BR": "Admiramos a lua da varanda."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to admire the moon",
+      "ru": "любоваться луной",
+      "es": "contemplar la luna",
+      "pt-BR": "admirar a lua"
+    }
   },
   {
     "section": "lantern",
@@ -512,14 +1016,32 @@
       {
         "hanzi": "请看一下走桥。",
         "pinyin": "Qǐng kàn yīxià zǒu qiáo.",
-        "english": "Please check the bridge walk (festival activity)."
+        "english": "Please check the bridge walk (festival activity).",
+        "translations": {
+          "en": "Please check the bridge walk (festival activity).",
+          "ru": "Посмотрите обычай хождения по мосту.",
+          "es": "Mire el paseo por el puente del festival.",
+          "pt-BR": "Veja a caminhada na ponte do festival."
+        }
       },
       {
         "hanzi": "这个走桥很重要。",
         "pinyin": "Zhège zǒu qiáo hěn zhòngyào.",
-        "english": "This bridge walk (festival activity) is important."
+        "english": "This bridge walk (festival activity) is important.",
+        "translations": {
+          "en": "This bridge walk (festival activity) is important.",
+          "ru": "Этот обычай очень важен.",
+          "es": "Este paseo por el puente es importante.",
+          "pt-BR": "Esta caminhada na ponte é importante."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "bridge walk (festival activity)",
+      "ru": "ходить по мосту (обычай праздника)",
+      "es": "paseo por el puente (costumbre festiva)",
+      "pt-BR": "caminhada na ponte (costume festivo)"
+    }
   },
   {
     "section": "lantern",
@@ -530,14 +1052,32 @@
       {
         "hanzi": "晚上大家走灯赏灯。",
         "pinyin": "Wǎnshang dàjiā zǒu dēng shǎng dēng.",
-        "english": "In the evening everyone walks among the lanterns."
+        "english": "In the evening everyone walks among the lanterns.",
+        "translations": {
+          "en": "In the evening everyone walks among the lanterns.",
+          "ru": "Вечером все гуляют среди фонарей.",
+          "es": "Por la noche todos pasean entre faroles.",
+          "pt-BR": "À noite todos passeiam entre as lanternas."
+        }
       },
       {
         "hanzi": "走灯是元宵节习俗。",
         "pinyin": "Zǒu dēng shì Yuánxiāo Jié xísú.",
-        "english": "Lantern walks are a Lantern Festival custom."
+        "english": "Lantern walks are a Lantern Festival custom.",
+        "translations": {
+          "en": "Lantern walks are a Lantern Festival custom.",
+          "ru": "Шествие с фонарями — обычай Юаньсяо.",
+          "es": "Pasear entre faroles es una costumbre del festival.",
+          "pt-BR": "Passear entre lanternas é um costume do festival."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "lantern walk / parade",
+      "ru": "шествие с фонарями",
+      "es": "paseo de faroles",
+      "pt-BR": "procissão de lanternas"
+    }
   },
   {
     "section": "mid_autumn",
@@ -548,14 +1088,32 @@
       {
         "hanzi": "中秋节在农历八月十五。",
         "pinyin": "Zhōngqiū Jié zài nónglì bā yuè shíwǔ.",
-        "english": "Mid-Autumn Festival is on the 15th of the eighth lunar month."
+        "english": "Mid-Autumn Festival is on the 15th of the eighth lunar month.",
+        "translations": {
+          "en": "Mid-Autumn Festival is on the 15th of the eighth lunar month.",
+          "ru": "Чжунцю — 15-й день 8-го лунного месяца.",
+          "es": "El Festival del Medio Otoño es el 15 del 8.º mes lunar.",
+          "pt-BR": "O Festival do Meio Outono é no dia 15 do 8.º mês lunar."
+        }
       },
       {
         "hanzi": "中秋节家人团聚。",
         "pinyin": "Zhōngqiū Jié jiārén tuánjù.",
-        "english": "Families gather on Mid-Autumn Festival."
+        "english": "Families gather on Mid-Autumn Festival.",
+        "translations": {
+          "en": "Families gather on Mid-Autumn Festival.",
+          "ru": "На Чжунцю семья собирается вместе.",
+          "es": "Las familias se reúnen en el Festival del Medio Otoño.",
+          "pt-BR": "As famílias se reúnem no Festival do Meio Outono."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Mid-Autumn Festival",
+      "ru": "праздник середины осени / Чжунцю",
+      "es": "Festival del Medio Otoño",
+      "pt-BR": "Festival do Meio Outono"
+    }
   },
   {
     "section": "mid_autumn",
@@ -566,14 +1124,32 @@
       {
         "hanzi": "中秋节吃月饼。",
         "pinyin": "Zhōngqiū Jié chī yuèbǐng.",
-        "english": "Eat mooncakes on Mid-Autumn Festival."
+        "english": "Eat mooncakes on Mid-Autumn Festival.",
+        "translations": {
+          "en": "Eat mooncakes on Mid-Autumn Festival.",
+          "ru": "На Чжунцю едят юэбин.",
+          "es": "En el Festival del Medio Otoño se comen pasteles de luna.",
+          "pt-BR": "No Festival do Meio Outono se come bolo da lua."
+        }
       },
       {
         "hanzi": "莲蓉月饼很受欢迎。",
         "pinyin": "Liánróng yuèbǐng hěn shòu huānyíng.",
-        "english": "Lotus seed mooncakes are popular."
+        "english": "Lotus seed mooncakes are popular.",
+        "translations": {
+          "en": "Lotus seed mooncakes are popular.",
+          "ru": "Юэбин с лотосовой пастой очень популярны.",
+          "es": "Los pasteles de luna de loto son populares.",
+          "pt-BR": "Bolo da lua de lótus é popular."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "mooncake",
+      "ru": "лунный пряник / юэбин",
+      "es": "pastel de luna / mooncake",
+      "pt-BR": "bolo da lua / mooncake"
+    }
   },
   {
     "section": "mid_autumn",
@@ -584,14 +1160,32 @@
       {
         "hanzi": "中秋时节桂花很香。",
         "pinyin": "Zhōngqiū shíjié guìhuā hěn xiāng.",
-        "english": "Osmanthus flowers are fragrant during Mid-Autumn Festival."
+        "english": "Osmanthus flowers are fragrant during Mid-Autumn Festival.",
+        "translations": {
+          "en": "Osmanthus flowers are fragrant during Mid-Autumn Festival.",
+          "ru": "На Чжунцю османтус очень душистый.",
+          "es": "En el Medio Otoño el osmanthus es muy fragante.",
+          "pt-BR": "No Meio Outono o osmanthus é muito perfumado."
+        }
       },
       {
         "hanzi": "月饼里有桂花味道。",
         "pinyin": "Yuèbǐng li yǒu guìhuā wèidào.",
-        "english": "The mooncake has an osmanthus flavor."
+        "english": "The mooncake has an osmanthus flavor.",
+        "translations": {
+          "en": "The mooncake has an osmanthus flavor.",
+          "ru": "В юэбине чувствуется вкус османтуса.",
+          "es": "El pastel de luna tiene sabor a osmanthus.",
+          "pt-BR": "O bolo da lua tem sabor de osmanthus."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "osmanthus flower",
+      "ru": "османтус / цветок гуйхуа",
+      "es": "flor de osmanthus / guihua",
+      "pt-BR": "flor de osmanthus / guihua"
+    }
   },
   {
     "section": "mid_autumn",
@@ -602,14 +1196,32 @@
       {
         "hanzi": "嫦娥奔月是中秋传说。",
         "pinyin": "Cháng'é bēn yuè shì Zhōngqiū chuánshuō.",
-        "english": "Chang'e flying to the moon is a Mid-Autumn legend."
+        "english": "Chang'e flying to the moon is a Mid-Autumn legend.",
+        "translations": {
+          "en": "Chang'e flying to the moon is a Mid-Autumn legend.",
+          "ru": "Чанъэ, улетевшая на луну, — легенда Чжунцю.",
+          "es": "Chang'e volando a la luna es una leyenda del festival.",
+          "pt-BR": "Chang'e voando à lua é uma lenda do festival."
+        }
       },
       {
         "hanzi": "孩子们听嫦娥的故事。",
         "pinyin": "Háizimen tīng Cháng'é de gùshi.",
-        "english": "Children hear the story of Chang'e."
+        "english": "Children hear the story of Chang'e.",
+        "translations": {
+          "en": "Children hear the story of Chang'e.",
+          "ru": "Дети слушают историю о Чанъэ.",
+          "es": "Los niños escuchan la historia de Chang'e.",
+          "pt-BR": "As crianças ouvem a história de Chang'e."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Chang'e (moon goddess)",
+      "ru": "Чанъэ (лунная богиня)",
+      "es": "Chang'e (diosa de la luna)",
+      "pt-BR": "Chang'e (deusa da lua)"
+    }
   },
   {
     "section": "mid_autumn",
@@ -620,14 +1232,32 @@
       {
         "hanzi": "玉兔在月宫里。",
         "pinyin": "Yùtù zài yuègōng lǐ.",
-        "english": "The Jade Rabbit lives in the moon palace."
+        "english": "The Jade Rabbit lives in the moon palace.",
+        "translations": {
+          "en": "The Jade Rabbit lives in the moon palace.",
+          "ru": "Нефритовый заяц живёт во дворце на луне.",
+          "es": "El Conejo de Jade vive en el palacio lunar.",
+          "pt-BR": "O Coelho de Jade vive no palácio da lua."
+        }
       },
       {
         "hanzi": "月饼上常印玉兔图案。",
         "pinyin": "Yuèbǐng shàng cháng yìn yùtù tú'àn.",
-        "english": "Mooncakes often bear the Jade Rabbit design."
+        "english": "Mooncakes often bear the Jade Rabbit design.",
+        "translations": {
+          "en": "Mooncakes often bear the Jade Rabbit design.",
+          "ru": "На юэбинах часто печатают зайца.",
+          "es": "Los pasteles de luna suelen llevar el Conejo de Jade.",
+          "pt-BR": "Bolos da lua costumam ter o Coelho de Jade."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Jade Rabbit",
+      "ru": "Нефритовый заяц",
+      "es": "Conejo de Jade",
+      "pt-BR": "Coelho de Jade"
+    }
   },
   {
     "section": "mid_autumn",
@@ -638,14 +1268,32 @@
       {
         "hanzi": "传说嫦娥住在广寒宫。",
         "pinyin": "Chuánshuō Cháng'é zhù zài Guǎng Hán Gōng.",
-        "english": "Legend says Chang'e lives in the Moon Palace."
+        "english": "Legend says Chang'e lives in the Moon Palace.",
+        "translations": {
+          "en": "Legend says Chang'e lives in the Moon Palace.",
+          "ru": "По легенде Чанъэ живёт во дворце Гуанхань.",
+          "es": "La leyenda dice que Chang'e vive en el Palacio Guanghan.",
+          "pt-BR": "A lenda diz que Chang'e vive no Palácio Guanghan."
+        }
       },
       {
         "hanzi": "广寒宫是月宫的名字。",
         "pinyin": "Guǎng Hán Gōng shì yuè gōng de míngzi.",
-        "english": "Guanghan Palace is the name of the moon palace."
+        "english": "Guanghan Palace is the name of the moon palace.",
+        "translations": {
+          "en": "Guanghan Palace is the name of the moon palace.",
+          "ru": "Гуанхань — имя лунного дворца.",
+          "es": "Guanghan es el nombre del palacio lunar.",
+          "pt-BR": "Guanghan é o nome do palácio lunar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Moon Palace",
+      "ru": "Дворец Гуанхань (лунный дворец)",
+      "es": "Palacio Guanghan / palacio de la luna",
+      "pt-BR": "Palácio Guanghan / palácio da lua"
+    }
   },
   {
     "section": "mid_autumn",
@@ -656,14 +1304,32 @@
       {
         "hanzi": "仲秋之夜月亮很圆。",
         "pinyin": "Zhòngqiū zhī yè yuèliang hěn yuán.",
-        "english": "The moon is very full on mid-autumn night."
+        "english": "The moon is very full on mid-autumn night.",
+        "translations": {
+          "en": "The moon is very full on mid-autumn night.",
+          "ru": "В ночь середины осени луна очень круглая.",
+          "es": "En la noche de mediados de otoño la luna está muy llena.",
+          "pt-BR": "Na noite do meio do outono a lua está bem cheia."
+        }
       },
       {
         "hanzi": "仲秋是团圆的好时节。",
         "pinyin": "Zhòngqiū shì tuányuán de hǎo shíjié.",
-        "english": "Mid-autumn is a wonderful time for reunion."
+        "english": "Mid-autumn is a wonderful time for reunion.",
+        "translations": {
+          "en": "Mid-autumn is a wonderful time for reunion.",
+          "ru": "Середина осени — прекрасное время для воссоединения.",
+          "es": "Mediados de otoño es un gran momento para reunirse.",
+          "pt-BR": "O meio do outono é um belo momento para se reunir."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "mid-autumn (literary)",
+      "ru": "середина осени (литературно)",
+      "es": "mediados de otoño (literario)",
+      "pt-BR": "meio do outono (literário)"
+    }
   },
   {
     "section": "mid_autumn",
@@ -674,14 +1340,32 @@
       {
         "hanzi": "中秋节我会思念家人。",
         "pinyin": "Zhōngqiū Jié wǒ huì sīniàn jiārén.",
-        "english": "I miss my family during Mid-Autumn Festival."
+        "english": "I miss my family during Mid-Autumn Festival.",
+        "translations": {
+          "en": "I miss my family during Mid-Autumn Festival.",
+          "ru": "На Чжунцю я скучаю по семье.",
+          "es": "En el Festival del Medio Otoño extraño a mi familia.",
+          "pt-BR": "No Festival do Meio Outono sinto falta da família."
+        }
       },
       {
         "hanzi": "明月让人思念故乡。",
         "pinyin": "Míngyuè ràng rén sīniàn gùxiāng.",
-        "english": "The bright moon makes people miss their hometown."
+        "english": "The bright moon makes people miss their hometown.",
+        "translations": {
+          "en": "The bright moon makes people miss their hometown.",
+          "ru": "Яркая луна навевает тоску по родине.",
+          "es": "La luna brillante hace extrañar el pueblo natal.",
+          "pt-BR": "A lua brilhante traz saudade da terra natal."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to miss (someone)",
+      "ru": "скучать / тосковать",
+      "es": "echar de menos",
+      "pt-BR": "sentir saudade / sentir falta"
+    }
   },
   {
     "section": "mid_autumn",
@@ -692,14 +1376,32 @@
       {
         "hanzi": "中秋之夜我想念故乡。",
         "pinyin": "Zhōngqiū zhī yè wǒ xiǎngniàn gùxiāng.",
-        "english": "On Mid-Autumn night I miss my hometown."
+        "english": "On Mid-Autumn night I miss my hometown.",
+        "translations": {
+          "en": "On Mid-Autumn night I miss my hometown.",
+          "ru": "В ночь Чжунцю я думаю о родине.",
+          "es": "En la noche del festival extraño mi tierra natal.",
+          "pt-BR": "Na noite do festival sinto saudade da terra natal."
+        }
       },
       {
         "hanzi": "明月照故乡。",
         "pinyin": "Míngyuè zhào gùxiāng.",
-        "english": "The bright moon shines on my hometown."
+        "english": "The bright moon shines on my hometown.",
+        "translations": {
+          "en": "The bright moon shines on my hometown.",
+          "ru": "Яркая луна светит на родную землю.",
+          "es": "La luna brillante ilumina mi tierra natal.",
+          "pt-BR": "A lua brilhante ilumina a terra natal."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "hometown",
+      "ru": "родная земля / малая родина",
+      "es": "pueblo natal / tierra natal",
+      "pt-BR": "terra natal / cidade natal"
+    }
   },
   {
     "section": "mid_autumn",
@@ -710,14 +1412,32 @@
       {
         "hanzi": "月亮象征圆满。",
         "pinyin": "Yuèliang xiàngzhēng yuánmǎn.",
-        "english": "The full moon symbolizes completeness."
+        "english": "The full moon symbolizes completeness.",
+        "translations": {
+          "en": "The full moon symbolizes completeness.",
+          "ru": "Луна символизирует полноту и благополучие.",
+          "es": "La luna llena simboliza la plenitud.",
+          "pt-BR": "A lua cheia simboliza a plenitude."
+        }
       },
       {
         "hanzi": "祝大家中秋圆满。",
         "pinyin": "Zhù dàjiā Zhōngqiū yuánmǎn.",
-        "english": "Wishing everyone a fulfilling Mid-Autumn."
+        "english": "Wishing everyone a fulfilling Mid-Autumn.",
+        "translations": {
+          "en": "Wishing everyone a fulfilling Mid-Autumn.",
+          "ru": "Желаю всем полного счастья на Чжунцю.",
+          "es": "Les deseo un Medio Otoño pleno.",
+          "pt-BR": "Desejo a todos um Meio Outono pleno."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "fulfillment / completeness",
+      "ru": "полнота / благополучие / завершённость",
+      "es": "plenitud / redondez (simbólica)",
+      "pt-BR": "plenitude / completude"
+    }
   },
   {
     "section": "pandas",
@@ -728,14 +1448,32 @@
       {
         "hanzi": "熊猫是中国的国宝。",
         "pinyin": "Xióngmāo shì Zhōngguó de guóbǎo.",
-        "english": "Pandas are China's national treasure."
+        "english": "Pandas are China's national treasure.",
+        "translations": {
+          "en": "Pandas are China's national treasure.",
+          "ru": "Панда — национальное сокровище Китая.",
+          "es": "El panda es un tesoro nacional de China.",
+          "pt-BR": "O panda é um tesouro nacional da China."
+        }
       },
       {
         "hanzi": "孩子们喜欢看熊猫。",
         "pinyin": "Háizimen xǐhuan kàn xióngmāo.",
-        "english": "Children love watching pandas."
+        "english": "Children love watching pandas.",
+        "translations": {
+          "en": "Children love watching pandas.",
+          "ru": "Дети любят смотреть на панд.",
+          "es": "A los niños les encanta ver pandas.",
+          "pt-BR": "Crianças adoram ver pandas."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "panda",
+      "ru": "панда",
+      "es": "panda",
+      "pt-BR": "panda"
+    }
   },
   {
     "section": "pandas",
@@ -746,14 +1484,32 @@
       {
         "hanzi": "熊猫主要吃竹子。",
         "pinyin": "Xióngmāo zhǔyào chī zhúzi.",
-        "english": "Pandas mainly eat bamboo."
+        "english": "Pandas mainly eat bamboo.",
+        "translations": {
+          "en": "Pandas mainly eat bamboo.",
+          "ru": "Панды в основном едят бамбук.",
+          "es": "Los pandas comen sobre todo bambú.",
+          "pt-BR": "Pandas comem principalmente bambu."
+        }
       },
       {
         "hanzi": "这片竹林很茂密。",
         "pinyin": "Zhè piàn zhúlín hěn màomì.",
-        "english": "This bamboo grove is dense."
+        "english": "This bamboo grove is dense.",
+        "translations": {
+          "en": "This bamboo grove is dense.",
+          "ru": "Эта бамбуковая роща очень густая.",
+          "es": "Este bosque de bambú es muy denso.",
+          "pt-BR": "Este bosque de bambu é bem denso."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "bamboo",
+      "ru": "бамбук",
+      "es": "bambú",
+      "pt-BR": "bambu"
+    }
   },
   {
     "section": "pandas",
@@ -764,14 +1520,32 @@
       {
         "hanzi": "成都是看熊猫的好地方。",
         "pinyin": "Chéngdū shì kàn xióngmāo de hǎo dìfang.",
-        "english": "Chengdu is a great place to see pandas."
+        "english": "Chengdu is a great place to see pandas.",
+        "translations": {
+          "en": "Chengdu is a great place to see pandas.",
+          "ru": "Чэнду — отличное место, чтобы увидеть панд.",
+          "es": "Chengdu es un gran lugar para ver pandas.",
+          "pt-BR": "Chengdu é um ótimo lugar para ver pandas."
+        }
       },
       {
         "hanzi": "成都大熊猫基地很有名。",
         "pinyin": "Chéngdū dà xióngmāo jīdì hěn yǒumíng.",
-        "english": "Chengdu Panda Base is famous."
+        "english": "Chengdu Panda Base is famous.",
+        "translations": {
+          "en": "Chengdu Panda Base is famous.",
+          "ru": "База панд в Чэнду очень известна.",
+          "es": "La base de pandas de Chengdu es famosa.",
+          "pt-BR": "A base de pandas de Chengdu é famosa."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Chengdu",
+      "ru": "Чэнду",
+      "es": "Chengdu",
+      "pt-BR": "Chengdu"
+    }
   },
   {
     "section": "pandas",
@@ -782,14 +1556,32 @@
       {
         "hanzi": "基地里有很多熊猫。",
         "pinyin": "Jīdì lǐ yǒu hěn duō xióngmāo.",
-        "english": "There are many pandas at the base."
+        "english": "There are many pandas at the base.",
+        "translations": {
+          "en": "There are many pandas at the base.",
+          "ru": "На базе много панд.",
+          "es": "En la base hay muchos pandas.",
+          "pt-BR": "Na base há muitos pandas."
+        }
       },
       {
         "hanzi": "保护基地禁止喧哗。",
         "pinyin": "Bǎohù jīdì jìnzhǐ xuānhuá.",
-        "english": "Quiet is required at the conservation base."
+        "english": "Quiet is required at the conservation base.",
+        "translations": {
+          "en": "Quiet is required at the conservation base.",
+          "ru": "В заповеднике нельзя шуметь.",
+          "es": "En la reserva hay que guardar silencio.",
+          "pt-BR": "Na reserva é preciso silêncio."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "base / reserve",
+      "ru": "база / заповедник",
+      "es": "base / reserva",
+      "pt-BR": "base / reserva"
+    }
   },
   {
     "section": "pandas",
@@ -800,14 +1592,32 @@
       {
         "hanzi": "熊猫保育工作很重要。",
         "pinyin": "Xióngmāo bǎoyù gōngzuò hěn zhòngyào.",
-        "english": "Panda conservation is very important."
+        "english": "Panda conservation is very important.",
+        "translations": {
+          "en": "Panda conservation is very important.",
+          "ru": "Охрана панд очень важна.",
+          "es": "La conservación del panda es muy importante.",
+          "pt-BR": "A conservação do panda é muito importante."
+        }
       },
       {
         "hanzi": "保育员照顾熊猫宝宝。",
         "pinyin": "Bǎoyùyuán zhàogù xióngmāo bǎobǎo.",
-        "english": "Keepers care for panda cubs."
+        "english": "Keepers care for panda cubs.",
+        "translations": {
+          "en": "Keepers care for panda cubs.",
+          "ru": "Смотрители ухаживают за детёнышами панд.",
+          "es": "Los cuidadores atienden a los oseznos.",
+          "pt-BR": "Os tratadores cuidam dos filhotes de panda."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "conservation / breeding",
+      "ru": "охрана / разведение (животных)",
+      "es": "conservación / cría",
+      "pt-BR": "conservação / criação"
+    }
   },
   {
     "section": "pandas",
@@ -818,14 +1628,32 @@
       {
         "hanzi": "熊猫是黑白色。",
         "pinyin": "Xióngmāo shì hēibái sè.",
-        "english": "Pandas are black and white."
+        "english": "Pandas are black and white.",
+        "translations": {
+          "en": "Pandas are black and white.",
+          "ru": "Панда чёрно-белая.",
+          "es": "El panda es blanco y negro.",
+          "pt-BR": "O panda é preto e branco."
+        }
       },
       {
         "hanzi": "黑白配色很可爱。",
         "pinyin": "Hēibái pèisè hěn kě'ài.",
-        "english": "The black-and-white coloring is adorable."
+        "english": "The black-and-white coloring is adorable.",
+        "translations": {
+          "en": "The black-and-white coloring is adorable.",
+          "ru": "Чёрно-белая расцветка очень милая.",
+          "es": "El color blanco y negro es adorable.",
+          "pt-BR": "A cor preto e branco é fofa."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "black and white",
+      "ru": "чёрно-белый",
+      "es": "blanco y negro",
+      "pt-BR": "preto e branco"
+    }
   },
   {
     "section": "pandas",
@@ -836,14 +1664,32 @@
       {
         "hanzi": "熊猫的憨态可掬。",
         "pinyin": "Xióngmāo de hāntài kějū.",
-        "english": "Pandas have a lovable clumsy charm."
+        "english": "Pandas have a lovable clumsy charm.",
+        "translations": {
+          "en": "Pandas have a lovable clumsy charm.",
+          "ru": "У панд обаятельная неуклюжесть.",
+          "es": "Los pandas tienen un encanto torpe adorable.",
+          "pt-BR": "Pandas têm um jeito desajeitado adorável."
+        }
       },
       {
         "hanzi": "它憨态十足。",
         "pinyin": "Tā hāntài shízú.",
-        "english": "It's full of adorable clumsiness."
+        "english": "It's full of adorable clumsiness.",
+        "translations": {
+          "en": "It's full of adorable clumsiness.",
+          "ru": "Он весь такой простодушный и милый.",
+          "es": "Está lleno de torpeza adorable.",
+          "pt-BR": "Está cheio de jeito fofo e desajeitado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "clumsy cute manner",
+      "ru": "неуклюжая милота / простодушие",
+      "es": "torpeza adorable",
+      "pt-BR": "jeito desajeitado e fofo"
+    }
   },
   {
     "section": "pandas",
@@ -854,14 +1700,32 @@
       {
         "hanzi": "小熊猫在学爬树。",
         "pinyin": "Xiǎo xióngmāo zài xué pá shù.",
-        "english": "A young panda is learning to climb."
+        "english": "A young panda is learning to climb.",
+        "translations": {
+          "en": "A young panda is learning to climb.",
+          "ru": "Маленькая панда учится лазить по деревьям.",
+          "es": "Un panda joven está aprendiendo a trepar.",
+          "pt-BR": "Um panda jovem está aprendendo a subir em árvore."
+        }
       },
       {
         "hanzi": "熊猫爬树很灵活。",
         "pinyin": "Xióngmāo pá shù hěn línghuó.",
-        "english": "Pandas climb trees nimbly."
+        "english": "Pandas climb trees nimbly.",
+        "translations": {
+          "en": "Pandas climb trees nimbly.",
+          "ru": "Панды лазают по деревьям ловко.",
+          "es": "Los pandas trepan con agilidad.",
+          "pt-BR": "Pandas sobem em árvore com agilidade."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to climb trees",
+      "ru": "лазить по деревьям",
+      "es": "trepar a los árboles",
+      "pt-BR": "subir em árvore"
+    }
   },
   {
     "section": "pandas",
@@ -872,14 +1736,32 @@
       {
         "hanzi": "熊猫在地上打滚。",
         "pinyin": "Xióngmāo zài dìshang dǎgǔn.",
-        "english": "The panda rolls on the ground."
+        "english": "The panda rolls on the ground.",
+        "translations": {
+          "en": "The panda rolls on the ground.",
+          "ru": "Панда катается по земле.",
+          "es": "El panda se revuelca en el suelo.",
+          "pt-BR": "O panda rola no chão."
+        }
       },
       {
         "hanzi": "它高兴时会打滚。",
         "pinyin": "Tā gāoxìng shí huì dǎgǔn.",
-        "english": "It rolls around when happy."
+        "english": "It rolls around when happy.",
+        "translations": {
+          "en": "It rolls around when happy.",
+          "ru": "Когда радуется, он катается.",
+          "es": "Cuando está contento, se revuelca.",
+          "pt-BR": "Quando está feliz, ele rola."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to roll around",
+      "ru": "кататься / валяться",
+      "es": "revolcarse",
+      "pt-BR": "rolar / se revirar"
+    }
   },
   {
     "section": "pandas",
@@ -890,14 +1772,32 @@
       {
         "hanzi": "熊猫曾经濒危。",
         "pinyin": "Xióngmāo céngjīng bīnwēi.",
-        "english": "Pandas were once endangered."
+        "english": "Pandas were once endangered.",
+        "translations": {
+          "en": "Pandas were once endangered.",
+          "ru": "Панды когда-то были под угрозой.",
+          "es": "Los pandas estuvieron en peligro de extinção.",
+          "pt-BR": "Pandas já estiveram em risco de extinção."
+        }
       },
       {
         "hanzi": "保护濒危动物人人有责。",
         "pinyin": "Bǎohù bīnwēi dòngwù rénrén yǒu zé.",
-        "english": "Everyone has a duty to protect endangered animals."
+        "english": "Everyone has a duty to protect endangered animals.",
+        "translations": {
+          "en": "Everyone has a duty to protect endangered animals.",
+          "ru": "Защищать исчезающих животных — дело каждого.",
+          "es": "Proteger a los animales en peligro es tarea de todos.",
+          "pt-BR": "Proteger animais em risco é dever de todos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "endangered",
+      "ru": "находящийся под угрозой исчезновения",
+      "es": "en peligro de extinción",
+      "pt-BR": "em risco de extinção"
+    }
   },
   {
     "section": "tea_culture",
@@ -908,14 +1808,32 @@
       {
         "hanzi": "日本茶道源于中国。",
         "pinyin": "Rìběn chádào yuán yú Zhōngguó.",
-        "english": "Japanese tea ceremony originated in China."
+        "english": "Japanese tea ceremony originated in China.",
+        "translations": {
+          "en": "Japanese tea ceremony originated in China.",
+          "ru": "Японская чайная церемония произошла из Китая.",
+          "es": "La ceremonia del té japonesa nació en China.",
+          "pt-BR": "A cerimônia do chá japonesa nasceu na China."
+        }
       },
       {
         "hanzi": "她学习中国传统茶道。",
         "pinyin": "Tā xuéxí Zhōngguó chuántǒng chádào.",
-        "english": "She studies traditional Chinese tea ceremony."
+        "english": "She studies traditional Chinese tea ceremony.",
+        "translations": {
+          "en": "She studies traditional Chinese tea ceremony.",
+          "ru": "Она изучает традиционную китайскую чайную церемонию.",
+          "es": "Estudia la ceremonia del té china tradicional.",
+          "pt-BR": "Ela estuda a cerimônia do chá chinesa tradicional."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "tea ceremony",
+      "ru": "чайная церемония / чадао",
+      "es": "ceremonia del té",
+      "pt-BR": "cerimônia do chá"
+    }
   },
   {
     "section": "tea_culture",
@@ -926,14 +1844,32 @@
       {
         "hanzi": "茶艺表演很优雅。",
         "pinyin": "Cháyì biǎoyǎn hěn yōuyǎ.",
-        "english": "Tea art performances are elegant."
+        "english": "Tea art performances are elegant.",
+        "translations": {
+          "en": "Tea art performances are elegant.",
+          "ru": "Представление чайного искусства очень изящное.",
+          "es": "La exhibición del arte del té es elegante.",
+          "pt-BR": "A apresentação da arte do chá é elegante."
+        }
       },
       {
         "hanzi": "她精通茶艺。",
         "pinyin": "Tā jīngtōng cháyì.",
-        "english": "She is skilled in tea art."
+        "english": "She is skilled in tea art.",
+        "translations": {
+          "en": "She is skilled in tea art.",
+          "ru": "Она прекрасно владеет чайным искусством.",
+          "es": "Domina el arte del té.",
+          "pt-BR": "Ela domina a arte do chá."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "tea art",
+      "ru": "чайное искусство / чаи",
+      "es": "arte del té",
+      "pt-BR": "arte do chá"
+    }
   },
   {
     "section": "tea_culture",
@@ -944,14 +1880,32 @@
       {
         "hanzi": "这套茶具是景德镇做的。",
         "pinyin": "Zhè tào chájù shì Jǐngdézhèn zuò de.",
-        "english": "This tea set is from Jingdezhen."
+        "english": "This tea set is from Jingdezhen.",
+        "translations": {
+          "en": "This tea set is from Jingdezhen.",
+          "ru": "Этот набор из Цзиндэчжэня.",
+          "es": "Este juego de té es de Jingdezhen.",
+          "pt-BR": "Este conjunto de chá é de Jingdezhen."
+        }
       },
       {
         "hanzi": "茶具要清洗干净。",
         "pinyin": "Chájù yào qīngxǐ gānjìng.",
-        "english": "Tea utensils must be cleaned well."
+        "english": "Tea utensils must be cleaned well.",
+        "translations": {
+          "en": "Tea utensils must be cleaned well.",
+          "ru": "Чайную посуду нужно хорошо мыть.",
+          "es": "Los utensilios de té hay que lavarlos bien.",
+          "pt-BR": "Os utensílios de chá precisam ser bem lavados."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "tea set / utensils",
+      "ru": "чайный набор / чайная посуда",
+      "es": "juego de té / utensilios",
+      "pt-BR": "conjunto de chá / utensílios"
+    }
   },
   {
     "section": "tea_culture",
@@ -962,14 +1916,32 @@
       {
         "hanzi": "新人向长辈敬茶。",
         "pinyin": "Xīnrén xiàng zhǎngbèi jìng chá.",
-        "english": "Newlyweds serve tea to elders."
+        "english": "Newlyweds serve tea to elders.",
+        "translations": {
+          "en": "Newlyweds serve tea to elders.",
+          "ru": "Молодожёны подносят чай старшим.",
+          "es": "Los recién casados ofrecen té a los mayores.",
+          "pt-BR": "Os recém-casados oferecem chá aos mais velhos."
+        }
       },
       {
         "hanzi": "敬茶表示尊敬。",
         "pinyin": "Jìng chá biǎoshì zūnjìng.",
-        "english": "Serving tea shows respect."
+        "english": "Serving tea shows respect.",
+        "translations": {
+          "en": "Serving tea shows respect.",
+          "ru": "Подносить чай — знак уважения.",
+          "es": "Ofrecer té muestra respeto.",
+          "pt-BR": "Oferecer chá demonstra respeito."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to serve tea respectfully",
+      "ru": "подносить чай (с уважением)",
+      "es": "ofrecer té con respeto",
+      "pt-BR": "oferecer chá com respeito"
+    }
   },
   {
     "section": "tea_culture",
@@ -980,14 +1952,32 @@
       {
         "hanzi": "请慢慢品茶。",
         "pinyin": "Qǐng mànmàn pǐn chá.",
-        "english": "Please savor the tea slowly."
+        "english": "Please savor the tea slowly.",
+        "translations": {
+          "en": "Please savor the tea slowly.",
+          "ru": "Пейте чай не спеша.",
+          "es": "Saboree el té despacio.",
+          "pt-BR": "Saboreie o chá com calma."
+        }
       },
       {
         "hanzi": "品茶需要静心。",
         "pinyin": "Pǐn chá xūyào jìngxīn.",
-        "english": "Tea tasting requires a calm mind."
+        "english": "Tea tasting requires a calm mind.",
+        "translations": {
+          "en": "Tea tasting requires a calm mind.",
+          "ru": "Для дегустации чая нужна тишина в душе.",
+          "es": "Catar té requiere una mente serena.",
+          "pt-BR": "Provar chá pede uma mente calma."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to taste / appreciate tea",
+      "ru": "дегустировать чай / смаковать чай",
+      "es": "catar / saborear el té",
+      "pt-BR": "provar / saborear o chá"
+    }
   },
   {
     "section": "tea_culture",
@@ -998,14 +1988,32 @@
       {
         "hanzi": "龙井是杭州名茶。",
         "pinyin": "Lóngjǐng shì Hángzhōu míng chá.",
-        "english": "Longjing is a famous Hangzhou tea."
+        "english": "Longjing is a famous Hangzhou tea.",
+        "translations": {
+          "en": "Longjing is a famous Hangzhou tea.",
+          "ru": "Лунцзин — знаменитый чай Ханчжоу.",
+          "es": "El Longjing es un té famoso de Hangzhou.",
+          "pt-BR": "Longjing é um chá famoso de Hangzhou."
+        }
       },
       {
         "hanzi": "明前龙井价格很高。",
         "pinyin": "Míng qián Lóngjǐng jiàgé hěn gāo.",
-        "english": "Pre-Qingming Longjing is very expensive."
+        "english": "Pre-Qingming Longjing is very expensive.",
+        "translations": {
+          "en": "Pre-Qingming Longjing is very expensive.",
+          "ru": "Лунцзин до Цинмина очень дорогой.",
+          "es": "El Longjing anterior a Qingming es muy caro.",
+          "pt-BR": "O Longjing antes de Qingming é muito caro."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Longjing tea",
+      "ru": "лунцзин (чай «колодец дракона»)",
+      "es": "té Longjing",
+      "pt-BR": "chá Longjing"
+    }
   },
   {
     "section": "tea_culture",
@@ -1016,14 +2024,32 @@
       {
         "hanzi": "铁观音是福建名茶。",
         "pinyin": "Tiěguānyīn shì Fújiàn míng chá.",
-        "english": "Tieguanyin is a famous Fujian tea."
+        "english": "Tieguanyin is a famous Fujian tea.",
+        "translations": {
+          "en": "Tieguanyin is a famous Fujian tea.",
+          "ru": "Тегуаньинь — знаменитый чай Фуцзяни.",
+          "es": "El Tieguanyin es un té famoso de Fujian.",
+          "pt-BR": "Tieguanyin é um chá famoso de Fujian."
+        }
       },
       {
         "hanzi": "这泡铁观音回甘很好。",
         "pinyin": "Zhè pào Tiěguānyīn huígān hěn hǎo.",
-        "english": "This Tieguanyin has a nice sweet aftertaste."
+        "english": "This Tieguanyin has a nice sweet aftertaste.",
+        "translations": {
+          "en": "This Tieguanyin has a nice sweet aftertaste.",
+          "ru": "У этого Тегуаньинь прекрасное сладкое послевкусие.",
+          "es": "Este Tieguanyin tiene un rico retrogusto dulce.",
+          "pt-BR": "Este Tieguanyin tem um belo gosto doce no final."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Tieguanyin oolong",
+      "ru": "Тегуаньинь (улун)",
+      "es": "Tieguanyin (oolong)",
+      "pt-BR": "Tieguanyin (oolong)"
+    }
   },
   {
     "section": "tea_culture",
@@ -1034,14 +2060,32 @@
       {
         "hanzi": "老北京人爱去茶馆。",
         "pinyin": "Lǎo Běijīng rén ài qù cháguǎn.",
-        "english": "Old Beijingers love teahouses."
+        "english": "Old Beijingers love teahouses.",
+        "translations": {
+          "en": "Old Beijingers love teahouses.",
+          "ru": "Старые пекинцы любят чайные.",
+          "es": "A los viejos pekineses les encantan las casas de té.",
+          "pt-BR": "Os velhos pequineses adoram casas de chá."
+        }
       },
       {
         "hanzi": "茶馆里可以听相声。",
         "pinyin": "Cháguǎn lǐ kěyǐ tīng xiàngsheng.",
-        "english": "You can hear cross-talk at teahouses."
+        "english": "You can hear cross-talk at teahouses.",
+        "translations": {
+          "en": "You can hear cross-talk at teahouses.",
+          "ru": "В чайной можно слушать сяньшэн.",
+          "es": "En la casa de té se puede oír crosstalk.",
+          "pt-BR": "Na casa de chá dá para ouvir xiangsheng."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "teahouse",
+      "ru": "чайная / чайный дом",
+      "es": "casa de té",
+      "pt-BR": "casa de chá"
+    }
   },
   {
     "section": "tea_culture",
@@ -1052,14 +2096,32 @@
       {
         "hanzi": "以茶会友是中国传统。",
         "pinyin": "Yǐ chá huì yǒu shì Zhōngguó chuántǒng.",
-        "english": "Meeting friends over tea is a Chinese tradition."
+        "english": "Meeting friends over tea is a Chinese tradition.",
+        "translations": {
+          "en": "Meeting friends over tea is a Chinese tradition.",
+          "ru": "Дружить за чаем — китайская традиция.",
+          "es": "Hacer amigos con té es una tradición china.",
+          "pt-BR": "Fazer amigos em torno do chá é uma tradição chinesa."
+        }
       },
       {
         "hanzi": "今天以茶会友，聊得很开心。",
         "pinyin": "Jīntiān yǐ chá huì yǒu, liáo de hěn kāixīn.",
-        "english": "We met over tea today and had a great chat."
+        "english": "We met over tea today and had a great chat.",
+        "translations": {
+          "en": "We met over tea today and had a great chat.",
+          "ru": "Сегодня за чаем отлично поговорили.",
+          "es": "Hoy nos vimos con té y charlamos muy bien.",
+          "pt-BR": "Hoje nos vimos em torno do chá e conversamos muito bem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to meet friends over tea",
+      "ru": "знакомиться за чаем / дружить через чай",
+      "es": "hacer amigos con té",
+      "pt-BR": "fazer amigos em torno do chá"
+    }
   },
   {
     "section": "tea_culture",
@@ -1070,14 +2132,32 @@
       {
         "hanzi": "好茶会有回甘。",
         "pinyin": "Hǎo chá huì yǒu huígān.",
-        "english": "Good tea has a sweet aftertaste."
+        "english": "Good tea has a sweet aftertaste.",
+        "translations": {
+          "en": "Good tea has a sweet aftertaste.",
+          "ru": "У хорошего чая есть сладкое послевкусие.",
+          "es": "Un buen té deja un retrogusto dulce.",
+          "pt-BR": "Um bom chá deixa um gosto doce residual."
+        }
       },
       {
         "hanzi": "这茶回甘持久。",
         "pinyin": "Zhè chá huígān chíjiǔ.",
-        "english": "This tea's aftertaste lingers."
+        "english": "This tea's aftertaste lingers.",
+        "translations": {
+          "en": "This tea's aftertaste lingers.",
+          "ru": "Послевкусие этого чая долгое.",
+          "es": "El retrogusto de este té dura mucho.",
+          "pt-BR": "O gosto residual deste chá dura bastante."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "sweet aftertaste (tea)",
+      "ru": "сладкое послевкусие (чая) / хуэйгань",
+      "es": "retrogusto dulce (del té)",
+      "pt-BR": "gosto doce residual (do chá)"
+    }
   },
   {
     "section": "landmarks",
@@ -1088,14 +2168,32 @@
       {
         "hanzi": "长城是世界奇迹。",
         "pinyin": "Chángchéng shì shìjiè qíjì.",
-        "english": "The Great Wall is a world wonder."
+        "english": "The Great Wall is a world wonder.",
+        "translations": {
+          "en": "The Great Wall is a world wonder.",
+          "ru": "Великая стена — чудо света.",
+          "es": "La Gran Muralla es una maravilla del mundo.",
+          "pt-BR": "A Grande Muralha é uma maravilha do mundo."
+        }
       },
       {
         "hanzi": "我们去长城徒步。",
         "pinyin": "Wǒmen qù Chángchéng túbù.",
-        "english": "We hiked the Great Wall."
+        "english": "We hiked the Great Wall.",
+        "translations": {
+          "en": "We hiked the Great Wall.",
+          "ru": "Мы ходили по Великой стене пешком.",
+          "es": "Hicimos senderismo en la Gran Muralla.",
+          "pt-BR": "Fizemos trilha na Grande Muralha."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Great Wall",
+      "ru": "Великая стена",
+      "es": "Gran Muralla",
+      "pt-BR": "Grande Muralha"
+    }
   },
   {
     "section": "landmarks",
@@ -1106,14 +2204,32 @@
       {
         "hanzi": "故宫在北京中心。",
         "pinyin": "Gùgōng zài Běijīng zhōngxīn.",
-        "english": "The Forbidden City is in central Beijing."
+        "english": "The Forbidden City is in central Beijing.",
+        "translations": {
+          "en": "The Forbidden City is in central Beijing.",
+          "ru": "Запретный город в центре Пекина.",
+          "es": "La Ciudad Prohibida está en el centro de Pekín.",
+          "pt-BR": "A Cidade Proibida fica no centro de Pequim."
+        }
       },
       {
         "hanzi": "故宫有六百多年历史。",
         "pinyin": "Gùgōng yǒu liùbǎi duō nián lìshǐ.",
-        "english": "The Forbidden City is over 600 years old."
+        "english": "The Forbidden City is over 600 years old.",
+        "translations": {
+          "en": "The Forbidden City is over 600 years old.",
+          "ru": "Гугуну больше шестисот лет.",
+          "es": "La Ciudad Prohibida tiene más de 600 años.",
+          "pt-BR": "A Cidade Proibida tem mais de 600 anos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Forbidden City",
+      "ru": "Запретный город / Гугун",
+      "es": "Ciudad Prohibida",
+      "pt-BR": "Cidade Proibida"
+    }
   },
   {
     "section": "landmarks",
@@ -1124,14 +2240,32 @@
       {
         "hanzi": "天安门广场很大。",
         "pinyin": "Tiān'ānmén Guǎngchǎng hěn dà.",
-        "english": "Tiananmen Square is very large."
+        "english": "Tiananmen Square is very large.",
+        "translations": {
+          "en": "Tiananmen Square is very large.",
+          "ru": "Площадь Тяньаньмэнь очень большая.",
+          "es": "La plaza de Tiananmen es enorme.",
+          "pt-BR": "A praça Tiananmen é enorme."
+        }
       },
       {
         "hanzi": "天安门是北京的象征。",
         "pinyin": "Tiān'ānmén shì Běijīng de xiàngzhēng.",
-        "english": "Tiananmen is a symbol of Beijing."
+        "english": "Tiananmen is a symbol of Beijing.",
+        "translations": {
+          "en": "Tiananmen is a symbol of Beijing.",
+          "ru": "Тяньаньмэнь — символ Пекина.",
+          "es": "Tiananmen es un símbolo de Pekín.",
+          "pt-BR": "Tiananmen é um símbolo de Pequim."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Tiananmen",
+      "ru": "Тяньаньмэнь",
+      "es": "Tiananmen",
+      "pt-BR": "Tiananmen"
+    }
   },
   {
     "section": "landmarks",
@@ -1142,14 +2276,32 @@
       {
         "hanzi": "西湖风景如画。",
         "pinyin": "Xīhú fēngjǐng rú huà.",
-        "english": "West Lake scenery is picturesque."
+        "english": "West Lake scenery is picturesque.",
+        "translations": {
+          "en": "West Lake scenery is picturesque.",
+          "ru": "Пейзаж Западного озера как картина.",
+          "es": "El paisaje del Lago del Oeste es de postal.",
+          "pt-BR": "A paisagem do Lago do Oeste é de cartão-postal."
+        }
       },
       {
         "hanzi": "我们在西湖边散步。",
         "pinyin": "Wǒmen zài Xīhú biān sànbù.",
-        "english": "We walked along West Lake."
+        "english": "We walked along West Lake.",
+        "translations": {
+          "en": "We walked along West Lake.",
+          "ru": "Мы гуляли вдоль Западного озера.",
+          "es": "Paseamos junto al Lago del Oeste.",
+          "pt-BR": "Passeamos à beira do Lago do Oeste."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "West Lake",
+      "ru": "Западное озеро / Сиху",
+      "es": "Lago del Oeste / Xihu",
+      "pt-BR": "Lago do Oeste / Xihu"
+    }
   },
   {
     "section": "landmarks",
@@ -1160,14 +2312,32 @@
       {
         "hanzi": "兵马俑在西安。",
         "pinyin": "Bīngmǎyǒng zài Xī'ān.",
-        "english": "The Terracotta Army is in Xi'an."
+        "english": "The Terracotta Army is in Xi'an.",
+        "translations": {
+          "en": "The Terracotta Army is in Xi'an.",
+          "ru": "Терракотовая армия в Сиане.",
+          "es": "El ejército de terracota está en Xi'an.",
+          "pt-BR": "O exército de terracota fica em Xi'an."
+        }
       },
       {
         "hanzi": "兵马俑非常壮观。",
         "pinyin": "Bīngmǎyǒng fēicháng zhuàngguān.",
-        "english": "The Terracotta Army is spectacular."
+        "english": "The Terracotta Army is spectacular.",
+        "translations": {
+          "en": "The Terracotta Army is spectacular.",
+          "ru": "Терракотовая армия очень величественна.",
+          "es": "El ejército de terracota es espectacular.",
+          "pt-BR": "O exército de terracota é espetacular."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Terracotta Army",
+      "ru": "терракотовая армия",
+      "es": "ejército de terracota",
+      "pt-BR": "exército de terracota"
+    }
   },
   {
     "section": "landmarks",
@@ -1178,14 +2348,32 @@
       {
         "hanzi": "黄山以奇松怪石闻名。",
         "pinyin": "Huángshān yǐ qísōng guàishí wénmíng.",
-        "english": "Mount Huang is famous for odd pines and rocks."
+        "english": "Mount Huang is famous for odd pines and rocks.",
+        "translations": {
+          "en": "Mount Huang is famous for odd pines and rocks.",
+          "ru": "Хуаншань славится причудливыми соснами и скалами.",
+          "es": "Huangshan es famosa por sus pinos y rocas extraños.",
+          "pt-BR": "Huangshan é famosa por pinheiros e rochas estranhos."
+        }
       },
       {
         "hanzi": "我们登黄山看日出。",
         "pinyin": "Wǒmen dēng Huángshān kàn rìchū.",
-        "english": "We climbed Mount Huang to see the sunrise."
+        "english": "We climbed Mount Huang to see the sunrise.",
+        "translations": {
+          "en": "We climbed Mount Huang to see the sunrise.",
+          "ru": "Мы поднялись на Хуаншань встретить рассвет.",
+          "es": "Subimos Huangshan a ver el amanecer.",
+          "pt-BR": "Subimos Huangshan para ver o nascer do sol."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Mount Huang",
+      "ru": "гора Хуаншань",
+      "es": "monte Huang / Huangshan",
+      "pt-BR": "monte Huang / Huangshan"
+    }
   },
   {
     "section": "landmarks",
@@ -1196,14 +2384,32 @@
       {
         "hanzi": "桂林山水甲天下。",
         "pinyin": "Guìlín shānshuǐ jiǎ tiānxià.",
-        "english": "Guilin's scenery is the finest under heaven."
+        "english": "Guilin's scenery is the finest under heaven.",
+        "translations": {
+          "en": "Guilin's scenery is the finest under heaven.",
+          "ru": "Пейзажи Гуйлиня — лучшие под небесами.",
+          "es": "Los paisajes de Guilin son los más bellos bajo el cielo.",
+          "pt-BR": "As paisagens de Guilin são as mais belas sob o céu."
+        }
       },
       {
         "hanzi": "我们去桂林游漓江。",
         "pinyin": "Wǒmen qù Guìlín yóu Líjiāng.",
-        "english": "We went to Guilin to cruise the Li River."
+        "english": "We went to Guilin to cruise the Li River.",
+        "translations": {
+          "en": "We went to Guilin to cruise the Li River.",
+          "ru": "Мы ездили в Гуйлинь кататься по Лицзян.",
+          "es": "Fuimos a Guilin a navegar el río Li.",
+          "pt-BR": "Fomos a Guilin navegar o rio Li."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Guilin",
+      "ru": "Гуйлинь",
+      "es": "Guilin",
+      "pt-BR": "Guilin"
+    }
   },
   {
     "section": "landmarks",
@@ -1214,14 +2420,32 @@
       {
         "hanzi": "布达拉宫在拉萨。",
         "pinyin": "Bùdálā Gōng zài Lāsà.",
-        "english": "The Potala Palace is in Lhasa."
+        "english": "The Potala Palace is in Lhasa.",
+        "translations": {
+          "en": "The Potala Palace is in Lhasa.",
+          "ru": "Дворец Потала в Лхасе.",
+          "es": "El Palacio de Potala está en Lhasa.",
+          "pt-BR": "O Palácio de Potala fica em Lhasa."
+        }
       },
       {
         "hanzi": "布达拉宫非常雄伟。",
         "pinyin": "Bùdálā Gōng fēicháng xióngwěi.",
-        "english": "The Potala Palace is magnificent."
+        "english": "The Potala Palace is magnificent.",
+        "translations": {
+          "en": "The Potala Palace is magnificent.",
+          "ru": "Потала очень величественна.",
+          "es": "El Palacio de Potala es imponente.",
+          "pt-BR": "O Palácio de Potala é imponente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Potala Palace",
+      "ru": "дворец Потала",
+      "es": "Palacio de Potala",
+      "pt-BR": "Palácio de Potala"
+    }
   },
   {
     "section": "landmarks",
@@ -1232,14 +2456,32 @@
       {
         "hanzi": "外滩夜景很美。",
         "pinyin": "Wàitān yèjǐng hěn měi.",
-        "english": "The Bund at night is beautiful."
+        "english": "The Bund at night is beautiful.",
+        "translations": {
+          "en": "The Bund at night is beautiful.",
+          "ru": "Ночной вид Вайтаня очень красив.",
+          "es": "El Bund de noche es precioso.",
+          "pt-BR": "O Bund à noite é lindo."
+        }
       },
       {
         "hanzi": "我们去外滩看东方明珠。",
         "pinyin": "Wǒmen qù Wàitān kàn Dōngfāng Míngzhū.",
-        "english": "We went to the Bund to see Oriental Pearl Tower."
+        "english": "We went to the Bund to see Oriental Pearl Tower.",
+        "translations": {
+          "en": "We went to the Bund to see Oriental Pearl Tower.",
+          "ru": "Мы ходили на Вайтань смотреть Восточную жемчужину.",
+          "es": "Fuimos al Bund a ver la Perla de Oriente.",
+          "pt-BR": "Fomos ao Bund ver a Pérola do Oriente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "The Bund (Shanghai)",
+      "ru": "набережная Вайтань (Шанхай)",
+      "es": "el Bund (Shanghái)",
+      "pt-BR": "o Bund (Xangai)"
+    }
   },
   {
     "section": "landmarks",
@@ -1250,14 +2492,32 @@
       {
         "hanzi": "苏州园林很精致。",
         "pinyin": "Sūzhōu yuánlín hěn jīngzhì.",
-        "english": "Suzhou gardens are exquisite."
+        "english": "Suzhou gardens are exquisite.",
+        "translations": {
+          "en": "Suzhou gardens are exquisite.",
+          "ru": "Сады Сучжоу очень изысканные.",
+          "es": "Los jardines de Suzhou son exquisitos.",
+          "pt-BR": "Os jardins de Suzhou são requintados."
+        }
       },
       {
         "hanzi": "拙政园是苏州名园。",
         "pinyin": "Zhuōzhèng Yuán shì Sūzhōu míng yuán.",
-        "english": "Humble Administrator's Garden is a famous Suzhou garden."
+        "english": "Humble Administrator's Garden is a famous Suzhou garden.",
+        "translations": {
+          "en": "Humble Administrator's Garden is a famous Suzhou garden.",
+          "ru": "Сад скромного чиновника — знаменитый сад Сучжоу.",
+          "es": "El Jardín del Administrador Humilde es un jardín famoso de Suzhou.",
+          "pt-BR": "O Jardim do Administrador Humilde é um jardim famoso de Suzhou."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Suzhou gardens",
+      "ru": "сады Сучжоу",
+      "es": "jardines de Suzhou",
+      "pt-BR": "jardins de Suzhou"
+    }
   },
   {
     "section": "zodiac",
@@ -1268,14 +2528,32 @@
       {
         "hanzi": "你的生肖是什么？",
         "pinyin": "Nǐ de shēngxiào shì shénme?",
-        "english": "What's your zodiac sign?"
+        "english": "What's your zodiac sign?",
+        "translations": {
+          "en": "What's your zodiac sign?",
+          "ru": "Какой у тебя знак зодиака?",
+          "es": "¿Cuál es tu signo del zodíaco chino?",
+          "pt-BR": "Qual é o seu signo do zodíaco chinês?"
+        }
       },
       {
         "hanzi": "生肖共有十二种。",
         "pinyin": "Shēngxiào gòng yǒu shí'èr zhǒng.",
-        "english": "There are twelve zodiac signs."
+        "english": "There are twelve zodiac signs.",
+        "translations": {
+          "en": "There are twelve zodiac signs.",
+          "ru": "Знаков зодиака двенадцать.",
+          "es": "Hay doce signos del zodíaco.",
+          "pt-BR": "Há doze signos do zodíaco."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Chinese zodiac sign",
+      "ru": "китайский зодиак / шэнсяо",
+      "es": "zodíaco chino",
+      "pt-BR": "zodíaco chinês"
+    }
   },
   {
     "section": "zodiac",
@@ -1286,14 +2564,32 @@
       {
         "hanzi": "属鼠的人很聪明。",
         "pinyin": "Shǔ shǔ de rén hěn cōngming.",
-        "english": "People born in the Year of the Rat are clever."
+        "english": "People born in the Year of the Rat are clever.",
+        "translations": {
+          "en": "People born in the Year of the Rat are clever.",
+          "ru": "Рождённые в год Крысы очень умные.",
+          "es": "Los nacidos en el Año de la Rata son listos.",
+          "pt-BR": "Quem nasce no Ano do Rato é esperto."
+        }
       },
       {
         "hanzi": "鼠是第一个生肖。",
         "pinyin": "Shǔ shì dì yī gè shēngxiào.",
-        "english": "The Rat is the first zodiac sign."
+        "english": "The Rat is the first zodiac sign.",
+        "translations": {
+          "en": "The Rat is the first zodiac sign.",
+          "ru": "Крыса — первый знак зодиака.",
+          "es": "La Rata es el primer signo del zodíaco.",
+          "pt-BR": "O Rato é o primeiro signo do zodíaco."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Rat (zodiac)",
+      "ru": "Крыса (зодиак)",
+      "es": "Rata (zodíaco)",
+      "pt-BR": "Rato (zodíaco)"
+    }
   },
   {
     "section": "zodiac",
@@ -1304,14 +2600,32 @@
       {
         "hanzi": "龙是中国最重要的生肖。",
         "pinyin": "Lóng shì Zhōngguó zuì zhòngyào de shēngxiào.",
-        "english": "The Dragon is the most important Chinese zodiac sign."
+        "english": "The Dragon is the most important Chinese zodiac sign.",
+        "translations": {
+          "en": "The Dragon is the most important Chinese zodiac sign.",
+          "ru": "Дракон — самый важный знак китайского зодиака.",
+          "es": "El Dragón es el signo más importante del zodíaco chino.",
+          "pt-BR": "O Dragão é o signo mais importante do zodíaco chinês."
+        }
       },
       {
         "hanzi": "属龙的人很有活力。",
         "pinyin": "Shǔ lóng de rén hěn yǒu huólì.",
-        "english": "People born in the Year of the Dragon are energetic."
+        "english": "People born in the Year of the Dragon are energetic.",
+        "translations": {
+          "en": "People born in the Year of the Dragon are energetic.",
+          "ru": "Рождённые в год Дракона очень энергичные.",
+          "es": "Los nacidos en el Año del Dragón son enérgicos.",
+          "pt-BR": "Quem nasce no Ano do Dragão é energético."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Dragon (zodiac)",
+      "ru": "Дракон (зодиак)",
+      "es": "Dragón (zodíaco)",
+      "pt-BR": "Dragão (zodíaco)"
+    }
   },
   {
     "section": "zodiac",
@@ -1322,14 +2636,32 @@
       {
         "hanzi": "虎年出生的孩子很多。",
         "pinyin": "Hǔ nián chūshēng de háizi hěn duō.",
-        "english": "Many children are born in the Year of the Tiger."
+        "english": "Many children are born in the Year of the Tiger.",
+        "translations": {
+          "en": "Many children are born in the Year of the Tiger.",
+          "ru": "В год Тигра рождается много детей.",
+          "es": "En el Año del Tigre nacen muchos niños.",
+          "pt-BR": "No Ano do Tigre nascem muitas crianças."
+        }
       },
       {
         "hanzi": "属虎的人很勇敢。",
         "pinyin": "Shǔ hǔ de rén hěn yǒnggǎn.",
-        "english": "People born in the Year of the Tiger are brave."
+        "english": "People born in the Year of the Tiger are brave.",
+        "translations": {
+          "en": "People born in the Year of the Tiger are brave.",
+          "ru": "Рождённые в год Тигра очень смелые.",
+          "es": "Los nacidos en el Año del Tigre son valientes.",
+          "pt-BR": "Quem nasce no Ano do Tigre é corajoso."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Tiger (zodiac)",
+      "ru": "Тигр (зодиак)",
+      "es": "Tigre (zodíaco)",
+      "pt-BR": "Tigre (zodíaco)"
+    }
   },
   {
     "section": "zodiac",
@@ -1340,14 +2672,32 @@
       {
         "hanzi": "兔年人温和。",
         "pinyin": "Tù nián rén wēnhé.",
-        "english": "People born in the Year of the Rabbit are gentle."
+        "english": "People born in the Year of the Rabbit are gentle.",
+        "translations": {
+          "en": "People born in the Year of the Rabbit are gentle.",
+          "ru": "Рождённые в год Кролика мягкие характером.",
+          "es": "Los nacidos en el Año del Conejo son gentiles.",
+          "pt-BR": "Quem nasce no Ano do Coelho é gentil."
+        }
       },
       {
         "hanzi": "属兔的今年运势不错。",
         "pinyin": "Shǔ tù de jīnnián yùnshì búcuò.",
-        "english": "Rabbit sign has good fortune this year."
+        "english": "Rabbit sign has good fortune this year.",
+        "translations": {
+          "en": "Rabbit sign has good fortune this year.",
+          "ru": "В этом году у знака Кролика хорошая удача.",
+          "es": "El signo Conejo tiene buena fortuna este año.",
+          "pt-BR": "O signo Coelho tem boa sorte este ano."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Rabbit (zodiac)",
+      "ru": "Кролик (зодиак)",
+      "es": "Conejo (zodíaco)",
+      "pt-BR": "Coelho (zodíaco)"
+    }
   },
   {
     "section": "zodiac",
@@ -1358,14 +2708,32 @@
       {
         "hanzi": "属蛇的人很有智慧。",
         "pinyin": "Shǔ shé de rén hěn yǒu zhìhuì.",
-        "english": "People born in the Year of the Snake are wise."
+        "english": "People born in the Year of the Snake are wise.",
+        "translations": {
+          "en": "People born in the Year of the Snake are wise.",
+          "ru": "Рождённые в год Змеи очень мудрые.",
+          "es": "Los nacidos en el Año de la Serpiente son sabios.",
+          "pt-BR": "Quem nasce no Ano da Serpente é sábio."
+        }
       },
       {
         "hanzi": "蛇在生肖中排第六。",
         "pinyin": "Shé zài shēngxiào zhōng pái dì liù.",
-        "english": "The Snake ranks sixth in the zodiac."
+        "english": "The Snake ranks sixth in the zodiac.",
+        "translations": {
+          "en": "The Snake ranks sixth in the zodiac.",
+          "ru": "Змея в зодиаке шестая.",
+          "es": "La Serpiente es sexta en el zodíaco.",
+          "pt-BR": "A Serpente é a sexta no zodíaco."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Snake (zodiac)",
+      "ru": "Змея (зодиак)",
+      "es": "Serpiente (zodíaco)",
+      "pt-BR": "Serpente (zodíaco)"
+    }
   },
   {
     "section": "zodiac",
@@ -1376,14 +2744,32 @@
       {
         "hanzi": "属马的人喜欢自由。",
         "pinyin": "Shǔ mǎ de rén xǐhuan zìyóu.",
-        "english": "People born in the Year of the Horse love freedom."
+        "english": "People born in the Year of the Horse love freedom.",
+        "translations": {
+          "en": "People born in the Year of the Horse love freedom.",
+          "ru": "Рождённые в год Лошади любят свободу.",
+          "es": "Los nacidos en el Año del Caballo aman la libertad.",
+          "pt-BR": "Quem nasce no Ano do Cavalo ama a liberdade."
+        }
       },
       {
         "hanzi": "马象征成功。",
         "pinyin": "Mǎ xiàngzhēng chénggōng.",
-        "english": "The Horse symbolizes success."
+        "english": "The Horse symbolizes success.",
+        "translations": {
+          "en": "The Horse symbolizes success.",
+          "ru": "Лошадь символизирует успех.",
+          "es": "El Caballo simboliza el éxito.",
+          "pt-BR": "O Cavalo simboliza o sucesso."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Horse (zodiac)",
+      "ru": "Лошадь (зодиак)",
+      "es": "Caballo (zodíaco)",
+      "pt-BR": "Cavalo (zodíaco)"
+    }
   },
   {
     "section": "zodiac",
@@ -1394,14 +2780,32 @@
       {
         "hanzi": "属羊的人很温柔。",
         "pinyin": "Shǔ yáng de rén hěn wēnróu.",
-        "english": "People born in the Year of the Goat are gentle."
+        "english": "People born in the Year of the Goat are gentle.",
+        "translations": {
+          "en": "People born in the Year of the Goat are gentle.",
+          "ru": "Рождённые в год Козы очень нежные.",
+          "es": "Los nacidos en el Año de la Cabra son tiernos.",
+          "pt-BR": "Quem nasce no Ano da Cabra é terno."
+        }
       },
       {
         "hanzi": "羊年出生的人不少。",
         "pinyin": "Yáng nián chūshēng de rén bù shǎo.",
-        "english": "Quite a few people were born in the Year of the Goat."
+        "english": "Quite a few people were born in the Year of the Goat.",
+        "translations": {
+          "en": "Quite a few people were born in the Year of the Goat.",
+          "ru": "В год Козы родилось немало людей.",
+          "es": "Nacieron bastantes personas en el Año de la Cabra.",
+          "pt-BR": "Nasceram bastante pessoas no Ano da Cabra."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Goat (zodiac)",
+      "ru": "Коза / Овца (зодиак)",
+      "es": "Cabra (zodíaco)",
+      "pt-BR": "Cabra (zodíaco)"
+    }
   },
   {
     "section": "zodiac",
@@ -1412,14 +2816,32 @@
       {
         "hanzi": "属猴的人很机灵。",
         "pinyin": "Shǔ hóu de rén hěn jīling.",
-        "english": "People born in the Year of the Monkey are quick-witted."
+        "english": "People born in the Year of the Monkey are quick-witted.",
+        "translations": {
+          "en": "People born in the Year of the Monkey are quick-witted.",
+          "ru": "Рождённые в год Обезьяны очень сообразительные.",
+          "es": "Los nacidos en el Año del Mono son astutos.",
+          "pt-BR": "Quem nasce no Ano do Macaco é esperto."
+        }
       },
       {
         "hanzi": "猴年大家想要聪明的孩子。",
         "pinyin": "Hóu nián dàjiā xiǎng yào cōngming de háizi.",
-        "english": "In Monkey years people want clever children."
+        "english": "In Monkey years people want clever children.",
+        "translations": {
+          "en": "In Monkey years people want clever children.",
+          "ru": "В год Обезьяны все хотят смышлёных детей.",
+          "es": "En años del Mono la gente desea hijos listos.",
+          "pt-BR": "Em anos do Macaco as pessoas querem filhos espertos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Monkey (zodiac)",
+      "ru": "Обезьяна (зодиак)",
+      "es": "Mono (zodíaco)",
+      "pt-BR": "Macaco (zodíaco)"
+    }
   },
   {
     "section": "zodiac",
@@ -1430,14 +2852,32 @@
       {
         "hanzi": "属猪的人福气好。",
         "pinyin": "Shǔ zhū de rén fúqi hǎo.",
-        "english": "People born in the Year of the Pig are fortunate."
+        "english": "People born in the Year of the Pig are fortunate.",
+        "translations": {
+          "en": "People born in the Year of the Pig are fortunate.",
+          "ru": "Рождённые в год Свиньи удачливы.",
+          "es": "Los nacidos en el Año del Cerdo tienen buena fortuna.",
+          "pt-BR": "Quem nasce no Ano do Porco tem boa sorte."
+        }
       },
       {
         "hanzi": "猪是最后一个生肖。",
         "pinyin": "Zhū shì zuìhòu yī gè shēngxiào.",
-        "english": "The Pig is the last zodiac sign."
+        "english": "The Pig is the last zodiac sign.",
+        "translations": {
+          "en": "The Pig is the last zodiac sign.",
+          "ru": "Свинья — последний знак зодиака.",
+          "es": "El Cerdo es el último signo del zodíaco.",
+          "pt-BR": "O Porco é o último signo do zodíaco."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Pig (zodiac)",
+      "ru": "Свинья (зодиак)",
+      "es": "Cerdo (zodíaco)",
+      "pt-BR": "Porco (zodíaco)"
+    }
   },
   {
     "section": "arts",
@@ -1448,14 +2888,32 @@
       {
         "hanzi": "书法是中国传统艺术。",
         "pinyin": "Shūfǎ shì Zhōngguó chuántǒng yìshù.",
-        "english": "Calligraphy is a traditional Chinese art."
+        "english": "Calligraphy is a traditional Chinese art.",
+        "translations": {
+          "en": "Calligraphy is a traditional Chinese art.",
+          "ru": "Каллиграфия — традиционное китайское искусство.",
+          "es": "La caligrafía es un arte tradicional chino.",
+          "pt-BR": "A caligrafia é uma arte tradicional chinesa."
+        }
       },
       {
         "hanzi": "他练习书法十年了。",
         "pinyin": "Tā liànxí shūfǎ shí nián le.",
-        "english": "He's practiced calligraphy for ten years."
+        "english": "He's practiced calligraphy for ten years.",
+        "translations": {
+          "en": "He's practiced calligraphy for ten years.",
+          "ru": "Он занимается каллиграфией уже десять лет.",
+          "es": "Lleva diez años practicando caligrafía.",
+          "pt-BR": "Ele pratica caligrafia há dez anos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "calligraphy",
+      "ru": "каллиграфия",
+      "es": "caligrafía",
+      "pt-BR": "caligrafia"
+    }
   },
   {
     "section": "arts",
@@ -1466,14 +2924,32 @@
       {
         "hanzi": "这幅国画是山水画。",
         "pinyin": "Zhè fú guóhuà shì shānshuǐ huà.",
-        "english": "This Chinese painting is a landscape."
+        "english": "This Chinese painting is a landscape.",
+        "translations": {
+          "en": "This Chinese painting is a landscape.",
+          "ru": "Эта картина гохуа — пейзаж.",
+          "es": "Esta pintura china es un paisaje.",
+          "pt-BR": "Esta pintura chinesa é uma paisagem."
+        }
       },
       {
         "hanzi": "国画用毛笔和墨水。",
         "pinyin": "Guóhuà yòng máobǐ hé mòshuǐ.",
-        "english": "Chinese painting uses brush and ink."
+        "english": "Chinese painting uses brush and ink.",
+        "translations": {
+          "en": "Chinese painting uses brush and ink.",
+          "ru": "Гохуа пишут кистью и тушью.",
+          "es": "La pintura china usa pincel y tinta.",
+          "pt-BR": "A pintura chinesa usa pincel e tinta."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Chinese painting",
+      "ru": "гохуа / китайская живопись",
+      "es": "pintura china / guohua",
+      "pt-BR": "pintura chinesa / guohua"
+    }
   },
   {
     "section": "arts",
@@ -1484,14 +2960,32 @@
       {
         "hanzi": "京剧脸谱很有特色。",
         "pinyin": "Jīngjù liǎnpǔ hěn yǒu tèsè.",
-        "english": "Peking opera face paint is distinctive."
+        "english": "Peking opera face paint is distinctive.",
+        "translations": {
+          "en": "Peking opera face paint is distinctive.",
+          "ru": "Грим пекинской оперы очень характерный.",
+          "es": "El maquillaje de la ópera de Pekín es muy distintivo.",
+          "pt-BR": "A maquiagem da ópera de Pequim é bem característica."
+        }
       },
       {
         "hanzi": "我们去听京剧。",
         "pinyin": "Wǒmen qù tīng jīngjù.",
-        "english": "We went to hear Peking opera."
+        "english": "We went to hear Peking opera.",
+        "translations": {
+          "en": "We went to hear Peking opera.",
+          "ru": "Мы ходили слушать пекинскую оперу.",
+          "es": "Fuimos a oír ópera de Pekín.",
+          "pt-BR": "Fomos ouvir ópera de Pequim."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Peking opera",
+      "ru": "пекинская опера",
+      "es": "ópera de Pekín",
+      "pt-BR": "ópera de Pequim"
+    }
   },
   {
     "section": "arts",
@@ -1502,14 +2996,32 @@
       {
         "hanzi": "窗上贴了红色剪纸。",
         "pinyin": "Chuāng shàng tiē le hóngsè jiǎnzhǐ.",
-        "english": "Red paper cuttings are pasted on the window."
+        "english": "Red paper cuttings are pasted on the window.",
+        "translations": {
+          "en": "Red paper cuttings are pasted on the window.",
+          "ru": "На окне красные вырезки из бумаги.",
+          "es": "En la ventana hay recortes de papel rojos.",
+          "pt-BR": "Na janela há recortes de papel vermelhos."
+        }
       },
       {
         "hanzi": "剪纸是民间艺术。",
         "pinyin": "Jiǎnzhǐ shì mínjiān yìshù.",
-        "english": "Paper cutting is folk art."
+        "english": "Paper cutting is folk art.",
+        "translations": {
+          "en": "Paper cutting is folk art.",
+          "ru": "Вырезание из бумаги — народное искусство.",
+          "es": "El recorte de papel es un arte popular.",
+          "pt-BR": "O recorte em papel é uma arte popular."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "paper cutting",
+      "ru": "вырезание из бумаги",
+      "es": "recorte de papel",
+      "pt-BR": "recorte em papel"
+    }
   },
   {
     "section": "arts",
@@ -1520,14 +3032,32 @@
       {
         "hanzi": "苏绣非常有名。",
         "pinyin": "Sūxiù fēicháng yǒumíng.",
-        "english": "Su embroidery is very famous."
+        "english": "Su embroidery is very famous.",
+        "translations": {
+          "en": "Su embroidery is very famous.",
+          "ru": "Сучжоуская вышивка очень знаменита.",
+          "es": "El bordado de Suzhou es muy famoso.",
+          "pt-BR": "O bordado de Suzhou é muito famoso."
+        }
       },
       {
         "hanzi": "这件刺绣很精细。",
         "pinyin": "Zhè jiàn cìxiù hěn jīngxì.",
-        "english": "This embroidery is very fine."
+        "english": "This embroidery is very fine.",
+        "translations": {
+          "en": "This embroidery is very fine.",
+          "ru": "Эта вышивка очень тонкая.",
+          "es": "Este bordado es muy fino.",
+          "pt-BR": "Este bordado é muito fino."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "embroidery",
+      "ru": "вышивка",
+      "es": "bordado",
+      "pt-BR": "bordado"
+    }
   },
   {
     "section": "arts",
@@ -1538,14 +3068,32 @@
       {
         "hanzi": "景德镇陶瓷闻名世界。",
         "pinyin": "Jǐngdézhèn táocí wénmíng shìjiè.",
-        "english": "Jingdezhen porcelain is world famous."
+        "english": "Jingdezhen porcelain is world famous.",
+        "translations": {
+          "en": "Jingdezhen porcelain is world famous.",
+          "ru": "Фарфор Цзиндэчжэня известен во всём мире.",
+          "es": "La porcelana de Jingdezhen es famosa en el mundo.",
+          "pt-BR": "A porcelana de Jingdezhen é famosa no mundo."
+        }
       },
       {
         "hanzi": "这个陶瓷花瓶很精美。",
         "pinyin": "Zhège táocí huāpíng hěn jīngměi.",
-        "english": "This ceramic vase is exquisite."
+        "english": "This ceramic vase is exquisite.",
+        "translations": {
+          "en": "This ceramic vase is exquisite.",
+          "ru": "Эта керамическая ваза очень изящная.",
+          "es": "Este jarrón de cerámica es exquisito.",
+          "pt-BR": "Este vaso de cerâmica é requintado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "ceramics / porcelain",
+      "ru": "фарфор / керамика",
+      "es": "porcelana / cerámica",
+      "pt-BR": "porcelana / cerâmica"
+    }
   },
   {
     "section": "arts",
@@ -1556,14 +3104,32 @@
       {
         "hanzi": "她用二胡演奏。",
         "pinyin": "Tā yòng èrhú yǎnzòu.",
-        "english": "She performs on the erhu."
+        "english": "She performs on the erhu.",
+        "translations": {
+          "en": "She performs on the erhu.",
+          "ru": "Она играет на эрху.",
+          "es": "Toca el erhu.",
+          "pt-BR": "Ela toca erhu."
+        }
       },
       {
         "hanzi": "二胡声音很动人。",
         "pinyin": "Èrhú shēngyīn hěn dòngrén.",
-        "english": "The erhu sound is moving."
+        "english": "The erhu sound is moving.",
+        "translations": {
+          "en": "The erhu sound is moving.",
+          "ru": "Звук эрху очень трогательный.",
+          "es": "El sonido del erhu es muy emotivo.",
+          "pt-BR": "O som do erhu é muito emocionante."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "erhu (two-string fiddle)",
+      "ru": "эрху (двухструнная скрипка)",
+      "es": "erhu (fiddle de dos cuerdas)",
+      "pt-BR": "erhu (rabeca de duas cordas)"
+    }
   },
   {
     "section": "arts",
@@ -1574,14 +3140,32 @@
       {
         "hanzi": "她从小学习古筝。",
         "pinyin": "Tā cóngxiǎo xuéxí gǔzhēng.",
-        "english": "She's studied guzheng since childhood."
+        "english": "She's studied guzheng since childhood.",
+        "translations": {
+          "en": "She's studied guzheng since childhood.",
+          "ru": "Она учит гучжэн с детства.",
+          "es": "Estudia guzheng desde niña.",
+          "pt-BR": "Ela estuda guzheng desde criança."
+        }
       },
       {
         "hanzi": "古筝曲很优美。",
         "pinyin": "Gǔzhēng qǔ hěn yōuměi.",
-        "english": "Guzheng music is graceful."
+        "english": "Guzheng music is graceful.",
+        "translations": {
+          "en": "Guzheng music is graceful.",
+          "ru": "Мелодии гучжэн очень изящные.",
+          "es": "La música de guzheng es muy elegante.",
+          "pt-BR": "A música de guzheng é muito elegante."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "guzheng (zither)",
+      "ru": "гучжэн (цитра)",
+      "es": "guzheng (cítara)",
+      "pt-BR": "guzheng (cítara)"
+    }
   },
   {
     "section": "arts",
@@ -1592,14 +3176,32 @@
       {
         "hanzi": "相声让人哈哈大笑。",
         "pinyin": "Xiàngsheng ràng rén dà xiào.",
-        "english": "Cross-talk makes people laugh hard."
+        "english": "Cross-talk makes people laugh hard.",
+        "translations": {
+          "en": "Cross-talk makes people laugh hard.",
+          "ru": "Сяншэн заставляет хохотать.",
+          "es": "El xiangsheng hace reír a carcajadas.",
+          "pt-BR": "O xiangsheng faz rir à toa."
+        }
       },
       {
         "hanzi": "我们在茶馆听相声。",
         "pinyin": "Wǒmen zài cháguǎn tīng xiàngsheng.",
-        "english": "We heard cross-talk at a teahouse."
+        "english": "We heard cross-talk at a teahouse.",
+        "translations": {
+          "en": "We heard cross-talk at a teahouse.",
+          "ru": "Мы слушали сяншэн в чайной.",
+          "es": "Oímos xiangsheng en una casa de té.",
+          "pt-BR": "Ouvimos xiangsheng numa casa de chá."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "cross-talk comedy",
+      "ru": "сяншэн / комический диалог",
+      "es": "xiangsheng / diálogo cómico",
+      "pt-BR": "xiangsheng / diálogo cômico"
+    }
   },
   {
     "section": "arts",
@@ -1610,14 +3212,32 @@
       {
         "hanzi": "武术是中国传统体育。",
         "pinyin": "Wǔshù shì Zhōngguó chuántǒng tǐyù.",
-        "english": "Martial arts are traditional Chinese sport."
+        "english": "Martial arts are traditional Chinese sport.",
+        "translations": {
+          "en": "Martial arts are traditional Chinese sport.",
+          "ru": "Ушу — традиционный китайский спорт.",
+          "es": "El wushu es un deporte tradicional chino.",
+          "pt-BR": "O wushu é um esporte tradicional chinês."
+        }
       },
       {
         "hanzi": "他从小练武术。",
         "pinyin": "Tā cóngxiǎo liàn wǔshù.",
-        "english": "He's practiced martial arts since childhood."
+        "english": "He's practiced martial arts since childhood.",
+        "translations": {
+          "en": "He's practiced martial arts since childhood.",
+          "ru": "Он занимается ушу с детства.",
+          "es": "Practica artes marciales desde niño.",
+          "pt-BR": "Ele pratica artes marciais desde criança."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "martial arts",
+      "ru": "ушу / боевые искусства",
+      "es": "wushu / artes marciales",
+      "pt-BR": "wushu / artes marciais"
+    }
   },
   {
     "section": "kungfu",
@@ -1628,14 +3248,32 @@
       {
         "hanzi": "中国功夫闻名世界。",
         "pinyin": "Zhōngguó gōngfu wénmíng shìjiè.",
-        "english": "Chinese kung fu is world famous."
+        "english": "Chinese kung fu is world famous.",
+        "translations": {
+          "en": "Chinese kung fu is world famous.",
+          "ru": "Китайское кунгфу известно во всём мире.",
+          "es": "El kung fu chino es famoso en el mundo.",
+          "pt-BR": "O kung fu chinês é famoso no mundo."
+        }
       },
       {
         "hanzi": "他练了十年功夫。",
         "pinyin": "Tā liàn le shí nián gōngfu.",
-        "english": "He's trained kung fu for ten years."
+        "english": "He's trained kung fu for ten years.",
+        "translations": {
+          "en": "He's trained kung fu for ten years.",
+          "ru": "Он занимается кунгфу десять лет.",
+          "es": "Lleva diez años entrenando kung fu.",
+          "pt-BR": "Ele treina kung fu há dez anos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "kung fu / martial skill",
+      "ru": "кунгфу / мастерство",
+      "es": "kung fu",
+      "pt-BR": "kung fu"
+    }
   },
   {
     "section": "kungfu",
@@ -1646,14 +3284,32 @@
       {
         "hanzi": "太极拳动作很慢。",
         "pinyin": "Tàijíquán dòngzuò hěn màn.",
-        "english": "Tai Chi movements are slow."
+        "english": "Tai Chi movements are slow.",
+        "translations": {
+          "en": "Tai Chi movements are slow.",
+          "ru": "Движения тайцзи очень медленные.",
+          "es": "Los movimientos del tai chi son lentos.",
+          "pt-BR": "Os movimentos do tai chi são lentos."
+        }
       },
       {
         "hanzi": "老人常在公园打太极拳。",
         "pinyin": "Lǎorén cháng zài gōngyuán dǎ tàijíquán.",
-        "english": "Elders often practice Tai Chi in parks."
+        "english": "Elders often practice Tai Chi in parks.",
+        "translations": {
+          "en": "Elders often practice Tai Chi in parks.",
+          "ru": "Пожилые часто делают тайцзи в парке.",
+          "es": "Los mayores suelen practicar tai chi en el parque.",
+          "pt-BR": "Idosos costumam praticar tai chi no parque."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Tai Chi",
+      "ru": "тайцзицюань / тайцзи",
+      "es": "tai chi",
+      "pt-BR": "tai chi"
+    }
   },
   {
     "section": "kungfu",
@@ -1664,14 +3320,32 @@
       {
         "hanzi": "咏春拳来自广东。",
         "pinyin": "Yǒngchūn quán láizì Guǎngdōng.",
-        "english": "Wing Chun comes from Guangdong."
+        "english": "Wing Chun comes from Guangdong.",
+        "translations": {
+          "en": "Wing Chun comes from Guangdong.",
+          "ru": "Вин-чун родом из Гуандуна.",
+          "es": "El wing chun viene de Guangdong.",
+          "pt-BR": "O wing chun vem de Guangdong."
+        }
       },
       {
         "hanzi": "咏春讲究近身格斗。",
         "pinyin": "Yǒngchūn jiǎngjiū jìn shēn gédòu.",
-        "english": "Wing Chun focuses on close combat."
+        "english": "Wing Chun focuses on close combat.",
+        "translations": {
+          "en": "Wing Chun focuses on close combat.",
+          "ru": "Вин-чун делает упор на ближний бой.",
+          "es": "El wing chun se centra en el combate cercano.",
+          "pt-BR": "O wing chun foca no combate curto."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Wing Chun",
+      "ru": "юнчунь / вин-чун",
+      "es": "wing chun",
+      "pt-BR": "wing chun"
+    }
   },
   {
     "section": "kungfu",
@@ -1682,14 +3356,32 @@
       {
         "hanzi": "少林寺是功夫发源地。",
         "pinyin": "Shàolín Sì shì gōngfu fāyuándì.",
-        "english": "Shaolin Temple is the birthplace of kung fu."
+        "english": "Shaolin Temple is the birthplace of kung fu.",
+        "translations": {
+          "en": "Shaolin Temple is the birthplace of kung fu.",
+          "ru": "Шаолинь — колыбель кунгфу.",
+          "es": "El templo Shaolin es la cuna del kung fu.",
+          "pt-BR": "O templo Shaolin é o berço do kung fu."
+        }
       },
       {
         "hanzi": "我们去少林寺参观。",
         "pinyin": "Wǒmen qù Shàolín Sì cānguān.",
-        "english": "We visited Shaolin Temple."
+        "english": "We visited Shaolin Temple.",
+        "translations": {
+          "en": "We visited Shaolin Temple.",
+          "ru": "Мы ездили в Шаолинь на экскурсию.",
+          "es": "Visitamos el templo Shaolin.",
+          "pt-BR": "Visitamos o templo Shaolin."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Shaolin Temple",
+      "ru": "храм Шаолинь",
+      "es": "templo Shaolin",
+      "pt-BR": "templo Shaolin"
+    }
   },
   {
     "section": "kungfu",
@@ -1700,14 +3392,32 @@
       {
         "hanzi": "师傅教了我很多。",
         "pinyin": "Shīfu jiāo le wǒ hěn duō.",
-        "english": "My master taught me a lot."
+        "english": "My master taught me a lot.",
+        "translations": {
+          "en": "My master taught me a lot.",
+          "ru": "Мастер многому меня научил.",
+          "es": "El maestro me enseñó mucho.",
+          "pt-BR": "O mestre me ensinou muito."
+        }
       },
       {
         "hanzi": "请师傅示范一下。",
         "pinyin": "Qǐng shīfu shìfàn yīxià.",
-        "english": "Master, please demonstrate."
+        "english": "Master, please demonstrate.",
+        "translations": {
+          "en": "Master, please demonstrate.",
+          "ru": "Мастер, покажите, пожалуйста.",
+          "es": "Maestro, demuestre, por favor.",
+          "pt-BR": "Mestre, demonstre, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "master / teacher (martial)",
+      "ru": "мастер / шифу",
+      "es": "maestro / shifu",
+      "pt-BR": "mestre / shifu"
+    }
   },
   {
     "section": "kungfu",
@@ -1718,14 +3428,32 @@
       {
         "hanzi": "他是少林寺的弟子。",
         "pinyin": "Tā shì Shàolín Sì de dìzi.",
-        "english": "He is a Shaolin disciple."
+        "english": "He is a Shaolin disciple.",
+        "translations": {
+          "en": "He is a Shaolin disciple.",
+          "ru": "Он ученик храма Шаолинь.",
+          "es": "Es discípulo del templo Shaolin.",
+          "pt-BR": "Ele é discípulo do templo Shaolin."
+        }
       },
       {
         "hanzi": "弟子要认真练功。",
         "pinyin": "Dìzi yào rènzhēn liàngōng.",
-        "english": "Disciples must train diligently."
+        "english": "Disciples must train diligently.",
+        "translations": {
+          "en": "Disciples must train diligently.",
+          "ru": "Ученики должны усердно тренироваться.",
+          "es": "Los discípulos deben entrenar con seriedad.",
+          "pt-BR": "Os discípulos devem treinar com seriedade."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "disciple / student",
+      "ru": "ученик / последователь",
+      "es": "discípulo / alumno",
+      "pt-BR": "discípulo / aluno"
+    }
   },
   {
     "section": "kungfu",
@@ -1736,14 +3464,32 @@
       {
         "hanzi": "每天练功两小时。",
         "pinyin": "Měitiān liàngōng liǎng xiǎoshí.",
-        "english": "Practice two hours daily."
+        "english": "Practice two hours daily.",
+        "translations": {
+          "en": "Practice two hours daily.",
+          "ru": "Каждый день тренируемся по два часа.",
+          "es": "Se entrena dos horas al día.",
+          "pt-BR": "Treina-se duas horas por dia."
+        }
       },
       {
         "hanzi": "练功要持之以恒。",
         "pinyin": "Liàngōng yào chízhī yǐhéng.",
-        "english": "Training requires persistence."
+        "english": "Training requires persistence.",
+        "translations": {
+          "en": "Training requires persistence.",
+          "ru": "Тренировки требуют постоянства.",
+          "es": "El entrenamiento requiere constancia.",
+          "pt-BR": "O treino exige constância."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to practice martial arts",
+      "ru": "тренироваться (в боевых искусствах)",
+      "es": "entrenar (artes marciales)",
+      "pt-BR": "treinar (artes marciais)"
+    }
   },
   {
     "section": "kungfu",
@@ -1754,14 +3500,32 @@
       {
         "hanzi": "这套套路很难。",
         "pinyin": "Zhè tào tàolù hěn nán.",
-        "english": "This form is difficult."
+        "english": "This form is difficult.",
+        "translations": {
+          "en": "This form is difficult.",
+          "ru": "Этот комплекс очень сложный.",
+          "es": "Esta forma es muy difícil.",
+          "pt-BR": "Esta forma é muito difícil."
+        }
       },
       {
         "hanzi": "他表演了一套拳法套路。",
         "pinyin": "Tā biǎoyǎn le yī tào quánfǎ tàolù.",
-        "english": "He performed a fist form routine."
+        "english": "He performed a fist form routine.",
+        "translations": {
+          "en": "He performed a fist form routine.",
+          "ru": "Он показал комплекс кулачной техники.",
+          "es": "Interpretó una forma de puño.",
+          "pt-BR": "Ele apresentou uma forma de soco."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "form / routine (martial)",
+      "ru": "форма / таолу (комплекс движений)",
+      "es": "forma / rutina (marcial)",
+      "pt-BR": "forma / rotina (marcial)"
+    }
   },
   {
     "section": "kungfu",
@@ -1772,14 +3536,32 @@
       {
         "hanzi": "内功需要长期修炼。",
         "pinyin": "Nèigōng xūyào chángqī xiūliàn.",
-        "english": "Internal skill requires long cultivation."
+        "english": "Internal skill requires long cultivation.",
+        "translations": {
+          "en": "Internal skill requires long cultivation.",
+          "ru": "Нэйгун требует долгой практики.",
+          "es": "La habilidad interna requiere un cultivo largo.",
+          "pt-BR": "A habilidade interna exige cultivo longo."
+        }
       },
       {
         "hanzi": "他内功深厚。",
         "pinyin": "Tā nèigōng shēnhòu.",
-        "english": "His internal skill is profound."
+        "english": "His internal skill is profound.",
+        "translations": {
+          "en": "His internal skill is profound.",
+          "ru": "У него глубокий нэйгун.",
+          "es": "Su habilidad interna es profunda.",
+          "pt-BR": "A habilidade interna dele é profunda."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "internal martial skill",
+      "ru": "внутренняя работа / нэйгун",
+      "es": "habilidad interna / neigong",
+      "pt-BR": "habilidade interna / neigong"
+    }
   },
   {
     "section": "kungfu",
@@ -1790,13 +3572,31 @@
       {
         "hanzi": "他们在比武。",
         "pinyin": "Tāmen zài bǐwǔ.",
-        "english": "They're in a martial contest."
+        "english": "They're in a martial contest.",
+        "translations": {
+          "en": "They're in a martial contest.",
+          "ru": "Они соревнуются в поединке.",
+          "es": "Están en un combate marcial.",
+          "pt-BR": "Eles estão num combate marcial."
+        }
       },
       {
         "hanzi": "比武点到为止。",
         "pinyin": "Bǐwǔ diǎn dào wéi zhǐ.",
-        "english": "In contests, stop at the point of contact."
+        "english": "In contests, stop at the point of contact.",
+        "translations": {
+          "en": "In contests, stop at the point of contact.",
+          "ru": "В поединке останавливаются, коснувшись противника.",
+          "es": "En el combate se detiene al contacto.",
+          "pt-BR": "No combate para-se no contato."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "martial arts contest",
+      "ru": "поединок / сравнение мастерства",
+      "es": "combate marcial / desafío",
+      "pt-BR": "combate marcial / desafio"
+    }
   }
 ]

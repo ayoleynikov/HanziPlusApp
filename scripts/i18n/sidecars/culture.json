@@ -1,0 +1,1702 @@
+{
+  "春节": {
+    "ru": "Чуньцзе / китайский Новый год",
+    "es": "Año Nuevo Chino / Fiesta de la Primavera",
+    "pt-BR": "Ano Novo Chinês / Festival da Primavera",
+    "examples": [
+      {
+        "ru": "Чуньцзе — главный праздник китайцев.",
+        "es": "El Año Nuevo Chino es la fiesta más importante de China.",
+        "pt-BR": "O Ano Novo Chinês é a festa mais importante da China."
+      },
+      {
+        "ru": "Мы едем в родной город на Чуньцзе.",
+        "es": "Volvemos al pueblo a pasar el Año Nuevo.",
+        "pt-BR": "Voltamos à cidade natal para o Ano Novo."
+      }
+    ]
+  },
+  "红包": {
+    "ru": "красный конверт / хунбао",
+    "es": "sobre rojo / hongbao",
+    "pt-BR": "envelope vermelho / hongbao",
+    "examples": [
+      {
+        "ru": "Старшие дают детям красные конверты.",
+        "es": "Los mayores dan sobres rojos a los niños.",
+        "pt-BR": "Os mais velhos dão envelopes vermelhos às crianças."
+      },
+      {
+        "ru": "Спасибо за хунбао.",
+        "es": "Gracias por el sobre rojo.",
+        "pt-BR": "Obrigado pelo envelope vermelho."
+      }
+    ]
+  },
+  "年夜饭": {
+    "ru": "новогодний ужин / няньефань",
+    "es": "cena de Nochevieja lunar",
+    "pt-BR": "ceia da véspera do Ano Novo",
+    "examples": [
+      {
+        "ru": "Вся семья собирается на новогодний ужин.",
+        "es": "Toda la familia cena junta en Nochevieja.",
+        "pt-BR": "A família toda janta junta na véspera."
+      },
+      {
+        "ru": "Новогодний стол очень обильный.",
+        "es": "La cena de reunión es muy abundante.",
+        "pt-BR": "A ceia de reunião é muito farta."
+      }
+    ]
+  },
+  "春联": {
+    "ru": "весенние парные надписи / чуньлянь",
+    "es": "dísticos de Año Nuevo / chunlian",
+    "pt-BR": "dísticos de Ano Novo / chunlian",
+    "examples": [
+      {
+        "ru": "На дверь наклеили чуньлянь.",
+        "es": "Pegaron dísticos en la puerta.",
+        "pt-BR": "Colaram dísticos na porta."
+      },
+      {
+        "ru": "Эти надписи написаны очень аккуратно.",
+        "es": "Este dístico está escrito con mucha pulcritud.",
+        "pt-BR": "Este dístico está escrito com muita capricho."
+      }
+    ]
+  },
+  "烟花": {
+    "ru": "фейерверк",
+    "es": "fuegos artificiales",
+    "pt-BR": "fogos de artifício",
+    "examples": [
+      {
+        "ru": "В канун Нового года смотрят фейерверк.",
+        "es": "En Nochevieja se ven fuegos artificiales.",
+        "pt-BR": "Na véspera se ve fogos de artifício."
+      },
+      {
+        "ru": "В городе запрещено запускать фейерверк.",
+        "es": "La ciudad prohíbe los fuegos artificiales.",
+        "pt-BR": "A cidade proíbe fogos de artifício."
+      }
+    ]
+  },
+  "拜年": {
+    "ru": "ходить с новогодними поздравлениями / байнянь",
+    "es": "visitar para desear el Año Nuevo",
+    "pt-BR": "visitar para desejar o Ano Novo",
+    "examples": [
+      {
+        "ru": "В первый день года ходят поздравлять родственников.",
+        "es": "El primer día se visita a los parientes.",
+        "pt-BR": "No primeiro dia se visita os parentes."
+      },
+      {
+        "ru": "Поздравляю вас с Новым годом.",
+        "es": "Le deseo un feliz Año Nuevo.",
+        "pt-BR": "Desejo a você um feliz Ano Novo."
+      }
+    ]
+  },
+  "灯笼": {
+    "ru": "фонарь / фонарик",
+    "es": "linterna / farolillo",
+    "pt-BR": "lanterna / lampião",
+    "examples": [
+      {
+        "ru": "На улицах полно красных фонарей.",
+        "es": "La calle está llena de farolillos rojos.",
+        "pt-BR": "A rua está cheia de lanternas vermelhas."
+      },
+      {
+        "ru": "Этот фонарь очень красивый.",
+        "es": "Este farolillo es muy bonito.",
+        "pt-BR": "Esta lanterna é muito bonita."
+      }
+    ]
+  },
+  "舞龙": {
+    "ru": "танец дракона",
+    "es": "danza del dragón",
+    "pt-BR": "dança do dragão",
+    "examples": [
+      {
+        "ru": "На Чуньцзе показывают танец дракона.",
+        "es": "En el Año Nuevo hay danza del dragón.",
+        "pt-BR": "No Ano Novo há dança do dragão."
+      },
+      {
+        "ru": "Команда танца дракона очень зрелищная.",
+        "es": "La troupe del dragón es espectacular.",
+        "pt-BR": "O grupo da dança do dragão é espetacular."
+      }
+    ]
+  },
+  "团圆": {
+    "ru": "воссоединение семьи / туанъюань",
+    "es": "reunión familiar",
+    "pt-BR": "reunião familiar",
+    "examples": [
+      {
+        "ru": "Чуньцзе — день семейного воссоединения.",
+        "es": "El Año Nuevo es tiempo de reunión familiar.",
+        "pt-BR": "O Ano Novo é tempo de reunião familiar."
+      },
+      {
+        "ru": "Главное — чтобы семья была вместе.",
+        "es": "Lo más importante es reunirse en familia.",
+        "pt-BR": "O mais importante é a família estar junta."
+      }
+    ]
+  },
+  "守岁": {
+    "ru": "встречать Новый год не ложась спать / шоусы",
+    "es": "velar la Nochevieja lunar",
+    "pt-BR": "passar a virada em claro",
+    "examples": [
+      {
+        "ru": "В канун Нового года мы не ложимся до полуночи.",
+        "es": "Velamos la Nochevieja lunar.",
+        "pt-BR": "Passamos a véspera em claro."
+      },
+      {
+        "ru": "Бдим до полуночи.",
+        "es": "Velamos hasta medianoche.",
+        "pt-BR": "Ficamos acordados até meia-noite."
+      }
+    ]
+  },
+  "端午节": {
+    "ru": "праздник лодок-драконов / Дуаньу",
+    "es": "Festival del Bote del Dragón",
+    "pt-BR": "Festival das Barcas-Dragão",
+    "examples": [
+      {
+        "ru": "Дуаньу — пятый день пятого лунного месяца.",
+        "es": "El Festival del Bote del Dragón es el 5 del 5.º mes lunar.",
+        "pt-BR": "O Festival das Barcas-Dragão é no 5.º dia do 5.º mês lunar."
+      },
+      {
+        "ru": "На Дуаньу едят цзунцзы.",
+        "es": "En el festival se comen zongzi.",
+        "pt-BR": "No festival se come zongzi."
+      }
+    ]
+  },
+  "粽子": {
+    "ru": "цзунцзы (рисовые треугольники в листьях)",
+    "es": "zongzi (bollo de arroz glutinoso)",
+    "pt-BR": "zongzi (bolinho de arroz glutinoso)",
+    "examples": [
+      {
+        "ru": "Я люблю мясные цзунцзы.",
+        "es": "Me gustan los zongzi salados.",
+        "pt-BR": "Gosto de zongzi salgado."
+      },
+      {
+        "ru": "Мама сварила кастрюлю цзунцзы.",
+        "es": "Mamá hizo una olla de zongzi.",
+        "pt-BR": "A mamãe fez uma panela de zongzi."
+      }
+    ]
+  },
+  "龙舟": {
+    "ru": "лодка-дракон",
+    "es": "bote del dragón",
+    "pt-BR": "barca-dragão",
+    "examples": [
+      {
+        "ru": "Гонки лодок-драконов очень напряжённые.",
+        "es": "La regata de botes del dragón es intensa.",
+        "pt-BR": "A corrida de barcas-dragão é intensa."
+      },
+      {
+        "ru": "Их команда гребёт очень быстро.",
+        "es": "Su equipo rema muy rápido.",
+        "pt-BR": "O time deles rema muito rápido."
+      }
+    ]
+  },
+  "屈原": {
+    "ru": "Цюй Юань",
+    "es": "Qu Yuan",
+    "pt-BR": "Qu Yuan",
+    "examples": [
+      {
+        "ru": "Дуаньу посвящён памяти Цюй Юаня.",
+        "es": "El festival conmemora a Qu Yuan.",
+        "pt-BR": "O festival homenageia Qu Yuan."
+      },
+      {
+        "ru": "Цюй Юань был великим поэтом.",
+        "es": "Qu Yuan fue un gran poeta.",
+        "pt-BR": "Qu Yuan foi um grande poeta."
+      }
+    ]
+  },
+  "艾草": {
+    "ru": "полынь / айцао",
+    "es": "artemisa / mugwort",
+    "pt-BR": "artemísia / mugwort",
+    "examples": [
+      {
+        "ru": "Над дверью вешают полынь от нечисти.",
+        "es": "Se cuelga artemisa en la puerta para ahuyentar el mal.",
+        "pt-BR": "Pendura-se artemísia na porta para afastar o mal."
+      },
+      {
+        "ru": "У полыни особый запах.",
+        "es": "La artemisa tiene un aroma especial.",
+        "pt-BR": "A artemísia tem um cheiro especial."
+      }
+    ]
+  },
+  "香囊": {
+    "ru": "ароматный мешочек / сяннан",
+    "es": "saquito aromático",
+    "pt-BR": "saquinho aromático",
+    "examples": [
+      {
+        "ru": "Дети носят ароматные мешочки.",
+        "es": "Los niños llevan saquitos aromáticos.",
+        "pt-BR": "As crianças usam saquinhos aromáticos."
+      },
+      {
+        "ru": "Этот мешочек сделан вручную.",
+        "es": "Este saquito es hecho a mano.",
+        "pt-BR": "Este saquinho é feito à mão."
+      }
+    ]
+  },
+  "赛龙舟": {
+    "ru": "гонка лодок-драконов",
+    "es": "regata de botes del dragón",
+    "pt-BR": "corrida de barcas-dragão",
+    "examples": [
+      {
+        "ru": "Завтра гонка лодок-драконов.",
+        "es": "Mañana hay una regata de botes del dragón.",
+        "pt-BR": "Amanhã tem corrida de barcas-dragão."
+      },
+      {
+        "ru": "Гонки — традиционное мероприятие.",
+        "es": "La regata es una actividad tradicional.",
+        "pt-BR": "A corrida é uma atividade tradicional."
+      }
+    ]
+  },
+  "雄黄酒": {
+    "ru": "вино с реальгаром / сюнхуанцзю",
+    "es": "vino de rejalgar",
+    "pt-BR": "vinho de realgar",
+    "examples": [
+      {
+        "ru": "Пить вино с реальгаром — обычай Дуаньу.",
+        "es": "Beber vino de rejalgar es una costumbre del festival.",
+        "pt-BR": "Beber vinho de realgar é um costume do festival."
+      },
+      {
+        "ru": "Сейчас его пьют редко.",
+        "es": "Ahora rara vez se bebe vino de rejalgar.",
+        "pt-BR": "Agora raramente se bebe vinho de realgar."
+      }
+    ]
+  },
+  "五彩绳": {
+    "ru": "пятицветный шнурок",
+    "es": "cuerda de cinco colores",
+    "pt-BR": "cordão de cinco cores",
+    "examples": [
+      {
+        "ru": "Детям завязывают пятицветный шнурок.",
+        "es": "Se ata un cordón de cinco colores a los niños.",
+        "pt-BR": "Amarra-se um cordão de cinco cores nas crianças."
+      },
+      {
+        "ru": "Шнурок символизирует благополучие.",
+        "es": "El cordón simboliza la seguridad.",
+        "pt-BR": "O cordão simboliza proteção."
+      }
+    ]
+  },
+  "划桨": {
+    "ru": "грести",
+    "es": "remar",
+    "pt-BR": "remar",
+    "examples": [
+      {
+        "ru": "Гребцы гребут слаженно.",
+        "es": "Los remeros reman al unísono.",
+        "pt-BR": "Os remadores remam em uníssono."
+      },
+      {
+        "ru": "Грести нужно с силой.",
+        "es": "Remar exige mucha fuerza.",
+        "pt-BR": "Remar exige muita força."
+      }
+    ]
+  },
+  "元宵节": {
+    "ru": "праздник фонарей / Юаньсяо",
+    "es": "Festival de los Faroles",
+    "pt-BR": "Festival das Lanternas",
+    "examples": [
+      {
+        "ru": "Юаньсяо — последний день Чуньцзе.",
+        "es": "El Festival de los Faroles cierra el Año Nuevo.",
+        "pt-BR": "O Festival das Lanternas fecha o Ano Novo."
+      },
+      {
+        "ru": "На Юаньсяо смотрят фонари.",
+        "es": "En el festival se contemplan faroles.",
+        "pt-BR": "No festival se admiram lanternas."
+      }
+    ]
+  },
+  "花灯": {
+    "ru": "декоративный фонарь / хуадэн",
+    "es": "farol decorativo",
+    "pt-BR": "lanterna decorativa",
+    "examples": [
+      {
+        "ru": "В парке разные фонари.",
+        "es": "En el parque hay faroles de todo tipo.",
+        "pt-BR": "No parque há lanternas de todo tipo."
+      },
+      {
+        "ru": "Этот фонарь в форме кролика.",
+        "es": "Este farol tiene forma de conejo.",
+        "pt-BR": "Esta lanterna tem forma de coelho."
+      }
+    ]
+  },
+  "猜灯谜": {
+    "ru": "отгадывать загадки на фонарях",
+    "es": "adivinar acertijos de faroles",
+    "pt-BR": "adivinhar charadas das lanternas",
+    "examples": [
+      {
+        "ru": "На ярмарке фонарей мы отгадываем загадки.",
+        "es": "En la feria adivinamos acertijos de faroles.",
+        "pt-BR": "Na feira adivinhamos charadas das lanternas."
+      },
+      {
+        "ru": "Эта загадка очень сложная.",
+        "es": "Este acertijo es muy difícil.",
+        "pt-BR": "Esta charada é muito difícil."
+      }
+    ]
+  },
+  "汤圆": {
+    "ru": "танъюань (сладкие рисовые шарики)",
+    "es": "tangyuan (bolitas de arroz glutinoso)",
+    "pt-BR": "tangyuan (bolinho de arroz glutinoso)",
+    "examples": [
+      {
+        "ru": "На Юаньсяо едят танъюань.",
+        "es": "En el Festival de los Faroles se comen tangyuan.",
+        "pt-BR": "No Festival das Lanternas se come tangyuan."
+      },
+      {
+        "ru": "Кунжутные танъюань очень вкусные.",
+        "es": "Los tangyuan de sésamo están riquísimos.",
+        "pt-BR": "Tangyuan de gergelim está uma delícia."
+      }
+    ]
+  },
+  "灯会": {
+    "ru": "ярмарка фонарей",
+    "es": "feria de faroles",
+    "pt-BR": "feira de lanternas",
+    "examples": [
+      {
+        "ru": "Ярмарка фонарей очень оживлённая.",
+        "es": "La feria de faroles está muy animada.",
+        "pt-BR": "A feira de lanternas está bem animada."
+      },
+      {
+        "ru": "Вся семья идёт на ярмарку фонарей.",
+        "es": "Toda la familia va a la feria de faroles.",
+        "pt-BR": "A família toda vai à feira de lanternas."
+      }
+    ]
+  },
+  "走马灯": {
+    "ru": "вращающийся фонарь / цзоумадэн",
+    "es": "farol giratorio",
+    "pt-BR": "lanterna giratória",
+    "examples": [
+      {
+        "ru": "Картинки внутри вращающегося фонаря движутся.",
+        "es": "Las figuras del farol giratorio se mueven.",
+        "pt-BR": "As figuras da lanterna giratória se movem."
+      },
+      {
+        "ru": "Этот вращающийся фонарь очень искусный.",
+        "es": "Este farol giratorio es muy ingenioso.",
+        "pt-BR": "Esta lanterna giratória é muito engenhosa."
+      }
+    ]
+  },
+  "孔明灯": {
+    "ru": "небесный фонарик / кунминдэн",
+    "es": "farol volador / farol Kongming",
+    "pt-BR": "lanterna voadora / lanterna Kongming",
+    "examples": [
+      {
+        "ru": "Люди запускают фонарики и загадывают желания.",
+        "es": "La gente suelta faroles voladores para pedir deseos.",
+        "pt-BR": "As pessoas soltam lanternas voadoras para fazer pedidos."
+      },
+      {
+        "ru": "Фонарики медленно поднимаются в небо.",
+        "es": "Los faroles suben despacio al cielo.",
+        "pt-BR": "As lanternas sobem devagar no céu."
+      }
+    ]
+  },
+  "赏月": {
+    "ru": "любоваться луной",
+    "es": "contemplar la luna",
+    "pt-BR": "admirar a lua",
+    "examples": [
+      {
+        "ru": "В ночь Юаньсяо вместе любуются луной.",
+        "es": "En la noche del festival contemplamos la luna juntos.",
+        "pt-BR": "Na noite do festival admiramos a lua juntos."
+      },
+      {
+        "ru": "Мы любуемся луной с балкона.",
+        "es": "Contemplamos la luna desde el balcón.",
+        "pt-BR": "Admiramos a lua da varanda."
+      }
+    ]
+  },
+  "走桥": {
+    "ru": "ходить по мосту (обычай праздника)",
+    "es": "paseo por el puente (costumbre festiva)",
+    "pt-BR": "caminhada na ponte (costume festivo)",
+    "examples": [
+      {
+        "ru": "Посмотрите обычай хождения по мосту.",
+        "es": "Mire el paseo por el puente del festival.",
+        "pt-BR": "Veja a caminhada na ponte do festival."
+      },
+      {
+        "ru": "Этот обычай очень важен.",
+        "es": "Este paseo por el puente es importante.",
+        "pt-BR": "Esta caminhada na ponte é importante."
+      }
+    ]
+  },
+  "走灯": {
+    "ru": "шествие с фонарями",
+    "es": "paseo de faroles",
+    "pt-BR": "procissão de lanternas",
+    "examples": [
+      {
+        "ru": "Вечером все гуляют среди фонарей.",
+        "es": "Por la noche todos pasean entre faroles.",
+        "pt-BR": "À noite todos passeiam entre as lanternas."
+      },
+      {
+        "ru": "Шествие с фонарями — обычай Юаньсяо.",
+        "es": "Pasear entre faroles es una costumbre del festival.",
+        "pt-BR": "Passear entre lanternas é um costume do festival."
+      }
+    ]
+  },
+  "中秋节": {
+    "ru": "праздник середины осени / Чжунцю",
+    "es": "Festival del Medio Otoño",
+    "pt-BR": "Festival do Meio Outono",
+    "examples": [
+      {
+        "ru": "Чжунцю — 15-й день 8-го лунного месяца.",
+        "es": "El Festival del Medio Otoño es el 15 del 8.º mes lunar.",
+        "pt-BR": "O Festival do Meio Outono é no dia 15 do 8.º mês lunar."
+      },
+      {
+        "ru": "На Чжунцю семья собирается вместе.",
+        "es": "Las familias se reúnen en el Festival del Medio Otoño.",
+        "pt-BR": "As famílias se reúnem no Festival do Meio Outono."
+      }
+    ]
+  },
+  "月饼": {
+    "ru": "лунный пряник / юэбин",
+    "es": "pastel de luna / mooncake",
+    "pt-BR": "bolo da lua / mooncake",
+    "examples": [
+      {
+        "ru": "На Чжунцю едят юэбин.",
+        "es": "En el Festival del Medio Otoño se comen pasteles de luna.",
+        "pt-BR": "No Festival do Meio Outono se come bolo da lua."
+      },
+      {
+        "ru": "Юэбин с лотосовой пастой очень популярны.",
+        "es": "Los pasteles de luna de loto son populares.",
+        "pt-BR": "Bolo da lua de lótus é popular."
+      }
+    ]
+  },
+  "桂花": {
+    "ru": "османтус / цветок гуйхуа",
+    "es": "flor de osmanthus / guihua",
+    "pt-BR": "flor de osmanthus / guihua",
+    "examples": [
+      {
+        "ru": "На Чжунцю османтус очень душистый.",
+        "es": "En el Medio Otoño el osmanthus es muy fragante.",
+        "pt-BR": "No Meio Outono o osmanthus é muito perfumado."
+      },
+      {
+        "ru": "В юэбине чувствуется вкус османтуса.",
+        "es": "El pastel de luna tiene sabor a osmanthus.",
+        "pt-BR": "O bolo da lua tem sabor de osmanthus."
+      }
+    ]
+  },
+  "嫦娥": {
+    "ru": "Чанъэ (лунная богиня)",
+    "es": "Chang'e (diosa de la luna)",
+    "pt-BR": "Chang'e (deusa da lua)",
+    "examples": [
+      {
+        "ru": "Чанъэ, улетевшая на луну, — легенда Чжунцю.",
+        "es": "Chang'e volando a la luna es una leyenda del festival.",
+        "pt-BR": "Chang'e voando à lua é uma lenda do festival."
+      },
+      {
+        "ru": "Дети слушают историю о Чанъэ.",
+        "es": "Los niños escuchan la historia de Chang'e.",
+        "pt-BR": "As crianças ouvem a história de Chang'e."
+      }
+    ]
+  },
+  "玉兔": {
+    "ru": "Нефритовый заяц",
+    "es": "Conejo de Jade",
+    "pt-BR": "Coelho de Jade",
+    "examples": [
+      {
+        "ru": "Нефритовый заяц живёт во дворце на луне.",
+        "es": "El Conejo de Jade vive en el palacio lunar.",
+        "pt-BR": "O Coelho de Jade vive no palácio da lua."
+      },
+      {
+        "ru": "На юэбинах часто печатают зайца.",
+        "es": "Los pasteles de luna suelen llevar el Conejo de Jade.",
+        "pt-BR": "Bolos da lua costumam ter o Coelho de Jade."
+      }
+    ]
+  },
+  "广寒宫": {
+    "ru": "Дворец Гуанхань (лунный дворец)",
+    "es": "Palacio Guanghan / palacio de la luna",
+    "pt-BR": "Palácio Guanghan / palácio da lua",
+    "examples": [
+      {
+        "ru": "По легенде Чанъэ живёт во дворце Гуанхань.",
+        "es": "La leyenda dice que Chang'e vive en el Palacio Guanghan.",
+        "pt-BR": "A lenda diz que Chang'e vive no Palácio Guanghan."
+      },
+      {
+        "ru": "Гуанхань — имя лунного дворца.",
+        "es": "Guanghan es el nombre del palacio lunar.",
+        "pt-BR": "Guanghan é o nome do palácio lunar."
+      }
+    ]
+  },
+  "仲秋": {
+    "ru": "середина осени (литературно)",
+    "es": "mediados de otoño (literario)",
+    "pt-BR": "meio do outono (literário)",
+    "examples": [
+      {
+        "ru": "В ночь середины осени луна очень круглая.",
+        "es": "En la noche de mediados de otoño la luna está muy llena.",
+        "pt-BR": "Na noite do meio do outono a lua está bem cheia."
+      },
+      {
+        "ru": "Середина осени — прекрасное время для воссоединения.",
+        "es": "Mediados de otoño es un gran momento para reunirse.",
+        "pt-BR": "O meio do outono é um belo momento para se reunir."
+      }
+    ]
+  },
+  "思念": {
+    "ru": "скучать / тосковать",
+    "es": "echar de menos",
+    "pt-BR": "sentir saudade / sentir falta",
+    "examples": [
+      {
+        "ru": "На Чжунцю я скучаю по семье.",
+        "es": "En el Festival del Medio Otoño extraño a mi familia.",
+        "pt-BR": "No Festival do Meio Outono sinto falta da família."
+      },
+      {
+        "ru": "Яркая луна навевает тоску по родине.",
+        "es": "La luna brillante hace extrañar el pueblo natal.",
+        "pt-BR": "A lua brilhante traz saudade da terra natal."
+      }
+    ]
+  },
+  "故乡": {
+    "ru": "родная земля / малая родина",
+    "es": "pueblo natal / tierra natal",
+    "pt-BR": "terra natal / cidade natal",
+    "examples": [
+      {
+        "ru": "В ночь Чжунцю я думаю о родине.",
+        "es": "En la noche del festival extraño mi tierra natal.",
+        "pt-BR": "Na noite do festival sinto saudade da terra natal."
+      },
+      {
+        "ru": "Яркая луна светит на родную землю.",
+        "es": "La luna brillante ilumina mi tierra natal.",
+        "pt-BR": "A lua brilhante ilumina a terra natal."
+      }
+    ]
+  },
+  "圆满": {
+    "ru": "полнота / благополучие / завершённость",
+    "es": "plenitud / redondez (simbólica)",
+    "pt-BR": "plenitude / completude",
+    "examples": [
+      {
+        "ru": "Луна символизирует полноту и благополучие.",
+        "es": "La luna llena simboliza la plenitud.",
+        "pt-BR": "A lua cheia simboliza a plenitude."
+      },
+      {
+        "ru": "Желаю всем полного счастья на Чжунцю.",
+        "es": "Les deseo un Medio Otoño pleno.",
+        "pt-BR": "Desejo a todos um Meio Outono pleno."
+      }
+    ]
+  },
+  "熊猫": {
+    "ru": "панда",
+    "es": "panda",
+    "pt-BR": "panda",
+    "examples": [
+      {
+        "ru": "Панда — национальное сокровище Китая.",
+        "es": "El panda es un tesoro nacional de China.",
+        "pt-BR": "O panda é um tesouro nacional da China."
+      },
+      {
+        "ru": "Дети любят смотреть на панд.",
+        "es": "A los niños les encanta ver pandas.",
+        "pt-BR": "Crianças adoram ver pandas."
+      }
+    ]
+  },
+  "竹子": {
+    "ru": "бамбук",
+    "es": "bambú",
+    "pt-BR": "bambu",
+    "examples": [
+      {
+        "ru": "Панды в основном едят бамбук.",
+        "es": "Los pandas comen sobre todo bambú.",
+        "pt-BR": "Pandas comem principalmente bambu."
+      },
+      {
+        "ru": "Эта бамбуковая роща очень густая.",
+        "es": "Este bosque de bambú es muy denso.",
+        "pt-BR": "Este bosque de bambu é bem denso."
+      }
+    ]
+  },
+  "成都": {
+    "ru": "Чэнду",
+    "es": "Chengdu",
+    "pt-BR": "Chengdu",
+    "examples": [
+      {
+        "ru": "Чэнду — отличное место, чтобы увидеть панд.",
+        "es": "Chengdu es un gran lugar para ver pandas.",
+        "pt-BR": "Chengdu é um ótimo lugar para ver pandas."
+      },
+      {
+        "ru": "База панд в Чэнду очень известна.",
+        "es": "La base de pandas de Chengdu es famosa.",
+        "pt-BR": "A base de pandas de Chengdu é famosa."
+      }
+    ]
+  },
+  "基地": {
+    "ru": "база / заповедник",
+    "es": "base / reserva",
+    "pt-BR": "base / reserva",
+    "examples": [
+      {
+        "ru": "На базе много панд.",
+        "es": "En la base hay muchos pandas.",
+        "pt-BR": "Na base há muitos pandas."
+      },
+      {
+        "ru": "В заповеднике нельзя шуметь.",
+        "es": "En la reserva hay que guardar silencio.",
+        "pt-BR": "Na reserva é preciso silêncio."
+      }
+    ]
+  },
+  "保育": {
+    "ru": "охрана / разведение (животных)",
+    "es": "conservación / cría",
+    "pt-BR": "conservação / criação",
+    "examples": [
+      {
+        "ru": "Охрана панд очень важна.",
+        "es": "La conservación del panda es muy importante.",
+        "pt-BR": "A conservação do panda é muito importante."
+      },
+      {
+        "ru": "Смотрители ухаживают за детёнышами панд.",
+        "es": "Los cuidadores atienden a los oseznos.",
+        "pt-BR": "Os tratadores cuidam dos filhotes de panda."
+      }
+    ]
+  },
+  "黑白": {
+    "ru": "чёрно-белый",
+    "es": "blanco y negro",
+    "pt-BR": "preto e branco",
+    "examples": [
+      {
+        "ru": "Панда чёрно-белая.",
+        "es": "El panda es blanco y negro.",
+        "pt-BR": "O panda é preto e branco."
+      },
+      {
+        "ru": "Чёрно-белая расцветка очень милая.",
+        "es": "El color blanco y negro es adorable.",
+        "pt-BR": "A cor preto e branco é fofa."
+      }
+    ]
+  },
+  "憨态": {
+    "ru": "неуклюжая милота / простодушие",
+    "es": "torpeza adorable",
+    "pt-BR": "jeito desajeitado e fofo",
+    "examples": [
+      {
+        "ru": "У панд обаятельная неуклюжесть.",
+        "es": "Los pandas tienen un encanto torpe adorable.",
+        "pt-BR": "Pandas têm um jeito desajeitado adorável."
+      },
+      {
+        "ru": "Он весь такой простодушный и милый.",
+        "es": "Está lleno de torpeza adorable.",
+        "pt-BR": "Está cheio de jeito fofo e desajeitado."
+      }
+    ]
+  },
+  "爬树": {
+    "ru": "лазить по деревьям",
+    "es": "trepar a los árboles",
+    "pt-BR": "subir em árvore",
+    "examples": [
+      {
+        "ru": "Маленькая панда учится лазить по деревьям.",
+        "es": "Un panda joven está aprendiendo a trepar.",
+        "pt-BR": "Um panda jovem está aprendendo a subir em árvore."
+      },
+      {
+        "ru": "Панды лазают по деревьям ловко.",
+        "es": "Los pandas trepan con agilidad.",
+        "pt-BR": "Pandas sobem em árvore com agilidade."
+      }
+    ]
+  },
+  "打滚": {
+    "ru": "кататься / валяться",
+    "es": "revolcarse",
+    "pt-BR": "rolar / se revirar",
+    "examples": [
+      {
+        "ru": "Панда катается по земле.",
+        "es": "El panda se revuelca en el suelo.",
+        "pt-BR": "O panda rola no chão."
+      },
+      {
+        "ru": "Когда радуется, он катается.",
+        "es": "Cuando está contento, se revuelca.",
+        "pt-BR": "Quando está feliz, ele rola."
+      }
+    ]
+  },
+  "濒危": {
+    "ru": "находящийся под угрозой исчезновения",
+    "es": "en peligro de extinción",
+    "pt-BR": "em risco de extinção",
+    "examples": [
+      {
+        "ru": "Панды когда-то были под угрозой.",
+        "es": "Los pandas estuvieron en peligro de extinção.",
+        "pt-BR": "Pandas já estiveram em risco de extinção."
+      },
+      {
+        "ru": "Защищать исчезающих животных — дело каждого.",
+        "es": "Proteger a los animales en peligro es tarea de todos.",
+        "pt-BR": "Proteger animais em risco é dever de todos."
+      }
+    ]
+  },
+  "茶道": {
+    "ru": "чайная церемония / чадао",
+    "es": "ceremonia del té",
+    "pt-BR": "cerimônia do chá",
+    "examples": [
+      {
+        "ru": "Японская чайная церемония произошла из Китая.",
+        "es": "La ceremonia del té japonesa nació en China.",
+        "pt-BR": "A cerimônia do chá japonesa nasceu na China."
+      },
+      {
+        "ru": "Она изучает традиционную китайскую чайную церемонию.",
+        "es": "Estudia la ceremonia del té china tradicional.",
+        "pt-BR": "Ela estuda a cerimônia do chá chinesa tradicional."
+      }
+    ]
+  },
+  "茶艺": {
+    "ru": "чайное искусство / чаи",
+    "es": "arte del té",
+    "pt-BR": "arte do chá",
+    "examples": [
+      {
+        "ru": "Представление чайного искусства очень изящное.",
+        "es": "La exhibición del arte del té es elegante.",
+        "pt-BR": "A apresentação da arte do chá é elegante."
+      },
+      {
+        "ru": "Она прекрасно владеет чайным искусством.",
+        "es": "Domina el arte del té.",
+        "pt-BR": "Ela domina a arte do chá."
+      }
+    ]
+  },
+  "茶具": {
+    "ru": "чайный набор / чайная посуда",
+    "es": "juego de té / utensilios",
+    "pt-BR": "conjunto de chá / utensílios",
+    "examples": [
+      {
+        "ru": "Этот набор из Цзиндэчжэня.",
+        "es": "Este juego de té es de Jingdezhen.",
+        "pt-BR": "Este conjunto de chá é de Jingdezhen."
+      },
+      {
+        "ru": "Чайную посуду нужно хорошо мыть.",
+        "es": "Los utensilios de té hay que lavarlos bien.",
+        "pt-BR": "Os utensílios de chá precisam ser bem lavados."
+      }
+    ]
+  },
+  "敬茶": {
+    "ru": "подносить чай (с уважением)",
+    "es": "ofrecer té con respeto",
+    "pt-BR": "oferecer chá com respeito",
+    "examples": [
+      {
+        "ru": "Молодожёны подносят чай старшим.",
+        "es": "Los recién casados ofrecen té a los mayores.",
+        "pt-BR": "Os recém-casados oferecem chá aos mais velhos."
+      },
+      {
+        "ru": "Подносить чай — знак уважения.",
+        "es": "Ofrecer té muestra respeto.",
+        "pt-BR": "Oferecer chá demonstra respeito."
+      }
+    ]
+  },
+  "品茶": {
+    "ru": "дегустировать чай / смаковать чай",
+    "es": "catar / saborear el té",
+    "pt-BR": "provar / saborear o chá",
+    "examples": [
+      {
+        "ru": "Пейте чай не спеша.",
+        "es": "Saboree el té despacio.",
+        "pt-BR": "Saboreie o chá com calma."
+      },
+      {
+        "ru": "Для дегустации чая нужна тишина в душе.",
+        "es": "Catar té requiere una mente serena.",
+        "pt-BR": "Provar chá pede uma mente calma."
+      }
+    ]
+  },
+  "龙井": {
+    "ru": "лунцзин (чай «колодец дракона»)",
+    "es": "té Longjing",
+    "pt-BR": "chá Longjing",
+    "examples": [
+      {
+        "ru": "Лунцзин — знаменитый чай Ханчжоу.",
+        "es": "El Longjing es un té famoso de Hangzhou.",
+        "pt-BR": "Longjing é um chá famoso de Hangzhou."
+      },
+      {
+        "ru": "Лунцзин до Цинмина очень дорогой.",
+        "es": "El Longjing anterior a Qingming es muy caro.",
+        "pt-BR": "O Longjing antes de Qingming é muito caro."
+      }
+    ]
+  },
+  "铁观音": {
+    "ru": "Тегуаньинь (улун)",
+    "es": "Tieguanyin (oolong)",
+    "pt-BR": "Tieguanyin (oolong)",
+    "examples": [
+      {
+        "ru": "Тегуаньинь — знаменитый чай Фуцзяни.",
+        "es": "El Tieguanyin es un té famoso de Fujian.",
+        "pt-BR": "Tieguanyin é um chá famoso de Fujian."
+      },
+      {
+        "ru": "У этого Тегуаньинь прекрасное сладкое послевкусие.",
+        "es": "Este Tieguanyin tiene un rico retrogusto dulce.",
+        "pt-BR": "Este Tieguanyin tem um belo gosto doce no final."
+      }
+    ]
+  },
+  "茶馆": {
+    "ru": "чайная / чайный дом",
+    "es": "casa de té",
+    "pt-BR": "casa de chá",
+    "examples": [
+      {
+        "ru": "Старые пекинцы любят чайные.",
+        "es": "A los viejos pekineses les encantan las casas de té.",
+        "pt-BR": "Os velhos pequineses adoram casas de chá."
+      },
+      {
+        "ru": "В чайной можно слушать сяньшэн.",
+        "es": "En la casa de té se puede oír crosstalk.",
+        "pt-BR": "Na casa de chá dá para ouvir xiangsheng."
+      }
+    ]
+  },
+  "以茶会友": {
+    "ru": "знакомиться за чаем / дружить через чай",
+    "es": "hacer amigos con té",
+    "pt-BR": "fazer amigos em torno do chá",
+    "examples": [
+      {
+        "ru": "Дружить за чаем — китайская традиция.",
+        "es": "Hacer amigos con té es una tradición china.",
+        "pt-BR": "Fazer amigos em torno do chá é uma tradição chinesa."
+      },
+      {
+        "ru": "Сегодня за чаем отлично поговорили.",
+        "es": "Hoy nos vimos con té y charlamos muy bien.",
+        "pt-BR": "Hoje nos vimos em torno do chá e conversamos muito bem."
+      }
+    ]
+  },
+  "回甘": {
+    "ru": "сладкое послевкусие (чая) / хуэйгань",
+    "es": "retrogusto dulce (del té)",
+    "pt-BR": "gosto doce residual (do chá)",
+    "examples": [
+      {
+        "ru": "У хорошего чая есть сладкое послевкусие.",
+        "es": "Un buen té deja un retrogusto dulce.",
+        "pt-BR": "Um bom chá deixa um gosto doce residual."
+      },
+      {
+        "ru": "Послевкусие этого чая долгое.",
+        "es": "El retrogusto de este té dura mucho.",
+        "pt-BR": "O gosto residual deste chá dura bastante."
+      }
+    ]
+  },
+  "长城": {
+    "ru": "Великая стена",
+    "es": "Gran Muralla",
+    "pt-BR": "Grande Muralha",
+    "examples": [
+      {
+        "ru": "Великая стена — чудо света.",
+        "es": "La Gran Muralla es una maravilla del mundo.",
+        "pt-BR": "A Grande Muralha é uma maravilha do mundo."
+      },
+      {
+        "ru": "Мы ходили по Великой стене пешком.",
+        "es": "Hicimos senderismo en la Gran Muralla.",
+        "pt-BR": "Fizemos trilha na Grande Muralha."
+      }
+    ]
+  },
+  "故宫": {
+    "ru": "Запретный город / Гугун",
+    "es": "Ciudad Prohibida",
+    "pt-BR": "Cidade Proibida",
+    "examples": [
+      {
+        "ru": "Запретный город в центре Пекина.",
+        "es": "La Ciudad Prohibida está en el centro de Pekín.",
+        "pt-BR": "A Cidade Proibida fica no centro de Pequim."
+      },
+      {
+        "ru": "Гугуну больше шестисот лет.",
+        "es": "La Ciudad Prohibida tiene más de 600 años.",
+        "pt-BR": "A Cidade Proibida tem mais de 600 anos."
+      }
+    ]
+  },
+  "天安门": {
+    "ru": "Тяньаньмэнь",
+    "es": "Tiananmen",
+    "pt-BR": "Tiananmen",
+    "examples": [
+      {
+        "ru": "Площадь Тяньаньмэнь очень большая.",
+        "es": "La plaza de Tiananmen es enorme.",
+        "pt-BR": "A praça Tiananmen é enorme."
+      },
+      {
+        "ru": "Тяньаньмэнь — символ Пекина.",
+        "es": "Tiananmen es un símbolo de Pekín.",
+        "pt-BR": "Tiananmen é um símbolo de Pequim."
+      }
+    ]
+  },
+  "西湖": {
+    "ru": "Западное озеро / Сиху",
+    "es": "Lago del Oeste / Xihu",
+    "pt-BR": "Lago do Oeste / Xihu",
+    "examples": [
+      {
+        "ru": "Пейзаж Западного озера как картина.",
+        "es": "El paisaje del Lago del Oeste es de postal.",
+        "pt-BR": "A paisagem do Lago do Oeste é de cartão-postal."
+      },
+      {
+        "ru": "Мы гуляли вдоль Западного озера.",
+        "es": "Paseamos junto al Lago del Oeste.",
+        "pt-BR": "Passeamos à beira do Lago do Oeste."
+      }
+    ]
+  },
+  "兵马俑": {
+    "ru": "терракотовая армия",
+    "es": "ejército de terracota",
+    "pt-BR": "exército de terracota",
+    "examples": [
+      {
+        "ru": "Терракотовая армия в Сиане.",
+        "es": "El ejército de terracota está en Xi'an.",
+        "pt-BR": "O exército de terracota fica em Xi'an."
+      },
+      {
+        "ru": "Терракотовая армия очень величественна.",
+        "es": "El ejército de terracota es espectacular.",
+        "pt-BR": "O exército de terracota é espetacular."
+      }
+    ]
+  },
+  "黄山": {
+    "ru": "гора Хуаншань",
+    "es": "monte Huang / Huangshan",
+    "pt-BR": "monte Huang / Huangshan",
+    "examples": [
+      {
+        "ru": "Хуаншань славится причудливыми соснами и скалами.",
+        "es": "Huangshan es famosa por sus pinos y rocas extraños.",
+        "pt-BR": "Huangshan é famosa por pinheiros e rochas estranhos."
+      },
+      {
+        "ru": "Мы поднялись на Хуаншань встретить рассвет.",
+        "es": "Subimos Huangshan a ver el amanecer.",
+        "pt-BR": "Subimos Huangshan para ver o nascer do sol."
+      }
+    ]
+  },
+  "桂林": {
+    "ru": "Гуйлинь",
+    "es": "Guilin",
+    "pt-BR": "Guilin",
+    "examples": [
+      {
+        "ru": "Пейзажи Гуйлиня — лучшие под небесами.",
+        "es": "Los paisajes de Guilin son los más bellos bajo el cielo.",
+        "pt-BR": "As paisagens de Guilin são as mais belas sob o céu."
+      },
+      {
+        "ru": "Мы ездили в Гуйлинь кататься по Лицзян.",
+        "es": "Fuimos a Guilin a navegar el río Li.",
+        "pt-BR": "Fomos a Guilin navegar o rio Li."
+      }
+    ]
+  },
+  "布达拉宫": {
+    "ru": "дворец Потала",
+    "es": "Palacio de Potala",
+    "pt-BR": "Palácio de Potala",
+    "examples": [
+      {
+        "ru": "Дворец Потала в Лхасе.",
+        "es": "El Palacio de Potala está en Lhasa.",
+        "pt-BR": "O Palácio de Potala fica em Lhasa."
+      },
+      {
+        "ru": "Потала очень величественна.",
+        "es": "El Palacio de Potala es imponente.",
+        "pt-BR": "O Palácio de Potala é imponente."
+      }
+    ]
+  },
+  "外滩": {
+    "ru": "набережная Вайтань (Шанхай)",
+    "es": "el Bund (Shanghái)",
+    "pt-BR": "o Bund (Xangai)",
+    "examples": [
+      {
+        "ru": "Ночной вид Вайтаня очень красив.",
+        "es": "El Bund de noche es precioso.",
+        "pt-BR": "O Bund à noite é lindo."
+      },
+      {
+        "ru": "Мы ходили на Вайтань смотреть Восточную жемчужину.",
+        "es": "Fuimos al Bund a ver la Perla de Oriente.",
+        "pt-BR": "Fomos ao Bund ver a Pérola do Oriente."
+      }
+    ]
+  },
+  "苏州园林": {
+    "ru": "сады Сучжоу",
+    "es": "jardines de Suzhou",
+    "pt-BR": "jardins de Suzhou",
+    "examples": [
+      {
+        "ru": "Сады Сучжоу очень изысканные.",
+        "es": "Los jardines de Suzhou son exquisitos.",
+        "pt-BR": "Os jardins de Suzhou são requintados."
+      },
+      {
+        "ru": "Сад скромного чиновника — знаменитый сад Сучжоу.",
+        "es": "El Jardín del Administrador Humilde es un jardín famoso de Suzhou.",
+        "pt-BR": "O Jardim do Administrador Humilde é um jardim famoso de Suzhou."
+      }
+    ]
+  },
+  "生肖": {
+    "ru": "китайский зодиак / шэнсяо",
+    "es": "zodíaco chino",
+    "pt-BR": "zodíaco chinês",
+    "examples": [
+      {
+        "ru": "Какой у тебя знак зодиака?",
+        "es": "¿Cuál es tu signo del zodíaco chino?",
+        "pt-BR": "Qual é o seu signo do zodíaco chinês?"
+      },
+      {
+        "ru": "Знаков зодиака двенадцать.",
+        "es": "Hay doce signos del zodíaco.",
+        "pt-BR": "Há doze signos do zodíaco."
+      }
+    ]
+  },
+  "鼠": {
+    "ru": "Крыса (зодиак)",
+    "es": "Rata (zodíaco)",
+    "pt-BR": "Rato (zodíaco)",
+    "examples": [
+      {
+        "ru": "Рождённые в год Крысы очень умные.",
+        "es": "Los nacidos en el Año de la Rata son listos.",
+        "pt-BR": "Quem nasce no Ano do Rato é esperto."
+      },
+      {
+        "ru": "Крыса — первый знак зодиака.",
+        "es": "La Rata es el primer signo del zodíaco.",
+        "pt-BR": "O Rato é o primeiro signo do zodíaco."
+      }
+    ]
+  },
+  "龙": {
+    "ru": "Дракон (зодиак)",
+    "es": "Dragón (zodíaco)",
+    "pt-BR": "Dragão (zodíaco)",
+    "examples": [
+      {
+        "ru": "Дракон — самый важный знак китайского зодиака.",
+        "es": "El Dragón es el signo más importante del zodíaco chino.",
+        "pt-BR": "O Dragão é o signo mais importante do zodíaco chinês."
+      },
+      {
+        "ru": "Рождённые в год Дракона очень энергичные.",
+        "es": "Los nacidos en el Año del Dragón son enérgicos.",
+        "pt-BR": "Quem nasce no Ano do Dragão é energético."
+      }
+    ]
+  },
+  "虎": {
+    "ru": "Тигр (зодиак)",
+    "es": "Tigre (zodíaco)",
+    "pt-BR": "Tigre (zodíaco)",
+    "examples": [
+      {
+        "ru": "В год Тигра рождается много детей.",
+        "es": "En el Año del Tigre nacen muchos niños.",
+        "pt-BR": "No Ano do Tigre nascem muitas crianças."
+      },
+      {
+        "ru": "Рождённые в год Тигра очень смелые.",
+        "es": "Los nacidos en el Año del Tigre son valientes.",
+        "pt-BR": "Quem nasce no Ano do Tigre é corajoso."
+      }
+    ]
+  },
+  "兔": {
+    "ru": "Кролик (зодиак)",
+    "es": "Conejo (zodíaco)",
+    "pt-BR": "Coelho (zodíaco)",
+    "examples": [
+      {
+        "ru": "Рождённые в год Кролика мягкие характером.",
+        "es": "Los nacidos en el Año del Conejo son gentiles.",
+        "pt-BR": "Quem nasce no Ano do Coelho é gentil."
+      },
+      {
+        "ru": "В этом году у знака Кролика хорошая удача.",
+        "es": "El signo Conejo tiene buena fortuna este año.",
+        "pt-BR": "O signo Coelho tem boa sorte este ano."
+      }
+    ]
+  },
+  "蛇": {
+    "ru": "Змея (зодиак)",
+    "es": "Serpiente (zodíaco)",
+    "pt-BR": "Serpente (zodíaco)",
+    "examples": [
+      {
+        "ru": "Рождённые в год Змеи очень мудрые.",
+        "es": "Los nacidos en el Año de la Serpiente son sabios.",
+        "pt-BR": "Quem nasce no Ano da Serpente é sábio."
+      },
+      {
+        "ru": "Змея в зодиаке шестая.",
+        "es": "La Serpiente es sexta en el zodíaco.",
+        "pt-BR": "A Serpente é a sexta no zodíaco."
+      }
+    ]
+  },
+  "马": {
+    "ru": "Лошадь (зодиак)",
+    "es": "Caballo (zodíaco)",
+    "pt-BR": "Cavalo (zodíaco)",
+    "examples": [
+      {
+        "ru": "Рождённые в год Лошади любят свободу.",
+        "es": "Los nacidos en el Año del Caballo aman la libertad.",
+        "pt-BR": "Quem nasce no Ano do Cavalo ama a liberdade."
+      },
+      {
+        "ru": "Лошадь символизирует успех.",
+        "es": "El Caballo simboliza el éxito.",
+        "pt-BR": "O Cavalo simboliza o sucesso."
+      }
+    ]
+  },
+  "羊": {
+    "ru": "Коза / Овца (зодиак)",
+    "es": "Cabra (zodíaco)",
+    "pt-BR": "Cabra (zodíaco)",
+    "examples": [
+      {
+        "ru": "Рождённые в год Козы очень нежные.",
+        "es": "Los nacidos en el Año de la Cabra son tiernos.",
+        "pt-BR": "Quem nasce no Ano da Cabra é terno."
+      },
+      {
+        "ru": "В год Козы родилось немало людей.",
+        "es": "Nacieron bastantes personas en el Año de la Cabra.",
+        "pt-BR": "Nasceram bastante pessoas no Ano da Cabra."
+      }
+    ]
+  },
+  "猴": {
+    "ru": "Обезьяна (зодиак)",
+    "es": "Mono (zodíaco)",
+    "pt-BR": "Macaco (zodíaco)",
+    "examples": [
+      {
+        "ru": "Рождённые в год Обезьяны очень сообразительные.",
+        "es": "Los nacidos en el Año del Mono son astutos.",
+        "pt-BR": "Quem nasce no Ano do Macaco é esperto."
+      },
+      {
+        "ru": "В год Обезьяны все хотят смышлёных детей.",
+        "es": "En años del Mono la gente desea hijos listos.",
+        "pt-BR": "Em anos do Macaco as pessoas querem filhos espertos."
+      }
+    ]
+  },
+  "猪": {
+    "ru": "Свинья (зодиак)",
+    "es": "Cerdo (zodíaco)",
+    "pt-BR": "Porco (zodíaco)",
+    "examples": [
+      {
+        "ru": "Рождённые в год Свиньи удачливы.",
+        "es": "Los nacidos en el Año del Cerdo tienen buena fortuna.",
+        "pt-BR": "Quem nasce no Ano do Porco tem boa sorte."
+      },
+      {
+        "ru": "Свинья — последний знак зодиака.",
+        "es": "El Cerdo es el último signo del zodíaco.",
+        "pt-BR": "O Porco é o último signo do zodíaco."
+      }
+    ]
+  },
+  "书法": {
+    "ru": "каллиграфия",
+    "es": "caligrafía",
+    "pt-BR": "caligrafia",
+    "examples": [
+      {
+        "ru": "Каллиграфия — традиционное китайское искусство.",
+        "es": "La caligrafía es un arte tradicional chino.",
+        "pt-BR": "A caligrafia é uma arte tradicional chinesa."
+      },
+      {
+        "ru": "Он занимается каллиграфией уже десять лет.",
+        "es": "Lleva diez años practicando caligrafía.",
+        "pt-BR": "Ele pratica caligrafia há dez anos."
+      }
+    ]
+  },
+  "国画": {
+    "ru": "гохуа / китайская живопись",
+    "es": "pintura china / guohua",
+    "pt-BR": "pintura chinesa / guohua",
+    "examples": [
+      {
+        "ru": "Эта картина гохуа — пейзаж.",
+        "es": "Esta pintura china es un paisaje.",
+        "pt-BR": "Esta pintura chinesa é uma paisagem."
+      },
+      {
+        "ru": "Гохуа пишут кистью и тушью.",
+        "es": "La pintura china usa pincel y tinta.",
+        "pt-BR": "A pintura chinesa usa pincel e tinta."
+      }
+    ]
+  },
+  "京剧": {
+    "ru": "пекинская опера",
+    "es": "ópera de Pekín",
+    "pt-BR": "ópera de Pequim",
+    "examples": [
+      {
+        "ru": "Грим пекинской оперы очень характерный.",
+        "es": "El maquillaje de la ópera de Pekín es muy distintivo.",
+        "pt-BR": "A maquiagem da ópera de Pequim é bem característica."
+      },
+      {
+        "ru": "Мы ходили слушать пекинскую оперу.",
+        "es": "Fuimos a oír ópera de Pekín.",
+        "pt-BR": "Fomos ouvir ópera de Pequim."
+      }
+    ]
+  },
+  "剪纸": {
+    "ru": "вырезание из бумаги",
+    "es": "recorte de papel",
+    "pt-BR": "recorte em papel",
+    "examples": [
+      {
+        "ru": "На окне красные вырезки из бумаги.",
+        "es": "En la ventana hay recortes de papel rojos.",
+        "pt-BR": "Na janela há recortes de papel vermelhos."
+      },
+      {
+        "ru": "Вырезание из бумаги — народное искусство.",
+        "es": "El recorte de papel es un arte popular.",
+        "pt-BR": "O recorte em papel é uma arte popular."
+      }
+    ]
+  },
+  "刺绣": {
+    "ru": "вышивка",
+    "es": "bordado",
+    "pt-BR": "bordado",
+    "examples": [
+      {
+        "ru": "Сучжоуская вышивка очень знаменита.",
+        "es": "El bordado de Suzhou es muy famoso.",
+        "pt-BR": "O bordado de Suzhou é muito famoso."
+      },
+      {
+        "ru": "Эта вышивка очень тонкая.",
+        "es": "Este bordado es muy fino.",
+        "pt-BR": "Este bordado é muito fino."
+      }
+    ]
+  },
+  "陶瓷": {
+    "ru": "фарфор / керамика",
+    "es": "porcelana / cerámica",
+    "pt-BR": "porcelana / cerâmica",
+    "examples": [
+      {
+        "ru": "Фарфор Цзиндэчжэня известен во всём мире.",
+        "es": "La porcelana de Jingdezhen es famosa en el mundo.",
+        "pt-BR": "A porcelana de Jingdezhen é famosa no mundo."
+      },
+      {
+        "ru": "Эта керамическая ваза очень изящная.",
+        "es": "Este jarrón de cerámica es exquisito.",
+        "pt-BR": "Este vaso de cerâmica é requintado."
+      }
+    ]
+  },
+  "二胡": {
+    "ru": "эрху (двухструнная скрипка)",
+    "es": "erhu (fiddle de dos cuerdas)",
+    "pt-BR": "erhu (rabeca de duas cordas)",
+    "examples": [
+      {
+        "ru": "Она играет на эрху.",
+        "es": "Toca el erhu.",
+        "pt-BR": "Ela toca erhu."
+      },
+      {
+        "ru": "Звук эрху очень трогательный.",
+        "es": "El sonido del erhu es muy emotivo.",
+        "pt-BR": "O som do erhu é muito emocionante."
+      }
+    ]
+  },
+  "古筝": {
+    "ru": "гучжэн (цитра)",
+    "es": "guzheng (cítara)",
+    "pt-BR": "guzheng (cítara)",
+    "examples": [
+      {
+        "ru": "Она учит гучжэн с детства.",
+        "es": "Estudia guzheng desde niña.",
+        "pt-BR": "Ela estuda guzheng desde criança."
+      },
+      {
+        "ru": "Мелодии гучжэн очень изящные.",
+        "es": "La música de guzheng es muy elegante.",
+        "pt-BR": "A música de guzheng é muito elegante."
+      }
+    ]
+  },
+  "相声": {
+    "ru": "сяншэн / комический диалог",
+    "es": "xiangsheng / diálogo cómico",
+    "pt-BR": "xiangsheng / diálogo cômico",
+    "examples": [
+      {
+        "ru": "Сяншэн заставляет хохотать.",
+        "es": "El xiangsheng hace reír a carcajadas.",
+        "pt-BR": "O xiangsheng faz rir à toa."
+      },
+      {
+        "ru": "Мы слушали сяншэн в чайной.",
+        "es": "Oímos xiangsheng en una casa de té.",
+        "pt-BR": "Ouvimos xiangsheng numa casa de chá."
+      }
+    ]
+  },
+  "武术": {
+    "ru": "ушу / боевые искусства",
+    "es": "wushu / artes marciales",
+    "pt-BR": "wushu / artes marciais",
+    "examples": [
+      {
+        "ru": "Ушу — традиционный китайский спорт.",
+        "es": "El wushu es un deporte tradicional chino.",
+        "pt-BR": "O wushu é um esporte tradicional chinês."
+      },
+      {
+        "ru": "Он занимается ушу с детства.",
+        "es": "Practica artes marciales desde niño.",
+        "pt-BR": "Ele pratica artes marciais desde criança."
+      }
+    ]
+  },
+  "功夫": {
+    "ru": "кунгфу / мастерство",
+    "es": "kung fu",
+    "pt-BR": "kung fu",
+    "examples": [
+      {
+        "ru": "Китайское кунгфу известно во всём мире.",
+        "es": "El kung fu chino es famoso en el mundo.",
+        "pt-BR": "O kung fu chinês é famoso no mundo."
+      },
+      {
+        "ru": "Он занимается кунгфу десять лет.",
+        "es": "Lleva diez años entrenando kung fu.",
+        "pt-BR": "Ele treina kung fu há dez anos."
+      }
+    ]
+  },
+  "太极拳": {
+    "ru": "тайцзицюань / тайцзи",
+    "es": "tai chi",
+    "pt-BR": "tai chi",
+    "examples": [
+      {
+        "ru": "Движения тайцзи очень медленные.",
+        "es": "Los movimientos del tai chi son lentos.",
+        "pt-BR": "Os movimentos do tai chi são lentos."
+      },
+      {
+        "ru": "Пожилые часто делают тайцзи в парке.",
+        "es": "Los mayores suelen practicar tai chi en el parque.",
+        "pt-BR": "Idosos costumam praticar tai chi no parque."
+      }
+    ]
+  },
+  "咏春": {
+    "ru": "юнчунь / вин-чун",
+    "es": "wing chun",
+    "pt-BR": "wing chun",
+    "examples": [
+      {
+        "ru": "Вин-чун родом из Гуандуна.",
+        "es": "El wing chun viene de Guangdong.",
+        "pt-BR": "O wing chun vem de Guangdong."
+      },
+      {
+        "ru": "Вин-чун делает упор на ближний бой.",
+        "es": "El wing chun se centra en el combate cercano.",
+        "pt-BR": "O wing chun foca no combate curto."
+      }
+    ]
+  },
+  "少林寺": {
+    "ru": "храм Шаолинь",
+    "es": "templo Shaolin",
+    "pt-BR": "templo Shaolin",
+    "examples": [
+      {
+        "ru": "Шаолинь — колыбель кунгфу.",
+        "es": "El templo Shaolin es la cuna del kung fu.",
+        "pt-BR": "O templo Shaolin é o berço do kung fu."
+      },
+      {
+        "ru": "Мы ездили в Шаолинь на экскурсию.",
+        "es": "Visitamos el templo Shaolin.",
+        "pt-BR": "Visitamos o templo Shaolin."
+      }
+    ]
+  },
+  "师傅": {
+    "ru": "мастер / шифу",
+    "es": "maestro / shifu",
+    "pt-BR": "mestre / shifu",
+    "examples": [
+      {
+        "ru": "Мастер многому меня научил.",
+        "es": "El maestro me enseñó mucho.",
+        "pt-BR": "O mestre me ensinou muito."
+      },
+      {
+        "ru": "Мастер, покажите, пожалуйста.",
+        "es": "Maestro, demuestre, por favor.",
+        "pt-BR": "Mestre, demonstre, por favor."
+      }
+    ]
+  },
+  "弟子": {
+    "ru": "ученик / последователь",
+    "es": "discípulo / alumno",
+    "pt-BR": "discípulo / aluno",
+    "examples": [
+      {
+        "ru": "Он ученик храма Шаолинь.",
+        "es": "Es discípulo del templo Shaolin.",
+        "pt-BR": "Ele é discípulo do templo Shaolin."
+      },
+      {
+        "ru": "Ученики должны усердно тренироваться.",
+        "es": "Los discípulos deben entrenar con seriedad.",
+        "pt-BR": "Os discípulos devem treinar com seriedade."
+      }
+    ]
+  },
+  "练功": {
+    "ru": "тренироваться (в боевых искусствах)",
+    "es": "entrenar (artes marciales)",
+    "pt-BR": "treinar (artes marciais)",
+    "examples": [
+      {
+        "ru": "Каждый день тренируемся по два часа.",
+        "es": "Se entrena dos horas al día.",
+        "pt-BR": "Treina-se duas horas por dia."
+      },
+      {
+        "ru": "Тренировки требуют постоянства.",
+        "es": "El entrenamiento requiere constancia.",
+        "pt-BR": "O treino exige constância."
+      }
+    ]
+  },
+  "套路": {
+    "ru": "форма / таолу (комплекс движений)",
+    "es": "forma / rutina (marcial)",
+    "pt-BR": "forma / rotina (marcial)",
+    "examples": [
+      {
+        "ru": "Этот комплекс очень сложный.",
+        "es": "Esta forma es muy difícil.",
+        "pt-BR": "Esta forma é muito difícil."
+      },
+      {
+        "ru": "Он показал комплекс кулачной техники.",
+        "es": "Interpretó una forma de puño.",
+        "pt-BR": "Ele apresentou uma forma de soco."
+      }
+    ]
+  },
+  "内功": {
+    "ru": "внутренняя работа / нэйгун",
+    "es": "habilidad interna / neigong",
+    "pt-BR": "habilidade interna / neigong",
+    "examples": [
+      {
+        "ru": "Нэйгун требует долгой практики.",
+        "es": "La habilidad interna requiere un cultivo largo.",
+        "pt-BR": "A habilidade interna exige cultivo longo."
+      },
+      {
+        "ru": "У него глубокий нэйгун.",
+        "es": "Su habilidad interna es profunda.",
+        "pt-BR": "A habilidade interna dele é profunda."
+      }
+    ]
+  },
+  "比武": {
+    "ru": "поединок / сравнение мастерства",
+    "es": "combate marcial / desafío",
+    "pt-BR": "combate marcial / desafio",
+    "examples": [
+      {
+        "ru": "Они соревнуются в поединке.",
+        "es": "Están en un combate marcial.",
+        "pt-BR": "Eles estão num combate marcial."
+      },
+      {
+        "ru": "В поединке останавливаются, коснувшись противника.",
+        "es": "En el combate se detiene al contacto.",
+        "pt-BR": "No combate para-se no contato."
+      }
+    ]
+  }
+}
