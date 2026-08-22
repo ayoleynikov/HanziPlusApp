@@ -8,14 +8,32 @@
       {
         "hanzi": "我每天吃一个苹果。",
         "pinyin": "Wǒ měitiān chī yī gè píngguǒ.",
-        "english": "I eat an apple every day."
+        "english": "I eat an apple every day.",
+        "translations": {
+          "en": "I eat an apple every day.",
+          "ru": "Я каждый день ем яблоко.",
+          "es": "Como una manzana todos los días.",
+          "pt-BR": "Como uma maçã todos os dias."
+        }
       },
       {
         "hanzi": "这些苹果很甜。",
         "pinyin": "Zhèxiē píngguǒ hěn tián.",
-        "english": "These apples are very sweet."
+        "english": "These apples are very sweet.",
+        "translations": {
+          "en": "These apples are very sweet.",
+          "ru": "Эти яблоки очень сладкие.",
+          "es": "Estas manzanas son muy dulces.",
+          "pt-BR": "Estas maçãs são muito doces."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "apple",
+      "ru": "яблоко",
+      "es": "manzana",
+      "pt-BR": "maçã"
+    }
   },
   {
     "section": "fruits",
@@ -26,14 +44,32 @@
       {
         "hanzi": "香蕉放久了会变黑。",
         "pinyin": "Xiāngjiāo fàng jiǔ le huì biàn hēi.",
-        "english": "Bananas turn black if kept too long."
+        "english": "Bananas turn black if kept too long.",
+        "translations": {
+          "en": "Bananas turn black if kept too long.",
+          "ru": "Бананы чернеют, если долго лежат.",
+          "es": "Los plátanos se ponen negros si se guardan mucho.",
+          "pt-BR": "As bananas escurecem se ficarem guardadas tempo demais."
+        }
       },
       {
         "hanzi": "孩子喜欢吃香蕉。",
         "pinyin": "Háizi xǐhuan chī xiāngjiāo.",
-        "english": "Kids like eating bananas."
+        "english": "Kids like eating bananas.",
+        "translations": {
+          "en": "Kids like eating bananas.",
+          "ru": "Дети любят бананы.",
+          "es": "A los niños les gusta el plátano.",
+          "pt-BR": "Crianças gostam de banana."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "banana",
+      "ru": "банан",
+      "es": "plátano / banana",
+      "pt-BR": "banana"
+    }
   },
   {
     "section": "fruits",
@@ -44,14 +80,32 @@
       {
         "hanzi": "橙子维生素很丰富。",
         "pinyin": "Chéngzi wéishēngsù hěn fēngfù.",
-        "english": "Oranges are rich in vitamins."
+        "english": "Oranges are rich in vitamins.",
+        "translations": {
+          "en": "Oranges are rich in vitamins.",
+          "ru": "В апельсинах много витаминов.",
+          "es": "Las naranjas son ricas en vitaminas.",
+          "pt-BR": "As laranjas são ricas em vitaminas."
+        }
       },
       {
         "hanzi": "请给我两个橙子。",
         "pinyin": "Qǐng gěi wǒ liǎng gè chéngzi.",
-        "english": "Please give me two oranges."
+        "english": "Please give me two oranges.",
+        "translations": {
+          "en": "Please give me two oranges.",
+          "ru": "Дайте мне, пожалуйста, два апельсина.",
+          "es": "Deme dos naranjas, por favor.",
+          "pt-BR": "Me dê duas laranjas, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "orange",
+      "ru": "апельсин",
+      "es": "naranja",
+      "pt-BR": "laranja"
+    }
   },
   {
     "section": "fruits",
@@ -62,14 +116,32 @@
       {
         "hanzi": "这串葡萄很大。",
         "pinyin": "Zhè chuàn pútáo hěn dà.",
-        "english": "This bunch of grapes is big."
+        "english": "This bunch of grapes is big.",
+        "translations": {
+          "en": "This bunch of grapes is big.",
+          "ru": "Эта гроздь винограда большая.",
+          "es": "Este racimo de uvas es grande.",
+          "pt-BR": "Este cacho de uvas é grande."
+        }
       },
       {
         "hanzi": "夏天葡萄最好吃。",
         "pinyin": "Xiàtiān pútáo zuì hǎochī.",
-        "english": "Grapes taste best in summer."
+        "english": "Grapes taste best in summer.",
+        "translations": {
+          "en": "Grapes taste best in summer.",
+          "ru": "Виноград лучше всего летом.",
+          "es": "Las uvas saben mejor en verano.",
+          "pt-BR": "Uva fica melhor no verão."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "grape",
+      "ru": "виноград",
+      "es": "uva",
+      "pt-BR": "uva"
+    }
   },
   {
     "section": "fruits",
@@ -80,14 +152,32 @@
       {
         "hanzi": "夏天吃西瓜很解暑。",
         "pinyin": "Xiàtiān chī xīguā hěn jiěshǔ.",
-        "english": "Watermelon is refreshing in summer."
+        "english": "Watermelon is refreshing in summer.",
+        "translations": {
+          "en": "Watermelon is refreshing in summer.",
+          "ru": "Арбуз освежает летом.",
+          "es": "La sandía refresca en verano.",
+          "pt-BR": "Melancia refresca no verão."
+        }
       },
       {
         "hanzi": "这个西瓜很甜。",
         "pinyin": "Zhège xīguā hěn tián.",
-        "english": "This watermelon is sweet."
+        "english": "This watermelon is sweet.",
+        "translations": {
+          "en": "This watermelon is sweet.",
+          "ru": "Этот арбуз сладкий.",
+          "es": "Esta sandía es dulce.",
+          "pt-BR": "Esta melancia é doce."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "watermelon",
+      "ru": "арбуз",
+      "es": "sandía",
+      "pt-BR": "melancia"
+    }
   },
   {
     "section": "fruits",
@@ -98,14 +188,32 @@
       {
         "hanzi": "草莓蛋糕很受欢迎。",
         "pinyin": "Cǎoméi dàngāo hěn shòu huānyíng.",
-        "english": "Strawberry cake is popular."
+        "english": "Strawberry cake is popular.",
+        "translations": {
+          "en": "Strawberry cake is popular.",
+          "ru": "Клубничный торт популярен.",
+          "es": "El pastel de fresa es popular.",
+          "pt-BR": "Bolo de morango é popular."
+        }
       },
       {
         "hanzi": "新鲜的草莓红了。",
         "pinyin": "Xīnxiān de cǎoméi hóng le.",
-        "english": "Fresh strawberries have turned red."
+        "english": "Fresh strawberries have turned red.",
+        "translations": {
+          "en": "Fresh strawberries have turned red.",
+          "ru": "Свежая клубника уже покраснела.",
+          "es": "Las fresas frescas ya están rojas.",
+          "pt-BR": "Os morangos frescos já estão vermelhos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "strawberry",
+      "ru": "клубника",
+      "es": "fresa",
+      "pt-BR": "morango"
+    }
   },
   {
     "section": "fruits",
@@ -116,14 +224,32 @@
       {
         "hanzi": "桃子熟了很香。",
         "pinyin": "Táozi shú le hěn xiāng.",
-        "english": "Ripe peaches smell wonderful."
+        "english": "Ripe peaches smell wonderful.",
+        "translations": {
+          "en": "Ripe peaches smell wonderful.",
+          "ru": "Спелые персики чудесно пахнут.",
+          "es": "Los duraznos maduros huelen muy bien.",
+          "pt-BR": "Pêssegos maduros cheiram muito bem."
+        }
       },
       {
         "hanzi": "我买了三斤桃子。",
         "pinyin": "Wǒ mǎi le sān jīn táozi.",
-        "english": "I bought three jin of peaches."
+        "english": "I bought three jin of peaches.",
+        "translations": {
+          "en": "I bought three jin of peaches.",
+          "ru": "Я купил три цзиня персиков.",
+          "es": "Compré tres jin de duraznos.",
+          "pt-BR": "Comprei três jin de pêssego."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "peach",
+      "ru": "персик",
+      "es": "melocotón / durazno",
+      "pt-BR": "pêssego"
+    }
   },
   {
     "section": "fruits",
@@ -134,14 +260,32 @@
       {
         "hanzi": "这种梨水分很多。",
         "pinyin": "Zhè zhǒng lí shuǐfèn hěn duō.",
-        "english": "This type of pear is very juicy."
+        "english": "This type of pear is very juicy.",
+        "translations": {
+          "en": "This type of pear is very juicy.",
+          "ru": "Этот сорт груш очень сочный.",
+          "es": "Este tipo de pera es muy jugosa.",
+          "pt-BR": "Este tipo de pera é bem suculenta."
+        }
       },
       {
         "hanzi": "冬天吃梨对嗓子好。",
         "pinyin": "Dōngtiān chī lí duì sǎngzi hǎo.",
-        "english": "Eating pears in winter is good for your throat."
+        "english": "Eating pears in winter is good for your throat.",
+        "translations": {
+          "en": "Eating pears in winter is good for your throat.",
+          "ru": "Груши зимой полезны для горла.",
+          "es": "Comer peras en invierno es bueno para la garganta.",
+          "pt-BR": "Comer pera no inverno faz bem à garganta."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "pear",
+      "ru": "груша",
+      "es": "pera",
+      "pt-BR": "pera"
+    }
   },
   {
     "section": "fruits",
@@ -152,14 +296,32 @@
       {
         "hanzi": "芒果是热带水果。",
         "pinyin": "Mángguǒ shì rèdài shuǐguǒ.",
-        "english": "Mangoes are tropical fruit."
+        "english": "Mangoes are tropical fruit.",
+        "translations": {
+          "en": "Mangoes are tropical fruit.",
+          "ru": "Манго — тропический фрукт.",
+          "es": "El mango es una fruta tropical.",
+          "pt-BR": "Manga é uma fruta tropical."
+        }
       },
       {
         "hanzi": "我喜欢芒果的味道。",
         "pinyin": "Wǒ xǐhuan mángguǒ de wèidào.",
-        "english": "I like the taste of mango."
+        "english": "I like the taste of mango.",
+        "translations": {
+          "en": "I like the taste of mango.",
+          "ru": "Мне нравится вкус манго.",
+          "es": "Me gusta el sabor del mango.",
+          "pt-BR": "Gosto do sabor da manga."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "mango",
+      "ru": "манго",
+      "es": "mango",
+      "pt-BR": "manga"
+    }
   },
   {
     "section": "fruits",
@@ -170,14 +332,32 @@
       {
         "hanzi": "樱桃季节很短。",
         "pinyin": "Yīngtáo jìjié hěn duǎn.",
-        "english": "Cherry season is short."
+        "english": "Cherry season is short.",
+        "translations": {
+          "en": "Cherry season is short.",
+          "ru": "Сезон вишни короткий.",
+          "es": "La temporada de cerezas es corta.",
+          "pt-BR": "A temporada de cereja é curta."
+        }
       },
       {
         "hanzi": "这些樱桃很新鲜。",
         "pinyin": "Zhèxiē yīngtáo hěn xīnxiān.",
-        "english": "These cherries are very fresh."
+        "english": "These cherries are very fresh.",
+        "translations": {
+          "en": "These cherries are very fresh.",
+          "ru": "Эти вишни очень свежие.",
+          "es": "Estas cerezas están muy frescas.",
+          "pt-BR": "Estas cerejas estão bem frescas."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "cherry",
+      "ru": "вишня / черешня",
+      "es": "cereza",
+      "pt-BR": "cereja"
+    }
   },
   {
     "section": "vegetables",
@@ -188,14 +368,32 @@
       {
         "hanzi": "白菜可以炒也可以煮。",
         "pinyin": "Báicài kěyǐ chǎo yě kěyǐ zhǔ.",
-        "english": "Cabbage can be stir-fried or boiled."
+        "english": "Cabbage can be stir-fried or boiled.",
+        "translations": {
+          "en": "Cabbage can be stir-fried or boiled.",
+          "ru": "Капусту можно жарить или варить.",
+          "es": "La col se puede saltear o hervir.",
+          "pt-BR": "O repolho pode ser refogado ou cozido."
+        }
       },
       {
         "hanzi": "我要一棵白菜。",
         "pinyin": "Wǒ yào yī kē báicài.",
-        "english": "I'd like one head of cabbage."
+        "english": "I'd like one head of cabbage.",
+        "translations": {
+          "en": "I'd like one head of cabbage.",
+          "ru": "Мне, пожалуйста, один кочан капусты.",
+          "es": "Quisiera una pieza de col china.",
+          "pt-BR": "Quero uma cabeça de repolho chinês."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Chinese cabbage",
+      "ru": "пекинская капуста",
+      "es": "col china",
+      "pt-BR": "repolho chinês"
+    }
   },
   {
     "section": "vegetables",
@@ -206,14 +404,32 @@
       {
         "hanzi": "西红柿炒鸡蛋很好吃。",
         "pinyin": "Xīhóngshì chǎo jīdàn hěn hǎochī.",
-        "english": "Tomato and egg stir-fry is delicious."
+        "english": "Tomato and egg stir-fry is delicious.",
+        "translations": {
+          "en": "Tomato and egg stir-fry is delicious.",
+          "ru": "Жареные помидоры с яйцом очень вкусные.",
+          "es": "El salteado de tomate y huevo está delicioso.",
+          "pt-BR": "Tomate com ovo mexido fica uma delícia."
+        }
       },
       {
         "hanzi": "这些西红柿很红。",
         "pinyin": "Zhèxiē xīhóngshì hěn hóng.",
-        "english": "These tomatoes are very red."
+        "english": "These tomatoes are very red.",
+        "translations": {
+          "en": "These tomatoes are very red.",
+          "ru": "Эти помидоры очень красные.",
+          "es": "Estos tomates están muy rojos.",
+          "pt-BR": "Estes tomates estão bem vermelhos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "tomato",
+      "ru": "помидор",
+      "es": "tomate",
+      "pt-BR": "tomate"
+    }
   },
   {
     "section": "vegetables",
@@ -224,14 +440,32 @@
       {
         "hanzi": "我喜欢吃炸土豆。",
         "pinyin": "Wǒ xǐhuan chī zhá tǔdòu.",
-        "english": "I like fried potatoes."
+        "english": "I like fried potatoes.",
+        "translations": {
+          "en": "I like fried potatoes.",
+          "ru": "Я люблю жареный картофель.",
+          "es": "Me gustan las patatas fritas.",
+          "pt-BR": "Gosto de batata frita."
+        }
       },
       {
         "hanzi": "土豆可以做成很多菜。",
         "pinyin": "Tǔdòu kěyǐ zuò chéng hěn duō cài.",
-        "english": "Potatoes can be made into many dishes."
+        "english": "Potatoes can be made into many dishes.",
+        "translations": {
+          "en": "Potatoes can be made into many dishes.",
+          "ru": "Из картофеля можно приготовить много блюд.",
+          "es": "Con patatas se pueden hacer muchos platos.",
+          "pt-BR": "Dá para fazer muitos pratos com batata."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "potato",
+      "ru": "картофель",
+      "es": "patata / papa",
+      "pt-BR": "batata"
+    }
   },
   {
     "section": "vegetables",
@@ -242,14 +476,32 @@
       {
         "hanzi": "胡萝卜对眼睛好。",
         "pinyin": "Húluóbo duì yǎnjing hǎo.",
-        "english": "Carrots are good for your eyes."
+        "english": "Carrots are good for your eyes.",
+        "translations": {
+          "en": "Carrots are good for your eyes.",
+          "ru": "Морковь полезна для глаз.",
+          "es": "Las zanahorias son buenas para la vista.",
+          "pt-BR": "Cenoura faz bem aos olhos."
+        }
       },
       {
         "hanzi": "请切一些胡萝卜。",
         "pinyin": "Qǐng qiē yīxiē húluóbo.",
-        "english": "Please cut some carrots."
+        "english": "Please cut some carrots.",
+        "translations": {
+          "en": "Please cut some carrots.",
+          "ru": "Нарежьте, пожалуйста, морковь.",
+          "es": "Corte unas zanahorias, por favor.",
+          "pt-BR": "Corte umas cenouras, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "carrot",
+      "ru": "морковь",
+      "es": "zanahoria",
+      "pt-BR": "cenoura"
+    }
   },
   {
     "section": "vegetables",
@@ -260,14 +512,32 @@
       {
         "hanzi": "夏天吃黄瓜很清爽。",
         "pinyin": "Xiàtiān chī huángguā hěn qīngshuǎng.",
-        "english": "Cucumber is refreshing in summer."
+        "english": "Cucumber is refreshing in summer.",
+        "translations": {
+          "en": "Cucumber is refreshing in summer.",
+          "ru": "Огурец освежает летом.",
+          "es": "El pepino refresca en verano.",
+          "pt-BR": "Pepino refresca no verão."
+        }
       },
       {
         "hanzi": "我做一个黄瓜沙拉。",
         "pinyin": "Wǒ zuò yī gè huángguā shālā.",
-        "english": "I'll make a cucumber salad."
+        "english": "I'll make a cucumber salad.",
+        "translations": {
+          "en": "I'll make a cucumber salad.",
+          "ru": "Сделаю салат из огурцов.",
+          "es": "Haré una ensalada de pepino.",
+          "pt-BR": "Vou fazer uma salada de pepino."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "cucumber",
+      "ru": "огурец",
+      "es": "pepino",
+      "pt-BR": "pepino"
+    }
   },
   {
     "section": "vegetables",
@@ -278,14 +548,32 @@
       {
         "hanzi": "鱼香茄子很下饭。",
         "pinyin": "Yúxiāng qiézi hěn xiàfàn.",
-        "english": "Yu Xiang eggplant goes well with rice."
+        "english": "Yu Xiang eggplant goes well with rice.",
+        "translations": {
+          "en": "Yu Xiang eggplant goes well with rice.",
+          "ru": "Баклажаны «юй сян» хорошо идут с рисом.",
+          "es": "La berenjena yu xiang queda bien con arroz.",
+          "pt-BR": "Berinjela yu xiang combina com arroz."
+        }
       },
       {
         "hanzi": "茄子要炒软才好吃。",
         "pinyin": "Qiézi yào chǎo ruǎn cái hǎochī.",
-        "english": "Eggplant needs to be cooked soft."
+        "english": "Eggplant needs to be cooked soft.",
+        "translations": {
+          "en": "Eggplant needs to be cooked soft.",
+          "ru": "Баклажан нужно хорошо протушить.",
+          "es": "La berenjena hay que cocinarla blandita.",
+          "pt-BR": "A berinjela precisa cozinhar até ficar macia."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "eggplant",
+      "ru": "баклажан",
+      "es": "berenjena",
+      "pt-BR": "berinjela"
+    }
   },
   {
     "section": "vegetables",
@@ -296,14 +584,32 @@
       {
         "hanzi": "菠菜含铁量高。",
         "pinyin": "Bōcài hán tiěliàng gāo.",
-        "english": "Spinach is high in iron."
+        "english": "Spinach is high in iron.",
+        "translations": {
+          "en": "Spinach is high in iron.",
+          "ru": "В шпинате много железа.",
+          "es": "Las espinacas tienen mucho hierro.",
+          "pt-BR": "Espinafre tem muito ferro."
+        }
       },
       {
         "hanzi": "请给我一把菠菜。",
         "pinyin": "Qǐng gěi wǒ yī bǎ bōcài.",
-        "english": "Please give me a bunch of spinach."
+        "english": "Please give me a bunch of spinach.",
+        "translations": {
+          "en": "Please give me a bunch of spinach.",
+          "ru": "Дайте мне пучок шпината.",
+          "es": "Deme un manojo de espinacas.",
+          "pt-BR": "Me dê um maço de espinafre."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "spinach",
+      "ru": "шпинат",
+      "es": "espinaca",
+      "pt-BR": "espinafre"
+    }
   },
   {
     "section": "vegetables",
@@ -314,14 +620,32 @@
       {
         "hanzi": "煮玉米很香。",
         "pinyin": "Zhǔ yùmǐ hěn xiāng.",
-        "english": "Boiled corn smells great."
+        "english": "Boiled corn smells great.",
+        "translations": {
+          "en": "Boiled corn smells great.",
+          "ru": "Варёная кукуруза отлично пахнет.",
+          "es": "El maíz hervido huele muy bien.",
+          "pt-BR": "Milho cozido cheira muito bem."
+        }
       },
       {
         "hanzi": "我买了一根玉米。",
         "pinyin": "Wǒ mǎi le yī gēn yùmǐ.",
-        "english": "I bought an ear of corn."
+        "english": "I bought an ear of corn.",
+        "translations": {
+          "en": "I bought an ear of corn.",
+          "ru": "Я купил початок кукурузы.",
+          "es": "Compré una mazorca de maíz.",
+          "pt-BR": "Comprei uma espiga de milho."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "corn",
+      "ru": "кукуруза",
+      "es": "maíz",
+      "pt-BR": "milho"
+    }
   },
   {
     "section": "vegetables",
@@ -332,14 +656,32 @@
       {
         "hanzi": "这个汤里加了蘑菇。",
         "pinyin": "Zhège tāng lǐ jiā le mógū.",
-        "english": "Mushrooms were added to this soup."
+        "english": "Mushrooms were added to this soup.",
+        "translations": {
+          "en": "Mushrooms were added to this soup.",
+          "ru": "В этот суп добавили грибы.",
+          "es": "A esta sopa le pusieron setas.",
+          "pt-BR": "Colocaram cogumelo nesta sopa."
+        }
       },
       {
         "hanzi": "蘑菇要洗干净。",
         "pinyin": "Mógū yào xǐ gānjìng.",
-        "english": "Mushrooms need to be washed clean."
+        "english": "Mushrooms need to be washed clean.",
+        "translations": {
+          "en": "Mushrooms need to be washed clean.",
+          "ru": "Грибы нужно хорошо промыть.",
+          "es": "Las setas hay que lavarlas bien.",
+          "pt-BR": "Cogumelo precisa lavar bem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "mushroom",
+      "ru": "гриб",
+      "es": "champiñón / seta",
+      "pt-BR": "cogumelo"
+    }
   },
   {
     "section": "vegetables",
@@ -350,14 +692,32 @@
       {
         "hanzi": "这个菜放了辣椒。",
         "pinyin": "Zhège cài fàng le làjiāo.",
-        "english": "This dish has chili peppers."
+        "english": "This dish has chili peppers.",
+        "translations": {
+          "en": "This dish has chili peppers.",
+          "ru": "В этом блюде есть перец чили.",
+          "es": "Este plato lleva chile.",
+          "pt-BR": "Este prato tem pimenta."
+        }
       },
       {
         "hanzi": "我不太能吃辣。",
         "pinyin": "Wǒ bú tài néng chī là.",
-        "english": "I can't handle spicy food well."
+        "english": "I can't handle spicy food well.",
+        "translations": {
+          "en": "I can't handle spicy food well.",
+          "ru": "Я плохо переношу острое.",
+          "es": "No aguanto bien lo picante.",
+          "pt-BR": "Não aguento bem comida picante."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "chili pepper",
+      "ru": "перец чили",
+      "es": "chile / ají",
+      "pt-BR": "pimenta"
+    }
   },
   {
     "section": "meat",
@@ -368,14 +728,32 @@
       {
         "hanzi": "牛肉面很受欢迎。",
         "pinyin": "Niúròu miàn hěn shòu huānyíng.",
-        "english": "Beef noodles are very popular."
+        "english": "Beef noodles are very popular.",
+        "translations": {
+          "en": "Beef noodles are very popular.",
+          "ru": "Лапша с говядиной очень популярна.",
+          "es": "Los fideos con ternera son muy populares.",
+          "pt-BR": "Macarrão com carne é muito popular."
+        }
       },
       {
         "hanzi": "请给我一斤牛肉。",
         "pinyin": "Qǐng gěi wǒ yī jīn niúròu.",
-        "english": "Please give me half a kilo of beef."
+        "english": "Please give me half a kilo of beef.",
+        "translations": {
+          "en": "Please give me half a kilo of beef.",
+          "ru": "Дайте мне, пожалуйста, цзинь говядины.",
+          "es": "Deme un jin de ternera, por favor.",
+          "pt-BR": "Me dê um jin de carne, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "beef",
+      "ru": "говядина",
+      "es": "ternera / carne de res",
+      "pt-BR": "carne bovina"
+    }
   },
   {
     "section": "meat",
@@ -386,14 +764,32 @@
       {
         "hanzi": "猪肉可以做成很多菜。",
         "pinyin": "Zhūròu kěyǐ zuò chéng hěn duō cài.",
-        "english": "Pork can be made into many dishes."
+        "english": "Pork can be made into many dishes.",
+        "translations": {
+          "en": "Pork can be made into many dishes.",
+          "ru": "Из свинины можно приготовить много блюд.",
+          "es": "Con cerdo se pueden hacer muchos platos.",
+          "pt-BR": "Dá para fazer muitos pratos com porco."
+        }
       },
       {
         "hanzi": "今天买了新鲜猪肉。",
         "pinyin": "Jīntiān mǎi le xīnxiān zhūròu.",
-        "english": "We bought fresh pork today."
+        "english": "We bought fresh pork today.",
+        "translations": {
+          "en": "We bought fresh pork today.",
+          "ru": "Сегодня купили свежую свинину.",
+          "es": "Hoy compramos cerdo fresco.",
+          "pt-BR": "Hoje compramos porco fresco."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "pork",
+      "ru": "свинина",
+      "es": "cerdo",
+      "pt-BR": "porco"
+    }
   },
   {
     "section": "meat",
@@ -404,14 +800,32 @@
       {
         "hanzi": "白切鸡是广东名菜。",
         "pinyin": "Báiqiē jī shì Guǎngdōng míngcài.",
-        "english": "White-cut chicken is a famous Cantonese dish."
+        "english": "White-cut chicken is a famous Cantonese dish.",
+        "translations": {
+          "en": "White-cut chicken is a famous Cantonese dish.",
+          "ru": "Курица «бай це» — знаменитое кантонское блюдо.",
+          "es": "El pollo blanco es un plato famoso de Cantón.",
+          "pt-BR": "Frango branco é um prato famoso de Cantão."
+        }
       },
       {
         "hanzi": "鸡肉比较健康。",
         "pinyin": "Jīròu bǐjiào jiànkāng.",
-        "english": "Chicken is relatively healthy."
+        "english": "Chicken is relatively healthy.",
+        "translations": {
+          "en": "Chicken is relatively healthy.",
+          "ru": "Курица сравнительно полезная.",
+          "es": "El pollo es relativamente saludable.",
+          "pt-BR": "Frango é relativamente saudável."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "chicken",
+      "ru": "курица",
+      "es": "pollo",
+      "pt-BR": "frango"
+    }
   },
   {
     "section": "meat",
@@ -422,14 +836,32 @@
       {
         "hanzi": "冬天吃羊肉火锅。",
         "pinyin": "Dōngtiān chī yángròu huǒguō.",
-        "english": "We eat lamb hot pot in winter."
+        "english": "We eat lamb hot pot in winter.",
+        "translations": {
+          "en": "We eat lamb hot pot in winter.",
+          "ru": "Зимой едим баранью хого.",
+          "es": "En invierno comemos hot pot de cordero.",
+          "pt-BR": "No inverno comemos hot pot de carneiro."
+        }
       },
       {
         "hanzi": "羊肉要炖很久。",
         "pinyin": "Yángròu yào dùn hěn jiǔ.",
-        "english": "Lamb needs to be stewed a long time."
+        "english": "Lamb needs to be stewed a long time.",
+        "translations": {
+          "en": "Lamb needs to be stewed a long time.",
+          "ru": "Баранину нужно долго тушить.",
+          "es": "El cordero hay que estofarlo mucho rato.",
+          "pt-BR": "Carneiro precisa cozinhar por bastante tempo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "lamb",
+      "ru": "баранина",
+      "es": "cordero / carne de ovino",
+      "pt-BR": "carneiro"
+    }
   },
   {
     "section": "meat",
@@ -440,14 +872,32 @@
       {
         "hanzi": "红烧排骨很好吃。",
         "pinyin": "Hóngshāo páigǔ hěn hǎochī.",
-        "english": "Braised ribs are delicious."
+        "english": "Braised ribs are delicious.",
+        "translations": {
+          "en": "Braised ribs are delicious.",
+          "ru": "Рёбрышки в соевом соусе очень вкусные.",
+          "es": "Las costillas estofadas están riquísimas.",
+          "pt-BR": "Costela estufada fica uma delícia."
+        }
       },
       {
         "hanzi": "请给我两斤排骨。",
         "pinyin": "Qǐng gěi wǒ liǎng jīn páigǔ.",
-        "english": "Please give me one kilo of ribs."
+        "english": "Please give me one kilo of ribs.",
+        "translations": {
+          "en": "Please give me one kilo of ribs.",
+          "ru": "Дайте два цзиня рёбрышек.",
+          "es": "Deme dos jin de costillas.",
+          "pt-BR": "Me dê dois jin de costela."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "pork ribs",
+      "ru": "рёбрышки",
+      "es": "costillas",
+      "pt-BR": "costela"
+    }
   },
   {
     "section": "meat",
@@ -458,14 +908,32 @@
       {
         "hanzi": "早餐常吃香肠。",
         "pinyin": "Zǎocān cháng chī xiāngcháng.",
-        "english": "Sausage is often eaten for breakfast."
+        "english": "Sausage is often eaten for breakfast.",
+        "translations": {
+          "en": "Sausage is often eaten for breakfast.",
+          "ru": "На завтрак часто едят сосиски.",
+          "es": "La salchicha es habitual en el desayuno.",
+          "pt-BR": "Salsicha é comum no café da manhã."
+        }
       },
       {
         "hanzi": "这种香肠很香。",
         "pinyin": "Zhè zhǒng xiāngcháng hěn xiāng.",
-        "english": "This sausage smells great."
+        "english": "This sausage smells great.",
+        "translations": {
+          "en": "This sausage smells great.",
+          "ru": "Эта колбаса очень ароматная.",
+          "es": "Esta salchicha huele muy bien.",
+          "pt-BR": "Esta salsicha cheira muito bem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "sausage",
+      "ru": "колбаса / сосиски",
+      "es": "salchicha",
+      "pt-BR": "salsicha"
+    }
   },
   {
     "section": "meat",
@@ -476,14 +944,32 @@
       {
         "hanzi": "我喜欢培根鸡蛋。",
         "pinyin": "Wǒ xǐhuan péigēn jīdàn.",
-        "english": "I like bacon and eggs."
+        "english": "I like bacon and eggs.",
+        "translations": {
+          "en": "I like bacon and eggs.",
+          "ru": "Я люблю бекон с яйцом.",
+          "es": "Me gustan el tocino y los huevos.",
+          "pt-BR": "Gosto de bacon com ovo."
+        }
       },
       {
         "hanzi": "请给我三片培根。",
         "pinyin": "Qǐng gěi wǒ sān piàn péigēn.",
-        "english": "Please give me three slices of bacon."
+        "english": "Please give me three slices of bacon.",
+        "translations": {
+          "en": "Please give me three slices of bacon.",
+          "ru": "Дайте три ломтика бекона.",
+          "es": "Deme tres lonchas de tocino.",
+          "pt-BR": "Me dê três fatias de bacon."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "bacon",
+      "ru": "бекон",
+      "es": "tocino / bacon",
+      "pt-BR": "bacon"
+    }
   },
   {
     "section": "meat",
@@ -494,14 +980,32 @@
       {
         "hanzi": "三明治里加了火腿。",
         "pinyin": "Sān míngzhì lǐ jiā le huǒtuǐ.",
-        "english": "Ham was added to the sandwich."
+        "english": "Ham was added to the sandwich.",
+        "translations": {
+          "en": "Ham was added to the sandwich.",
+          "ru": "В сэндвич положили ветчину.",
+          "es": "Al sándwich le pusieron jamón.",
+          "pt-BR": "Colocaram presunto no sanduíche."
+        }
       },
       {
         "hanzi": "火腿切片很方便。",
         "pinyin": "Huǒtuǐ qiēpiàn hěn fāngbiàn.",
-        "english": "Sliced ham is convenient."
+        "english": "Sliced ham is convenient.",
+        "translations": {
+          "en": "Sliced ham is convenient.",
+          "ru": "Нарезанная ветчина очень удобна.",
+          "es": "El jamón en lonchas es práctico.",
+          "pt-BR": "Presunto fatiado é prático."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "ham",
+      "ru": "ветчина",
+      "es": "jamón",
+      "pt-BR": "presunto"
+    }
   },
   {
     "section": "meat",
@@ -512,14 +1016,32 @@
       {
         "hanzi": "我要五分熟牛排。",
         "pinyin": "Wǒ yào wǔ fēn shú niúpái.",
-        "english": "I'd like my steak medium."
+        "english": "I'd like my steak medium.",
+        "translations": {
+          "en": "I'd like my steak medium.",
+          "ru": "Стейк, пожалуйста, средней прожарки.",
+          "es": "El bistec a término medio, por favor.",
+          "pt-BR": "O bife no ponto, por favor."
+        }
       },
       {
         "hanzi": "这家牛排馆很有名。",
         "pinyin": "Zhè jiā niúpái guǎn hěn yǒumíng.",
-        "english": "This steakhouse is famous."
+        "english": "This steakhouse is famous.",
+        "translations": {
+          "en": "This steakhouse is famous.",
+          "ru": "Этот стейк-хаус очень известный.",
+          "es": "Este restaurante de bistec es famoso.",
+          "pt-BR": "Este restaurante de bife é famoso."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "steak",
+      "ru": "стейк",
+      "es": "bistec / filete",
+      "pt-BR": "bife / steak"
+    }
   },
   {
     "section": "meat",
@@ -530,14 +1052,32 @@
       {
         "hanzi": "北京烤鸭很有名。",
         "pinyin": "Běijīng kǎoyā hěn yǒumíng.",
-        "english": "Peking duck is famous."
+        "english": "Peking duck is famous.",
+        "translations": {
+          "en": "Peking duck is famous.",
+          "ru": "Пекинская утка очень знаменита.",
+          "es": "El pato pekinés es famoso.",
+          "pt-BR": "O pato à Pequim é famoso."
+        }
       },
       {
         "hanzi": "我们点一只烤鸭。",
         "pinyin": "Wǒmen diǎn yī zhī kǎoyā.",
-        "english": "Let's order a roast duck."
+        "english": "Let's order a roast duck.",
+        "translations": {
+          "en": "Let's order a roast duck.",
+          "ru": "Закажем одну утку.",
+          "es": "Pidamos un pato asado.",
+          "pt-BR": "Vamos pedir um pato assado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "roast duck",
+      "ru": "утка по-пекински / жареная утка",
+      "es": "pato asado",
+      "pt-BR": "pato assado"
+    }
   },
   {
     "section": "seafood",
@@ -548,14 +1088,32 @@
       {
         "hanzi": "这条鱼很新鲜。",
         "pinyin": "Zhè tiáo yú hěn xīnxiān.",
-        "english": "This fish is very fresh."
+        "english": "This fish is very fresh.",
+        "translations": {
+          "en": "This fish is very fresh.",
+          "ru": "Эта рыба очень свежая.",
+          "es": "Este pescado está muy fresco.",
+          "pt-BR": "Este peixe está bem fresco."
+        }
       },
       {
         "hanzi": "我每周吃两次鱼。",
         "pinyin": "Wǒ měi zhōu chī liǎng cì yú.",
-        "english": "I eat fish twice a week."
+        "english": "I eat fish twice a week.",
+        "translations": {
+          "en": "I eat fish twice a week.",
+          "ru": "Я ем рыбу два раза в неделю.",
+          "es": "Como pescado dos veces por semana.",
+          "pt-BR": "Como peixe duas vezes por semana."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "fish",
+      "ru": "рыба",
+      "es": "pescado / pez",
+      "pt-BR": "peixe"
+    }
   },
   {
     "section": "seafood",
@@ -566,14 +1124,32 @@
       {
         "hanzi": "白灼虾很简单。",
         "pinyin": "Báizhuó xiā hěn jiǎndān.",
-        "english": "Boiled shrimp is simple."
+        "english": "Boiled shrimp is simple.",
+        "translations": {
+          "en": "Boiled shrimp is simple.",
+          "ru": "Варёные креветки очень простые.",
+          "es": "Los camarones escaldados son sencillos.",
+          "pt-BR": "Camarão cozido é simples."
+        }
       },
       {
         "hanzi": "这些虾很大。",
         "pinyin": "Zhèxiē xiā hěn dà.",
-        "english": "These shrimp are big."
+        "english": "These shrimp are big.",
+        "translations": {
+          "en": "These shrimp are big.",
+          "ru": "Эти креветки крупные.",
+          "es": "Estos camarones son grandes.",
+          "pt-BR": "Estes camarões são grandes."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "shrimp",
+      "ru": "креветки",
+      "es": "camarones / gambas",
+      "pt-BR": "camarão"
+    }
   },
   {
     "section": "seafood",
@@ -584,14 +1160,32 @@
       {
         "hanzi": "秋天是吃螃蟹的季节。",
         "pinyin": "Qiūtiān shì chī pángxiè de jìjié.",
-        "english": "Autumn is crab season."
+        "english": "Autumn is crab season.",
+        "translations": {
+          "en": "Autumn is crab season.",
+          "ru": "Осень — сезон крабов.",
+          "es": "El otoño es la temporada del cangrejo.",
+          "pt-BR": "O outono é a temporada de caranguejo."
+        }
       },
       {
         "hanzi": "螃蟹要蒸十五分钟。",
         "pinyin": "Pángxiè yào zhēng shíwǔ fēnzhōng.",
-        "english": "Crabs need to steam for fifteen minutes."
+        "english": "Crabs need to steam for fifteen minutes.",
+        "translations": {
+          "en": "Crabs need to steam for fifteen minutes.",
+          "ru": "Крабов нужно готовить на пару пятнадцать минут.",
+          "es": "Los cangrejos se cuecen al vapor quince minutos.",
+          "pt-BR": "Caranguejo precisa de quinze minutos no vapor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "crab",
+      "ru": "краб",
+      "es": "cangrejo",
+      "pt-BR": "caranguejo"
+    }
   },
   {
     "section": "seafood",
@@ -602,14 +1196,32 @@
       {
         "hanzi": "贝类要煮透了再吃。",
         "pinyin": "Bèilèi yào zhǔ tòu le zài chī.",
-        "english": "Shellfish must be fully cooked."
+        "english": "Shellfish must be fully cooked.",
+        "translations": {
+          "en": "Shellfish must be fully cooked.",
+          "ru": "Моллюски нужно хорошо проварить.",
+          "es": "Los mariscos hay que cocerlos bien.",
+          "pt-BR": "Moluscos precisam cozinhar bem."
+        }
       },
       {
         "hanzi": "我喜欢各种贝类。",
         "pinyin": "Wǒ xǐhuan gè zhǒng bèilèi.",
-        "english": "I like all kinds of shellfish."
+        "english": "I like all kinds of shellfish.",
+        "translations": {
+          "en": "I like all kinds of shellfish.",
+          "ru": "Я люблю разные моллюски.",
+          "es": "Me gustan todo tipo de mariscos.",
+          "pt-BR": "Gosto de vários tipos de marisco."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "shellfish",
+      "ru": "моллюски / морепродукты в раковине",
+      "es": "mariscos / moluscos",
+      "pt-BR": "moluscos / mariscos"
+    }
   },
   {
     "section": "seafood",
@@ -620,14 +1232,32 @@
       {
         "hanzi": "烤鱿鱼很香。",
         "pinyin": "Kǎo yóuyú hěn xiāng.",
-        "english": "Grilled squid smells great."
+        "english": "Grilled squid smells great.",
+        "translations": {
+          "en": "Grilled squid smells great.",
+          "ru": "Жареный кальмар очень ароматный.",
+          "es": "El calamar a la parrilla huele muy bien.",
+          "pt-BR": "Lula grelhada cheira muito bem."
+        }
       },
       {
         "hanzi": "请给我一份炒鱿鱼。",
         "pinyin": "Qǐng gěi wǒ yī fèn chǎo yóuyú.",
-        "english": "Please give me stir-fried squid."
+        "english": "Please give me stir-fried squid.",
+        "translations": {
+          "en": "Please give me stir-fried squid.",
+          "ru": "Дайте порцию жареного кальмара.",
+          "es": "Una ración de calamar salteado, por favor.",
+          "pt-BR": "Uma porção de lula refogada, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "squid",
+      "ru": "кальмар",
+      "es": "calamar",
+      "pt-BR": "lula"
+    }
   },
   {
     "section": "seafood",
@@ -638,14 +1268,32 @@
       {
         "hanzi": "三文鱼可以生吃。",
         "pinyin": "Sānwényú kěyǐ shēng chī.",
-        "english": "Salmon can be eaten raw."
+        "english": "Salmon can be eaten raw.",
+        "translations": {
+          "en": "Salmon can be eaten raw.",
+          "ru": "Лосось можно есть сырым.",
+          "es": "El salmón se puede comer crudo.",
+          "pt-BR": "Salmão pode ser comido cru."
+        }
       },
       {
         "hanzi": "我点一份三文鱼刺身。",
         "pinyin": "Wǒ diǎn yī fèn sānwényú cìshēn.",
-        "english": "I'll order salmon sashimi."
+        "english": "I'll order salmon sashimi.",
+        "translations": {
+          "en": "I'll order salmon sashimi.",
+          "ru": "Закажу сашими из лосося.",
+          "es": "Pediré sashimi de salmón.",
+          "pt-BR": "Vou pedir sashimi de salmão."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "salmon",
+      "ru": "лосось",
+      "es": "salmón",
+      "pt-BR": "salmão"
+    }
   },
   {
     "section": "seafood",
@@ -656,14 +1304,32 @@
       {
         "hanzi": "生蚝要配柠檬汁。",
         "pinyin": "Shēng háo yào pèi níngméng zhī.",
-        "english": "Oysters go well with lemon juice."
+        "english": "Oysters go well with lemon juice.",
+        "translations": {
+          "en": "Oysters go well with lemon juice.",
+          "ru": "Устрицы хорошо идут с лимонным соком.",
+          "es": "Las ostras van bien con limón.",
+          "pt-BR": "Ostra combina com suco de limão."
+        }
       },
       {
         "hanzi": "我不习惯吃生蚝。",
         "pinyin": "Wǒ bù xíguàn chī shēng háo.",
-        "english": "I'm not used to eating oysters."
+        "english": "I'm not used to eating oysters.",
+        "translations": {
+          "en": "I'm not used to eating oysters.",
+          "ru": "Я не привык есть устриц.",
+          "es": "No estoy acostumbrado a las ostras.",
+          "pt-BR": "Não estou acostumado a ostra."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "oyster",
+      "ru": "устрица",
+      "es": "ostra",
+      "pt-BR": "ostra"
+    }
   },
   {
     "section": "seafood",
@@ -674,14 +1340,32 @@
       {
         "hanzi": "海带汤很清爽。",
         "pinyin": "Hǎidài tāng hěn qīngshuǎng.",
-        "english": "Kelp soup is light and refreshing."
+        "english": "Kelp soup is light and refreshing.",
+        "translations": {
+          "en": "Kelp soup is light and refreshing.",
+          "ru": "Суп с морской капустой лёгкий и освежающий.",
+          "es": "La sopa de alga es ligera y refrescante.",
+          "pt-BR": "Sopa de alga é leve e refrescante."
+        }
       },
       {
         "hanzi": "沙拉里加了海带丝。",
         "pinyin": "Shālā lǐ jiā le hǎidài sī.",
-        "english": "Shredded kelp was added to the salad."
+        "english": "Shredded kelp was added to the salad.",
+        "translations": {
+          "en": "Shredded kelp was added to the salad.",
+          "ru": "В салат добавили полоски морской капусты.",
+          "es": "A la ensalada le pusieron alga en tiras.",
+          "pt-BR": "Colocaram alga em tiras na salada."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "kelp",
+      "ru": "морская капуста / ламинария",
+      "es": "alga kombu / kelp",
+      "pt-BR": "alga / kombu"
+    }
   },
   {
     "section": "seafood",
@@ -692,14 +1376,32 @@
       {
         "hanzi": "红烧带鱼是家常菜。",
         "pinyin": "Hóngshāo dàiyú shì jiācháng cài.",
-        "english": "Braised hairtail is a home-style dish."
+        "english": "Braised hairtail is a home-style dish.",
+        "translations": {
+          "en": "Braised hairtail is a home-style dish.",
+          "ru": "Рыба-сабля в соусе — домашнее блюдо.",
+          "es": "El pez sable estofado es un plato casero.",
+          "pt-BR": "Peixe-fita estufado é prato caseiro."
+        }
       },
       {
         "hanzi": "带鱼要煎到两面金黄。",
         "pinyin": "Dàiyú yào jiān dào liǎngmiàn jīnhuáng.",
-        "english": "Hairtail should be fried golden on both sides."
+        "english": "Hairtail should be fried golden on both sides.",
+        "translations": {
+          "en": "Hairtail should be fried golden on both sides.",
+          "ru": "Рыбу-саблю жарят до золотистой корочки с двух сторон.",
+          "es": "El pez sable se fríe dorado por ambos lados.",
+          "pt-BR": "O peixe-fita é frito dourado dos dois lados."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "hairtail fish",
+      "ru": "рыба-сабля / волосатик",
+      "es": "pez sable",
+      "pt-BR": "peixe-espada / peixe-fita"
+    }
   },
   {
     "section": "seafood",
@@ -710,14 +1412,32 @@
       {
         "hanzi": "龙虾价格比较贵。",
         "pinyin": "Lóngxiā jiàgé bǐjiào guì.",
-        "english": "Lobster is relatively expensive."
+        "english": "Lobster is relatively expensive.",
+        "translations": {
+          "en": "Lobster is relatively expensive.",
+          "ru": "Омар довольно дорогой.",
+          "es": "La langosta es relativamente cara.",
+          "pt-BR": "Lagosta é relativamente cara."
+        }
       },
       {
         "hanzi": "我们庆祝时吃龙虾。",
         "pinyin": "Wǒmen qìngzhù shí chī lóngxiā.",
-        "english": "We eat lobster when celebrating."
+        "english": "We eat lobster when celebrating.",
+        "translations": {
+          "en": "We eat lobster when celebrating.",
+          "ru": "В праздник едим лобстера.",
+          "es": "Comemos langosta para celebrar.",
+          "pt-BR": "Comemos lagosta para comemorar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "lobster",
+      "ru": "омар / лобстер",
+      "es": "langosta",
+      "pt-BR": "lagosta"
+    }
   },
   {
     "section": "cuisine",
@@ -728,14 +1448,32 @@
       {
         "hanzi": "请给我一碗米饭。",
         "pinyin": "Qǐng gěi wǒ yī wǎn mǐfàn.",
-        "english": "Please give me a bowl of rice."
+        "english": "Please give me a bowl of rice.",
+        "translations": {
+          "en": "Please give me a bowl of rice.",
+          "ru": "Дайте мне миску риса.",
+          "es": "Un tazón de arroz, por favor.",
+          "pt-BR": "Uma tigela de arroz, por favor."
+        }
       },
       {
         "hanzi": "米饭是主食。",
         "pinyin": "Mǐfàn shì zhǔshí.",
-        "english": "Rice is the staple food."
+        "english": "Rice is the staple food.",
+        "translations": {
+          "en": "Rice is the staple food.",
+          "ru": "Рис — основной гарнир.",
+          "es": "El arroz es el alimento básico.",
+          "pt-BR": "Arroz é o alimento básico."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "rice",
+      "ru": "рис (варёный)",
+      "es": "arroz (cocido)",
+      "pt-BR": "arroz (cozido)"
+    }
   },
   {
     "section": "cuisine",
@@ -746,14 +1484,32 @@
       {
         "hanzi": "这碗面条很劲道。",
         "pinyin": "Zhè wǎn miàntiáo hěn jìndào.",
-        "english": "These noodles are very chewy."
+        "english": "These noodles are very chewy.",
+        "translations": {
+          "en": "These noodles are very chewy.",
+          "ru": "Эта лапша очень упругая.",
+          "es": "Estos fideos están muy al dente.",
+          "pt-BR": "Este macarrão está bem firme."
+        }
       },
       {
         "hanzi": "我喜欢吃汤面。",
         "pinyin": "Wǒ xǐhuan chī tāngmiàn.",
-        "english": "I like noodle soup."
+        "english": "I like noodle soup.",
+        "translations": {
+          "en": "I like noodle soup.",
+          "ru": "Я люблю лапшу в бульоне.",
+          "es": "Me gusta la sopa de fideos.",
+          "pt-BR": "Gosto de macarrão na sopa."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "noodles",
+      "ru": "лапша",
+      "es": "fideos / tallarines",
+      "pt-BR": "macarrão"
+    }
   },
   {
     "section": "cuisine",
@@ -764,14 +1520,32 @@
       {
         "hanzi": "春节要吃饺子。",
         "pinyin": "Chūnjié yào chī jiǎozi.",
-        "english": "You eat dumplings during Spring Festival."
+        "english": "You eat dumplings during Spring Festival.",
+        "translations": {
+          "en": "You eat dumplings during Spring Festival.",
+          "ru": "На Чуньцзе едят пельмени.",
+          "es": "En el Año Nuevo se comen dumplings.",
+          "pt-BR": "No Ano Novo Chinês se come jiaozi."
+        }
       },
       {
         "hanzi": "我包了一盘饺子。",
         "pinyin": "Wǒ bāo le yī pán jiǎozi.",
-        "english": "I made a plate of dumplings."
+        "english": "I made a plate of dumplings.",
+        "translations": {
+          "en": "I made a plate of dumplings.",
+          "ru": "Я слепил блюдо пельменей.",
+          "es": "Hice un plato de dumplings.",
+          "pt-BR": "Fiz um prato de jiaozi."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "dumplings",
+      "ru": "пельмени / цзяоцзы",
+      "es": "dumplings / jiaozi",
+      "pt-BR": "bolinho / jiaozi"
+    }
   },
   {
     "section": "cuisine",
@@ -782,14 +1556,32 @@
       {
         "hanzi": "早餐买了两个包子。",
         "pinyin": "Zǎocān mǎi le liǎng gè bāozi.",
-        "english": "I bought two buns for breakfast."
+        "english": "I bought two buns for breakfast.",
+        "translations": {
+          "en": "I bought two buns for breakfast.",
+          "ru": "На завтрак купил две булочки.",
+          "es": "Compré dos baozi para el desayuno.",
+          "pt-BR": "Comprei dois baozi no café da manhã."
+        }
       },
       {
         "hanzi": "肉包子很香。",
         "pinyin": "Ròu bāozi hěn xiāng.",
-        "english": "Meat buns smell wonderful."
+        "english": "Meat buns smell wonderful.",
+        "translations": {
+          "en": "Meat buns smell wonderful.",
+          "ru": "Баоцзы с мясом очень ароматные.",
+          "es": "Los baozi de carne huelen muy bien.",
+          "pt-BR": "Baozi de carne cheira muito bem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "steamed bun",
+      "ru": "паровые булочки / баоцзы",
+      "es": "panecillo al vapor / baozi",
+      "pt-BR": "pãozinho no vapor / baozi"
+    }
   },
   {
     "section": "cuisine",
@@ -800,14 +1592,32 @@
       {
         "hanzi": "冬天最适合吃火锅。",
         "pinyin": "Dōngtiān zuì shìhé chī huǒguō.",
-        "english": "Hot pot is perfect for winter."
+        "english": "Hot pot is perfect for winter.",
+        "translations": {
+          "en": "Hot pot is perfect for winter.",
+          "ru": "Зимой лучше всего хого.",
+          "es": "El hot pot es perfecto en invierno.",
+          "pt-BR": "Hot pot é perfeito no inverno."
+        }
       },
       {
         "hanzi": "我们今晚去吃火锅。",
         "pinyin": "Wǒmen jīn wǎn qù chī huǒguō.",
-        "english": "We're having hot pot tonight."
+        "english": "We're having hot pot tonight.",
+        "translations": {
+          "en": "We're having hot pot tonight.",
+          "ru": "Сегодня вечером идём на хого.",
+          "es": "Esta noche vamos a comer hot pot.",
+          "pt-BR": "Hoje à noite vamos comer hot pot."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "hot pot",
+      "ru": "хого / горячий котёл",
+      "es": "olla caliente / hot pot",
+      "pt-BR": "hot pot / fondue chinesa"
+    }
   },
   {
     "section": "cuisine",
@@ -818,14 +1628,32 @@
       {
         "hanzi": "扬州炒饭很有名。",
         "pinyin": "Yángzhōu chǎofàn hěn yǒumíng.",
-        "english": "Yangzhou fried rice is famous."
+        "english": "Yangzhou fried rice is famous.",
+        "translations": {
+          "en": "Yangzhou fried rice is famous.",
+          "ru": "Янчжоуский жареный рис очень знаменит.",
+          "es": "El arroz frito de Yangzhou es famoso.",
+          "pt-BR": "Arroz frito de Yangzhou é famoso."
+        }
       },
       {
         "hanzi": "请给我一份蛋炒饭。",
         "pinyin": "Qǐng gěi wǒ yī fèn dàn chǎofàn.",
-        "english": "Please give me egg fried rice."
+        "english": "Please give me egg fried rice.",
+        "translations": {
+          "en": "Please give me egg fried rice.",
+          "ru": "Дайте порцию жареного риса с яйцом.",
+          "es": "Un arroz frito con huevo, por favor.",
+          "pt-BR": "Um arroz frito com ovo, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "fried rice",
+      "ru": "жареный рис",
+      "es": "arroz frito",
+      "pt-BR": "arroz frito"
+    }
   },
   {
     "section": "cuisine",
@@ -836,14 +1664,32 @@
       {
         "hanzi": "这汤有点烫。",
         "pinyin": "Zhè tāng yǒudiǎn tàng.",
-        "english": "This soup is a bit hot."
+        "english": "This soup is a bit hot.",
+        "translations": {
+          "en": "This soup is a bit hot.",
+          "ru": "Этот суп немного горячий.",
+          "es": "Esta sopa está un poco caliente.",
+          "pt-BR": "Esta sopa está um pouco quente."
+        }
       },
       {
         "hanzi": "饭前先喝碗汤。",
         "pinyin": "Fàn qián xiān hē wǎn tāng.",
-        "english": "Have a bowl of soup before the meal."
+        "english": "Have a bowl of soup before the meal.",
+        "translations": {
+          "en": "Have a bowl of soup before the meal.",
+          "ru": "Перед едой выпейте миску супа.",
+          "es": "Tome un tazón de sopa antes de la comida.",
+          "pt-BR": "Tome uma tigela de sopa antes da refeição."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "soup",
+      "ru": "суп",
+      "es": "sopa",
+      "pt-BR": "sopa"
+    }
   },
   {
     "section": "cuisine",
@@ -854,14 +1700,32 @@
       {
         "hanzi": "妈妈很会炒菜。",
         "pinyin": "Māma hěn huì chǎocài.",
-        "english": "Mom is great at stir-frying."
+        "english": "Mom is great at stir-frying.",
+        "translations": {
+          "en": "Mom is great at stir-frying.",
+          "ru": "Мама отлично жарит.",
+          "es": "Mamá saltea muy bien.",
+          "pt-BR": "A mamãe refoga muito bem."
+        }
       },
       {
         "hanzi": "请再炒一个菜。",
         "pinyin": "Qǐng zài chǎo yī gè cài.",
-        "english": "Please stir-fry one more dish."
+        "english": "Please stir-fry one more dish.",
+        "translations": {
+          "en": "Please stir-fry one more dish.",
+          "ru": "Пожарьте ещё одно блюдо.",
+          "es": "Saltee un plato más, por favor.",
+          "pt-BR": "Refogue mais um prato, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "stir-fry",
+      "ru": "жаркое / обжаривать",
+      "es": "salteado / saltear",
+      "pt-BR": "refogado / refogar"
+    }
   },
   {
     "section": "cuisine",
@@ -872,14 +1736,32 @@
       {
         "hanzi": "这条街有很多小吃。",
         "pinyin": "Zhè tiáo jiē yǒu hěn duō xiǎochī.",
-        "english": "This street has many snacks."
+        "english": "This street has many snacks.",
+        "translations": {
+          "en": "This street has many snacks.",
+          "ru": "На этой улице много закусок.",
+          "es": "En esta calle hay muchos aperitivos.",
+          "pt-BR": "Nesta rua tem muitos petiscos."
+        }
       },
       {
         "hanzi": "小吃便宜又好吃。",
         "pinyin": "Xiǎochī piányi yòu hǎochī.",
-        "english": "Snacks are cheap and tasty."
+        "english": "Snacks are cheap and tasty.",
+        "translations": {
+          "en": "Snacks are cheap and tasty.",
+          "ru": "Закуски дешёвые и вкусные.",
+          "es": "Los aperitivos son baratos y ricos.",
+          "pt-BR": "Os petiscos são baratos e gostosos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "snack",
+      "ru": "закуска / стритфуд",
+      "es": "aperitivo / comida callejera",
+      "pt-BR": "petisco / comida de rua"
+    }
   },
   {
     "section": "cuisine",
@@ -890,14 +1772,32 @@
       {
         "hanzi": "请推荐一道特色菜。",
         "pinyin": "Qǐng tuījiàn yī dào tèsè cài.",
-        "english": "Please recommend a specialty dish."
+        "english": "Please recommend a specialty dish.",
+        "translations": {
+          "en": "Please recommend a specialty dish.",
+          "ru": "Порекомендуйте фирменное блюдо.",
+          "es": "Recomiende un plato típico, por favor.",
+          "pt-BR": "Recomende um prato típico, por favor."
+        }
       },
       {
         "hanzi": "这是本店的特色菜。",
         "pinyin": "Zhè shì běn diàn de tèsè cài.",
-        "english": "This is our restaurant's signature dish."
+        "english": "This is our restaurant's signature dish.",
+        "translations": {
+          "en": "This is our restaurant's signature dish.",
+          "ru": "Это фирменное блюдо заведения.",
+          "es": "Este es el plato estrella del local.",
+          "pt-BR": "Este é o prato especial da casa."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "specialty dish",
+      "ru": "фирменное блюдо",
+      "es": "plato típico / especialidad",
+      "pt-BR": "prato típico / especialidade"
+    }
   },
   {
     "section": "street_food",
@@ -908,14 +1808,32 @@
       {
         "hanzi": "早餐常吃煎饼果子。",
         "pinyin": "Zǎocān cháng chī jiānbing guǒzi.",
-        "english": "Jianbing is a common breakfast."
+        "english": "Jianbing is a common breakfast.",
+        "translations": {
+          "en": "Jianbing is a common breakfast.",
+          "ru": "На завтрак часто едят цзяньбин.",
+          "es": "El jianbing es un desayuno habitual.",
+          "pt-BR": "Jianbing é um café da manhã comum."
+        }
       },
       {
         "hanzi": "这个煎饼果子加蛋。",
         "pinyin": "Zhège jiānbing guǒzi jiā dàn.",
-        "english": "This jianbing has an egg added."
+        "english": "This jianbing has an egg added.",
+        "translations": {
+          "en": "This jianbing has an egg added.",
+          "ru": "В этот цзяньбин добавили яйцо.",
+          "es": "Este jianbing lleva huevo.",
+          "pt-BR": "Este jianbing tem ovo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Chinese crepe wrap",
+      "ru": "цзяньбин (китайский блин)",
+      "es": "crepe chino / jianbing",
+      "pt-BR": "crepe chinês / jianbing"
+    }
   },
   {
     "section": "street_food",
@@ -926,14 +1844,32 @@
       {
         "hanzi": "夜市有很多烤串。",
         "pinyin": "Yèshì yǒu hěn duō kǎochuàn.",
-        "english": "Night markets have lots of skewers."
+        "english": "Night markets have lots of skewers.",
+        "translations": {
+          "en": "Night markets have lots of skewers.",
+          "ru": "На ночном рынке много шашлычков.",
+          "es": "En el mercado nocturno hay muchas brochetas.",
+          "pt-BR": "No mercado noturno tem muitos espetinhos."
+        }
       },
       {
         "hanzi": "请给我五串烤串。",
         "pinyin": "Qǐng gěi wǒ wǔ chuàn kǎochuàn.",
-        "english": "Please give me five skewers."
+        "english": "Please give me five skewers.",
+        "translations": {
+          "en": "Please give me five skewers.",
+          "ru": "Дайте пять шампуров.",
+          "es": "Cinco brochetas, por favor.",
+          "pt-BR": "Cinco espetinhos, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "grilled skewers",
+      "ru": "шашлычки / шампуры",
+      "es": "brochetas / pinchos",
+      "pt-BR": "espetinho / churrasquinho"
+    }
   },
   {
     "section": "street_food",
@@ -944,14 +1880,32 @@
       {
         "hanzi": "麻辣烫可以自己选菜。",
         "pinyin": "Málàtàng kěyǐ zìjǐ xuǎn cài.",
-        "english": "You pick your own ingredients for malatang."
+        "english": "You pick your own ingredients for malatang.",
+        "translations": {
+          "en": "You pick your own ingredients for malatang.",
+          "ru": "В малатане ингредиенты выбираешь сам.",
+          "es": "En el malatang eliges tus ingredientes.",
+          "pt-BR": "No malatang você escolhe os ingredientes."
+        }
       },
       {
         "hanzi": "这碗麻辣烫很辣。",
         "pinyin": "Zhè wǎn málàtàng hěn là.",
-        "english": "This malatang is very spicy."
+        "english": "This malatang is very spicy.",
+        "translations": {
+          "en": "This malatang is very spicy.",
+          "ru": "Эта миска малатана очень острая.",
+          "es": "Este malatang está muy picante.",
+          "pt-BR": "Este malatang está muito picante."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "spicy hot pot soup",
+      "ru": "малатан (острый суп с выбором ингредиентов)",
+      "es": "sopa picante malatang",
+      "pt-BR": "sopa picante malatang"
+    }
   },
   {
     "section": "street_food",
@@ -962,14 +1916,32 @@
       {
         "hanzi": "肉夹馍是陕西名吃。",
         "pinyin": "Ròu jiā mó shì Shǎnxī míng chī.",
-        "english": "Roujiamo is a famous Shaanxi snack."
+        "english": "Roujiamo is a famous Shaanxi snack.",
+        "translations": {
+          "en": "Roujiamo is a famous Shaanxi snack.",
+          "ru": "Жоуцзямо — знаменитая закуска Шэньси.",
+          "es": "El roujiamo es un snack famoso de Shaanxi.",
+          "pt-BR": "Roujiamo é um lanche famoso de Shaanxi."
+        }
       },
       {
         "hanzi": "我买了一个肉夹馍。",
         "pinyin": "Wǒ mǎi le yī gè ròu jiā mó.",
-        "english": "I bought a roujiamo."
+        "english": "I bought a roujiamo.",
+        "translations": {
+          "en": "I bought a roujiamo.",
+          "ru": "Я купил жоуцзямо.",
+          "es": "Compré un roujiamo.",
+          "pt-BR": "Comprei um roujiamo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Chinese meat sandwich",
+      "ru": "жоуцзямо (китайский бургер)",
+      "es": "sándwich de carne chino / roujiamo",
+      "pt-BR": "sanduíche de carne chinês / roujiamo"
+    }
   },
   {
     "section": "street_food",
@@ -980,14 +1952,32 @@
       {
         "hanzi": "臭豆腐闻着臭吃着香。",
         "pinyin": "Chòu dòufu wén zhe chòu chī zhe xiāng.",
-        "english": "Stinky tofu smells strong but tastes good."
+        "english": "Stinky tofu smells strong but tastes good.",
+        "translations": {
+          "en": "Stinky tofu smells strong but tastes good.",
+          "ru": "Вонючий тофу пахнет резко, но вкусный.",
+          "es": "El tofu fétido huele fuerte, pero sabe bien.",
+          "pt-BR": "Tofu fedido cheira forte, mas é gostoso."
+        }
       },
       {
         "hanzi": "你敢吃臭豆腐吗？",
         "pinyin": "Nǐ gǎn chī chòu dòufu ma?",
-        "english": "Do you dare to eat stinky tofu?"
+        "english": "Do you dare to eat stinky tofu?",
+        "translations": {
+          "en": "Do you dare to eat stinky tofu?",
+          "ru": "Осмелишься съесть вонючий тофу?",
+          "es": "¿Te atreves a comer tofu fétido?",
+          "pt-BR": "Você ousa comer tofu fedido?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "stinky tofu",
+      "ru": "вонючий тофу",
+      "es": "tofu fétido / stinky tofu",
+      "pt-BR": "tofu fedido"
+    }
   },
   {
     "section": "street_food",
@@ -998,14 +1988,32 @@
       {
         "hanzi": "冬天常见糖葫芦。",
         "pinyin": "Dōngtiān chángjiàn tánghúlu.",
-        "english": "Candied hawthorn is common in winter."
+        "english": "Candied hawthorn is common in winter.",
+        "translations": {
+          "en": "Candied hawthorn is common in winter.",
+          "ru": "Зимой часто продают танхулу.",
+          "es": "El tanghulu es común en invierno.",
+          "pt-BR": "Tanghulu é comum no inverno."
+        }
       },
       {
         "hanzi": "孩子想要一串糖葫芦。",
         "pinyin": "Háizi xiǎng yào yī chuàn tánghúlu.",
-        "english": "The child wants a tanghulu skewer."
+        "english": "The child wants a tanghulu skewer.",
+        "translations": {
+          "en": "The child wants a tanghulu skewer.",
+          "ru": "Ребёнок хочет шампур танхулу.",
+          "es": "El niño quiere un tanghulu.",
+          "pt-BR": "A criança quer um espetinho de tanghulu."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "candied hawthorn skewers",
+      "ru": "танхулу (ягоды в сахаре)",
+      "es": "brocheta de acerola caramelizada",
+      "pt-BR": "espetinho de fruta cristalizada / tanghulu"
+    }
   },
   {
     "section": "street_food",
@@ -1016,14 +2024,32 @@
       {
         "hanzi": "广东早餐常吃肠粉。",
         "pinyin": "Guǎngdōng zǎocān cháng chī chángfěn.",
-        "english": "Cheung fun is a common Guangdong breakfast."
+        "english": "Cheung fun is a common Guangdong breakfast.",
+        "translations": {
+          "en": "Cheung fun is a common Guangdong breakfast.",
+          "ru": "В Гуандуне на завтрак часто едят чёнфан.",
+          "es": "El cheung fun es un desayuno habitual en Guangdong.",
+          "pt-BR": "Cheung fun é café da manhã comum em Guangdong."
+        }
       },
       {
         "hanzi": "请给我一份鸡蛋肠粉。",
         "pinyin": "Qǐng gěi wǒ yī fèn jīdàn chángfěn.",
-        "english": "Please give me egg cheung fun."
+        "english": "Please give me egg cheung fun.",
+        "translations": {
+          "en": "Please give me egg cheung fun.",
+          "ru": "Дайте порцию чёнфана с яйцом.",
+          "es": "Un cheung fun con huevo, por favor.",
+          "pt-BR": "Um cheung fun com ovo, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "rice noodle roll",
+      "ru": "чёнфан / рисовые рулеты",
+      "es": "rollo de fideo de arroz / cheung fun",
+      "pt-BR": "rolo de arroz / cheung fun"
+    }
   },
   {
     "section": "street_food",
@@ -1034,14 +2060,32 @@
       {
         "hanzi": "小笼包要小心烫。",
         "pinyin": "Xiǎolóngbāo yào xiǎoxīn tàng.",
-        "english": "Be careful, soup dumplings are hot."
+        "english": "Be careful, soup dumplings are hot.",
+        "translations": {
+          "en": "Be careful, soup dumplings are hot.",
+          "ru": "Сяолунбао осторожно: внутри горячо.",
+          "es": "Cuidado, los xiaolongbao queman.",
+          "pt-BR": "Cuidado, xiaolongbao queima."
+        }
       },
       {
         "hanzi": "上海小笼包很有名。",
         "pinyin": "Shànghǎi xiǎolóngbāo hěn yǒumíng.",
-        "english": "Shanghai soup dumplings are famous."
+        "english": "Shanghai soup dumplings are famous.",
+        "translations": {
+          "en": "Shanghai soup dumplings are famous.",
+          "ru": "Шанхайские сяолунбао очень знамениты.",
+          "es": "Los xiaolongbao de Shanghái son famosos.",
+          "pt-BR": "Xiaolongbao de Xangai é famoso."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "soup dumplings",
+      "ru": "сяолунбао (пельмени с бульоном)",
+      "es": "dumpling de sopa / xiaolongbao",
+      "pt-BR": "bolinho de sopa / xiaolongbao"
+    }
   },
   {
     "section": "street_food",
@@ -1052,14 +2096,32 @@
       {
         "hanzi": "夏天吃凉皮很解暑。",
         "pinyin": "Xiàtiān chī liángpí hěn jiěshǔ.",
-        "english": "Cold skin noodles are refreshing in summer."
+        "english": "Cold skin noodles are refreshing in summer.",
+        "translations": {
+          "en": "Cold skin noodles are refreshing in summer.",
+          "ru": "Летом лянпи хорошо освежает.",
+          "es": "Los liangpi refrescan en verano.",
+          "pt-BR": "Liangpi refresca no verão."
+        }
       },
       {
         "hanzi": "请加醋和辣椒油。",
         "pinyin": "Qǐng jiā cù hé làjiāo yóu.",
-        "english": "Please add vinegar and chili oil."
+        "english": "Please add vinegar and chili oil.",
+        "translations": {
+          "en": "Please add vinegar and chili oil.",
+          "ru": "Добавьте уксус и перечное масло.",
+          "es": "Ponga vinagre y aceite de chile, por favor.",
+          "pt-BR": "Coloque vinagre e óleo de pimenta, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "cold skin noodles",
+      "ru": "лянпи (холодная лапша)",
+      "es": "fideos fríos liangpi",
+      "pt-BR": "macarrão frio liangpi"
+    }
   },
   {
     "section": "street_food",
@@ -1070,14 +2132,32 @@
       {
         "hanzi": "炸酱面是北京特色。",
         "pinyin": "Zhájiàngmiàn shì Běijīng tèsè.",
-        "english": "Zhajiangmian is a Beijing specialty."
+        "english": "Zhajiangmian is a Beijing specialty.",
+        "translations": {
+          "en": "Zhajiangmian is a Beijing specialty.",
+          "ru": "Жацзянмянь — пекинская классика.",
+          "es": "El zhajiangmian es típico de Pekín.",
+          "pt-BR": "Zhajiangmian é típico de Pequim."
+        }
       },
       {
         "hanzi": "这碗炸酱面很地道。",
         "pinyin": "Zhè wǎn zhájiàngmiàn hěn dìdào.",
-        "english": "This zhajiangmian is authentic."
+        "english": "This zhajiangmian is authentic.",
+        "translations": {
+          "en": "This zhajiangmian is authentic.",
+          "ru": "Эта миска жацзянмянь очень аутентичная.",
+          "es": "Este zhajiangmian es auténtico.",
+          "pt-BR": "Este zhajiangmian é autêntico."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "noodles with soybean paste",
+      "ru": "жацзянмянь (лапша с соевой пастой)",
+      "es": "fideos con salsa de soja fermentada",
+      "pt-BR": "macarrão com molho de soja / zhajiangmian"
+    }
   },
   {
     "section": "desserts",
@@ -1088,14 +2168,32 @@
       {
         "hanzi": "生日快乐，吃蛋糕吧。",
         "pinyin": "Shēngrì kuàilè, chī dàngāo ba.",
-        "english": "Happy birthday, let's eat cake."
+        "english": "Happy birthday, let's eat cake.",
+        "translations": {
+          "en": "Happy birthday, let's eat cake.",
+          "ru": "С днём рождения, давайте торт.",
+          "es": "Feliz cumpleaños, comamos pastel.",
+          "pt-BR": "Feliz aniversário, vamos comer bolo."
+        }
       },
       {
         "hanzi": "这个蛋糕是巧克力味的。",
         "pinyin": "Zhège dàngāo shì qiǎokèlì wèi de.",
-        "english": "This cake is chocolate flavored."
+        "english": "This cake is chocolate flavored.",
+        "translations": {
+          "en": "This cake is chocolate flavored.",
+          "ru": "Этот торт шоколадный.",
+          "es": "Este pastel es de chocolate.",
+          "pt-BR": "Este bolo é de chocolate."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "cake",
+      "ru": "торт / пирог",
+      "es": "pastel / tarta",
+      "pt-BR": "bolo"
+    }
   },
   {
     "section": "desserts",
@@ -1106,14 +2204,32 @@
       {
         "hanzi": "夏天我最爱冰淇淋。",
         "pinyin": "Xiàtiān wǒ zuì ài bīngqílín.",
-        "english": "Ice cream is my favorite in summer."
+        "english": "Ice cream is my favorite in summer.",
+        "translations": {
+          "en": "Ice cream is my favorite in summer.",
+          "ru": "Летом я больше всего люблю мороженое.",
+          "es": "En verano lo que más me gusta es el helado.",
+          "pt-BR": "No verão o que eu mais gosto é sorvete."
+        }
       },
       {
         "hanzi": "请给我两个冰淇淋。",
         "pinyin": "Qǐng gěi wǒ liǎng gè bīngqílín.",
-        "english": "Please give me two ice creams."
+        "english": "Please give me two ice creams.",
+        "translations": {
+          "en": "Please give me two ice creams.",
+          "ru": "Дайте два мороженых.",
+          "es": "Dos helados, por favor.",
+          "pt-BR": "Dois sorvetes, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "ice cream",
+      "ru": "мороженое",
+      "es": "helado",
+      "pt-BR": "sorvete"
+    }
   },
   {
     "section": "desserts",
@@ -1124,14 +2240,32 @@
       {
         "hanzi": "芒果布丁很滑。",
         "pinyin": "Mángguǒ bùdīng hěn huá.",
-        "english": "Mango pudding is smooth."
+        "english": "Mango pudding is smooth.",
+        "translations": {
+          "en": "Mango pudding is smooth.",
+          "ru": "Манговый пудинг очень нежный.",
+          "es": "El pudín de mango es suave.",
+          "pt-BR": "O pudim de manga é bem cremoso."
+        }
       },
       {
         "hanzi": "饭后甜点选了布丁。",
         "pinyin": "Fàn hòu tiándiǎn xuǎn le bùdīng.",
-        "english": "I chose pudding for dessert."
+        "english": "I chose pudding for dessert.",
+        "translations": {
+          "en": "I chose pudding for dessert.",
+          "ru": "На десерт я взял пудинг.",
+          "es": "Elegí pudín de postre.",
+          "pt-BR": "Escolhi pudim de sobremesa."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "pudding",
+      "ru": "пудинг",
+      "es": "pudín / flan",
+      "pt-BR": "pudim"
+    }
   },
   {
     "section": "desserts",
@@ -1142,14 +2276,32 @@
       {
         "hanzi": "中秋节要吃月饼。",
         "pinyin": "Zhōngqiū jié yào chī yuèbǐng.",
-        "english": "You eat mooncakes during Mid-Autumn Festival."
+        "english": "You eat mooncakes during Mid-Autumn Festival.",
+        "translations": {
+          "en": "You eat mooncakes during Mid-Autumn Festival.",
+          "ru": "На праздник середины осени едят юэбин.",
+          "es": "En el Festival del Medio Otoño se comen pasteles de luna.",
+          "pt-BR": "No Festival do Meio Outono se come bolo da lua."
+        }
       },
       {
         "hanzi": "这种月饼是五仁的。",
         "pinyin": "Zhè zhǒng yuèbǐng shì wǔrén de.",
-        "english": "This mooncake has mixed nuts filling."
+        "english": "This mooncake has mixed nuts filling.",
+        "translations": {
+          "en": "This mooncake has mixed nuts filling.",
+          "ru": "Этот юэбин с ореховой начинкой у жэнь.",
+          "es": "Este pastel de luna es de frutos secos.",
+          "pt-BR": "Este bolo da lua é de mix de nozes."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "mooncake",
+      "ru": "лунный пряник / юэбин",
+      "es": "pastel de luna / mooncake",
+      "pt-BR": "bolo da lua / mooncake"
+    }
   },
   {
     "section": "desserts",
@@ -1160,14 +2312,32 @@
       {
         "hanzi": "元宵节吃汤圆。",
         "pinyin": "Yuánxiāo jié chī tāngyuán.",
-        "english": "Tangyuan are eaten during Lantern Festival."
+        "english": "Tangyuan are eaten during Lantern Festival.",
+        "translations": {
+          "en": "Tangyuan are eaten during Lantern Festival.",
+          "ru": "На Юаньсяо едят танъюань.",
+          "es": "En el Festival de los Faroles se comen tangyuan.",
+          "pt-BR": "No Festival das Lanternas se come tangyuan."
+        }
       },
       {
         "hanzi": "汤圆是甜的。",
         "pinyin": "Tāngyuán shì tián de.",
-        "english": "Tangyuan are sweet."
+        "english": "Tangyuan are sweet.",
+        "translations": {
+          "en": "Tangyuan are sweet.",
+          "ru": "Танъюань сладкие.",
+          "es": "Los tangyuan son dulces.",
+          "pt-BR": "Tangyuan é doce."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "tangyuan",
+      "ru": "танъюань (рисовые шарики)",
+      "es": "bolitas de arroz glutinoso / tangyuan",
+      "pt-BR": "bolinho de arroz glutinoso / tangyuan"
+    }
   },
   {
     "section": "desserts",
@@ -1178,14 +2348,32 @@
       {
         "hanzi": "包子馅是红豆沙。",
         "pinyin": "Bāozi xiàn shì hóngdòushā.",
-        "english": "The bun filling is red bean paste."
+        "english": "The bun filling is red bean paste.",
+        "translations": {
+          "en": "The bun filling is red bean paste.",
+          "ru": "Начинка баоцзы — паста из красной фасоли.",
+          "es": "El relleno del baozi es pasta de judía roja.",
+          "pt-BR": "O recheio do baozi é pasta de feijão vermelho."
+        }
       },
       {
         "hanzi": "我喜欢红豆沙甜品。",
         "pinyin": "Wǒ xǐhuan hóngdòushā tiánpǐn.",
-        "english": "I like red bean desserts."
+        "english": "I like red bean desserts.",
+        "translations": {
+          "en": "I like red bean desserts.",
+          "ru": "Я люблю сладости с красной фасолью.",
+          "es": "Me gustan los postres de judía roja.",
+          "pt-BR": "Gosto de doce de feijão vermelho."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "red bean paste",
+      "ru": "паста из красной фасоли",
+      "es": "pasta de judía roja",
+      "pt-BR": "pasta de feijão vermelho"
+    }
   },
   {
     "section": "desserts",
@@ -1196,14 +2384,32 @@
       {
         "hanzi": "马蹄糕是广式点心。",
         "pinyin": "Mátí gāo shì Guǎngshì diǎnxīn.",
-        "english": "Water chestnut cake is Cantonese dim sum."
+        "english": "Water chestnut cake is Cantonese dim sum.",
+        "translations": {
+          "en": "Water chestnut cake is Cantonese dim sum.",
+          "ru": "Это кантонский димсам.",
+          "es": "Es un dim sum cantonés.",
+          "pt-BR": "É um dim sum cantonês."
+        }
       },
       {
         "hanzi": "这种糕点很清爽。",
         "pinyin": "Zhè zhǒng gāodiǎn hěn qīngshuǎng.",
-        "english": "This pastry is light and refreshing."
+        "english": "This pastry is light and refreshing.",
+        "translations": {
+          "en": "This pastry is light and refreshing.",
+          "ru": "Эта выпечка очень лёгкая.",
+          "es": "Este pastel es ligero y fresco.",
+          "pt-BR": "Este doce é leve e fresco."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "water chestnut cake",
+      "ru": "пирожное из водяного каштана",
+      "es": "pastel de castaña de agua",
+      "pt-BR": "bolo de castanha-d'água"
+    }
   },
   {
     "section": "desserts",
@@ -1214,14 +2420,32 @@
       {
         "hanzi": "新鲜出炉的蛋挞最好吃。",
         "pinyin": "Xīnxiān chūlú de dàntà zuì hǎochī.",
-        "english": "Freshly baked egg tarts are the best."
+        "english": "Freshly baked egg tarts are the best.",
+        "translations": {
+          "en": "Freshly baked egg tarts are the best.",
+          "ru": "Свежие из печи тарты самые вкусные.",
+          "es": "Los egg tarts recién horneados son los mejores.",
+          "pt-BR": "Egg tart recém-assado é o melhor."
+        }
       },
       {
         "hanzi": "请给我三个蛋挞。",
         "pinyin": "Qǐng gěi wǒ sān gè dàntà.",
-        "english": "Please give me three egg tarts."
+        "english": "Please give me three egg tarts.",
+        "translations": {
+          "en": "Please give me three egg tarts.",
+          "ru": "Дайте три яичных тарта.",
+          "es": "Tres tartas de huevo, por favor.",
+          "pt-BR": "Três egg tarts, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "egg tart",
+      "ru": "яичный тарт",
+      "es": "tarta de huevo / egg tart",
+      "pt-BR": "torta de ovo / egg tart"
+    }
   },
   {
     "section": "desserts",
@@ -1232,14 +2456,32 @@
       {
         "hanzi": "双皮奶是顺德名点。",
         "pinyin": "Shuāngpí nǎi shì Shùndé míng diǎn.",
-        "english": "Double-skin milk is a Shunde specialty."
+        "english": "Double-skin milk is a Shunde specialty.",
+        "translations": {
+          "en": "Double-skin milk is a Shunde specialty.",
+          "ru": "Шуанпинай — знаменитый десерт Шуньдэ.",
+          "es": "La leche de doble piel es típica de Shunde.",
+          "pt-BR": "O leite de pele dupla é típico de Shunde."
+        }
       },
       {
         "hanzi": "这碗双皮奶很嫩。",
         "pinyin": "Zhè wǎn shuāngpí nǎi hěn nèn.",
-        "english": "This double-skin milk is very silky."
+        "english": "This double-skin milk is very silky.",
+        "translations": {
+          "en": "This double-skin milk is very silky.",
+          "ru": "Эта чашка шуанпинай очень нежная.",
+          "es": "Esta leche de doble piel está muy suave.",
+          "pt-BR": "Este leite de pele dupla está bem macio."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "double-skin milk pudding",
+      "ru": "шуанпинай (молочный пудинг с корочкой)",
+      "es": "natillas de doble piel",
+      "pt-BR": "pudim de leite de pele dupla"
+    }
   },
   {
     "section": "desserts",
@@ -1250,14 +2492,32 @@
       {
         "hanzi": "麻花又脆又香。",
         "pinyin": "Máhuā yòu cuì yòu xiāng.",
-        "english": "Mahua is crispy and fragrant."
+        "english": "Mahua is crispy and fragrant.",
+        "translations": {
+          "en": "Mahua is crispy and fragrant.",
+          "ru": "Махуа хрустящая и ароматная.",
+          "es": "La mahua está crujiente y aromática.",
+          "pt-BR": "Mahua fica crocante e cheirosa."
+        }
       },
       {
         "hanzi": "我买了一些麻花当零食。",
         "pinyin": "Wǒ mǎi le yīxiē máhuā dāng língshí.",
-        "english": "I bought some mahua as a snack."
+        "english": "I bought some mahua as a snack.",
+        "translations": {
+          "en": "I bought some mahua as a snack.",
+          "ru": "Купил махуа на перекус.",
+          "es": "Compré mahua de snack.",
+          "pt-BR": "Comprei mahua de lanche."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "fried dough twist",
+      "ru": "махуа (жареный крученый хворост)",
+      "es": "rosca frita mahua",
+      "pt-BR": "rosquinha frita mahua"
+    }
   },
   {
     "section": "coffee",
@@ -1268,14 +2528,32 @@
       {
         "hanzi": "我每天早上喝咖啡。",
         "pinyin": "Wǒ měitiān zǎoshang hē kāfēi.",
-        "english": "I drink coffee every morning."
+        "english": "I drink coffee every morning.",
+        "translations": {
+          "en": "I drink coffee every morning.",
+          "ru": "Каждое утро я пью кофе.",
+          "es": "Tomo café todas las mañanas.",
+          "pt-BR": "Tomo café toda manhã."
+        }
       },
       {
         "hanzi": "请给我一杯热咖啡。",
         "pinyin": "Qǐng gěi wǒ yī bēi rè kāfēi.",
-        "english": "Please give me a hot coffee."
+        "english": "Please give me a hot coffee.",
+        "translations": {
+          "en": "Please give me a hot coffee.",
+          "ru": "Дайте чашку горячего кофе.",
+          "es": "Un café caliente, por favor.",
+          "pt-BR": "Um café quente, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "coffee",
+      "ru": "кофе",
+      "es": "café",
+      "pt-BR": "café"
+    }
   },
   {
     "section": "coffee",
@@ -1286,14 +2564,32 @@
       {
         "hanzi": "我要一杯冰拿铁。",
         "pinyin": "Wǒ yào yī bēi bīng nátiě.",
-        "english": "I'd like an iced latte."
+        "english": "I'd like an iced latte.",
+        "translations": {
+          "en": "I'd like an iced latte.",
+          "ru": "Мне айс-латте.",
+          "es": "Un latte helado, por favor.",
+          "pt-BR": "Um latte gelado, por favor."
+        }
       },
       {
         "hanzi": "拿铁奶泡很细腻。",
         "pinyin": "Nátiě nǎipào hěn xìnì.",
-        "english": "The latte foam is very fine."
+        "english": "The latte foam is very fine.",
+        "translations": {
+          "en": "The latte foam is very fine.",
+          "ru": "Пенка у латте очень нежная.",
+          "es": "La espuma del latte es muy fina.",
+          "pt-BR": "A espuma do latte é bem fina."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "latte",
+      "ru": "латте",
+      "es": "latte / café con leche",
+      "pt-BR": "latte / café com leite"
+    }
   },
   {
     "section": "coffee",
@@ -1304,14 +2600,32 @@
       {
         "hanzi": "美式咖啡比较苦。",
         "pinyin": "Měishì kāfēi bǐjiào kǔ.",
-        "english": "Americano is rather bitter."
+        "english": "Americano is rather bitter.",
+        "translations": {
+          "en": "Americano is rather bitter.",
+          "ru": "Американо довольно горький.",
+          "es": "El americano es bastante amargo.",
+          "pt-BR": "O americano é bem amargo."
+        }
       },
       {
         "hanzi": "请换大杯美式。",
         "pinyin": "Qǐng huàn dà bēi Měishì.",
-        "english": "Please upgrade to a large Americano."
+        "english": "Please upgrade to a large Americano.",
+        "translations": {
+          "en": "Please upgrade to a large Americano.",
+          "ru": "Большой американо, пожалуйста.",
+          "es": "Un americano grande, por favor.",
+          "pt-BR": "Um americano grande, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Americano",
+      "ru": "американо",
+      "es": "americano",
+      "pt-BR": "americano"
+    }
   },
   {
     "section": "coffee",
@@ -1322,14 +2636,32 @@
       {
         "hanzi": "卡布奇诺上面是奶泡。",
         "pinyin": "Kǎbùqínuò shàngmiàn shì nǎipào.",
-        "english": "Cappuccino has foam on top."
+        "english": "Cappuccino has foam on top.",
+        "translations": {
+          "en": "Cappuccino has foam on top.",
+          "ru": "Сверху у капучино молочная пенка.",
+          "es": "El capuchino lleva espuma arriba.",
+          "pt-BR": "O cappuccino tem espuma em cima."
+        }
       },
       {
         "hanzi": "她点了卡布奇诺。",
         "pinyin": "Tā diǎn le kǎbùqínuò.",
-        "english": "She ordered a cappuccino."
+        "english": "She ordered a cappuccino.",
+        "translations": {
+          "en": "She ordered a cappuccino.",
+          "ru": "Она заказала капучино.",
+          "es": "Pidió un capuchino.",
+          "pt-BR": "Ela pediu um cappuccino."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "cappuccino",
+      "ru": "капучино",
+      "es": "capuchino",
+      "pt-BR": "cappuccino"
+    }
   },
   {
     "section": "coffee",
@@ -1340,14 +2672,32 @@
       {
         "hanzi": "浓缩咖啡很小杯。",
         "pinyin": "Nóngsuō kāfēi hěn xiǎo bēi.",
-        "english": "Espresso comes in a small cup."
+        "english": "Espresso comes in a small cup.",
+        "translations": {
+          "en": "Espresso comes in a small cup.",
+          "ru": "Эспрессо подают в маленькой чашке.",
+          "es": "El espresso viene en taza pequeña.",
+          "pt-BR": "O espresso vem em xícara pequena."
+        }
       },
       {
         "hanzi": "请做双份浓缩。",
         "pinyin": "Qǐng zuò shuāng fèn nóngsuō.",
-        "english": "Please make a double espresso."
+        "english": "Please make a double espresso.",
+        "translations": {
+          "en": "Please make a double espresso.",
+          "ru": "Сделайте двойной эспрессо.",
+          "es": "Un espresso doble, por favor.",
+          "pt-BR": "Um espresso duplo, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "espresso",
+      "ru": "эспрессо",
+      "es": "espresso",
+      "pt-BR": "espresso"
+    }
   },
   {
     "section": "coffee",
@@ -1358,14 +2708,32 @@
       {
         "hanzi": "这些咖啡豆很新鲜。",
         "pinyin": "Zhèxiē kāfēidòu hěn xīnxiān.",
-        "english": "These coffee beans are fresh."
+        "english": "These coffee beans are fresh.",
+        "translations": {
+          "en": "These coffee beans are fresh.",
+          "ru": "Эти зёрна свежие.",
+          "es": "Estos granos de café están frescos.",
+          "pt-BR": "Estes grãos de café estão frescos."
+        }
       },
       {
         "hanzi": "我买了埃塞俄比亚咖啡豆。",
         "pinyin": "Wǒ mǎi le Āisāi'ébǐyà kāfēidòu.",
-        "english": "I bought Ethiopian coffee beans."
+        "english": "I bought Ethiopian coffee beans.",
+        "translations": {
+          "en": "I bought Ethiopian coffee beans.",
+          "ru": "Я купил эфиопские зёрна.",
+          "es": "Compré granos de Etiopía.",
+          "pt-BR": "Comprei grãos da Etiópia."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "coffee beans",
+      "ru": "кофейные зёрна",
+      "es": "granos de café",
+      "pt-BR": "grãos de café"
+    }
   },
   {
     "section": "coffee",
@@ -1376,14 +2744,32 @@
       {
         "hanzi": "请帮我研磨咖啡豆。",
         "pinyin": "Qǐng bāng wǒ yánmó kāfēidòu.",
-        "english": "Please grind the coffee beans for me."
+        "english": "Please grind the coffee beans for me.",
+        "translations": {
+          "en": "Please grind the coffee beans for me.",
+          "ru": "Помолите, пожалуйста, зёрна.",
+          "es": "Muela los granos, por favor.",
+          "pt-BR": "Moa os grãos, por favor."
+        }
       },
       {
         "hanzi": "现磨咖啡更香。",
         "pinyin": "Xiàn mó kāfēi gèng xiāng.",
-        "english": "Freshly ground coffee smells better."
+        "english": "Freshly ground coffee smells better.",
+        "translations": {
+          "en": "Freshly ground coffee smells better.",
+          "ru": "Свежемолотый кофе ароматнее.",
+          "es": "El café recién molido huele mejor.",
+          "pt-BR": "Café moído na hora cheira melhor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to grind coffee",
+      "ru": "молоть (кофе)",
+      "es": "moler (café)",
+      "pt-BR": "moer (café)"
+    }
   },
   {
     "section": "coffee",
@@ -1394,14 +2780,32 @@
       {
         "hanzi": "咖啡外带还是堂食？",
         "pinyin": "Kāfēi wàidài háishi tángshí?",
-        "english": "Coffee to go or for here?"
+        "english": "Coffee to go or for here?",
+        "translations": {
+          "en": "Coffee to go or for here?",
+          "ru": "Кофе с собой или здесь?",
+          "es": "¿El café para llevar o para tomar aquí?",
+          "pt-BR": "O café para viagem ou para tomar aqui?"
+        }
       },
       {
         "hanzi": "我要外带。",
         "pinyin": "Wǒ yào wàidài.",
-        "english": "I'll take it to go."
+        "english": "I'll take it to go.",
+        "translations": {
+          "en": "I'll take it to go.",
+          "ru": "Мне с собой.",
+          "es": "Para llevar.",
+          "pt-BR": "Para viagem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to go",
+      "ru": "с собой / на вынос",
+      "es": "para llevar",
+      "pt-BR": "para viagem"
+    }
   },
   {
     "section": "coffee",
@@ -1412,14 +2816,32 @@
       {
         "hanzi": "请做半糖。",
         "pinyin": "Qǐng zuò bàntáng.",
-        "english": "Please make it half sugar."
+        "english": "Please make it half sugar.",
+        "translations": {
+          "en": "Please make it half sugar.",
+          "ru": "Сделайте, пожалуйста, половину сахара.",
+          "es": "Con la mitad de azúcar, por favor.",
+          "pt-BR": "Com meio açúcar, por favor."
+        }
       },
       {
         "hanzi": "半糖对我来说刚好。",
         "pinyin": "Bàntáng duì wǒ lái shuō gānghǎo.",
-        "english": "Half sugar is just right for me."
+        "english": "Half sugar is just right for me.",
+        "translations": {
+          "en": "Half sugar is just right for me.",
+          "ru": "Половина сахара мне как раз.",
+          "es": "La mitad de azúcar me viene bien.",
+          "pt-BR": "Meio açúcar está no ponto para mim."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "half sugar",
+      "ru": "половина сахара",
+      "es": "mitad de azúcar",
+      "pt-BR": "meio açúcar"
+    }
   },
   {
     "section": "coffee",
@@ -1430,14 +2852,32 @@
       {
         "hanzi": "这杯咖啡拉花很漂亮。",
         "pinyin": "Zhè bēi kāfēi lāhuā hěn piàoliang.",
-        "english": "The latte art on this coffee is beautiful."
+        "english": "The latte art on this coffee is beautiful.",
+        "translations": {
+          "en": "The latte art on this coffee is beautiful.",
+          "ru": "На этом кофе красивый рисунок.",
+          "es": "El arte latte de este café es precioso.",
+          "pt-BR": "A arte neste café está linda."
+        }
       },
       {
         "hanzi": "店员擅长拉花。",
         "pinyin": "Diànyuán shàncháng lāhuā.",
-        "english": "The barista is good at latte art."
+        "english": "The barista is good at latte art.",
+        "translations": {
+          "en": "The barista is good at latte art.",
+          "ru": "Бариста хорошо рисует на кофе.",
+          "es": "El barista es bueno con el arte latte.",
+          "pt-BR": "O barista é bom em latte art."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "latte art",
+      "ru": "латте-арт / рисунок на кофе",
+      "es": "arte latte",
+      "pt-BR": "arte no café / latte art"
+    }
   },
   {
     "section": "tea",
@@ -1448,14 +2888,32 @@
       {
         "hanzi": "绿茶比较清淡。",
         "pinyin": "Lǜchá bǐjiào qīngdàn.",
-        "english": "Green tea is relatively light."
+        "english": "Green tea is relatively light.",
+        "translations": {
+          "en": "Green tea is relatively light.",
+          "ru": "Зелёный чай более лёгкий.",
+          "es": "El té verde es relativamente suave.",
+          "pt-BR": "Chá verde é relativamente leve."
+        }
       },
       {
         "hanzi": "请泡一杯绿茶。",
         "pinyin": "Qǐng pào yī bēi lǜchá.",
-        "english": "Please brew a cup of green tea."
+        "english": "Please brew a cup of green tea.",
+        "translations": {
+          "en": "Please brew a cup of green tea.",
+          "ru": "Заварите чашку зелёного чая.",
+          "es": "Una taza de té verde, por favor.",
+          "pt-BR": "Uma xícara de chá verde, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "green tea",
+      "ru": "зелёный чай",
+      "es": "té verde",
+      "pt-BR": "chá verde"
+    }
   },
   {
     "section": "tea",
@@ -1466,14 +2924,32 @@
       {
         "hanzi": "红茶适合加牛奶。",
         "pinyin": "Hóngchá shìhé jiā niúnǎi.",
-        "english": "Black tea goes well with milk."
+        "english": "Black tea goes well with milk.",
+        "translations": {
+          "en": "Black tea goes well with milk.",
+          "ru": "Чёрный чай хорошо идёт с молоком.",
+          "es": "El té negro va bien con leche.",
+          "pt-BR": "Chá preto combina com leite."
+        }
       },
       {
         "hanzi": "英式红茶很浓。",
         "pinyin": "Yīngshì hóngchá hěn nóng.",
-        "english": "English black tea is strong."
+        "english": "English black tea is strong.",
+        "translations": {
+          "en": "English black tea is strong.",
+          "ru": "Английский чёрный чай крепкий.",
+          "es": "El té negro inglés es fuerte.",
+          "pt-BR": "O chá preto inglês é forte."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "black tea",
+      "ru": "чёрный чай",
+      "es": "té negro",
+      "pt-BR": "chá preto"
+    }
   },
   {
     "section": "tea",
@@ -1484,14 +2960,32 @@
       {
         "hanzi": "乌龙茶可以反复冲泡。",
         "pinyin": "Wūlóngchá kěyǐ fǎnfù chōngpào.",
-        "english": "Oolong can be steeped multiple times."
+        "english": "Oolong can be steeped multiple times.",
+        "translations": {
+          "en": "Oolong can be steeped multiple times.",
+          "ru": "Улун можно заваривать много раз.",
+          "es": "El oolong se puede infusionar varias veces.",
+          "pt-BR": "Oolong pode ser infundido várias vezes."
+        }
       },
       {
         "hanzi": "铁观音是乌龙茶。",
         "pinyin": "Tiěguānyīn shì wūlóngchá.",
-        "english": "Tieguanyin is an oolong tea."
+        "english": "Tieguanyin is an oolong tea.",
+        "translations": {
+          "en": "Tieguanyin is an oolong tea.",
+          "ru": "Тегуаньинь — это улун.",
+          "es": "El Tieguanyin es un oolong.",
+          "pt-BR": "Tieguanyin é um oolong."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "oolong tea",
+      "ru": "улун",
+      "es": "té oolong",
+      "pt-BR": "chá oolong"
+    }
   },
   {
     "section": "tea",
@@ -1502,14 +2996,32 @@
       {
         "hanzi": "茉莉花茶很香。",
         "pinyin": "Mòlì huāchá hěn xiāng.",
-        "english": "Jasmine tea is very fragrant."
+        "english": "Jasmine tea is very fragrant.",
+        "translations": {
+          "en": "Jasmine tea is very fragrant.",
+          "ru": "Жасминовый чай очень ароматный.",
+          "es": "El té de jazmín es muy fragante.",
+          "pt-BR": "Chá de jasmim é muito aromático."
+        }
       },
       {
         "hanzi": "饭后我喝茉莉花茶。",
         "pinyin": "Fàn hòu wǒ hē mòlì huāchá.",
-        "english": "I drink jasmine tea after meals."
+        "english": "I drink jasmine tea after meals.",
+        "translations": {
+          "en": "I drink jasmine tea after meals.",
+          "ru": "После еды я пью жасминовый чай.",
+          "es": "Después de comer tomo té de jazmín.",
+          "pt-BR": "Depois de comer eu tomo chá de jasmim."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "jasmine tea",
+      "ru": "жасминовый чай",
+      "es": "té de jazmín",
+      "pt-BR": "chá de jasmim"
+    }
   },
   {
     "section": "tea",
@@ -1520,14 +3032,32 @@
       {
         "hanzi": "普洱茶可以收藏。",
         "pinyin": "Pǔ'ěrchá kěyǐ shōucáng.",
-        "english": "Pu'er tea can be aged and collected."
+        "english": "Pu'er tea can be aged and collected.",
+        "translations": {
+          "en": "Pu'er tea can be aged and collected.",
+          "ru": "Пуэр можно коллекционировать.",
+          "es": "El pu-erh se puede guardar y coleccionar.",
+          "pt-BR": "Pu-erh pode ser guardado e colecionado."
+        }
       },
       {
         "hanzi": "熟普洱口感醇厚。",
         "pinyin": "Shú pǔ'ěr kǒugǎn chúnhòu.",
-        "english": "Ripe Pu'er has a rich flavor."
+        "english": "Ripe Pu'er has a rich flavor.",
+        "translations": {
+          "en": "Ripe Pu'er has a rich flavor.",
+          "ru": "Выдержанный пуэр густой и мягкий.",
+          "es": "El pu-erh maduro tiene un sabor rico.",
+          "pt-BR": "O pu-erh maduro tem sabor encorpado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Pu'er tea",
+      "ru": "чай пуэр",
+      "es": "té pu-erh",
+      "pt-BR": "chá pu-erh"
+    }
   },
   {
     "section": "tea",
@@ -1538,14 +3068,32 @@
       {
         "hanzi": "我来泡茶。",
         "pinyin": "Wǒ lái pào chá.",
-        "english": "Let me brew the tea."
+        "english": "Let me brew the tea.",
+        "translations": {
+          "en": "Let me brew the tea.",
+          "ru": "Я заварю чай.",
+          "es": "Yo preparo el té.",
+          "pt-BR": "Eu preparo o chá."
+        }
       },
       {
         "hanzi": "水温太高不适合泡茶。",
         "pinyin": "Shuǐwēn tài gāo bú shìhé pào chá.",
-        "english": "Water that's too hot isn't good for brewing tea."
+        "english": "Water that's too hot isn't good for brewing tea.",
+        "translations": {
+          "en": "Water that's too hot isn't good for brewing tea.",
+          "ru": "Слишком горячая вода не подходит для заваривания.",
+          "es": "El agua demasiado caliente no sirve para el té.",
+          "pt-BR": "Água quente demais não serve para o chá."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to brew tea",
+      "ru": "заваривать чай",
+      "es": "infusionar té / preparar té",
+      "pt-BR": "preparar chá / infundir chá"
+    }
   },
   {
     "section": "tea",
@@ -1556,14 +3104,32 @@
       {
         "hanzi": "这些茶叶是今年的新茶。",
         "pinyin": "Zhèxiē cháyè shì jīnnián de xīnchá.",
-        "english": "These tea leaves are this year's new harvest."
+        "english": "These tea leaves are this year's new harvest.",
+        "translations": {
+          "en": "These tea leaves are this year's new harvest.",
+          "ru": "Это чай нового урожая.",
+          "es": "Estas hojas son de la cosecha de este año.",
+          "pt-BR": "Estas folhas são da colheita deste ano."
+        }
       },
       {
         "hanzi": "茶叶要密封保存。",
         "pinyin": "Cháyè yào mìfēng bǎocún.",
-        "english": "Tea leaves should be stored sealed."
+        "english": "Tea leaves should be stored sealed.",
+        "translations": {
+          "en": "Tea leaves should be stored sealed.",
+          "ru": "Чай нужно хранить герметично.",
+          "es": "Las hojas de té hay que guardarlas selladas.",
+          "pt-BR": "As folhas de chá devem ser guardadas bem fechadas."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "tea leaves",
+      "ru": "чайный лист",
+      "es": "hojas de té",
+      "pt-BR": "folhas de chá"
+    }
   },
   {
     "section": "tea",
@@ -1574,14 +3140,32 @@
       {
         "hanzi": "广东人喜欢喝功夫茶。",
         "pinyin": "Guǎngdōng rén xǐhuan hē gōngfuchá.",
-        "english": "People in Guangdong enjoy gongfu tea."
+        "english": "People in Guangdong enjoy gongfu tea.",
+        "translations": {
+          "en": "People in Guangdong enjoy gongfu tea.",
+          "ru": "В Гуандуне любят чай гунфу.",
+          "es": "En Guangdong les gusta el té gongfu.",
+          "pt-BR": "Em Guangdong gostam de chá gongfu."
+        }
       },
       {
         "hanzi": "功夫茶讲究水温。",
         "pinyin": "Gōngfuchá jiǎngjiū shuǐwēn.",
-        "english": "Gongfu tea emphasizes water temperature."
+        "english": "Gongfu tea emphasizes water temperature.",
+        "translations": {
+          "en": "Gongfu tea emphasizes water temperature.",
+          "ru": "В гунфу важен температура воды.",
+          "es": "El té gongfu cuida la temperatura del agua.",
+          "pt-BR": "O chá gongfu dá atenção à temperatura da água."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "gongfu tea ceremony",
+      "ru": "чай гунфу / чайная церемония",
+      "es": "té gongfu / ceremonia del té",
+      "pt-BR": "chá gongfu / cerimônia do chá"
+    }
   },
   {
     "section": "tea",
@@ -1592,14 +3176,32 @@
       {
         "hanzi": "我们去茶馆坐坐。",
         "pinyin": "Wǒmen qù cháguǎn zuòzuò.",
-        "english": "Let's sit at a teahouse."
+        "english": "Let's sit at a teahouse.",
+        "translations": {
+          "en": "Let's sit at a teahouse.",
+          "ru": "Пойдём посидим в чайной.",
+          "es": "Vamos a sentarnos en una casa de té.",
+          "pt-BR": "Vamos sentar numa casa de chá."
+        }
       },
       {
         "hanzi": "这家茶馆环境很好。",
         "pinyin": "Zhè jiā cháguǎn huánjìng hěn hǎo.",
-        "english": "This teahouse has a nice atmosphere."
+        "english": "This teahouse has a nice atmosphere.",
+        "translations": {
+          "en": "This teahouse has a nice atmosphere.",
+          "ru": "В этой чайной приятная атмосфера.",
+          "es": "Esta casa de té tiene un ambiente agradable.",
+          "pt-BR": "Esta casa de chá tem um ambiente gostoso."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "teahouse",
+      "ru": "чайная / чайный дом",
+      "es": "casa de té / salón de té",
+      "pt-BR": "casa de chá"
+    }
   },
   {
     "section": "tea",
@@ -1610,14 +3212,32 @@
       {
         "hanzi": "请帮我倒茶。",
         "pinyin": "Qǐng bāng wǒ dào chá.",
-        "english": "Please pour me some tea."
+        "english": "Please pour me some tea.",
+        "translations": {
+          "en": "Please pour me some tea.",
+          "ru": "Налейте мне, пожалуйста, чай.",
+          "es": "Sírvame té, por favor.",
+          "pt-BR": "Me sirva chá, por favor."
+        }
       },
       {
         "hanzi": "倒茶时先给长辈。",
         "pinyin": "Dào chá shí xiān gěi zhǎngbèi.",
-        "english": "Serve tea to elders first."
+        "english": "Serve tea to elders first.",
+        "translations": {
+          "en": "Serve tea to elders first.",
+          "ru": "Чай сначала наливают старшим.",
+          "es": "Al servir té, se sirve primero a los mayores.",
+          "pt-BR": "Ao servir chá, sirva primeiro os mais velhos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to pour tea",
+      "ru": "наливать чай",
+      "es": "servir té",
+      "pt-BR": "servir chá"
+    }
   },
   {
     "section": "drinks",
@@ -1628,14 +3248,32 @@
       {
         "hanzi": "请给我一杯水。",
         "pinyin": "Qǐng gěi wǒ yī bēi shuǐ.",
-        "english": "Please give me a glass of water."
+        "english": "Please give me a glass of water.",
+        "translations": {
+          "en": "Please give me a glass of water.",
+          "ru": "Дайте мне стакан воды.",
+          "es": "Un vaso de agua, por favor.",
+          "pt-BR": "Um copo de água, por favor."
+        }
       },
       {
         "hanzi": "多喝水对身体好。",
         "pinyin": "Duō hē shuǐ duì shēntǐ hǎo.",
-        "english": "Drinking more water is good for you."
+        "english": "Drinking more water is good for you.",
+        "translations": {
+          "en": "Drinking more water is good for you.",
+          "ru": "Пить больше воды полезно.",
+          "es": "Beber más agua es bueno para la salud.",
+          "pt-BR": "Beber mais água faz bem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "water",
+      "ru": "вода",
+      "es": "agua",
+      "pt-BR": "água"
+    }
   },
   {
     "section": "drinks",
@@ -1646,14 +3284,32 @@
       {
         "hanzi": "鲜榨果汁没有添加剂。",
         "pinyin": "Xiānzhà guǒzhī méiyǒu tiānjiājì.",
-        "english": "Fresh juice has no additives."
+        "english": "Fresh juice has no additives.",
+        "translations": {
+          "en": "Fresh juice has no additives.",
+          "ru": "Свежевыжатый сок без добавок.",
+          "es": "El jugo recién exprimido no tiene aditivos.",
+          "pt-BR": "Suco natural não tem aditivo."
+        }
       },
       {
         "hanzi": "孩子喜欢喝橙汁。",
         "pinyin": "Háizi xǐhuan hē chéngzhī.",
-        "english": "Kids like drinking orange juice."
+        "english": "Kids like drinking orange juice.",
+        "translations": {
+          "en": "Kids like drinking orange juice.",
+          "ru": "Дети любят апельсиновый сок.",
+          "es": "A los niños les gusta el jugo de naranja.",
+          "pt-BR": "Crianças gostam de suco de laranja."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "fruit juice",
+      "ru": "фруктовый сок",
+      "es": "zumo / jugo de fruta",
+      "pt-BR": "suco de fruta"
+    }
   },
   {
     "section": "drinks",
@@ -1664,14 +3320,32 @@
       {
         "hanzi": "我早餐喝牛奶。",
         "pinyin": "Wǒ zǎocān hē niúnǎi.",
-        "english": "I drink milk for breakfast."
+        "english": "I drink milk for breakfast.",
+        "translations": {
+          "en": "I drink milk for breakfast.",
+          "ru": "На завтрак я пью молоко.",
+          "es": "En el desayuno tomo leche.",
+          "pt-BR": "No café da manhã eu tomo leite."
+        }
       },
       {
         "hanzi": "这盒牛奶要冷藏。",
         "pinyin": "Zhè hé niúnǎi yào lěngcáng.",
-        "english": "This milk needs refrigeration."
+        "english": "This milk needs refrigeration.",
+        "translations": {
+          "en": "This milk needs refrigeration.",
+          "ru": "Эту пачку молока нужно держать в холодильнике.",
+          "es": "Esta leche hay que refrigerarla.",
+          "pt-BR": "Este leite precisa ir na geladeira."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "milk",
+      "ru": "молоко",
+      "es": "leche",
+      "pt-BR": "leite"
+    }
   },
   {
     "section": "drinks",
@@ -1682,14 +3356,32 @@
       {
         "hanzi": "请给我一罐可乐。",
         "pinyin": "Qǐng gěi wǒ yī guàn kělè.",
-        "english": "Please give me a can of cola."
+        "english": "Please give me a can of cola.",
+        "translations": {
+          "en": "Please give me a can of cola.",
+          "ru": "Дайте банку колы.",
+          "es": "Una lata de cola, por favor.",
+          "pt-BR": "Uma lata de cola, por favor."
+        }
       },
       {
         "hanzi": "少喝可乐比较好。",
         "pinyin": "Shǎo hē kělè bǐjiào hǎo.",
-        "english": "It's better to drink less cola."
+        "english": "It's better to drink less cola.",
+        "translations": {
+          "en": "It's better to drink less cola.",
+          "ru": "Колу лучше пить меньше.",
+          "es": "Es mejor beber menos cola.",
+          "pt-BR": "É melhor beber menos cola."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "cola",
+      "ru": "кола",
+      "es": "cola / refresco de cola",
+      "pt-BR": "refrigerante de cola"
+    }
   },
   {
     "section": "drinks",
@@ -1700,14 +3392,32 @@
       {
         "hanzi": "夏天喝冰啤酒很爽。",
         "pinyin": "Xiàtiān hē bīng píjiǔ hěn shuǎng.",
-        "english": "Ice cold beer is great in summer."
+        "english": "Ice cold beer is great in summer.",
+        "translations": {
+          "en": "Ice cold beer is great in summer.",
+          "ru": "Летом холодное пиво отлично идёт.",
+          "es": "En verano una cerveza fría sienta genial.",
+          "pt-BR": "No verão uma cerveja gelada cai muito bem."
+        }
       },
       {
         "hanzi": "请给我两瓶啤酒。",
         "pinyin": "Qǐng gěi wǒ liǎng píng píjiǔ.",
-        "english": "Please give me two bottles of beer."
+        "english": "Please give me two bottles of beer.",
+        "translations": {
+          "en": "Please give me two bottles of beer.",
+          "ru": "Две бутылки пива, пожалуйста.",
+          "es": "Dos botellas de cerveza, por favor.",
+          "pt-BR": "Duas garrafas de cerveja, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "beer",
+      "ru": "пиво",
+      "es": "cerveza",
+      "pt-BR": "cerveja"
+    }
   },
   {
     "section": "drinks",
@@ -1718,14 +3428,32 @@
       {
         "hanzi": "白酒度数很高。",
         "pinyin": "Báijiǔ dùshù hěn gāo.",
-        "english": "Baijiu has a high alcohol content."
+        "english": "Baijiu has a high alcohol content.",
+        "translations": {
+          "en": "Baijiu has a high alcohol content.",
+          "ru": "У байцзю высокая крепость.",
+          "es": "El baijiu tiene mucha graduación.",
+          "pt-BR": "O baijiu tem teor alcoólico alto."
+        }
       },
       {
         "hanzi": "宴席上常喝白酒。",
         "pinyin": "Yànxí shàng cháng hē báijiǔ.",
-        "english": "Baijiu is often served at banquets."
+        "english": "Baijiu is often served at banquets.",
+        "translations": {
+          "en": "Baijiu is often served at banquets.",
+          "ru": "На банкетах часто пьют байцзю.",
+          "es": "En los banquetes suele servirse baijiu.",
+          "pt-BR": "Em banquetes costuma-se beber baijiu."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "baijiu",
+      "ru": "байцзю (китайский крепкий алкоголь)",
+      "es": "baijiu (licor chino)",
+      "pt-BR": "baijiu (destilado chinês)"
+    }
   },
   {
     "section": "drinks",
@@ -1736,14 +3464,32 @@
       {
         "hanzi": "红酒要醒一下。",
         "pinyin": "Hóngjiǔ yào xǐng yīxià.",
-        "english": "Red wine needs to breathe."
+        "english": "Red wine needs to breathe.",
+        "translations": {
+          "en": "Red wine needs to breathe.",
+          "ru": "Красному вину нужно подышать.",
+          "es": "El vino tinto hay que oxigenarlo.",
+          "pt-BR": "Vinho tinto precisa respirar."
+        }
       },
       {
         "hanzi": "我们庆祝时开了一瓶红酒。",
         "pinyin": "Wǒmen qìngzhù shí kāi le yī píng hóngjiǔ.",
-        "english": "We opened a bottle of red wine to celebrate."
+        "english": "We opened a bottle of red wine to celebrate.",
+        "translations": {
+          "en": "We opened a bottle of red wine to celebrate.",
+          "ru": "На праздник мы открыли бутылку красного.",
+          "es": "Abrimos una botella de tinto para celebrar.",
+          "pt-BR": "Abrimos uma garrafa de tinto para comemorar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "red wine",
+      "ru": "красное вино",
+      "es": "vino tinto",
+      "pt-BR": "vinho tinto"
+    }
   },
   {
     "section": "drinks",
@@ -1754,14 +3500,32 @@
       {
         "hanzi": "早餐配油条和豆浆。",
         "pinyin": "Zǎocān pèi yóutiáo hé dòujiāng.",
-        "english": "Breakfast with youtiao and soy milk."
+        "english": "Breakfast with youtiao and soy milk.",
+        "translations": {
+          "en": "Breakfast with youtiao and soy milk.",
+          "ru": "Завтрак с ютяо и соевым молоком.",
+          "es": "Desayuno con youtiao y leche de soja.",
+          "pt-BR": "Café da manhã com youtiao e leite de soja."
+        }
       },
       {
         "hanzi": "热豆浆很好喝。",
         "pinyin": "Rè dòujiāng hěn hǎo hē.",
-        "english": "Hot soy milk is delicious."
+        "english": "Hot soy milk is delicious.",
+        "translations": {
+          "en": "Hot soy milk is delicious.",
+          "ru": "Горячее соевое молоко очень вкусное.",
+          "es": "La leche de soja caliente está riquísima.",
+          "pt-BR": "Leite de soja quente está uma delícia."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "soy milk",
+      "ru": "соевое молоко",
+      "es": "leche de soja",
+      "pt-BR": "leite de soja"
+    }
   },
   {
     "section": "drinks",
@@ -1772,14 +3536,32 @@
       {
         "hanzi": "珍珠奶茶很流行。",
         "pinyin": "Zhēnzhū nǎichá hěn liúxíng.",
-        "english": "Bubble milk tea is very popular."
+        "english": "Bubble milk tea is very popular.",
+        "translations": {
+          "en": "Bubble milk tea is very popular.",
+          "ru": "Бабл-ти очень популярен.",
+          "es": "El té con perlas es muy popular.",
+          "pt-BR": "Milk tea com pérola é muito popular."
+        }
       },
       {
         "hanzi": "我要一杯少糖奶茶。",
         "pinyin": "Wǒ yào yī bēi shǎo táng nǎichá.",
-        "english": "I'd like a milk tea with less sugar."
+        "english": "I'd like a milk tea with less sugar.",
+        "translations": {
+          "en": "I'd like a milk tea with less sugar.",
+          "ru": "Мне молочный чай с меньшим сахаром.",
+          "es": "Un té con leche con menos azúcar.",
+          "pt-BR": "Um chá com leite com menos açúcar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "milk tea",
+      "ru": "молочный чай",
+      "es": "té con leche",
+      "pt-BR": "chá com leite / milk tea"
+    }
   },
   {
     "section": "drinks",
@@ -1790,13 +3572,31 @@
       {
         "hanzi": "运动后喝功能饮料。",
         "pinyin": "Yùndòng hòu hē gōngnéng yǐnliào.",
-        "english": "Drink an energy drink after exercise."
+        "english": "Drink an energy drink after exercise.",
+        "translations": {
+          "en": "Drink an energy drink after exercise.",
+          "ru": "После спорта пьют энергетик.",
+          "es": "Después de hacer deporte se toma una bebida energética.",
+          "pt-BR": "Depois do exercício toma-se uma bebida energética."
+        }
       },
       {
         "hanzi": "功能饮料不要多喝。",
         "pinyin": "Gōngnéng yǐnliào bú yào duō hē.",
-        "english": "Don't drink too many energy drinks."
+        "english": "Don't drink too many energy drinks.",
+        "translations": {
+          "en": "Don't drink too many energy drinks.",
+          "ru": "Энергетики лучше не злоупотреблять.",
+          "es": "No hay que beber demasiadas bebidas energéticas.",
+          "pt-BR": "Não se deve tomar bebida energética demais."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "energy drink",
+      "ru": "энергетический напиток",
+      "es": "bebida energética",
+      "pt-BR": "bebida energética"
+    }
   }
 ]

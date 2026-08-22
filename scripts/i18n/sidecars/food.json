@@ -1,0 +1,1702 @@
+{
+  "苹果": {
+    "ru": "яблоко",
+    "es": "manzana",
+    "pt-BR": "maçã",
+    "examples": [
+      {
+        "ru": "Я каждый день ем яблоко.",
+        "es": "Como una manzana todos los días.",
+        "pt-BR": "Como uma maçã todos os dias."
+      },
+      {
+        "ru": "Эти яблоки очень сладкие.",
+        "es": "Estas manzanas son muy dulces.",
+        "pt-BR": "Estas maçãs são muito doces."
+      }
+    ]
+  },
+  "香蕉": {
+    "ru": "банан",
+    "es": "plátano / banana",
+    "pt-BR": "banana",
+    "examples": [
+      {
+        "ru": "Бананы чернеют, если долго лежат.",
+        "es": "Los plátanos se ponen negros si se guardan mucho.",
+        "pt-BR": "As bananas escurecem se ficarem guardadas tempo demais."
+      },
+      {
+        "ru": "Дети любят бананы.",
+        "es": "A los niños les gusta el plátano.",
+        "pt-BR": "Crianças gostam de banana."
+      }
+    ]
+  },
+  "橙子": {
+    "ru": "апельсин",
+    "es": "naranja",
+    "pt-BR": "laranja",
+    "examples": [
+      {
+        "ru": "В апельсинах много витаминов.",
+        "es": "Las naranjas son ricas en vitaminas.",
+        "pt-BR": "As laranjas são ricas em vitaminas."
+      },
+      {
+        "ru": "Дайте мне, пожалуйста, два апельсина.",
+        "es": "Deme dos naranjas, por favor.",
+        "pt-BR": "Me dê duas laranjas, por favor."
+      }
+    ]
+  },
+  "葡萄": {
+    "ru": "виноград",
+    "es": "uva",
+    "pt-BR": "uva",
+    "examples": [
+      {
+        "ru": "Эта гроздь винограда большая.",
+        "es": "Este racimo de uvas es grande.",
+        "pt-BR": "Este cacho de uvas é grande."
+      },
+      {
+        "ru": "Виноград лучше всего летом.",
+        "es": "Las uvas saben mejor en verano.",
+        "pt-BR": "Uva fica melhor no verão."
+      }
+    ]
+  },
+  "西瓜": {
+    "ru": "арбуз",
+    "es": "sandía",
+    "pt-BR": "melancia",
+    "examples": [
+      {
+        "ru": "Арбуз освежает летом.",
+        "es": "La sandía refresca en verano.",
+        "pt-BR": "Melancia refresca no verão."
+      },
+      {
+        "ru": "Этот арбуз сладкий.",
+        "es": "Esta sandía es dulce.",
+        "pt-BR": "Esta melancia é doce."
+      }
+    ]
+  },
+  "草莓": {
+    "ru": "клубника",
+    "es": "fresa",
+    "pt-BR": "morango",
+    "examples": [
+      {
+        "ru": "Клубничный торт популярен.",
+        "es": "El pastel de fresa es popular.",
+        "pt-BR": "Bolo de morango é popular."
+      },
+      {
+        "ru": "Свежая клубника уже покраснела.",
+        "es": "Las fresas frescas ya están rojas.",
+        "pt-BR": "Os morangos frescos já estão vermelhos."
+      }
+    ]
+  },
+  "桃子": {
+    "ru": "персик",
+    "es": "melocotón / durazno",
+    "pt-BR": "pêssego",
+    "examples": [
+      {
+        "ru": "Спелые персики чудесно пахнут.",
+        "es": "Los duraznos maduros huelen muy bien.",
+        "pt-BR": "Pêssegos maduros cheiram muito bem."
+      },
+      {
+        "ru": "Я купил три цзиня персиков.",
+        "es": "Compré tres jin de duraznos.",
+        "pt-BR": "Comprei três jin de pêssego."
+      }
+    ]
+  },
+  "梨": {
+    "ru": "груша",
+    "es": "pera",
+    "pt-BR": "pera",
+    "examples": [
+      {
+        "ru": "Этот сорт груш очень сочный.",
+        "es": "Este tipo de pera es muy jugosa.",
+        "pt-BR": "Este tipo de pera é bem suculenta."
+      },
+      {
+        "ru": "Груши зимой полезны для горла.",
+        "es": "Comer peras en invierno es bueno para la garganta.",
+        "pt-BR": "Comer pera no inverno faz bem à garganta."
+      }
+    ]
+  },
+  "芒果": {
+    "ru": "манго",
+    "es": "mango",
+    "pt-BR": "manga",
+    "examples": [
+      {
+        "ru": "Манго — тропический фрукт.",
+        "es": "El mango es una fruta tropical.",
+        "pt-BR": "Manga é uma fruta tropical."
+      },
+      {
+        "ru": "Мне нравится вкус манго.",
+        "es": "Me gusta el sabor del mango.",
+        "pt-BR": "Gosto do sabor da manga."
+      }
+    ]
+  },
+  "樱桃": {
+    "ru": "вишня / черешня",
+    "es": "cereza",
+    "pt-BR": "cereja",
+    "examples": [
+      {
+        "ru": "Сезон вишни короткий.",
+        "es": "La temporada de cerezas es corta.",
+        "pt-BR": "A temporada de cereja é curta."
+      },
+      {
+        "ru": "Эти вишни очень свежие.",
+        "es": "Estas cerezas están muy frescas.",
+        "pt-BR": "Estas cerejas estão bem frescas."
+      }
+    ]
+  },
+  "白菜": {
+    "ru": "пекинская капуста",
+    "es": "col china",
+    "pt-BR": "repolho chinês",
+    "examples": [
+      {
+        "ru": "Капусту можно жарить или варить.",
+        "es": "La col se puede saltear o hervir.",
+        "pt-BR": "O repolho pode ser refogado ou cozido."
+      },
+      {
+        "ru": "Мне, пожалуйста, один кочан капусты.",
+        "es": "Quisiera una pieza de col china.",
+        "pt-BR": "Quero uma cabeça de repolho chinês."
+      }
+    ]
+  },
+  "西红柿": {
+    "ru": "помидор",
+    "es": "tomate",
+    "pt-BR": "tomate",
+    "examples": [
+      {
+        "ru": "Жареные помидоры с яйцом очень вкусные.",
+        "es": "El salteado de tomate y huevo está delicioso.",
+        "pt-BR": "Tomate com ovo mexido fica uma delícia."
+      },
+      {
+        "ru": "Эти помидоры очень красные.",
+        "es": "Estos tomates están muy rojos.",
+        "pt-BR": "Estes tomates estão bem vermelhos."
+      }
+    ]
+  },
+  "土豆": {
+    "ru": "картофель",
+    "es": "patata / papa",
+    "pt-BR": "batata",
+    "examples": [
+      {
+        "ru": "Я люблю жареный картофель.",
+        "es": "Me gustan las patatas fritas.",
+        "pt-BR": "Gosto de batata frita."
+      },
+      {
+        "ru": "Из картофеля можно приготовить много блюд.",
+        "es": "Con patatas se pueden hacer muchos platos.",
+        "pt-BR": "Dá para fazer muitos pratos com batata."
+      }
+    ]
+  },
+  "胡萝卜": {
+    "ru": "морковь",
+    "es": "zanahoria",
+    "pt-BR": "cenoura",
+    "examples": [
+      {
+        "ru": "Морковь полезна для глаз.",
+        "es": "Las zanahorias son buenas para la vista.",
+        "pt-BR": "Cenoura faz bem aos olhos."
+      },
+      {
+        "ru": "Нарежьте, пожалуйста, морковь.",
+        "es": "Corte unas zanahorias, por favor.",
+        "pt-BR": "Corte umas cenouras, por favor."
+      }
+    ]
+  },
+  "黄瓜": {
+    "ru": "огурец",
+    "es": "pepino",
+    "pt-BR": "pepino",
+    "examples": [
+      {
+        "ru": "Огурец освежает летом.",
+        "es": "El pepino refresca en verano.",
+        "pt-BR": "Pepino refresca no verão."
+      },
+      {
+        "ru": "Сделаю салат из огурцов.",
+        "es": "Haré una ensalada de pepino.",
+        "pt-BR": "Vou fazer uma salada de pepino."
+      }
+    ]
+  },
+  "茄子": {
+    "ru": "баклажан",
+    "es": "berenjena",
+    "pt-BR": "berinjela",
+    "examples": [
+      {
+        "ru": "Баклажаны «юй сян» хорошо идут с рисом.",
+        "es": "La berenjena yu xiang queda bien con arroz.",
+        "pt-BR": "Berinjela yu xiang combina com arroz."
+      },
+      {
+        "ru": "Баклажан нужно хорошо протушить.",
+        "es": "La berenjena hay que cocinarla blandita.",
+        "pt-BR": "A berinjela precisa cozinhar até ficar macia."
+      }
+    ]
+  },
+  "菠菜": {
+    "ru": "шпинат",
+    "es": "espinaca",
+    "pt-BR": "espinafre",
+    "examples": [
+      {
+        "ru": "В шпинате много железа.",
+        "es": "Las espinacas tienen mucho hierro.",
+        "pt-BR": "Espinafre tem muito ferro."
+      },
+      {
+        "ru": "Дайте мне пучок шпината.",
+        "es": "Deme un manojo de espinacas.",
+        "pt-BR": "Me dê um maço de espinafre."
+      }
+    ]
+  },
+  "玉米": {
+    "ru": "кукуруза",
+    "es": "maíz",
+    "pt-BR": "milho",
+    "examples": [
+      {
+        "ru": "Варёная кукуруза отлично пахнет.",
+        "es": "El maíz hervido huele muy bien.",
+        "pt-BR": "Milho cozido cheira muito bem."
+      },
+      {
+        "ru": "Я купил початок кукурузы.",
+        "es": "Compré una mazorca de maíz.",
+        "pt-BR": "Comprei uma espiga de milho."
+      }
+    ]
+  },
+  "蘑菇": {
+    "ru": "гриб",
+    "es": "champiñón / seta",
+    "pt-BR": "cogumelo",
+    "examples": [
+      {
+        "ru": "В этот суп добавили грибы.",
+        "es": "A esta sopa le pusieron setas.",
+        "pt-BR": "Colocaram cogumelo nesta sopa."
+      },
+      {
+        "ru": "Грибы нужно хорошо промыть.",
+        "es": "Las setas hay que lavarlas bien.",
+        "pt-BR": "Cogumelo precisa lavar bem."
+      }
+    ]
+  },
+  "辣椒": {
+    "ru": "перец чили",
+    "es": "chile / ají",
+    "pt-BR": "pimenta",
+    "examples": [
+      {
+        "ru": "В этом блюде есть перец чили.",
+        "es": "Este plato lleva chile.",
+        "pt-BR": "Este prato tem pimenta."
+      },
+      {
+        "ru": "Я плохо переношу острое.",
+        "es": "No aguanto bien lo picante.",
+        "pt-BR": "Não aguento bem comida picante."
+      }
+    ]
+  },
+  "牛肉": {
+    "ru": "говядина",
+    "es": "ternera / carne de res",
+    "pt-BR": "carne bovina",
+    "examples": [
+      {
+        "ru": "Лапша с говядиной очень популярна.",
+        "es": "Los fideos con ternera son muy populares.",
+        "pt-BR": "Macarrão com carne é muito popular."
+      },
+      {
+        "ru": "Дайте мне, пожалуйста, цзинь говядины.",
+        "es": "Deme un jin de ternera, por favor.",
+        "pt-BR": "Me dê um jin de carne, por favor."
+      }
+    ]
+  },
+  "猪肉": {
+    "ru": "свинина",
+    "es": "cerdo",
+    "pt-BR": "porco",
+    "examples": [
+      {
+        "ru": "Из свинины можно приготовить много блюд.",
+        "es": "Con cerdo se pueden hacer muchos platos.",
+        "pt-BR": "Dá para fazer muitos pratos com porco."
+      },
+      {
+        "ru": "Сегодня купили свежую свинину.",
+        "es": "Hoy compramos cerdo fresco.",
+        "pt-BR": "Hoje compramos porco fresco."
+      }
+    ]
+  },
+  "鸡肉": {
+    "ru": "курица",
+    "es": "pollo",
+    "pt-BR": "frango",
+    "examples": [
+      {
+        "ru": "Курица «бай це» — знаменитое кантонское блюдо.",
+        "es": "El pollo blanco es un plato famoso de Cantón.",
+        "pt-BR": "Frango branco é um prato famoso de Cantão."
+      },
+      {
+        "ru": "Курица сравнительно полезная.",
+        "es": "El pollo es relativamente saludable.",
+        "pt-BR": "Frango é relativamente saudável."
+      }
+    ]
+  },
+  "羊肉": {
+    "ru": "баранина",
+    "es": "cordero / carne de ovino",
+    "pt-BR": "carneiro",
+    "examples": [
+      {
+        "ru": "Зимой едим баранью хого.",
+        "es": "En invierno comemos hot pot de cordero.",
+        "pt-BR": "No inverno comemos hot pot de carneiro."
+      },
+      {
+        "ru": "Баранину нужно долго тушить.",
+        "es": "El cordero hay que estofarlo mucho rato.",
+        "pt-BR": "Carneiro precisa cozinhar por bastante tempo."
+      }
+    ]
+  },
+  "排骨": {
+    "ru": "рёбрышки",
+    "es": "costillas",
+    "pt-BR": "costela",
+    "examples": [
+      {
+        "ru": "Рёбрышки в соевом соусе очень вкусные.",
+        "es": "Las costillas estofadas están riquísimas.",
+        "pt-BR": "Costela estufada fica uma delícia."
+      },
+      {
+        "ru": "Дайте два цзиня рёбрышек.",
+        "es": "Deme dos jin de costillas.",
+        "pt-BR": "Me dê dois jin de costela."
+      }
+    ]
+  },
+  "香肠": {
+    "ru": "колбаса / сосиски",
+    "es": "salchicha",
+    "pt-BR": "salsicha",
+    "examples": [
+      {
+        "ru": "На завтрак часто едят сосиски.",
+        "es": "La salchicha es habitual en el desayuno.",
+        "pt-BR": "Salsicha é comum no café da manhã."
+      },
+      {
+        "ru": "Эта колбаса очень ароматная.",
+        "es": "Esta salchicha huele muy bien.",
+        "pt-BR": "Esta salsicha cheira muito bem."
+      }
+    ]
+  },
+  "培根": {
+    "ru": "бекон",
+    "es": "tocino / bacon",
+    "pt-BR": "bacon",
+    "examples": [
+      {
+        "ru": "Я люблю бекон с яйцом.",
+        "es": "Me gustan el tocino y los huevos.",
+        "pt-BR": "Gosto de bacon com ovo."
+      },
+      {
+        "ru": "Дайте три ломтика бекона.",
+        "es": "Deme tres lonchas de tocino.",
+        "pt-BR": "Me dê três fatias de bacon."
+      }
+    ]
+  },
+  "火腿": {
+    "ru": "ветчина",
+    "es": "jamón",
+    "pt-BR": "presunto",
+    "examples": [
+      {
+        "ru": "В сэндвич положили ветчину.",
+        "es": "Al sándwich le pusieron jamón.",
+        "pt-BR": "Colocaram presunto no sanduíche."
+      },
+      {
+        "ru": "Нарезанная ветчина очень удобна.",
+        "es": "El jamón en lonchas es práctico.",
+        "pt-BR": "Presunto fatiado é prático."
+      }
+    ]
+  },
+  "牛排": {
+    "ru": "стейк",
+    "es": "bistec / filete",
+    "pt-BR": "bife / steak",
+    "examples": [
+      {
+        "ru": "Стейк, пожалуйста, средней прожарки.",
+        "es": "El bistec a término medio, por favor.",
+        "pt-BR": "O bife no ponto, por favor."
+      },
+      {
+        "ru": "Этот стейк-хаус очень известный.",
+        "es": "Este restaurante de bistec es famoso.",
+        "pt-BR": "Este restaurante de bife é famoso."
+      }
+    ]
+  },
+  "烤鸭": {
+    "ru": "утка по-пекински / жареная утка",
+    "es": "pato asado",
+    "pt-BR": "pato assado",
+    "examples": [
+      {
+        "ru": "Пекинская утка очень знаменита.",
+        "es": "El pato pekinés es famoso.",
+        "pt-BR": "O pato à Pequim é famoso."
+      },
+      {
+        "ru": "Закажем одну утку.",
+        "es": "Pidamos un pato asado.",
+        "pt-BR": "Vamos pedir um pato assado."
+      }
+    ]
+  },
+  "鱼": {
+    "ru": "рыба",
+    "es": "pescado / pez",
+    "pt-BR": "peixe",
+    "examples": [
+      {
+        "ru": "Эта рыба очень свежая.",
+        "es": "Este pescado está muy fresco.",
+        "pt-BR": "Este peixe está bem fresco."
+      },
+      {
+        "ru": "Я ем рыбу два раза в неделю.",
+        "es": "Como pescado dos veces por semana.",
+        "pt-BR": "Como peixe duas vezes por semana."
+      }
+    ]
+  },
+  "虾": {
+    "ru": "креветки",
+    "es": "camarones / gambas",
+    "pt-BR": "camarão",
+    "examples": [
+      {
+        "ru": "Варёные креветки очень простые.",
+        "es": "Los camarones escaldados son sencillos.",
+        "pt-BR": "Camarão cozido é simples."
+      },
+      {
+        "ru": "Эти креветки крупные.",
+        "es": "Estos camarones son grandes.",
+        "pt-BR": "Estes camarões são grandes."
+      }
+    ]
+  },
+  "螃蟹": {
+    "ru": "краб",
+    "es": "cangrejo",
+    "pt-BR": "caranguejo",
+    "examples": [
+      {
+        "ru": "Осень — сезон крабов.",
+        "es": "El otoño es la temporada del cangrejo.",
+        "pt-BR": "O outono é a temporada de caranguejo."
+      },
+      {
+        "ru": "Крабов нужно готовить на пару пятнадцать минут.",
+        "es": "Los cangrejos se cuecen al vapor quince minutos.",
+        "pt-BR": "Caranguejo precisa de quinze minutos no vapor."
+      }
+    ]
+  },
+  "贝类": {
+    "ru": "моллюски / морепродукты в раковине",
+    "es": "mariscos / moluscos",
+    "pt-BR": "moluscos / mariscos",
+    "examples": [
+      {
+        "ru": "Моллюски нужно хорошо проварить.",
+        "es": "Los mariscos hay que cocerlos bien.",
+        "pt-BR": "Moluscos precisam cozinhar bem."
+      },
+      {
+        "ru": "Я люблю разные моллюски.",
+        "es": "Me gustan todo tipo de mariscos.",
+        "pt-BR": "Gosto de vários tipos de marisco."
+      }
+    ]
+  },
+  "鱿鱼": {
+    "ru": "кальмар",
+    "es": "calamar",
+    "pt-BR": "lula",
+    "examples": [
+      {
+        "ru": "Жареный кальмар очень ароматный.",
+        "es": "El calamar a la parrilla huele muy bien.",
+        "pt-BR": "Lula grelhada cheira muito bem."
+      },
+      {
+        "ru": "Дайте порцию жареного кальмара.",
+        "es": "Una ración de calamar salteado, por favor.",
+        "pt-BR": "Uma porção de lula refogada, por favor."
+      }
+    ]
+  },
+  "三文鱼": {
+    "ru": "лосось",
+    "es": "salmón",
+    "pt-BR": "salmão",
+    "examples": [
+      {
+        "ru": "Лосось можно есть сырым.",
+        "es": "El salmón se puede comer crudo.",
+        "pt-BR": "Salmão pode ser comido cru."
+      },
+      {
+        "ru": "Закажу сашими из лосося.",
+        "es": "Pediré sashimi de salmón.",
+        "pt-BR": "Vou pedir sashimi de salmão."
+      }
+    ]
+  },
+  "生蚝": {
+    "ru": "устрица",
+    "es": "ostra",
+    "pt-BR": "ostra",
+    "examples": [
+      {
+        "ru": "Устрицы хорошо идут с лимонным соком.",
+        "es": "Las ostras van bien con limón.",
+        "pt-BR": "Ostra combina com suco de limão."
+      },
+      {
+        "ru": "Я не привык есть устриц.",
+        "es": "No estoy acostumbrado a las ostras.",
+        "pt-BR": "Não estou acostumado a ostra."
+      }
+    ]
+  },
+  "海带": {
+    "ru": "морская капуста / ламинария",
+    "es": "alga kombu / kelp",
+    "pt-BR": "alga / kombu",
+    "examples": [
+      {
+        "ru": "Суп с морской капустой лёгкий и освежающий.",
+        "es": "La sopa de alga es ligera y refrescante.",
+        "pt-BR": "Sopa de alga é leve e refrescante."
+      },
+      {
+        "ru": "В салат добавили полоски морской капусты.",
+        "es": "A la ensalada le pusieron alga en tiras.",
+        "pt-BR": "Colocaram alga em tiras na salada."
+      }
+    ]
+  },
+  "带鱼": {
+    "ru": "рыба-сабля / волосатик",
+    "es": "pez sable",
+    "pt-BR": "peixe-espada / peixe-fita",
+    "examples": [
+      {
+        "ru": "Рыба-сабля в соусе — домашнее блюдо.",
+        "es": "El pez sable estofado es un plato casero.",
+        "pt-BR": "Peixe-fita estufado é prato caseiro."
+      },
+      {
+        "ru": "Рыбу-саблю жарят до золотистой корочки с двух сторон.",
+        "es": "El pez sable se fríe dorado por ambos lados.",
+        "pt-BR": "O peixe-fita é frito dourado dos dois lados."
+      }
+    ]
+  },
+  "龙虾": {
+    "ru": "омар / лобстер",
+    "es": "langosta",
+    "pt-BR": "lagosta",
+    "examples": [
+      {
+        "ru": "Омар довольно дорогой.",
+        "es": "La langosta es relativamente cara.",
+        "pt-BR": "Lagosta é relativamente cara."
+      },
+      {
+        "ru": "В праздник едим лобстера.",
+        "es": "Comemos langosta para celebrar.",
+        "pt-BR": "Comemos lagosta para comemorar."
+      }
+    ]
+  },
+  "米饭": {
+    "ru": "рис (варёный)",
+    "es": "arroz (cocido)",
+    "pt-BR": "arroz (cozido)",
+    "examples": [
+      {
+        "ru": "Дайте мне миску риса.",
+        "es": "Un tazón de arroz, por favor.",
+        "pt-BR": "Uma tigela de arroz, por favor."
+      },
+      {
+        "ru": "Рис — основной гарнир.",
+        "es": "El arroz es el alimento básico.",
+        "pt-BR": "Arroz é o alimento básico."
+      }
+    ]
+  },
+  "面条": {
+    "ru": "лапша",
+    "es": "fideos / tallarines",
+    "pt-BR": "macarrão",
+    "examples": [
+      {
+        "ru": "Эта лапша очень упругая.",
+        "es": "Estos fideos están muy al dente.",
+        "pt-BR": "Este macarrão está bem firme."
+      },
+      {
+        "ru": "Я люблю лапшу в бульоне.",
+        "es": "Me gusta la sopa de fideos.",
+        "pt-BR": "Gosto de macarrão na sopa."
+      }
+    ]
+  },
+  "饺子": {
+    "ru": "пельмени / цзяоцзы",
+    "es": "dumplings / jiaozi",
+    "pt-BR": "bolinho / jiaozi",
+    "examples": [
+      {
+        "ru": "На Чуньцзе едят пельмени.",
+        "es": "En el Año Nuevo se comen dumplings.",
+        "pt-BR": "No Ano Novo Chinês se come jiaozi."
+      },
+      {
+        "ru": "Я слепил блюдо пельменей.",
+        "es": "Hice un plato de dumplings.",
+        "pt-BR": "Fiz um prato de jiaozi."
+      }
+    ]
+  },
+  "包子": {
+    "ru": "паровые булочки / баоцзы",
+    "es": "panecillo al vapor / baozi",
+    "pt-BR": "pãozinho no vapor / baozi",
+    "examples": [
+      {
+        "ru": "На завтрак купил две булочки.",
+        "es": "Compré dos baozi para el desayuno.",
+        "pt-BR": "Comprei dois baozi no café da manhã."
+      },
+      {
+        "ru": "Баоцзы с мясом очень ароматные.",
+        "es": "Los baozi de carne huelen muy bien.",
+        "pt-BR": "Baozi de carne cheira muito bem."
+      }
+    ]
+  },
+  "火锅": {
+    "ru": "хого / горячий котёл",
+    "es": "olla caliente / hot pot",
+    "pt-BR": "hot pot / fondue chinesa",
+    "examples": [
+      {
+        "ru": "Зимой лучше всего хого.",
+        "es": "El hot pot es perfecto en invierno.",
+        "pt-BR": "Hot pot é perfeito no inverno."
+      },
+      {
+        "ru": "Сегодня вечером идём на хого.",
+        "es": "Esta noche vamos a comer hot pot.",
+        "pt-BR": "Hoje à noite vamos comer hot pot."
+      }
+    ]
+  },
+  "炒饭": {
+    "ru": "жареный рис",
+    "es": "arroz frito",
+    "pt-BR": "arroz frito",
+    "examples": [
+      {
+        "ru": "Янчжоуский жареный рис очень знаменит.",
+        "es": "El arroz frito de Yangzhou es famoso.",
+        "pt-BR": "Arroz frito de Yangzhou é famoso."
+      },
+      {
+        "ru": "Дайте порцию жареного риса с яйцом.",
+        "es": "Un arroz frito con huevo, por favor.",
+        "pt-BR": "Um arroz frito com ovo, por favor."
+      }
+    ]
+  },
+  "汤": {
+    "ru": "суп",
+    "es": "sopa",
+    "pt-BR": "sopa",
+    "examples": [
+      {
+        "ru": "Этот суп немного горячий.",
+        "es": "Esta sopa está un poco caliente.",
+        "pt-BR": "Esta sopa está um pouco quente."
+      },
+      {
+        "ru": "Перед едой выпейте миску супа.",
+        "es": "Tome un tazón de sopa antes de la comida.",
+        "pt-BR": "Tome uma tigela de sopa antes da refeição."
+      }
+    ]
+  },
+  "炒菜": {
+    "ru": "жаркое / обжаривать",
+    "es": "salteado / saltear",
+    "pt-BR": "refogado / refogar",
+    "examples": [
+      {
+        "ru": "Мама отлично жарит.",
+        "es": "Mamá saltea muy bien.",
+        "pt-BR": "A mamãe refoga muito bem."
+      },
+      {
+        "ru": "Пожарьте ещё одно блюдо.",
+        "es": "Saltee un plato más, por favor.",
+        "pt-BR": "Refogue mais um prato, por favor."
+      }
+    ]
+  },
+  "小吃": {
+    "ru": "закуска / стритфуд",
+    "es": "aperitivo / comida callejera",
+    "pt-BR": "petisco / comida de rua",
+    "examples": [
+      {
+        "ru": "На этой улице много закусок.",
+        "es": "En esta calle hay muchos aperitivos.",
+        "pt-BR": "Nesta rua tem muitos petiscos."
+      },
+      {
+        "ru": "Закуски дешёвые и вкусные.",
+        "es": "Los aperitivos son baratos y ricos.",
+        "pt-BR": "Os petiscos são baratos e gostosos."
+      }
+    ]
+  },
+  "特色菜": {
+    "ru": "фирменное блюдо",
+    "es": "plato típico / especialidad",
+    "pt-BR": "prato típico / especialidade",
+    "examples": [
+      {
+        "ru": "Порекомендуйте фирменное блюдо.",
+        "es": "Recomiende un plato típico, por favor.",
+        "pt-BR": "Recomende um prato típico, por favor."
+      },
+      {
+        "ru": "Это фирменное блюдо заведения.",
+        "es": "Este es el plato estrella del local.",
+        "pt-BR": "Este é o prato especial da casa."
+      }
+    ]
+  },
+  "煎饼果子": {
+    "ru": "цзяньбин (китайский блин)",
+    "es": "crepe chino / jianbing",
+    "pt-BR": "crepe chinês / jianbing",
+    "examples": [
+      {
+        "ru": "На завтрак часто едят цзяньбин.",
+        "es": "El jianbing es un desayuno habitual.",
+        "pt-BR": "Jianbing é um café da manhã comum."
+      },
+      {
+        "ru": "В этот цзяньбин добавили яйцо.",
+        "es": "Este jianbing lleva huevo.",
+        "pt-BR": "Este jianbing tem ovo."
+      }
+    ]
+  },
+  "烤串": {
+    "ru": "шашлычки / шампуры",
+    "es": "brochetas / pinchos",
+    "pt-BR": "espetinho / churrasquinho",
+    "examples": [
+      {
+        "ru": "На ночном рынке много шашлычков.",
+        "es": "En el mercado nocturno hay muchas brochetas.",
+        "pt-BR": "No mercado noturno tem muitos espetinhos."
+      },
+      {
+        "ru": "Дайте пять шампуров.",
+        "es": "Cinco brochetas, por favor.",
+        "pt-BR": "Cinco espetinhos, por favor."
+      }
+    ]
+  },
+  "麻辣烫": {
+    "ru": "малатан (острый суп с выбором ингредиентов)",
+    "es": "sopa picante malatang",
+    "pt-BR": "sopa picante malatang",
+    "examples": [
+      {
+        "ru": "В малатане ингредиенты выбираешь сам.",
+        "es": "En el malatang eliges tus ingredientes.",
+        "pt-BR": "No malatang você escolhe os ingredientes."
+      },
+      {
+        "ru": "Эта миска малатана очень острая.",
+        "es": "Este malatang está muy picante.",
+        "pt-BR": "Este malatang está muito picante."
+      }
+    ]
+  },
+  "肉夹馍": {
+    "ru": "жоуцзямо (китайский бургер)",
+    "es": "sándwich de carne chino / roujiamo",
+    "pt-BR": "sanduíche de carne chinês / roujiamo",
+    "examples": [
+      {
+        "ru": "Жоуцзямо — знаменитая закуска Шэньси.",
+        "es": "El roujiamo es un snack famoso de Shaanxi.",
+        "pt-BR": "Roujiamo é um lanche famoso de Shaanxi."
+      },
+      {
+        "ru": "Я купил жоуцзямо.",
+        "es": "Compré un roujiamo.",
+        "pt-BR": "Comprei um roujiamo."
+      }
+    ]
+  },
+  "臭豆腐": {
+    "ru": "вонючий тофу",
+    "es": "tofu fétido / stinky tofu",
+    "pt-BR": "tofu fedido",
+    "examples": [
+      {
+        "ru": "Вонючий тофу пахнет резко, но вкусный.",
+        "es": "El tofu fétido huele fuerte, pero sabe bien.",
+        "pt-BR": "Tofu fedido cheira forte, mas é gostoso."
+      },
+      {
+        "ru": "Осмелишься съесть вонючий тофу?",
+        "es": "¿Te atreves a comer tofu fétido?",
+        "pt-BR": "Você ousa comer tofu fedido?"
+      }
+    ]
+  },
+  "糖葫芦": {
+    "ru": "танхулу (ягоды в сахаре)",
+    "es": "brocheta de acerola caramelizada",
+    "pt-BR": "espetinho de fruta cristalizada / tanghulu",
+    "examples": [
+      {
+        "ru": "Зимой часто продают танхулу.",
+        "es": "El tanghulu es común en invierno.",
+        "pt-BR": "Tanghulu é comum no inverno."
+      },
+      {
+        "ru": "Ребёнок хочет шампур танхулу.",
+        "es": "El niño quiere un tanghulu.",
+        "pt-BR": "A criança quer um espetinho de tanghulu."
+      }
+    ]
+  },
+  "肠粉": {
+    "ru": "чёнфан / рисовые рулеты",
+    "es": "rollo de fideo de arroz / cheung fun",
+    "pt-BR": "rolo de arroz / cheung fun",
+    "examples": [
+      {
+        "ru": "В Гуандуне на завтрак часто едят чёнфан.",
+        "es": "El cheung fun es un desayuno habitual en Guangdong.",
+        "pt-BR": "Cheung fun é café da manhã comum em Guangdong."
+      },
+      {
+        "ru": "Дайте порцию чёнфана с яйцом.",
+        "es": "Un cheung fun con huevo, por favor.",
+        "pt-BR": "Um cheung fun com ovo, por favor."
+      }
+    ]
+  },
+  "小笼包": {
+    "ru": "сяолунбао (пельмени с бульоном)",
+    "es": "dumpling de sopa / xiaolongbao",
+    "pt-BR": "bolinho de sopa / xiaolongbao",
+    "examples": [
+      {
+        "ru": "Сяолунбао осторожно: внутри горячо.",
+        "es": "Cuidado, los xiaolongbao queman.",
+        "pt-BR": "Cuidado, xiaolongbao queima."
+      },
+      {
+        "ru": "Шанхайские сяолунбао очень знамениты.",
+        "es": "Los xiaolongbao de Shanghái son famosos.",
+        "pt-BR": "Xiaolongbao de Xangai é famoso."
+      }
+    ]
+  },
+  "凉皮": {
+    "ru": "лянпи (холодная лапша)",
+    "es": "fideos fríos liangpi",
+    "pt-BR": "macarrão frio liangpi",
+    "examples": [
+      {
+        "ru": "Летом лянпи хорошо освежает.",
+        "es": "Los liangpi refrescan en verano.",
+        "pt-BR": "Liangpi refresca no verão."
+      },
+      {
+        "ru": "Добавьте уксус и перечное масло.",
+        "es": "Ponga vinagre y aceite de chile, por favor.",
+        "pt-BR": "Coloque vinagre e óleo de pimenta, por favor."
+      }
+    ]
+  },
+  "炸酱面": {
+    "ru": "жацзянмянь (лапша с соевой пастой)",
+    "es": "fideos con salsa de soja fermentada",
+    "pt-BR": "macarrão com molho de soja / zhajiangmian",
+    "examples": [
+      {
+        "ru": "Жацзянмянь — пекинская классика.",
+        "es": "El zhajiangmian es típico de Pekín.",
+        "pt-BR": "Zhajiangmian é típico de Pequim."
+      },
+      {
+        "ru": "Эта миска жацзянмянь очень аутентичная.",
+        "es": "Este zhajiangmian es auténtico.",
+        "pt-BR": "Este zhajiangmian é autêntico."
+      }
+    ]
+  },
+  "蛋糕": {
+    "ru": "торт / пирог",
+    "es": "pastel / tarta",
+    "pt-BR": "bolo",
+    "examples": [
+      {
+        "ru": "С днём рождения, давайте торт.",
+        "es": "Feliz cumpleaños, comamos pastel.",
+        "pt-BR": "Feliz aniversário, vamos comer bolo."
+      },
+      {
+        "ru": "Этот торт шоколадный.",
+        "es": "Este pastel es de chocolate.",
+        "pt-BR": "Este bolo é de chocolate."
+      }
+    ]
+  },
+  "冰淇淋": {
+    "ru": "мороженое",
+    "es": "helado",
+    "pt-BR": "sorvete",
+    "examples": [
+      {
+        "ru": "Летом я больше всего люблю мороженое.",
+        "es": "En verano lo que más me gusta es el helado.",
+        "pt-BR": "No verão o que eu mais gosto é sorvete."
+      },
+      {
+        "ru": "Дайте два мороженых.",
+        "es": "Dos helados, por favor.",
+        "pt-BR": "Dois sorvetes, por favor."
+      }
+    ]
+  },
+  "布丁": {
+    "ru": "пудинг",
+    "es": "pudín / flan",
+    "pt-BR": "pudim",
+    "examples": [
+      {
+        "ru": "Манговый пудинг очень нежный.",
+        "es": "El pudín de mango es suave.",
+        "pt-BR": "O pudim de manga é bem cremoso."
+      },
+      {
+        "ru": "На десерт я взял пудинг.",
+        "es": "Elegí pudín de postre.",
+        "pt-BR": "Escolhi pudim de sobremesa."
+      }
+    ]
+  },
+  "月饼": {
+    "ru": "лунный пряник / юэбин",
+    "es": "pastel de luna / mooncake",
+    "pt-BR": "bolo da lua / mooncake",
+    "examples": [
+      {
+        "ru": "На праздник середины осени едят юэбин.",
+        "es": "En el Festival del Medio Otoño se comen pasteles de luna.",
+        "pt-BR": "No Festival do Meio Outono se come bolo da lua."
+      },
+      {
+        "ru": "Этот юэбин с ореховой начинкой у жэнь.",
+        "es": "Este pastel de luna es de frutos secos.",
+        "pt-BR": "Este bolo da lua é de mix de nozes."
+      }
+    ]
+  },
+  "汤圆": {
+    "ru": "танъюань (рисовые шарики)",
+    "es": "bolitas de arroz glutinoso / tangyuan",
+    "pt-BR": "bolinho de arroz glutinoso / tangyuan",
+    "examples": [
+      {
+        "ru": "На Юаньсяо едят танъюань.",
+        "es": "En el Festival de los Faroles se comen tangyuan.",
+        "pt-BR": "No Festival das Lanternas se come tangyuan."
+      },
+      {
+        "ru": "Танъюань сладкие.",
+        "es": "Los tangyuan son dulces.",
+        "pt-BR": "Tangyuan é doce."
+      }
+    ]
+  },
+  "红豆沙": {
+    "ru": "паста из красной фасоли",
+    "es": "pasta de judía roja",
+    "pt-BR": "pasta de feijão vermelho",
+    "examples": [
+      {
+        "ru": "Начинка баоцзы — паста из красной фасоли.",
+        "es": "El relleno del baozi es pasta de judía roja.",
+        "pt-BR": "O recheio do baozi é pasta de feijão vermelho."
+      },
+      {
+        "ru": "Я люблю сладости с красной фасолью.",
+        "es": "Me gustan los postres de judía roja.",
+        "pt-BR": "Gosto de doce de feijão vermelho."
+      }
+    ]
+  },
+  "马蹄糕": {
+    "ru": "пирожное из водяного каштана",
+    "es": "pastel de castaña de agua",
+    "pt-BR": "bolo de castanha-d'água",
+    "examples": [
+      {
+        "ru": "Это кантонский димсам.",
+        "es": "Es un dim sum cantonés.",
+        "pt-BR": "É um dim sum cantonês."
+      },
+      {
+        "ru": "Эта выпечка очень лёгкая.",
+        "es": "Este pastel es ligero y fresco.",
+        "pt-BR": "Este doce é leve e fresco."
+      }
+    ]
+  },
+  "蛋挞": {
+    "ru": "яичный тарт",
+    "es": "tarta de huevo / egg tart",
+    "pt-BR": "torta de ovo / egg tart",
+    "examples": [
+      {
+        "ru": "Свежие из печи тарты самые вкусные.",
+        "es": "Los egg tarts recién horneados son los mejores.",
+        "pt-BR": "Egg tart recém-assado é o melhor."
+      },
+      {
+        "ru": "Дайте три яичных тарта.",
+        "es": "Tres tartas de huevo, por favor.",
+        "pt-BR": "Três egg tarts, por favor."
+      }
+    ]
+  },
+  "双皮奶": {
+    "ru": "шуанпинай (молочный пудинг с корочкой)",
+    "es": "natillas de doble piel",
+    "pt-BR": "pudim de leite de pele dupla",
+    "examples": [
+      {
+        "ru": "Шуанпинай — знаменитый десерт Шуньдэ.",
+        "es": "La leche de doble piel es típica de Shunde.",
+        "pt-BR": "O leite de pele dupla é típico de Shunde."
+      },
+      {
+        "ru": "Эта чашка шуанпинай очень нежная.",
+        "es": "Esta leche de doble piel está muy suave.",
+        "pt-BR": "Este leite de pele dupla está bem macio."
+      }
+    ]
+  },
+  "麻花": {
+    "ru": "махуа (жареный крученый хворост)",
+    "es": "rosca frita mahua",
+    "pt-BR": "rosquinha frita mahua",
+    "examples": [
+      {
+        "ru": "Махуа хрустящая и ароматная.",
+        "es": "La mahua está crujiente y aromática.",
+        "pt-BR": "Mahua fica crocante e cheirosa."
+      },
+      {
+        "ru": "Купил махуа на перекус.",
+        "es": "Compré mahua de snack.",
+        "pt-BR": "Comprei mahua de lanche."
+      }
+    ]
+  },
+  "咖啡": {
+    "ru": "кофе",
+    "es": "café",
+    "pt-BR": "café",
+    "examples": [
+      {
+        "ru": "Каждое утро я пью кофе.",
+        "es": "Tomo café todas las mañanas.",
+        "pt-BR": "Tomo café toda manhã."
+      },
+      {
+        "ru": "Дайте чашку горячего кофе.",
+        "es": "Un café caliente, por favor.",
+        "pt-BR": "Um café quente, por favor."
+      }
+    ]
+  },
+  "拿铁": {
+    "ru": "латте",
+    "es": "latte / café con leche",
+    "pt-BR": "latte / café com leite",
+    "examples": [
+      {
+        "ru": "Мне айс-латте.",
+        "es": "Un latte helado, por favor.",
+        "pt-BR": "Um latte gelado, por favor."
+      },
+      {
+        "ru": "Пенка у латте очень нежная.",
+        "es": "La espuma del latte es muy fina.",
+        "pt-BR": "A espuma do latte é bem fina."
+      }
+    ]
+  },
+  "美式": {
+    "ru": "американо",
+    "es": "americano",
+    "pt-BR": "americano",
+    "examples": [
+      {
+        "ru": "Американо довольно горький.",
+        "es": "El americano es bastante amargo.",
+        "pt-BR": "O americano é bem amargo."
+      },
+      {
+        "ru": "Большой американо, пожалуйста.",
+        "es": "Un americano grande, por favor.",
+        "pt-BR": "Um americano grande, por favor."
+      }
+    ]
+  },
+  "卡布奇诺": {
+    "ru": "капучино",
+    "es": "capuchino",
+    "pt-BR": "cappuccino",
+    "examples": [
+      {
+        "ru": "Сверху у капучино молочная пенка.",
+        "es": "El capuchino lleva espuma arriba.",
+        "pt-BR": "O cappuccino tem espuma em cima."
+      },
+      {
+        "ru": "Она заказала капучино.",
+        "es": "Pidió un capuchino.",
+        "pt-BR": "Ela pediu um cappuccino."
+      }
+    ]
+  },
+  "浓缩": {
+    "ru": "эспрессо",
+    "es": "espresso",
+    "pt-BR": "espresso",
+    "examples": [
+      {
+        "ru": "Эспрессо подают в маленькой чашке.",
+        "es": "El espresso viene en taza pequeña.",
+        "pt-BR": "O espresso vem em xícara pequena."
+      },
+      {
+        "ru": "Сделайте двойной эспрессо.",
+        "es": "Un espresso doble, por favor.",
+        "pt-BR": "Um espresso duplo, por favor."
+      }
+    ]
+  },
+  "咖啡豆": {
+    "ru": "кофейные зёрна",
+    "es": "granos de café",
+    "pt-BR": "grãos de café",
+    "examples": [
+      {
+        "ru": "Эти зёрна свежие.",
+        "es": "Estos granos de café están frescos.",
+        "pt-BR": "Estes grãos de café estão frescos."
+      },
+      {
+        "ru": "Я купил эфиопские зёрна.",
+        "es": "Compré granos de Etiopía.",
+        "pt-BR": "Comprei grãos da Etiópia."
+      }
+    ]
+  },
+  "研磨": {
+    "ru": "молоть (кофе)",
+    "es": "moler (café)",
+    "pt-BR": "moer (café)",
+    "examples": [
+      {
+        "ru": "Помолите, пожалуйста, зёрна.",
+        "es": "Muela los granos, por favor.",
+        "pt-BR": "Moa os grãos, por favor."
+      },
+      {
+        "ru": "Свежемолотый кофе ароматнее.",
+        "es": "El café recién molido huele mejor.",
+        "pt-BR": "Café moído na hora cheira melhor."
+      }
+    ]
+  },
+  "外带": {
+    "ru": "с собой / на вынос",
+    "es": "para llevar",
+    "pt-BR": "para viagem",
+    "examples": [
+      {
+        "ru": "Кофе с собой или здесь?",
+        "es": "¿El café para llevar o para tomar aquí?",
+        "pt-BR": "O café para viagem ou para tomar aqui?"
+      },
+      {
+        "ru": "Мне с собой.",
+        "es": "Para llevar.",
+        "pt-BR": "Para viagem."
+      }
+    ]
+  },
+  "半糖": {
+    "ru": "половина сахара",
+    "es": "mitad de azúcar",
+    "pt-BR": "meio açúcar",
+    "examples": [
+      {
+        "ru": "Сделайте, пожалуйста, половину сахара.",
+        "es": "Con la mitad de azúcar, por favor.",
+        "pt-BR": "Com meio açúcar, por favor."
+      },
+      {
+        "ru": "Половина сахара мне как раз.",
+        "es": "La mitad de azúcar me viene bien.",
+        "pt-BR": "Meio açúcar está no ponto para mim."
+      }
+    ]
+  },
+  "拉花": {
+    "ru": "латте-арт / рисунок на кофе",
+    "es": "arte latte",
+    "pt-BR": "arte no café / latte art",
+    "examples": [
+      {
+        "ru": "На этом кофе красивый рисунок.",
+        "es": "El arte latte de este café es precioso.",
+        "pt-BR": "A arte neste café está linda."
+      },
+      {
+        "ru": "Бариста хорошо рисует на кофе.",
+        "es": "El barista es bueno con el arte latte.",
+        "pt-BR": "O barista é bom em latte art."
+      }
+    ]
+  },
+  "绿茶": {
+    "ru": "зелёный чай",
+    "es": "té verde",
+    "pt-BR": "chá verde",
+    "examples": [
+      {
+        "ru": "Зелёный чай более лёгкий.",
+        "es": "El té verde es relativamente suave.",
+        "pt-BR": "Chá verde é relativamente leve."
+      },
+      {
+        "ru": "Заварите чашку зелёного чая.",
+        "es": "Una taza de té verde, por favor.",
+        "pt-BR": "Uma xícara de chá verde, por favor."
+      }
+    ]
+  },
+  "红茶": {
+    "ru": "чёрный чай",
+    "es": "té negro",
+    "pt-BR": "chá preto",
+    "examples": [
+      {
+        "ru": "Чёрный чай хорошо идёт с молоком.",
+        "es": "El té negro va bien con leche.",
+        "pt-BR": "Chá preto combina com leite."
+      },
+      {
+        "ru": "Английский чёрный чай крепкий.",
+        "es": "El té negro inglés es fuerte.",
+        "pt-BR": "O chá preto inglês é forte."
+      }
+    ]
+  },
+  "乌龙茶": {
+    "ru": "улун",
+    "es": "té oolong",
+    "pt-BR": "chá oolong",
+    "examples": [
+      {
+        "ru": "Улун можно заваривать много раз.",
+        "es": "El oolong se puede infusionar varias veces.",
+        "pt-BR": "Oolong pode ser infundido várias vezes."
+      },
+      {
+        "ru": "Тегуаньинь — это улун.",
+        "es": "El Tieguanyin es un oolong.",
+        "pt-BR": "Tieguanyin é um oolong."
+      }
+    ]
+  },
+  "茉莉花茶": {
+    "ru": "жасминовый чай",
+    "es": "té de jazmín",
+    "pt-BR": "chá de jasmim",
+    "examples": [
+      {
+        "ru": "Жасминовый чай очень ароматный.",
+        "es": "El té de jazmín es muy fragante.",
+        "pt-BR": "Chá de jasmim é muito aromático."
+      },
+      {
+        "ru": "После еды я пью жасминовый чай.",
+        "es": "Después de comer tomo té de jazmín.",
+        "pt-BR": "Depois de comer eu tomo chá de jasmim."
+      }
+    ]
+  },
+  "普洱茶": {
+    "ru": "чай пуэр",
+    "es": "té pu-erh",
+    "pt-BR": "chá pu-erh",
+    "examples": [
+      {
+        "ru": "Пуэр можно коллекционировать.",
+        "es": "El pu-erh se puede guardar y coleccionar.",
+        "pt-BR": "Pu-erh pode ser guardado e colecionado."
+      },
+      {
+        "ru": "Выдержанный пуэр густой и мягкий.",
+        "es": "El pu-erh maduro tiene un sabor rico.",
+        "pt-BR": "O pu-erh maduro tem sabor encorpado."
+      }
+    ]
+  },
+  "泡茶": {
+    "ru": "заваривать чай",
+    "es": "infusionar té / preparar té",
+    "pt-BR": "preparar chá / infundir chá",
+    "examples": [
+      {
+        "ru": "Я заварю чай.",
+        "es": "Yo preparo el té.",
+        "pt-BR": "Eu preparo o chá."
+      },
+      {
+        "ru": "Слишком горячая вода не подходит для заваривания.",
+        "es": "El agua demasiado caliente no sirve para el té.",
+        "pt-BR": "Água quente demais não serve para o chá."
+      }
+    ]
+  },
+  "茶叶": {
+    "ru": "чайный лист",
+    "es": "hojas de té",
+    "pt-BR": "folhas de chá",
+    "examples": [
+      {
+        "ru": "Это чай нового урожая.",
+        "es": "Estas hojas son de la cosecha de este año.",
+        "pt-BR": "Estas folhas são da colheita deste ano."
+      },
+      {
+        "ru": "Чай нужно хранить герметично.",
+        "es": "Las hojas de té hay que guardarlas selladas.",
+        "pt-BR": "As folhas de chá devem ser guardadas bem fechadas."
+      }
+    ]
+  },
+  "功夫茶": {
+    "ru": "чай гунфу / чайная церемония",
+    "es": "té gongfu / ceremonia del té",
+    "pt-BR": "chá gongfu / cerimônia do chá",
+    "examples": [
+      {
+        "ru": "В Гуандуне любят чай гунфу.",
+        "es": "En Guangdong les gusta el té gongfu.",
+        "pt-BR": "Em Guangdong gostam de chá gongfu."
+      },
+      {
+        "ru": "В гунфу важен температура воды.",
+        "es": "El té gongfu cuida la temperatura del agua.",
+        "pt-BR": "O chá gongfu dá atenção à temperatura da água."
+      }
+    ]
+  },
+  "茶馆": {
+    "ru": "чайная / чайный дом",
+    "es": "casa de té / salón de té",
+    "pt-BR": "casa de chá",
+    "examples": [
+      {
+        "ru": "Пойдём посидим в чайной.",
+        "es": "Vamos a sentarnos en una casa de té.",
+        "pt-BR": "Vamos sentar numa casa de chá."
+      },
+      {
+        "ru": "В этой чайной приятная атмосфера.",
+        "es": "Esta casa de té tiene un ambiente agradable.",
+        "pt-BR": "Esta casa de chá tem um ambiente gostoso."
+      }
+    ]
+  },
+  "倒茶": {
+    "ru": "наливать чай",
+    "es": "servir té",
+    "pt-BR": "servir chá",
+    "examples": [
+      {
+        "ru": "Налейте мне, пожалуйста, чай.",
+        "es": "Sírvame té, por favor.",
+        "pt-BR": "Me sirva chá, por favor."
+      },
+      {
+        "ru": "Чай сначала наливают старшим.",
+        "es": "Al servir té, se sirve primero a los mayores.",
+        "pt-BR": "Ao servir chá, sirva primeiro os mais velhos."
+      }
+    ]
+  },
+  "水": {
+    "ru": "вода",
+    "es": "agua",
+    "pt-BR": "água",
+    "examples": [
+      {
+        "ru": "Дайте мне стакан воды.",
+        "es": "Un vaso de agua, por favor.",
+        "pt-BR": "Um copo de água, por favor."
+      },
+      {
+        "ru": "Пить больше воды полезно.",
+        "es": "Beber más agua es bueno para la salud.",
+        "pt-BR": "Beber mais água faz bem."
+      }
+    ]
+  },
+  "果汁": {
+    "ru": "фруктовый сок",
+    "es": "zumo / jugo de fruta",
+    "pt-BR": "suco de fruta",
+    "examples": [
+      {
+        "ru": "Свежевыжатый сок без добавок.",
+        "es": "El jugo recién exprimido no tiene aditivos.",
+        "pt-BR": "Suco natural não tem aditivo."
+      },
+      {
+        "ru": "Дети любят апельсиновый сок.",
+        "es": "A los niños les gusta el jugo de naranja.",
+        "pt-BR": "Crianças gostam de suco de laranja."
+      }
+    ]
+  },
+  "牛奶": {
+    "ru": "молоко",
+    "es": "leche",
+    "pt-BR": "leite",
+    "examples": [
+      {
+        "ru": "На завтрак я пью молоко.",
+        "es": "En el desayuno tomo leche.",
+        "pt-BR": "No café da manhã eu tomo leite."
+      },
+      {
+        "ru": "Эту пачку молока нужно держать в холодильнике.",
+        "es": "Esta leche hay que refrigerarla.",
+        "pt-BR": "Este leite precisa ir na geladeira."
+      }
+    ]
+  },
+  "可乐": {
+    "ru": "кола",
+    "es": "cola / refresco de cola",
+    "pt-BR": "refrigerante de cola",
+    "examples": [
+      {
+        "ru": "Дайте банку колы.",
+        "es": "Una lata de cola, por favor.",
+        "pt-BR": "Uma lata de cola, por favor."
+      },
+      {
+        "ru": "Колу лучше пить меньше.",
+        "es": "Es mejor beber menos cola.",
+        "pt-BR": "É melhor beber menos cola."
+      }
+    ]
+  },
+  "啤酒": {
+    "ru": "пиво",
+    "es": "cerveza",
+    "pt-BR": "cerveja",
+    "examples": [
+      {
+        "ru": "Летом холодное пиво отлично идёт.",
+        "es": "En verano una cerveza fría sienta genial.",
+        "pt-BR": "No verão uma cerveja gelada cai muito bem."
+      },
+      {
+        "ru": "Две бутылки пива, пожалуйста.",
+        "es": "Dos botellas de cerveza, por favor.",
+        "pt-BR": "Duas garrafas de cerveja, por favor."
+      }
+    ]
+  },
+  "白酒": {
+    "ru": "байцзю (китайский крепкий алкоголь)",
+    "es": "baijiu (licor chino)",
+    "pt-BR": "baijiu (destilado chinês)",
+    "examples": [
+      {
+        "ru": "У байцзю высокая крепость.",
+        "es": "El baijiu tiene mucha graduación.",
+        "pt-BR": "O baijiu tem teor alcoólico alto."
+      },
+      {
+        "ru": "На банкетах часто пьют байцзю.",
+        "es": "En los banquetes suele servirse baijiu.",
+        "pt-BR": "Em banquetes costuma-se beber baijiu."
+      }
+    ]
+  },
+  "红酒": {
+    "ru": "красное вино",
+    "es": "vino tinto",
+    "pt-BR": "vinho tinto",
+    "examples": [
+      {
+        "ru": "Красному вину нужно подышать.",
+        "es": "El vino tinto hay que oxigenarlo.",
+        "pt-BR": "Vinho tinto precisa respirar."
+      },
+      {
+        "ru": "На праздник мы открыли бутылку красного.",
+        "es": "Abrimos una botella de tinto para celebrar.",
+        "pt-BR": "Abrimos uma garrafa de tinto para comemorar."
+      }
+    ]
+  },
+  "豆浆": {
+    "ru": "соевое молоко",
+    "es": "leche de soja",
+    "pt-BR": "leite de soja",
+    "examples": [
+      {
+        "ru": "Завтрак с ютяо и соевым молоком.",
+        "es": "Desayuno con youtiao y leche de soja.",
+        "pt-BR": "Café da manhã com youtiao e leite de soja."
+      },
+      {
+        "ru": "Горячее соевое молоко очень вкусное.",
+        "es": "La leche de soja caliente está riquísima.",
+        "pt-BR": "Leite de soja quente está uma delícia."
+      }
+    ]
+  },
+  "奶茶": {
+    "ru": "молочный чай",
+    "es": "té con leche",
+    "pt-BR": "chá com leite / milk tea",
+    "examples": [
+      {
+        "ru": "Бабл-ти очень популярен.",
+        "es": "El té con perlas es muy popular.",
+        "pt-BR": "Milk tea com pérola é muito popular."
+      },
+      {
+        "ru": "Мне молочный чай с меньшим сахаром.",
+        "es": "Un té con leche con menos azúcar.",
+        "pt-BR": "Um chá com leite com menos açúcar."
+      }
+    ]
+  },
+  "功能饮料": {
+    "ru": "энергетический напиток",
+    "es": "bebida energética",
+    "pt-BR": "bebida energética",
+    "examples": [
+      {
+        "ru": "После спорта пьют энергетик.",
+        "es": "Después de hacer deporte se toma una bebida energética.",
+        "pt-BR": "Depois do exercício toma-se uma bebida energética."
+      },
+      {
+        "ru": "Энергетики лучше не злоупотреблять.",
+        "es": "No hay que beber demasiadas bebidas energéticas.",
+        "pt-BR": "Não se deve tomar bebida energética demais."
+      }
+    ]
+  }
+}
