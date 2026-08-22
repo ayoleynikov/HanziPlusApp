@@ -25,7 +25,7 @@ struct TravelPhraseRow: View {
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
 
-                    Text(phrase.english)
+                    Text(phrase.localizedTranslation())
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                         .fixedSize(horizontal: false, vertical: true)
@@ -34,7 +34,7 @@ struct TravelPhraseRow: View {
                 .contentShape(Rectangle())
             }
             .buttonStyle(.plain)
-            .accessibilityLabel("\(phrase.simplifiedChinese). \(phrase.pinyin). \(phrase.english)")
+            .accessibilityLabel("\(phrase.simplifiedChinese). \(phrase.pinyin). \(phrase.localizedTranslation())")
             .accessibilityHint("Opens phrase details")
 
             VStack(spacing: 8) {

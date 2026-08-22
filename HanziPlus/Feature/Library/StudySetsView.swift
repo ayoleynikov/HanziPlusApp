@@ -25,7 +25,7 @@ struct StudySetsView: View {
 
                     if let continueTarget = continueStudyTarget {
                         VStack(alignment: .leading, spacing: AppSpacing.small) {
-                            Text("Continue")
+                            Text("learn.continue")
                                 .font(.title2.weight(.semibold))
                                 .padding(.horizontal, AppSpacing.medium)
 
@@ -42,7 +42,7 @@ struct StudySetsView: View {
                 .padding(.bottom, AppSpacing.extraLarge)
             }
             .background(Color(.systemGroupedBackground))
-            .navigationTitle("Learn")
+            .navigationTitle(String(localized: "learn.nav_title"))
             .navigationBarTitleDisplayMode(.large)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
@@ -51,7 +51,7 @@ struct StudySetsView: View {
                     } label: {
                         Image(systemName: "magnifyingglass")
                     }
-                    .accessibilityLabel("Search vocabulary")
+                    .accessibilityLabel(String(localized: "learn.a11y.search"))
                 }
             }
         }

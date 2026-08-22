@@ -245,7 +245,7 @@ struct GamePremiumCard: View {
     private var bottomContent: some View {
         VStack(alignment: .leading, spacing: style == .compact ? 8 : 10) {
             VStack(alignment: .leading, spacing: 4) {
-                Text(game.title)
+                Text(game.localizedTitle)
                     .font(titleFont)
                     .foregroundStyle(.white)
                     .lineLimit(style == .compact ? 1 : 2)

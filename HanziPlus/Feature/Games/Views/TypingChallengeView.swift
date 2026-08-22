@@ -40,7 +40,7 @@ struct TypingChallengeView: View {
                 gameplay
             }
         }
-        .navigationTitle(game.title)
+        .navigationTitle(game.localizedTitle)
         .navigationBarTitleDisplayMode(.inline)
         .gameRestartToolbar { viewModel.restart(); isInputFocused = true }
         .onAppear { isInputFocused = true }
@@ -67,7 +67,7 @@ struct TypingChallengeView: View {
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
 
-                    Text(word.english)
+                    Text(word.localizedMeaning)
                         .font(.largeTitle.weight(.bold))
                 }
                 .frame(maxWidth: .infinity)

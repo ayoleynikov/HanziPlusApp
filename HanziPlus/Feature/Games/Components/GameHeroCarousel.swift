@@ -86,7 +86,7 @@ private struct GameHeroSlide: View {
 
             VStack(spacing: 20) {
                 VStack(spacing: 8) {
-                    Text(game.title)
+                    Text(game.localizedTitle)
                         .font(.title.weight(.bold))
                         .foregroundStyle(.primary)
                         .multilineTextAlignment(.center)

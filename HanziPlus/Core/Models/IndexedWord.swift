@@ -23,7 +23,8 @@ struct IndexedWord: Identifiable, Sendable {
         self.searchableText = [
             word.hanzi,
             word.pinyin.lowercased(),
-            word.english.lowercased()
+            word.english.lowercased(),
+            word.searchableTranslationBlob()
         ].joined(separator: " ")
     }
 }

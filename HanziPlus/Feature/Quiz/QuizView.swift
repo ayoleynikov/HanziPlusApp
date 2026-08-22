@@ -185,7 +185,7 @@ struct QuizView: View {
                                     action: {
                                         viewModel.select(option)
                                     },
-                                    isCorrect: option == viewModel.currentWord?.english,
+                                    isCorrect: option == viewModel.currentWord?.localizedMeaning,
                                     showResult: viewModel.showResult
                                 )
                                 .scaleEffect(viewModel.selectedAnswer == option ? 1.03 : 1.0)
@@ -193,7 +193,7 @@ struct QuizView: View {
                                 .opacity(
                                     viewModel.showResult &&
                                     viewModel.selectedAnswer != option &&
-                                    option != viewModel.currentWord?.english ? 0.45 : 1.0
+                                    option != viewModel.currentWord?.localizedMeaning ? 0.45 : 1.0
                                 )
                                 .animation(.easeInOut(duration: 0.25), value: viewModel.showResult)
                             }
@@ -220,7 +220,7 @@ struct QuizView: View {
                 guard showResult else { return }
 
                 withAnimation(.easeIn(duration: 0.15)) {
-                    flashColor = viewModel.selectedAnswer == viewModel.currentWord?.english ? .green : .red
+                    flashColor = viewModel.selectedAnswer == viewModel.currentWord?.localizedMeaning ? .green : .red
                 }
 
                 Task {

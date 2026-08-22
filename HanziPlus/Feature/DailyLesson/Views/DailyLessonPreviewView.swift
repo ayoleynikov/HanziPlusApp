@@ -27,10 +27,10 @@ struct DailyLessonPreviewView: View {
                     .foregroundStyle(.secondary)
                     .accessibilityLabel("Pinyin \(word.pinyin)")
 
-                Text(word.english)
+                Text(word.localizedMeaning)
                     .font(.title2.weight(.semibold))
                     .multilineTextAlignment(.center)
-                    .accessibilityLabel("Meaning \(word.english)")
+                    .accessibilityLabel("\(word.hanzi) · \(word.localizedMeaning)")
 
                 if let example = word.examples.first {
                     VStack(spacing: 6) {

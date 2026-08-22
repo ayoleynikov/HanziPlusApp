@@ -49,7 +49,7 @@ struct TodayLessonCard: View {
             }
 
             VStack(alignment: .leading, spacing: 4) {
-                Text("Today’s Lesson")
+                Text("lesson.card.title")
                     .font(.headline)
 
                 Text(setTitle)

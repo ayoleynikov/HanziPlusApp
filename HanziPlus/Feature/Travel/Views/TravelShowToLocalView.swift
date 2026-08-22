@@ -44,7 +44,7 @@ struct TravelShowToLocalView: View {
                         .padding(.horizontal, 20)
                         .accessibilityAddTraits(.isHeader)
 
-                    Text(phrase.english)
+                    Text(phrase.localizedTranslation())
                         .font(.title3.weight(.medium))
                         .foregroundStyle(.white.opacity(0.72))
                         .multilineTextAlignment(.center)

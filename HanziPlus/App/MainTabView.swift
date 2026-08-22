@@ -18,31 +18,31 @@ struct MainTabView: View {
             TodayView()
                 .tag(AppTab.today)
                 .tabItem {
-                    Label("Today", systemImage: "sun.max.fill")
+                    Label(String(localized: "tab.today"), systemImage: "sun.max.fill")
                 }
 
             StudySetsView()
                 .tag(AppTab.learn)
                 .tabItem {
-                    Label("Learn", systemImage: "book.fill")
+                    Label(String(localized: "tab.learn"), systemImage: "book.fill")
                 }
 
             TravelTabView()
                 .tag(AppTab.travel)
                 .tabItem {
-                    Label("Travel", systemImage: "airplane")
+                    Label(String(localized: "tab.travel"), systemImage: "airplane")
                 }
 
             GamesView()
                 .tag(AppTab.games)
                 .tabItem {
-                    Label("Games", systemImage: "gamecontroller.fill")
+                    Label(String(localized: "tab.games"), systemImage: "gamecontroller.fill")
                 }
 
             JourneyView()
                 .tag(AppTab.journey)
                 .tabItem {
-                    Label("Journey", systemImage: "globe.asia.australia.fill")
+                    Label(String(localized: "tab.journey"), systemImage: "globe.asia.australia.fill")
                 }
         }
     }
@@ -64,4 +64,5 @@ struct MainTabView: View {
         .environment(AppTabRouter())
         .environment(UserProfileStore())
         .environment(GamesDailyProgressStore())
+        .environment(LanguageSettingsStore())
 }

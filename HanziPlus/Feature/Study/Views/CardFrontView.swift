@@ -29,7 +29,7 @@ struct CardFrontView: View {
                     .foregroundStyle(.secondary)
                     .tracking(0.4)
 
-                Text(word.english)
+                Text(word.localizedMeaning)
                     .font(.title2.weight(.regular))
                     .foregroundStyle(.primary.opacity(0.88))
                     .multilineTextAlignment(.center)

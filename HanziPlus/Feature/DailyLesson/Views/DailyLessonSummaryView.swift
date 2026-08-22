@@ -62,7 +62,7 @@ struct DailyLessonSummaryView: View {
                                     Text(word.pinyin)
                                         .font(.caption)
                                         .foregroundStyle(.secondary)
-                                    Text(word.english)
+                                    Text(word.localizedMeaning)
                                         .font(.subheadline)
                                 }
                                 Spacer(minLength: 0)
@@ -73,7 +73,7 @@ struct DailyLessonSummaryView: View {
                                     .fill(Color(.secondarySystemGroupedBackground))
                             }
                             .accessibilityElement(children: .combine)
-                            .accessibilityLabel("\(word.hanzi), \(word.pinyin), \(word.english)")
+                            .accessibilityLabel("\(word.hanzi), \(word.pinyin), \(word.localizedMeaning)")
                         }
                     }
                 } else {

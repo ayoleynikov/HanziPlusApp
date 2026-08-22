@@ -56,7 +56,7 @@ final class SmartReviewViewModel: GameSession {
         guard let currentWord else { return [] }
         let fullPool = GameWordProvider.words(for: studySet)
         return MultipleChoiceHelper.englishOptions(
-            correct: currentWord.english,
+            correct: currentWord.localizedMeaning,
             pool: fullPool,
             excluding: currentWord.id
         )
@@ -68,7 +68,7 @@ final class SmartReviewViewModel: GameSession {
         selectedAnswer = answer
         showResult = true
 
-        if answer == currentWord.english {
+        if answer == currentWord.localizedMeaning {
             correctCount += 1
         } else {
             wrongCount += 1

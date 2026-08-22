@@ -30,12 +30,12 @@ struct TravelPhraseDetailView: View {
                         .font(.title3)
                         .foregroundStyle(.secondary)
 
-                    Text(phrase.english)
+                    Text(phrase.localizedTranslation())
                         .font(.title3.weight(.medium))
                         .fixedSize(horizontal: false, vertical: true)
                 }
 
-                if let note = phrase.usageNote, !note.isEmpty {
+                if let note = phrase.localizedUsageNote(), !note.isEmpty {
                     VStack(alignment: .leading, spacing: 6) {
                         Text("Usage")
                             .font(.subheadline.weight(.semibold))
@@ -63,7 +63,7 @@ struct TravelPhraseDetailView: View {
                                 Text(reply.pinyin)
                                     .font(.caption)
                                     .foregroundStyle(.secondary)
-                                Text(reply.english)
+                                Text(reply.localizedTranslation())
                                     .font(.subheadline)
                                     .foregroundStyle(.secondary)
                             }

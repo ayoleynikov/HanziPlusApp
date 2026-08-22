@@ -54,7 +54,7 @@ struct TravelPhraseStrip: View {
                                         .font(.headline)
                                         .lineLimit(1)
 
-                                    Text(phrase.english)
+                                    Text(phrase.localizedTranslation())
                                         .font(.caption)
                                         .foregroundStyle(.secondary)
                                         .lineLimit(2)
@@ -67,7 +67,7 @@ struct TravelPhraseStrip: View {
                                 }
                             }
                             .buttonStyle(.plain)
-                            .accessibilityLabel("\(phrase.simplifiedChinese), \(phrase.english)")
+                            .accessibilityLabel("\(phrase.simplifiedChinese), \(phrase.localizedTranslation())")
                         }
                     }
                     .padding(.horizontal, AppSpacing.medium)

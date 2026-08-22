@@ -49,7 +49,7 @@ struct MemoryCard: Identifiable {
     var displayText: String {
         switch face {
         case .hanzi: word.hanzi
-        case .english: word.english
+        case .english: word.localizedMeaning
         case .pinyin: word.pinyin
         case .audio: "🔊"
         }

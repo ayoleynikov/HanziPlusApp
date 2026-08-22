@@ -40,7 +40,7 @@ struct FindTheHanziView: View {
                 gameplay
             }
         }
-        .navigationTitle(game.title)
+        .navigationTitle(game.localizedTitle)
         .navigationBarTitleDisplayMode(.inline)
         .gameRestartToolbar { viewModel.restart() }
     }
@@ -56,7 +56,7 @@ struct FindTheHanziView: View {
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
 
-                    Text(word.english)
+                    Text(word.localizedMeaning)
                         .font(.largeTitle.weight(.bold))
                         .multilineTextAlignment(.center)
                 }

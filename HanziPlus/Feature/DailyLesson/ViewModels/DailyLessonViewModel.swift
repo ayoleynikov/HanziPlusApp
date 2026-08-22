@@ -51,20 +51,20 @@ final class DailyLessonViewModel {
 
     var phaseTitle: String {
         switch session.phase {
-        case .preview: "Preview"
-        case .meaning: "Meaning"
-        case .listening: "Listening"
-        case .summary: "Summary"
-        case .reviewMistakes: "Review Mistakes"
+        case .preview: String(localized: "lesson.phase.preview")
+        case .meaning: String(localized: "lesson.phase.meaning")
+        case .listening: String(localized: "lesson.phase.listening")
+        case .summary: String(localized: "lesson.phase.summary")
+        case .reviewMistakes: String(localized: "lesson.phase.review_mistakes")
         }
     }
 
     var statusText: String {
-        if session.completed { return "Complete" }
+        if session.completed { return String(localized: "lesson.card.status.complete") }
         if session.phase == .preview && session.currentIndex == 0 && session.answers.isEmpty {
-            return "Not Started"
+            return String(localized: "lesson.card.status.not_started")
         }
-        return "In Progress"
+        return String(localized: "lesson.card.status.in_progress")
     }
 
     var meaningOptions: [String] {
@@ -112,7 +112,7 @@ final class DailyLessonViewModel {
               selectedAnswer == nil
         else { return }
 
-        let correct = answer == word.english
+        let correct = answer == word.localizedMeaning
         selectedAnswer = answer
         showFeedback = true
         lastAnswerCorrect = correct

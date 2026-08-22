@@ -94,7 +94,7 @@ enum TodayPlanBuilder {
             )
         }
 
-        return (.study(fileName: SampleStudySets.travel.fileName, sectionID: nil), "Continue Travel words")
+        return (.study(fileName: SampleStudySets.travel.fileName, sectionID: nil), String(localized: "today.continue.travel_words"))
     }
 
     static func hero(
@@ -107,16 +107,16 @@ enum TodayPlanBuilder {
         case .travelToChina:
             let countdown: String = {
                 if let days = profile.daysUntilTravel {
-                    if days < 0 { return "Trip date has passed — keep phrases ready." }
-                    if days == 0 { return "Your trip is today. Stay ready." }
-                    return "\(days) day\(days == 1 ? "" : "s") until your trip"
+                    if days < 0 { return String(localized: "today.hero.trip_passed") }
+                    if days == 0 { return String(localized: "today.hero.trip_today") }
+                    return L10n.daysUntilTrip(days)
                 }
-                return "Offline phrases for real situations"
+                return String(localized: "today.hero.offline_phrases")
             }()
             return TodayHeroContent(
-                title: "Travel Toolkit",
+                title: String(localized: "today.hero.travel_toolkit"),
                 subtitle: countdown,
-                buttonTitle: "Open Travel Toolkit",
+                buttonTitle: String(localized: "today.hero.open_travel"),
                 icon: "airplane",
                 destination: .travelHub
             )
@@ -125,33 +125,34 @@ enum TodayPlanBuilder {
             let session = lessonStore.ensureTodaySession(profile: profile, learnedStore: learnedStore)
             let set = SampleStudySets.studySet(fileName: session.fileName)
                 ?? recommendedStudySet(for: profile)
-            let count = session.wordCount
+            let countLabel = L10n.words(session.wordCount)
+            let setTitle = set.localizedTitle
 
             switch lessonStore.status {
             case .complete:
                 return TodayHeroContent(
-                    title: "Today’s Lesson Complete",
-                    subtitle: "Nice work — reinforce with Smart Review or explore Journey",
-                    buttonTitle: "Start Smart Review",
+                    title: String(localized: "today.hero.lesson_complete"),
+                    subtitle: String(localized: "today.hero.lesson_complete.subtitle"),
+                    buttonTitle: String(localized: "today.hero.start_smart_review"),
                     icon: "checkmark.circle.fill",
                     destination: .smartReview(fileName: session.fileName)
                 )
             case .inProgress:
                 return TodayHeroContent(
-                    title: "Continue Today’s Lesson",
-                    subtitle: "\(set.title) · \(count) words",
-                    buttonTitle: "Continue Lesson",
+                    title: String(localized: "today.hero.continue_lesson"),
+                    subtitle: "\(setTitle) · \(countLabel)",
+                    buttonTitle: String(localized: "today.hero.continue_lesson_cta"),
                     icon: "play.fill",
                     destination: .dailyLesson
                 )
             case .notStarted:
                 let subtitle = profile.primaryGoal == .both
-                    ? "\(set.title) · \(count) words · Travel Toolkit stays one tap away"
-                    : "\(set.title) · \(count) words"
+                    ? "\(setTitle) · \(countLabel) · \(String(localized: "today.hero.subtitle_both_suffix"))"
+                    : "\(setTitle) · \(countLabel)"
                 return TodayHeroContent(
-                    title: "Start Today’s Lesson",
+                    title: String(localized: "today.hero.start_lesson"),
                     subtitle: subtitle,
-                    buttonTitle: "Start Today’s Lesson",
+                    buttonTitle: String(localized: "today.hero.start_lesson"),
                     icon: "sun.max.fill",
                     destination: .dailyLesson
                 )
@@ -170,15 +171,16 @@ enum TodayPlanBuilder {
             ?? recommendedStudySet(for: profile)
         let lessonComplete = lessonStore.status == .complete
         let lessonDetail: String = {
-            let size = "\(lessonSession.wordCount) words"
+            let size = L10n.words(lessonSession.wordCount)
+            let setTitle = lessonSet.localizedTitle
             switch lessonStore.status {
             case .notStarted:
-                return "\(lessonSet.title) · \(size)"
+                return "\(setTitle) · \(size)"
             case .inProgress:
-                let phase = lessonSession.phase.rawValue.capitalized
-                return "\(lessonSet.title) · \(size) · \(phase)"
+                let phase = String(localized: String.LocalizationValue("lesson.phase.\(lessonSession.phase.rawValue == "reviewMistakes" ? "review_mistakes" : lessonSession.phase.rawValue)"))
+                return "\(setTitle) · \(size) · \(phase)"
             case .complete:
-                return "\(lessonSet.title) · \(size) · Done"
+                return "\(setTitle) · \(size) · \(String(localized: "common.done"))"
             }
         }()
 
@@ -189,7 +191,7 @@ enum TodayPlanBuilder {
             actions.append(
                 TodayPlanAction(
                     id: "learn",
-                    title: "Learn",
+                    title: String(localized: "today.action.learn"),
                     detail: lessonDetail,
                     icon: "text.book.closed.fill",
                     tintName: "blue",
@@ -202,7 +204,7 @@ enum TodayPlanBuilder {
             actions.append(
                 TodayPlanAction(
                     id: "learn",
-                    title: "Learn",
+                    title: String(localized: "today.action.learn"),
                     detail: lessonDetail,
                     icon: "text.book.closed.fill",
                     tintName: "blue",
@@ -213,8 +215,8 @@ enum TodayPlanBuilder {
             actions.append(
                 TodayPlanAction(
                     id: "travel",
-                    title: "Travel Toolkit",
-                    detail: "Offline phrases for real trips",
+                    title: String(localized: "today.action.travel_toolkit"),
+                    detail: String(localized: "today.action.travel_detail_both"),
                     icon: "airplane",
                     tintName: "orange",
                     destination: .travelHub
@@ -226,7 +228,7 @@ enum TodayPlanBuilder {
                 actions.append(
                     TodayPlanAction(
                         id: "learn",
-                        title: "Learn",
+                        title: String(localized: "today.action.learn"),
                         detail: travelContinue.label,
                         icon: "text.book.closed.fill",
                         tintName: "blue",
@@ -237,7 +239,7 @@ enum TodayPlanBuilder {
                 actions.append(
                     TodayPlanAction(
                         id: "learn",
-                        title: "Learn",
+                        title: String(localized: "today.action.learn"),
                         detail: "Travel words · \(lessonSession.wordCount) words · guided lesson",
                         icon: "text.book.closed.fill",
                         tintName: "blue",
@@ -249,8 +251,8 @@ enum TodayPlanBuilder {
             actions.append(
                 TodayPlanAction(
                     id: "travel",
-                    title: "Travel Toolkit",
-                    detail: "Essentials, categories, and show-to-local",
+                    title: String(localized: "today.action.travel_toolkit"),
+                    detail: String(localized: "today.action.travel_detail_travel"),
                     icon: "airplane",
                     tintName: "orange",
                     destination: .travelHub
@@ -268,8 +270,8 @@ enum TodayPlanBuilder {
         actions.append(
             TodayPlanAction(
                 id: "review",
-                title: "Review",
-                detail: "Smart Review · reinforce weak words",
+                title: String(localized: "today.action.review"),
+                detail: String(localized: "today.action.review_detail"),
                 icon: "arrow.triangle.2.circlepath",
                 tintName: "purple",
                 destination: .smartReview(fileName: reviewSetFileName)
@@ -278,10 +280,10 @@ enum TodayPlanBuilder {
         actions.append(
             TodayPlanAction(
                 id: "explore",
-                title: "Explore",
+                title: String(localized: "today.action.explore"),
                 detail: profile.primaryGoal.includesTravel
-                    ? "China Journey map"
-                    : "Visit a city on your Journey map",
+                    ? String(localized: "today.action.explore_travel")
+                    : String(localized: "today.action.explore_learn"),
                 icon: "globe.asia.australia.fill",
                 tintName: "orange",
                 destination: .journey

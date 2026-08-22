@@ -48,7 +48,7 @@ final class MatchPairsViewModel: GameSession {
     var options: [String] {
         guard let currentWord else { return [] }
         return MultipleChoiceHelper.englishOptions(
-            correct: currentWord.english,
+            correct: currentWord.localizedMeaning,
             pool: wordPool,
             excluding: currentWord.id,
             count: difficulty.optionCount
@@ -61,7 +61,7 @@ final class MatchPairsViewModel: GameSession {
         selectedAnswer = answer
         showResult = true
 
-        if answer == currentWord.english {
+        if answer == currentWord.localizedMeaning {
             correctCount += 1
         } else {
             wrongCount += 1

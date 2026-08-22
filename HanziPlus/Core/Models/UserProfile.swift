@@ -15,17 +15,17 @@ enum PrimaryGoal: String, Codable, CaseIterable, Identifiable {
 
     var title: String {
         switch self {
-        case .learnChinese: "Learn Chinese"
-        case .travelToChina: "Travel to China"
-        case .both: "Both"
+        case .learnChinese: String(localized: "profile.goal.learn_chinese")
+        case .travelToChina: String(localized: "profile.goal.travel_to_china")
+        case .both: String(localized: "profile.goal.both")
         }
     }
 
     var subtitle: String {
         switch self {
-        case .learnChinese: "Build vocabulary with HSK and everyday topics"
-        case .travelToChina: "Focus on phrases you’ll use on the trip"
-        case .both: "Balance study with practical travel prep"
+        case .learnChinese: String(localized: "profile.goal.learn_chinese.subtitle")
+        case .travelToChina: String(localized: "profile.goal.travel_to_china.subtitle")
+        case .both: String(localized: "profile.goal.both.subtitle")
         }
     }
 
@@ -55,17 +55,17 @@ enum ChineseLevel: String, Codable, CaseIterable, Identifiable {
 
     var title: String {
         switch self {
-        case .completeBeginner: "Complete Beginner"
-        case .beginner: "Beginner"
-        case .intermediate: "Intermediate"
+        case .completeBeginner: String(localized: "profile.level.complete_beginner")
+        case .beginner: String(localized: "profile.level.beginner")
+        case .intermediate: String(localized: "profile.level.intermediate")
         }
     }
 
     var subtitle: String {
         switch self {
-        case .completeBeginner: "Starting from zero"
-        case .beginner: "Know a few basics"
-        case .intermediate: "Ready for HSK 2–3"
+        case .completeBeginner: String(localized: "profile.level.complete_beginner.subtitle")
+        case .beginner: String(localized: "profile.level.beginner.subtitle")
+        case .intermediate: String(localized: "profile.level.intermediate.subtitle")
         }
     }
 
@@ -94,7 +94,7 @@ enum DailyMinutes: Int, Codable, CaseIterable, Identifiable {
 
     var id: Int { rawValue }
 
-    var title: String { "\(rawValue) minutes" }
+    var title: String { L10n.minutes(rawValue) }
 
     var lessonWordCount: Int {
         switch self {
@@ -106,9 +106,9 @@ enum DailyMinutes: Int, Codable, CaseIterable, Identifiable {
 
     var subtitle: String {
         switch self {
-        case .five: "A light daily habit"
-        case .ten: "Balanced and sustainable"
-        case .fifteen: "Faster progress"
+        case .five: String(localized: "profile.minutes.five.subtitle")
+        case .ten: String(localized: "profile.minutes.ten.subtitle")
+        case .fifteen: String(localized: "profile.minutes.fifteen.subtitle")
         }
     }
 

@@ -36,16 +36,16 @@ struct StudySetCard: View {
                 }
 
                 VStack(alignment: .leading, spacing: 6) {
-                    Text(studySet.title)
+                    Text(studySet.localizedTitle)
                         .font(.title2.weight(.bold))
                         .foregroundStyle(.primary)
 
-                    Text(studySet.subtitle)
+                    Text(studySet.localizedSubtitle)
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                         .fixedSize(horizontal: false, vertical: true)
 
-                    Text("\(wordCount) words")
+                    Text(L10n.words(wordCount))
                         .font(.caption.weight(.medium))
                         .foregroundStyle(.tertiary)
                 }

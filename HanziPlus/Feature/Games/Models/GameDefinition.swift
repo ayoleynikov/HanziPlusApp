@@ -25,8 +25,12 @@ struct GameDefinition: Identifiable {
     var id: GameKind { kind }
     var isAvailable: Bool { kind.isAvailable }
 
-    var xpRewardLabel: String { "Up to \(xpReward) XP" }
-    var estimatedTimeLabel: String { "\(estimatedMinutes) min" }
+    var localizedTitle: String {
+        String(localized: String.LocalizationValue("games.def.\(kind.rawValue).title"))
+    }
+
+    var xpRewardLabel: String { String(localized: "games.xp_up_to \(xpReward)") }
+    var estimatedTimeLabel: String { String(localized: "games.est_minutes \(estimatedMinutes)") }
 
     static let catalog: [GameDefinition] = [
         GameDefinition(

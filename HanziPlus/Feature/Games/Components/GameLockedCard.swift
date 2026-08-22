@@ -52,7 +52,7 @@ struct GameLockedCard: View {
         .animation(.easeInOut(duration: 3).repeatForever(autoreverses: true), value: floatUp)
         .allowsHitTesting(false)
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("\(game.title). Locked. \(unlockRequirement)")
+        .accessibilityLabel("\(game.localizedTitle). Locked. \(unlockRequirement)")
         .onAppear {
             floatUp = true
             lockPulse = true
@@ -127,7 +127,7 @@ struct GameLockedCard: View {
                 Image(systemName: "lock.fill")
                     .font(.caption2.weight(.bold))
                     .foregroundStyle(.white.opacity(0.75))
-                Text(game.title)
+                Text(game.localizedTitle)
                     .font(style == .compact ? .headline.weight(.bold) : .title3.weight(.bold))
                     .foregroundStyle(.white)
                     .lineLimit(1)

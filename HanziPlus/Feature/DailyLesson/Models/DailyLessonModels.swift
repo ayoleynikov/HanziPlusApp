@@ -154,10 +154,14 @@ enum DailyLessonPlanner {
         dateKey: String,
         count: Int = 4
     ) -> [String] {
-        uniqueOptions(
-            correct: correct.english,
-            candidates: pool.map(\.english).filter { $0 != correct.english },
-            seed: stableSeed("\(dateKey)|en|\(correct.hanzi)"),
+        let language = LocalizedContent.currentLanguage
+        let correctValue = correct.localizedTranslation(for: language)
+        return uniqueOptions(
+            correct: correctValue,
+            candidates: pool
+                .map { $0.localizedTranslation(for: language) }
+                .filter { $0 != correctValue },
+            seed: stableSeed("\(dateKey)|en|\(correct.hanzi)|\(language.rawValue)"),
             count: count
         )
     }

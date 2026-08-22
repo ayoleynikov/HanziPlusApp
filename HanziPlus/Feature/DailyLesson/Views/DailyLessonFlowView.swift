@@ -19,10 +19,10 @@ struct DailyLessonFlowView: View {
             if let viewModel {
                 content(viewModel)
             } else {
-                ProgressView("Preparing lesson…")
+                ProgressView(String(localized: "lesson.preparing"))
             }
         }
-        .navigationTitle("Today’s Lesson")
+        .navigationTitle(String(localized: "lesson.nav_title"))
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             if viewModel == nil {

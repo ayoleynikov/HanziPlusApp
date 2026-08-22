@@ -49,7 +49,7 @@ final class SpeedChallengeViewModel: GameSession {
     var options: [String] {
         guard let currentWord else { return [] }
         return MultipleChoiceHelper.options(
-            correct: currentWord.english,
+            correct: currentWord.localizedMeaning,
             pool: wordPool,
             excluding: currentWord.id
         )
@@ -79,7 +79,7 @@ final class SpeedChallengeViewModel: GameSession {
         selectedAnswer = answer
         showResult = true
 
-        if answer == currentWord.english {
+        if answer == currentWord.localizedMeaning {
             correctCount += 1
             combo += 1
             comboPeak = max(comboPeak, combo)

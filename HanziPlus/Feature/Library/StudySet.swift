@@ -21,8 +21,36 @@ struct StudySet: Identifiable {
 
 extension StudySet {
 
-    var name: String {
-        title
+    var name: String { localizedTitle }
+
+    var localizedTitle: String {
+        switch fileName {
+        case "hsk1": String(localized: "catalog.set.hsk1")
+        case "hsk2": String(localized: "catalog.set.hsk2")
+        case "hsk3": String(localized: "catalog.set.hsk3")
+        case "travel": String(localized: "catalog.set.travel")
+        case "business": String(localized: "catalog.set.business")
+        case "daily_life": String(localized: "catalog.set.daily_life")
+        case "food": String(localized: "catalog.set.food")
+        case "culture": String(localized: "catalog.set.culture")
+        case "technology": String(localized: "catalog.set.technology")
+        default: title
+        }
+    }
+
+    var localizedSubtitle: String {
+        switch fileName {
+        case "hsk1": String(localized: "catalog.set.hsk1.subtitle")
+        case "hsk2": String(localized: "catalog.set.hsk2.subtitle")
+        case "hsk3": String(localized: "catalog.set.hsk3.subtitle")
+        case "travel": String(localized: "catalog.set.travel.subtitle")
+        case "business": String(localized: "catalog.set.business.subtitle")
+        case "daily_life": String(localized: "catalog.set.daily_life.subtitle")
+        case "food": String(localized: "catalog.set.food.subtitle")
+        case "culture": String(localized: "catalog.set.culture.subtitle")
+        case "technology": String(localized: "catalog.set.technology.subtitle")
+        default: subtitle
+        }
     }
 
     static let allCases: [StudySet] = [

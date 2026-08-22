@@ -46,11 +46,11 @@ struct GameUnavailableView: View {
 
     var body: some View {
         ContentUnavailableView {
-            Label(game.title, systemImage: "lock.fill")
+            Label(game.localizedTitle, systemImage: "lock.fill")
         } description: {
             Text("This game is locked.")
         }
-        .navigationTitle(game.title)
+        .navigationTitle(game.localizedTitle)
         .navigationBarTitleDisplayMode(.inline)
     }
 }

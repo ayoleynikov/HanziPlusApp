@@ -43,7 +43,7 @@ struct SentenceBuilderView: View {
                 gameplay
             }
         }
-        .navigationTitle(game.title)
+        .navigationTitle(game.localizedTitle)
         .navigationBarTitleDisplayMode(.inline)
     }
 

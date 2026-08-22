@@ -46,7 +46,7 @@ struct HanziMemoryView: View {
                 gameplay
             }
         }
-        .navigationTitle(game.title)
+        .navigationTitle(game.localizedTitle)
         .navigationBarTitleDisplayMode(.inline)
         .gameRestartToolbar { viewModel.restart() }
         .onAppear { persistActiveSession() }
@@ -79,7 +79,7 @@ struct HanziMemoryView: View {
             ActiveGameSession(
                 gameKind: .hanziMemory,
                 studySetFileName: studySet.fileName,
-                studySetTitle: studySet.title,
+                studySetTitle: studySet.localizedTitle,
                 difficulty: difficulty,
                 memoryMode: matchMode,
                 progressLabel: "\(viewModel.matchedPairs) / \(viewModel.totalPairs) pairs",

@@ -51,11 +51,11 @@ private(set) var isFinished = false
 
         var answers = words
             .filter { $0.id != currentWord.id }
-            .map(\.english)
+            .map(\.localizedMeaning)
             .shuffled()
 
         answers = Array(answers.prefix(3))
-        answers.append(currentWord.english)
+        answers.append(currentWord.localizedMeaning)
 
         return answers.shuffled()
     }
@@ -68,7 +68,7 @@ private(set) var isFinished = false
         selectedAnswer = answer
         showResult = true
 
-        if answer == currentWord.english {
+        if answer == currentWord.localizedMeaning {
             correctAnswers += 1
         } else {
             wrongAnswers += 1

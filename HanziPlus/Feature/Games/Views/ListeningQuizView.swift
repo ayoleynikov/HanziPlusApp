@@ -44,7 +44,7 @@ struct ListeningQuizView: View {
                 gameplay
             }
         }
-        .navigationTitle(game.title)
+        .navigationTitle(game.localizedTitle)
         .navigationBarTitleDisplayMode(.inline)
         .gameRestartToolbar { viewModel.restart(); playCurrentAudio() }
         .onAppear { playCurrentAudio() }

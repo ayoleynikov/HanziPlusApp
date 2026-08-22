@@ -26,7 +26,7 @@ struct GameContinuePlayingCard: View {
                         .clipShape(RoundedRectangle(cornerRadius: AppRadius.medium, style: .continuous))
 
                     VStack(alignment: .leading, spacing: 8) {
-                        Text(game.title)
+                        Text(game.localizedTitle)
                             .font(.headline.weight(.bold))
                             .foregroundStyle(.primary)
 

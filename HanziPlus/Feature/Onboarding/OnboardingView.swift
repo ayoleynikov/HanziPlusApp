@@ -73,8 +73,8 @@ struct OnboardingView: View {
 
     private var goalStep: some View {
         stepContainer(
-            title: "What’s your main goal?",
-            subtitle: "We’ll personalize your daily plan."
+            title: String(localized: "onboarding.goal.title"),
+            subtitle: String(localized: "onboarding.goal.subtitle")
         ) {
             ForEach(PrimaryGoal.allCases) { option in
                 OnboardingOptionCard(
@@ -97,8 +97,8 @@ struct OnboardingView: View {
 
     private var levelStep: some View {
         stepContainer(
-            title: "What’s your level?",
-            subtitle: "We’ll suggest the right starting set."
+            title: String(localized: "onboarding.level.title"),
+            subtitle: String(localized: "onboarding.level.subtitle")
         ) {
             ForEach(ChineseLevel.allCases) { option in
                 OnboardingOptionCard(
@@ -118,8 +118,8 @@ struct OnboardingView: View {
 
     private var minutesStep: some View {
         stepContainer(
-            title: "Daily study time",
-            subtitle: "A small habit beats a perfect plan."
+            title: String(localized: "onboarding.time.title"),
+            subtitle: String(localized: "onboarding.time.subtitle")
         ) {
             ForEach(DailyMinutes.allCases) { option in
                 OnboardingOptionCard(
@@ -139,12 +139,12 @@ struct OnboardingView: View {
 
     private var travelDateStep: some View {
         stepContainer(
-            title: "When is your trip?",
-            subtitle: "Optional — helps with countdown and focus."
+            title: String(localized: "onboarding.trip.title"),
+            subtitle: String(localized: "onboarding.trip.subtitle")
         ) {
             OnboardingOptionCard(
-                title: "No date yet",
-                subtitle: "I’ll choose later",
+                title: String(localized: "onboarding.trip.no_date_title"),
+                subtitle: String(localized: "onboarding.trip.no_date_subtitle"),
                 icon: "calendar.badge.minus",
                 isSelected: !hasTravelDate,
                 tint: tint
@@ -155,8 +155,8 @@ struct OnboardingView: View {
             }
 
             OnboardingOptionCard(
-                title: "I have a date",
-                subtitle: "Show countdown on Today",
+                title: String(localized: "onboarding.trip.has_date_title"),
+                subtitle: String(localized: "onboarding.trip.has_date_subtitle"),
                 icon: "calendar",
                 isSelected: hasTravelDate,
                 tint: tint
@@ -168,7 +168,7 @@ struct OnboardingView: View {
 
             if hasTravelDate {
                 DatePicker(
-                    "Travel date",
+                    String(localized: "onboarding.trip.date_label"),
                     selection: $travelDate,
                     in: Date()...,
                     displayedComponents: .date
@@ -179,15 +179,15 @@ struct OnboardingView: View {
                     RoundedRectangle(cornerRadius: AppRadius.medium, style: .continuous)
                         .fill(Color(.secondarySystemGroupedBackground))
                 }
-                .accessibilityLabel("Travel date picker")
+                .accessibilityLabel(String(localized: "onboarding.a11y.date_picker"))
             }
         }
     }
 
     private var planStep: some View {
         stepContainer(
-            title: "Your plan is ready",
-            subtitle: "A calm daily path based on your answers."
+            title: String(localized: "onboarding.plan.ready_title"),
+            subtitle: String(localized: "onboarding.plan.ready_subtitle")
         ) {
             planSummaryCard
         }
@@ -195,14 +195,14 @@ struct OnboardingView: View {
 
     private var planSummaryCard: some View {
         VStack(alignment: .leading, spacing: 16) {
-            planRow(icon: goal.icon, title: "Goal", value: goal.title)
-            planRow(icon: level.icon, title: "Level", value: level.title)
-            planRow(icon: minutes.icon, title: "Daily time", value: minutes.title)
+            planRow(icon: goal.icon, title: String(localized: "onboarding.plan.row_goal"), value: goal.title)
+            planRow(icon: level.icon, title: String(localized: "onboarding.plan.row_level"), value: level.title)
+            planRow(icon: minutes.icon, title: String(localized: "onboarding.plan.row_daily_time"), value: minutes.title)
 
             if goal.includesTravel {
                 planRow(
                     icon: "airplane",
-                    title: "Travel",
+                    title: String(localized: "onboarding.plan.row_travel"),
                     value: travelPlanValue
                 )
             }
@@ -226,20 +226,21 @@ struct OnboardingView: View {
     private var travelPlanValue: String {
         if hasTravelDate {
             let formatter = DateFormatter()
+            formatter.locale = Locale.current
             formatter.dateStyle = .medium
             return formatter.string(from: travelDate)
         }
-        return "No date yet"
+        return String(localized: "onboarding.plan.no_date")
     }
 
     private var planBlurb: String {
         switch goal {
         case .learnChinese:
-            return "Each day you’ll learn a small set of words, review with Smart Review, and explore China on the map."
+            return String(localized: "onboarding.plan.blurb_learn")
         case .travelToChina:
-            return "We’ll prioritize Travel Essentials and trip prep, with short reviews to keep phrases ready."
+            return String(localized: "onboarding.plan.blurb_travel")
         case .both:
-            return "You’ll mix HSK learning with travel prep — study, review, and explore China each day."
+            return String(localized: "onboarding.plan.blurb_both")
         }
     }
 
@@ -293,16 +294,16 @@ struct OnboardingView: View {
     private var bottomBar: some View {
         HStack(spacing: 12) {
             if step > 0 {
-                Button("Back") {
+                Button(String(localized: "common.back")) {
                     withAnimation(.spring(response: 0.4, dampingFraction: 0.88)) {
                         step -= 1
                     }
                 }
                 .buttonStyle(.bordered)
-                .accessibilityLabel("Go back")
+                .accessibilityLabel(String(localized: "onboarding.a11y.back"))
             }
 
-            Button(step == planStepIndex ? "Start My Journey" : "Continue") {
+            Button(step == planStepIndex ? String(localized: "onboarding.button.start_journey") : String(localized: "common.continue")) {
                 if step == planStepIndex {
                     finish()
                 } else {
@@ -314,7 +315,7 @@ struct OnboardingView: View {
             .buttonStyle(.borderedProminent)
             .tint(tint)
             .frame(maxWidth: .infinity)
-            .accessibilityLabel(step == planStepIndex ? "Start my journey" : "Continue")
+            .accessibilityLabel(step == planStepIndex ? String(localized: "onboarding.a11y.start_journey") : String(localized: "common.continue"))
         }
     }
 

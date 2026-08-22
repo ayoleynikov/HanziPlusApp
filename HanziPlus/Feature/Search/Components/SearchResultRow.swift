@@ -23,7 +23,7 @@ struct SearchResultRow: View {
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
 
-                Text(entry.word.english)
+                Text(entry.word.localizedMeaning)
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
             }

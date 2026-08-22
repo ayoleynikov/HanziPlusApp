@@ -42,7 +42,7 @@ struct SpeedChallengeView: View {
                 gameplay
             }
         }
-        .navigationTitle(game.title)
+        .navigationTitle(game.localizedTitle)
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             viewModel.startTimer()
@@ -74,12 +74,12 @@ struct SpeedChallengeView: View {
                     GameOptionButton(
                         text: option,
                         isSelected: viewModel.selectedAnswer == option,
-                        isCorrect: option == viewModel.currentWord?.english,
+                        isCorrect: option == viewModel.currentWord?.localizedMeaning,
                         showResult: viewModel.showResult,
                         action: {
                             guard !viewModel.showResult, viewModel.remainingSeconds > 0 else { return }
                             viewModel.select(option)
-                            if option == viewModel.currentWord?.english {
+                            if option == viewModel.currentWord?.localizedMeaning {
                                 HapticService.light()
                             } else {
                                 HapticService.rigid()
@@ -89,7 +89,7 @@ struct SpeedChallengeView: View {
                     .opacity(
                         viewModel.showResult &&
                         viewModel.selectedAnswer != option &&
-                        option != viewModel.currentWord?.english ? 0.45 : 1
+                        option != viewModel.currentWord?.localizedMeaning ? 0.45 : 1
                     )
                 }
             }
@@ -186,7 +186,7 @@ struct SpeedChallengeView: View {
     }
 
     private func handleResultFeedback() {
-        let isCorrect = viewModel.selectedAnswer == viewModel.currentWord?.english
+        let isCorrect = viewModel.selectedAnswer == viewModel.currentWord?.localizedMeaning
 
         withAnimation(.easeIn(duration: 0.12)) {
             flashColor = isCorrect ? .green : .red

@@ -129,7 +129,7 @@ struct TravelToolkitHubView: View {
                             VStack(alignment: .leading, spacing: 4) {
                                 Text(phrase.simplifiedChinese)
                                     .font(.headline)
-                                Text(phrase.english)
+                                Text(phrase.localizedTranslation())
                                     .font(.caption)
                                     .foregroundStyle(.secondary)
                             }

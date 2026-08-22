@@ -68,7 +68,7 @@ struct GameStudySetPickerView: View {
             .padding(.bottom, AppSpacing.extraLarge)
         }
         .background(Color(.systemGroupedBackground))
-        .navigationTitle(game.title)
+        .navigationTitle(game.localizedTitle)
         .navigationBarTitleDisplayMode(.inline)
     }
 
@@ -85,7 +85,7 @@ struct GameStudySetPickerView: View {
             }
 
             VStack(alignment: .leading, spacing: 4) {
-                Text(game.title)
+                Text(game.localizedTitle)
                     .font(.title3.weight(.bold))
 
                 Text(game.description)
@@ -120,7 +120,7 @@ private struct StudySetPickerRow: View {
             }
 
             VStack(alignment: .leading, spacing: 4) {
-                Text(studySet.title)
+                Text(studySet.localizedTitle)
                     .font(.headline.weight(.semibold))
 
                 Text("\(wordCount) words · \(studySet.subtitle)")

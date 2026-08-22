@@ -26,7 +26,7 @@ struct GamesCompletedView: View {
                 ForEach(GameDefinition.libraryGames) { game in
                     let stats = scoreStore.statistics(for: game.kind)
                     HStack {
-                        Text("\(game.emoji) \(game.title)")
+                        Text("\(game.emoji) \(game.localizedTitle)")
                         Spacer()
                         Text("\(stats.gamesPlayed)")
                             .foregroundStyle(.secondary)
@@ -102,7 +102,7 @@ struct GamesPerfectScoresView: View {
             } else {
                 ForEach(perfectScoreGames) { game in
                     HStack {
-                        Text("\(game.emoji) \(game.title)")
+                        Text("\(game.emoji) \(game.localizedTitle)")
                         Spacer()
                         Image(systemName: "star.fill")
                             .foregroundStyle(.yellow)

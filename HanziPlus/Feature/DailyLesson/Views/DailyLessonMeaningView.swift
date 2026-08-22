@@ -48,7 +48,7 @@ struct DailyLessonMeaningView: View {
                         text: option,
                         emphasizesHanzi: false,
                         isSelected: selectedAnswer == option,
-                        isCorrect: option == word.english,
+                        isCorrect: option == word.localizedMeaning,
                         showResult: showFeedback,
                         action: { onSelect(option) }
                     )

@@ -69,7 +69,7 @@ struct GameDetailView: View {
             .padding(.bottom, AppSpacing.extraLarge)
         }
         .background(Color(.systemGroupedBackground))
-        .navigationTitle(game.title)
+        .navigationTitle(game.localizedTitle)
         .navigationBarTitleDisplayMode(.inline)
         .navigationDestination(isPresented: $showStudySetPicker) {
             studySetDestination
@@ -97,7 +97,7 @@ struct GameDetailView: View {
 
     private var headerSection: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("\(game.emoji) \(game.title)")
+            Text("\(game.emoji) \(game.localizedTitle)")
                 .font(.largeTitle.weight(.bold))
 
             Text(game.description)

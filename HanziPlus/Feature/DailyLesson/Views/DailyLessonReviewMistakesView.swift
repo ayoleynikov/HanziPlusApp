@@ -25,7 +25,7 @@ struct DailyLessonReviewMistakesView: View {
                     .font(.title3)
                     .foregroundStyle(.secondary)
 
-                Text(word.english)
+                Text(word.localizedMeaning)
                     .font(.title3.weight(.semibold))
                     .multilineTextAlignment(.center)
 
@@ -39,7 +39,7 @@ struct DailyLessonReviewMistakesView: View {
             }
             .studyCardShadow()
             .accessibilityElement(children: .combine)
-            .accessibilityLabel("\(word.hanzi), \(word.pinyin), \(word.english)")
+            .accessibilityLabel("\(word.hanzi), \(word.pinyin), \(word.localizedMeaning)")
 
             Text("Confirm the meaning")
                 .font(.subheadline.weight(.medium))
@@ -52,7 +52,7 @@ struct DailyLessonReviewMistakesView: View {
                         text: option,
                         emphasizesHanzi: false,
                         isSelected: selectedAnswer == option,
-                        isCorrect: option == word.english,
+                        isCorrect: option == word.localizedMeaning,
                         showResult: showFeedback,
                         action: { onSelect(option) }
                     )

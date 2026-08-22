@@ -52,7 +52,7 @@ struct CinematicGameArtwork: View {
                     Spacer()
                     Text(game.emoji)
                         .font(.title)
-                    Text(game.title)
+                    Text(game.localizedTitle)
                         .font(.headline.weight(.bold))
                         .foregroundStyle(.white)
                 }

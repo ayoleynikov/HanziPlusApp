@@ -37,7 +37,7 @@ struct HanziMemoryModePickerView: View {
             .padding(.bottom, AppSpacing.extraLarge)
         }
         .background(Color(.systemGroupedBackground))
-        .navigationTitle(game.title)
+        .navigationTitle(game.localizedTitle)
         .navigationBarTitleDisplayMode(.inline)
     }
 
@@ -54,7 +54,7 @@ struct HanziMemoryModePickerView: View {
             }
 
             VStack(alignment: .leading, spacing: 4) {
-                Text(game.title)
+                Text(game.localizedTitle)
                     .font(.title3.weight(.bold))
 
                 Text("Pick how you want to match cards, then choose a study set.")

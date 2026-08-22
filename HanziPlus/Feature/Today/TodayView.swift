@@ -51,10 +51,10 @@ struct TodayView: View {
     private var greeting: String {
         let hour = Calendar.current.component(.hour, from: Date())
         switch hour {
-        case 5..<12: return "Good morning"
-        case 12..<17: return "Good afternoon"
-        case 17..<22: return "Good evening"
-        default: return "Welcome back"
+        case 5..<12: return String(localized: "today.greeting.morning")
+        case 12..<17: return String(localized: "today.greeting.afternoon")
+        case 17..<22: return String(localized: "today.greeting.evening")
+        default: return String(localized: "today.greeting.welcome_back")
         }
     }
 
@@ -87,7 +87,7 @@ struct TodayView: View {
                     } label: {
                         Image(systemName: "gearshape.fill")
                     }
-                    .accessibilityLabel("Open Settings")
+                    .accessibilityLabel(String(localized: "today.a11y.open_settings"))
                 }
             }
             .navigationDestination(for: TodayDestination.self) { destination in
@@ -112,8 +112,8 @@ struct TodayView: View {
             }
 
             HStack(spacing: 10) {
-                statChip(title: "Streak", value: "\(streak)", icon: "flame.fill", tint: .orange)
-                statChip(title: "XP", value: "\(totalXP)", icon: "sparkles", tint: .purple)
+                statChip(title: String(localized: "common.streak"), value: "\(streak)", icon: "flame.fill", tint: .orange)
+                statChip(title: String(localized: "common.xp"), value: "\(totalXP)", icon: "sparkles", tint: .purple)
                 Spacer(minLength: 0)
             }
         }
@@ -147,7 +147,7 @@ struct TodayView: View {
 
     private var planSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("Today’s Plan")
+            Text("today.section.plan")
                 .font(.title3.weight(.semibold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -167,7 +167,7 @@ struct TodayView: View {
 
     private var quickActionsSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("Quick Actions")
+            Text("today.section.quick_actions")
                 .font(.title3.weight(.semibold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -182,7 +182,7 @@ struct TodayView: View {
                     open(continueQuickDestination)
                 } label: {
                     TodayQuickActionButton(
-                        title: "Continue Learning",
+                        title: String(localized: "today.quick.continue_learning"),
                         icon: "play.fill",
                         tint: .blue
                     )
@@ -193,7 +193,7 @@ struct TodayView: View {
                     open(.smartReview(fileName: reviewFileName))
                 } label: {
                     TodayQuickActionButton(
-                        title: "Smart Review",
+                        title: String(localized: "today.quick.smart_review"),
                         icon: "arrow.triangle.2.circlepath",
                         tint: .purple
                     )
@@ -204,7 +204,7 @@ struct TodayView: View {
                     open(.travelEssentials)
                 } label: {
                     TodayQuickActionButton(
-                        title: "Travel Essentials",
+                        title: String(localized: "today.quick.travel_essentials"),
                         icon: "airplane",
                         tint: .orange
                     )
@@ -215,7 +215,7 @@ struct TodayView: View {
                     open(.journey)
                 } label: {
                     TodayQuickActionButton(
-                        title: "Explore China",
+                        title: String(localized: "today.quick.explore_china"),
                         icon: "globe.asia.australia.fill",
                         tint: .green
                     )

@@ -136,7 +136,7 @@ struct SmartReviewView: View {
                     GameOptionButton(
                         text: option,
                         isSelected: viewModel.selectedAnswer == option,
-                        isCorrect: option == viewModel.currentWord?.english,
+                        isCorrect: option == viewModel.currentWord?.localizedMeaning,
                         showResult: viewModel.showResult,
                         action: { select(option, viewModel: viewModel) }
                     )
@@ -161,7 +161,7 @@ struct SmartReviewView: View {
         guard !viewModel.showResult else { return }
         viewModel.select(option)
 
-        if option == viewModel.currentWord?.english {
+        if option == viewModel.currentWord?.localizedMeaning {
             HapticService.success()
         } else {
             HapticService.rigid()
@@ -171,7 +171,7 @@ struct SmartReviewView: View {
         }
 
         withAnimation(.easeIn(duration: 0.15)) {
-            flashColor = option == viewModel.currentWord?.english ? .green : .red
+            flashColor = option == viewModel.currentWord?.localizedMeaning ? .green : .red
         }
     }
 
