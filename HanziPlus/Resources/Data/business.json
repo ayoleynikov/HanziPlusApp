@@ -8,14 +8,32 @@
       {
         "hanzi": "下午三点有个会议。",
         "pinyin": "Xiàwǔ sān diǎn yǒu gè huìyì.",
-        "english": "There's a meeting at 3 p.m."
+        "english": "There's a meeting at 3 p.m.",
+        "translations": {
+          "en": "There's a meeting at 3 p.m.",
+          "ru": "В три часа дня совещание.",
+          "es": "Hay una reunión a las 3 de la tarde.",
+          "pt-BR": "Tem reunião às 15h."
+        }
       },
       {
         "hanzi": "会议改到明天了。",
         "pinyin": "Huìyì gǎi dào míngtiān le.",
-        "english": "The meeting has been moved to tomorrow."
+        "english": "The meeting has been moved to tomorrow.",
+        "translations": {
+          "en": "The meeting has been moved to tomorrow.",
+          "ru": "Совещание перенесли на завтра.",
+          "es": "La reunión se pasó a mañana.",
+          "pt-BR": "A reunião foi para amanhã."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "meeting",
+      "ru": "совещание / встреча",
+      "es": "reunión",
+      "pt-BR": "reunião"
+    }
   },
   {
     "section": "meetings",
@@ -26,14 +44,32 @@
       {
         "hanzi": "请看一下今天的议程。",
         "pinyin": "Qǐng kàn yīxià jīntiān de yìchéng.",
-        "english": "Please review today's agenda."
+        "english": "Please review today's agenda.",
+        "translations": {
+          "en": "Please review today's agenda.",
+          "ru": "Посмотрите сегодняшнюю повестку.",
+          "es": "Revise la agenda de hoy.",
+          "pt-BR": "Veja a pauta de hoje."
+        }
       },
       {
         "hanzi": "议程已经发给大家了。",
         "pinyin": "Yìchéng yǐjīng fā gěi dàjiā le.",
-        "english": "The agenda has been sent to everyone."
+        "english": "The agenda has been sent to everyone.",
+        "translations": {
+          "en": "The agenda has been sent to everyone.",
+          "ru": "Повестку уже разослали всем.",
+          "es": "La agenda ya se envió a todos.",
+          "pt-BR": "A pauta já foi enviada a todos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "agenda",
+      "ru": "повестка дня",
+      "es": "orden del día / agenda",
+      "pt-BR": "pauta / agenda"
+    }
   },
   {
     "section": "meetings",
@@ -44,14 +80,32 @@
       {
         "hanzi": "请各部门汇报进度。",
         "pinyin": "Qǐng gè bùmén huìbào jìndù.",
-        "english": "Please have each department report progress."
+        "english": "Please have each department report progress.",
+        "translations": {
+          "en": "Please have each department report progress.",
+          "ru": "Пусть каждый отдел доложит о прогрессе.",
+          "es": "Que cada departamento informe del avance.",
+          "pt-BR": "Cada departamento relata o andamento."
+        }
       },
       {
         "hanzi": "他刚做完项目汇报。",
         "pinyin": "Tā gāng zuò wán xiàngmù huìbào.",
-        "english": "He just finished the project briefing."
+        "english": "He just finished the project briefing.",
+        "translations": {
+          "en": "He just finished the project briefing.",
+          "ru": "Он только что закончил отчёт по проекту.",
+          "es": "Acaba de terminar el briefing del proyecto.",
+          "pt-BR": "Ele acabou o briefing do projeto."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to report / briefing",
+      "ru": "докладывать / отчёт",
+      "es": "informar / briefing",
+      "pt-BR": "relatar / briefing"
+    }
   },
   {
     "section": "meetings",
@@ -62,14 +116,32 @@
       {
         "hanzi": "我们先讨论这个问题。",
         "pinyin": "Wǒmen xiān tǎolùn zhège wèntí.",
-        "english": "Let's discuss this issue first."
+        "english": "Let's discuss this issue first.",
+        "translations": {
+          "en": "Let's discuss this issue first.",
+          "ru": "Сначала обсудим этот вопрос.",
+          "es": "Discutamos primero este tema.",
+          "pt-BR": "Vamos discutir este assunto primeiro."
+        }
       },
       {
         "hanzi": "会上讨论得很热烈。",
         "pinyin": "Huì shàng tǎolùn de hěn rèliè.",
-        "english": "The discussion in the meeting was lively."
+        "english": "The discussion in the meeting was lively.",
+        "translations": {
+          "en": "The discussion in the meeting was lively.",
+          "ru": "На встрече обсуждение было оживлённым.",
+          "es": "La discusión en la reunión fue animada.",
+          "pt-BR": "A discussão na reunião foi animada."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to discuss",
+      "ru": "обсуждать",
+      "es": "discutir",
+      "pt-BR": "discutir"
+    }
   },
   {
     "section": "meetings",
@@ -80,14 +152,32 @@
       {
         "hanzi": "请帮我总结一下要点。",
         "pinyin": "Qǐng bāng wǒ zǒngjié yīxià yàodiǎn.",
-        "english": "Please summarize the key points for me."
+        "english": "Please summarize the key points for me.",
+        "translations": {
+          "en": "Please summarize the key points for me.",
+          "ru": "Пожалуйста, резюмируйте основные пункты.",
+          "es": "Resuma los puntos clave, por favor.",
+          "pt-BR": "Resuma os pontos-chave, por favor."
+        }
       },
       {
         "hanzi": "会议最后做了总结。",
         "pinyin": "Huìyì zuìhòu zuò le zǒngjié.",
-        "english": "We summarized at the end of the meeting."
+        "english": "We summarized at the end of the meeting.",
+        "translations": {
+          "en": "We summarized at the end of the meeting.",
+          "ru": "В конце совещания подвели итоги.",
+          "es": "Al final de la reunión se hizo un resumen.",
+          "pt-BR": "No fim da reunião fizemos um resumo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to summarize",
+      "ru": "подводить итог / резюме",
+      "es": "resumir / síntesis",
+      "pt-BR": "resumir / síntese"
+    }
   },
   {
     "section": "meetings",
@@ -98,14 +188,32 @@
       {
         "hanzi": "请大家准时参加会议。",
         "pinyin": "Qǐng dàjiā zhǔnshí cānjiā huìyì.",
-        "english": "Please attend the meeting on time."
+        "english": "Please attend the meeting on time.",
+        "translations": {
+          "en": "Please attend the meeting on time.",
+          "ru": "Прошу всех прийти вовремя.",
+          "es": "Asistan a la reunión a tiempo.",
+          "pt-BR": "Compareçam à reunião no horário."
+        }
       },
       {
         "hanzi": "他一向很准时。",
         "pinyin": "Tā yīxiàng hěn zhǔnshí.",
-        "english": "He is always punctual."
+        "english": "He is always punctual.",
+        "translations": {
+          "en": "He is always punctual.",
+          "ru": "Он всегда пунктуален.",
+          "es": "Siempre es puntual.",
+          "pt-BR": "Ele sempre é pontual."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "on time / punctual",
+      "ru": "вовремя / пунктуально",
+      "es": "puntual / a tiempo",
+      "pt-BR": "pontual / no horário"
+    }
   },
   {
     "section": "meetings",
@@ -116,14 +224,32 @@
       {
         "hanzi": "项目可能会延期。",
         "pinyin": "Xiàngmù kěnéng huì yánqī.",
-        "english": "The project may be postponed."
+        "english": "The project may be postponed.",
+        "translations": {
+          "en": "The project may be postponed.",
+          "ru": "Проект могут отложить.",
+          "es": "El proyecto puede aplazarse.",
+          "pt-BR": "O projeto pode ser adiado."
+        }
       },
       {
         "hanzi": "会议延期到下周。",
         "pinyin": "Huìyì yánqī dào xià zhōu.",
-        "english": "The meeting is postponed to next week."
+        "english": "The meeting is postponed to next week.",
+        "translations": {
+          "en": "The meeting is postponed to next week.",
+          "ru": "Совещание перенесли на следующую неделю.",
+          "es": "La reunión se aplazó a la semana que viene.",
+          "pt-BR": "A reunião foi adiada para a semana que vem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to postpone",
+      "ru": "откладывать / переносить",
+      "es": "aplazar / posponer",
+      "pt-BR": "adiar / postergar"
+    }
   },
   {
     "section": "meetings",
@@ -134,14 +260,32 @@
       {
         "hanzi": "请做好会议记录。",
         "pinyin": "Qǐng zuò hǎo huìyì jìlù.",
-        "english": "Please take good meeting minutes."
+        "english": "Please take good meeting minutes.",
+        "translations": {
+          "en": "Please take good meeting minutes.",
+          "ru": "Ведите протокол совещания.",
+          "es": "Tome bien el acta de la reunión.",
+          "pt-BR": "Faça bem a ata da reunião."
+        }
       },
       {
         "hanzi": "我把要点都记录下来了。",
         "pinyin": "Wǒ bǎ yàodiǎn dōu jìlù xiàlái le.",
-        "english": "I wrote down all the key points."
+        "english": "I wrote down all the key points.",
+        "translations": {
+          "en": "I wrote down all the key points.",
+          "ru": "Я записал все ключевые пункты.",
+          "es": "Anoté todos los puntos clave.",
+          "pt-BR": "Anotei todos os pontos-chave."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to record / minutes",
+      "ru": "протокол / записывать",
+      "es": "acta / registrar",
+      "pt-BR": "ata / registrar"
+    }
   },
   {
     "section": "meetings",
@@ -152,14 +296,32 @@
       {
         "hanzi": "你需要参会吗？",
         "pinyin": "Nǐ xūyào cānhuì ma?",
-        "english": "Do you need to attend the meeting?"
+        "english": "Do you need to attend the meeting?",
+        "translations": {
+          "en": "Do you need to attend the meeting?",
+          "ru": "Тебе нужно быть на совещании?",
+          "es": "¿Necesitas asistir a la reunión?",
+          "pt-BR": "Você precisa participar da reunião?"
+        }
       },
       {
         "hanzi": "所有主管都要参会。",
         "pinyin": "Suǒyǒu zhǔguǎn dōu yào cānhuì.",
-        "english": "All managers must attend."
+        "english": "All managers must attend.",
+        "translations": {
+          "en": "All managers must attend.",
+          "ru": "Все руководители должны участвовать.",
+          "es": "Todos los mandos deben asistir.",
+          "pt-BR": "Todos os gestores devem participar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to attend a meeting",
+      "ru": "участвовать в совещании",
+      "es": "asistir a la reunión",
+      "pt-BR": "participar da reunião"
+    }
   },
   {
     "section": "meetings",
@@ -170,14 +332,32 @@
       {
         "hanzi": "会议通过了这项决议。",
         "pinyin": "Huìyì tōngguò le zhè xiàng juéyì.",
-        "english": "The meeting passed this resolution."
+        "english": "The meeting passed this resolution.",
+        "translations": {
+          "en": "The meeting passed this resolution.",
+          "ru": "Совещание приняло это решение.",
+          "es": "La reunión aprobó esta resolución.",
+          "pt-BR": "A reunião aprovou esta resolução."
+        }
       },
       {
         "hanzi": "请执行会议决议。",
         "pinyin": "Qǐng zhíxíng huìyì juéyì.",
-        "english": "Please implement the meeting decision."
+        "english": "Please implement the meeting decision.",
+        "translations": {
+          "en": "Please implement the meeting decision.",
+          "ru": "Исполняйте решение совещания.",
+          "es": "Ejecute el acuerdo de la reunión.",
+          "pt-BR": "Execute a deliberação da reunião."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "resolution / decision",
+      "ru": "решение / резолюция",
+      "es": "resolución / acuerdo",
+      "pt-BR": "resolução / deliberação"
+    }
   },
   {
     "section": "email",
@@ -188,14 +368,32 @@
       {
         "hanzi": "我收到你的邮件了。",
         "pinyin": "Wǒ shōudào nǐ de yóujiàn le.",
-        "english": "I received your email."
+        "english": "I received your email.",
+        "translations": {
+          "en": "I received your email.",
+          "ru": "Я получил ваше письмо.",
+          "es": "Recibí tu correo.",
+          "pt-BR": "Recebi o seu e-mail."
+        }
       },
       {
         "hanzi": "请查收附件邮件。",
         "pinyin": "Qǐng cháshōu fùjiàn yóujiàn.",
-        "english": "Please check the attached email."
+        "english": "Please check the attached email.",
+        "translations": {
+          "en": "Please check the attached email.",
+          "ru": "Проверьте письмо со вложением.",
+          "es": "Revise el correo con el adjunto.",
+          "pt-BR": "Confira o e-mail com o anexo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "email",
+      "ru": "электронная почта / письмо",
+      "es": "correo electrónico",
+      "pt-BR": "e-mail"
+    }
   },
   {
     "section": "email",
@@ -206,14 +404,32 @@
       {
         "hanzi": "报告在邮件附件里。",
         "pinyin": "Bàogào zài yóujiàn fùjiàn lǐ.",
-        "english": "The report is in the email attachment."
+        "english": "The report is in the email attachment.",
+        "translations": {
+          "en": "The report is in the email attachment.",
+          "ru": "Отчёт во вложении.",
+          "es": "El informe está en el adjunto.",
+          "pt-BR": "O relatório está no anexo."
+        }
       },
       {
         "hanzi": "请加上合同附件。",
         "pinyin": "Qǐng jiā shàng hétong fùjiàn.",
-        "english": "Please add the contract as an attachment."
+        "english": "Please add the contract as an attachment.",
+        "translations": {
+          "en": "Please add the contract as an attachment.",
+          "ru": "Приложите договор.",
+          "es": "Adjunte el contrato, por favor.",
+          "pt-BR": "Anexe o contrato, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "attachment",
+      "ru": "вложение",
+      "es": "archivo adjunto",
+      "pt-BR": "anexo"
+    }
   },
   {
     "section": "email",
@@ -224,14 +440,32 @@
       {
         "hanzi": "请尽快回复这封邮件。",
         "pinyin": "Qǐng jǐnkuài huífù zhè fēng yóujiàn.",
-        "english": "Please reply to this email soon."
+        "english": "Please reply to this email soon.",
+        "translations": {
+          "en": "Please reply to this email soon.",
+          "ru": "Ответьте на это письмо как можно скорее.",
+          "es": "Responda este correo pronto.",
+          "pt-BR": "Responda este e-mail o quanto antes."
+        }
       },
       {
         "hanzi": "我已经回复客户了。",
         "pinyin": "Wǒ yǐjīng huífù kèhù le.",
-        "english": "I've already replied to the client."
+        "english": "I've already replied to the client.",
+        "translations": {
+          "en": "I've already replied to the client.",
+          "ru": "Я уже ответил клиенту.",
+          "es": "Ya respondí al cliente.",
+          "pt-BR": "Já respondi ao cliente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to reply",
+      "ru": "отвечать / ответить",
+      "es": "responder",
+      "pt-BR": "responder"
+    }
   },
   {
     "section": "email",
@@ -242,14 +476,32 @@
       {
         "hanzi": "请抄送给财务部门。",
         "pinyin": "Qǐng chāosòng gěi cáiwù bùmén.",
-        "english": "Please CC the finance department."
+        "english": "Please CC the finance department.",
+        "translations": {
+          "en": "Please CC the finance department.",
+          "ru": "Поставьте в копию финансовый отдел.",
+          "es": "Ponga en copia a finanzas.",
+          "pt-BR": "Coloque o financeiro em cópia."
+        }
       },
       {
         "hanzi": "我把经理抄送在邮件里。",
         "pinyin": "Wǒ bǎ jīnglǐ chāosòng zài yóujiàn lǐ.",
-        "english": "I CC'd the manager on the email."
+        "english": "I CC'd the manager on the email.",
+        "translations": {
+          "en": "I CC'd the manager on the email.",
+          "ru": "Я поставил менеджера в копию.",
+          "es": "Puse al gerente en copia.",
+          "pt-BR": "Coloquei o gerente em cópia."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to CC (carbon copy)",
+      "ru": "копия / ставить в копию (CC)",
+      "es": "con copia / CC",
+      "pt-BR": "com cópia / CC"
+    }
   },
   {
     "section": "email",
@@ -260,14 +512,32 @@
       {
         "hanzi": "请修改邮件主题。",
         "pinyin": "Qǐng xiūgǎi yóujiàn zhǔtí.",
-        "english": "Please change the email subject."
+        "english": "Please change the email subject.",
+        "translations": {
+          "en": "Please change the email subject.",
+          "ru": "Исправьте тему письма.",
+          "es": "Cambie el asunto del correo.",
+          "pt-BR": "Altere o assunto do e-mail."
+        }
       },
       {
         "hanzi": "邮件主题要写清楚。",
         "pinyin": "Yóujiàn zhǔtí yào xiě qīngchu.",
-        "english": "The email subject should be clear."
+        "english": "The email subject should be clear.",
+        "translations": {
+          "en": "The email subject should be clear.",
+          "ru": "Тема должна быть понятной.",
+          "es": "El asunto debe estar claro.",
+          "pt-BR": "O assunto precisa estar claro."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "subject (line)",
+      "ru": "тема письма",
+      "es": "asunto",
+      "pt-BR": "assunto"
+    }
   },
   {
     "section": "email",
@@ -278,14 +548,32 @@
       {
         "hanzi": "我把邮件转发给你了。",
         "pinyin": "Wǒ bǎ yóujiàn zhuǎnfā gěi nǐ le.",
-        "english": "I forwarded the email to you."
+        "english": "I forwarded the email to you.",
+        "translations": {
+          "en": "I forwarded the email to you.",
+          "ru": "Я переслал вам письмо.",
+          "es": "Te reenvié el correo.",
+          "pt-BR": "Encaminhei o e-mail para você."
+        }
       },
       {
         "hanzi": "请转发给相关同事。",
         "pinyin": "Qǐng zhuǎnfā gěi xiāngguān tóngshì.",
-        "english": "Please forward it to relevant colleagues."
+        "english": "Please forward it to relevant colleagues.",
+        "translations": {
+          "en": "Please forward it to relevant colleagues.",
+          "ru": "Перешлите коллегам по теме.",
+          "es": "Reenvíelo a los colegas implicados.",
+          "pt-BR": "Encaminhe aos colegas envolvidos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to forward",
+      "ru": "пересылать",
+      "es": "reenviar / reenviar correo",
+      "pt-BR": "encaminhar"
+    }
   },
   {
     "section": "email",
@@ -296,14 +584,32 @@
       {
         "hanzi": "请确认收到这封邮件。",
         "pinyin": "Qǐng quèrèn shōudào zhè fēng yóujiàn.",
-        "english": "Please confirm receipt of this email."
+        "english": "Please confirm receipt of this email.",
+        "translations": {
+          "en": "Please confirm receipt of this email.",
+          "ru": "Подтвердите получение письма.",
+          "es": "Confirme la recepción de este correo.",
+          "pt-BR": "Confirme o recebimento deste e-mail."
+        }
       },
       {
         "hanzi": "客户已确认订单。",
         "pinyin": "Kèhù yǐ quèrèn dìngdān.",
-        "english": "The client has confirmed the order."
+        "english": "The client has confirmed the order.",
+        "translations": {
+          "en": "The client has confirmed the order.",
+          "ru": "Клиент подтвердил заказ.",
+          "es": "El cliente confirmó el pedido.",
+          "pt-BR": "O cliente confirmou o pedido."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to confirm",
+      "ru": "подтверждать",
+      "es": "confirmar",
+      "pt-BR": "confirmar"
+    }
   },
   {
     "section": "email",
@@ -314,14 +620,32 @@
       {
         "hanzi": "公司已发出正式通知。",
         "pinyin": "Gōngsī yǐ fāchū zhèngshì tōngzhī.",
-        "english": "The company has issued an official notice."
+        "english": "The company has issued an official notice.",
+        "translations": {
+          "en": "The company has issued an official notice.",
+          "ru": "Компания разослала официальное уведомление.",
+          "es": "La empresa emitió un aviso oficial.",
+          "pt-BR": "A empresa emitiu um aviso oficial."
+        }
       },
       {
         "hanzi": "请通知所有员工。",
         "pinyin": "Qǐng tōngzhī suǒyǒu yuángōng.",
-        "english": "Please notify all employees."
+        "english": "Please notify all employees.",
+        "translations": {
+          "en": "Please notify all employees.",
+          "ru": "Известите всех сотрудников.",
+          "es": "Notifique a todos los empleados.",
+          "pt-BR": "Avise todos os funcionários."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to notify / notice",
+      "ru": "уведомление / извещать",
+      "es": "aviso / notificar",
+      "pt-BR": "aviso / notificar"
+    }
   },
   {
     "section": "email",
@@ -332,14 +656,32 @@
       {
         "hanzi": "我们需要加强沟通。",
         "pinyin": "Wǒmen xūyào jiāqiáng gōutōng.",
-        "english": "We need to improve communication."
+        "english": "We need to improve communication.",
+        "translations": {
+          "en": "We need to improve communication.",
+          "ru": "Нам нужно лучше общаться.",
+          "es": "Necesitamos mejorar la comunicación.",
+          "pt-BR": "Precisamos melhorar a comunicação."
+        }
       },
       {
         "hanzi": "邮件沟通效率很高。",
         "pinyin": "Yóujiàn gōutōng xiàolǜ hěn gāo.",
-        "english": "Email communication is very efficient."
+        "english": "Email communication is very efficient.",
+        "translations": {
+          "en": "Email communication is very efficient.",
+          "ru": "Переписка по почте очень эффективна.",
+          "es": "La comunicación por correo es muy eficaz.",
+          "pt-BR": "A comunicação por e-mail é muito eficiente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to communicate",
+      "ru": "общаться / коммуникация",
+      "es": "comunicar / comunicación",
+      "pt-BR": "comunicar / comunicação"
+    }
   },
   {
     "section": "email",
@@ -350,14 +692,32 @@
       {
         "hanzi": "请检查收件人地址。",
         "pinyin": "Qǐng jiǎnchá shōujiànrén dìzhǐ.",
-        "english": "Please check the recipient address."
+        "english": "Please check the recipient address.",
+        "translations": {
+          "en": "Please check the recipient address.",
+          "ru": "Проверьте адрес получателя.",
+          "es": "Revise la dirección del destinatario.",
+          "pt-BR": "Confira o endereço do destinatário."
+        }
       },
       {
         "hanzi": "收件人填错了。",
         "pinyin": "Shōujiànrén tián cuò le.",
-        "english": "The recipient was entered incorrectly."
+        "english": "The recipient was entered incorrectly.",
+        "translations": {
+          "en": "The recipient was entered incorrectly.",
+          "ru": "Получателя указали неверно.",
+          "es": "El destinatario se escribió mal.",
+          "pt-BR": "O destinatário foi preenchido errado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "recipient",
+      "ru": "получатель",
+      "es": "destinatario",
+      "pt-BR": "destinatário"
+    }
   },
   {
     "section": "sales",
@@ -368,14 +728,32 @@
       {
         "hanzi": "这个客户很重要。",
         "pinyin": "Zhège kèhù hěn zhòngyào.",
-        "english": "This client is very important."
+        "english": "This client is very important.",
+        "translations": {
+          "en": "This client is very important.",
+          "ru": "Этот клиент очень важен.",
+          "es": "Este cliente es muy importante.",
+          "pt-BR": "Este cliente é muito importante."
+        }
       },
       {
         "hanzi": "请跟进新客户。",
         "pinyin": "Qǐng gēnjìn xīn kèhù.",
-        "english": "Please follow up with the new client."
+        "english": "Please follow up with the new client.",
+        "translations": {
+          "en": "Please follow up with the new client.",
+          "ru": "Ведите работу с новым клиентом.",
+          "es": "Haga el seguimiento del nuevo cliente.",
+          "pt-BR": "Faça o follow-up do novo cliente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "client / customer",
+      "ru": "клиент / заказчик",
+      "es": "cliente",
+      "pt-BR": "cliente"
+    }
   },
   {
     "section": "sales",
@@ -386,14 +764,32 @@
       {
         "hanzi": "客户下了大订单。",
         "pinyin": "Kèhù xià le dà dìngdān.",
-        "english": "The client placed a large order."
+        "english": "The client placed a large order.",
+        "translations": {
+          "en": "The client placed a large order.",
+          "ru": "Клиент сделал крупный заказ.",
+          "es": "El cliente hizo un pedido grande.",
+          "pt-BR": "O cliente fez um pedido grande."
+        }
       },
       {
         "hanzi": "订单已经确认了。",
         "pinyin": "Dìngdān yǐjīng quèrèn le.",
-        "english": "The order has been confirmed."
+        "english": "The order has been confirmed.",
+        "translations": {
+          "en": "The order has been confirmed.",
+          "ru": "Заказ уже подтверждён.",
+          "es": "El pedido ya está confirmado.",
+          "pt-BR": "O pedido já está confirmado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "order",
+      "ru": "заказ",
+      "es": "pedido / orden",
+      "pt-BR": "pedido"
+    }
   },
   {
     "section": "sales",
@@ -404,14 +800,32 @@
       {
         "hanzi": "请发一份报价单。",
         "pinyin": "Qǐng fā yī fèn bàojià dān.",
-        "english": "Please send a price quote."
+        "english": "Please send a price quote.",
+        "translations": {
+          "en": "Please send a price quote.",
+          "ru": "Пришлите коммерческое предложение.",
+          "es": "Envíe una cotización.",
+          "pt-BR": "Envie uma cotação."
+        }
       },
       {
         "hanzi": "他们的报价比我们低。",
         "pinyin": "Tāmen de bàojià bǐ wǒmen dī.",
-        "english": "Their quote is lower than ours."
+        "english": "Their quote is lower than ours.",
+        "translations": {
+          "en": "Their quote is lower than ours.",
+          "ru": "Их цена ниже нашей.",
+          "es": "Su cotización es más baja que la nuestra.",
+          "pt-BR": "A cotação deles é mais baixa que a nossa."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "price quote",
+      "ru": "коммерческое предложение / котировка",
+      "es": "cotización / presupuesto",
+      "pt-BR": "cotação / orçamento"
+    }
   },
   {
     "section": "sales",
@@ -422,14 +836,32 @@
       {
         "hanzi": "商场正在做促销。",
         "pinyin": "Shāngchǎng zhèngzài zuò cùxiāo.",
-        "english": "The mall is running a promotion."
+        "english": "The mall is running a promotion.",
+        "translations": {
+          "en": "The mall is running a promotion.",
+          "ru": "В торговом центре идёт акция.",
+          "es": "El centro comercial tiene una promoción.",
+          "pt-BR": "O shopping está em promoção."
+        }
       },
       {
         "hanzi": "促销活动很成功。",
         "pinyin": "Cùxiāo huódòng hěn chénggōng.",
-        "english": "The promotion was very successful."
+        "english": "The promotion was very successful.",
+        "translations": {
+          "en": "The promotion was very successful.",
+          "ru": "Акция прошла успешно.",
+          "es": "La promoción fue un éxito.",
+          "pt-BR": "A promoção foi um sucesso."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "promotion / sale",
+      "ru": "акция / продвижение продаж",
+      "es": "promoción / oferta",
+      "pt-BR": "promoção"
+    }
   },
   {
     "section": "sales",
@@ -440,14 +872,32 @@
       {
         "hanzi": "中国市场增长很快。",
         "pinyin": "Zhōngguó shìchǎng zēngzhǎng hěn kuài.",
-        "english": "The Chinese market is growing fast."
+        "english": "The Chinese market is growing fast.",
+        "translations": {
+          "en": "The Chinese market is growing fast.",
+          "ru": "Китайский рынок растёт быстро.",
+          "es": "El mercado chino crece rápido.",
+          "pt-BR": "O mercado chinês cresce rápido."
+        }
       },
       {
         "hanzi": "我们要开拓新市场。",
         "pinyin": "Wǒmen yào kāituò xīn shìchǎng.",
-        "english": "We want to expand into new markets."
+        "english": "We want to expand into new markets.",
+        "translations": {
+          "en": "We want to expand into new markets.",
+          "ru": "Мы хотим выйти на новые рынки.",
+          "es": "Queremos abrir nuevos mercados.",
+          "pt-BR": "Queremos abrir novos mercados."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "market",
+      "ru": "рынок",
+      "es": "mercado",
+      "pt-BR": "mercado"
+    }
   },
   {
     "section": "sales",
@@ -458,14 +908,32 @@
       {
         "hanzi": "本季度销售目标很高。",
         "pinyin": "Běn jìdù xiāoshòu mùbiāo hěn gāo.",
-        "english": "This quarter's sales target is high."
+        "english": "This quarter's sales target is high.",
+        "translations": {
+          "en": "This quarter's sales target is high.",
+          "ru": "Цель продаж на квартал высокая.",
+          "es": "La meta de ventas de este trimestre es alta.",
+          "pt-BR": "A meta de vendas deste trimestre é alta."
+        }
       },
       {
         "hanzi": "我们已经完成目标了。",
         "pinyin": "Wǒmen yǐjīng wánchéng mùbiāo le.",
-        "english": "We've already met the target."
+        "english": "We've already met the target.",
+        "translations": {
+          "en": "We've already met the target.",
+          "ru": "Мы уже выполнили план.",
+          "es": "Ya cumplimos el objetivo.",
+          "pt-BR": "Já batemos a meta."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "target / goal",
+      "ru": "цель / план (KPI)",
+      "es": "objetivo / meta",
+      "pt-BR": "meta / objetivo"
+    }
   },
   {
     "section": "sales",
@@ -476,14 +944,32 @@
       {
         "hanzi": "新产品需要推广。",
         "pinyin": "Xīn chǎnpǐn xūyào tuīguǎng.",
-        "english": "The new product needs marketing."
+        "english": "The new product needs marketing.",
+        "translations": {
+          "en": "The new product needs marketing.",
+          "ru": "Новый продукт нужно продвигать.",
+          "es": "El producto nuevo necesita marketing.",
+          "pt-BR": "O produto novo precisa de marketing."
+        }
       },
       {
         "hanzi": "他们在网上做推广。",
         "pinyin": "Tāmen zài wǎngshàng zuò tuīguǎng.",
-        "english": "They're doing online promotion."
+        "english": "They're doing online promotion.",
+        "translations": {
+          "en": "They're doing online promotion.",
+          "ru": "Они продвигают в интернете.",
+          "es": "Están haciendo promoción en línea.",
+          "pt-BR": "Eles estão fazendo divulgação online."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to promote / marketing",
+      "ru": "продвигать / маркетинг",
+      "es": "promocionar / marketing",
+      "pt-BR": "divulgar / marketing"
+    }
   },
   {
     "section": "sales",
@@ -494,14 +980,32 @@
       {
         "hanzi": "市场需求在增加。",
         "pinyin": "Shìchǎng xūqiú zài zēngjiā.",
-        "english": "Market demand is increasing."
+        "english": "Market demand is increasing.",
+        "translations": {
+          "en": "Market demand is increasing.",
+          "ru": "Рыночный спрос растёт.",
+          "es": "La demanda del mercado está aumentando.",
+          "pt-BR": "A demanda do mercado está aumentando."
+        }
       },
       {
         "hanzi": "请先了解客户需求。",
         "pinyin": "Qǐng xiān liǎojiě kèhù xūqiú.",
-        "english": "Please understand the client's needs first."
+        "english": "Please understand the client's needs first.",
+        "translations": {
+          "en": "Please understand the client's needs first.",
+          "ru": "Сначала разберитесь в потребностях клиента.",
+          "es": "Primero entienda las necesidades del cliente.",
+          "pt-BR": "Primeiro entenda as necessidades do cliente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "demand / need",
+      "ru": "спрос / потребность",
+      "es": "demanda / necesidad",
+      "pt-BR": "demanda / necessidade"
+    }
   },
   {
     "section": "sales",
@@ -512,14 +1016,32 @@
       {
         "hanzi": "他的业绩很好。",
         "pinyin": "Tā de yèjì hěn hǎo.",
-        "english": "His sales performance is excellent."
+        "english": "His sales performance is excellent.",
+        "translations": {
+          "en": "His sales performance is excellent.",
+          "ru": "У него отличные показатели.",
+          "es": "Su desempeño comercial es excelente.",
+          "pt-BR": "O desempenho de vendas dele é excelente."
+        }
       },
       {
         "hanzi": "公司业绩稳步提升。",
         "pinyin": "Gōngsī yèjì wěnbù tíshēng.",
-        "english": "Company performance is steadily improving."
+        "english": "Company performance is steadily improving.",
+        "translations": {
+          "en": "Company performance is steadily improving.",
+          "ru": "Показатели компании стабильно растут.",
+          "es": "El desempeño de la empresa mejora de forma constante.",
+          "pt-BR": "O desempenho da empresa melhora de forma constante."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "performance / sales results",
+      "ru": "результаты / показатели",
+      "es": "desempeño / resultados",
+      "pt-BR": "desempenho / resultados"
+    }
   },
   {
     "section": "sales",
@@ -530,14 +1052,32 @@
       {
         "hanzi": "客户同意签约了。",
         "pinyin": "Kèhù tóngyì qiānyuē le.",
-        "english": "The client agreed to sign."
+        "english": "The client agreed to sign.",
+        "translations": {
+          "en": "The client agreed to sign.",
+          "ru": "Клиент согласился подписать.",
+          "es": "El cliente aceptó firmar.",
+          "pt-BR": "O cliente aceitou assinar."
+        }
       },
       {
         "hanzi": "我们下周签约。",
         "pinyin": "Wǒmen xià zhōu qiānyuē.",
-        "english": "We're signing next week."
+        "english": "We're signing next week.",
+        "translations": {
+          "en": "We're signing next week.",
+          "ru": "Подписываем на следующей неделе.",
+          "es": "Firmamos la semana que viene.",
+          "pt-BR": "Assinamos na semana que vem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to sign a contract",
+      "ru": "подписывать договор",
+      "es": "firmar un contrato",
+      "pt-BR": "assinar contrato"
+    }
   },
   {
     "section": "manufacturing",
@@ -548,14 +1088,32 @@
       {
         "hanzi": "工厂正在满负荷生产。",
         "pinyin": "Gōngchǎng zhèngzài mǎn fùhè shēngchǎn.",
-        "english": "The factory is producing at full capacity."
+        "english": "The factory is producing at full capacity.",
+        "translations": {
+          "en": "The factory is producing at full capacity.",
+          "ru": "Завод работает на полную мощность.",
+          "es": "La fábrica produce a plena capacidad.",
+          "pt-BR": "A fábrica produz a plena capacidade."
+        }
       },
       {
         "hanzi": "这条线每天生产一千件。",
         "pinyin": "Zhè tiáo xiàn měitiān shēngchǎn yī qiān jiàn.",
-        "english": "This line produces a thousand units daily."
+        "english": "This line produces a thousand units daily.",
+        "translations": {
+          "en": "This line produces a thousand units daily.",
+          "ru": "Эта линия выпускает тысячу штук в день.",
+          "es": "Esta línea produce mil unidades al día.",
+          "pt-BR": "Esta linha produz mil unidades por dia."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "production / to produce",
+      "ru": "производство / производить",
+      "es": "producción / producir",
+      "pt-BR": "produção / produzir"
+    }
   },
   {
     "section": "manufacturing",
@@ -566,14 +1124,32 @@
       {
         "hanzi": "产品质量必须达标。",
         "pinyin": "Chǎnpǐn zhìliàng bìxū dábiāo.",
-        "english": "Product quality must meet standards."
+        "english": "Product quality must meet standards.",
+        "translations": {
+          "en": "Product quality must meet standards.",
+          "ru": "Качество продукции должно соответствовать нормам.",
+          "es": "La calidad del producto debe cumplir la norma.",
+          "pt-BR": "A qualidade do produto precisa atender à norma."
+        }
       },
       {
         "hanzi": "我们在提高质量。",
         "pinyin": "Wǒmen zài tígāo zhìliàng.",
-        "english": "We're improving quality."
+        "english": "We're improving quality.",
+        "translations": {
+          "en": "We're improving quality.",
+          "ru": "Мы повышаем качество.",
+          "es": "Estamos mejorando la calidad.",
+          "pt-BR": "Estamos melhorando a qualidade."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "quality",
+      "ru": "качество",
+      "es": "calidad",
+      "pt-BR": "qualidade"
+    }
   },
   {
     "section": "manufacturing",
@@ -584,14 +1160,32 @@
       {
         "hanzi": "请去车间看一下。",
         "pinyin": "Qǐng qù chējiān kàn yīxià.",
-        "english": "Please go check the workshop."
+        "english": "Please go check the workshop.",
+        "translations": {
+          "en": "Please go check the workshop.",
+          "ru": "Сходите посмотреть цех.",
+          "es": "Vaya a ver el taller.",
+          "pt-BR": "Vá ver o chão de fábrica."
+        }
       },
       {
         "hanzi": "车间工人很认真。",
         "pinyin": "Chējiān gōngrén hěn rènzhēn.",
-        "english": "The shop floor workers are diligent."
+        "english": "The shop floor workers are diligent.",
+        "translations": {
+          "en": "The shop floor workers are diligent.",
+          "ru": "Рабочие в цехе очень добросовестные.",
+          "es": "Los operarios del taller son muy diligentes.",
+          "pt-BR": "Os operários do chão de fábrica são muito caprichosos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "workshop / shop floor",
+      "ru": "цех / производственный участок",
+      "es": "taller / planta",
+      "pt-BR": "chão de fábrica / oficina"
+    }
   },
   {
     "section": "manufacturing",
@@ -602,14 +1196,32 @@
       {
         "hanzi": "原料价格上涨了。",
         "pinyin": "Yuánliào jiàgé shàngzhǎng le.",
-        "english": "Raw material prices have gone up."
+        "english": "Raw material prices have gone up.",
+        "translations": {
+          "en": "Raw material prices have gone up.",
+          "ru": "Цены на сырьё выросли.",
+          "es": "Subió el precio de la materia prima.",
+          "pt-BR": "O preço da matéria-prima subiu."
+        }
       },
       {
         "hanzi": "仓库里原料充足。",
         "pinyin": "Cāngkù lǐ yuánliào chōngzú.",
-        "english": "We have sufficient raw materials in storage."
+        "english": "We have sufficient raw materials in storage.",
+        "translations": {
+          "en": "We have sufficient raw materials in storage.",
+          "ru": "На складе сырья достаточно.",
+          "es": "Hay materia prima suficiente en el almacén.",
+          "pt-BR": "Há matéria-prima suficiente no estoque."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "raw materials",
+      "ru": "сырьё",
+      "es": "materia prima",
+      "pt-BR": "matéria-prima"
+    }
   },
   {
     "section": "manufacturing",
@@ -620,14 +1232,32 @@
       {
         "hanzi": "设备需要定期维护。",
         "pinyin": "Shèbèi xūyào dìngqī wéihù.",
-        "english": "Equipment needs regular maintenance."
+        "english": "Equipment needs regular maintenance.",
+        "translations": {
+          "en": "Equipment needs regular maintenance.",
+          "ru": "Оборудование нужно регулярно обслуживать.",
+          "es": "El equipo necesita mantenimiento regular.",
+          "pt-BR": "O equipamento precisa de manutenção regular."
+        }
       },
       {
         "hanzi": "新设备已经安装好了。",
         "pinyin": "Xīn shèbèi yǐjīng ānzhuāng hǎo le.",
-        "english": "The new equipment has been installed."
+        "english": "The new equipment has been installed.",
+        "translations": {
+          "en": "The new equipment has been installed.",
+          "ru": "Новое оборудование уже установлено.",
+          "es": "El equipo nuevo ya está instalado.",
+          "pt-BR": "O equipamento novo já está instalado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "equipment",
+      "ru": "оборудование",
+      "es": "equipo / maquinaria",
+      "pt-BR": "equipamento / máquina"
+    }
   },
   {
     "section": "manufacturing",
@@ -638,14 +1268,32 @@
       {
         "hanzi": "装配工序很严格。",
         "pinyin": "Zhuāngpèi gōngxù hěn yángé.",
-        "english": "The assembly process is very strict."
+        "english": "The assembly process is very strict.",
+        "translations": {
+          "en": "The assembly process is very strict.",
+          "ru": "Процесс сборки очень строгий.",
+          "es": "El proceso de ensamblaje es muy estricto.",
+          "pt-BR": "O processo de montagem é muito rigoroso."
+        }
       },
       {
         "hanzi": "工人正在装配零件。",
         "pinyin": "Gōngrén zhèngzài zhuāngpèi língjiàn.",
-        "english": "Workers are assembling parts."
+        "english": "Workers are assembling parts.",
+        "translations": {
+          "en": "Workers are assembling parts.",
+          "ru": "Рабочие собирают детали.",
+          "es": "Los operarios están ensamblando piezas.",
+          "pt-BR": "Os operários estão montando peças."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "assembly / to assemble",
+      "ru": "сборка / собирать",
+      "es": "ensamblaje / ensamblar",
+      "pt-BR": "montagem / montar"
+    }
   },
   {
     "section": "manufacturing",
@@ -656,14 +1304,32 @@
       {
         "hanzi": "每批产品都要检测。",
         "pinyin": "Měi pī chǎnpǐn dōu yào jiǎncè.",
-        "english": "Every batch must be tested."
+        "english": "Every batch must be tested.",
+        "translations": {
+          "en": "Every batch must be tested.",
+          "ru": "Каждую партию нужно проверять.",
+          "es": "Cada lote debe inspeccionarse.",
+          "pt-BR": "Cada lote precisa ser inspecionado."
+        }
       },
       {
         "hanzi": "检测结果显示合格。",
         "pinyin": "Jiǎncè jiéguǒ xiǎnshì hégé.",
-        "english": "Test results show it's qualified."
+        "english": "Test results show it's qualified.",
+        "translations": {
+          "en": "Test results show it's qualified.",
+          "ru": "Результаты проверки — соответствие норме.",
+          "es": "Los resultados del ensayo son conformes.",
+          "pt-BR": "Os resultados do teste estão conformes."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "inspection / testing",
+      "ru": "контроль качества / проверка",
+      "es": "inspección / ensayo",
+      "pt-BR": "inspeção / teste"
+    }
   },
   {
     "section": "manufacturing",
@@ -674,14 +1340,32 @@
       {
         "hanzi": "本月产量创纪录了。",
         "pinyin": "Běn yuè chǎnliàng chuàng jìlù le.",
-        "english": "This month's output set a record."
+        "english": "This month's output set a record.",
+        "translations": {
+          "en": "This month's output set a record.",
+          "ru": "В этом месяце выпуск побил рекорд.",
+          "es": "La producción de este mes batió un récord.",
+          "pt-BR": "A produção deste mês bateu recorde."
+        }
       },
       {
         "hanzi": "我们要提高产量。",
         "pinyin": "Wǒmen yào tígāo chǎnliàng.",
-        "english": "We need to increase output."
+        "english": "We need to increase output.",
+        "translations": {
+          "en": "We need to increase output.",
+          "ru": "Нужно увеличить выпуск.",
+          "es": "Hay que aumentar la producción.",
+          "pt-BR": "Precisamos aumentar a produção."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "output / production volume",
+      "ru": "выпуск / объём производства",
+      "es": "producción / volumen de producción",
+      "pt-BR": "produção / volume de produção"
+    }
   },
   {
     "section": "manufacturing",
@@ -692,14 +1376,32 @@
       {
         "hanzi": "流水线运行很稳定。",
         "pinyin": "Liúshuǐxiàn yùnxíng hěn wěndìng.",
-        "english": "The assembly line runs smoothly."
+        "english": "The assembly line runs smoothly.",
+        "translations": {
+          "en": "The assembly line runs smoothly.",
+          "ru": "Конвейер работает стабильно.",
+          "es": "La línea de montaje funciona de forma estable.",
+          "pt-BR": "A linha de montagem funciona de forma estável."
+        }
       },
       {
         "hanzi": "新流水线已经投产。",
         "pinyin": "Xīn liúshuǐxiàn yǐjīng tóuchǎn.",
-        "english": "The new line is now in production."
+        "english": "The new line is now in production.",
+        "translations": {
+          "en": "The new line is now in production.",
+          "ru": "Новая линия уже запущена.",
+          "es": "La nueva línea ya está en producción.",
+          "pt-BR": "A nova linha já está em produção."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "assembly line",
+      "ru": "конвейер / линия",
+      "es": "línea de montaje",
+      "pt-BR": "linha de montagem"
+    }
   },
   {
     "section": "manufacturing",
@@ -710,14 +1412,32 @@
       {
         "hanzi": "产品必须符合国家标准。",
         "pinyin": "Chǎnpǐn bìxū fúhé guójiā biāozhǔn.",
-        "english": "Products must meet national standards."
+        "english": "Products must meet national standards.",
+        "translations": {
+          "en": "Products must meet national standards.",
+          "ru": "Продукция должна соответствовать нацстандарту.",
+          "es": "Los productos deben cumplir la norma nacional.",
+          "pt-BR": "Os produtos devem atender à norma nacional."
+        }
       },
       {
         "hanzi": "我们提高了生产标准。",
         "pinyin": "Wǒmen tígāo le shēngchǎn biāozhǔn.",
-        "english": "We raised our production standards."
+        "english": "We raised our production standards.",
+        "translations": {
+          "en": "We raised our production standards.",
+          "ru": "Мы повысили производственные стандарты.",
+          "es": "Elevamos los estándares de producción.",
+          "pt-BR": "Elevamos os padrões de produção."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "standard",
+      "ru": "стандарт / норма",
+      "es": "estándar / norma",
+      "pt-BR": "padrão / norma"
+    }
   },
   {
     "section": "logistics",
@@ -728,14 +1448,32 @@
       {
         "hanzi": "订单今天可以发货。",
         "pinyin": "Dìngdān jīntiān kěyǐ fāhuò.",
-        "english": "The order can ship today."
+        "english": "The order can ship today.",
+        "translations": {
+          "en": "The order can ship today.",
+          "ru": "Заказ можно отгрузить сегодня.",
+          "es": "El pedido puede enviarse hoy.",
+          "pt-BR": "O pedido pode ser enviado hoje."
+        }
       },
       {
         "hanzi": "仓库已经安排发货了。",
         "pinyin": "Cāngkù yǐjīng ānpái fāhuò le.",
-        "english": "The warehouse has arranged shipment."
+        "english": "The warehouse has arranged shipment.",
+        "translations": {
+          "en": "The warehouse has arranged shipment.",
+          "ru": "Склад уже оформил отгрузку.",
+          "es": "El almacén ya organizó el envío.",
+          "pt-BR": "O depósito já organizou o envio."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to ship / dispatch",
+      "ru": "отгружать / отправлять товар",
+      "es": "enviar / despachar",
+      "pt-BR": "enviar / despachar"
+    }
   },
   {
     "section": "logistics",
@@ -746,14 +1484,32 @@
       {
         "hanzi": "物流信息已更新。",
         "pinyin": "Wùliú xìnxī yǐ gēngxīn.",
-        "english": "Logistics info has been updated."
+        "english": "Logistics info has been updated.",
+        "translations": {
+          "en": "Logistics info has been updated.",
+          "ru": "Информация по логистике обновлена.",
+          "es": "La información logística se actualizó.",
+          "pt-BR": "A informação logística foi atualizada."
+        }
       },
       {
         "hanzi": "我们换了新的物流公司。",
         "pinyin": "Wǒmen huàn le xīn de wùliú gōngsī.",
-        "english": "We switched to a new logistics company."
+        "english": "We switched to a new logistics company.",
+        "translations": {
+          "en": "We switched to a new logistics company.",
+          "ru": "Мы сменили логистическую компанию.",
+          "es": "Cambiamos de empresa de logística.",
+          "pt-BR": "Trocamos de empresa de logística."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "logistics",
+      "ru": "логистика",
+      "es": "logística",
+      "pt-BR": "logística"
+    }
   },
   {
     "section": "logistics",
@@ -764,14 +1520,32 @@
       {
         "hanzi": "货物在仓库里。",
         "pinyin": "Huòwù zài cāngkù lǐ.",
-        "english": "The goods are in the warehouse."
+        "english": "The goods are in the warehouse.",
+        "translations": {
+          "en": "The goods are in the warehouse.",
+          "ru": "Товар на складе.",
+          "es": "La mercancía está en el almacén.",
+          "pt-BR": "A mercadoria está no armazém."
+        }
       },
       {
         "hanzi": "仓库管理很规范。",
         "pinyin": "Cāngkù guǎnlǐ hěn guīfàn.",
-        "english": "Warehouse management is well organized."
+        "english": "Warehouse management is well organized.",
+        "translations": {
+          "en": "Warehouse management is well organized.",
+          "ru": "Склад ведётся по регламенту.",
+          "es": "La gestión del almacén es muy ordenada.",
+          "pt-BR": "A gestão do armazém é bem organizada."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "warehouse",
+      "ru": "склад",
+      "es": "almacén / depósito",
+      "pt-BR": "armazém / depósito"
+    }
   },
   {
     "section": "logistics",
@@ -782,14 +1556,32 @@
       {
         "hanzi": "运输时间大约三天。",
         "pinyin": "Yùnshū shíjiān dàyuē sān tiān.",
-        "english": "Shipping takes about three days."
+        "english": "Shipping takes about three days.",
+        "translations": {
+          "en": "Shipping takes about three days.",
+          "ru": "Перевозка занимает около трёх дней.",
+          "es": "El transporte tarda unos tres días.",
+          "pt-BR": "O transporte leva cerca de três dias."
+        }
       },
       {
         "hanzi": "这批货走海运运输。",
         "pinyin": "Zhè pī huò zǒu hǎiyùn yùnshū.",
-        "english": "This batch goes by sea freight."
+        "english": "This batch goes by sea freight.",
+        "translations": {
+          "en": "This batch goes by sea freight.",
+          "ru": "Эта партия идёт морем.",
+          "es": "Este lote va por vía marítima.",
+          "pt-BR": "Este lote vai por via marítima."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "transport / shipping",
+      "ru": "перевозка / транспортировка",
+      "es": "transporte / envío",
+      "pt-BR": "transporte / envio"
+    }
   },
   {
     "section": "logistics",
@@ -800,14 +1592,32 @@
       {
         "hanzi": "出口货物需要报关。",
         "pinyin": "Chūkǒu huòwù xūyào bàoguān.",
-        "english": "Export goods require customs clearance."
+        "english": "Export goods require customs clearance.",
+        "translations": {
+          "en": "Export goods require customs clearance.",
+          "ru": "Экспортный товар нужно оформлять на таможне.",
+          "es": "La mercancía de exportación requiere despacho.",
+          "pt-BR": "Mercadoria de exportação precisa de despacho."
+        }
       },
       {
         "hanzi": "报关手续已经办好了。",
         "pinyin": "Bàoguān shǒuxù yǐjīng bànhǎo le.",
-        "english": "Customs procedures are complete."
+        "english": "Customs procedures are complete.",
+        "translations": {
+          "en": "Customs procedures are complete.",
+          "ru": "Таможенные формальности уже готовы.",
+          "es": "Los trámites de aduana ya están listos.",
+          "pt-BR": "Os trâmites da alfândega já estão prontos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "customs declaration",
+      "ru": "таможенное оформление",
+      "es": "despacho de aduana",
+      "pt-BR": "despacho aduaneiro"
+    }
   },
   {
     "section": "logistics",
@@ -818,14 +1628,32 @@
       {
         "hanzi": "请用快递寄样品。",
         "pinyin": "Qǐng yòng kuàidì jì yàngpǐn.",
-        "english": "Please send the sample by express."
+        "english": "Please send the sample by express.",
+        "translations": {
+          "en": "Please send the sample by express.",
+          "ru": "Отправьте образец курьером.",
+          "es": "Envíe la muestra por mensajería urgente.",
+          "pt-BR": "Envie a amostra por encomenda expressa."
+        }
       },
       {
         "hanzi": "快递明天能到。",
         "pinyin": "Kuàidì míngtiān néng dào.",
-        "english": "The express package arrives tomorrow."
+        "english": "The express package arrives tomorrow.",
+        "translations": {
+          "en": "The express package arrives tomorrow.",
+          "ru": "Курьер прибудет завтра.",
+          "es": "El paquete express llega mañana.",
+          "pt-BR": "A encomenda expressa chega amanhã."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "express delivery",
+      "ru": "экспресс-доставка / курьер",
+      "es": "mensajería urgente / express",
+      "pt-BR": "sedex / encomenda expressa"
+    }
   },
   {
     "section": "logistics",
@@ -836,14 +1664,32 @@
       {
         "hanzi": "请加强产品包装。",
         "pinyin": "Qǐng jiāqiáng chǎnpǐn bāozhuāng.",
-        "english": "Please strengthen the product packaging."
+        "english": "Please strengthen the product packaging.",
+        "translations": {
+          "en": "Please strengthen the product packaging.",
+          "ru": "Усильте упаковку товара.",
+          "es": "Refuerce el embalaje del producto.",
+          "pt-BR": "Reforce a embalagem do produto."
+        }
       },
       {
         "hanzi": "包装不能破损。",
         "pinyin": "Bāozhuāng bùnéng pòsǔn.",
-        "english": "Packaging must not be damaged."
+        "english": "Packaging must not be damaged.",
+        "translations": {
+          "en": "Packaging must not be damaged.",
+          "ru": "Упаковка не должна быть повреждена.",
+          "es": "El embalaje no puede estar dañado.",
+          "pt-BR": "A embalagem não pode estar danificada."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "packaging",
+      "ru": "упаковка",
+      "es": "embalaje / empaque",
+      "pt-BR": "embalagem"
+    }
   },
   {
     "section": "logistics",
@@ -854,14 +1700,32 @@
       {
         "hanzi": "请在快递单上签收。",
         "pinyin": "Qǐng zài kuàidì dān shàng qiānshōu.",
-        "english": "Please sign on the delivery slip."
+        "english": "Please sign on the delivery slip.",
+        "translations": {
+          "en": "Please sign on the delivery slip.",
+          "ru": "Распишитесь на накладной курьера.",
+          "es": "Firme en el albarán, por favor.",
+          "pt-BR": "Assine no comprovante, por favor."
+        }
       },
       {
         "hanzi": "客户已经签收了。",
         "pinyin": "Kèhù yǐjīng qiānshōu le.",
-        "english": "The client has signed for it."
+        "english": "The client has signed for it.",
+        "translations": {
+          "en": "The client has signed for it.",
+          "ru": "Клиент уже расписался за получение.",
+          "es": "El cliente ya firmó la recepción.",
+          "pt-BR": "O cliente já assinou o recebimento."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to sign for delivery",
+      "ru": "расписываться за получение",
+      "es": "firmar la recepción",
+      "pt-BR": "assinar o recebimento"
+    }
   },
   {
     "section": "logistics",
@@ -872,14 +1736,32 @@
       {
         "hanzi": "航班延误影响了发货。",
         "pinyin": "Hángbān yánwù yǐngxiǎng le fāhuò.",
-        "english": "Flight delays affected shipping."
+        "english": "Flight delays affected shipping.",
+        "translations": {
+          "en": "Flight delays affected shipping.",
+          "ru": "Задержка рейса повлияла на отгрузку.",
+          "es": "El retraso del vuelo afectó el envío.",
+          "pt-BR": "O atraso do voo afetou o envio."
+        }
       },
       {
         "hanzi": "请说明延误原因。",
         "pinyin": "Qǐng shuōmíng yánwù yuányīn.",
-        "english": "Please explain the reason for the delay."
+        "english": "Please explain the reason for the delay.",
+        "translations": {
+          "en": "Please explain the reason for the delay.",
+          "ru": "Объясните причину задержки.",
+          "es": "Explique el motivo del retraso.",
+          "pt-BR": "Explique o motivo do atraso."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "delay",
+      "ru": "задержка",
+      "es": "retraso / demora",
+      "pt-BR": "atraso / demora"
+    }
   },
   {
     "section": "logistics",
@@ -890,14 +1772,32 @@
       {
         "hanzi": "你可以在线跟踪包裹。",
         "pinyin": "Nǐ kěyǐ zàixiàn gēnzōng bāoguǒ.",
-        "english": "You can track the package online."
+        "english": "You can track the package online.",
+        "translations": {
+          "en": "You can track the package online.",
+          "ru": "Посылку можно отслеживать онлайн.",
+          "es": "Puede rastrear el paquete en línea.",
+          "pt-BR": "Dá para rastrear o pacote online."
+        }
       },
       {
         "hanzi": "物流部门在跟踪货物。",
         "pinyin": "Wùliú bùmén zài gēnzōng huòwù.",
-        "english": "Logistics is tracking the shipment."
+        "english": "Logistics is tracking the shipment.",
+        "translations": {
+          "en": "Logistics is tracking the shipment.",
+          "ru": "Логистика отслеживает груз.",
+          "es": "Logística está rastreando la mercancía.",
+          "pt-BR": "A logística está rastreando a carga."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to track",
+      "ru": "отслеживать",
+      "es": "rastrear / seguir",
+      "pt-BR": "rastrear / acompanhar"
+    }
   },
   {
     "section": "finance",
@@ -908,14 +1808,32 @@
       {
         "hanzi": "请开具增值税发票。",
         "pinyin": "Qǐng kāijù zēngzhíshuì fāpiào.",
-        "english": "Please issue a VAT invoice."
+        "english": "Please issue a VAT invoice.",
+        "translations": {
+          "en": "Please issue a VAT invoice.",
+          "ru": "Выпишите счёт НДС.",
+          "es": "Emita una factura de IVA.",
+          "pt-BR": "Emita uma nota fiscal de IVA."
+        }
       },
       {
         "hanzi": "发票已经寄给客户了。",
         "pinyin": "Fāpiào yǐjīng jì gěi kèhù le.",
-        "english": "The invoice has been sent to the client."
+        "english": "The invoice has been sent to the client.",
+        "translations": {
+          "en": "The invoice has been sent to the client.",
+          "ru": "Счёт уже отправили клиенту.",
+          "es": "La factura ya se envió al cliente.",
+          "pt-BR": "A nota já foi enviada ao cliente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "invoice / receipt (tax)",
+      "ru": "счёт-фактура / инвойс",
+      "es": "factura",
+      "pt-BR": "nota fiscal / fatura"
+    }
   },
   {
     "section": "finance",
@@ -926,14 +1844,32 @@
       {
         "hanzi": "请在月底前付款。",
         "pinyin": "Qǐng zài yuè dǐ qián fùkuǎn.",
-        "english": "Please pay before month end."
+        "english": "Please pay before month end.",
+        "translations": {
+          "en": "Please pay before month end.",
+          "ru": "Оплатите до конца месяца.",
+          "es": "Pague antes de fin de mes.",
+          "pt-BR": "Pague até o fim do mês."
+        }
       },
       {
         "hanzi": "客户已经付款了。",
         "pinyin": "Kèhù yǐjīng fùkuǎn le.",
-        "english": "The client has already paid."
+        "english": "The client has already paid.",
+        "translations": {
+          "en": "The client has already paid.",
+          "ru": "Клиент уже оплатил.",
+          "es": "El cliente ya pagó.",
+          "pt-BR": "O cliente já pagou."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "payment",
+      "ru": "оплата / платёж",
+      "es": "pago",
+      "pt-BR": "pagamento"
+    }
   },
   {
     "section": "finance",
@@ -944,14 +1880,32 @@
       {
         "hanzi": "本季度预算很紧张。",
         "pinyin": "Běn jìdù yùsuàn hěn jǐnzhāng.",
-        "english": "This quarter's budget is tight."
+        "english": "This quarter's budget is tight.",
+        "translations": {
+          "en": "This quarter's budget is tight.",
+          "ru": "Бюджет на квартал очень жёсткий.",
+          "es": "El presupuesto de este trimestre está muy ajustado.",
+          "pt-BR": "O orçamento deste trimestre está apertado."
+        }
       },
       {
         "hanzi": "请提交部门预算。",
         "pinyin": "Qǐng tíjiāo bùmén yùsuàn.",
-        "english": "Please submit the department budget."
+        "english": "Please submit the department budget.",
+        "translations": {
+          "en": "Please submit the department budget.",
+          "ru": "Подайте бюджет отдела.",
+          "es": "Presente el presupuesto del departamento.",
+          "pt-BR": "Envie o orçamento do departamento."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "budget",
+      "ru": "бюджет",
+      "es": "presupuesto",
+      "pt-BR": "orçamento"
+    }
   },
   {
     "section": "finance",
@@ -962,14 +1916,32 @@
       {
         "hanzi": "我们要控制成本。",
         "pinyin": "Wǒmen yào kòngzhì chéngběn.",
-        "english": "We need to control costs."
+        "english": "We need to control costs.",
+        "translations": {
+          "en": "We need to control costs.",
+          "ru": "Нужно контролировать затраты.",
+          "es": "Hay que controlar los costes.",
+          "pt-BR": "Precisamos controlar os custos."
+        }
       },
       {
         "hanzi": "原材料成本上升了。",
         "pinyin": "Yuáncáiliào chéngběn shàngshēng le.",
-        "english": "Raw material costs have risen."
+        "english": "Raw material costs have risen.",
+        "translations": {
+          "en": "Raw material costs have risen.",
+          "ru": "Себестоимость сырья выросла.",
+          "es": "Subió el coste de la materia prima.",
+          "pt-BR": "O custo da matéria-prima subiu."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "cost",
+      "ru": "себестоимость / затраты",
+      "es": "coste / costo",
+      "pt-BR": "custo"
+    }
   },
   {
     "section": "finance",
@@ -980,14 +1952,32 @@
       {
         "hanzi": "公司利润稳步增长。",
         "pinyin": "Gōngsī lìrùn wěnbù zēngzhǎng.",
-        "english": "Company profits are growing steadily."
+        "english": "Company profits are growing steadily.",
+        "translations": {
+          "en": "Company profits are growing steadily.",
+          "ru": "Прибыль компании стабильно растёт.",
+          "es": "Los beneficios de la empresa crecen de forma constante.",
+          "pt-BR": "O lucro da empresa cresce de forma constante."
+        }
       },
       {
         "hanzi": "这笔订单利润不错。",
         "pinyin": "Zhè bǐ dìngdān lìrùn búcuò.",
-        "english": "This order has good profit margins."
+        "english": "This order has good profit margins.",
+        "translations": {
+          "en": "This order has good profit margins.",
+          "ru": "У этого заказа хорошая маржа.",
+          "es": "Este pedido tiene un buen margen.",
+          "pt-BR": "Este pedido tem uma boa margem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "profit",
+      "ru": "прибыль",
+      "es": "beneficio / ganancia",
+      "pt-BR": "lucro"
+    }
   },
   {
     "section": "finance",
@@ -998,14 +1988,32 @@
       {
         "hanzi": "请把款打到这个账户。",
         "pinyin": "Qǐng bǎ kuǎn dǎ dào zhège zhànghù.",
-        "english": "Please transfer payment to this account."
+        "english": "Please transfer payment to this account.",
+        "translations": {
+          "en": "Please transfer payment to this account.",
+          "ru": "Переведите деньги на этот счёт.",
+          "es": "Transfiera el pago a esta cuenta.",
+          "pt-BR": "Transfira o pagamento para esta conta."
+        }
       },
       {
         "hanzi": "公司账户余额充足。",
         "pinyin": "Gōngsī zhànghù yú'é chōngzú.",
-        "english": "The company account has sufficient funds."
+        "english": "The company account has sufficient funds.",
+        "translations": {
+          "en": "The company account has sufficient funds.",
+          "ru": "На счёте компании достаточно средств.",
+          "es": "El saldo de la cuenta es suficiente.",
+          "pt-BR": "O saldo da conta é suficiente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "account",
+      "ru": "счёт (банковский)",
+      "es": "cuenta",
+      "pt-BR": "conta"
+    }
   },
   {
     "section": "finance",
@@ -1016,14 +2024,32 @@
       {
         "hanzi": "请通过银行转账。",
         "pinyin": "Qǐng tōngguò yínháng zhuǎnzhàng.",
-        "english": "Please pay by bank transfer."
+        "english": "Please pay by bank transfer.",
+        "translations": {
+          "en": "Please pay by bank transfer.",
+          "ru": "Оплатите банковским переводом.",
+          "es": "Pague por transferencia bancaria.",
+          "pt-BR": "Pague por transferência bancária."
+        }
       },
       {
         "hanzi": "我已经转账了。",
         "pinyin": "Wǒ yǐjīng zhuǎnzhàng le.",
-        "english": "I've already transferred the money."
+        "english": "I've already transferred the money.",
+        "translations": {
+          "en": "I've already transferred the money.",
+          "ru": "Я уже перевёл.",
+          "es": "Ya hice la transferencia.",
+          "pt-BR": "Já fiz a transferência."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "bank transfer",
+      "ru": "банковский перевод",
+      "es": "transferencia bancaria",
+      "pt-BR": "transferência bancária"
+    }
   },
   {
     "section": "finance",
@@ -1034,14 +2060,32 @@
       {
         "hanzi": "出差费用可以报销。",
         "pinyin": "Chūchāi fèiyòng kěyǐ bàoxiāo.",
-        "english": "Business trip expenses can be reimbursed."
+        "english": "Business trip expenses can be reimbursed.",
+        "translations": {
+          "en": "Business trip expenses can be reimbursed.",
+          "ru": "Командировочные можно возместить.",
+          "es": "Los gastos de viaje se pueden reembolsar.",
+          "pt-BR": "Despesas de viagem podem ser reembolsadas."
+        }
       },
       {
         "hanzi": "请提交报销单据。",
         "pinyin": "Qǐng tíjiāo bàoxiāo dānjù.",
-        "english": "Please submit reimbursement receipts."
+        "english": "Please submit reimbursement receipts.",
+        "translations": {
+          "en": "Please submit reimbursement receipts.",
+          "ru": "Подайте документы на возмещение.",
+          "es": "Presente los justificantes de reembolso.",
+          "pt-BR": "Envie os comprovantes de reembolso."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "expense reimbursement",
+      "ru": "возмещение расходов / авансовый отчёт",
+      "es": "reembolso de gastos",
+      "pt-BR": "reembolso de despesas"
+    }
   },
   {
     "section": "finance",
@@ -1052,14 +2096,32 @@
       {
         "hanzi": "公司正在进行审计。",
         "pinyin": "Gōngsī zhèngzài jìnxíng shěnjì.",
-        "english": "The company is undergoing an audit."
+        "english": "The company is undergoing an audit.",
+        "translations": {
+          "en": "The company is undergoing an audit.",
+          "ru": "В компании идёт аудит.",
+          "es": "La empresa está en auditoría.",
+          "pt-BR": "A empresa está em auditoria."
+        }
       },
       {
         "hanzi": "审计报告下月出来。",
         "pinyin": "Shěnjì bàogào xià yuè chūlái.",
-        "english": "The audit report comes out next month."
+        "english": "The audit report comes out next month.",
+        "translations": {
+          "en": "The audit report comes out next month.",
+          "ru": "Аудиторский отчёт выйдет в следующем месяце.",
+          "es": "El informe de auditoría sale el mes que viene.",
+          "pt-BR": "O relatório de auditoria sai no mês que vem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "audit",
+      "ru": "аудит / проверка",
+      "es": "auditoría",
+      "pt-BR": "auditoria"
+    }
   },
   {
     "section": "finance",
@@ -1070,14 +2132,32 @@
       {
         "hanzi": "汇率波动影响了利润。",
         "pinyin": "Huìlǜ bōdòng yǐngxiǎng le lìrùn.",
-        "english": "Exchange rate fluctuations affected profits."
+        "english": "Exchange rate fluctuations affected profits.",
+        "translations": {
+          "en": "Exchange rate fluctuations affected profits.",
+          "ru": "Колебания курса повлияли на прибыль.",
+          "es": "Las fluctuaciones del tipo de cambio afectaron los beneficios.",
+          "pt-BR": "As flutuações do câmbio afetaram o lucro."
+        }
       },
       {
         "hanzi": "请查一下今天的汇率。",
         "pinyin": "Qǐng chá yīxià jīntiān de huìlǜ.",
-        "english": "Please check today's exchange rate."
+        "english": "Please check today's exchange rate.",
+        "translations": {
+          "en": "Please check today's exchange rate.",
+          "ru": "Проверьте сегодняшний курс.",
+          "es": "Consulte el tipo de cambio de hoy.",
+          "pt-BR": "Consulte o câmbio de hoje."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "exchange rate",
+      "ru": "валютный курс",
+      "es": "tipo de cambio",
+      "pt-BR": "câmbio"
+    }
   },
   {
     "section": "phone",
@@ -1088,14 +2168,32 @@
       {
         "hanzi": "您有一个来电。",
         "pinyin": "Nín yǒu yī gè láidiàn.",
-        "english": "You have an incoming call."
+        "english": "You have an incoming call.",
+        "translations": {
+          "en": "You have an incoming call.",
+          "ru": "У вас входящий звонок.",
+          "es": "Tiene una llamada entrante.",
+          "pt-BR": "Você tem uma chamada recebida."
+        }
       },
       {
         "hanzi": "刚才有个重要来电。",
         "pinyin": "Gāngcái yǒu gè zhòngyào láidiàn.",
-        "english": "There was an important call just now."
+        "english": "There was an important call just now.",
+        "translations": {
+          "en": "There was an important call just now.",
+          "ru": "Только что был важный звонок.",
+          "es": "Hubo una llamada importante hace un momento.",
+          "pt-BR": "Houve uma ligação importante agora há pouco."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "incoming call",
+      "ru": "входящий звонок",
+      "es": "llamada entrante",
+      "pt-BR": "chamada recebida"
+    }
   },
   {
     "section": "phone",
@@ -1106,14 +2204,32 @@
       {
         "hanzi": "我会稍后回电。",
         "pinyin": "Wǒ huì shāohòu huídiàn.",
-        "english": "I'll call you back later."
+        "english": "I'll call you back later.",
+        "translations": {
+          "en": "I'll call you back later.",
+          "ru": "Я перезвоню позже.",
+          "es": "Le devuelvo la llamada más tarde.",
+          "pt-BR": "Retorno a ligação mais tarde."
+        }
       },
       {
         "hanzi": "请尽快回电。",
         "pinyin": "Qǐng jǐnkuài huídiàn.",
-        "english": "Please call back as soon as possible."
+        "english": "Please call back as soon as possible.",
+        "translations": {
+          "en": "Please call back as soon as possible.",
+          "ru": "Перезвоните как можно скорее.",
+          "es": "Devuelva la llamada lo antes posible.",
+          "pt-BR": "Retorne a ligação o quanto antes."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to call back",
+      "ru": "перезванивать",
+      "es": "devolver la llamada",
+      "pt-BR": "retornar a ligação"
+    }
   },
   {
     "section": "phone",
@@ -1124,14 +2240,32 @@
       {
         "hanzi": "他不在，请留言。",
         "pinyin": "Tā bú zài, qǐng liúyán.",
-        "english": "He's not here, please leave a message."
+        "english": "He's not here, please leave a message.",
+        "translations": {
+          "en": "He's not here, please leave a message.",
+          "ru": "Его нет, оставьте сообщение.",
+          "es": "No está, deje un recado.",
+          "pt-BR": "Ele não está, deixe recado."
+        }
       },
       {
         "hanzi": "我在语音信箱留了言。",
         "pinyin": "Wǒ zài yǔyīn xìnxiāng liú le yán.",
-        "english": "I left a message on voicemail."
+        "english": "I left a message on voicemail.",
+        "translations": {
+          "en": "I left a message on voicemail.",
+          "ru": "Я оставил сообщение на автоответчике.",
+          "es": "Dejé un recado en el buzón de voz.",
+          "pt-BR": "Deixei recado na caixa postal."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to leave a message",
+      "ru": "оставить сообщение",
+      "es": "dejar un recado",
+      "pt-BR": "deixar recado"
+    }
   },
   {
     "section": "phone",
@@ -1142,14 +2276,32 @@
       {
         "hanzi": "电话一直接不通。",
         "pinyin": "Diànhuà yīzhí jiē bù tōng.",
-        "english": "The call won't connect."
+        "english": "The call won't connect.",
+        "translations": {
+          "en": "The call won't connect.",
+          "ru": "Звонок всё не соединяется.",
+          "es": "La llamada no conecta.",
+          "pt-BR": "A ligação não completa."
+        }
       },
       {
         "hanzi": "终于接通了。",
         "pinyin": "Zhōngyú jiētōng le.",
-        "english": "We finally got through."
+        "english": "We finally got through.",
+        "translations": {
+          "en": "We finally got through.",
+          "ru": "Наконец соединили.",
+          "es": "Por fin nos pusieron en línea.",
+          "pt-BR": "Finalmente a ligação completou."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to connect (a call)",
+      "ru": "соединять (звонок)",
+      "es": "conectar / poner en línea",
+      "pt-BR": "conectar / completar a chamada"
+    }
   },
   {
     "section": "phone",
@@ -1160,14 +2312,32 @@
       {
         "hanzi": "他的电话占线。",
         "pinyin": "Tā de diànhuà zhànxiàn.",
-        "english": "His line is busy."
+        "english": "His line is busy.",
+        "translations": {
+          "en": "His line is busy.",
+          "ru": "Его линия занята.",
+          "es": "Su línea está ocupada.",
+          "pt-BR": "A linha dele está ocupada."
+        }
       },
       {
         "hanzi": "请稍后再拨，线路占线。",
         "pinyin": "Qǐng shāohòu zài bō, xiànlù zhànxiàn.",
-        "english": "Please try again later, the line is busy."
+        "english": "Please try again later, the line is busy.",
+        "translations": {
+          "en": "Please try again later, the line is busy.",
+          "ru": "Позвоните позже, линия занята.",
+          "es": "Llame más tarde, la línea está ocupada.",
+          "pt-BR": "Ligue mais tarde, a linha está ocupada."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "busy (phone line)",
+      "ru": "занято (линия)",
+      "es": "ocupado (línea)",
+      "pt-BR": "ocupado (linha)"
+    }
   },
   {
     "section": "phone",
@@ -1178,14 +2348,32 @@
       {
         "hanzi": "十点有会议电话。",
         "pinyin": "Shí diǎn yǒu huìyì diànhuà.",
-        "english": "There's a conference call at ten."
+        "english": "There's a conference call at ten.",
+        "translations": {
+          "en": "There's a conference call at ten.",
+          "ru": "В десять — конференц-звонок.",
+          "es": "A las diez hay una conferencia.",
+          "pt-BR": "Às dez tem uma conferência."
+        }
       },
       {
         "hanzi": "请接入会议电话。",
         "pinyin": "Qǐng jiērù huìyì diànhuà.",
-        "english": "Please join the conference call."
+        "english": "Please join the conference call.",
+        "translations": {
+          "en": "Please join the conference call.",
+          "ru": "Подключитесь к конференц-звонку.",
+          "es": "Únase a la conferencia, por favor.",
+          "pt-BR": "Entre na conferência, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "conference call",
+      "ru": "конференц-звонок",
+      "es": "llamada de conferencia",
+      "pt-BR": "chamada em conferência"
+    }
   },
   {
     "section": "phone",
@@ -1196,14 +2384,32 @@
       {
         "hanzi": "这里信号不好。",
         "pinyin": "Zhèlǐ xìnhào bù hǎo.",
-        "english": "The signal is poor here."
+        "english": "The signal is poor here.",
+        "translations": {
+          "en": "The signal is poor here.",
+          "ru": "Здесь плохой сигнал.",
+          "es": "Aquí la señal es mala.",
+          "pt-BR": "Aqui o sinal está ruim."
+        }
       },
       {
         "hanzi": "我听不到，信号太差。",
         "pinyin": "Wǒ tīng bú dào, xìnhào tài chà.",
-        "english": "I can't hear you, the signal is too weak."
+        "english": "I can't hear you, the signal is too weak.",
+        "translations": {
+          "en": "I can't hear you, the signal is too weak.",
+          "ru": "Вас не слышно, сигнал слабый.",
+          "es": "No le oigo, la señal es muy débil.",
+          "pt-BR": "Não estou ouvindo, o sinal está fraco."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "signal",
+      "ru": "сигнал (связи)",
+      "es": "señal",
+      "pt-BR": "sinal"
+    }
   },
   {
     "section": "phone",
@@ -1214,14 +2420,32 @@
       {
         "hanzi": "请先别挂断。",
         "pinyin": "Qǐng xiān bié guàduàn.",
-        "english": "Please don't hang up yet."
+        "english": "Please don't hang up yet.",
+        "translations": {
+          "en": "Please don't hang up yet.",
+          "ru": "Пока не кладите трубку.",
+          "es": "No cuelgue todavía.",
+          "pt-BR": "Não desligue ainda."
+        }
       },
       {
         "hanzi": "他说完就挂断了。",
         "pinyin": "Tā shuō wán jiù guàduàn le.",
-        "english": "He hung up after speaking."
+        "english": "He hung up after speaking.",
+        "translations": {
+          "en": "He hung up after speaking.",
+          "ru": "Он сказал и положил трубку.",
+          "es": "Habló y colgó.",
+          "pt-BR": "Ele falou e desligou."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to hang up",
+      "ru": "класть трубку",
+      "es": "colgar",
+      "pt-BR": "desligar"
+    }
   },
   {
     "section": "phone",
@@ -1232,14 +2456,32 @@
       {
         "hanzi": "请拨打客服热线。",
         "pinyin": "Qǐng bōdǎ kèfú rèxiàn.",
-        "english": "Please dial the customer service hotline."
+        "english": "Please dial the customer service hotline.",
+        "translations": {
+          "en": "Please dial the customer service hotline.",
+          "ru": "Позвоните на горячую линию.",
+          "es": "Marque la línea de atención al cliente.",
+          "pt-BR": "Ligue para o SAC."
+        }
       },
       {
         "hanzi": "我拨打了三次都没人接。",
         "pinyin": "Wǒ bōdǎ le sān cì dōu méi rén jiē.",
-        "english": "I dialed three times with no answer."
+        "english": "I dialed three times with no answer.",
+        "translations": {
+          "en": "I dialed three times with no answer.",
+          "ru": "Я набирал три раза — никто не взял.",
+          "es": "Marqué tres veces y nadie contestó.",
+          "pt-BR": "Disquei três vezes e ninguém atendeu."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to dial",
+      "ru": "набирать номер",
+      "es": "marcar / llamar",
+      "pt-BR": "discar / ligar"
+    }
   },
   {
     "section": "phone",
@@ -1250,14 +2492,32 @@
       {
         "hanzi": "我们的通话被录音。",
         "pinyin": "Wǒmen de tōnghuà bèi lùyīn.",
-        "english": "Our call is being recorded."
+        "english": "Our call is being recorded.",
+        "translations": {
+          "en": "Our call is being recorded.",
+          "ru": "Наш разговор записывается.",
+          "es": "Nuestra llamada está siendo grabada.",
+          "pt-BR": "Nossa ligação está sendo gravada."
+        }
       },
       {
         "hanzi": "通话时间不要太长。",
         "pinyin": "Tōnghuà shíjiān bú yào tài cháng.",
-        "english": "Don't make the call too long."
+        "english": "Don't make the call too long.",
+        "translations": {
+          "en": "Don't make the call too long.",
+          "ru": "Не затягивайте разговор.",
+          "es": "No alargue demasiado la llamada.",
+          "pt-BR": "Não alongue demais a ligação."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "phone call / conversation",
+      "ru": "разговор / звонок",
+      "es": "llamada / conversación",
+      "pt-BR": "ligação / conversa"
+    }
   },
   {
     "section": "office",
@@ -1268,14 +2528,32 @@
       {
         "hanzi": "我的同事很帮忙。",
         "pinyin": "Wǒ de tóngshì hěn bāngmáng.",
-        "english": "My colleagues are very helpful."
+        "english": "My colleagues are very helpful.",
+        "translations": {
+          "en": "My colleagues are very helpful.",
+          "ru": "Мои коллеги очень помогают.",
+          "es": "Mis compañeros son de mucha ayuda.",
+          "pt-BR": "Meus colegas ajudam muito."
+        }
       },
       {
         "hanzi": "请把这个交给同事。",
         "pinyin": "Qǐng bǎ zhège jiāo gěi tóngshì.",
-        "english": "Please give this to a colleague."
+        "english": "Please give this to a colleague.",
+        "translations": {
+          "en": "Please give this to a colleague.",
+          "ru": "Передайте это коллеге.",
+          "es": "Entrégueselo a un compañero.",
+          "pt-BR": "Entregue isso a um colega."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "colleague",
+      "ru": "коллега",
+      "es": "compañero de trabajo",
+      "pt-BR": "colega de trabalho"
+    }
   },
   {
     "section": "office",
@@ -1286,14 +2564,32 @@
       {
         "hanzi": "他在销售部门工作。",
         "pinyin": "Tā zài xiāoshòu bùmén gōngzuò.",
-        "english": "He works in the sales department."
+        "english": "He works in the sales department.",
+        "translations": {
+          "en": "He works in the sales department.",
+          "ru": "Он работает в отделе продаж.",
+          "es": "Trabaja en el departamento de ventas.",
+          "pt-BR": "Ele trabalha no departamento de vendas."
+        }
       },
       {
         "hanzi": "请各部门提交报告。",
         "pinyin": "Qǐng gè bùmén tíjiāo bàogào.",
-        "english": "Please have each department submit a report."
+        "english": "Please have each department submit a report.",
+        "translations": {
+          "en": "Please have each department submit a report.",
+          "ru": "Пусть каждый отдел сдаст отчёт.",
+          "es": "Que cada departamento entregue el informe.",
+          "pt-BR": "Cada departamento deve entregar o relatório."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "department",
+      "ru": "отдел / департамент",
+      "es": "departamento",
+      "pt-BR": "departamento"
+    }
   },
   {
     "section": "office",
@@ -1304,14 +2600,32 @@
       {
         "hanzi": "今晚可能要加班。",
         "pinyin": "Jīn wǎn kěnéng yào jiābān.",
-        "english": "We may need to work overtime tonight."
+        "english": "We may need to work overtime tonight.",
+        "translations": {
+          "en": "We may need to work overtime tonight.",
+          "ru": "Сегодня вечером, возможно, придётся задержаться.",
+          "es": "Esta noche puede que hagamos horas extra.",
+          "pt-BR": "Hoje à noite talvez tenhamos que fazer hora extra."
+        }
       },
       {
         "hanzi": "他最近经常加班。",
         "pinyin": "Tā zuìjìn jīngcháng jiābān.",
-        "english": "He's been working overtime a lot lately."
+        "english": "He's been working overtime a lot lately.",
+        "translations": {
+          "en": "He's been working overtime a lot lately.",
+          "ru": "В последнее время он часто остаётся сверхурочно.",
+          "es": "Últimamente hace muchas horas extra.",
+          "pt-BR": "Ultimamente ele faz muita hora extra."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to work overtime",
+      "ru": "работать сверхурочно",
+      "es": "hacer horas extra",
+      "pt-BR": "fazer hora extra"
+    }
   },
   {
     "section": "office",
@@ -1322,14 +2636,32 @@
       {
         "hanzi": "我想请明天假。",
         "pinyin": "Wǒ xiǎng qǐng míngtiān jià.",
-        "english": "I'd like to take tomorrow off."
+        "english": "I'd like to take tomorrow off.",
+        "translations": {
+          "en": "I'd like to take tomorrow off.",
+          "ru": "Хочу взять завтра отгул.",
+          "es": "Quisiera pedirme mañana libre.",
+          "pt-BR": "Quero tirar folga amanhã."
+        }
       },
       {
         "hanzi": "她请假去医院了。",
         "pinyin": "Tā qǐngjià qù yīyuàn le.",
-        "english": "She took leave to go to the hospital."
+        "english": "She took leave to go to the hospital.",
+        "translations": {
+          "en": "She took leave to go to the hospital.",
+          "ru": "Она взяла отгул и поехала в больницу.",
+          "es": "Pidió permiso para ir al hospital.",
+          "pt-BR": "Ela tirou folga para ir ao hospital."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to request leave",
+      "ru": "брать отгул / оформлять отпуск",
+      "es": "pedir permiso / coger vacaciones",
+      "pt-BR": "pedir folga / tirar licença"
+    }
   },
   {
     "section": "office",
@@ -1340,14 +2672,32 @@
       {
         "hanzi": "请帮我打印这份文件。",
         "pinyin": "Qǐng bāng wǒ dǎyìn zhè fèn wénjiàn.",
-        "english": "Please print this document for me."
+        "english": "Please print this document for me.",
+        "translations": {
+          "en": "Please print this document for me.",
+          "ru": "Распечатайте этот документ, пожалуйста.",
+          "es": "Imprima este documento, por favor.",
+          "pt-BR": "Imprima este documento, por favor."
+        }
       },
       {
         "hanzi": "打印机没纸了。",
         "pinyin": "Dǎyìnjī méi zhǐ le.",
-        "english": "The printer is out of paper."
+        "english": "The printer is out of paper.",
+        "translations": {
+          "en": "The printer is out of paper.",
+          "ru": "В принтере закончилась бумага.",
+          "es": "La impresora se quedó sin papel.",
+          "pt-BR": "A impressora está sem papel."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to print",
+      "ru": "печатать",
+      "es": "imprimir",
+      "pt-BR": "imprimir"
+    }
   },
   {
     "section": "office",
@@ -1358,14 +2708,32 @@
       {
         "hanzi": "请复印五份合同。",
         "pinyin": "Qǐng fùyìn wǔ fèn hétong.",
-        "english": "Please make five copies of the contract."
+        "english": "Please make five copies of the contract.",
+        "translations": {
+          "en": "Please make five copies of the contract.",
+          "ru": "Сделайте пять копий договора.",
+          "es": "Haga cinco copias del contrato.",
+          "pt-BR": "Faça cinco cópias do contrato."
+        }
       },
       {
         "hanzi": "复印机在那边。",
         "pinyin": "Fùyìnjī zài nàbiān.",
-        "english": "The copier is over there."
+        "english": "The copier is over there.",
+        "translations": {
+          "en": "The copier is over there.",
+          "ru": "Копир вон там.",
+          "es": "La fotocopiadora está allí.",
+          "pt-BR": "A copiadora fica ali."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to photocopy",
+      "ru": "ксерокопировать",
+      "es": "fotocopiar",
+      "pt-BR": "xerox / fotocopiar"
+    }
   },
   {
     "section": "office",
@@ -1376,14 +2744,32 @@
       {
         "hanzi": "文件已经发给你了。",
         "pinyin": "Wénjiàn yǐjīng fā gěi nǐ le.",
-        "english": "The document has been sent to you."
+        "english": "The document has been sent to you.",
+        "translations": {
+          "en": "The document has been sent to you.",
+          "ru": "Документ уже отправили вам.",
+          "es": "El documento ya se le envió.",
+          "pt-BR": "O documento já foi enviado a você."
+        }
       },
       {
         "hanzi": "请归档这份文件。",
         "pinyin": "Qǐng guīdàng zhè fèn wénjiàn.",
-        "english": "Please file this document."
+        "english": "Please file this document.",
+        "translations": {
+          "en": "Please file this document.",
+          "ru": "Подшейте этот документ.",
+          "es": "Archive este documento.",
+          "pt-BR": "Arquive este documento."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "document / file",
+      "ru": "документ / файл",
+      "es": "documento / archivo",
+      "pt-BR": "documento / arquivo"
+    }
   },
   {
     "section": "office",
@@ -1394,14 +2780,32 @@
       {
         "hanzi": "看一下今天的日程。",
         "pinyin": "Kàn yīxià jīntiān de rìchéng.",
-        "english": "Check today's schedule."
+        "english": "Check today's schedule.",
+        "translations": {
+          "en": "Check today's schedule.",
+          "ru": "Посмотрите сегодняшнее расписание.",
+          "es": "Mire la agenda de hoy.",
+          "pt-BR": "Olhe a agenda de hoje."
+        }
       },
       {
         "hanzi": "我把会议加进日程了。",
         "pinyin": "Wǒ bǎ huìyì jiā jìn rìchéng le.",
-        "english": "I added the meeting to the schedule."
+        "english": "I added the meeting to the schedule.",
+        "translations": {
+          "en": "I added the meeting to the schedule.",
+          "ru": "Я добавил встречу в календарь.",
+          "es": "Añadí la reunión a la agenda.",
+          "pt-BR": "Incluí a reunião na agenda."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "schedule / agenda",
+      "ru": "расписание / календарь встреч",
+      "es": "agenda / calendario",
+      "pt-BR": "agenda / calendário"
+    }
   },
   {
     "section": "office",
@@ -1412,14 +2816,32 @@
       {
         "hanzi": "我的工位在窗边。",
         "pinyin": "Wǒ de gōngwèi zài chuāng biān.",
-        "english": "My workstation is by the window."
+        "english": "My workstation is by the window.",
+        "translations": {
+          "en": "My workstation is by the window.",
+          "ru": "Моё место у окна.",
+          "es": "Mi puesto está junto a la ventana.",
+          "pt-BR": "Minha mesa fica junto à janela."
+        }
       },
       {
         "hanzi": "请整理一下工位。",
         "pinyin": "Qǐng zhěnglǐ yīxià gōngwèi.",
-        "english": "Please tidy up your workstation."
+        "english": "Please tidy up your workstation.",
+        "translations": {
+          "en": "Please tidy up your workstation.",
+          "ru": "Приведите в порядок рабочее место.",
+          "es": "Ordene su puesto de trabajo.",
+          "pt-BR": "Organize a sua mesa."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "workstation",
+      "ru": "рабочее место",
+      "es": "puesto de trabajo",
+      "pt-BR": "estação de trabalho / mesa"
+    }
   },
   {
     "section": "office",
@@ -1430,14 +2852,32 @@
       {
         "hanzi": "我在办公室办公。",
         "pinyin": "Wǒ zài bàngōngshì bàngōng.",
-        "english": "I work in the office."
+        "english": "I work in the office.",
+        "translations": {
+          "en": "I work in the office.",
+          "ru": "Я работаю в офисе.",
+          "es": "Trabajo en la oficina.",
+          "pt-BR": "Trabalho no escritório."
+        }
       },
       {
         "hanzi": "今天在家办公。",
         "pinyin": "Jīntiān zài jiā bàngōng.",
-        "english": "I'm working from home today."
+        "english": "I'm working from home today.",
+        "translations": {
+          "en": "I'm working from home today.",
+          "ru": "Сегодня работаю из дома.",
+          "es": "Hoy trabajo desde casa.",
+          "pt-BR": "Hoje trabalho de casa."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to work / office work",
+      "ru": "работать в офисе / офисная работа",
+      "es": "trabajar en la oficina",
+      "pt-BR": "trabalhar no escritório"
+    }
   },
   {
     "section": "negotiations",
@@ -1448,14 +2888,32 @@
       {
         "hanzi": "谈判进行了三个小时。",
         "pinyin": "Tánpàn jìnxíng le sān gè xiǎoshí.",
-        "english": "The negotiation lasted three hours."
+        "english": "The negotiation lasted three hours.",
+        "translations": {
+          "en": "The negotiation lasted three hours.",
+          "ru": "Переговоры длились три часа.",
+          "es": "La negociación duró tres horas.",
+          "pt-BR": "A negociação durou três horas."
+        }
       },
       {
         "hanzi": "双方谈判很顺利。",
         "pinyin": "Shuāngfāng tánpàn hěn shùnlì.",
-        "english": "Both sides negotiated smoothly."
+        "english": "Both sides negotiated smoothly.",
+        "translations": {
+          "en": "Both sides negotiated smoothly.",
+          "ru": "Переговоры сторон прошли гладко.",
+          "es": "Ambas partes negociaron sin problemas.",
+          "pt-BR": "Os dois lados negociaram sem problemas."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "negotiation",
+      "ru": "переговоры",
+      "es": "negociación",
+      "pt-BR": "negociação"
+    }
   },
   {
     "section": "negotiations",
@@ -1466,14 +2924,32 @@
       {
         "hanzi": "请说明合作条件。",
         "pinyin": "Qǐng shuōmíng hézuò tiáojiàn.",
-        "english": "Please explain the cooperation terms."
+        "english": "Please explain the cooperation terms.",
+        "translations": {
+          "en": "Please explain the cooperation terms.",
+          "ru": "Разъясните условия сотрудничества.",
+          "es": "Explique las condiciones de cooperación.",
+          "pt-BR": "Explique as condições de cooperação."
+        }
       },
       {
         "hanzi": "这些条件我们可以接受。",
         "pinyin": "Zhèxiē tiáojiàn wǒmen kěyǐ jiēshòu.",
-        "english": "We can accept these terms."
+        "english": "We can accept these terms.",
+        "translations": {
+          "en": "We can accept these terms.",
+          "ru": "Эти условия мы можем принять.",
+          "es": "Podemos aceptar estas condiciones.",
+          "pt-BR": "Podemos aceitar estas condições."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "terms / conditions",
+      "ru": "условия",
+      "es": "condiciones / términos",
+      "pt-BR": "condições / termos"
+    }
   },
   {
     "section": "negotiations",
@@ -1484,14 +2960,32 @@
       {
         "hanzi": "双方都需要让步。",
         "pinyin": "Shuāngfāng dōu xūyào ràngbù.",
-        "english": "Both sides need to compromise."
+        "english": "Both sides need to compromise.",
+        "translations": {
+          "en": "Both sides need to compromise.",
+          "ru": "Обе стороны должны пойти на уступки.",
+          "es": "Ambas partes tienen que ceder.",
+          "pt-BR": "Os dois lados precisam ceder."
+        }
       },
       {
         "hanzi": "我们在价格上做了让步。",
         "pinyin": "Wǒmen zài jiàgé shàng zuò le ràngbù.",
-        "english": "We made a concession on price."
+        "english": "We made a concession on price.",
+        "translations": {
+          "en": "We made a concession on price.",
+          "ru": "Мы уступили в цене.",
+          "es": "Hicimos una concesión en el precio.",
+          "pt-BR": "Fizemos uma concessão no preço."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to compromise / concession",
+      "ru": "уступать / уступка",
+      "es": "ceder / concesión",
+      "pt-BR": "ceder / concessão"
+    }
   },
   {
     "section": "negotiations",
@@ -1502,14 +2996,32 @@
       {
         "hanzi": "我们希望长期合作。",
         "pinyin": "Wǒmen xīwàng chángqī hézuò.",
-        "english": "We hope for long-term cooperation."
+        "english": "We hope for long-term cooperation.",
+        "translations": {
+          "en": "We hope for long-term cooperation.",
+          "ru": "Мы надеемся на долгосрочное сотрудничество.",
+          "es": "Esperamos una cooperación a largo plazo.",
+          "pt-BR": "Esperamos uma parceria de longo prazo."
+        }
       },
       {
         "hanzi": "合作对双方都有利。",
         "pinyin": "Hézuò duì shuāngfāng dōu yǒulì.",
-        "english": "Cooperation benefits both parties."
+        "english": "Cooperation benefits both parties.",
+        "translations": {
+          "en": "Cooperation benefits both parties.",
+          "ru": "Сотрудничество выгодно обеим сторонам.",
+          "es": "La cooperación beneficia a ambas partes.",
+          "pt-BR": "A cooperação beneficia os dois lados."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "cooperation / partnership",
+      "ru": "сотрудничество / партнёрство",
+      "es": "cooperación / colaboración",
+      "pt-BR": "cooperação / parceria"
+    }
   },
   {
     "section": "negotiations",
@@ -1520,14 +3032,32 @@
       {
         "hanzi": "请提交新的方案。",
         "pinyin": "Qǐng tíjiāo xīn de fāng'àn.",
-        "english": "Please submit a new proposal."
+        "english": "Please submit a new proposal.",
+        "translations": {
+          "en": "Please submit a new proposal.",
+          "ru": "Представьте новое предложение.",
+          "es": "Presente una nueva propuesta.",
+          "pt-BR": "Apresente uma nova proposta."
+        }
       },
       {
         "hanzi": "这个方案更可行。",
         "pinyin": "Zhège fāng'àn gèng kěxíng.",
-        "english": "This plan is more feasible."
+        "english": "This plan is more feasible.",
+        "translations": {
+          "en": "This plan is more feasible.",
+          "ru": "Этот план более реалистичен.",
+          "es": "Este plan es más viable.",
+          "pt-BR": "Este plano é mais viável."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "proposal / plan",
+      "ru": "предложение / план / схема",
+      "es": "propuesta / plan",
+      "pt-BR": "proposta / plano"
+    }
   },
   {
     "section": "negotiations",
@@ -1538,14 +3068,32 @@
       {
         "hanzi": "这是我们的底线。",
         "pinyin": "Zhè shì wǒmen de dǐxiàn.",
-        "english": "This is our bottom line."
+        "english": "This is our bottom line.",
+        "translations": {
+          "en": "This is our bottom line.",
+          "ru": "Это наш нижний предел.",
+          "es": "Esta es nuestra línea roja.",
+          "pt-BR": "Esta é a nossa linha vermelha."
+        }
       },
       {
         "hanzi": "价格不能低于底线。",
         "pinyin": "Jiàgé bùnéng dī yú dǐxiàn.",
-        "english": "The price cannot go below our bottom line."
+        "english": "The price cannot go below our bottom line.",
+        "translations": {
+          "en": "The price cannot go below our bottom line.",
+          "ru": "Цена не может быть ниже предела.",
+          "es": "El precio no puede bajar de nuestro mínimo.",
+          "pt-BR": "O preço não pode ficar abaixo do nosso mínimo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "bottom line",
+      "ru": "красная черта / нижний предел",
+      "es": "línea roja / mínimo aceptable",
+      "pt-BR": "linha vermelha / limite mínimo"
+    }
   },
   {
     "section": "negotiations",
@@ -1556,14 +3104,32 @@
       {
         "hanzi": "双方达成了共识。",
         "pinyin": "Shuāngfāng dáchéng le gòngshí.",
-        "english": "Both sides reached a consensus."
+        "english": "Both sides reached a consensus.",
+        "translations": {
+          "en": "Both sides reached a consensus.",
+          "ru": "Стороны достигли согласия.",
+          "es": "Ambas partes llegaron a un consenso.",
+          "pt-BR": "Os dois lados chegaram a um consenso."
+        }
       },
       {
         "hanzi": "还需要进一步达成共识。",
         "pinyin": "Hái xūyào jìnyībù dáchéng gòngshí.",
-        "english": "We still need to build more consensus."
+        "english": "We still need to build more consensus.",
+        "translations": {
+          "en": "We still need to build more consensus.",
+          "ru": "Нужно ещё лучше согласовать позиции.",
+          "es": "Aún hay que construir más consenso.",
+          "pt-BR": "Ainda precisamos construir mais consenso."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "consensus",
+      "ru": "консенсус / согласие",
+      "es": "consenso",
+      "pt-BR": "consenso"
+    }
   },
   {
     "section": "negotiations",
@@ -1574,14 +3140,32 @@
       {
         "hanzi": "请仔细审查合同条款。",
         "pinyin": "Qǐng zǐxì shěnchá hétong tiáokuǎn.",
-        "english": "Please review the contract clauses carefully."
+        "english": "Please review the contract clauses carefully.",
+        "translations": {
+          "en": "Please review the contract clauses carefully.",
+          "ru": "Внимательно проверьте пункты договора.",
+          "es": "Revise con cuidado las cláusulas del contrato.",
+          "pt-BR": "Revise com cuidado as cláusulas do contrato."
+        }
       },
       {
         "hanzi": "这一条款需要修改。",
         "pinyin": "Zhè yī tiáokuǎn xūyào xiūgǎi.",
-        "english": "This clause needs to be revised."
+        "english": "This clause needs to be revised.",
+        "translations": {
+          "en": "This clause needs to be revised.",
+          "ru": "Этот пункт нужно изменить.",
+          "es": "Esta cláusula hay que revisarla.",
+          "pt-BR": "Esta cláusula precisa ser alterada."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "clause / provision",
+      "ru": "пункт / статья (договора)",
+      "es": "cláusula / disposición",
+      "pt-BR": "cláusula / disposição"
+    }
   },
   {
     "section": "negotiations",
@@ -1592,14 +3176,32 @@
       {
         "hanzi": "要兼顾双方利益。",
         "pinyin": "Yào jiāgù shuāngfāng lìyì.",
-        "english": "We must consider both parties' interests."
+        "english": "We must consider both parties' interests.",
+        "translations": {
+          "en": "We must consider both parties' interests.",
+          "ru": "Нужно учитывать интересы обеих сторон.",
+          "es": "Hay que tener en cuenta el interés de ambas partes.",
+          "pt-BR": "É preciso considerar o interesse dos dois lados."
+        }
       },
       {
         "hanzi": "这个决定对利益很大。",
         "pinyin": "Zhège juédìng duì lìyì hěn dà.",
-        "english": "This decision greatly affects our interests."
+        "english": "This decision greatly affects our interests.",
+        "translations": {
+          "en": "This decision greatly affects our interests.",
+          "ru": "Это решение сильно затрагивает интересы.",
+          "es": "Esta decisión afecta mucho nuestros intereses.",
+          "pt-BR": "Esta decisão afeta muito os nossos interesses."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "interest / benefit",
+      "ru": "интересы / выгода",
+      "es": "interés / beneficio",
+      "pt-BR": "interesse / benefício"
+    }
   },
   {
     "section": "negotiations",
@@ -1610,14 +3212,32 @@
       {
         "hanzi": "谈判陷入了僵局。",
         "pinyin": "Tánpàn xiànrù le jiāngjú.",
-        "english": "The negotiation has reached a deadlock."
+        "english": "The negotiation has reached a deadlock.",
+        "translations": {
+          "en": "The negotiation has reached a deadlock.",
+          "ru": "Переговоры зашли в тупик.",
+          "es": "La negociación llegó a un punto muerto.",
+          "pt-BR": "A negociação chegou a um impasse."
+        }
       },
       {
         "hanzi": "我们需要打破僵局。",
         "pinyin": "Wǒmen xūyào dǎpò jiāngjú.",
-        "english": "We need to break the stalemate."
+        "english": "We need to break the stalemate.",
+        "translations": {
+          "en": "We need to break the stalemate.",
+          "ru": "Нужно выйти из тупика.",
+          "es": "Hay que romper el estancamiento.",
+          "pt-BR": "Precisamos sair do impasse."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "deadlock / stalemate",
+      "ru": "тупик (в переговорах)",
+      "es": "punto muerto / estancamiento",
+      "pt-BR": "impasse"
+    }
   },
   {
     "section": "contracts",
@@ -1628,14 +3248,32 @@
       {
         "hanzi": "请签署合同。",
         "pinyin": "Qǐng qiānshǔ hétong.",
-        "english": "Please sign the contract."
+        "english": "Please sign the contract.",
+        "translations": {
+          "en": "Please sign the contract.",
+          "ru": "Подпишите договор.",
+          "es": "Firme el contrato.",
+          "pt-BR": "Assine o contrato."
+        }
       },
       {
         "hanzi": "合同有效期一年。",
         "pinyin": "Hétong yǒuxiàoqī yī nián.",
-        "english": "The contract is valid for one year."
+        "english": "The contract is valid for one year.",
+        "translations": {
+          "en": "The contract is valid for one year.",
+          "ru": "Срок действия договора — год.",
+          "es": "El contrato tiene vigencia de un año.",
+          "pt-BR": "O contrato tem validade de um ano."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "contract",
+      "ru": "договор / контракт",
+      "es": "contrato",
+      "pt-BR": "contrato"
+    }
   },
   {
     "section": "contracts",
@@ -1646,14 +3284,32 @@
       {
         "hanzi": "双方今天签署协议。",
         "pinyin": "Shuāngfāng jīntiān qiānshǔ xiéyì.",
-        "english": "Both parties sign the agreement today."
+        "english": "Both parties sign the agreement today.",
+        "translations": {
+          "en": "Both parties sign the agreement today.",
+          "ru": "Сегодня стороны подписывают соглашение.",
+          "es": "Hoy ambas partes firman el acuerdo.",
+          "pt-BR": "Hoje os dois lados assinam o acordo."
+        }
       },
       {
         "hanzi": "请在最后一页签署。",
         "pinyin": "Qǐng zài zuìhòu yī yè qiānshǔ.",
-        "english": "Please sign on the last page."
+        "english": "Please sign on the last page.",
+        "translations": {
+          "en": "Please sign on the last page.",
+          "ru": "Подпишитесь на последней странице.",
+          "es": "Firme en la última página.",
+          "pt-BR": "Assine na última página."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to sign",
+      "ru": "подписывать",
+      "es": "firmar / suscribir",
+      "pt-BR": "assinar"
+    }
   },
   {
     "section": "contracts",
@@ -1664,14 +3320,32 @@
       {
         "hanzi": "违约需要赔偿损失。",
         "pinyin": "Wéiyuē xūyào péicháng sǔnshī.",
-        "english": "A breach of contract requires compensation."
+        "english": "A breach of contract requires compensation.",
+        "translations": {
+          "en": "A breach of contract requires compensation.",
+          "ru": "За нарушение договора нужно возмещать убытки.",
+          "es": "El incumplimiento exige compensación.",
+          "pt-BR": "A quebra de contrato exige indenização."
+        }
       },
       {
         "hanzi": "公司不会违约。",
         "pinyin": "Gōngsī bú huì wéiyuē.",
-        "english": "The company will not breach the contract."
+        "english": "The company will not breach the contract.",
+        "translations": {
+          "en": "The company will not breach the contract.",
+          "ru": "Компания не будет нарушать договор.",
+          "es": "La empresa no incumplirá el contrato.",
+          "pt-BR": "A empresa não vai quebrar o contrato."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "breach of contract",
+      "ru": "нарушение договора",
+      "es": "incumplimiento contractual",
+      "pt-BR": "quebra de contrato"
+    }
   },
   {
     "section": "contracts",
@@ -1682,14 +3356,32 @@
       {
         "hanzi": "合同有效期是三年。",
         "pinyin": "Hétong yǒuxiào qī shì sān nián.",
-        "english": "The contract is valid for three years."
+        "english": "The contract is valid for three years.",
+        "translations": {
+          "en": "The contract is valid for three years.",
+          "ru": "Срок действия договора — три года.",
+          "es": "El contrato tiene una vigencia de tres años.",
+          "pt-BR": "O contrato tem validade de três anos."
+        }
       },
       {
         "hanzi": "请确认有效期。",
         "pinyin": "Qǐng quèrèn yǒuxiào qī.",
-        "english": "Please confirm the validity period."
+        "english": "Please confirm the validity period.",
+        "translations": {
+          "en": "Please confirm the validity period.",
+          "ru": "Подтвердите срок действия.",
+          "es": "Confirme el periodo de vigencia.",
+          "pt-BR": "Confirme o prazo de validade."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "validity period",
+      "ru": "срок действия",
+      "es": "periodo de vigencia",
+      "pt-BR": "prazo de validade"
+    }
   },
   {
     "section": "contracts",
@@ -1700,14 +3392,32 @@
       {
         "hanzi": "合同下月生效。",
         "pinyin": "Hétong xià yuè shēngxiào.",
-        "english": "The contract takes effect next month."
+        "english": "The contract takes effect next month.",
+        "translations": {
+          "en": "The contract takes effect next month.",
+          "ru": "Договор вступает в силу в следующем месяце.",
+          "es": "El contrato entra en vigor el mes que viene.",
+          "pt-BR": "O contrato entra em vigor no mês que vem."
+        }
       },
       {
         "hanzi": "协议已经生效了。",
         "pinyin": "Xiéyì yǐjīng shēngxiào le.",
-        "english": "The agreement is already in effect."
+        "english": "The agreement is already in effect.",
+        "translations": {
+          "en": "The agreement is already in effect.",
+          "ru": "Соглашение уже действует.",
+          "es": "El acuerdo ya está en vigor.",
+          "pt-BR": "O acordo já está em vigor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to take effect",
+      "ru": "вступать в силу",
+      "es": "entrar en vigor",
+      "pt-BR": "entrar em vigor"
+    }
   },
   {
     "section": "contracts",
@@ -1718,14 +3428,32 @@
       {
         "hanzi": "我们想续签合同。",
         "pinyin": "Wǒmen xiǎng xùqiān hétong.",
-        "english": "We'd like to renew the contract."
+        "english": "We'd like to renew the contract.",
+        "translations": {
+          "en": "We'd like to renew the contract.",
+          "ru": "Мы хотим продлить договор.",
+          "es": "Queremos renovar el contrato.",
+          "pt-BR": "Queremos renovar o contrato."
+        }
       },
       {
         "hanzi": "合同快到期了，要续签。",
         "pinyin": "Hétong kuài dàoqī le, yào xùqiān.",
-        "english": "The contract is expiring soon and needs renewal."
+        "english": "The contract is expiring soon and needs renewal.",
+        "translations": {
+          "en": "The contract is expiring soon and needs renewal.",
+          "ru": "Договор скоро истекает, нужно продлить.",
+          "es": "El contrato vence pronto y hay que renovarlo.",
+          "pt-BR": "O contrato vence em breve e precisa ser renovado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to renew (a contract)",
+      "ru": "продлевать (договор)",
+      "es": "renovar (un contrato)",
+      "pt-BR": "renovar (contrato)"
+    }
   },
   {
     "section": "contracts",
@@ -1736,14 +3464,32 @@
       {
         "hanzi": "请遵守保密协议。",
         "pinyin": "Qǐng zūnshǒu bǎomì xiéyì.",
-        "english": "Please abide by the confidentiality agreement."
+        "english": "Please abide by the confidentiality agreement.",
+        "translations": {
+          "en": "Please abide by the confidentiality agreement.",
+          "ru": "Соблюдайте соглашение о конфиденциальности.",
+          "es": "Cumpla el acuerdo de confidencialidad.",
+          "pt-BR": "Cumpra o acordo de confidencialidade."
+        }
       },
       {
         "hanzi": "这些资料需要保密。",
         "pinyin": "Zhèxiē zīliào xūyào bǎomì.",
-        "english": "This information must be kept confidential."
+        "english": "This information must be kept confidential.",
+        "translations": {
+          "en": "This information must be kept confidential.",
+          "ru": "Эти материалы нужно держать в тайне.",
+          "es": "Esta información debe mantenerse confidencial.",
+          "pt-BR": "Estas informações devem ser mantidas em sigilo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "confidential / NDA",
+      "ru": "конфиденциальность / не разглашать",
+      "es": "confidencial / NDA",
+      "pt-BR": "confidencial / NDA"
+    }
   },
   {
     "section": "contracts",
@@ -1754,14 +3500,32 @@
       {
         "hanzi": "请注意文件的保密性。",
         "pinyin": "Qǐng zhùyì wénjiàn de bǎomì xìng.",
-        "english": "Please note the confidentiality of the document."
+        "english": "Please note the confidentiality of the document.",
+        "translations": {
+          "en": "Please note the confidentiality of the document.",
+          "ru": "Обратите внимание на конфиденциальность документа.",
+          "es": "Tenga en cuenta la confidencialidad del documento.",
+          "pt-BR": "Atenção ao sigilo do documento."
+        }
       },
       {
         "hanzi": "保密性要求非常严格。",
         "pinyin": "Bǎomì xìng yāoqiú fēicháng yángé.",
-        "english": "Confidentiality requirements are very strict."
+        "english": "Confidentiality requirements are very strict.",
+        "translations": {
+          "en": "Confidentiality requirements are very strict.",
+          "ru": "Требования к конфиденциальности очень строгие.",
+          "es": "Los requisitos de confidencialidad son muy estrictos.",
+          "pt-BR": "Os requisitos de sigilo são muito rigorosos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "confidentiality (quality)",
+      "ru": "конфиденциальность (свойство)",
+      "es": "carácter confidencial",
+      "pt-BR": "sigilo / confidencialidade"
+    }
   },
   {
     "section": "contracts",
@@ -1772,14 +3536,32 @@
       {
         "hanzi": "甲方负责提供设备。",
         "pinyin": "Jiǎfāng fùzé tígōng shèbèi.",
-        "english": "Party A is responsible for providing equipment."
+        "english": "Party A is responsible for providing equipment.",
+        "translations": {
+          "en": "Party A is responsible for providing equipment.",
+          "ru": "Сторона А предоставляет оборудование.",
+          "es": "La Parte A se encarga de proporcionar el equipo.",
+          "pt-BR": "A Parte A fica responsável por fornecer o equipamento."
+        }
       },
       {
         "hanzi": "甲方代表已经签字了。",
         "pinyin": "Jiǎfāng dàibiǎo yǐjīng qiānzì le.",
-        "english": "Party A's representative has signed."
+        "english": "Party A's representative has signed.",
+        "translations": {
+          "en": "Party A's representative has signed.",
+          "ru": "Представитель стороны А уже подписал.",
+          "es": "El representante de la Parte A ya firmó.",
+          "pt-BR": "O representante da Parte A já assinou."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Party A (contract)",
+      "ru": "сторона А (договора)",
+      "es": "Parte A (contrato)",
+      "pt-BR": "Parte A (contrato)"
+    }
   },
   {
     "section": "contracts",
@@ -1790,13 +3572,31 @@
       {
         "hanzi": "乙方需要在三十天内交付。",
         "pinyin": "Yǐfāng xūyào zài sānshí tiān nèi jiāofù.",
-        "english": "Party B must deliver within thirty days."
+        "english": "Party B must deliver within thirty days.",
+        "translations": {
+          "en": "Party B must deliver within thirty days.",
+          "ru": "Сторона Б должна поставить товар за тридцать дней.",
+          "es": "La Parte B debe entregar en treinta días.",
+          "pt-BR": "A Parte B deve entregar em trinta dias."
+        }
       },
       {
         "hanzi": "乙方同意以上条款。",
         "pinyin": "Yǐfāng tóngyì yǐshàng tiáokuǎn.",
-        "english": "Party B agrees to the above terms."
+        "english": "Party B agrees to the above terms.",
+        "translations": {
+          "en": "Party B agrees to the above terms.",
+          "ru": "Сторона Б согласна с вышеуказанными пунктами.",
+          "es": "La Parte B acepta las cláusulas anteriores.",
+          "pt-BR": "A Parte B concorda com as cláusulas acima."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Party B (contract)",
+      "ru": "сторона Б (договора)",
+      "es": "Parte B (contrato)",
+      "pt-BR": "Parte B (contrato)"
+    }
   }
 ]

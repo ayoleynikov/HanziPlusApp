@@ -1,0 +1,1702 @@
+{
+  "会议": {
+    "ru": "совещание / встреча",
+    "es": "reunión",
+    "pt-BR": "reunião",
+    "examples": [
+      {
+        "ru": "В три часа дня совещание.",
+        "es": "Hay una reunión a las 3 de la tarde.",
+        "pt-BR": "Tem reunião às 15h."
+      },
+      {
+        "ru": "Совещание перенесли на завтра.",
+        "es": "La reunión se pasó a mañana.",
+        "pt-BR": "A reunião foi para amanhã."
+      }
+    ]
+  },
+  "议程": {
+    "ru": "повестка дня",
+    "es": "orden del día / agenda",
+    "pt-BR": "pauta / agenda",
+    "examples": [
+      {
+        "ru": "Посмотрите сегодняшнюю повестку.",
+        "es": "Revise la agenda de hoy.",
+        "pt-BR": "Veja a pauta de hoje."
+      },
+      {
+        "ru": "Повестку уже разослали всем.",
+        "es": "La agenda ya se envió a todos.",
+        "pt-BR": "A pauta já foi enviada a todos."
+      }
+    ]
+  },
+  "汇报": {
+    "ru": "докладывать / отчёт",
+    "es": "informar / briefing",
+    "pt-BR": "relatar / briefing",
+    "examples": [
+      {
+        "ru": "Пусть каждый отдел доложит о прогрессе.",
+        "es": "Que cada departamento informe del avance.",
+        "pt-BR": "Cada departamento relata o andamento."
+      },
+      {
+        "ru": "Он только что закончил отчёт по проекту.",
+        "es": "Acaba de terminar el briefing del proyecto.",
+        "pt-BR": "Ele acabou o briefing do projeto."
+      }
+    ]
+  },
+  "讨论": {
+    "ru": "обсуждать",
+    "es": "discutir",
+    "pt-BR": "discutir",
+    "examples": [
+      {
+        "ru": "Сначала обсудим этот вопрос.",
+        "es": "Discutamos primero este tema.",
+        "pt-BR": "Vamos discutir este assunto primeiro."
+      },
+      {
+        "ru": "На встрече обсуждение было оживлённым.",
+        "es": "La discusión en la reunión fue animada.",
+        "pt-BR": "A discussão na reunião foi animada."
+      }
+    ]
+  },
+  "总结": {
+    "ru": "подводить итог / резюме",
+    "es": "resumir / síntesis",
+    "pt-BR": "resumir / síntese",
+    "examples": [
+      {
+        "ru": "Пожалуйста, резюмируйте основные пункты.",
+        "es": "Resuma los puntos clave, por favor.",
+        "pt-BR": "Resuma os pontos-chave, por favor."
+      },
+      {
+        "ru": "В конце совещания подвели итоги.",
+        "es": "Al final de la reunión se hizo un resumen.",
+        "pt-BR": "No fim da reunião fizemos um resumo."
+      }
+    ]
+  },
+  "准时": {
+    "ru": "вовремя / пунктуально",
+    "es": "puntual / a tiempo",
+    "pt-BR": "pontual / no horário",
+    "examples": [
+      {
+        "ru": "Прошу всех прийти вовремя.",
+        "es": "Asistan a la reunión a tiempo.",
+        "pt-BR": "Compareçam à reunião no horário."
+      },
+      {
+        "ru": "Он всегда пунктуален.",
+        "es": "Siempre es puntual.",
+        "pt-BR": "Ele sempre é pontual."
+      }
+    ]
+  },
+  "延期": {
+    "ru": "откладывать / переносить",
+    "es": "aplazar / posponer",
+    "pt-BR": "adiar / postergar",
+    "examples": [
+      {
+        "ru": "Проект могут отложить.",
+        "es": "El proyecto puede aplazarse.",
+        "pt-BR": "O projeto pode ser adiado."
+      },
+      {
+        "ru": "Совещание перенесли на следующую неделю.",
+        "es": "La reunión se aplazó a la semana que viene.",
+        "pt-BR": "A reunião foi adiada para a semana que vem."
+      }
+    ]
+  },
+  "记录": {
+    "ru": "протокол / записывать",
+    "es": "acta / registrar",
+    "pt-BR": "ata / registrar",
+    "examples": [
+      {
+        "ru": "Ведите протокол совещания.",
+        "es": "Tome bien el acta de la reunión.",
+        "pt-BR": "Faça bem a ata da reunião."
+      },
+      {
+        "ru": "Я записал все ключевые пункты.",
+        "es": "Anoté todos los puntos clave.",
+        "pt-BR": "Anotei todos os pontos-chave."
+      }
+    ]
+  },
+  "参会": {
+    "ru": "участвовать в совещании",
+    "es": "asistir a la reunión",
+    "pt-BR": "participar da reunião",
+    "examples": [
+      {
+        "ru": "Тебе нужно быть на совещании?",
+        "es": "¿Necesitas asistir a la reunión?",
+        "pt-BR": "Você precisa participar da reunião?"
+      },
+      {
+        "ru": "Все руководители должны участвовать.",
+        "es": "Todos los mandos deben asistir.",
+        "pt-BR": "Todos os gestores devem participar."
+      }
+    ]
+  },
+  "决议": {
+    "ru": "решение / резолюция",
+    "es": "resolución / acuerdo",
+    "pt-BR": "resolução / deliberação",
+    "examples": [
+      {
+        "ru": "Совещание приняло это решение.",
+        "es": "La reunión aprobó esta resolución.",
+        "pt-BR": "A reunião aprovou esta resolução."
+      },
+      {
+        "ru": "Исполняйте решение совещания.",
+        "es": "Ejecute el acuerdo de la reunión.",
+        "pt-BR": "Execute a deliberação da reunião."
+      }
+    ]
+  },
+  "邮件": {
+    "ru": "электронная почта / письмо",
+    "es": "correo electrónico",
+    "pt-BR": "e-mail",
+    "examples": [
+      {
+        "ru": "Я получил ваше письмо.",
+        "es": "Recibí tu correo.",
+        "pt-BR": "Recebi o seu e-mail."
+      },
+      {
+        "ru": "Проверьте письмо со вложением.",
+        "es": "Revise el correo con el adjunto.",
+        "pt-BR": "Confira o e-mail com o anexo."
+      }
+    ]
+  },
+  "附件": {
+    "ru": "вложение",
+    "es": "archivo adjunto",
+    "pt-BR": "anexo",
+    "examples": [
+      {
+        "ru": "Отчёт во вложении.",
+        "es": "El informe está en el adjunto.",
+        "pt-BR": "O relatório está no anexo."
+      },
+      {
+        "ru": "Приложите договор.",
+        "es": "Adjunte el contrato, por favor.",
+        "pt-BR": "Anexe o contrato, por favor."
+      }
+    ]
+  },
+  "回复": {
+    "ru": "отвечать / ответить",
+    "es": "responder",
+    "pt-BR": "responder",
+    "examples": [
+      {
+        "ru": "Ответьте на это письмо как можно скорее.",
+        "es": "Responda este correo pronto.",
+        "pt-BR": "Responda este e-mail o quanto antes."
+      },
+      {
+        "ru": "Я уже ответил клиенту.",
+        "es": "Ya respondí al cliente.",
+        "pt-BR": "Já respondi ao cliente."
+      }
+    ]
+  },
+  "抄送": {
+    "ru": "копия / ставить в копию (CC)",
+    "es": "con copia / CC",
+    "pt-BR": "com cópia / CC",
+    "examples": [
+      {
+        "ru": "Поставьте в копию финансовый отдел.",
+        "es": "Ponga en copia a finanzas.",
+        "pt-BR": "Coloque o financeiro em cópia."
+      },
+      {
+        "ru": "Я поставил менеджера в копию.",
+        "es": "Puse al gerente en copia.",
+        "pt-BR": "Coloquei o gerente em cópia."
+      }
+    ]
+  },
+  "主题": {
+    "ru": "тема письма",
+    "es": "asunto",
+    "pt-BR": "assunto",
+    "examples": [
+      {
+        "ru": "Исправьте тему письма.",
+        "es": "Cambie el asunto del correo.",
+        "pt-BR": "Altere o assunto do e-mail."
+      },
+      {
+        "ru": "Тема должна быть понятной.",
+        "es": "El asunto debe estar claro.",
+        "pt-BR": "O assunto precisa estar claro."
+      }
+    ]
+  },
+  "转发": {
+    "ru": "пересылать",
+    "es": "reenviar / reenviar correo",
+    "pt-BR": "encaminhar",
+    "examples": [
+      {
+        "ru": "Я переслал вам письмо.",
+        "es": "Te reenvié el correo.",
+        "pt-BR": "Encaminhei o e-mail para você."
+      },
+      {
+        "ru": "Перешлите коллегам по теме.",
+        "es": "Reenvíelo a los colegas implicados.",
+        "pt-BR": "Encaminhe aos colegas envolvidos."
+      }
+    ]
+  },
+  "确认": {
+    "ru": "подтверждать",
+    "es": "confirmar",
+    "pt-BR": "confirmar",
+    "examples": [
+      {
+        "ru": "Подтвердите получение письма.",
+        "es": "Confirme la recepción de este correo.",
+        "pt-BR": "Confirme o recebimento deste e-mail."
+      },
+      {
+        "ru": "Клиент подтвердил заказ.",
+        "es": "El cliente confirmó el pedido.",
+        "pt-BR": "O cliente confirmou o pedido."
+      }
+    ]
+  },
+  "通知": {
+    "ru": "уведомление / извещать",
+    "es": "aviso / notificar",
+    "pt-BR": "aviso / notificar",
+    "examples": [
+      {
+        "ru": "Компания разослала официальное уведомление.",
+        "es": "La empresa emitió un aviso oficial.",
+        "pt-BR": "A empresa emitiu um aviso oficial."
+      },
+      {
+        "ru": "Известите всех сотрудников.",
+        "es": "Notifique a todos los empleados.",
+        "pt-BR": "Avise todos os funcionários."
+      }
+    ]
+  },
+  "沟通": {
+    "ru": "общаться / коммуникация",
+    "es": "comunicar / comunicación",
+    "pt-BR": "comunicar / comunicação",
+    "examples": [
+      {
+        "ru": "Нам нужно лучше общаться.",
+        "es": "Necesitamos mejorar la comunicación.",
+        "pt-BR": "Precisamos melhorar a comunicação."
+      },
+      {
+        "ru": "Переписка по почте очень эффективна.",
+        "es": "La comunicación por correo es muy eficaz.",
+        "pt-BR": "A comunicação por e-mail é muito eficiente."
+      }
+    ]
+  },
+  "收件人": {
+    "ru": "получатель",
+    "es": "destinatario",
+    "pt-BR": "destinatário",
+    "examples": [
+      {
+        "ru": "Проверьте адрес получателя.",
+        "es": "Revise la dirección del destinatario.",
+        "pt-BR": "Confira o endereço do destinatário."
+      },
+      {
+        "ru": "Получателя указали неверно.",
+        "es": "El destinatario se escribió mal.",
+        "pt-BR": "O destinatário foi preenchido errado."
+      }
+    ]
+  },
+  "客户": {
+    "ru": "клиент / заказчик",
+    "es": "cliente",
+    "pt-BR": "cliente",
+    "examples": [
+      {
+        "ru": "Этот клиент очень важен.",
+        "es": "Este cliente es muy importante.",
+        "pt-BR": "Este cliente é muito importante."
+      },
+      {
+        "ru": "Ведите работу с новым клиентом.",
+        "es": "Haga el seguimiento del nuevo cliente.",
+        "pt-BR": "Faça o follow-up do novo cliente."
+      }
+    ]
+  },
+  "订单": {
+    "ru": "заказ",
+    "es": "pedido / orden",
+    "pt-BR": "pedido",
+    "examples": [
+      {
+        "ru": "Клиент сделал крупный заказ.",
+        "es": "El cliente hizo un pedido grande.",
+        "pt-BR": "O cliente fez um pedido grande."
+      },
+      {
+        "ru": "Заказ уже подтверждён.",
+        "es": "El pedido ya está confirmado.",
+        "pt-BR": "O pedido já está confirmado."
+      }
+    ]
+  },
+  "报价": {
+    "ru": "коммерческое предложение / котировка",
+    "es": "cotización / presupuesto",
+    "pt-BR": "cotação / orçamento",
+    "examples": [
+      {
+        "ru": "Пришлите коммерческое предложение.",
+        "es": "Envíe una cotización.",
+        "pt-BR": "Envie uma cotação."
+      },
+      {
+        "ru": "Их цена ниже нашей.",
+        "es": "Su cotización es más baja que la nuestra.",
+        "pt-BR": "A cotação deles é mais baixa que a nossa."
+      }
+    ]
+  },
+  "促销": {
+    "ru": "акция / продвижение продаж",
+    "es": "promoción / oferta",
+    "pt-BR": "promoção",
+    "examples": [
+      {
+        "ru": "В торговом центре идёт акция.",
+        "es": "El centro comercial tiene una promoción.",
+        "pt-BR": "O shopping está em promoção."
+      },
+      {
+        "ru": "Акция прошла успешно.",
+        "es": "La promoción fue un éxito.",
+        "pt-BR": "A promoção foi um sucesso."
+      }
+    ]
+  },
+  "市场": {
+    "ru": "рынок",
+    "es": "mercado",
+    "pt-BR": "mercado",
+    "examples": [
+      {
+        "ru": "Китайский рынок растёт быстро.",
+        "es": "El mercado chino crece rápido.",
+        "pt-BR": "O mercado chinês cresce rápido."
+      },
+      {
+        "ru": "Мы хотим выйти на новые рынки.",
+        "es": "Queremos abrir nuevos mercados.",
+        "pt-BR": "Queremos abrir novos mercados."
+      }
+    ]
+  },
+  "目标": {
+    "ru": "цель / план (KPI)",
+    "es": "objetivo / meta",
+    "pt-BR": "meta / objetivo",
+    "examples": [
+      {
+        "ru": "Цель продаж на квартал высокая.",
+        "es": "La meta de ventas de este trimestre es alta.",
+        "pt-BR": "A meta de vendas deste trimestre é alta."
+      },
+      {
+        "ru": "Мы уже выполнили план.",
+        "es": "Ya cumplimos el objetivo.",
+        "pt-BR": "Já batemos a meta."
+      }
+    ]
+  },
+  "推广": {
+    "ru": "продвигать / маркетинг",
+    "es": "promocionar / marketing",
+    "pt-BR": "divulgar / marketing",
+    "examples": [
+      {
+        "ru": "Новый продукт нужно продвигать.",
+        "es": "El producto nuevo necesita marketing.",
+        "pt-BR": "O produto novo precisa de marketing."
+      },
+      {
+        "ru": "Они продвигают в интернете.",
+        "es": "Están haciendo promoción en línea.",
+        "pt-BR": "Eles estão fazendo divulgação online."
+      }
+    ]
+  },
+  "需求": {
+    "ru": "спрос / потребность",
+    "es": "demanda / necesidad",
+    "pt-BR": "demanda / necessidade",
+    "examples": [
+      {
+        "ru": "Рыночный спрос растёт.",
+        "es": "La demanda del mercado está aumentando.",
+        "pt-BR": "A demanda do mercado está aumentando."
+      },
+      {
+        "ru": "Сначала разберитесь в потребностях клиента.",
+        "es": "Primero entienda las necesidades del cliente.",
+        "pt-BR": "Primeiro entenda as necessidades do cliente."
+      }
+    ]
+  },
+  "业绩": {
+    "ru": "результаты / показатели",
+    "es": "desempeño / resultados",
+    "pt-BR": "desempenho / resultados",
+    "examples": [
+      {
+        "ru": "У него отличные показатели.",
+        "es": "Su desempeño comercial es excelente.",
+        "pt-BR": "O desempenho de vendas dele é excelente."
+      },
+      {
+        "ru": "Показатели компании стабильно растут.",
+        "es": "El desempeño de la empresa mejora de forma constante.",
+        "pt-BR": "O desempenho da empresa melhora de forma constante."
+      }
+    ]
+  },
+  "签约": {
+    "ru": "подписывать договор",
+    "es": "firmar un contrato",
+    "pt-BR": "assinar contrato",
+    "examples": [
+      {
+        "ru": "Клиент согласился подписать.",
+        "es": "El cliente aceptó firmar.",
+        "pt-BR": "O cliente aceitou assinar."
+      },
+      {
+        "ru": "Подписываем на следующей неделе.",
+        "es": "Firmamos la semana que viene.",
+        "pt-BR": "Assinamos na semana que vem."
+      }
+    ]
+  },
+  "生产": {
+    "ru": "производство / производить",
+    "es": "producción / producir",
+    "pt-BR": "produção / produzir",
+    "examples": [
+      {
+        "ru": "Завод работает на полную мощность.",
+        "es": "La fábrica produce a plena capacidad.",
+        "pt-BR": "A fábrica produz a plena capacidade."
+      },
+      {
+        "ru": "Эта линия выпускает тысячу штук в день.",
+        "es": "Esta línea produce mil unidades al día.",
+        "pt-BR": "Esta linha produz mil unidades por dia."
+      }
+    ]
+  },
+  "质量": {
+    "ru": "качество",
+    "es": "calidad",
+    "pt-BR": "qualidade",
+    "examples": [
+      {
+        "ru": "Качество продукции должно соответствовать нормам.",
+        "es": "La calidad del producto debe cumplir la norma.",
+        "pt-BR": "A qualidade do produto precisa atender à norma."
+      },
+      {
+        "ru": "Мы повышаем качество.",
+        "es": "Estamos mejorando la calidad.",
+        "pt-BR": "Estamos melhorando a qualidade."
+      }
+    ]
+  },
+  "车间": {
+    "ru": "цех / производственный участок",
+    "es": "taller / planta",
+    "pt-BR": "chão de fábrica / oficina",
+    "examples": [
+      {
+        "ru": "Сходите посмотреть цех.",
+        "es": "Vaya a ver el taller.",
+        "pt-BR": "Vá ver o chão de fábrica."
+      },
+      {
+        "ru": "Рабочие в цехе очень добросовестные.",
+        "es": "Los operarios del taller son muy diligentes.",
+        "pt-BR": "Os operários do chão de fábrica são muito caprichosos."
+      }
+    ]
+  },
+  "原料": {
+    "ru": "сырьё",
+    "es": "materia prima",
+    "pt-BR": "matéria-prima",
+    "examples": [
+      {
+        "ru": "Цены на сырьё выросли.",
+        "es": "Subió el precio de la materia prima.",
+        "pt-BR": "O preço da matéria-prima subiu."
+      },
+      {
+        "ru": "На складе сырья достаточно.",
+        "es": "Hay materia prima suficiente en el almacén.",
+        "pt-BR": "Há matéria-prima suficiente no estoque."
+      }
+    ]
+  },
+  "设备": {
+    "ru": "оборудование",
+    "es": "equipo / maquinaria",
+    "pt-BR": "equipamento / máquina",
+    "examples": [
+      {
+        "ru": "Оборудование нужно регулярно обслуживать.",
+        "es": "El equipo necesita mantenimiento regular.",
+        "pt-BR": "O equipamento precisa de manutenção regular."
+      },
+      {
+        "ru": "Новое оборудование уже установлено.",
+        "es": "El equipo nuevo ya está instalado.",
+        "pt-BR": "O equipamento novo já está instalado."
+      }
+    ]
+  },
+  "装配": {
+    "ru": "сборка / собирать",
+    "es": "ensamblaje / ensamblar",
+    "pt-BR": "montagem / montar",
+    "examples": [
+      {
+        "ru": "Процесс сборки очень строгий.",
+        "es": "El proceso de ensamblaje es muy estricto.",
+        "pt-BR": "O processo de montagem é muito rigoroso."
+      },
+      {
+        "ru": "Рабочие собирают детали.",
+        "es": "Los operarios están ensamblando piezas.",
+        "pt-BR": "Os operários estão montando peças."
+      }
+    ]
+  },
+  "检测": {
+    "ru": "контроль качества / проверка",
+    "es": "inspección / ensayo",
+    "pt-BR": "inspeção / teste",
+    "examples": [
+      {
+        "ru": "Каждую партию нужно проверять.",
+        "es": "Cada lote debe inspeccionarse.",
+        "pt-BR": "Cada lote precisa ser inspecionado."
+      },
+      {
+        "ru": "Результаты проверки — соответствие норме.",
+        "es": "Los resultados del ensayo son conformes.",
+        "pt-BR": "Os resultados do teste estão conformes."
+      }
+    ]
+  },
+  "产量": {
+    "ru": "выпуск / объём производства",
+    "es": "producción / volumen de producción",
+    "pt-BR": "produção / volume de produção",
+    "examples": [
+      {
+        "ru": "В этом месяце выпуск побил рекорд.",
+        "es": "La producción de este mes batió un récord.",
+        "pt-BR": "A produção deste mês bateu recorde."
+      },
+      {
+        "ru": "Нужно увеличить выпуск.",
+        "es": "Hay que aumentar la producción.",
+        "pt-BR": "Precisamos aumentar a produção."
+      }
+    ]
+  },
+  "流水线": {
+    "ru": "конвейер / линия",
+    "es": "línea de montaje",
+    "pt-BR": "linha de montagem",
+    "examples": [
+      {
+        "ru": "Конвейер работает стабильно.",
+        "es": "La línea de montaje funciona de forma estable.",
+        "pt-BR": "A linha de montagem funciona de forma estável."
+      },
+      {
+        "ru": "Новая линия уже запущена.",
+        "es": "La nueva línea ya está en producción.",
+        "pt-BR": "A nova linha já está em produção."
+      }
+    ]
+  },
+  "标准": {
+    "ru": "стандарт / норма",
+    "es": "estándar / norma",
+    "pt-BR": "padrão / norma",
+    "examples": [
+      {
+        "ru": "Продукция должна соответствовать нацстандарту.",
+        "es": "Los productos deben cumplir la norma nacional.",
+        "pt-BR": "Os produtos devem atender à norma nacional."
+      },
+      {
+        "ru": "Мы повысили производственные стандарты.",
+        "es": "Elevamos los estándares de producción.",
+        "pt-BR": "Elevamos os padrões de produção."
+      }
+    ]
+  },
+  "发货": {
+    "ru": "отгружать / отправлять товар",
+    "es": "enviar / despachar",
+    "pt-BR": "enviar / despachar",
+    "examples": [
+      {
+        "ru": "Заказ можно отгрузить сегодня.",
+        "es": "El pedido puede enviarse hoy.",
+        "pt-BR": "O pedido pode ser enviado hoje."
+      },
+      {
+        "ru": "Склад уже оформил отгрузку.",
+        "es": "El almacén ya organizó el envío.",
+        "pt-BR": "O depósito já organizou o envio."
+      }
+    ]
+  },
+  "物流": {
+    "ru": "логистика",
+    "es": "logística",
+    "pt-BR": "logística",
+    "examples": [
+      {
+        "ru": "Информация по логистике обновлена.",
+        "es": "La información logística se actualizó.",
+        "pt-BR": "A informação logística foi atualizada."
+      },
+      {
+        "ru": "Мы сменили логистическую компанию.",
+        "es": "Cambiamos de empresa de logística.",
+        "pt-BR": "Trocamos de empresa de logística."
+      }
+    ]
+  },
+  "仓库": {
+    "ru": "склад",
+    "es": "almacén / depósito",
+    "pt-BR": "armazém / depósito",
+    "examples": [
+      {
+        "ru": "Товар на складе.",
+        "es": "La mercancía está en el almacén.",
+        "pt-BR": "A mercadoria está no armazém."
+      },
+      {
+        "ru": "Склад ведётся по регламенту.",
+        "es": "La gestión del almacén es muy ordenada.",
+        "pt-BR": "A gestão do armazém é bem organizada."
+      }
+    ]
+  },
+  "运输": {
+    "ru": "перевозка / транспортировка",
+    "es": "transporte / envío",
+    "pt-BR": "transporte / envio",
+    "examples": [
+      {
+        "ru": "Перевозка занимает около трёх дней.",
+        "es": "El transporte tarda unos tres días.",
+        "pt-BR": "O transporte leva cerca de três dias."
+      },
+      {
+        "ru": "Эта партия идёт морем.",
+        "es": "Este lote va por vía marítima.",
+        "pt-BR": "Este lote vai por via marítima."
+      }
+    ]
+  },
+  "报关": {
+    "ru": "таможенное оформление",
+    "es": "despacho de aduana",
+    "pt-BR": "despacho aduaneiro",
+    "examples": [
+      {
+        "ru": "Экспортный товар нужно оформлять на таможне.",
+        "es": "La mercancía de exportación requiere despacho.",
+        "pt-BR": "Mercadoria de exportação precisa de despacho."
+      },
+      {
+        "ru": "Таможенные формальности уже готовы.",
+        "es": "Los trámites de aduana ya están listos.",
+        "pt-BR": "Os trâmites da alfândega já estão prontos."
+      }
+    ]
+  },
+  "快递": {
+    "ru": "экспресс-доставка / курьер",
+    "es": "mensajería urgente / express",
+    "pt-BR": "sedex / encomenda expressa",
+    "examples": [
+      {
+        "ru": "Отправьте образец курьером.",
+        "es": "Envíe la muestra por mensajería urgente.",
+        "pt-BR": "Envie a amostra por encomenda expressa."
+      },
+      {
+        "ru": "Курьер прибудет завтра.",
+        "es": "El paquete express llega mañana.",
+        "pt-BR": "A encomenda expressa chega amanhã."
+      }
+    ]
+  },
+  "包装": {
+    "ru": "упаковка",
+    "es": "embalaje / empaque",
+    "pt-BR": "embalagem",
+    "examples": [
+      {
+        "ru": "Усильте упаковку товара.",
+        "es": "Refuerce el embalaje del producto.",
+        "pt-BR": "Reforce a embalagem do produto."
+      },
+      {
+        "ru": "Упаковка не должна быть повреждена.",
+        "es": "El embalaje no puede estar dañado.",
+        "pt-BR": "A embalagem não pode estar danificada."
+      }
+    ]
+  },
+  "签收": {
+    "ru": "расписываться за получение",
+    "es": "firmar la recepción",
+    "pt-BR": "assinar o recebimento",
+    "examples": [
+      {
+        "ru": "Распишитесь на накладной курьера.",
+        "es": "Firme en el albarán, por favor.",
+        "pt-BR": "Assine no comprovante, por favor."
+      },
+      {
+        "ru": "Клиент уже расписался за получение.",
+        "es": "El cliente ya firmó la recepción.",
+        "pt-BR": "O cliente já assinou o recebimento."
+      }
+    ]
+  },
+  "延误": {
+    "ru": "задержка",
+    "es": "retraso / demora",
+    "pt-BR": "atraso / demora",
+    "examples": [
+      {
+        "ru": "Задержка рейса повлияла на отгрузку.",
+        "es": "El retraso del vuelo afectó el envío.",
+        "pt-BR": "O atraso do voo afetou o envio."
+      },
+      {
+        "ru": "Объясните причину задержки.",
+        "es": "Explique el motivo del retraso.",
+        "pt-BR": "Explique o motivo do atraso."
+      }
+    ]
+  },
+  "跟踪": {
+    "ru": "отслеживать",
+    "es": "rastrear / seguir",
+    "pt-BR": "rastrear / acompanhar",
+    "examples": [
+      {
+        "ru": "Посылку можно отслеживать онлайн.",
+        "es": "Puede rastrear el paquete en línea.",
+        "pt-BR": "Dá para rastrear o pacote online."
+      },
+      {
+        "ru": "Логистика отслеживает груз.",
+        "es": "Logística está rastreando la mercancía.",
+        "pt-BR": "A logística está rastreando a carga."
+      }
+    ]
+  },
+  "发票": {
+    "ru": "счёт-фактура / инвойс",
+    "es": "factura",
+    "pt-BR": "nota fiscal / fatura",
+    "examples": [
+      {
+        "ru": "Выпишите счёт НДС.",
+        "es": "Emita una factura de IVA.",
+        "pt-BR": "Emita uma nota fiscal de IVA."
+      },
+      {
+        "ru": "Счёт уже отправили клиенту.",
+        "es": "La factura ya se envió al cliente.",
+        "pt-BR": "A nota já foi enviada ao cliente."
+      }
+    ]
+  },
+  "付款": {
+    "ru": "оплата / платёж",
+    "es": "pago",
+    "pt-BR": "pagamento",
+    "examples": [
+      {
+        "ru": "Оплатите до конца месяца.",
+        "es": "Pague antes de fin de mes.",
+        "pt-BR": "Pague até o fim do mês."
+      },
+      {
+        "ru": "Клиент уже оплатил.",
+        "es": "El cliente ya pagó.",
+        "pt-BR": "O cliente já pagou."
+      }
+    ]
+  },
+  "预算": {
+    "ru": "бюджет",
+    "es": "presupuesto",
+    "pt-BR": "orçamento",
+    "examples": [
+      {
+        "ru": "Бюджет на квартал очень жёсткий.",
+        "es": "El presupuesto de este trimestre está muy ajustado.",
+        "pt-BR": "O orçamento deste trimestre está apertado."
+      },
+      {
+        "ru": "Подайте бюджет отдела.",
+        "es": "Presente el presupuesto del departamento.",
+        "pt-BR": "Envie o orçamento do departamento."
+      }
+    ]
+  },
+  "成本": {
+    "ru": "себестоимость / затраты",
+    "es": "coste / costo",
+    "pt-BR": "custo",
+    "examples": [
+      {
+        "ru": "Нужно контролировать затраты.",
+        "es": "Hay que controlar los costes.",
+        "pt-BR": "Precisamos controlar os custos."
+      },
+      {
+        "ru": "Себестоимость сырья выросла.",
+        "es": "Subió el coste de la materia prima.",
+        "pt-BR": "O custo da matéria-prima subiu."
+      }
+    ]
+  },
+  "利润": {
+    "ru": "прибыль",
+    "es": "beneficio / ganancia",
+    "pt-BR": "lucro",
+    "examples": [
+      {
+        "ru": "Прибыль компании стабильно растёт.",
+        "es": "Los beneficios de la empresa crecen de forma constante.",
+        "pt-BR": "O lucro da empresa cresce de forma constante."
+      },
+      {
+        "ru": "У этого заказа хорошая маржа.",
+        "es": "Este pedido tiene un buen margen.",
+        "pt-BR": "Este pedido tem uma boa margem."
+      }
+    ]
+  },
+  "账户": {
+    "ru": "счёт (банковский)",
+    "es": "cuenta",
+    "pt-BR": "conta",
+    "examples": [
+      {
+        "ru": "Переведите деньги на этот счёт.",
+        "es": "Transfiera el pago a esta cuenta.",
+        "pt-BR": "Transfira o pagamento para esta conta."
+      },
+      {
+        "ru": "На счёте компании достаточно средств.",
+        "es": "El saldo de la cuenta es suficiente.",
+        "pt-BR": "O saldo da conta é suficiente."
+      }
+    ]
+  },
+  "转账": {
+    "ru": "банковский перевод",
+    "es": "transferencia bancaria",
+    "pt-BR": "transferência bancária",
+    "examples": [
+      {
+        "ru": "Оплатите банковским переводом.",
+        "es": "Pague por transferencia bancaria.",
+        "pt-BR": "Pague por transferência bancária."
+      },
+      {
+        "ru": "Я уже перевёл.",
+        "es": "Ya hice la transferencia.",
+        "pt-BR": "Já fiz a transferência."
+      }
+    ]
+  },
+  "报销": {
+    "ru": "возмещение расходов / авансовый отчёт",
+    "es": "reembolso de gastos",
+    "pt-BR": "reembolso de despesas",
+    "examples": [
+      {
+        "ru": "Командировочные можно возместить.",
+        "es": "Los gastos de viaje se pueden reembolsar.",
+        "pt-BR": "Despesas de viagem podem ser reembolsadas."
+      },
+      {
+        "ru": "Подайте документы на возмещение.",
+        "es": "Presente los justificantes de reembolso.",
+        "pt-BR": "Envie os comprovantes de reembolso."
+      }
+    ]
+  },
+  "审计": {
+    "ru": "аудит / проверка",
+    "es": "auditoría",
+    "pt-BR": "auditoria",
+    "examples": [
+      {
+        "ru": "В компании идёт аудит.",
+        "es": "La empresa está en auditoría.",
+        "pt-BR": "A empresa está em auditoria."
+      },
+      {
+        "ru": "Аудиторский отчёт выйдет в следующем месяце.",
+        "es": "El informe de auditoría sale el mes que viene.",
+        "pt-BR": "O relatório de auditoria sai no mês que vem."
+      }
+    ]
+  },
+  "汇率": {
+    "ru": "валютный курс",
+    "es": "tipo de cambio",
+    "pt-BR": "câmbio",
+    "examples": [
+      {
+        "ru": "Колебания курса повлияли на прибыль.",
+        "es": "Las fluctuaciones del tipo de cambio afectaron los beneficios.",
+        "pt-BR": "As flutuações do câmbio afetaram o lucro."
+      },
+      {
+        "ru": "Проверьте сегодняшний курс.",
+        "es": "Consulte el tipo de cambio de hoy.",
+        "pt-BR": "Consulte o câmbio de hoje."
+      }
+    ]
+  },
+  "来电": {
+    "ru": "входящий звонок",
+    "es": "llamada entrante",
+    "pt-BR": "chamada recebida",
+    "examples": [
+      {
+        "ru": "У вас входящий звонок.",
+        "es": "Tiene una llamada entrante.",
+        "pt-BR": "Você tem uma chamada recebida."
+      },
+      {
+        "ru": "Только что был важный звонок.",
+        "es": "Hubo una llamada importante hace un momento.",
+        "pt-BR": "Houve uma ligação importante agora há pouco."
+      }
+    ]
+  },
+  "回电": {
+    "ru": "перезванивать",
+    "es": "devolver la llamada",
+    "pt-BR": "retornar a ligação",
+    "examples": [
+      {
+        "ru": "Я перезвоню позже.",
+        "es": "Le devuelvo la llamada más tarde.",
+        "pt-BR": "Retorno a ligação mais tarde."
+      },
+      {
+        "ru": "Перезвоните как можно скорее.",
+        "es": "Devuelva la llamada lo antes posible.",
+        "pt-BR": "Retorne a ligação o quanto antes."
+      }
+    ]
+  },
+  "留言": {
+    "ru": "оставить сообщение",
+    "es": "dejar un recado",
+    "pt-BR": "deixar recado",
+    "examples": [
+      {
+        "ru": "Его нет, оставьте сообщение.",
+        "es": "No está, deje un recado.",
+        "pt-BR": "Ele não está, deixe recado."
+      },
+      {
+        "ru": "Я оставил сообщение на автоответчике.",
+        "es": "Dejé un recado en el buzón de voz.",
+        "pt-BR": "Deixei recado na caixa postal."
+      }
+    ]
+  },
+  "接通": {
+    "ru": "соединять (звонок)",
+    "es": "conectar / poner en línea",
+    "pt-BR": "conectar / completar a chamada",
+    "examples": [
+      {
+        "ru": "Звонок всё не соединяется.",
+        "es": "La llamada no conecta.",
+        "pt-BR": "A ligação não completa."
+      },
+      {
+        "ru": "Наконец соединили.",
+        "es": "Por fin nos pusieron en línea.",
+        "pt-BR": "Finalmente a ligação completou."
+      }
+    ]
+  },
+  "占线": {
+    "ru": "занято (линия)",
+    "es": "ocupado (línea)",
+    "pt-BR": "ocupado (linha)",
+    "examples": [
+      {
+        "ru": "Его линия занята.",
+        "es": "Su línea está ocupada.",
+        "pt-BR": "A linha dele está ocupada."
+      },
+      {
+        "ru": "Позвоните позже, линия занята.",
+        "es": "Llame más tarde, la línea está ocupada.",
+        "pt-BR": "Ligue mais tarde, a linha está ocupada."
+      }
+    ]
+  },
+  "会议电话": {
+    "ru": "конференц-звонок",
+    "es": "llamada de conferencia",
+    "pt-BR": "chamada em conferência",
+    "examples": [
+      {
+        "ru": "В десять — конференц-звонок.",
+        "es": "A las diez hay una conferencia.",
+        "pt-BR": "Às dez tem uma conferência."
+      },
+      {
+        "ru": "Подключитесь к конференц-звонку.",
+        "es": "Únase a la conferencia, por favor.",
+        "pt-BR": "Entre na conferência, por favor."
+      }
+    ]
+  },
+  "信号": {
+    "ru": "сигнал (связи)",
+    "es": "señal",
+    "pt-BR": "sinal",
+    "examples": [
+      {
+        "ru": "Здесь плохой сигнал.",
+        "es": "Aquí la señal es mala.",
+        "pt-BR": "Aqui o sinal está ruim."
+      },
+      {
+        "ru": "Вас не слышно, сигнал слабый.",
+        "es": "No le oigo, la señal es muy débil.",
+        "pt-BR": "Não estou ouvindo, o sinal está fraco."
+      }
+    ]
+  },
+  "挂断": {
+    "ru": "класть трубку",
+    "es": "colgar",
+    "pt-BR": "desligar",
+    "examples": [
+      {
+        "ru": "Пока не кладите трубку.",
+        "es": "No cuelgue todavía.",
+        "pt-BR": "Não desligue ainda."
+      },
+      {
+        "ru": "Он сказал и положил трубку.",
+        "es": "Habló y colgó.",
+        "pt-BR": "Ele falou e desligou."
+      }
+    ]
+  },
+  "拨打": {
+    "ru": "набирать номер",
+    "es": "marcar / llamar",
+    "pt-BR": "discar / ligar",
+    "examples": [
+      {
+        "ru": "Позвоните на горячую линию.",
+        "es": "Marque la línea de atención al cliente.",
+        "pt-BR": "Ligue para o SAC."
+      },
+      {
+        "ru": "Я набирал три раза — никто не взял.",
+        "es": "Marqué tres veces y nadie contestó.",
+        "pt-BR": "Disquei três vezes e ninguém atendeu."
+      }
+    ]
+  },
+  "通话": {
+    "ru": "разговор / звонок",
+    "es": "llamada / conversación",
+    "pt-BR": "ligação / conversa",
+    "examples": [
+      {
+        "ru": "Наш разговор записывается.",
+        "es": "Nuestra llamada está siendo grabada.",
+        "pt-BR": "Nossa ligação está sendo gravada."
+      },
+      {
+        "ru": "Не затягивайте разговор.",
+        "es": "No alargue demasiado la llamada.",
+        "pt-BR": "Não alongue demais a ligação."
+      }
+    ]
+  },
+  "同事": {
+    "ru": "коллега",
+    "es": "compañero de trabajo",
+    "pt-BR": "colega de trabalho",
+    "examples": [
+      {
+        "ru": "Мои коллеги очень помогают.",
+        "es": "Mis compañeros son de mucha ayuda.",
+        "pt-BR": "Meus colegas ajudam muito."
+      },
+      {
+        "ru": "Передайте это коллеге.",
+        "es": "Entrégueselo a un compañero.",
+        "pt-BR": "Entregue isso a um colega."
+      }
+    ]
+  },
+  "部门": {
+    "ru": "отдел / департамент",
+    "es": "departamento",
+    "pt-BR": "departamento",
+    "examples": [
+      {
+        "ru": "Он работает в отделе продаж.",
+        "es": "Trabaja en el departamento de ventas.",
+        "pt-BR": "Ele trabalha no departamento de vendas."
+      },
+      {
+        "ru": "Пусть каждый отдел сдаст отчёт.",
+        "es": "Que cada departamento entregue el informe.",
+        "pt-BR": "Cada departamento deve entregar o relatório."
+      }
+    ]
+  },
+  "加班": {
+    "ru": "работать сверхурочно",
+    "es": "hacer horas extra",
+    "pt-BR": "fazer hora extra",
+    "examples": [
+      {
+        "ru": "Сегодня вечером, возможно, придётся задержаться.",
+        "es": "Esta noche puede que hagamos horas extra.",
+        "pt-BR": "Hoje à noite talvez tenhamos que fazer hora extra."
+      },
+      {
+        "ru": "В последнее время он часто остаётся сверхурочно.",
+        "es": "Últimamente hace muchas horas extra.",
+        "pt-BR": "Ultimamente ele faz muita hora extra."
+      }
+    ]
+  },
+  "请假": {
+    "ru": "брать отгул / оформлять отпуск",
+    "es": "pedir permiso / coger vacaciones",
+    "pt-BR": "pedir folga / tirar licença",
+    "examples": [
+      {
+        "ru": "Хочу взять завтра отгул.",
+        "es": "Quisiera pedirme mañana libre.",
+        "pt-BR": "Quero tirar folga amanhã."
+      },
+      {
+        "ru": "Она взяла отгул и поехала в больницу.",
+        "es": "Pidió permiso para ir al hospital.",
+        "pt-BR": "Ela tirou folga para ir ao hospital."
+      }
+    ]
+  },
+  "打印": {
+    "ru": "печатать",
+    "es": "imprimir",
+    "pt-BR": "imprimir",
+    "examples": [
+      {
+        "ru": "Распечатайте этот документ, пожалуйста.",
+        "es": "Imprima este documento, por favor.",
+        "pt-BR": "Imprima este documento, por favor."
+      },
+      {
+        "ru": "В принтере закончилась бумага.",
+        "es": "La impresora se quedó sin papel.",
+        "pt-BR": "A impressora está sem papel."
+      }
+    ]
+  },
+  "复印": {
+    "ru": "ксерокопировать",
+    "es": "fotocopiar",
+    "pt-BR": "xerox / fotocopiar",
+    "examples": [
+      {
+        "ru": "Сделайте пять копий договора.",
+        "es": "Haga cinco copias del contrato.",
+        "pt-BR": "Faça cinco cópias do contrato."
+      },
+      {
+        "ru": "Копир вон там.",
+        "es": "La fotocopiadora está allí.",
+        "pt-BR": "A copiadora fica ali."
+      }
+    ]
+  },
+  "文件": {
+    "ru": "документ / файл",
+    "es": "documento / archivo",
+    "pt-BR": "documento / arquivo",
+    "examples": [
+      {
+        "ru": "Документ уже отправили вам.",
+        "es": "El documento ya se le envió.",
+        "pt-BR": "O documento já foi enviado a você."
+      },
+      {
+        "ru": "Подшейте этот документ.",
+        "es": "Archive este documento.",
+        "pt-BR": "Arquive este documento."
+      }
+    ]
+  },
+  "日程": {
+    "ru": "расписание / календарь встреч",
+    "es": "agenda / calendario",
+    "pt-BR": "agenda / calendário",
+    "examples": [
+      {
+        "ru": "Посмотрите сегодняшнее расписание.",
+        "es": "Mire la agenda de hoy.",
+        "pt-BR": "Olhe a agenda de hoje."
+      },
+      {
+        "ru": "Я добавил встречу в календарь.",
+        "es": "Añadí la reunión a la agenda.",
+        "pt-BR": "Incluí a reunião na agenda."
+      }
+    ]
+  },
+  "工位": {
+    "ru": "рабочее место",
+    "es": "puesto de trabajo",
+    "pt-BR": "estação de trabalho / mesa",
+    "examples": [
+      {
+        "ru": "Моё место у окна.",
+        "es": "Mi puesto está junto a la ventana.",
+        "pt-BR": "Minha mesa fica junto à janela."
+      },
+      {
+        "ru": "Приведите в порядок рабочее место.",
+        "es": "Ordene su puesto de trabajo.",
+        "pt-BR": "Organize a sua mesa."
+      }
+    ]
+  },
+  "办公": {
+    "ru": "работать в офисе / офисная работа",
+    "es": "trabajar en la oficina",
+    "pt-BR": "trabalhar no escritório",
+    "examples": [
+      {
+        "ru": "Я работаю в офисе.",
+        "es": "Trabajo en la oficina.",
+        "pt-BR": "Trabalho no escritório."
+      },
+      {
+        "ru": "Сегодня работаю из дома.",
+        "es": "Hoy trabajo desde casa.",
+        "pt-BR": "Hoje trabalho de casa."
+      }
+    ]
+  },
+  "谈判": {
+    "ru": "переговоры",
+    "es": "negociación",
+    "pt-BR": "negociação",
+    "examples": [
+      {
+        "ru": "Переговоры длились три часа.",
+        "es": "La negociación duró tres horas.",
+        "pt-BR": "A negociação durou três horas."
+      },
+      {
+        "ru": "Переговоры сторон прошли гладко.",
+        "es": "Ambas partes negociaron sin problemas.",
+        "pt-BR": "Os dois lados negociaram sem problemas."
+      }
+    ]
+  },
+  "条件": {
+    "ru": "условия",
+    "es": "condiciones / términos",
+    "pt-BR": "condições / termos",
+    "examples": [
+      {
+        "ru": "Разъясните условия сотрудничества.",
+        "es": "Explique las condiciones de cooperación.",
+        "pt-BR": "Explique as condições de cooperação."
+      },
+      {
+        "ru": "Эти условия мы можем принять.",
+        "es": "Podemos aceptar estas condiciones.",
+        "pt-BR": "Podemos aceitar estas condições."
+      }
+    ]
+  },
+  "让步": {
+    "ru": "уступать / уступка",
+    "es": "ceder / concesión",
+    "pt-BR": "ceder / concessão",
+    "examples": [
+      {
+        "ru": "Обе стороны должны пойти на уступки.",
+        "es": "Ambas partes tienen que ceder.",
+        "pt-BR": "Os dois lados precisam ceder."
+      },
+      {
+        "ru": "Мы уступили в цене.",
+        "es": "Hicimos una concesión en el precio.",
+        "pt-BR": "Fizemos uma concessão no preço."
+      }
+    ]
+  },
+  "合作": {
+    "ru": "сотрудничество / партнёрство",
+    "es": "cooperación / colaboración",
+    "pt-BR": "cooperação / parceria",
+    "examples": [
+      {
+        "ru": "Мы надеемся на долгосрочное сотрудничество.",
+        "es": "Esperamos una cooperación a largo plazo.",
+        "pt-BR": "Esperamos uma parceria de longo prazo."
+      },
+      {
+        "ru": "Сотрудничество выгодно обеим сторонам.",
+        "es": "La cooperación beneficia a ambas partes.",
+        "pt-BR": "A cooperação beneficia os dois lados."
+      }
+    ]
+  },
+  "方案": {
+    "ru": "предложение / план / схема",
+    "es": "propuesta / plan",
+    "pt-BR": "proposta / plano",
+    "examples": [
+      {
+        "ru": "Представьте новое предложение.",
+        "es": "Presente una nueva propuesta.",
+        "pt-BR": "Apresente uma nova proposta."
+      },
+      {
+        "ru": "Этот план более реалистичен.",
+        "es": "Este plan es más viable.",
+        "pt-BR": "Este plano é mais viável."
+      }
+    ]
+  },
+  "底线": {
+    "ru": "красная черта / нижний предел",
+    "es": "línea roja / mínimo aceptable",
+    "pt-BR": "linha vermelha / limite mínimo",
+    "examples": [
+      {
+        "ru": "Это наш нижний предел.",
+        "es": "Esta es nuestra línea roja.",
+        "pt-BR": "Esta é a nossa linha vermelha."
+      },
+      {
+        "ru": "Цена не может быть ниже предела.",
+        "es": "El precio no puede bajar de nuestro mínimo.",
+        "pt-BR": "O preço não pode ficar abaixo do nosso mínimo."
+      }
+    ]
+  },
+  "共识": {
+    "ru": "консенсус / согласие",
+    "es": "consenso",
+    "pt-BR": "consenso",
+    "examples": [
+      {
+        "ru": "Стороны достигли согласия.",
+        "es": "Ambas partes llegaron a un consenso.",
+        "pt-BR": "Os dois lados chegaram a um consenso."
+      },
+      {
+        "ru": "Нужно ещё лучше согласовать позиции.",
+        "es": "Aún hay que construir más consenso.",
+        "pt-BR": "Ainda precisamos construir mais consenso."
+      }
+    ]
+  },
+  "条款": {
+    "ru": "пункт / статья (договора)",
+    "es": "cláusula / disposición",
+    "pt-BR": "cláusula / disposição",
+    "examples": [
+      {
+        "ru": "Внимательно проверьте пункты договора.",
+        "es": "Revise con cuidado las cláusulas del contrato.",
+        "pt-BR": "Revise com cuidado as cláusulas do contrato."
+      },
+      {
+        "ru": "Этот пункт нужно изменить.",
+        "es": "Esta cláusula hay que revisarla.",
+        "pt-BR": "Esta cláusula precisa ser alterada."
+      }
+    ]
+  },
+  "利益": {
+    "ru": "интересы / выгода",
+    "es": "interés / beneficio",
+    "pt-BR": "interesse / benefício",
+    "examples": [
+      {
+        "ru": "Нужно учитывать интересы обеих сторон.",
+        "es": "Hay que tener en cuenta el interés de ambas partes.",
+        "pt-BR": "É preciso considerar o interesse dos dois lados."
+      },
+      {
+        "ru": "Это решение сильно затрагивает интересы.",
+        "es": "Esta decisión afecta mucho nuestros intereses.",
+        "pt-BR": "Esta decisão afeta muito os nossos interesses."
+      }
+    ]
+  },
+  "僵局": {
+    "ru": "тупик (в переговорах)",
+    "es": "punto muerto / estancamiento",
+    "pt-BR": "impasse",
+    "examples": [
+      {
+        "ru": "Переговоры зашли в тупик.",
+        "es": "La negociación llegó a un punto muerto.",
+        "pt-BR": "A negociação chegou a um impasse."
+      },
+      {
+        "ru": "Нужно выйти из тупика.",
+        "es": "Hay que romper el estancamiento.",
+        "pt-BR": "Precisamos sair do impasse."
+      }
+    ]
+  },
+  "合同": {
+    "ru": "договор / контракт",
+    "es": "contrato",
+    "pt-BR": "contrato",
+    "examples": [
+      {
+        "ru": "Подпишите договор.",
+        "es": "Firme el contrato.",
+        "pt-BR": "Assine o contrato."
+      },
+      {
+        "ru": "Срок действия договора — год.",
+        "es": "El contrato tiene vigencia de un año.",
+        "pt-BR": "O contrato tem validade de um ano."
+      }
+    ]
+  },
+  "签署": {
+    "ru": "подписывать",
+    "es": "firmar / suscribir",
+    "pt-BR": "assinar",
+    "examples": [
+      {
+        "ru": "Сегодня стороны подписывают соглашение.",
+        "es": "Hoy ambas partes firman el acuerdo.",
+        "pt-BR": "Hoje os dois lados assinam o acordo."
+      },
+      {
+        "ru": "Подпишитесь на последней странице.",
+        "es": "Firme en la última página.",
+        "pt-BR": "Assine na última página."
+      }
+    ]
+  },
+  "违约": {
+    "ru": "нарушение договора",
+    "es": "incumplimiento contractual",
+    "pt-BR": "quebra de contrato",
+    "examples": [
+      {
+        "ru": "За нарушение договора нужно возмещать убытки.",
+        "es": "El incumplimiento exige compensación.",
+        "pt-BR": "A quebra de contrato exige indenização."
+      },
+      {
+        "ru": "Компания не будет нарушать договор.",
+        "es": "La empresa no incumplirá el contrato.",
+        "pt-BR": "A empresa não vai quebrar o contrato."
+      }
+    ]
+  },
+  "有效期": {
+    "ru": "срок действия",
+    "es": "periodo de vigencia",
+    "pt-BR": "prazo de validade",
+    "examples": [
+      {
+        "ru": "Срок действия договора — три года.",
+        "es": "El contrato tiene una vigencia de tres años.",
+        "pt-BR": "O contrato tem validade de três anos."
+      },
+      {
+        "ru": "Подтвердите срок действия.",
+        "es": "Confirme el periodo de vigencia.",
+        "pt-BR": "Confirme o prazo de validade."
+      }
+    ]
+  },
+  "生效": {
+    "ru": "вступать в силу",
+    "es": "entrar en vigor",
+    "pt-BR": "entrar em vigor",
+    "examples": [
+      {
+        "ru": "Договор вступает в силу в следующем месяце.",
+        "es": "El contrato entra en vigor el mes que viene.",
+        "pt-BR": "O contrato entra em vigor no mês que vem."
+      },
+      {
+        "ru": "Соглашение уже действует.",
+        "es": "El acuerdo ya está en vigor.",
+        "pt-BR": "O acordo já está em vigor."
+      }
+    ]
+  },
+  "续签": {
+    "ru": "продлевать (договор)",
+    "es": "renovar (un contrato)",
+    "pt-BR": "renovar (contrato)",
+    "examples": [
+      {
+        "ru": "Мы хотим продлить договор.",
+        "es": "Queremos renovar el contrato.",
+        "pt-BR": "Queremos renovar o contrato."
+      },
+      {
+        "ru": "Договор скоро истекает, нужно продлить.",
+        "es": "El contrato vence pronto y hay que renovarlo.",
+        "pt-BR": "O contrato vence em breve e precisa ser renovado."
+      }
+    ]
+  },
+  "保密": {
+    "ru": "конфиденциальность / не разглашать",
+    "es": "confidencial / NDA",
+    "pt-BR": "confidencial / NDA",
+    "examples": [
+      {
+        "ru": "Соблюдайте соглашение о конфиденциальности.",
+        "es": "Cumpla el acuerdo de confidencialidad.",
+        "pt-BR": "Cumpra o acordo de confidencialidade."
+      },
+      {
+        "ru": "Эти материалы нужно держать в тайне.",
+        "es": "Esta información debe mantenerse confidencial.",
+        "pt-BR": "Estas informações devem ser mantidas em sigilo."
+      }
+    ]
+  },
+  "保密性": {
+    "ru": "конфиденциальность (свойство)",
+    "es": "carácter confidencial",
+    "pt-BR": "sigilo / confidencialidade",
+    "examples": [
+      {
+        "ru": "Обратите внимание на конфиденциальность документа.",
+        "es": "Tenga en cuenta la confidencialidad del documento.",
+        "pt-BR": "Atenção ao sigilo do documento."
+      },
+      {
+        "ru": "Требования к конфиденциальности очень строгие.",
+        "es": "Los requisitos de confidencialidad son muy estrictos.",
+        "pt-BR": "Os requisitos de sigilo são muito rigorosos."
+      }
+    ]
+  },
+  "甲方": {
+    "ru": "сторона А (договора)",
+    "es": "Parte A (contrato)",
+    "pt-BR": "Parte A (contrato)",
+    "examples": [
+      {
+        "ru": "Сторона А предоставляет оборудование.",
+        "es": "La Parte A se encarga de proporcionar el equipo.",
+        "pt-BR": "A Parte A fica responsável por fornecer o equipamento."
+      },
+      {
+        "ru": "Представитель стороны А уже подписал.",
+        "es": "El representante de la Parte A ya firmó.",
+        "pt-BR": "O representante da Parte A já assinou."
+      }
+    ]
+  },
+  "乙方": {
+    "ru": "сторона Б (договора)",
+    "es": "Parte B (contrato)",
+    "pt-BR": "Parte B (contrato)",
+    "examples": [
+      {
+        "ru": "Сторона Б должна поставить товар за тридцать дней.",
+        "es": "La Parte B debe entregar en treinta días.",
+        "pt-BR": "A Parte B deve entregar em trinta dias."
+      },
+      {
+        "ru": "Сторона Б согласна с вышеуказанными пунктами.",
+        "es": "La Parte B acepta las cláusulas anteriores.",
+        "pt-BR": "A Parte B concorda com as cláusulas acima."
+      }
+    ]
+  }
+}
