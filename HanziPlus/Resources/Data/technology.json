@@ -1,0 +1,1802 @@
+[
+  {
+    "section": "smartphones",
+    "hanzi": "智能手机",
+    "pinyin": "zhìnéng shǒujī",
+    "english": "smartphone",
+    "examples": [
+      {
+        "hanzi": "智能手机改变了生活。",
+        "pinyin": "Zhìnéng shǒujī gǎibiàn le shēnghuó.",
+        "english": "Smartphones changed our lives."
+      },
+      {
+        "hanzi": "我换了新智能手机。",
+        "pinyin": "Wǒ huàn le xīn zhìnéng shǒujī.",
+        "english": "I got a new smartphone."
+      }
+    ]
+  },
+  {
+    "section": "smartphones",
+    "hanzi": "屏幕",
+    "pinyin": "píngmù",
+    "english": "screen",
+    "examples": [
+      {
+        "hanzi": "这个屏幕很大。",
+        "pinyin": "Zhège píngmù hěn dà.",
+        "english": "This screen is very large."
+      },
+      {
+        "hanzi": "屏幕碎了要换。",
+        "pinyin": "Píngmù suì le yào huàn.",
+        "english": "The cracked screen needs replacing."
+      }
+    ]
+  },
+  {
+    "section": "smartphones",
+    "hanzi": "充电",
+    "pinyin": "chōngdiàn",
+    "english": "to charge",
+    "examples": [
+      {
+        "hanzi": "手机快没电了，要充电。",
+        "pinyin": "Shǒujī kuài méi diàn le, yào chōngdiàn.",
+        "english": "The phone is low, needs charging."
+      },
+      {
+        "hanzi": "充电器在桌上。",
+        "pinyin": "Chōngdiànqì zài zhuō shàng.",
+        "english": "The charger is on the table."
+      }
+    ]
+  },
+  {
+    "section": "smartphones",
+    "hanzi": "应用",
+    "pinyin": "yìngyòng",
+    "english": "app / application",
+    "examples": [
+      {
+        "hanzi": "你下载这个应用了吗？",
+        "pinyin": "Nǐ xiàzài zhège yìngyòng le ma?",
+        "english": "Did you download this app?"
+      },
+      {
+        "hanzi": "这个应用很好用。",
+        "pinyin": "Zhège yìngyòng hěn hǎo yòng.",
+        "english": "This app is very useful."
+      }
+    ]
+  },
+  {
+    "section": "smartphones",
+    "hanzi": "更新",
+    "pinyin": "gēngxīn",
+    "english": "to update",
+    "examples": [
+      {
+        "hanzi": "请更新系统。",
+        "pinyin": "Qǐng gēngxīn xìtǒng.",
+        "english": "Please update the system."
+      },
+      {
+        "hanzi": "应用有新版本更新。",
+        "pinyin": "Yìngyòng yǒu xīn bǎnběn gēngxīn.",
+        "english": "The app has a new update."
+      }
+    ]
+  },
+  {
+    "section": "smartphones",
+    "hanzi": "指纹",
+    "pinyin": "zhǐwén",
+    "english": "fingerprint",
+    "examples": [
+      {
+        "hanzi": "用指纹解锁手机。",
+        "pinyin": "Yòng zhǐwén jiěsuǒ shǒujī.",
+        "english": "Unlock the phone with fingerprint."
+      },
+      {
+        "hanzi": "指纹识别很快。",
+        "pinyin": "Zhǐwén shíbié hěn kuài.",
+        "english": "Fingerprint recognition is fast."
+      }
+    ]
+  },
+  {
+    "section": "smartphones",
+    "hanzi": "拍照",
+    "pinyin": "pāizhào",
+    "english": "to take photos",
+    "examples": [
+      {
+        "hanzi": "手机拍照很方便。",
+        "pinyin": "Shǒujī pāizhào hěn fāngbiàn.",
+        "english": "Phone photography is convenient."
+      },
+      {
+        "hanzi": "请帮我拍张照。",
+        "pinyin": "Qǐng bāng wǒ pāi zhāng zhào.",
+        "english": "Please take a photo for me."
+      }
+    ]
+  },
+  {
+    "section": "smartphones",
+    "hanzi": "内存",
+    "pinyin": "nèicún",
+    "english": "storage / memory",
+    "examples": [
+      {
+        "hanzi": "手机内存不够了。",
+        "pinyin": "Shǒujī nèicún bú gòu le.",
+        "english": "Phone storage is full."
+      },
+      {
+        "hanzi": "这个型号内存很大。",
+        "pinyin": "Zhège xínghào nèicún hěn dà.",
+        "english": "This model has large storage."
+      }
+    ]
+  },
+  {
+    "section": "smartphones",
+    "hanzi": "信号",
+    "pinyin": "xìnhào",
+    "english": "signal",
+    "examples": [
+      {
+        "hanzi": "这里手机信号不好。",
+        "pinyin": "Zhèlǐ shǒujī xìnhào bù hǎo.",
+        "english": "Cell signal is poor here."
+      },
+      {
+        "hanzi": "信号满格了。",
+        "pinyin": "Xìnhào mǎn gé le.",
+        "english": "Signal is at full bars."
+      }
+    ]
+  },
+  {
+    "section": "smartphones",
+    "hanzi": "蓝牙",
+    "pinyin": "lányá",
+    "english": "Bluetooth",
+    "examples": [
+      {
+        "hanzi": "请打开蓝牙。",
+        "pinyin": "Qǐng dǎkāi lányá.",
+        "english": "Please turn on Bluetooth."
+      },
+      {
+        "hanzi": "耳机通过蓝牙连接。",
+        "pinyin": "Ěrjī tōngguò lányá liánjiē.",
+        "english": "Headphones connect via Bluetooth."
+      }
+    ]
+  },
+  {
+    "section": "computers",
+    "hanzi": "电脑",
+    "pinyin": "diànnǎo",
+    "english": "computer",
+    "examples": [
+      {
+        "hanzi": "我的电脑运行很慢。",
+        "pinyin": "Wǒ de diànnǎo yùnxíng hěn màn.",
+        "english": "My computer runs slowly."
+      },
+      {
+        "hanzi": "请重启电脑试试。",
+        "pinyin": "Qǐng chóngqǐ diànnǎo shìshi.",
+        "english": "Try restarting the computer."
+      }
+    ]
+  },
+  {
+    "section": "computers",
+    "hanzi": "笔记本",
+    "pinyin": "bǐjìběn",
+    "english": "laptop",
+    "examples": [
+      {
+        "hanzi": "我上班带笔记本。",
+        "pinyin": "Wǒ shàngbān dài bǐjìběn.",
+        "english": "I bring my laptop to work."
+      },
+      {
+        "hanzi": "这台笔记本很轻。",
+        "pinyin": "Zhè tái bǐjìběn hěn qīng.",
+        "english": "This laptop is very light."
+      }
+    ]
+  },
+  {
+    "section": "computers",
+    "hanzi": "键盘",
+    "pinyin": "jiànpán",
+    "english": "keyboard",
+    "examples": [
+      {
+        "hanzi": "键盘有一个键坏了。",
+        "pinyin": "Jiànpán yǒu yī gè jiàn huài le.",
+        "english": "One key on the keyboard is broken."
+      },
+      {
+        "hanzi": "请连接无线键盘。",
+        "pinyin": "Qǐng liánjiē wúxiàn jiànpán.",
+        "english": "Please connect the wireless keyboard."
+      }
+    ]
+  },
+  {
+    "section": "computers",
+    "hanzi": "鼠标",
+    "pinyin": "shǔbiāo",
+    "english": "mouse",
+    "examples": [
+      {
+        "hanzi": "鼠标不灵敏了。",
+        "pinyin": "Shǔbiāo bù língmǐn le.",
+        "english": "The mouse isn't responsive."
+      },
+      {
+        "hanzi": "我习惯用无线鼠标。",
+        "pinyin": "Wǒ xíguàn yòng wúxiàn shǔbiāo.",
+        "english": "I prefer a wireless mouse."
+      }
+    ]
+  },
+  {
+    "section": "computers",
+    "hanzi": "软件",
+    "pinyin": "ruǎnjiàn",
+    "english": "software",
+    "examples": [
+      {
+        "hanzi": "请安装这个软件。",
+        "pinyin": "Qǐng ānzhuāng zhège ruǎnjiàn.",
+        "english": "Please install this software."
+      },
+      {
+        "hanzi": "软件崩溃了。",
+        "pinyin": "Ruǎnjiàn bēngkuì le.",
+        "english": "The software crashed."
+      }
+    ]
+  },
+  {
+    "section": "computers",
+    "hanzi": "硬盘",
+    "pinyin": "yìngpán",
+    "english": "hard drive",
+    "examples": [
+      {
+        "hanzi": "硬盘空间不足。",
+        "pinyin": "Yìngpán kōngjiān bùzú.",
+        "english": "Hard drive space is insufficient."
+      },
+      {
+        "hanzi": "我换了一个固态硬盘。",
+        "pinyin": "Wǒ huàn le yī gè gùtài yìngpán.",
+        "english": "I replaced it with a solid-state drive."
+      }
+    ]
+  },
+  {
+    "section": "computers",
+    "hanzi": "备份",
+    "pinyin": "bèifèn",
+    "english": "to back up",
+    "examples": [
+      {
+        "hanzi": "请定期备份数据。",
+        "pinyin": "Qǐng dìngqī bèifèn shùjù.",
+        "english": "Please back up data regularly."
+      },
+      {
+        "hanzi": "我已经备份到云端了。",
+        "pinyin": "Wǒ yǐjīng bèifèn dào yúnduān le.",
+        "english": "I've backed up to the cloud."
+      }
+    ]
+  },
+  {
+    "section": "computers",
+    "hanzi": "重启",
+    "pinyin": "chóngqǐ",
+    "english": "to restart",
+    "examples": [
+      {
+        "hanzi": "重启电脑试试。",
+        "pinyin": "Chóngqǐ diànnǎo shìshi.",
+        "english": "Try restarting the computer."
+      },
+      {
+        "hanzi": "更新后需要重启。",
+        "pinyin": "Gēngxīn hòu xūyào chóngqǐ.",
+        "english": "A restart is required after updating."
+      }
+    ]
+  },
+  {
+    "section": "computers",
+    "hanzi": "显示器",
+    "pinyin": "xiǎnshìqì",
+    "english": "monitor",
+    "examples": [
+      {
+        "hanzi": "我买了两个显示器。",
+        "pinyin": "Wǒ mǎi le liǎng gè xiǎnshìqì.",
+        "english": "I bought two monitors."
+      },
+      {
+        "hanzi": "显示器分辨率很高。",
+        "pinyin": "Xiǎnshìqì fēnbiànlǜ hěn gāo.",
+        "english": "The monitor has high resolution."
+      }
+    ]
+  },
+  {
+    "section": "computers",
+    "hanzi": "文件",
+    "pinyin": "wénjiàn",
+    "english": "file",
+    "examples": [
+      {
+        "hanzi": "文件保存在桌面。",
+        "pinyin": "Wénjiàn bǎocún zài zhuōmiàn.",
+        "english": "The file is saved on the desktop."
+      },
+      {
+        "hanzi": "请把这个文件发给我。",
+        "pinyin": "Qǐng bǎ zhège wénjiàn fā gěi wǒ.",
+        "english": "Please send me this file."
+      }
+    ]
+  },
+  {
+    "section": "internet",
+    "hanzi": "互联网",
+    "pinyin": "hùliánwǎng",
+    "english": "internet",
+    "examples": [
+      {
+        "hanzi": "互联网改变了世界。",
+        "pinyin": "Hùliánwǎng gǎibiàn le shìjiè.",
+        "english": "The internet changed the world."
+      },
+      {
+        "hanzi": "没有互联网我无法工作。",
+        "pinyin": "Méiyǒu hùliánwǎng wǒ wúfǎ gōngzuò.",
+        "english": "I can't work without the internet."
+      }
+    ]
+  },
+  {
+    "section": "internet",
+    "hanzi": "网站",
+    "pinyin": "wǎngzhàn",
+    "english": "website",
+    "examples": [
+      {
+        "hanzi": "请访问我们的网站。",
+        "pinyin": "Qǐng fǎngwèn wǒmen de wǎngzhàn.",
+        "english": "Please visit our website."
+      },
+      {
+        "hanzi": "这个网站加载很慢。",
+        "pinyin": "Zhège wǎngzhàn jiāzài hěn màn.",
+        "english": "This website loads slowly."
+      }
+    ]
+  },
+  {
+    "section": "internet",
+    "hanzi": "浏览器",
+    "pinyin": "liúlǎnqì",
+    "english": "browser",
+    "examples": [
+      {
+        "hanzi": "请换一个浏览器试试。",
+        "pinyin": "Qǐng huàn yī gè liúlǎnqì shìshi.",
+        "english": "Try a different browser."
+      },
+      {
+        "hanzi": "浏览器需要更新。",
+        "pinyin": "Liúlǎnqì xūyào gēngxīn.",
+        "english": "The browser needs updating."
+      }
+    ]
+  },
+  {
+    "section": "internet",
+    "hanzi": "下载",
+    "pinyin": "xiàzài",
+    "english": "to download",
+    "examples": [
+      {
+        "hanzi": "请下载最新版本。",
+        "pinyin": "Qǐng xiàzài zuìxīn bǎnběn.",
+        "english": "Please download the latest version."
+      },
+      {
+        "hanzi": "文件正在下载。",
+        "pinyin": "Wénjiàn zhèngzài xiàzài.",
+        "english": "The file is downloading."
+      }
+    ]
+  },
+  {
+    "section": "internet",
+    "hanzi": "上传",
+    "pinyin": "shàngchuán",
+    "english": "to upload",
+    "examples": [
+      {
+        "hanzi": "请上传你的简历。",
+        "pinyin": "Qǐng shàngchuán nǐ de jiǎnlì.",
+        "english": "Please upload your resume."
+      },
+      {
+        "hanzi": "视频上传完成了。",
+        "pinyin": "Shìpín shàngchuán wánchéng le.",
+        "english": "Video upload is complete."
+      }
+    ]
+  },
+  {
+    "section": "internet",
+    "hanzi": "搜索",
+    "pinyin": "sōusuǒ",
+    "english": "to search",
+    "examples": [
+      {
+        "hanzi": "请在网上搜索一下。",
+        "pinyin": "Qǐng zài wǎngshàng sōusuǒ yīxià.",
+        "english": "Please search online."
+      },
+      {
+        "hanzi": "搜索引擎很快。",
+        "pinyin": "Sōusuǒ yǐnqíng hěn kuài.",
+        "english": "The search engine is fast."
+      }
+    ]
+  },
+  {
+    "section": "internet",
+    "hanzi": "链接",
+    "pinyin": "liànjiē",
+    "english": "link",
+    "examples": [
+      {
+        "hanzi": "请点击这个链接。",
+        "pinyin": "Qǐng diǎnjī zhège liànjiē.",
+        "english": "Please click this link."
+      },
+      {
+        "hanzi": "链接已经失效了。",
+        "pinyin": "Liànjiē yǐjīng shīxiào le.",
+        "english": "The link has expired."
+      }
+    ]
+  },
+  {
+    "section": "internet",
+    "hanzi": "密码",
+    "pinyin": "mìmǎ",
+    "english": "password",
+    "examples": [
+      {
+        "hanzi": "请设置强密码。",
+        "pinyin": "Qǐng shèzhì qiáng mìmǎ.",
+        "english": "Please set a strong password."
+      },
+      {
+        "hanzi": "我忘了密码。",
+        "pinyin": "Wǒ wàng le mìmǎ.",
+        "english": "I forgot my password."
+      }
+    ]
+  },
+  {
+    "section": "internet",
+    "hanzi": "WiFi",
+    "pinyin": "WiFi",
+    "english": "WiFi",
+    "examples": [
+      {
+        "hanzi": "WiFi密码是什么？",
+        "pinyin": "WiFi mìmǎ shì shénme?",
+        "english": "What's the WiFi password?"
+      },
+      {
+        "hanzi": "这里WiFi信号很强。",
+        "pinyin": "Zhèlǐ WiFi xìnhào hěn qiáng.",
+        "english": "WiFi signal is strong here."
+      }
+    ]
+  },
+  {
+    "section": "internet",
+    "hanzi": "云端",
+    "pinyin": "yúnduān",
+    "english": "cloud",
+    "examples": [
+      {
+        "hanzi": "数据保存在云端。",
+        "pinyin": "Shùjù bǎocún zài yúnduān.",
+        "english": "Data is stored in the cloud."
+      },
+      {
+        "hanzi": "云端同步完成了。",
+        "pinyin": "Yúnduān tóngbù wánchéng le.",
+        "english": "Cloud sync is complete."
+      }
+    ]
+  },
+  {
+    "section": "ai",
+    "hanzi": "人工智能",
+    "pinyin": "réngōng zhìnéng",
+    "english": "artificial intelligence",
+    "examples": [
+      {
+        "hanzi": "人工智能发展很快。",
+        "pinyin": "Rén gōng zhìnéng fāzhǎn hěn kuài.",
+        "english": "AI is developing rapidly."
+      },
+      {
+        "hanzi": "人工智能改变了很多行业。",
+        "pinyin": "Rén gōng zhìnéng gǎibiàn le hěn duō hángyè.",
+        "english": "AI has transformed many industries."
+      }
+    ]
+  },
+  {
+    "section": "ai",
+    "hanzi": "算法",
+    "pinyin": "suànfǎ",
+    "english": "algorithm",
+    "examples": [
+      {
+        "hanzi": "推荐算法很精准。",
+        "pinyin": "Tuījiàn suànfǎ hěn jīngzhǔn.",
+        "english": "The recommendation algorithm is accurate."
+      },
+      {
+        "hanzi": "算法需要不断优化。",
+        "pinyin": "Suànfǎ xūyào bùduàn yōuhuà.",
+        "english": "Algorithms need constant optimization."
+      }
+    ]
+  },
+  {
+    "section": "ai",
+    "hanzi": "模型",
+    "pinyin": "móxíng",
+    "english": "model (AI)",
+    "examples": [
+      {
+        "hanzi": "这个语言模型很强大。",
+        "pinyin": "Zhège yǔyán móxíng hěn qiángdà.",
+        "english": "This language model is powerful."
+      },
+      {
+        "hanzi": "模型需要大量数据训练。",
+        "pinyin": "Móxíng xūyào dàliàng shùjù xùnliàn.",
+        "english": "Models need large datasets to train."
+      }
+    ]
+  },
+  {
+    "section": "ai",
+    "hanzi": "训练",
+    "pinyin": "xùnliàn",
+    "english": "to train (AI)",
+    "examples": [
+      {
+        "hanzi": "模型训练需要很多时间。",
+        "pinyin": "Móxíng xùnliàn xūyào hěn duō shíjiān.",
+        "english": "Model training takes a lot of time."
+      },
+      {
+        "hanzi": "他们在训练新的AI。",
+        "pinyin": "Tāmen zài xùnliàn xīn de AI.",
+        "english": "They're training a new AI."
+      }
+    ]
+  },
+  {
+    "section": "ai",
+    "hanzi": "识别",
+    "pinyin": "shíbié",
+    "english": "recognition / to recognize",
+    "examples": [
+      {
+        "hanzi": "人脸识别很快。",
+        "pinyin": "Rénliǎn shíbié hěn kuài.",
+        "english": "Face recognition is fast."
+      },
+      {
+        "hanzi": "语音识别准确率很高。",
+        "pinyin": "Yǔyīn shíbié zhǔnquèlǜ hěn gāo.",
+        "english": "Speech recognition accuracy is high."
+      }
+    ]
+  },
+  {
+    "section": "ai",
+    "hanzi": "自动化",
+    "pinyin": "zìdònghuà",
+    "english": "automation",
+    "examples": [
+      {
+        "hanzi": "工厂实现了自动化。",
+        "pinyin": "Gōngchǎng shíxiàn le zìdònghuà.",
+        "english": "The factory achieved automation."
+      },
+      {
+        "hanzi": "自动化提高了效率。",
+        "pinyin": "Zìdònghuà tígāo le xiàolǜ.",
+        "english": "Automation improved efficiency."
+      }
+    ]
+  },
+  {
+    "section": "ai",
+    "hanzi": "智能",
+    "pinyin": "zhìnéng",
+    "english": "smart / intelligent",
+    "examples": [
+      {
+        "hanzi": "这是智能家居系统。",
+        "pinyin": "Zhè shì zhìnéng jiājū xìtǒng.",
+        "english": "This is a smart home system."
+      },
+      {
+        "hanzi": "智能助手可以回答问题。",
+        "pinyin": "Zhìnéng zhùshǒu kěyǐ huídá wèntí.",
+        "english": "Smart assistants can answer questions."
+      }
+    ]
+  },
+  {
+    "section": "ai",
+    "hanzi": "数据",
+    "pinyin": "shùjù",
+    "english": "data",
+    "examples": [
+      {
+        "hanzi": "数据安全很重要。",
+        "pinyin": "Shùjù ānquán hěn zhòngyào.",
+        "english": "Data security is important."
+      },
+      {
+        "hanzi": "请分析这些数据。",
+        "pinyin": "Qǐng fēnxī zhèxiē shùjù.",
+        "english": "Please analyze this data."
+      }
+    ]
+  },
+  {
+    "section": "ai",
+    "hanzi": "机器学习",
+    "pinyin": "jīqì xuéxí",
+    "english": "machine learning",
+    "examples": [
+      {
+        "hanzi": "机器学习是AI的基础。",
+        "pinyin": "Jīqì xuéxí shì AI de jīchǔ.",
+        "english": "Machine learning is the foundation of AI."
+      },
+      {
+        "hanzi": "他在学机器学习。",
+        "pinyin": "Tā zài xué jīqì xuéxí.",
+        "english": "He's studying machine learning."
+      }
+    ]
+  },
+  {
+    "section": "ai",
+    "hanzi": "聊天机器人",
+    "pinyin": "liáotiān jīqìrén",
+    "english": "chatbot",
+    "examples": [
+      {
+        "hanzi": "客服是聊天机器人。",
+        "pinyin": "Kèfú shì liáotiān jīqìrén.",
+        "english": "Customer service is a chatbot."
+      },
+      {
+        "hanzi": "聊天机器人回答很快。",
+        "pinyin": "Liáotiān jīqìrén huídá hěn kuài.",
+        "english": "The chatbot responds quickly."
+      }
+    ]
+  },
+  {
+    "section": "social_media",
+    "hanzi": "朋友圈",
+    "pinyin": "péngyou quān",
+    "english": "Moments (WeChat feed)",
+    "examples": [
+      {
+        "hanzi": "他在朋友圈发了照片。",
+        "pinyin": "Tā zài péngyou quān fā le zhàopiàn.",
+        "english": "He posted photos on Moments."
+      },
+      {
+        "hanzi": "别什么都发在朋友圈。",
+        "pinyin": "Bié shénme dōu fā zài péngyou quān.",
+        "english": "Don't post everything on Moments."
+      }
+    ]
+  },
+  {
+    "section": "social_media",
+    "hanzi": "点赞",
+    "pinyin": "diǎnzàn",
+    "english": "to like (a post)",
+    "examples": [
+      {
+        "hanzi": "请给我的视频点赞。",
+        "pinyin": "Qǐng gěi wǒ de shìpín diǎnzàn.",
+        "english": "Please like my video."
+      },
+      {
+        "hanzi": "这条帖子点赞很多。",
+        "pinyin": "Zhè tiáo tiězi diǎnzàn hěn duō.",
+        "english": "This post got many likes."
+      }
+    ]
+  },
+  {
+    "section": "social_media",
+    "hanzi": "评论",
+    "pinyin": "pínglùn",
+    "english": "comment",
+    "examples": [
+      {
+        "hanzi": "请留下你的评论。",
+        "pinyin": "Qǐng liúxià nǐ de pínglùn.",
+        "english": "Please leave your comment."
+      },
+      {
+        "hanzi": "评论里讨论很热烈。",
+        "pinyin": "Pínglùn lǐ tǎolùn hěn rèliè.",
+        "english": "Discussion in the comments is lively."
+      }
+    ]
+  },
+  {
+    "section": "social_media",
+    "hanzi": "分享",
+    "pinyin": "fēnxiǎng",
+    "english": "to share",
+    "examples": [
+      {
+        "hanzi": "请分享这篇文章。",
+        "pinyin": "Qǐng fēnxiǎng zhè piān wénzhāng.",
+        "english": "Please share this article."
+      },
+      {
+        "hanzi": "我分享到微信了。",
+        "pinyin": "Wǒ fēnxiǎng dào Wēixìn le.",
+        "english": "I shared it on WeChat."
+      }
+    ]
+  },
+  {
+    "section": "social_media",
+    "hanzi": "关注",
+    "pinyin": "guānzhù",
+    "english": "to follow",
+    "examples": [
+      {
+        "hanzi": "请关注我的账号。",
+        "pinyin": "Qǐng guānzhù wǒ de zhànghào.",
+        "english": "Please follow my account."
+      },
+      {
+        "hanzi": "他关注了很多博主。",
+        "pinyin": "Tā guānzhù le hěn duō bózhǔ.",
+        "english": "He follows many influencers."
+      }
+    ]
+  },
+  {
+    "section": "social_media",
+    "hanzi": "粉丝",
+    "pinyin": "fěnsī",
+    "english": "fans / followers",
+    "examples": [
+      {
+        "hanzi": "他有一百万粉丝。",
+        "pinyin": "Tā yǒu yī bǎi wàn fěnsī.",
+        "english": "He has a million followers."
+      },
+      {
+        "hanzi": "粉丝们很热情。",
+        "pinyin": "Fěnsīmen hěn rèqíng.",
+        "english": "The fans are enthusiastic."
+      }
+    ]
+  },
+  {
+    "section": "social_media",
+    "hanzi": "直播",
+    "pinyin": "zhíbō",
+    "english": "live stream",
+    "examples": [
+      {
+        "hanzi": "她今晚有直播。",
+        "pinyin": "Tā jīn wǎn yǒu zhíbō.",
+        "english": "She has a live stream tonight."
+      },
+      {
+        "hanzi": "直播带货很流行。",
+        "pinyin": "Zhíbō dài huò hěn liúxíng.",
+        "english": "Live-stream selling is very popular."
+      }
+    ]
+  },
+  {
+    "section": "social_media",
+    "hanzi": "短视频",
+    "pinyin": "duǎn shìpín",
+    "english": "short video",
+    "examples": [
+      {
+        "hanzi": "短视频很容易上瘾。",
+        "pinyin": "Duǎn shìpín hěn róngyì shàngyǐn.",
+        "english": "Short videos are easily addictive."
+      },
+      {
+        "hanzi": "他拍了很多短视频。",
+        "pinyin": "Tā pāi le hěn duō duǎn shìpín.",
+        "english": "He made many short videos."
+      }
+    ]
+  },
+  {
+    "section": "social_media",
+    "hanzi": "热搜",
+    "pinyin": "rèsōu",
+    "english": "trending search",
+    "examples": [
+      {
+        "hanzi": "这条新闻上了热搜。",
+        "pinyin": "Zhè tiáo xīnwén shàng le rèsōu.",
+        "english": "This news hit trending searches."
+      },
+      {
+        "hanzi": "热搜第一名是这个话题。",
+        "pinyin": "Rèsōu dì yī míng shì zhège huàtí.",
+        "english": "This topic is number one trending."
+      }
+    ]
+  },
+  {
+    "section": "social_media",
+    "hanzi": "私信",
+    "pinyin": "sīxìn",
+    "english": "private message",
+    "examples": [
+      {
+        "hanzi": "请私信联系我。",
+        "pinyin": "Qǐng sīxìn liánxi wǒ.",
+        "english": "Please contact me via DM."
+      },
+      {
+        "hanzi": "我收到了一条私信。",
+        "pinyin": "Wǒ shōudào le yī tiáo sīxìn.",
+        "english": "I received a private message."
+      }
+    ]
+  },
+  {
+    "section": "online_shopping",
+    "hanzi": "网购",
+    "pinyin": "wǎnggòu",
+    "english": "online shopping",
+    "examples": [
+      {
+        "hanzi": "我习惯网购。",
+        "pinyin": "Wǒ xíguàn wǎnggòu.",
+        "english": "I'm used to shopping online."
+      },
+      {
+        "hanzi": "网购很方便。",
+        "pinyin": "Wǎnggòu hěn fāngbiàn.",
+        "english": "Online shopping is convenient."
+      }
+    ]
+  },
+  {
+    "section": "online_shopping",
+    "hanzi": "购物车",
+    "pinyin": "gòuwùchē",
+    "english": "shopping cart",
+    "examples": [
+      {
+        "hanzi": "请加入购物车。",
+        "pinyin": "Qǐng jiārù gòuwùchē.",
+        "english": "Please add to cart."
+      },
+      {
+        "hanzi": "我的购物车满了。",
+        "pinyin": "Wǒ de gòuwùchē mǎn le.",
+        "english": "My cart is full."
+      }
+    ]
+  },
+  {
+    "section": "online_shopping",
+    "hanzi": "下单",
+    "pinyin": "xiàdān",
+    "english": "to place an order",
+    "examples": [
+      {
+        "hanzi": "我已经下单了。",
+        "pinyin": "Wǒ yǐjīng xiàdān le.",
+        "english": "I've already placed the order."
+      },
+      {
+        "hanzi": "请在今晚前下单。",
+        "pinyin": "Qǐng zài jīn wǎn qián xiàdān.",
+        "english": "Please order before tonight."
+      }
+    ]
+  },
+  {
+    "section": "online_shopping",
+    "hanzi": "快递",
+    "pinyin": "kuàidì",
+    "english": "express delivery",
+    "examples": [
+      {
+        "hanzi": "快递明天到。",
+        "pinyin": "Kuàidì míngtiān dào.",
+        "english": "Express delivery arrives tomorrow."
+      },
+      {
+        "hanzi": "请查一下快递到哪了。",
+        "pinyin": "Qǐng chá yīxià kuàidì dào nǎ le.",
+        "english": "Please check where the package is."
+      }
+    ]
+  },
+  {
+    "section": "online_shopping",
+    "hanzi": "评价",
+    "pinyin": "píngjià",
+    "english": "review / rating",
+    "examples": [
+      {
+        "hanzi": "请给商品评价。",
+        "pinyin": "Qǐng gěi shāngpǐn píngjià.",
+        "english": "Please review the product."
+      },
+      {
+        "hanzi": "这个评价很有帮助。",
+        "pinyin": "Zhège píngjià hěn yǒu bāngzhù.",
+        "english": "This review is very helpful."
+      }
+    ]
+  },
+  {
+    "section": "online_shopping",
+    "hanzi": "退款",
+    "pinyin": "tuìkuǎn",
+    "english": "refund",
+    "examples": [
+      {
+        "hanzi": "我可以申请退款吗？",
+        "pinyin": "Wǒ kěyǐ shēnqǐng tuìkuǎn ma?",
+        "english": "Can I request a refund?"
+      },
+      {
+        "hanzi": "退款已经到账了。",
+        "pinyin": "Tuìkuǎn yǐjīng dào zhàng le.",
+        "english": "The refund has been credited."
+      }
+    ]
+  },
+  {
+    "section": "online_shopping",
+    "hanzi": "优惠券",
+    "pinyin": "yōuhuìquàn",
+    "english": "coupon",
+    "examples": [
+      {
+        "hanzi": "我有优惠券。",
+        "pinyin": "Wǒ yǒu yōuhuìquàn.",
+        "english": "I have a coupon."
+      },
+      {
+        "hanzi": "优惠券今天到期。",
+        "pinyin": "Yōuhuìquàn jīntiān dàoqī.",
+        "english": "The coupon expires today."
+      }
+    ]
+  },
+  {
+    "section": "online_shopping",
+    "hanzi": "秒杀",
+    "pinyin": "miǎoshā",
+    "english": "flash sale",
+    "examples": [
+      {
+        "hanzi": "今晚八点有秒杀。",
+        "pinyin": "Jīn wǎn bā diǎn yǒu miǎoshā.",
+        "english": "There's a flash sale at 8 tonight."
+      },
+      {
+        "hanzi": "秒杀价格很优惠。",
+        "pinyin": "Miǎoshā jiàgé hěn yōuhuì.",
+        "english": "Flash sale prices are great deals."
+      }
+    ]
+  },
+  {
+    "section": "online_shopping",
+    "hanzi": "包邮",
+    "pinyin": "bāoyóu",
+    "english": "free shipping",
+    "examples": [
+      {
+        "hanzi": "满一百包邮。",
+        "pinyin": "Mǎn yībǎi bāoyóu.",
+        "english": "Free shipping on orders over 100."
+      },
+      {
+        "hanzi": "这个商品包邮。",
+        "pinyin": "Zhège shāngpǐn bāoyóu.",
+        "english": "This item ships free."
+      }
+    ]
+  },
+  {
+    "section": "online_shopping",
+    "hanzi": "客服",
+    "pinyin": "kèfú",
+    "english": "customer service",
+    "examples": [
+      {
+        "hanzi": "请联系在线客服。",
+        "pinyin": "Qǐng liánxi zàixiàn kèfú.",
+        "english": "Please contact online customer service."
+      },
+      {
+        "hanzi": "客服回复很快。",
+        "pinyin": "Kèfú huífù hěn kuài.",
+        "english": "Customer service replied quickly."
+      }
+    ]
+  },
+  {
+    "section": "delivery",
+    "hanzi": "外卖",
+    "pinyin": "wàimài",
+    "english": "food delivery",
+    "examples": [
+      {
+        "hanzi": "今晚叫外卖吧。",
+        "pinyin": "Jīn wǎn jiào wàimài ba.",
+        "english": "Let's order delivery tonight."
+      },
+      {
+        "hanzi": "外卖三十分钟到。",
+        "pinyin": "Wàimài sānshí fēnzhōng dào.",
+        "english": "Delivery arrives in thirty minutes."
+      }
+    ]
+  },
+  {
+    "section": "delivery",
+    "hanzi": "骑手",
+    "pinyin": "qíshǒu",
+    "english": "delivery rider",
+    "examples": [
+      {
+        "hanzi": "骑手已经在路上了。",
+        "pinyin": "Qíshǒu yǐjīng zài lù shàng le.",
+        "english": "The rider is already on the way."
+      },
+      {
+        "hanzi": "骑手打电话说到了。",
+        "pinyin": "Qíshǒu dǎ diànhuà shuō dào le.",
+        "english": "The rider called to say they've arrived."
+      }
+    ]
+  },
+  {
+    "section": "delivery",
+    "hanzi": "配送",
+    "pinyin": "pèisòng",
+    "english": "delivery / distribution",
+    "examples": [
+      {
+        "hanzi": "配送费五块钱。",
+        "pinyin": "Pèisòng fèi wǔ kuài qián.",
+        "english": "Delivery fee is five yuan."
+      },
+      {
+        "hanzi": "预计配送时间四十分钟。",
+        "pinyin": "Yùjì pèisòng shíjiān sìshí fēnzhōng.",
+        "english": "Estimated delivery time is forty minutes."
+      }
+    ]
+  },
+  {
+    "section": "delivery",
+    "hanzi": "订单",
+    "pinyin": "dìngdān",
+    "english": "order",
+    "examples": [
+      {
+        "hanzi": "你的订单已发出。",
+        "pinyin": "Nǐ de dìngdān yǐ fāchū.",
+        "english": "Your order has been dispatched."
+      },
+      {
+        "hanzi": "请确认订单信息。",
+        "pinyin": "Qǐng quèrèn dìngdān xìnxī.",
+        "english": "Please confirm order details."
+      }
+    ]
+  },
+  {
+    "section": "delivery",
+    "hanzi": "追踪",
+    "pinyin": "zhuīzōng",
+    "english": "to track",
+    "examples": [
+      {
+        "hanzi": "可以实时追踪配送。",
+        "pinyin": "Kěyǐ shíshí zhuīzōng pèisòng.",
+        "english": "You can track delivery in real time."
+      },
+      {
+        "hanzi": "请追踪我的包裹。",
+        "pinyin": "Qǐng zhuīzōng wǒ de bāoguǒ.",
+        "english": "Please track my package."
+      }
+    ]
+  },
+  {
+    "section": "delivery",
+    "hanzi": "准时",
+    "pinyin": "zhǔnshí",
+    "english": "on time",
+    "examples": [
+      {
+        "hanzi": "外卖准时送到了。",
+        "pinyin": "Wàimài zhǔnshí sòng dào le.",
+        "english": "Delivery arrived on time."
+      },
+      {
+        "hanzi": "请尽量准时送达。",
+        "pinyin": "Qǐng jǐnliàng zhǔnshí sòngdá.",
+        "english": "Please deliver on time if possible."
+      }
+    ]
+  },
+  {
+    "section": "delivery",
+    "hanzi": "保温",
+    "pinyin": "bǎowēn",
+    "english": "keep warm (packaging)",
+    "examples": [
+      {
+        "hanzi": "外卖用了保温袋。",
+        "pinyin": "Wàimài yòng le bǎowēn dài.",
+        "english": "Delivery used an insulated bag."
+      },
+      {
+        "hanzi": "保温效果还不错。",
+        "pinyin": "Bǎowēn xiàoguǒ hái búcuò.",
+        "english": "Insulation works reasonably well."
+      }
+    ]
+  },
+  {
+    "section": "delivery",
+    "hanzi": "取餐码",
+    "pinyin": "qǔ cān mǎ",
+    "english": "pickup code",
+    "examples": [
+      {
+        "hanzi": "请看一下取餐码。",
+        "pinyin": "Qǐng kàn yīxià qǔ cān mǎ.",
+        "english": "Please check the pickup code."
+      },
+      {
+        "hanzi": "这个取餐码很重要。",
+        "pinyin": "Zhège qǔ cān mǎ hěn zhòngyào.",
+        "english": "This pickup code is important."
+      }
+    ]
+  },
+  {
+    "section": "delivery",
+    "hanzi": "小费",
+    "pinyin": "xiǎofèi",
+    "english": "tip",
+    "examples": [
+      {
+        "hanzi": "你想给骑手小费吗？",
+        "pinyin": "Nǐ xiǎng gěi qíshǒu xiǎofèi ma?",
+        "english": "Would you like to tip the rider?"
+      },
+      {
+        "hanzi": "我给了十块小费。",
+        "pinyin": "Wǒ gěi le shí kuài xiǎofèi.",
+        "english": "I gave a ten yuan tip."
+      }
+    ]
+  },
+  {
+    "section": "delivery",
+    "hanzi": "准时达",
+    "pinyin": "zhǔn shí dá",
+    "english": "on-time delivery",
+    "examples": [
+      {
+        "hanzi": "这个平台承诺准时达。",
+        "pinyin": "Zhège píngtái chéngnuò zhǔn shí dá.",
+        "english": "This platform promises on-time delivery."
+      },
+      {
+        "hanzi": "如果没有准时达可以退款。",
+        "pinyin": "Rúguǒ méiyǒu zhǔn shí dá kěyǐ tuì kuǎn.",
+        "english": "You can get a refund if delivery is not on time."
+      }
+    ]
+  },
+  {
+    "section": "gaming",
+    "hanzi": "游戏",
+    "pinyin": "yóuxì",
+    "english": "game",
+    "examples": [
+      {
+        "hanzi": "你玩什么游戏？",
+        "pinyin": "Nǐ wán shénme yóuxì?",
+        "english": "What games do you play?"
+      },
+      {
+        "hanzi": "这个游戏很好玩。",
+        "pinyin": "Zhège yóuxì hěn hǎowán.",
+        "english": "This game is fun."
+      }
+    ]
+  },
+  {
+    "section": "gaming",
+    "hanzi": "玩家",
+    "pinyin": "wánjiā",
+    "english": "player / gamer",
+    "examples": [
+      {
+        "hanzi": "他是资深玩家。",
+        "pinyin": "Tā shì zīshēn wánjiā.",
+        "english": "He's a veteran gamer."
+      },
+      {
+        "hanzi": "在线玩家很多。",
+        "pinyin": "Zàixiàn wánjiā hěn duō.",
+        "english": "There are many players online."
+      }
+    ]
+  },
+  {
+    "section": "gaming",
+    "hanzi": "手柄",
+    "pinyin": "shǒubǐng",
+    "english": "game controller",
+    "examples": [
+      {
+        "hanzi": "请连接手柄。",
+        "pinyin": "Qǐng liánjiē shǒubǐng.",
+        "english": "Please connect the controller."
+      },
+      {
+        "hanzi": "这个手柄手感很好。",
+        "pinyin": "Zhège shǒubǐng shǒugǎn hěn hǎo.",
+        "english": "This controller feels great."
+      }
+    ]
+  },
+  {
+    "section": "gaming",
+    "hanzi": "关卡",
+    "pinyin": "guānkǎ",
+    "english": "level / stage",
+    "examples": [
+      {
+        "hanzi": "这个关卡很难。",
+        "pinyin": "Zhège guānkǎ hěn nán.",
+        "english": "This level is hard."
+      },
+      {
+        "hanzi": "我过了第三关。",
+        "pinyin": "Wǒ guò le dì sān guān.",
+        "english": "I cleared level three."
+      }
+    ]
+  },
+  {
+    "section": "gaming",
+    "hanzi": "排名",
+    "pinyin": "páimíng",
+    "english": "ranking",
+    "examples": [
+      {
+        "hanzi": "我的排名上升了。",
+        "pinyin": "Wǒ de páimíng shàngshēng le.",
+        "english": "My ranking went up."
+      },
+      {
+        "hanzi": "他在全球排名第一。",
+        "pinyin": "Tā zài quánqiú páimíng dì yī.",
+        "english": "He's ranked number one globally."
+      }
+    ]
+  },
+  {
+    "section": "gaming",
+    "hanzi": "组队",
+    "pinyin": "zǔduì",
+    "english": "to team up",
+    "examples": [
+      {
+        "hanzi": "我们组队打游戏吧。",
+        "pinyin": "Wǒmen zǔduì dǎ yóuxì ba.",
+        "english": "Let's team up to play."
+      },
+      {
+        "hanzi": "组队需要四个人。",
+        "pinyin": "Zǔduì xūyào sì gè rén.",
+        "english": "Teaming up requires four people."
+      }
+    ]
+  },
+  {
+    "section": "gaming",
+    "hanzi": "充值",
+    "pinyin": "chōngzhí",
+    "english": "to top up / recharge",
+    "examples": [
+      {
+        "hanzi": "游戏需要充值吗？",
+        "pinyin": "Yóuxì xūyào chōngzhí ma?",
+        "english": "Does the game require top-ups?"
+      },
+      {
+        "hanzi": "我充值了六十八块。",
+        "pinyin": "Wǒ chōngzhí le liùshíbā kuài.",
+        "english": "I topped up sixty-eight yuan."
+      }
+    ]
+  },
+  {
+    "section": "gaming",
+    "hanzi": "装备",
+    "pinyin": "zhuāngbèi",
+    "english": "equipment / gear (gaming)",
+    "examples": [
+      {
+        "hanzi": "这个装备属性很好。",
+        "pinyin": "Zhège zhuāngbèi shǔxìng hěn hǎo.",
+        "english": "This gear has great stats."
+      },
+      {
+        "hanzi": "请升级你的装备。",
+        "pinyin": "Qǐng shēngjí nǐ de zhuāngbèi.",
+        "english": "Please upgrade your gear."
+      }
+    ]
+  },
+  {
+    "section": "gaming",
+    "hanzi": "网速",
+    "pinyin": "wǎngsù",
+    "english": "internet speed",
+    "examples": [
+      {
+        "hanzi": "网速太慢影响游戏。",
+        "pinyin": "Wǎngsù tài màn yǐngxiǎng yóuxì.",
+        "english": "Slow internet affects gaming."
+      },
+      {
+        "hanzi": "换宽带后网速快了。",
+        "pinyin": "Huàn kuǎndài hòu wǎngsù kuài le.",
+        "english": "Internet speed improved after switching broadband."
+      }
+    ]
+  },
+  {
+    "section": "gaming",
+    "hanzi": "电竞",
+    "pinyin": "diànjìng",
+    "english": "esports",
+    "examples": [
+      {
+        "hanzi": "电竞现在是正规比赛。",
+        "pinyin": "Diànjìng xiànzài shì zhèngguī bǐsài.",
+        "english": "Esports is now an official competitive sport."
+      },
+      {
+        "hanzi": "他梦想成为电竞选手。",
+        "pinyin": "Tā mèngxiǎng chéngwéi diànjìng xuǎnshǒu.",
+        "english": "He dreams of becoming a pro gamer."
+      }
+    ]
+  },
+  {
+    "section": "smart_devices",
+    "hanzi": "智能音箱",
+    "pinyin": "zhìnéng yīnxiāng",
+    "english": "smart speaker",
+    "examples": [
+      {
+        "hanzi": "智能音箱可以控制家电。",
+        "pinyin": "Zhìnéng yīnxiāng kěyǐ kòngzhì jiādiàn.",
+        "english": "Smart speakers can control home appliances."
+      },
+      {
+        "hanzi": "请对着智能音箱说话。",
+        "pinyin": "Qǐng duì zhe zhìnéng yīnxiāng shuōhuà.",
+        "english": "Speak to the smart speaker."
+      }
+    ]
+  },
+  {
+    "section": "smart_devices",
+    "hanzi": "智能手表",
+    "pinyin": "zhìnéng shǒubiǎo",
+    "english": "smartwatch",
+    "examples": [
+      {
+        "hanzi": "智能手表可以测心率。",
+        "pinyin": "Zhìnéng shǒubiǎo kěyǐ cè xīnlǜ.",
+        "english": "Smartwatches can measure heart rate."
+      },
+      {
+        "hanzi": "我戴智能手表跑步。",
+        "pinyin": "Wǒ dài zhìnéng shǒubiǎo pǎobù.",
+        "english": "I wear a smartwatch when running."
+      }
+    ]
+  },
+  {
+    "section": "smart_devices",
+    "hanzi": "智能家居",
+    "pinyin": "zhìnéng jiājū",
+    "english": "smart home",
+    "examples": [
+      {
+        "hanzi": "智能家居让生活更方便。",
+        "pinyin": "Zhìnéng jiājū ràng shēnghuó gèng fāngbiàn.",
+        "english": "Smart homes make life easier."
+      },
+      {
+        "hanzi": "我们装了智能家居系统。",
+        "pinyin": "Wǒmen zhuāng le zhìnéng jiājū xìtǒng.",
+        "english": "We installed a smart home system."
+      }
+    ]
+  },
+  {
+    "section": "smart_devices",
+    "hanzi": "语音助手",
+    "pinyin": "yǔyīn zhùshǒu",
+    "english": "voice assistant",
+    "examples": [
+      {
+        "hanzi": "语音助手可以设闹钟。",
+        "pinyin": "Yǔyīn zhùshǒu kěyǐ shè nàozhōng.",
+        "english": "Voice assistants can set alarms."
+      },
+      {
+        "hanzi": "请叫语音助手播放音乐。",
+        "pinyin": "Qǐng jiào yǔyīn zhùshǒu bōfàng yīnyuè.",
+        "english": "Ask the voice assistant to play music."
+      }
+    ]
+  },
+  {
+    "section": "smart_devices",
+    "hanzi": "扫地机器人",
+    "pinyin": "sǎodì jīqìrén",
+    "english": "robot vacuum",
+    "examples": [
+      {
+        "hanzi": "扫地机器人每天自动打扫。",
+        "pinyin": "Sǎodì jīqìrén měitiān zìdòng dǎsǎo.",
+        "english": "The robot vacuum cleans automatically daily."
+      },
+      {
+        "hanzi": "请清空扫地机器人的尘盒。",
+        "pinyin": "Qǐng qīngkōng sǎodì jīqìrén de chénhé.",
+        "english": "Please empty the robot vacuum's dust bin."
+      }
+    ]
+  },
+  {
+    "section": "smart_devices",
+    "hanzi": "智能门锁",
+    "pinyin": "zhìnéng ménsuǒ",
+    "english": "smart lock",
+    "examples": [
+      {
+        "hanzi": "智能门锁用密码开。",
+        "pinyin": "Zhìnéng ménsuǒ yòng mìmǎ kāi.",
+        "english": "The smart lock opens with a code."
+      },
+      {
+        "hanzi": "我设置了智能门锁。",
+        "pinyin": "Wǒ shèzhì le zhìnéng ménsuǒ.",
+        "english": "I set up a smart lock."
+      }
+    ]
+  },
+  {
+    "section": "smart_devices",
+    "hanzi": "监控",
+    "pinyin": "jiānkòng",
+    "english": "surveillance / monitor",
+    "examples": [
+      {
+        "hanzi": "门口装了监控摄像头。",
+        "pinyin": "Ménkǒu zhuāng le jiānkòng shèxiàngtóu.",
+        "english": "A security camera is installed at the door."
+      },
+      {
+        "hanzi": "可以通过手机看监控。",
+        "pinyin": "Kěyǐ tōngguò shǒujī kàn jiānkòng.",
+        "english": "You can view surveillance on your phone."
+      }
+    ]
+  },
+  {
+    "section": "smart_devices",
+    "hanzi": "传感器",
+    "pinyin": "chuángǎnqì",
+    "english": "sensor",
+    "examples": [
+      {
+        "hanzi": "传感器检测到有人。",
+        "pinyin": "Chuángǎnqì jiǯcè dào yǒu rén.",
+        "english": "The sensor detected someone."
+      },
+      {
+        "hanzi": "温度传感器很准确。",
+        "pinyin": "Wēndù chuángǎnqì hěn zhǔnquè.",
+        "english": "The temperature sensor is accurate."
+      }
+    ]
+  },
+  {
+    "section": "smart_devices",
+    "hanzi": "远程控制",
+    "pinyin": "yuǎnchéng kòngzhì",
+    "english": "remote control",
+    "examples": [
+      {
+        "hanzi": "可以远程控制空调。",
+        "pinyin": "Kěyǐ yuǎnchéng kòngzhì kōngtiáo.",
+        "english": "You can control the AC remotely."
+      },
+      {
+        "hanzi": "远程控制很方便。",
+        "pinyin": "Yuǎnchéng kòngzhì hěn fāngbiàn.",
+        "english": "Remote control is convenient."
+      }
+    ]
+  },
+  {
+    "section": "smart_devices",
+    "hanzi": "连接",
+    "pinyin": "liánjiē",
+    "english": "to connect",
+    "examples": [
+      {
+        "hanzi": "设备连接成功了。",
+        "pinyin": "Shèbèi liánjiē chénggōng le.",
+        "english": "Device connected successfully."
+      },
+      {
+        "hanzi": "请连接同一个WiFi。",
+        "pinyin": "Qǐng liánjiē tóng yī gè WiFi.",
+        "english": "Please connect to the same WiFi."
+      }
+    ]
+  },
+  {
+    "section": "electronics",
+    "hanzi": "电池",
+    "pinyin": "diànchí",
+    "english": "battery",
+    "examples": [
+      {
+        "hanzi": "电池快没电了。",
+        "pinyin": "Diànchí kuài méi diàn le.",
+        "english": "The battery is almost dead."
+      },
+      {
+        "hanzi": "请换新电池。",
+        "pinyin": "Qǐng huàn xīn diànchí.",
+        "english": "Please replace the battery."
+      }
+    ]
+  },
+  {
+    "section": "electronics",
+    "hanzi": "充电线",
+    "pinyin": "chōngdiàn xiàn",
+    "english": "charging cable",
+    "examples": [
+      {
+        "hanzi": "我的充电线坏了。",
+        "pinyin": "Wǒ de chōngdiàn xiàn huài le.",
+        "english": "My charging cable is broken."
+      },
+      {
+        "hanzi": "请借我一条充电线。",
+        "pinyin": "Qǐng jiè wǒ yī tiáo chōngdiàn xiàn.",
+        "english": "Please lend me a charging cable."
+      }
+    ]
+  },
+  {
+    "section": "electronics",
+    "hanzi": "耳机",
+    "pinyin": "ěrjī",
+    "english": "headphones / earphones",
+    "examples": [
+      {
+        "hanzi": "无线耳机很方便。",
+        "pinyin": "Wúxiàn ěrjī hěn fāngbiàn.",
+        "english": "Wireless earphones are convenient."
+      },
+      {
+        "hanzi": "耳机音质很好。",
+        "pinyin": "Ěrjī yīnzhì hěn hǎo.",
+        "english": "The headphones have great sound quality."
+      }
+    ]
+  },
+  {
+    "section": "electronics",
+    "hanzi": "摄像头",
+    "pinyin": "shèxiàngtóu",
+    "english": "camera (device)",
+    "examples": [
+      {
+        "hanzi": "笔记本电脑有摄像头。",
+        "pinyin": "Bǐjìběn diànnǎo yǒu shèxiàngtóu.",
+        "english": "The laptop has a camera."
+      },
+      {
+        "hanzi": "请打开摄像头。",
+        "pinyin": "Qǐng dǎkāi shèxiàngtóu.",
+        "english": "Please turn on the camera."
+      }
+    ]
+  },
+  {
+    "section": "electronics",
+    "hanzi": "路由器",
+    "pinyin": "lùyóuqì",
+    "english": "router",
+    "examples": [
+      {
+        "hanzi": "路由器在客厅。",
+        "pinyin": "Lùyóuqì zài kètīng.",
+        "english": "The router is in the living room."
+      },
+      {
+        "hanzi": "请重启路由器。",
+        "pinyin": "Qǐng chóngqǐ lùyóuqì.",
+        "english": "Please restart the router."
+      }
+    ]
+  },
+  {
+    "section": "electronics",
+    "hanzi": "插座",
+    "pinyin": "chāzuò",
+    "english": "power outlet / socket",
+    "examples": [
+      {
+        "hanzi": "插座在哪里？",
+        "pinyin": "Chāzuò zài nǎlǐ?",
+        "english": "Where is the outlet?"
+      },
+      {
+        "hanzi": "这个插座坏了。",
+        "pinyin": "Zhège chāzuò huài le.",
+        "english": "This outlet is broken."
+      }
+    ]
+  },
+  {
+    "section": "electronics",
+    "hanzi": "电源",
+    "pinyin": "diànyuán",
+    "english": "power supply",
+    "examples": [
+      {
+        "hanzi": "请检查电源连接。",
+        "pinyin": "Qǐng jiǎnchá diànyuán liánjiē.",
+        "english": "Please check the power connection."
+      },
+      {
+        "hanzi": "电源适配器不见了。",
+        "pinyin": "Diànyuán shìpèiqì bú jiàn le.",
+        "english": "The power adapter is missing."
+      }
+    ]
+  },
+  {
+    "section": "electronics",
+    "hanzi": "接口",
+    "pinyin": "jiēkǒu",
+    "english": "port / interface",
+    "examples": [
+      {
+        "hanzi": "这个接口是USB-C。",
+        "pinyin": "Zhège jiēkǒu shì USB-C.",
+        "english": "This port is USB-C."
+      },
+      {
+        "hanzi": "接口坏了，充不了电。",
+        "pinyin": "Jiēkǒu huài le, chōng bu liào diàn.",
+        "english": "The port is broken and won't charge."
+      }
+    ]
+  },
+  {
+    "section": "electronics",
+    "hanzi": "保修",
+    "pinyin": "bǎoxiū",
+    "english": "warranty",
+    "examples": [
+      {
+        "hanzi": "这个产品保修一年。",
+        "pinyin": "Zhège chǎnpǐn bǎoxiū yī nián.",
+        "english": "This product has a one-year warranty."
+      },
+      {
+        "hanzi": "保修期过了。",
+        "pinyin": "Bǎoxiūqī guò le.",
+        "english": "The warranty period has expired."
+      }
+    ]
+  },
+  {
+    "section": "electronics",
+    "hanzi": "维修",
+    "pinyin": "wéixiū",
+    "english": "to repair / maintenance",
+    "examples": [
+      {
+        "hanzi": "手机需要维修。",
+        "pinyin": "Shǒujī xūyào wéixiū.",
+        "english": "The phone needs repair."
+      },
+      {
+        "hanzi": "维修店在商场里。",
+        "pinyin": "Wéixiū diàn zài shāngchǎng lǐ.",
+        "english": "The repair shop is in the mall."
+      }
+    ]
+  }
+]

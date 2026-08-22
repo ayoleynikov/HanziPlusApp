@@ -1,0 +1,1802 @@
+[
+  {
+    "section": "cny",
+    "hanzi": "春节",
+    "pinyin": "Chūnjié",
+    "english": "Spring Festival / Chinese New Year",
+    "examples": [
+      {
+        "hanzi": "春节是中国人最重要的节日。",
+        "pinyin": "Chūnjié shì Zhōngguó rén zuì zhòngyào de jiérì.",
+        "english": "Spring Festival is the most important Chinese holiday."
+      },
+      {
+        "hanzi": "我们回老家过春节。",
+        "pinyin": "Wǒmen huí lǎojiā guò Chūnjié.",
+        "english": "We go home to celebrate Spring Festival."
+      }
+    ]
+  },
+  {
+    "section": "cny",
+    "hanzi": "红包",
+    "pinyin": "hóngbāo",
+    "english": "red envelope",
+    "examples": [
+      {
+        "hanzi": "长辈给孩子发红包。",
+        "pinyin": "Zhǎngbèi gěi háizi fā hóngbāo.",
+        "english": "Elders give red envelopes to children."
+      },
+      {
+        "hanzi": "谢谢你的红包。",
+        "pinyin": "Xièxie nǐ de hóngbāo.",
+        "english": "Thank you for the red envelope."
+      }
+    ]
+  },
+  {
+    "section": "cny",
+    "hanzi": "年夜饭",
+    "pinyin": "niányèfàn",
+    "english": "New Year's Eve dinner",
+    "examples": [
+      {
+        "hanzi": "全家人一起吃年夜饭。",
+        "pinyin": "Quán jiārén yīqǐ chī niányèfàn.",
+        "english": "The whole family eats New Year's Eve dinner together."
+      },
+      {
+        "hanzi": "年夜饭很丰盛。",
+        "pinyin": "Niányèfàn hěn fēngshèng.",
+        "english": "The reunion dinner is lavish."
+      }
+    ]
+  },
+  {
+    "section": "cny",
+    "hanzi": "春联",
+    "pinyin": "chūnlián",
+    "english": "Spring Festival couplets",
+    "examples": [
+      {
+        "hanzi": "门口贴上了春联。",
+        "pinyin": "Ménkǒu tiē shàng le chūnlián.",
+        "english": "Spring couplets were pasted on the door."
+      },
+      {
+        "hanzi": "这幅春联写得很工整。",
+        "pinyin": "Zhè fú chūnlián xiě de hěn gōngzhěng.",
+        "english": "This couplet is written very neatly."
+      }
+    ]
+  },
+  {
+    "section": "cny",
+    "hanzi": "烟花",
+    "pinyin": "yānhuā",
+    "english": "fireworks",
+    "examples": [
+      {
+        "hanzi": "除夕夜看烟花。",
+        "pinyin": "Chúxī yè kàn yānhuā.",
+        "english": "Watch fireworks on New Year's Eve."
+      },
+      {
+        "hanzi": "城市禁止燃放烟花。",
+        "pinyin": "Chéngshì jìnzhǐ ránfàng yānhuā.",
+        "english": "The city bans fireworks."
+      }
+    ]
+  },
+  {
+    "section": "cny",
+    "hanzi": "拜年",
+    "pinyin": "bàinián",
+    "english": "to pay New Year visits",
+    "examples": [
+      {
+        "hanzi": "大年初一去拜年。",
+        "pinyin": "Dànián chūyī qù bàinián.",
+        "english": "Visit relatives on the first day of the new year."
+      },
+      {
+        "hanzi": "我给你拜年了。",
+        "pinyin": "Wǒ gěi nǐ bàinián le.",
+        "english": "I'm paying you a New Year visit."
+      }
+    ]
+  },
+  {
+    "section": "cny",
+    "hanzi": "灯笼",
+    "pinyin": "dēnglong",
+    "english": "lantern",
+    "examples": [
+      {
+        "hanzi": "街上挂满了红灯笼。",
+        "pinyin": "Jiē shàng guà mǎn le hóng dēnglong.",
+        "english": "Red lanterns hang all over the street."
+      },
+      {
+        "hanzi": "这个灯笼很漂亮。",
+        "pinyin": "Zhège dēnglong hěn piàoliang.",
+        "english": "This lantern is beautiful."
+      }
+    ]
+  },
+  {
+    "section": "cny",
+    "hanzi": "舞龙",
+    "pinyin": "wǔ lóng",
+    "english": "dragon dance",
+    "examples": [
+      {
+        "hanzi": "春节有舞龙表演。",
+        "pinyin": "Chūnjié yǒu wǔ lóng biǎoyǎn.",
+        "english": "There are dragon dances during Spring Festival."
+      },
+      {
+        "hanzi": "舞龙队伍很壮观。",
+        "pinyin": "Wǔ lóng duìwu hěn zhuàngguān.",
+        "english": "The dragon dance troupe is spectacular."
+      }
+    ]
+  },
+  {
+    "section": "cny",
+    "hanzi": "团圆",
+    "pinyin": "tuányuán",
+    "english": "reunion",
+    "examples": [
+      {
+        "hanzi": "春节是团圆的日子。",
+        "pinyin": "Chūnjié shì tuányuán de rìzi.",
+        "english": "Spring Festival is a time for reunion."
+      },
+      {
+        "hanzi": "一家人团圆最重要。",
+        "pinyin": "Yī jiā rén tuányuán zuì zhòngyào.",
+        "english": "Family reunion matters most."
+      }
+    ]
+  },
+  {
+    "section": "cny",
+    "hanzi": "守岁",
+    "pinyin": "shǒusuì",
+    "english": "to stay up on New Year's Eve",
+    "examples": [
+      {
+        "hanzi": "我们除夕守岁。",
+        "pinyin": "Wǒmen chúxī shǒusuì.",
+        "english": "We stay up on New Year's Eve."
+      },
+      {
+        "hanzi": "守岁到半夜。",
+        "pinyin": "Shǒusuì dào bànyè.",
+        "english": "Stay up until midnight."
+      }
+    ]
+  },
+  {
+    "section": "dragon_boat",
+    "hanzi": "端午节",
+    "pinyin": "Duānwǔ Jié",
+    "english": "Dragon Boat Festival",
+    "examples": [
+      {
+        "hanzi": "端午节在农历五月初五。",
+        "pinyin": "Duānwǔ Jié zài nónglì wǔ yuè chū wǔ.",
+        "english": "Dragon Boat Festival is on the fifth day of the fifth lunar month."
+      },
+      {
+        "hanzi": "端午节吃粽子。",
+        "pinyin": "Duānwǔ Jié chī zòngzi.",
+        "english": "People eat zongzi during Dragon Boat Festival."
+      }
+    ]
+  },
+  {
+    "section": "dragon_boat",
+    "hanzi": "粽子",
+    "pinyin": "zòngzi",
+    "english": "sticky rice dumpling",
+    "examples": [
+      {
+        "hanzi": "我喜欢肉粽子。",
+        "pinyin": "Wǒ xǐhuan ròu zòngzi.",
+        "english": "I like savory zongzi."
+      },
+      {
+        "hanzi": "妈妈包了一锅粽子。",
+        "pinyin": "Māma bāo le yī guō zòngzi.",
+        "english": "Mom made a pot of zongzi."
+      }
+    ]
+  },
+  {
+    "section": "dragon_boat",
+    "hanzi": "龙舟",
+    "pinyin": "lóngzhōu",
+    "english": "dragon boat",
+    "examples": [
+      {
+        "hanzi": "龙舟比赛很激烈。",
+        "pinyin": "Lóngzhōu bǐsài hěn jīliè.",
+        "english": "Dragon boat racing is intense."
+      },
+      {
+        "hanzi": "他们队龙舟划得很快。",
+        "pinyin": "Tāmen duì lóngzhōu huá de hěn kuài.",
+        "english": "Their team paddles very fast."
+      }
+    ]
+  },
+  {
+    "section": "dragon_boat",
+    "hanzi": "屈原",
+    "pinyin": "Qū Yuán",
+    "english": "Qu Yuan",
+    "examples": [
+      {
+        "hanzi": "端午节纪念屈原。",
+        "pinyin": "Duānwǔ Jié jìniàn Qū Yuán.",
+        "english": "Dragon Boat Festival commemorates Qu Yuan."
+      },
+      {
+        "hanzi": "屈原是伟大的诗人。",
+        "pinyin": "Qū Yuán shì wěidà de shīrén.",
+        "english": "Qu Yuan was a great poet."
+      }
+    ]
+  },
+  {
+    "section": "dragon_boat",
+    "hanzi": "艾草",
+    "pinyin": "àicǎo",
+    "english": "mugwort",
+    "examples": [
+      {
+        "hanzi": "门口挂艾草驱邪。",
+        "pinyin": "Ménkǒu guà àicǎo qū xié.",
+        "english": "Mugwort is hung at the door to ward off evil."
+      },
+      {
+        "hanzi": "艾草有特殊香味。",
+        "pinyin": "Àicǎo yǒu tèshū xiāngwèi.",
+        "english": "Mugwort has a distinct scent."
+      }
+    ]
+  },
+  {
+    "section": "dragon_boat",
+    "hanzi": "香囊",
+    "pinyin": "xiāngnáng",
+    "english": "sachet / scented pouch",
+    "examples": [
+      {
+        "hanzi": "孩子佩戴香囊。",
+        "pinyin": "Háizi pèidài xiāngnáng.",
+        "english": "Children wear scented sachets."
+      },
+      {
+        "hanzi": "这个香囊是手工做的。",
+        "pinyin": "Zhège xiāngnáng shì shǒugōng zuò de.",
+        "english": "This sachet is handmade."
+      }
+    ]
+  },
+  {
+    "section": "dragon_boat",
+    "hanzi": "赛龙舟",
+    "pinyin": "sài lóngzhōu",
+    "english": "dragon boat race",
+    "examples": [
+      {
+        "hanzi": "明天有赛龙舟。",
+        "pinyin": "Míngtiān yǒu sài lóngzhōu.",
+        "english": "There's a dragon boat race tomorrow."
+      },
+      {
+        "hanzi": "赛龙舟是传统活动。",
+        "pinyin": "Sài lóngzhōu shì chuántǒng huódòng.",
+        "english": "Dragon boat racing is a traditional activity."
+      }
+    ]
+  },
+  {
+    "section": "dragon_boat",
+    "hanzi": "雄黄酒",
+    "pinyin": "xiónghuángjiǔ",
+    "english": "realgar wine",
+    "examples": [
+      {
+        "hanzi": "端午喝雄黄酒是习俗。",
+        "pinyin": "Duānwǔ hē xiónghuángjiǔ shì xísú.",
+        "english": "Drinking realgar wine is a Dragon Boat custom."
+      },
+      {
+        "hanzi": "现在很少喝雄黄酒了。",
+        "pinyin": "Xiànzài hěn shǎo hē xiónghuángjiǔ le.",
+        "english": "Realgar wine is rarely consumed now."
+      }
+    ]
+  },
+  {
+    "section": "dragon_boat",
+    "hanzi": "五彩绳",
+    "pinyin": "wǔcǎi shéng",
+    "english": "colorful braided cord",
+    "examples": [
+      {
+        "hanzi": "给孩子系五彩绳。",
+        "pinyin": "Gěi háizi jì wǔcǎi shéng.",
+        "english": "Tie colorful cords on children."
+      },
+      {
+        "hanzi": "五彩绳寓意平安。",
+        "pinyin": "Wǔcǎi shéng yùyì píng'ān.",
+        "english": "Colorful cords symbolize safety."
+      }
+    ]
+  },
+  {
+    "section": "dragon_boat",
+    "hanzi": "划桨",
+    "pinyin": "huájiǎng",
+    "english": "to paddle",
+    "examples": [
+      {
+        "hanzi": "队员整齐地划桨。",
+        "pinyin": "Duìyuán zhěngqí de huájiǎng.",
+        "english": "Team members paddle in unison."
+      },
+      {
+        "hanzi": "划桨需要很大力气。",
+        "pinyin": "Huájiǎng xūyào hěn dà lìqi.",
+        "english": "Paddling takes a lot of strength."
+      }
+    ]
+  },
+  {
+    "section": "lantern",
+    "hanzi": "元宵节",
+    "pinyin": "Yuánxiāo Jié",
+    "english": "Lantern Festival",
+    "examples": [
+      {
+        "hanzi": "元宵节是春节的最后一天。",
+        "pinyin": "Yuánxiāo Jié shì Chūnjié de zuìhòu yī tiān.",
+        "english": "Lantern Festival is the last day of Spring Festival."
+      },
+      {
+        "hanzi": "元宵节看花灯。",
+        "pinyin": "Yuánxiāo Jié kàn huādēng.",
+        "english": "People view lanterns on Lantern Festival."
+      }
+    ]
+  },
+  {
+    "section": "lantern",
+    "hanzi": "花灯",
+    "pinyin": "huādēng",
+    "english": "decorative lantern",
+    "examples": [
+      {
+        "hanzi": "公园里有各种花灯。",
+        "pinyin": "Gōngyuán lǐ yǒu gè zhǒng huādēng.",
+        "english": "There are all kinds of lanterns in the park."
+      },
+      {
+        "hanzi": "这个花灯是兔子的形状。",
+        "pinyin": "Zhège huādēng shì tùzi de xíngzhuàng.",
+        "english": "This lantern is shaped like a rabbit."
+      }
+    ]
+  },
+  {
+    "section": "lantern",
+    "hanzi": "猜灯谜",
+    "pinyin": "cāi dēngmí",
+    "english": "to guess lantern riddles",
+    "examples": [
+      {
+        "hanzi": "我们在灯会上猜灯谜。",
+        "pinyin": "Wǒmen zài dēnghuì shàng cāi dēngmí.",
+        "english": "We guess lantern riddles at the fair."
+      },
+      {
+        "hanzi": "这个灯谜很难。",
+        "pinyin": "Zhège dēngmí hěn nán.",
+        "english": "This lantern riddle is hard."
+      }
+    ]
+  },
+  {
+    "section": "lantern",
+    "hanzi": "汤圆",
+    "pinyin": "tāngyuán",
+    "english": "tangyuan",
+    "examples": [
+      {
+        "hanzi": "元宵节吃汤圆。",
+        "pinyin": "Yuánxiāo Jié chī tāngyuán.",
+        "english": "Eat tangyuan on Lantern Festival."
+      },
+      {
+        "hanzi": "芝麻汤圆很好吃。",
+        "pinyin": "Zhīma tāngyuán hěn hǎochī.",
+        "english": "Sesame tangyuan is delicious."
+      }
+    ]
+  },
+  {
+    "section": "lantern",
+    "hanzi": "灯会",
+    "pinyin": "dēnghuì",
+    "english": "lantern fair",
+    "examples": [
+      {
+        "hanzi": "灯会很热闹。",
+        "pinyin": "Dēnghuì hěn rènao.",
+        "english": "The lantern fair is lively."
+      },
+      {
+        "hanzi": "我们全家去逛灯会。",
+        "pinyin": "Wǒmen quán jiā qù guàng dēnghuì.",
+        "english": "Our whole family goes to the lantern fair."
+      }
+    ]
+  },
+  {
+    "section": "lantern",
+    "hanzi": "走马灯",
+    "pinyin": "zǒumǎdēng",
+    "english": "revolving lantern",
+    "examples": [
+      {
+        "hanzi": "走马灯里的图案会动。",
+        "pinyin": "Zǒumǎdēng lǐ de tú'àn huì dòng.",
+        "english": "The pictures inside a revolving lantern move."
+      },
+      {
+        "hanzi": "这种走马灯很精巧。",
+        "pinyin": "Zhè zhǒng zǒumǎdēng hěn jīngqiǎo.",
+        "english": "This type of revolving lantern is intricate."
+      }
+    ]
+  },
+  {
+    "section": "lantern",
+    "hanzi": "孔明灯",
+    "pinyin": "kǒngmíng dēng",
+    "english": "sky lantern",
+    "examples": [
+      {
+        "hanzi": "人们放孔明灯许愿。",
+        "pinyin": "Rénmen fàng kǒngmíng dēng xǔyuàn.",
+        "english": "People release sky lanterns to make wishes."
+      },
+      {
+        "hanzi": "孔明灯慢慢升上天空。",
+        "pinyin": "Kǒngmíng dēng mànmàn shēng shàng tiānkōng.",
+        "english": "Sky lanterns slowly rise into the sky."
+      }
+    ]
+  },
+  {
+    "section": "lantern",
+    "hanzi": "赏月",
+    "pinyin": "shǎng yuè",
+    "english": "to admire the moon",
+    "examples": [
+      {
+        "hanzi": "元宵夜一起赏月。",
+        "pinyin": "Yuánxiāo yè yīqǐ shǎng yuè.",
+        "english": "Admire the moon together on Lantern Festival night."
+      },
+      {
+        "hanzi": "我们在阳台赏月。",
+        "pinyin": "Wǒmen zài yángtái shǎng yuè.",
+        "english": "We admire the moon from the balcony."
+      }
+    ]
+  },
+  {
+    "section": "lantern",
+    "hanzi": "走桥",
+    "pinyin": "zǒu qiáo",
+    "english": "bridge walk (festival activity)",
+    "examples": [
+      {
+        "hanzi": "请看一下走桥。",
+        "pinyin": "Qǐng kàn yīxià zǒu qiáo.",
+        "english": "Please check the bridge walk (festival activity)."
+      },
+      {
+        "hanzi": "这个走桥很重要。",
+        "pinyin": "Zhège zǒu qiáo hěn zhòngyào.",
+        "english": "This bridge walk (festival activity) is important."
+      }
+    ]
+  },
+  {
+    "section": "lantern",
+    "hanzi": "走灯",
+    "pinyin": "zǒu dēng",
+    "english": "lantern walk / parade",
+    "examples": [
+      {
+        "hanzi": "晚上大家走灯赏灯。",
+        "pinyin": "Wǎnshang dàjiā zǒu dēng shǎng dēng.",
+        "english": "In the evening everyone walks among the lanterns."
+      },
+      {
+        "hanzi": "走灯是元宵节习俗。",
+        "pinyin": "Zǒu dēng shì Yuánxiāo Jié xísú.",
+        "english": "Lantern walks are a Lantern Festival custom."
+      }
+    ]
+  },
+  {
+    "section": "mid_autumn",
+    "hanzi": "中秋节",
+    "pinyin": "Zhōngqiū Jié",
+    "english": "Mid-Autumn Festival",
+    "examples": [
+      {
+        "hanzi": "中秋节在农历八月十五。",
+        "pinyin": "Zhōngqiū Jié zài nónglì bā yuè shíwǔ.",
+        "english": "Mid-Autumn Festival is on the 15th of the eighth lunar month."
+      },
+      {
+        "hanzi": "中秋节家人团聚。",
+        "pinyin": "Zhōngqiū Jié jiārén tuánjù.",
+        "english": "Families gather on Mid-Autumn Festival."
+      }
+    ]
+  },
+  {
+    "section": "mid_autumn",
+    "hanzi": "月饼",
+    "pinyin": "yuèbǐng",
+    "english": "mooncake",
+    "examples": [
+      {
+        "hanzi": "中秋节吃月饼。",
+        "pinyin": "Zhōngqiū Jié chī yuèbǐng.",
+        "english": "Eat mooncakes on Mid-Autumn Festival."
+      },
+      {
+        "hanzi": "莲蓉月饼很受欢迎。",
+        "pinyin": "Liánróng yuèbǐng hěn shòu huānyíng.",
+        "english": "Lotus seed mooncakes are popular."
+      }
+    ]
+  },
+  {
+    "section": "mid_autumn",
+    "hanzi": "桂花",
+    "pinyin": "guìhuā",
+    "english": "osmanthus flower",
+    "examples": [
+      {
+        "hanzi": "中秋时节桂花很香。",
+        "pinyin": "Zhōngqiū shíjié guìhuā hěn xiāng.",
+        "english": "Osmanthus flowers are fragrant during Mid-Autumn Festival."
+      },
+      {
+        "hanzi": "月饼里有桂花味道。",
+        "pinyin": "Yuèbǐng li yǒu guìhuā wèidào.",
+        "english": "The mooncake has an osmanthus flavor."
+      }
+    ]
+  },
+  {
+    "section": "mid_autumn",
+    "hanzi": "嫦娥",
+    "pinyin": "Cháng'é",
+    "english": "Chang'e (moon goddess)",
+    "examples": [
+      {
+        "hanzi": "嫦娥奔月是中秋传说。",
+        "pinyin": "Cháng'é bēn yuè shì Zhōngqiū chuánshuō.",
+        "english": "Chang'e flying to the moon is a Mid-Autumn legend."
+      },
+      {
+        "hanzi": "孩子们听嫦娥的故事。",
+        "pinyin": "Háizimen tīng Cháng'é de gùshi.",
+        "english": "Children hear the story of Chang'e."
+      }
+    ]
+  },
+  {
+    "section": "mid_autumn",
+    "hanzi": "玉兔",
+    "pinyin": "yùtù",
+    "english": "Jade Rabbit",
+    "examples": [
+      {
+        "hanzi": "玉兔在月宫里。",
+        "pinyin": "Yùtù zài yuègōng lǐ.",
+        "english": "The Jade Rabbit lives in the moon palace."
+      },
+      {
+        "hanzi": "月饼上常印玉兔图案。",
+        "pinyin": "Yuèbǐng shàng cháng yìn yùtù tú'àn.",
+        "english": "Mooncakes often bear the Jade Rabbit design."
+      }
+    ]
+  },
+  {
+    "section": "mid_autumn",
+    "hanzi": "广寒宫",
+    "pinyin": "Guǎng Hán Gōng",
+    "english": "Moon Palace",
+    "examples": [
+      {
+        "hanzi": "传说嫦娥住在广寒宫。",
+        "pinyin": "Chuánshuō Cháng'é zhù zài Guǎng Hán Gōng.",
+        "english": "Legend says Chang'e lives in the Moon Palace."
+      },
+      {
+        "hanzi": "广寒宫是月宫的名字。",
+        "pinyin": "Guǎng Hán Gōng shì yuè gōng de míngzi.",
+        "english": "Guanghan Palace is the name of the moon palace."
+      }
+    ]
+  },
+  {
+    "section": "mid_autumn",
+    "hanzi": "仲秋",
+    "pinyin": "zhòngqiū",
+    "english": "mid-autumn (literary)",
+    "examples": [
+      {
+        "hanzi": "仲秋之夜月亮很圆。",
+        "pinyin": "Zhòngqiū zhī yè yuèliang hěn yuán.",
+        "english": "The moon is very full on mid-autumn night."
+      },
+      {
+        "hanzi": "仲秋是团圆的好时节。",
+        "pinyin": "Zhòngqiū shì tuányuán de hǎo shíjié.",
+        "english": "Mid-autumn is a wonderful time for reunion."
+      }
+    ]
+  },
+  {
+    "section": "mid_autumn",
+    "hanzi": "思念",
+    "pinyin": "sīniàn",
+    "english": "to miss (someone)",
+    "examples": [
+      {
+        "hanzi": "中秋节我会思念家人。",
+        "pinyin": "Zhōngqiū Jié wǒ huì sīniàn jiārén.",
+        "english": "I miss my family during Mid-Autumn Festival."
+      },
+      {
+        "hanzi": "明月让人思念故乡。",
+        "pinyin": "Míngyuè ràng rén sīniàn gùxiāng.",
+        "english": "The bright moon makes people miss their hometown."
+      }
+    ]
+  },
+  {
+    "section": "mid_autumn",
+    "hanzi": "故乡",
+    "pinyin": "gùxiāng",
+    "english": "hometown",
+    "examples": [
+      {
+        "hanzi": "中秋之夜我想念故乡。",
+        "pinyin": "Zhōngqiū zhī yè wǒ xiǎngniàn gùxiāng.",
+        "english": "On Mid-Autumn night I miss my hometown."
+      },
+      {
+        "hanzi": "明月照故乡。",
+        "pinyin": "Míngyuè zhào gùxiāng.",
+        "english": "The bright moon shines on my hometown."
+      }
+    ]
+  },
+  {
+    "section": "mid_autumn",
+    "hanzi": "圆满",
+    "pinyin": "yuánmǎn",
+    "english": "fulfillment / completeness",
+    "examples": [
+      {
+        "hanzi": "月亮象征圆满。",
+        "pinyin": "Yuèliang xiàngzhēng yuánmǎn.",
+        "english": "The full moon symbolizes completeness."
+      },
+      {
+        "hanzi": "祝大家中秋圆满。",
+        "pinyin": "Zhù dàjiā Zhōngqiū yuánmǎn.",
+        "english": "Wishing everyone a fulfilling Mid-Autumn."
+      }
+    ]
+  },
+  {
+    "section": "pandas",
+    "hanzi": "熊猫",
+    "pinyin": "xióngmāo",
+    "english": "panda",
+    "examples": [
+      {
+        "hanzi": "熊猫是中国的国宝。",
+        "pinyin": "Xióngmāo shì Zhōngguó de guóbǎo.",
+        "english": "Pandas are China's national treasure."
+      },
+      {
+        "hanzi": "孩子们喜欢看熊猫。",
+        "pinyin": "Háizimen xǐhuan kàn xióngmāo.",
+        "english": "Children love watching pandas."
+      }
+    ]
+  },
+  {
+    "section": "pandas",
+    "hanzi": "竹子",
+    "pinyin": "zhúzi",
+    "english": "bamboo",
+    "examples": [
+      {
+        "hanzi": "熊猫主要吃竹子。",
+        "pinyin": "Xióngmāo zhǔyào chī zhúzi.",
+        "english": "Pandas mainly eat bamboo."
+      },
+      {
+        "hanzi": "这片竹林很茂密。",
+        "pinyin": "Zhè piàn zhúlín hěn màomì.",
+        "english": "This bamboo grove is dense."
+      }
+    ]
+  },
+  {
+    "section": "pandas",
+    "hanzi": "成都",
+    "pinyin": "Chéngdū",
+    "english": "Chengdu",
+    "examples": [
+      {
+        "hanzi": "成都是看熊猫的好地方。",
+        "pinyin": "Chéngdū shì kàn xióngmāo de hǎo dìfang.",
+        "english": "Chengdu is a great place to see pandas."
+      },
+      {
+        "hanzi": "成都大熊猫基地很有名。",
+        "pinyin": "Chéngdū dà xióngmāo jīdì hěn yǒumíng.",
+        "english": "Chengdu Panda Base is famous."
+      }
+    ]
+  },
+  {
+    "section": "pandas",
+    "hanzi": "基地",
+    "pinyin": "jīdì",
+    "english": "base / reserve",
+    "examples": [
+      {
+        "hanzi": "基地里有很多熊猫。",
+        "pinyin": "Jīdì lǐ yǒu hěn duō xióngmāo.",
+        "english": "There are many pandas at the base."
+      },
+      {
+        "hanzi": "保护基地禁止喧哗。",
+        "pinyin": "Bǎohù jīdì jìnzhǐ xuānhuá.",
+        "english": "Quiet is required at the conservation base."
+      }
+    ]
+  },
+  {
+    "section": "pandas",
+    "hanzi": "保育",
+    "pinyin": "bǎoyù",
+    "english": "conservation / breeding",
+    "examples": [
+      {
+        "hanzi": "熊猫保育工作很重要。",
+        "pinyin": "Xióngmāo bǎoyù gōngzuò hěn zhòngyào.",
+        "english": "Panda conservation is very important."
+      },
+      {
+        "hanzi": "保育员照顾熊猫宝宝。",
+        "pinyin": "Bǎoyùyuán zhàogù xióngmāo bǎobǎo.",
+        "english": "Keepers care for panda cubs."
+      }
+    ]
+  },
+  {
+    "section": "pandas",
+    "hanzi": "黑白",
+    "pinyin": "hēibái",
+    "english": "black and white",
+    "examples": [
+      {
+        "hanzi": "熊猫是黑白色。",
+        "pinyin": "Xióngmāo shì hēibái sè.",
+        "english": "Pandas are black and white."
+      },
+      {
+        "hanzi": "黑白配色很可爱。",
+        "pinyin": "Hēibái pèisè hěn kě'ài.",
+        "english": "The black-and-white coloring is adorable."
+      }
+    ]
+  },
+  {
+    "section": "pandas",
+    "hanzi": "憨态",
+    "pinyin": "hāntài",
+    "english": "clumsy cute manner",
+    "examples": [
+      {
+        "hanzi": "熊猫的憨态可掬。",
+        "pinyin": "Xióngmāo de hāntài kějū.",
+        "english": "Pandas have a lovable clumsy charm."
+      },
+      {
+        "hanzi": "它憨态十足。",
+        "pinyin": "Tā hāntài shízú.",
+        "english": "It's full of adorable clumsiness."
+      }
+    ]
+  },
+  {
+    "section": "pandas",
+    "hanzi": "爬树",
+    "pinyin": "pá shù",
+    "english": "to climb trees",
+    "examples": [
+      {
+        "hanzi": "小熊猫在学爬树。",
+        "pinyin": "Xiǎo xióngmāo zài xué pá shù.",
+        "english": "A young panda is learning to climb."
+      },
+      {
+        "hanzi": "熊猫爬树很灵活。",
+        "pinyin": "Xióngmāo pá shù hěn línghuó.",
+        "english": "Pandas climb trees nimbly."
+      }
+    ]
+  },
+  {
+    "section": "pandas",
+    "hanzi": "打滚",
+    "pinyin": "dǎgǔn",
+    "english": "to roll around",
+    "examples": [
+      {
+        "hanzi": "熊猫在地上打滚。",
+        "pinyin": "Xióngmāo zài dìshang dǎgǔn.",
+        "english": "The panda rolls on the ground."
+      },
+      {
+        "hanzi": "它高兴时会打滚。",
+        "pinyin": "Tā gāoxìng shí huì dǎgǔn.",
+        "english": "It rolls around when happy."
+      }
+    ]
+  },
+  {
+    "section": "pandas",
+    "hanzi": "濒危",
+    "pinyin": "bīnwēi",
+    "english": "endangered",
+    "examples": [
+      {
+        "hanzi": "熊猫曾经濒危。",
+        "pinyin": "Xióngmāo céngjīng bīnwēi.",
+        "english": "Pandas were once endangered."
+      },
+      {
+        "hanzi": "保护濒危动物人人有责。",
+        "pinyin": "Bǎohù bīnwēi dòngwù rénrén yǒu zé.",
+        "english": "Everyone has a duty to protect endangered animals."
+      }
+    ]
+  },
+  {
+    "section": "tea_culture",
+    "hanzi": "茶道",
+    "pinyin": "chádào",
+    "english": "tea ceremony",
+    "examples": [
+      {
+        "hanzi": "日本茶道源于中国。",
+        "pinyin": "Rìběn chádào yuán yú Zhōngguó.",
+        "english": "Japanese tea ceremony originated in China."
+      },
+      {
+        "hanzi": "她学习中国传统茶道。",
+        "pinyin": "Tā xuéxí Zhōngguó chuántǒng chádào.",
+        "english": "She studies traditional Chinese tea ceremony."
+      }
+    ]
+  },
+  {
+    "section": "tea_culture",
+    "hanzi": "茶艺",
+    "pinyin": "cháyì",
+    "english": "tea art",
+    "examples": [
+      {
+        "hanzi": "茶艺表演很优雅。",
+        "pinyin": "Cháyì biǎoyǎn hěn yōuyǎ.",
+        "english": "Tea art performances are elegant."
+      },
+      {
+        "hanzi": "她精通茶艺。",
+        "pinyin": "Tā jīngtōng cháyì.",
+        "english": "She is skilled in tea art."
+      }
+    ]
+  },
+  {
+    "section": "tea_culture",
+    "hanzi": "茶具",
+    "pinyin": "chájù",
+    "english": "tea set / utensils",
+    "examples": [
+      {
+        "hanzi": "这套茶具是景德镇做的。",
+        "pinyin": "Zhè tào chájù shì Jǐngdézhèn zuò de.",
+        "english": "This tea set is from Jingdezhen."
+      },
+      {
+        "hanzi": "茶具要清洗干净。",
+        "pinyin": "Chájù yào qīngxǐ gānjìng.",
+        "english": "Tea utensils must be cleaned well."
+      }
+    ]
+  },
+  {
+    "section": "tea_culture",
+    "hanzi": "敬茶",
+    "pinyin": "jìng chá",
+    "english": "to serve tea respectfully",
+    "examples": [
+      {
+        "hanzi": "新人向长辈敬茶。",
+        "pinyin": "Xīnrén xiàng zhǎngbèi jìng chá.",
+        "english": "Newlyweds serve tea to elders."
+      },
+      {
+        "hanzi": "敬茶表示尊敬。",
+        "pinyin": "Jìng chá biǎoshì zūnjìng.",
+        "english": "Serving tea shows respect."
+      }
+    ]
+  },
+  {
+    "section": "tea_culture",
+    "hanzi": "品茶",
+    "pinyin": "pǐn chá",
+    "english": "to taste / appreciate tea",
+    "examples": [
+      {
+        "hanzi": "请慢慢品茶。",
+        "pinyin": "Qǐng mànmàn pǐn chá.",
+        "english": "Please savor the tea slowly."
+      },
+      {
+        "hanzi": "品茶需要静心。",
+        "pinyin": "Pǐn chá xūyào jìngxīn.",
+        "english": "Tea tasting requires a calm mind."
+      }
+    ]
+  },
+  {
+    "section": "tea_culture",
+    "hanzi": "龙井",
+    "pinyin": "Lóngjǐng",
+    "english": "Longjing tea",
+    "examples": [
+      {
+        "hanzi": "龙井是杭州名茶。",
+        "pinyin": "Lóngjǐng shì Hángzhōu míng chá.",
+        "english": "Longjing is a famous Hangzhou tea."
+      },
+      {
+        "hanzi": "明前龙井价格很高。",
+        "pinyin": "Míng qián Lóngjǐng jiàgé hěn gāo.",
+        "english": "Pre-Qingming Longjing is very expensive."
+      }
+    ]
+  },
+  {
+    "section": "tea_culture",
+    "hanzi": "铁观音",
+    "pinyin": "Tiěguānyīn",
+    "english": "Tieguanyin oolong",
+    "examples": [
+      {
+        "hanzi": "铁观音是福建名茶。",
+        "pinyin": "Tiěguānyīn shì Fújiàn míng chá.",
+        "english": "Tieguanyin is a famous Fujian tea."
+      },
+      {
+        "hanzi": "这泡铁观音回甘很好。",
+        "pinyin": "Zhè pào Tiěguānyīn huígān hěn hǎo.",
+        "english": "This Tieguanyin has a nice sweet aftertaste."
+      }
+    ]
+  },
+  {
+    "section": "tea_culture",
+    "hanzi": "茶馆",
+    "pinyin": "cháguǎn",
+    "english": "teahouse",
+    "examples": [
+      {
+        "hanzi": "老北京人爱去茶馆。",
+        "pinyin": "Lǎo Běijīng rén ài qù cháguǎn.",
+        "english": "Old Beijingers love teahouses."
+      },
+      {
+        "hanzi": "茶馆里可以听相声。",
+        "pinyin": "Cháguǎn lǐ kěyǐ tīng xiàngsheng.",
+        "english": "You can hear cross-talk at teahouses."
+      }
+    ]
+  },
+  {
+    "section": "tea_culture",
+    "hanzi": "以茶会友",
+    "pinyin": "yǐ chá huì yǒu",
+    "english": "to meet friends over tea",
+    "examples": [
+      {
+        "hanzi": "以茶会友是中国传统。",
+        "pinyin": "Yǐ chá huì yǒu shì Zhōngguó chuántǒng.",
+        "english": "Meeting friends over tea is a Chinese tradition."
+      },
+      {
+        "hanzi": "今天以茶会友，聊得很开心。",
+        "pinyin": "Jīntiān yǐ chá huì yǒu, liáo de hěn kāixīn.",
+        "english": "We met over tea today and had a great chat."
+      }
+    ]
+  },
+  {
+    "section": "tea_culture",
+    "hanzi": "回甘",
+    "pinyin": "huígān",
+    "english": "sweet aftertaste (tea)",
+    "examples": [
+      {
+        "hanzi": "好茶会有回甘。",
+        "pinyin": "Hǎo chá huì yǒu huígān.",
+        "english": "Good tea has a sweet aftertaste."
+      },
+      {
+        "hanzi": "这茶回甘持久。",
+        "pinyin": "Zhè chá huígān chíjiǔ.",
+        "english": "This tea's aftertaste lingers."
+      }
+    ]
+  },
+  {
+    "section": "landmarks",
+    "hanzi": "长城",
+    "pinyin": "Chángchéng",
+    "english": "Great Wall",
+    "examples": [
+      {
+        "hanzi": "长城是世界奇迹。",
+        "pinyin": "Chángchéng shì shìjiè qíjì.",
+        "english": "The Great Wall is a world wonder."
+      },
+      {
+        "hanzi": "我们去长城徒步。",
+        "pinyin": "Wǒmen qù Chángchéng túbù.",
+        "english": "We hiked the Great Wall."
+      }
+    ]
+  },
+  {
+    "section": "landmarks",
+    "hanzi": "故宫",
+    "pinyin": "Gùgōng",
+    "english": "Forbidden City",
+    "examples": [
+      {
+        "hanzi": "故宫在北京中心。",
+        "pinyin": "Gùgōng zài Běijīng zhōngxīn.",
+        "english": "The Forbidden City is in central Beijing."
+      },
+      {
+        "hanzi": "故宫有六百多年历史。",
+        "pinyin": "Gùgōng yǒu liùbǎi duō nián lìshǐ.",
+        "english": "The Forbidden City is over 600 years old."
+      }
+    ]
+  },
+  {
+    "section": "landmarks",
+    "hanzi": "天安门",
+    "pinyin": "Tiān'ānmén",
+    "english": "Tiananmen",
+    "examples": [
+      {
+        "hanzi": "天安门广场很大。",
+        "pinyin": "Tiān'ānmén Guǎngchǎng hěn dà.",
+        "english": "Tiananmen Square is very large."
+      },
+      {
+        "hanzi": "天安门是北京的象征。",
+        "pinyin": "Tiān'ānmén shì Běijīng de xiàngzhēng.",
+        "english": "Tiananmen is a symbol of Beijing."
+      }
+    ]
+  },
+  {
+    "section": "landmarks",
+    "hanzi": "西湖",
+    "pinyin": "Xīhú",
+    "english": "West Lake",
+    "examples": [
+      {
+        "hanzi": "西湖风景如画。",
+        "pinyin": "Xīhú fēngjǐng rú huà.",
+        "english": "West Lake scenery is picturesque."
+      },
+      {
+        "hanzi": "我们在西湖边散步。",
+        "pinyin": "Wǒmen zài Xīhú biān sànbù.",
+        "english": "We walked along West Lake."
+      }
+    ]
+  },
+  {
+    "section": "landmarks",
+    "hanzi": "兵马俑",
+    "pinyin": "Bīngmǎyǒng",
+    "english": "Terracotta Army",
+    "examples": [
+      {
+        "hanzi": "兵马俑在西安。",
+        "pinyin": "Bīngmǎyǒng zài Xī'ān.",
+        "english": "The Terracotta Army is in Xi'an."
+      },
+      {
+        "hanzi": "兵马俑非常壮观。",
+        "pinyin": "Bīngmǎyǒng fēicháng zhuàngguān.",
+        "english": "The Terracotta Army is spectacular."
+      }
+    ]
+  },
+  {
+    "section": "landmarks",
+    "hanzi": "黄山",
+    "pinyin": "Huángshān",
+    "english": "Mount Huang",
+    "examples": [
+      {
+        "hanzi": "黄山以奇松怪石闻名。",
+        "pinyin": "Huángshān yǐ qísōng guàishí wénmíng.",
+        "english": "Mount Huang is famous for odd pines and rocks."
+      },
+      {
+        "hanzi": "我们登黄山看日出。",
+        "pinyin": "Wǒmen dēng Huángshān kàn rìchū.",
+        "english": "We climbed Mount Huang to see the sunrise."
+      }
+    ]
+  },
+  {
+    "section": "landmarks",
+    "hanzi": "桂林",
+    "pinyin": "Guìlín",
+    "english": "Guilin",
+    "examples": [
+      {
+        "hanzi": "桂林山水甲天下。",
+        "pinyin": "Guìlín shānshuǐ jiǎ tiānxià.",
+        "english": "Guilin's scenery is the finest under heaven."
+      },
+      {
+        "hanzi": "我们去桂林游漓江。",
+        "pinyin": "Wǒmen qù Guìlín yóu Líjiāng.",
+        "english": "We went to Guilin to cruise the Li River."
+      }
+    ]
+  },
+  {
+    "section": "landmarks",
+    "hanzi": "布达拉宫",
+    "pinyin": "Bùdálā Gōng",
+    "english": "Potala Palace",
+    "examples": [
+      {
+        "hanzi": "布达拉宫在拉萨。",
+        "pinyin": "Bùdálā Gōng zài Lāsà.",
+        "english": "The Potala Palace is in Lhasa."
+      },
+      {
+        "hanzi": "布达拉宫非常雄伟。",
+        "pinyin": "Bùdálā Gōng fēicháng xióngwěi.",
+        "english": "The Potala Palace is magnificent."
+      }
+    ]
+  },
+  {
+    "section": "landmarks",
+    "hanzi": "外滩",
+    "pinyin": "Wàitān",
+    "english": "The Bund (Shanghai)",
+    "examples": [
+      {
+        "hanzi": "外滩夜景很美。",
+        "pinyin": "Wàitān yèjǐng hěn měi.",
+        "english": "The Bund at night is beautiful."
+      },
+      {
+        "hanzi": "我们去外滩看东方明珠。",
+        "pinyin": "Wǒmen qù Wàitān kàn Dōngfāng Míngzhū.",
+        "english": "We went to the Bund to see Oriental Pearl Tower."
+      }
+    ]
+  },
+  {
+    "section": "landmarks",
+    "hanzi": "苏州园林",
+    "pinyin": "Sūzhōu yuánlín",
+    "english": "Suzhou gardens",
+    "examples": [
+      {
+        "hanzi": "苏州园林很精致。",
+        "pinyin": "Sūzhōu yuánlín hěn jīngzhì.",
+        "english": "Suzhou gardens are exquisite."
+      },
+      {
+        "hanzi": "拙政园是苏州名园。",
+        "pinyin": "Zhuōzhèng Yuán shì Sūzhōu míng yuán.",
+        "english": "Humble Administrator's Garden is a famous Suzhou garden."
+      }
+    ]
+  },
+  {
+    "section": "zodiac",
+    "hanzi": "生肖",
+    "pinyin": "shēngxiào",
+    "english": "Chinese zodiac sign",
+    "examples": [
+      {
+        "hanzi": "你的生肖是什么？",
+        "pinyin": "Nǐ de shēngxiào shì shénme?",
+        "english": "What's your zodiac sign?"
+      },
+      {
+        "hanzi": "生肖共有十二种。",
+        "pinyin": "Shēngxiào gòng yǒu shí'èr zhǒng.",
+        "english": "There are twelve zodiac signs."
+      }
+    ]
+  },
+  {
+    "section": "zodiac",
+    "hanzi": "鼠",
+    "pinyin": "shǔ",
+    "english": "Rat (zodiac)",
+    "examples": [
+      {
+        "hanzi": "属鼠的人很聪明。",
+        "pinyin": "Shǔ shǔ de rén hěn cōngming.",
+        "english": "People born in the Year of the Rat are clever."
+      },
+      {
+        "hanzi": "鼠是第一个生肖。",
+        "pinyin": "Shǔ shì dì yī gè shēngxiào.",
+        "english": "The Rat is the first zodiac sign."
+      }
+    ]
+  },
+  {
+    "section": "zodiac",
+    "hanzi": "龙",
+    "pinyin": "lóng",
+    "english": "Dragon (zodiac)",
+    "examples": [
+      {
+        "hanzi": "龙是中国最重要的生肖。",
+        "pinyin": "Lóng shì Zhōngguó zuì zhòngyào de shēngxiào.",
+        "english": "The Dragon is the most important Chinese zodiac sign."
+      },
+      {
+        "hanzi": "属龙的人很有活力。",
+        "pinyin": "Shǔ lóng de rén hěn yǒu huólì.",
+        "english": "People born in the Year of the Dragon are energetic."
+      }
+    ]
+  },
+  {
+    "section": "zodiac",
+    "hanzi": "虎",
+    "pinyin": "hǔ",
+    "english": "Tiger (zodiac)",
+    "examples": [
+      {
+        "hanzi": "虎年出生的孩子很多。",
+        "pinyin": "Hǔ nián chūshēng de háizi hěn duō.",
+        "english": "Many children are born in the Year of the Tiger."
+      },
+      {
+        "hanzi": "属虎的人很勇敢。",
+        "pinyin": "Shǔ hǔ de rén hěn yǒnggǎn.",
+        "english": "People born in the Year of the Tiger are brave."
+      }
+    ]
+  },
+  {
+    "section": "zodiac",
+    "hanzi": "兔",
+    "pinyin": "tù",
+    "english": "Rabbit (zodiac)",
+    "examples": [
+      {
+        "hanzi": "兔年人温和。",
+        "pinyin": "Tù nián rén wēnhé.",
+        "english": "People born in the Year of the Rabbit are gentle."
+      },
+      {
+        "hanzi": "属兔的今年运势不错。",
+        "pinyin": "Shǔ tù de jīnnián yùnshì búcuò.",
+        "english": "Rabbit sign has good fortune this year."
+      }
+    ]
+  },
+  {
+    "section": "zodiac",
+    "hanzi": "蛇",
+    "pinyin": "shé",
+    "english": "Snake (zodiac)",
+    "examples": [
+      {
+        "hanzi": "属蛇的人很有智慧。",
+        "pinyin": "Shǔ shé de rén hěn yǒu zhìhuì.",
+        "english": "People born in the Year of the Snake are wise."
+      },
+      {
+        "hanzi": "蛇在生肖中排第六。",
+        "pinyin": "Shé zài shēngxiào zhōng pái dì liù.",
+        "english": "The Snake ranks sixth in the zodiac."
+      }
+    ]
+  },
+  {
+    "section": "zodiac",
+    "hanzi": "马",
+    "pinyin": "mǎ",
+    "english": "Horse (zodiac)",
+    "examples": [
+      {
+        "hanzi": "属马的人喜欢自由。",
+        "pinyin": "Shǔ mǎ de rén xǐhuan zìyóu.",
+        "english": "People born in the Year of the Horse love freedom."
+      },
+      {
+        "hanzi": "马象征成功。",
+        "pinyin": "Mǎ xiàngzhēng chénggōng.",
+        "english": "The Horse symbolizes success."
+      }
+    ]
+  },
+  {
+    "section": "zodiac",
+    "hanzi": "羊",
+    "pinyin": "yáng",
+    "english": "Goat (zodiac)",
+    "examples": [
+      {
+        "hanzi": "属羊的人很温柔。",
+        "pinyin": "Shǔ yáng de rén hěn wēnróu.",
+        "english": "People born in the Year of the Goat are gentle."
+      },
+      {
+        "hanzi": "羊年出生的人不少。",
+        "pinyin": "Yáng nián chūshēng de rén bù shǎo.",
+        "english": "Quite a few people were born in the Year of the Goat."
+      }
+    ]
+  },
+  {
+    "section": "zodiac",
+    "hanzi": "猴",
+    "pinyin": "hóu",
+    "english": "Monkey (zodiac)",
+    "examples": [
+      {
+        "hanzi": "属猴的人很机灵。",
+        "pinyin": "Shǔ hóu de rén hěn jīling.",
+        "english": "People born in the Year of the Monkey are quick-witted."
+      },
+      {
+        "hanzi": "猴年大家想要聪明的孩子。",
+        "pinyin": "Hóu nián dàjiā xiǎng yào cōngming de háizi.",
+        "english": "In Monkey years people want clever children."
+      }
+    ]
+  },
+  {
+    "section": "zodiac",
+    "hanzi": "猪",
+    "pinyin": "zhū",
+    "english": "Pig (zodiac)",
+    "examples": [
+      {
+        "hanzi": "属猪的人福气好。",
+        "pinyin": "Shǔ zhū de rén fúqi hǎo.",
+        "english": "People born in the Year of the Pig are fortunate."
+      },
+      {
+        "hanzi": "猪是最后一个生肖。",
+        "pinyin": "Zhū shì zuìhòu yī gè shēngxiào.",
+        "english": "The Pig is the last zodiac sign."
+      }
+    ]
+  },
+  {
+    "section": "arts",
+    "hanzi": "书法",
+    "pinyin": "shūfǎ",
+    "english": "calligraphy",
+    "examples": [
+      {
+        "hanzi": "书法是中国传统艺术。",
+        "pinyin": "Shūfǎ shì Zhōngguó chuántǒng yìshù.",
+        "english": "Calligraphy is a traditional Chinese art."
+      },
+      {
+        "hanzi": "他练习书法十年了。",
+        "pinyin": "Tā liànxí shūfǎ shí nián le.",
+        "english": "He's practiced calligraphy for ten years."
+      }
+    ]
+  },
+  {
+    "section": "arts",
+    "hanzi": "国画",
+    "pinyin": "guóhuà",
+    "english": "Chinese painting",
+    "examples": [
+      {
+        "hanzi": "这幅国画是山水画。",
+        "pinyin": "Zhè fú guóhuà shì shānshuǐ huà.",
+        "english": "This Chinese painting is a landscape."
+      },
+      {
+        "hanzi": "国画用毛笔和墨水。",
+        "pinyin": "Guóhuà yòng máobǐ hé mòshuǐ.",
+        "english": "Chinese painting uses brush and ink."
+      }
+    ]
+  },
+  {
+    "section": "arts",
+    "hanzi": "京剧",
+    "pinyin": "jīngjù",
+    "english": "Peking opera",
+    "examples": [
+      {
+        "hanzi": "京剧脸谱很有特色。",
+        "pinyin": "Jīngjù liǎnpǔ hěn yǒu tèsè.",
+        "english": "Peking opera face paint is distinctive."
+      },
+      {
+        "hanzi": "我们去听京剧。",
+        "pinyin": "Wǒmen qù tīng jīngjù.",
+        "english": "We went to hear Peking opera."
+      }
+    ]
+  },
+  {
+    "section": "arts",
+    "hanzi": "剪纸",
+    "pinyin": "jiǎnzhǐ",
+    "english": "paper cutting",
+    "examples": [
+      {
+        "hanzi": "窗上贴了红色剪纸。",
+        "pinyin": "Chuāng shàng tiē le hóngsè jiǎnzhǐ.",
+        "english": "Red paper cuttings are pasted on the window."
+      },
+      {
+        "hanzi": "剪纸是民间艺术。",
+        "pinyin": "Jiǎnzhǐ shì mínjiān yìshù.",
+        "english": "Paper cutting is folk art."
+      }
+    ]
+  },
+  {
+    "section": "arts",
+    "hanzi": "刺绣",
+    "pinyin": "cìxiù",
+    "english": "embroidery",
+    "examples": [
+      {
+        "hanzi": "苏绣非常有名。",
+        "pinyin": "Sūxiù fēicháng yǒumíng.",
+        "english": "Su embroidery is very famous."
+      },
+      {
+        "hanzi": "这件刺绣很精细。",
+        "pinyin": "Zhè jiàn cìxiù hěn jīngxì.",
+        "english": "This embroidery is very fine."
+      }
+    ]
+  },
+  {
+    "section": "arts",
+    "hanzi": "陶瓷",
+    "pinyin": "táocí",
+    "english": "ceramics / porcelain",
+    "examples": [
+      {
+        "hanzi": "景德镇陶瓷闻名世界。",
+        "pinyin": "Jǐngdézhèn táocí wénmíng shìjiè.",
+        "english": "Jingdezhen porcelain is world famous."
+      },
+      {
+        "hanzi": "这个陶瓷花瓶很精美。",
+        "pinyin": "Zhège táocí huāpíng hěn jīngměi.",
+        "english": "This ceramic vase is exquisite."
+      }
+    ]
+  },
+  {
+    "section": "arts",
+    "hanzi": "二胡",
+    "pinyin": "èrhú",
+    "english": "erhu (two-string fiddle)",
+    "examples": [
+      {
+        "hanzi": "她用二胡演奏。",
+        "pinyin": "Tā yòng èrhú yǎnzòu.",
+        "english": "She performs on the erhu."
+      },
+      {
+        "hanzi": "二胡声音很动人。",
+        "pinyin": "Èrhú shēngyīn hěn dòngrén.",
+        "english": "The erhu sound is moving."
+      }
+    ]
+  },
+  {
+    "section": "arts",
+    "hanzi": "古筝",
+    "pinyin": "gǔzhēng",
+    "english": "guzheng (zither)",
+    "examples": [
+      {
+        "hanzi": "她从小学习古筝。",
+        "pinyin": "Tā cóngxiǎo xuéxí gǔzhēng.",
+        "english": "She's studied guzheng since childhood."
+      },
+      {
+        "hanzi": "古筝曲很优美。",
+        "pinyin": "Gǔzhēng qǔ hěn yōuměi.",
+        "english": "Guzheng music is graceful."
+      }
+    ]
+  },
+  {
+    "section": "arts",
+    "hanzi": "相声",
+    "pinyin": "xiàngsheng",
+    "english": "cross-talk comedy",
+    "examples": [
+      {
+        "hanzi": "相声让人哈哈大笑。",
+        "pinyin": "Xiàngsheng ràng rén dà xiào.",
+        "english": "Cross-talk makes people laugh hard."
+      },
+      {
+        "hanzi": "我们在茶馆听相声。",
+        "pinyin": "Wǒmen zài cháguǎn tīng xiàngsheng.",
+        "english": "We heard cross-talk at a teahouse."
+      }
+    ]
+  },
+  {
+    "section": "arts",
+    "hanzi": "武术",
+    "pinyin": "wǔshù",
+    "english": "martial arts",
+    "examples": [
+      {
+        "hanzi": "武术是中国传统体育。",
+        "pinyin": "Wǔshù shì Zhōngguó chuántǒng tǐyù.",
+        "english": "Martial arts are traditional Chinese sport."
+      },
+      {
+        "hanzi": "他从小练武术。",
+        "pinyin": "Tā cóngxiǎo liàn wǔshù.",
+        "english": "He's practiced martial arts since childhood."
+      }
+    ]
+  },
+  {
+    "section": "kungfu",
+    "hanzi": "功夫",
+    "pinyin": "gōngfu",
+    "english": "kung fu / martial skill",
+    "examples": [
+      {
+        "hanzi": "中国功夫闻名世界。",
+        "pinyin": "Zhōngguó gōngfu wénmíng shìjiè.",
+        "english": "Chinese kung fu is world famous."
+      },
+      {
+        "hanzi": "他练了十年功夫。",
+        "pinyin": "Tā liàn le shí nián gōngfu.",
+        "english": "He's trained kung fu for ten years."
+      }
+    ]
+  },
+  {
+    "section": "kungfu",
+    "hanzi": "太极拳",
+    "pinyin": "tàijíquán",
+    "english": "Tai Chi",
+    "examples": [
+      {
+        "hanzi": "太极拳动作很慢。",
+        "pinyin": "Tàijíquán dòngzuò hěn màn.",
+        "english": "Tai Chi movements are slow."
+      },
+      {
+        "hanzi": "老人常在公园打太极拳。",
+        "pinyin": "Lǎorén cháng zài gōngyuán dǎ tàijíquán.",
+        "english": "Elders often practice Tai Chi in parks."
+      }
+    ]
+  },
+  {
+    "section": "kungfu",
+    "hanzi": "咏春",
+    "pinyin": "Yǒngchūn",
+    "english": "Wing Chun",
+    "examples": [
+      {
+        "hanzi": "咏春拳来自广东。",
+        "pinyin": "Yǒngchūn quán láizì Guǎngdōng.",
+        "english": "Wing Chun comes from Guangdong."
+      },
+      {
+        "hanzi": "咏春讲究近身格斗。",
+        "pinyin": "Yǒngchūn jiǎngjiū jìn shēn gédòu.",
+        "english": "Wing Chun focuses on close combat."
+      }
+    ]
+  },
+  {
+    "section": "kungfu",
+    "hanzi": "少林寺",
+    "pinyin": "Shàolín Sì",
+    "english": "Shaolin Temple",
+    "examples": [
+      {
+        "hanzi": "少林寺是功夫发源地。",
+        "pinyin": "Shàolín Sì shì gōngfu fāyuándì.",
+        "english": "Shaolin Temple is the birthplace of kung fu."
+      },
+      {
+        "hanzi": "我们去少林寺参观。",
+        "pinyin": "Wǒmen qù Shàolín Sì cānguān.",
+        "english": "We visited Shaolin Temple."
+      }
+    ]
+  },
+  {
+    "section": "kungfu",
+    "hanzi": "师傅",
+    "pinyin": "shīfu",
+    "english": "master / teacher (martial)",
+    "examples": [
+      {
+        "hanzi": "师傅教了我很多。",
+        "pinyin": "Shīfu jiāo le wǒ hěn duō.",
+        "english": "My master taught me a lot."
+      },
+      {
+        "hanzi": "请师傅示范一下。",
+        "pinyin": "Qǐng shīfu shìfàn yīxià.",
+        "english": "Master, please demonstrate."
+      }
+    ]
+  },
+  {
+    "section": "kungfu",
+    "hanzi": "弟子",
+    "pinyin": "dìzi",
+    "english": "disciple / student",
+    "examples": [
+      {
+        "hanzi": "他是少林寺的弟子。",
+        "pinyin": "Tā shì Shàolín Sì de dìzi.",
+        "english": "He is a Shaolin disciple."
+      },
+      {
+        "hanzi": "弟子要认真练功。",
+        "pinyin": "Dìzi yào rènzhēn liàngōng.",
+        "english": "Disciples must train diligently."
+      }
+    ]
+  },
+  {
+    "section": "kungfu",
+    "hanzi": "练功",
+    "pinyin": "liàngōng",
+    "english": "to practice martial arts",
+    "examples": [
+      {
+        "hanzi": "每天练功两小时。",
+        "pinyin": "Měitiān liàngōng liǎng xiǎoshí.",
+        "english": "Practice two hours daily."
+      },
+      {
+        "hanzi": "练功要持之以恒。",
+        "pinyin": "Liàngōng yào chízhī yǐhéng.",
+        "english": "Training requires persistence."
+      }
+    ]
+  },
+  {
+    "section": "kungfu",
+    "hanzi": "套路",
+    "pinyin": "tàolù",
+    "english": "form / routine (martial)",
+    "examples": [
+      {
+        "hanzi": "这套套路很难。",
+        "pinyin": "Zhè tào tàolù hěn nán.",
+        "english": "This form is difficult."
+      },
+      {
+        "hanzi": "他表演了一套拳法套路。",
+        "pinyin": "Tā biǎoyǎn le yī tào quánfǎ tàolù.",
+        "english": "He performed a fist form routine."
+      }
+    ]
+  },
+  {
+    "section": "kungfu",
+    "hanzi": "内功",
+    "pinyin": "nèigōng",
+    "english": "internal martial skill",
+    "examples": [
+      {
+        "hanzi": "内功需要长期修炼。",
+        "pinyin": "Nèigōng xūyào chángqī xiūliàn.",
+        "english": "Internal skill requires long cultivation."
+      },
+      {
+        "hanzi": "他内功深厚。",
+        "pinyin": "Tā nèigōng shēnhòu.",
+        "english": "His internal skill is profound."
+      }
+    ]
+  },
+  {
+    "section": "kungfu",
+    "hanzi": "比武",
+    "pinyin": "bǐwǔ",
+    "english": "martial arts contest",
+    "examples": [
+      {
+        "hanzi": "他们在比武。",
+        "pinyin": "Tāmen zài bǐwǔ.",
+        "english": "They're in a martial contest."
+      },
+      {
+        "hanzi": "比武点到为止。",
+        "pinyin": "Bǐwǔ diǎn dào wéi zhǐ.",
+        "english": "In contests, stop at the point of contact."
+      }
+    ]
+  }
+]

@@ -1,0 +1,1802 @@
+[
+  {
+    "section": "essentials",
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "english": "hello",
+    "examples": [
+      {
+        "hanzi": "你好，我是游客。",
+        "pinyin": "Nǐ hǎo, wǒ shì yóukè.",
+        "english": "Hello, I'm a tourist."
+      },
+      {
+        "hanzi": "你好，请问这里怎么走？",
+        "pinyin": "Nǐ hǎo, qǐngwèn zhèlǐ zěnme zǒu?",
+        "english": "Hello, how do I get here?"
+      }
+    ]
+  },
+  {
+    "section": "essentials",
+    "hanzi": "谢谢",
+    "pinyin": "xièxie",
+    "english": "thank you",
+    "examples": [
+      {
+        "hanzi": "谢谢你的帮助。",
+        "pinyin": "Xièxie nǐ de bāngzhù.",
+        "english": "Thank you for your help."
+      },
+      {
+        "hanzi": "太谢谢了！",
+        "pinyin": "Tài xièxie le!",
+        "english": "Thank you so much!"
+      }
+    ]
+  },
+  {
+    "section": "essentials",
+    "hanzi": "对不起",
+    "pinyin": "duìbuqǐ",
+    "english": "sorry / excuse me",
+    "examples": [
+      {
+        "hanzi": "对不起，我迟到了。",
+        "pinyin": "Duìbuqǐ, wǒ chídào le.",
+        "english": "Sorry, I'm late."
+      },
+      {
+        "hanzi": "对不起，打扰一下。",
+        "pinyin": "Duìbuqǐ, dǎrǎo yīxià.",
+        "english": "Excuse me, sorry to bother you."
+      }
+    ]
+  },
+  {
+    "section": "essentials",
+    "hanzi": "请问",
+    "pinyin": "qǐngwèn",
+    "english": "excuse me / may I ask",
+    "examples": [
+      {
+        "hanzi": "请问厕所在哪儿？",
+        "pinyin": "Qǐngwèn cèsuǒ zài nǎr?",
+        "english": "Excuse me, where is the restroom?"
+      },
+      {
+        "hanzi": "请问你会说英文吗？",
+        "pinyin": "Qǐngwèn nǐ huì shuō Yīngwén ma?",
+        "english": "Excuse me, do you speak English?"
+      }
+    ]
+  },
+  {
+    "section": "essentials",
+    "hanzi": "不会",
+    "pinyin": "bú huì",
+    "english": "can't / don't know how",
+    "examples": [
+      {
+        "hanzi": "我不会说中文。",
+        "pinyin": "Wǒ bú huì shuō Zhōngwén.",
+        "english": "I can't speak Chinese."
+      },
+      {
+        "hanzi": "我不会用这个App。",
+        "pinyin": "Wǒ bú huì yòng zhège App.",
+        "english": "I don't know how to use this app."
+      }
+    ]
+  },
+  {
+    "section": "essentials",
+    "hanzi": "听不懂",
+    "pinyin": "tīng bu dǒng",
+    "english": "don't understand (spoken)",
+    "examples": [
+      {
+        "hanzi": "对不起，我听不懂。",
+        "pinyin": "Duìbuqǐ, wǒ tīng bu dǒng.",
+        "english": "Sorry, I don't understand."
+      },
+      {
+        "hanzi": "请说慢一点，我听不懂。",
+        "pinyin": "Qǐng shuō màn yīdiǎn, wǒ tīng bu dǒng.",
+        "english": "Please speak slower, I don't understand."
+      }
+    ]
+  },
+  {
+    "section": "essentials",
+    "hanzi": "中文",
+    "pinyin": "Zhōngwén",
+    "english": "Chinese language",
+    "examples": [
+      {
+        "hanzi": "你会说中文吗？",
+        "pinyin": "Nǐ huì shuō Zhōngwén ma?",
+        "english": "Do you speak Chinese?"
+      },
+      {
+        "hanzi": "我在学中文。",
+        "pinyin": "Wǒ zài xué Zhōngwén.",
+        "english": "I'm learning Chinese."
+      }
+    ]
+  },
+  {
+    "section": "essentials",
+    "hanzi": "英文",
+    "pinyin": "Yīngwén",
+    "english": "English language",
+    "examples": [
+      {
+        "hanzi": "请用英文说。",
+        "pinyin": "Qǐng yòng Yīngwén shuō.",
+        "english": "Please say it in English."
+      },
+      {
+        "hanzi": "菜单有英文吗？",
+        "pinyin": "Càidān yǒu Yīngwén ma?",
+        "english": "Is there an English menu?"
+      }
+    ]
+  },
+  {
+    "section": "essentials",
+    "hanzi": "地图",
+    "pinyin": "dìtú",
+    "english": "map",
+    "examples": [
+      {
+        "hanzi": "可以用地图吗？",
+        "pinyin": "Kěyǐ yòng dìtú ma?",
+        "english": "Can I use a map?"
+      },
+      {
+        "hanzi": "我在地图上看一下。",
+        "pinyin": "Wǒ zài dìtú shàng kàn yīxià.",
+        "english": "Let me check on the map."
+      }
+    ]
+  },
+  {
+    "section": "essentials",
+    "hanzi": "厕所",
+    "pinyin": "cèsuǒ",
+    "english": "restroom / toilet",
+    "examples": [
+      {
+        "hanzi": "厕所在哪儿？",
+        "pinyin": "Cèsuǒ zài nǎr?",
+        "english": "Where is the restroom?"
+      },
+      {
+        "hanzi": "附近有公共厕所吗？",
+        "pinyin": "Fùjìn yǒu gōnggòng cèsuǒ ma?",
+        "english": "Is there a public restroom nearby?"
+      }
+    ]
+  },
+  {
+    "section": "airport",
+    "hanzi": "值机",
+    "pinyin": "zhí jī",
+    "english": "check-in (airport)",
+    "examples": [
+      {
+        "hanzi": "值机柜台在哪儿？",
+        "pinyin": "Zhí jī guìtái zài nǎr?",
+        "english": "Where is the check-in counter?"
+      },
+      {
+        "hanzi": "我已经在线值机了。",
+        "pinyin": "Wǒ yǐjīng zàixiàn zhí jī le.",
+        "english": "I have already checked in online."
+      }
+    ]
+  },
+  {
+    "section": "airport",
+    "hanzi": "登机",
+    "pinyin": "dēng jī",
+    "english": "to board (a plane)",
+    "examples": [
+      {
+        "hanzi": "现在开始登机了。",
+        "pinyin": "Xiànzài kāishǐ dēng jī le.",
+        "english": "Boarding has started now."
+      },
+      {
+        "hanzi": "请准备好登机。",
+        "pinyin": "Qǐng zhǔnbèi hǎo dēng jī.",
+        "english": "Please get ready to board."
+      }
+    ]
+  },
+  {
+    "section": "airport",
+    "hanzi": "护照",
+    "pinyin": "hùzhào",
+    "english": "passport",
+    "examples": [
+      {
+        "hanzi": "请出示您的护照。",
+        "pinyin": "Qǐng chūshì nín de hùzhào.",
+        "english": "Please show your passport."
+      },
+      {
+        "hanzi": "护照需要在有效期内。",
+        "pinyin": "Hùzhào xūyào zài yǒuxiào qī nèi.",
+        "english": "Your passport must be valid."
+      }
+    ]
+  },
+  {
+    "section": "airport",
+    "hanzi": "安检",
+    "pinyin": "ān jiǎn",
+    "english": "security check",
+    "examples": [
+      {
+        "hanzi": "安检请把电脑拿出来。",
+        "pinyin": "Ān jiǎn qǐng bǎ diànnǎo ná chūlái.",
+        "english": "Please take out your laptop for security."
+      },
+      {
+        "hanzi": "液体不能带过安检。",
+        "pinyin": "Yètǐ bù néng dài guò ān jiǎn.",
+        "english": "Liquids cannot go through security."
+      }
+    ]
+  },
+  {
+    "section": "airport",
+    "hanzi": "入境",
+    "pinyin": "rù jìng",
+    "english": "immigration entry",
+    "examples": [
+      {
+        "hanzi": "入境处在这边。",
+        "pinyin": "Rù jìng chù zài zhè biān.",
+        "english": "Immigration is this way."
+      },
+      {
+        "hanzi": "入境需要填写申报表。",
+        "pinyin": "Rù jìng xūyào tiánxiě shēnbào biǎo.",
+        "english": "You need to fill out a declaration form for entry."
+      }
+    ]
+  },
+  {
+    "section": "airport",
+    "hanzi": "登机口",
+    "pinyin": "dēng jī kǒu",
+    "english": "boarding gate",
+    "examples": [
+      {
+        "hanzi": "登机口改成A12了。",
+        "pinyin": "Dēng jī kǒu gǎi chéng A shí'èr le.",
+        "english": "The boarding gate has changed to A12."
+      },
+      {
+        "hanzi": "请问登机口怎么走？",
+        "pinyin": "Qǐngwèn dēng jī kǒu zěnme zǒu?",
+        "english": "Excuse me, how do I get to the boarding gate?"
+      }
+    ]
+  },
+  {
+    "section": "airport",
+    "hanzi": "行李",
+    "pinyin": "xíngli",
+    "english": "luggage",
+    "examples": [
+      {
+        "hanzi": "行李转盘在出口左边。",
+        "pinyin": "Xíngli zhuànpán zài chūkǒu zuǒbian.",
+        "english": "The baggage carousel is to the left of the exit."
+      },
+      {
+        "hanzi": "我的行李还没出来。",
+        "pinyin": "Wǒ de xíngli hái méi chūlái.",
+        "english": "My luggage hasn't come out yet."
+      }
+    ]
+  },
+  {
+    "section": "airport",
+    "hanzi": "海关",
+    "pinyin": "hǎiguān",
+    "english": "customs",
+    "examples": [
+      {
+        "hanzi": "请走红色通道过海关。",
+        "pinyin": "Qǐng zǒu hóngsè tōngdào guò hǎiguān.",
+        "english": "Please use the red channel for customs."
+      },
+      {
+        "hanzi": "这些物品需要向海关申报。",
+        "pinyin": "Zhèxiē wùpǐn xūyào xiàng hǎiguān shēnbào.",
+        "english": "These items must be declared to customs."
+      }
+    ]
+  },
+  {
+    "section": "airport",
+    "hanzi": "登机牌",
+    "pinyin": "dēng jī pái",
+    "english": "boarding pass",
+    "examples": [
+      {
+        "hanzi": "请出示登机牌和护照。",
+        "pinyin": "Qǐng chūshì dēng jī pái hé hùzhào.",
+        "english": "Please show your boarding pass and passport."
+      },
+      {
+        "hanzi": "登机牌可以扫码登机。",
+        "pinyin": "Dēng jī pái kěyǐ sǎo mǎ dēng jī.",
+        "english": "You can board by scanning the boarding pass."
+      }
+    ]
+  },
+  {
+    "section": "airport",
+    "hanzi": "航班",
+    "pinyin": "hángbān",
+    "english": "flight",
+    "examples": [
+      {
+        "hanzi": "您的航班准时起飞。",
+        "pinyin": "Nín de hángbān zhǔnshí qǐfēi.",
+        "english": "Your flight departs on time."
+      },
+      {
+        "hanzi": "请问这个航班在哪个航站楼？",
+        "pinyin": "Qǐngwèn zhège hángbān zài nǎ ge hángzhàn lóu?",
+        "english": "Which terminal is this flight in?"
+      }
+    ]
+  },
+  {
+    "section": "hotel",
+    "hanzi": "预订",
+    "pinyin": "yùdìng",
+    "english": "reservation",
+    "examples": [
+      {
+        "hanzi": "我在网上预订了房间。",
+        "pinyin": "Wǒ zài wǎngshàng yùdìng le fángjiān.",
+        "english": "I booked a room online."
+      },
+      {
+        "hanzi": "预订的名字是Smith。",
+        "pinyin": "Yùdìng de míngzi shì Smith.",
+        "english": "The reservation is under the name Smith."
+      }
+    ]
+  },
+  {
+    "section": "hotel",
+    "hanzi": "前台",
+    "pinyin": "qiántái",
+    "english": "reception (front desk)",
+    "examples": [
+      {
+        "hanzi": "前台在一楼大厅。",
+        "pinyin": "Qiántái zài yì lóu dàtīng.",
+        "english": "Reception is in the lobby on the first floor."
+      },
+      {
+        "hanzi": "有问题可以问前台。",
+        "pinyin": "Yǒu wèntí kěyǐ wèn qiántái.",
+        "english": "You can ask the front desk if you have questions."
+      }
+    ]
+  },
+  {
+    "section": "hotel",
+    "hanzi": "房间",
+    "pinyin": "fángjiān",
+    "english": "room",
+    "examples": [
+      {
+        "hanzi": "我想要一间安静一点的房间。",
+        "pinyin": "Wǒ xiǎng yào yì jiān ānjìng yìdiǎn de fángjiān.",
+        "english": "I'd like a quieter room."
+      },
+      {
+        "hanzi": "房间里有热水吗？",
+        "pinyin": "Fángjiān lǐ yǒu rè shuǐ ma?",
+        "english": "Is there hot water in the room?"
+      }
+    ]
+  },
+  {
+    "section": "hotel",
+    "hanzi": "房卡",
+    "pinyin": "fáng kǎ",
+    "english": "key card",
+    "examples": [
+      {
+        "hanzi": "房卡请收好。",
+        "pinyin": "Fáng kǎ qǐng shōu hǎo.",
+        "english": "Please keep your key card safe."
+      },
+      {
+        "hanzi": "我的房卡刷不开了。",
+        "pinyin": "Wǒ de fáng kǎ shuā bu kāi le.",
+        "english": "My key card won't open the door."
+      }
+    ]
+  },
+  {
+    "section": "hotel",
+    "hanzi": "早餐",
+    "pinyin": "zǎocān",
+    "english": "breakfast",
+    "examples": [
+      {
+        "hanzi": "早餐在二楼餐厅。",
+        "pinyin": "Zǎocān zài èr lóu cāntīng.",
+        "english": "Breakfast is served in the restaurant on the second floor."
+      },
+      {
+        "hanzi": "早餐几点开始？",
+        "pinyin": "Zǎocān jǐ diǎn kāishǐ?",
+        "english": "What time does breakfast start?"
+      }
+    ]
+  },
+  {
+    "section": "hotel",
+    "hanzi": "电梯",
+    "pinyin": "diàntī",
+    "english": "elevator",
+    "examples": [
+      {
+        "hanzi": "电梯在那边。",
+        "pinyin": "Diàntī zài nà biān.",
+        "english": "The elevator is over there."
+      },
+      {
+        "hanzi": "请走右边的电梯。",
+        "pinyin": "Qǐng zǒu yòubian de diàntī.",
+        "english": "Please take the elevator on the right."
+      }
+    ]
+  },
+  {
+    "section": "hotel",
+    "hanzi": "入住",
+    "pinyin": "rù zhù",
+    "english": "hotel check-in",
+    "examples": [
+      {
+        "hanzi": "我想办理入住。",
+        "pinyin": "Wǒ xiǎng bànlǐ rù zhù.",
+        "english": "I'd like to check in."
+      },
+      {
+        "hanzi": "入住时间是下午两点。",
+        "pinyin": "Rù zhù shíjiān shì xiàwǔ liǎng diǎn.",
+        "english": "Check-in time is 2 p.m."
+      }
+    ]
+  },
+  {
+    "section": "hotel",
+    "hanzi": "退房",
+    "pinyin": "tuì fáng",
+    "english": "hotel check-out",
+    "examples": [
+      {
+        "hanzi": "我明天中午退房。",
+        "pinyin": "Wǒ míngtiān zhōngwǔ tuì fáng.",
+        "english": "I'm checking out tomorrow at noon."
+      },
+      {
+        "hanzi": "退房前请把房卡交给前台。",
+        "pinyin": "Tuì fáng qián qǐng bǎ fáng kǎ jiāo gěi qiántái.",
+        "english": "Please return your key card to reception before checking out."
+      }
+    ]
+  },
+  {
+    "section": "hotel",
+    "hanzi": "洗衣",
+    "pinyin": "xǐ yī",
+    "english": "laundry",
+    "examples": [
+      {
+        "hanzi": "酒店有洗衣服务吗？",
+        "pinyin": "Jiǔdiàn yǒu xǐ yī fúwù ma?",
+        "english": "Does the hotel have laundry service?"
+      },
+      {
+        "hanzi": "洗衣房在地下一层。",
+        "pinyin": "Xǐ yī fáng zài dìxià yì céng.",
+        "english": "The laundry room is on the basement level."
+      }
+    ]
+  },
+  {
+    "section": "hotel",
+    "hanzi": "酒店",
+    "pinyin": "jiǔdiàn",
+    "english": "hotel",
+    "examples": [
+      {
+        "hanzi": "这家酒店离地铁很近。",
+        "pinyin": "Zhè jiā jiǔdiàn lí dìtiě hěn jìn.",
+        "english": "This hotel is very close to the subway."
+      },
+      {
+        "hanzi": "请送我去这个酒店。",
+        "pinyin": "Qǐng sòng wǒ qù zhège jiǔdiàn.",
+        "english": "Please take me to this hotel."
+      }
+    ]
+  },
+  {
+    "section": "transportation",
+    "hanzi": "地铁",
+    "pinyin": "dìtiě",
+    "english": "subway / metro",
+    "examples": [
+      {
+        "hanzi": "最近的地铁站在哪儿？",
+        "pinyin": "Zuìjìn de dìtiě zhàn zài nǎr?",
+        "english": "Where is the nearest subway station?"
+      },
+      {
+        "hanzi": "我们坐地铁去吧。",
+        "pinyin": "Wǒmen zuò dìtiě qù ba.",
+        "english": "Let's take the subway."
+      }
+    ]
+  },
+  {
+    "section": "transportation",
+    "hanzi": "火车站",
+    "pinyin": "huǒchē zhàn",
+    "english": "train station",
+    "examples": [
+      {
+        "hanzi": "火车站离这儿远吗？",
+        "pinyin": "Huǒchē zhàn lí zhèr yuǎn ma?",
+        "english": "Is the train station far from here?"
+      },
+      {
+        "hanzi": "请到火车站。",
+        "pinyin": "Qǐng dào huǒchē zhàn.",
+        "english": "Please go to the train station."
+      }
+    ]
+  },
+  {
+    "section": "transportation",
+    "hanzi": "高铁",
+    "pinyin": "gāotiě",
+    "english": "high-speed train",
+    "examples": [
+      {
+        "hanzi": "我坐高铁去北京。",
+        "pinyin": "Wǒ zuò gāotiě qù Běijīng.",
+        "english": "I'm taking the high-speed train to Beijing."
+      },
+      {
+        "hanzi": "高铁票买了吗？",
+        "pinyin": "Gāotiě piào mǎi le ma?",
+        "english": "Did you buy the high-speed train ticket?"
+      }
+    ]
+  },
+  {
+    "section": "transportation",
+    "hanzi": "车票",
+    "pinyin": "chēpiào",
+    "english": "ticket (train/bus)",
+    "examples": [
+      {
+        "hanzi": "车票在哪里买？",
+        "pinyin": "Chēpiào zài nǎlǐ mǎi?",
+        "english": "Where can I buy a ticket?"
+      },
+      {
+        "hanzi": "请出示您的车票。",
+        "pinyin": "Qǐng chūshì nín de chēpiào.",
+        "english": "Please show your ticket."
+      }
+    ]
+  },
+  {
+    "section": "transportation",
+    "hanzi": "公交车",
+    "pinyin": "gōngjiāo chē",
+    "english": "bus",
+    "examples": [
+      {
+        "hanzi": "这路公交车到市中心吗？",
+        "pinyin": "Zhè lù gōngjiāo chē dào shì zhōngxīn ma?",
+        "english": "Does this bus go to the city center?"
+      },
+      {
+        "hanzi": "下一班公交车什么时候来？",
+        "pinyin": "Xià yī bān gōngjiāo chē shénme shíhou lái?",
+        "english": "When is the next bus coming?"
+      }
+    ]
+  },
+  {
+    "section": "transportation",
+    "hanzi": "停这儿",
+    "pinyin": "tíng zhèr",
+    "english": "stop here",
+    "examples": [
+      {
+        "hanzi": "师傅，停这儿就行。",
+        "pinyin": "Shīfu, tíng zhèr jiù xíng.",
+        "english": "Driver, you can stop here."
+      },
+      {
+        "hanzi": "请在前面的酒店停这儿。",
+        "pinyin": "Qǐng zài qiánmiàn de jiǔdiàn tíng zhèr.",
+        "english": "Please stop here at the hotel ahead."
+      }
+    ]
+  },
+  {
+    "section": "transportation",
+    "hanzi": "快一点",
+    "pinyin": "kuài yìdiǎn",
+    "english": "a bit faster",
+    "examples": [
+      {
+        "hanzi": "能快一点吗？我赶时间。",
+        "pinyin": "Néng kuài yìdiǎn ma? Wǒ gǎn shíjiān.",
+        "english": "Can you go a bit faster? I'm in a hurry."
+      },
+      {
+        "hanzi": "麻烦快一点，谢谢。",
+        "pinyin": "Máfan kuài yìdiǎn, xièxie.",
+        "english": "Please go a little faster, thanks."
+      }
+    ]
+  },
+  {
+    "section": "transportation",
+    "hanzi": "慢一点",
+    "pinyin": "màn yìdiǎn",
+    "english": "a bit slower",
+    "examples": [
+      {
+        "hanzi": "请慢一点，我不舒服。",
+        "pinyin": "Qǐng màn yìdiǎn, wǒ bù shūfu.",
+        "english": "Please drive slower, I feel unwell."
+      },
+      {
+        "hanzi": "路滑，开慢一点。",
+        "pinyin": "Lù huá, kāi màn yìdiǎn.",
+        "english": "The road is slippery, drive slower."
+      }
+    ]
+  },
+  {
+    "section": "transportation",
+    "hanzi": "堵车",
+    "pinyin": "dǔ chē",
+    "english": "traffic jam",
+    "examples": [
+      {
+        "hanzi": "前面堵车了。",
+        "pinyin": "Qiánmiàn dǔ chē le.",
+        "english": "There's a traffic jam ahead."
+      },
+      {
+        "hanzi": "高峰期很堵车。",
+        "pinyin": "Gāofēng qī hěn dǔ chē.",
+        "english": "It's very congested during rush hour."
+      }
+    ]
+  },
+  {
+    "section": "transportation",
+    "hanzi": "出租车",
+    "pinyin": "chūzūchē",
+    "english": "taxi",
+    "examples": [
+      {
+        "hanzi": "请帮我叫一辆出租车。",
+        "pinyin": "Qǐng bāng wǒ jiào yí liàng chūzūchē.",
+        "english": "Please call a taxi for me."
+      },
+      {
+        "hanzi": "出租车站在出口外面。",
+        "pinyin": "Chūzūchē zhàn zài chūkǒu wàimiàn.",
+        "english": "The taxi stand is outside the exit."
+      }
+    ]
+  },
+  {
+    "section": "restaurant",
+    "hanzi": "菜单",
+    "pinyin": "càidān",
+    "english": "menu",
+    "examples": [
+      {
+        "hanzi": "请给我看看菜单。",
+        "pinyin": "Qǐng gěi wǒ kànkan càidān.",
+        "english": "Please let me see the menu."
+      },
+      {
+        "hanzi": "有英文菜单吗？",
+        "pinyin": "Yǒu Yīngwén càidān ma?",
+        "english": "Do you have an English menu?"
+      }
+    ]
+  },
+  {
+    "section": "restaurant",
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "english": "tea",
+    "examples": [
+      {
+        "hanzi": "请来一壶热茶。",
+        "pinyin": "Qǐng lái yì hú rè chá.",
+        "english": "Please bring a pot of hot tea."
+      },
+      {
+        "hanzi": "这里免费供应茶。",
+        "pinyin": "Zhèlǐ miǎnfèi gōngyìng chá.",
+        "english": "Tea is served here for free."
+      }
+    ]
+  },
+  {
+    "section": "restaurant",
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "english": "water",
+    "examples": [
+      {
+        "hanzi": "请给我一杯温水。",
+        "pinyin": "Qǐng gěi wǒ yì bēi wēn shuǐ.",
+        "english": "Please give me a glass of warm water."
+      },
+      {
+        "hanzi": "要瓶装水还是自来水？",
+        "pinyin": "Yào píngzhuāng shuǐ háishi zìláishuǐ?",
+        "english": "Would you like bottled or tap water?"
+      }
+    ]
+  },
+  {
+    "section": "restaurant",
+    "hanzi": "米饭",
+    "pinyin": "mǐfàn",
+    "english": "rice",
+    "examples": [
+      {
+        "hanzi": "再来一碗米饭。",
+        "pinyin": "Zài lái yì wǎn mǐfàn.",
+        "english": "Another bowl of rice, please."
+      },
+      {
+        "hanzi": "这个菜配米饭很好吃。",
+        "pinyin": "Zhège cài pèi mǐfàn hěn hǎochī.",
+        "english": "This dish goes well with rice."
+      }
+    ]
+  },
+  {
+    "section": "restaurant",
+    "hanzi": "面条",
+    "pinyin": "miàntiáo",
+    "english": "noodles",
+    "examples": [
+      {
+        "hanzi": "我想吃牛肉面。",
+        "pinyin": "Wǒ xiǎng chī niúròu miàn.",
+        "english": "I'd like beef noodles."
+      },
+      {
+        "hanzi": "面条可以少放辣吗？",
+        "pinyin": "Miàntiáo kěyǐ shǎo fàng là ma?",
+        "english": "Can the noodles be less spicy?"
+      }
+    ]
+  },
+  {
+    "section": "restaurant",
+    "hanzi": "牛肉",
+    "pinyin": "niúròu",
+    "english": "beef",
+    "examples": [
+      {
+        "hanzi": "这个有牛肉吗？",
+        "pinyin": "Zhège yǒu niúròu ma?",
+        "english": "Does this contain beef?"
+      },
+      {
+        "hanzi": "请推荐一道牛肉菜。",
+        "pinyin": "Qǐng tuījiàn yí dào niúròu cài.",
+        "english": "Please recommend a beef dish."
+      }
+    ]
+  },
+  {
+    "section": "restaurant",
+    "hanzi": "鸡肉",
+    "pinyin": "jīròu",
+    "english": "chicken",
+    "examples": [
+      {
+        "hanzi": "我不吃鸡肉。",
+        "pinyin": "Wǒ bù chī jīròu.",
+        "english": "I don't eat chicken."
+      },
+      {
+        "hanzi": "宫保鸡丁是经典鸡肉菜。",
+        "pinyin": "Gōngbǎo jīdīng shì jīngdiǎn jīròu cài.",
+        "english": "Kung Pao chicken is a classic chicken dish."
+      }
+    ]
+  },
+  {
+    "section": "restaurant",
+    "hanzi": "猪肉",
+    "pinyin": "zhūròu",
+    "english": "pork",
+    "examples": [
+      {
+        "hanzi": "请做一份猪肉饺子。",
+        "pinyin": "Qǐng zuò yí fèn zhūròu jiǎozi.",
+        "english": "Please make a serving of pork dumplings."
+      },
+      {
+        "hanzi": "这个菜里有猪肉吗？",
+        "pinyin": "Zhège cài lǐ yǒu zhūròu ma?",
+        "english": "Is there pork in this dish?"
+      }
+    ]
+  },
+  {
+    "section": "restaurant",
+    "hanzi": "鱼",
+    "pinyin": "yú",
+    "english": "fish",
+    "examples": [
+      {
+        "hanzi": "今天的鱼很新鲜。",
+        "pinyin": "Jīntiān de yú hěn xīnxiān.",
+        "english": "Today's fish is very fresh."
+      },
+      {
+        "hanzi": "请蒸一条鱼。",
+        "pinyin": "Qǐng zhēng yì tiáo yú.",
+        "english": "Please steam a fish."
+      }
+    ]
+  },
+  {
+    "section": "restaurant",
+    "hanzi": "蔬菜",
+    "pinyin": "shūcài",
+    "english": "vegetables",
+    "examples": [
+      {
+        "hanzi": "请多放一些蔬菜。",
+        "pinyin": "Qǐng duō fàng yìxiē shūcài.",
+        "english": "Please add more vegetables."
+      },
+      {
+        "hanzi": "有清炒蔬菜吗？",
+        "pinyin": "Yǒu qīng chǎo shūcài ma?",
+        "english": "Do you have stir-fried vegetables?"
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "价格",
+    "pinyin": "jiàgé",
+    "english": "price",
+    "examples": [
+      {
+        "hanzi": "这个价格可以便宜一点吗？",
+        "pinyin": "Zhège jiàgé kěyǐ piányi yìdiǎn ma?",
+        "english": "Can this price be a little cheaper?"
+      },
+      {
+        "hanzi": "请告诉我总价。",
+        "pinyin": "Qǐng gàosu wǒ zǒng jià.",
+        "english": "Please tell me the total price."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "打折",
+    "pinyin": "dǎzhé",
+    "english": "discount",
+    "examples": [
+      {
+        "hanzi": "今天全场打八折。",
+        "pinyin": "Jīntiān quánchǎng dǎ bā zhé.",
+        "english": "Everything is 20% off today."
+      },
+      {
+        "hanzi": "留学生可以打折吗？",
+        "pinyin": "Liúxuéshēng kěyǐ dǎzhé ma?",
+        "english": "Is there a student discount?"
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "尺码",
+    "pinyin": "chǐmǎ",
+    "english": "size",
+    "examples": [
+      {
+        "hanzi": "有大一点的尺码吗？",
+        "pinyin": "Yǒu dà yìdiǎn de chǐmǎ ma?",
+        "english": "Do you have a larger size?"
+      },
+      {
+        "hanzi": "我的尺码是中号。",
+        "pinyin": "Wǒ de chǐmǎ shì zhōng hào.",
+        "english": "My size is medium."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "颜色",
+    "pinyin": "yánsè",
+    "english": "color",
+    "examples": [
+      {
+        "hanzi": "有别的颜色吗？",
+        "pinyin": "Yǒu bié de yánsè ma?",
+        "english": "Are there other colors?"
+      },
+      {
+        "hanzi": "我喜欢这个颜色。",
+        "pinyin": "Wǒ xǐhuan zhège yánsè.",
+        "english": "I like this color."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "试穿",
+    "pinyin": "shìchuān",
+    "english": "to try on",
+    "examples": [
+      {
+        "hanzi": "我可以试穿吗？",
+        "pinyin": "Wǒ kěyǐ shìchuān ma?",
+        "english": "Can I try this on?"
+      },
+      {
+        "hanzi": "试衣间在哪儿？",
+        "pinyin": "Shìyī jiān zài nǎr?",
+        "english": "Where is the fitting room?"
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "发票",
+    "pinyin": "fāpiào",
+    "english": "receipt (fapiao)",
+    "examples": [
+      {
+        "hanzi": "请给我开发票。",
+        "pinyin": "Qǐng gěi wǒ kāi fāpiào.",
+        "english": "Please issue a receipt for me."
+      },
+      {
+        "hanzi": "发票可以寄到酒店吗？",
+        "pinyin": "Fāpiào kěyǐ jì dào jiǔdiàn ma?",
+        "english": "Can the receipt be sent to my hotel?"
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "贵",
+    "pinyin": "guì",
+    "english": "expensive",
+    "examples": [
+      {
+        "hanzi": "有点贵，能便宜吗？",
+        "pinyin": "Yǒudiǎn guì, néng piányi ma?",
+        "english": "It's a bit expensive, can you lower the price?"
+      },
+      {
+        "hanzi": "这个比网上贵。",
+        "pinyin": "Zhège bǐ wǎngshàng guì.",
+        "english": "This is more expensive than online."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "便宜",
+    "pinyin": "piányi",
+    "english": "cheap / inexpensive",
+    "examples": [
+      {
+        "hanzi": "有没有便宜一点的？",
+        "pinyin": "Yǒu méiyǒu piányi yìdiǎn de?",
+        "english": "Do you have something cheaper?"
+      },
+      {
+        "hanzi": "这里买特产比较便宜。",
+        "pinyin": "Zhèlǐ mǎi tèchǎn bǐjiào piányi.",
+        "english": "It's cheaper to buy local specialties here."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "免税",
+    "pinyin": "miǎnshuì",
+    "english": "tax-free",
+    "examples": [
+      {
+        "hanzi": "这个商店可以免税吗？",
+        "pinyin": "Zhège shāngdiàn kěyǐ miǎnshuì ma?",
+        "english": "Is this store tax-free?"
+      },
+      {
+        "hanzi": "我在机场买了免税商品。",
+        "pinyin": "Wǒ zài jīchǎng mǎi le miǎnshuì shāngpǐn.",
+        "english": "I bought duty-free items at the airport."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "退税",
+    "pinyin": "tuìshuì",
+    "english": "tax refund",
+    "examples": [
+      {
+        "hanzi": "游客可以在机场办理退税。",
+        "pinyin": "Yóukè kěyǐ zài jīchǎng bànlǐ tuìshuì.",
+        "english": "Tourists can get a tax refund at the airport."
+      },
+      {
+        "hanzi": "请保留发票以便退税。",
+        "pinyin": "Qǐng bǎoliú fāpiào yǐbiàn tuìshuì.",
+        "english": "Please keep the receipt for a tax refund."
+      }
+    ]
+  },
+  {
+    "section": "sightseeing",
+    "hanzi": "目的地",
+    "pinyin": "mùdìdì",
+    "english": "destination",
+    "examples": [
+      {
+        "hanzi": "我的目的地是外滩。",
+        "pinyin": "Wǒ de mùdìdì shì Wàitān.",
+        "english": "My destination is the Bund."
+      },
+      {
+        "hanzi": "师傅，去这个目的地。",
+        "pinyin": "Shīfu, qù zhège mùdìdì.",
+        "english": "Driver, please go to this destination."
+      }
+    ]
+  },
+  {
+    "section": "sightseeing",
+    "hanzi": "左边",
+    "pinyin": "zuǒbian",
+    "english": "left",
+    "examples": [
+      {
+        "hanzi": "前面路口左转。",
+        "pinyin": "Qiánmiàn lùkǒu zuǒ zhuǎn.",
+        "english": "Turn left at the intersection ahead."
+      },
+      {
+        "hanzi": "银行在左边。",
+        "pinyin": "Yínháng zài zuǒbian.",
+        "english": "The bank is on the left."
+      }
+    ]
+  },
+  {
+    "section": "sightseeing",
+    "hanzi": "右边",
+    "pinyin": "yòubian",
+    "english": "right",
+    "examples": [
+      {
+        "hanzi": "请在下一个路口右转。",
+        "pinyin": "Qǐng zài xià yí ge lùkǒu yòu zhuǎn.",
+        "english": "Please turn right at the next intersection."
+      },
+      {
+        "hanzi": "入口在右边。",
+        "pinyin": "Rùkǒu zài yòubian.",
+        "english": "The entrance is on the right."
+      }
+    ]
+  },
+  {
+    "section": "sightseeing",
+    "hanzi": "直走",
+    "pinyin": "zhí zǒu",
+    "english": "go straight",
+    "examples": [
+      {
+        "hanzi": "一直直走就到了。",
+        "pinyin": "Yìzhí zhí zǒu jiù dào le.",
+        "english": "Keep going straight and you'll arrive."
+      },
+      {
+        "hanzi": "过了红绿灯直走。",
+        "pinyin": "Guò le hónglǜdēng zhí zǒu.",
+        "english": "Go straight after the traffic light."
+      }
+    ]
+  },
+  {
+    "section": "sightseeing",
+    "hanzi": "景点",
+    "pinyin": "jǐngdiǎn",
+    "english": "scenic spot / attraction",
+    "examples": [
+      {
+        "hanzi": "这个景点很有名。",
+        "pinyin": "Zhège jǐngdiǎn hěn yǒumíng.",
+        "english": "This attraction is very famous."
+      },
+      {
+        "hanzi": "我们今天去三个景点。",
+        "pinyin": "Wǒmen jīntiān qù sān gè jǐngdiǎn.",
+        "english": "We're visiting three sights today."
+      }
+    ]
+  },
+  {
+    "section": "sightseeing",
+    "hanzi": "门票",
+    "pinyin": "ménpiào",
+    "english": "admission ticket",
+    "examples": [
+      {
+        "hanzi": "门票多少钱一张？",
+        "pinyin": "Ménpiào duōshao qián yī zhāng?",
+        "english": "How much is one admission ticket?"
+      },
+      {
+        "hanzi": "学生可以买优惠门票。",
+        "pinyin": "Xuésheng kěyǐ mǎi yōuhuì ménpiào.",
+        "english": "Students can buy discounted tickets."
+      }
+    ]
+  },
+  {
+    "section": "sightseeing",
+    "hanzi": "导游",
+    "pinyin": "dǎoyóu",
+    "english": "tour guide",
+    "examples": [
+      {
+        "hanzi": "导游用中文讲解。",
+        "pinyin": "Dǎoyóu yòng Zhōngwén jiǎngjiě.",
+        "english": "The guide explains in Chinese."
+      },
+      {
+        "hanzi": "我们需要一位英文导游。",
+        "pinyin": "Wǒmen xūyào yī wèi Yīngwén dǎoyóu.",
+        "english": "We need an English-speaking guide."
+      }
+    ]
+  },
+  {
+    "section": "sightseeing",
+    "hanzi": "拍照",
+    "pinyin": "pāizhào",
+    "english": "to take photos",
+    "examples": [
+      {
+        "hanzi": "这里可以拍照吗？",
+        "pinyin": "Zhèlǐ kěyǐ pāizhào ma?",
+        "english": "Can I take photos here?"
+      },
+      {
+        "hanzi": "请帮我拍张照片。",
+        "pinyin": "Qǐng bāng wǒ pāi zhāng zhàopiàn.",
+        "english": "Please take a photo for me."
+      }
+    ]
+  },
+  {
+    "section": "sightseeing",
+    "hanzi": "博物馆",
+    "pinyin": "bówùguǎn",
+    "english": "museum",
+    "examples": [
+      {
+        "hanzi": "博物馆周一闭馆。",
+        "pinyin": "Bówùguǎn zhōuyī bìguǎn.",
+        "english": "The museum is closed on Mondays."
+      },
+      {
+        "hanzi": "我们在博物馆待了两个小时。",
+        "pinyin": "Wǒmen zài bówùguǎn dāi le liǎng gè xiǎoshí.",
+        "english": "We spent two hours at the museum."
+      }
+    ]
+  },
+  {
+    "section": "sightseeing",
+    "hanzi": "故宫",
+    "pinyin": "Gùgōng",
+    "english": "Forbidden City",
+    "examples": [
+      {
+        "hanzi": "故宫是北京必去的景点。",
+        "pinyin": "Gùgōng shì Běijīng bì qù de jǐngdiǎn.",
+        "english": "The Forbidden City is a must-see in Beijing."
+      },
+      {
+        "hanzi": "我们早上参观了故宫。",
+        "pinyin": "Wǒmen zǎoshang cānguān le Gùgōng.",
+        "english": "We visited the Forbidden City this morning."
+      }
+    ]
+  },
+  {
+    "section": "mobile",
+    "hanzi": "手机",
+    "pinyin": "shǒujī",
+    "english": "mobile phone",
+    "examples": [
+      {
+        "hanzi": "我的手机没电了。",
+        "pinyin": "Wǒ de shǒujī méi diàn le.",
+        "english": "My phone is out of battery."
+      },
+      {
+        "hanzi": "可以用你的手机吗？",
+        "pinyin": "Kěyǐ yòng nǐ de shǒujī ma?",
+        "english": "Can I use your phone?"
+      }
+    ]
+  },
+  {
+    "section": "mobile",
+    "hanzi": "无线网",
+    "pinyin": "wúxiàn wǎng",
+    "english": "Wi-Fi",
+    "examples": [
+      {
+        "hanzi": "无线网密码是多少？",
+        "pinyin": "Wúxiàn wǎng mìmǎ shì duōshao?",
+        "english": "What is the Wi-Fi password?"
+      },
+      {
+        "hanzi": "房间里的无线网很快。",
+        "pinyin": "Fángjiān lǐ de wúxiàn wǎng hěn kuài.",
+        "english": "The Wi-Fi in the room is fast."
+      }
+    ]
+  },
+  {
+    "section": "mobile",
+    "hanzi": "流量",
+    "pinyin": "liúliàng",
+    "english": "mobile data",
+    "examples": [
+      {
+        "hanzi": "我的流量用完了。",
+        "pinyin": "Wǒ de liúliàng yòng wán le.",
+        "english": "I've used up my mobile data."
+      },
+      {
+        "hanzi": "这里有免费的流量吗？",
+        "pinyin": "Zhèlǐ yǒu miǎnfèi de liúliàng ma?",
+        "english": "Is there free mobile data here?"
+      }
+    ]
+  },
+  {
+    "section": "mobile",
+    "hanzi": "充电",
+    "pinyin": "chōngdiàn",
+    "english": "to charge (a device)",
+    "examples": [
+      {
+        "hanzi": "请问哪里可以充电？",
+        "pinyin": "Qǐngwèn nǎlǐ kěyǐ chōngdiàn?",
+        "english": "Where can I charge my phone?"
+      },
+      {
+        "hanzi": "我的手机需要充电。",
+        "pinyin": "Wǒ de shǒujī xūyào chōngdiàn.",
+        "english": "My phone needs charging."
+      }
+    ]
+  },
+  {
+    "section": "mobile",
+    "hanzi": "扫码",
+    "pinyin": "sǎomǎ",
+    "english": "to scan a QR code",
+    "examples": [
+      {
+        "hanzi": "请扫码支付。",
+        "pinyin": "Qǐng sǎomǎ zhīfù.",
+        "english": "Please pay by scanning the QR code."
+      },
+      {
+        "hanzi": "进站要先扫码。",
+        "pinyin": "Jìn zhàn yào xiān sǎomǎ.",
+        "english": "You need to scan a code before entering."
+      }
+    ]
+  },
+  {
+    "section": "mobile",
+    "hanzi": "密码",
+    "pinyin": "mìmǎ",
+    "english": "password",
+    "examples": [
+      {
+        "hanzi": "无线网的密码是什么？",
+        "pinyin": "Wúxiànwǎng de mìmǎ shì shénme?",
+        "english": "What's the Wi-Fi password?"
+      },
+      {
+        "hanzi": "请输入您的密码。",
+        "pinyin": "Qǐng shūrù nín de mìmǎ.",
+        "english": "Please enter your password."
+      }
+    ]
+  },
+  {
+    "section": "mobile",
+    "hanzi": "网络",
+    "pinyin": "wǎngluò",
+    "english": "network / internet",
+    "examples": [
+      {
+        "hanzi": "这里的网络很快。",
+        "pinyin": "Zhèlǐ de wǎngluò hěn kuài.",
+        "english": "The network here is fast."
+      },
+      {
+        "hanzi": "我的网络连接不上。",
+        "pinyin": "Wǒ de wǎngluò liánjiē bù shàng.",
+        "english": "I can't connect to the network."
+      }
+    ]
+  },
+  {
+    "section": "mobile",
+    "hanzi": "微信",
+    "pinyin": "Wēixìn",
+    "english": "WeChat",
+    "examples": [
+      {
+        "hanzi": "我们可以加微信吗？",
+        "pinyin": "Wǒmen kěyǐ jiā Wēixìn ma?",
+        "english": "Can we add each other on WeChat?"
+      },
+      {
+        "hanzi": "请用微信发给我地址。",
+        "pinyin": "Qǐng yòng Wēixìn fā gěi wǒ dìzhǐ.",
+        "english": "Please send me the address on WeChat."
+      }
+    ]
+  },
+  {
+    "section": "mobile",
+    "hanzi": "SIM卡",
+    "pinyin": "SIM kǎ",
+    "english": "SIM card",
+    "examples": [
+      {
+        "hanzi": "请帮我换一张SIM卡。",
+        "pinyin": "Qǐng bāng wǒ huàn yī zhāng SIM kǎ.",
+        "english": "Please help me replace the SIM card."
+      },
+      {
+        "hanzi": "机场可以买到旅游SIM卡。",
+        "pinyin": "Jīchǎng kěyǐ mǎi dào lǚyóu SIM kǎ.",
+        "english": "You can buy a travel SIM card at the airport."
+      }
+    ]
+  },
+  {
+    "section": "mobile",
+    "hanzi": "漫游",
+    "pinyin": "mànyóu",
+    "english": "roaming",
+    "examples": [
+      {
+        "hanzi": "出国前请开通国际漫游。",
+        "pinyin": "Chūguó qián qǐng kāitōng guójì mànyóu.",
+        "english": "Enable international roaming before going abroad."
+      },
+      {
+        "hanzi": "漫游费用比较高。",
+        "pinyin": "Mànyóu fèiyòng bǐjiào gāo.",
+        "english": "Roaming charges are relatively high."
+      }
+    ]
+  },
+  {
+    "section": "money",
+    "hanzi": "钱",
+    "pinyin": "qián",
+    "english": "money",
+    "examples": [
+      {
+        "hanzi": "我忘带钱了。",
+        "pinyin": "Wǒ wàng dài qián le.",
+        "english": "I forgot to bring money."
+      },
+      {
+        "hanzi": "可以用手机付钱吗？",
+        "pinyin": "Kěyǐ yòng shǒujī fù qián ma?",
+        "english": "Can I pay with my phone?"
+      }
+    ]
+  },
+  {
+    "section": "money",
+    "hanzi": "付款",
+    "pinyin": "fù kuǎn",
+    "english": "payment",
+    "examples": [
+      {
+        "hanzi": "可以用手机付款吗？",
+        "pinyin": "Kěyǐ yòng shǒujī fù kuǎn ma?",
+        "english": "Can I pay with my phone?"
+      },
+      {
+        "hanzi": "到地方再付款。",
+        "pinyin": "Dào dìfang zài fù kuǎn.",
+        "english": "I'll pay when we arrive."
+      }
+    ]
+  },
+  {
+    "section": "money",
+    "hanzi": "现金",
+    "pinyin": "xiànjīn",
+    "english": "cash",
+    "examples": [
+      {
+        "hanzi": "可以付现金吗？",
+        "pinyin": "Kěyǐ fù xiànjīn ma?",
+        "english": "Can I pay in cash?"
+      },
+      {
+        "hanzi": "我身上现金不够。",
+        "pinyin": "Wǒ shēnshang xiànjīn búgòu.",
+        "english": "I don't have enough cash on me."
+      }
+    ]
+  },
+  {
+    "section": "money",
+    "hanzi": "刷卡",
+    "pinyin": "shuā kǎ",
+    "english": "pay by card",
+    "examples": [
+      {
+        "hanzi": "可以刷卡吗？",
+        "pinyin": "Kěyǐ shuā kǎ ma?",
+        "english": "Can I pay by card?"
+      },
+      {
+        "hanzi": "请在这边刷卡。",
+        "pinyin": "Qǐng zài zhè biān shuā kǎ.",
+        "english": "Please swipe your card here."
+      }
+    ]
+  },
+  {
+    "section": "money",
+    "hanzi": "支付宝",
+    "pinyin": "Zhīfùbǎo",
+    "english": "Alipay",
+    "examples": [
+      {
+        "hanzi": "这里可以用支付宝吗？",
+        "pinyin": "Zhèlǐ kěyǐ yòng Zhīfùbǎo ma?",
+        "english": "Can I pay with Alipay here?"
+      },
+      {
+        "hanzi": "我习惯用支付宝付款。",
+        "pinyin": "Wǒ xíguàn yòng Zhīfùbǎo fùkuǎn.",
+        "english": "I usually pay with Alipay."
+      }
+    ]
+  },
+  {
+    "section": "money",
+    "hanzi": "微信支付",
+    "pinyin": "Wēixìn zhīfù",
+    "english": "WeChat Pay",
+    "examples": [
+      {
+        "hanzi": "请打开微信支付。",
+        "pinyin": "Qǐng dǎkāi Wēixìn zhīfù.",
+        "english": "Please open WeChat Pay."
+      },
+      {
+        "hanzi": "小店只接受微信支付。",
+        "pinyin": "Xiǎodiàn zhǐ jiēshòu Wēixìn zhīfù.",
+        "english": "The shop only accepts WeChat Pay."
+      }
+    ]
+  },
+  {
+    "section": "money",
+    "hanzi": "汇率",
+    "pinyin": "huìlǜ",
+    "english": "exchange rate",
+    "examples": [
+      {
+        "hanzi": "今天的汇率是多少？",
+        "pinyin": "Jīntiān de huìlǜ shì duōshao?",
+        "english": "What's the exchange rate today?"
+      },
+      {
+        "hanzi": "汇率每天都在变化。",
+        "pinyin": "Huìlǜ měitiān dōu zài biànhuà.",
+        "english": "The exchange rate changes every day."
+      }
+    ]
+  },
+  {
+    "section": "money",
+    "hanzi": "找零",
+    "pinyin": "zhǎolíng",
+    "english": "change (money returned)",
+    "examples": [
+      {
+        "hanzi": "请不用找零了。",
+        "pinyin": "Qǐng búyòng zhǎolíng le.",
+        "english": "Keep the change, please."
+      },
+      {
+        "hanzi": "店员找零很及时。",
+        "pinyin": "Diànyuán zhǎolíng hěn jíshí.",
+        "english": "The clerk gave change promptly."
+      }
+    ]
+  },
+  {
+    "section": "money",
+    "hanzi": "收据",
+    "pinyin": "shōujù",
+    "english": "receipt",
+    "examples": [
+      {
+        "hanzi": "请给我一张收据。",
+        "pinyin": "Qǐng gěi wǒ yī zhāng shōujù.",
+        "english": "Please give me a receipt."
+      },
+      {
+        "hanzi": "收据我放钱包里了。",
+        "pinyin": "Shōujù wǒ fàng qiánbāo lǐ le.",
+        "english": "I put the receipt in my wallet."
+      }
+    ]
+  },
+  {
+    "section": "money",
+    "hanzi": "预算",
+    "pinyin": "yùsuàn",
+    "english": "budget",
+    "examples": [
+      {
+        "hanzi": "我的旅行预算有限。",
+        "pinyin": "Wǒ de lǚxíng yùsuàn yǒuxiàn.",
+        "english": "My travel budget is limited."
+      },
+      {
+        "hanzi": "我们按预算安排行程。",
+        "pinyin": "Wǒmen àn yùsuàn ānpái xíngchéng.",
+        "english": "We plan the trip according to our budget."
+      }
+    ]
+  },
+  {
+    "section": "emergency",
+    "hanzi": "帮助",
+    "pinyin": "bāngzhù",
+    "english": "help",
+    "examples": [
+      {
+        "hanzi": "请帮帮我！",
+        "pinyin": "Qǐng bāngbang wǒ!",
+        "english": "Please help me!"
+      },
+      {
+        "hanzi": "你能帮助我吗？",
+        "pinyin": "Nǐ néng bāngzhù wǒ ma?",
+        "english": "Can you help me?"
+      }
+    ]
+  },
+  {
+    "section": "emergency",
+    "hanzi": "警察",
+    "pinyin": "jǐngchá",
+    "english": "police",
+    "examples": [
+      {
+        "hanzi": "请帮我叫警察。",
+        "pinyin": "Qǐng bāng wǒ jiào jǐngchá.",
+        "english": "Please help me call the police."
+      },
+      {
+        "hanzi": "警察局在前面。",
+        "pinyin": "Jǐngchájú zài qiánmiàn.",
+        "english": "The police station is up ahead."
+      }
+    ]
+  },
+  {
+    "section": "emergency",
+    "hanzi": "医院",
+    "pinyin": "yīyuàn",
+    "english": "hospital",
+    "examples": [
+      {
+        "hanzi": "最近的医院在哪儿？",
+        "pinyin": "Zuì jìn de yīyuàn zài nǎr?",
+        "english": "Where is the nearest hospital?"
+      },
+      {
+        "hanzi": "请送我去医院。",
+        "pinyin": "Qǐng sòng wǒ qù yīyuàn.",
+        "english": "Please take me to the hospital."
+      }
+    ]
+  },
+  {
+    "section": "emergency",
+    "hanzi": "医生",
+    "pinyin": "yīshēng",
+    "english": "doctor",
+    "examples": [
+      {
+        "hanzi": "我需要看医生。",
+        "pinyin": "Wǒ xūyào kàn yīshēng.",
+        "english": "I need to see a doctor."
+      },
+      {
+        "hanzi": "有会说英语的医生吗？",
+        "pinyin": "Yǒu huì shuō Yīngyǔ de yīshēng ma?",
+        "english": "Is there a doctor who speaks English?"
+      }
+    ]
+  },
+  {
+    "section": "emergency",
+    "hanzi": "药店",
+    "pinyin": "yàodiàn",
+    "english": "pharmacy",
+    "examples": [
+      {
+        "hanzi": "附近有药店吗？",
+        "pinyin": "Fùjìn yǒu yàodiàn ma?",
+        "english": "Is there a pharmacy nearby?"
+      },
+      {
+        "hanzi": "我想去药店买感冒药。",
+        "pinyin": "Wǒ xiǎng qù yàodiàn mǎi gǎnmào yào.",
+        "english": "I want to go to the pharmacy for cold medicine."
+      }
+    ]
+  },
+  {
+    "section": "emergency",
+    "hanzi": "救护车",
+    "pinyin": "jiùhùchē",
+    "english": "ambulance",
+    "examples": [
+      {
+        "hanzi": "请叫救护车！",
+        "pinyin": "Qǐng jiào jiùhùchē!",
+        "english": "Please call an ambulance!"
+      },
+      {
+        "hanzi": "救护车已经在路上了。",
+        "pinyin": "Jiùhùchē yǐjīng zài lù shàng le.",
+        "english": "The ambulance is already on the way."
+      }
+    ]
+  },
+  {
+    "section": "emergency",
+    "hanzi": "着火",
+    "pinyin": "zháo huǒ",
+    "english": "on fire",
+    "examples": [
+      {
+        "hanzi": "着火了，快离开！",
+        "pinyin": "Zháo huǒ le, kuài líkāi!",
+        "english": "It's on fire, get out quickly!"
+      },
+      {
+        "hanzi": "请报火警。",
+        "pinyin": "Qǐng bào huǒjǐng.",
+        "english": "Please report the fire."
+      }
+    ]
+  },
+  {
+    "section": "emergency",
+    "hanzi": "危险",
+    "pinyin": "wēixiǎn",
+    "english": "dangerous",
+    "examples": [
+      {
+        "hanzi": "这里很危险，别过去。",
+        "pinyin": "Zhèlǐ hěn wēixiǎn, bié guòqù.",
+        "english": "It's dangerous here, don't go over."
+      },
+      {
+        "hanzi": "请注意安全，前方危险。",
+        "pinyin": "Qǐng zhùyì ānquán, qiánfāng wēixiǎn.",
+        "english": "Please stay safe, danger ahead."
+      }
+    ]
+  },
+  {
+    "section": "emergency",
+    "hanzi": "报警",
+    "pinyin": "bào jǐng",
+    "english": "to call the police",
+    "examples": [
+      {
+        "hanzi": "遇到危险请马上报警。",
+        "pinyin": "Yù dào wēixiǎn qǐng mǎshàng bào jǐng.",
+        "english": "If you're in danger, call the police immediately."
+      },
+      {
+        "hanzi": "我已经报警了。",
+        "pinyin": "Wǒ yǐjīng bào jǐng le.",
+        "english": "I've already called the police."
+      }
+    ]
+  },
+  {
+    "section": "emergency",
+    "hanzi": "护照丢了",
+    "pinyin": "hùzhào diū le",
+    "english": "lost passport",
+    "examples": [
+      {
+        "hanzi": "我的护照丢了，怎么办？",
+        "pinyin": "Wǒ de hùzhào diū le, zěnme bàn?",
+        "english": "I lost my passport, what should I do?"
+      },
+      {
+        "hanzi": "护照丢了，请帮我联系大使馆。",
+        "pinyin": "Hùzhào diū le, qǐng bāng wǒ liánxì dàshǐguǎn.",
+        "english": "I lost my passport, please help me contact the embassy."
+      }
+    ]
+  }
+]

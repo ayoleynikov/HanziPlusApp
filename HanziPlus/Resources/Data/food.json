@@ -1,0 +1,1802 @@
+[
+  {
+    "section": "fruits",
+    "hanzi": "苹果",
+    "pinyin": "píngguǒ",
+    "english": "apple",
+    "examples": [
+      {
+        "hanzi": "我每天吃一个苹果。",
+        "pinyin": "Wǒ měitiān chī yī gè píngguǒ.",
+        "english": "I eat an apple every day."
+      },
+      {
+        "hanzi": "这些苹果很甜。",
+        "pinyin": "Zhèxiē píngguǒ hěn tián.",
+        "english": "These apples are very sweet."
+      }
+    ]
+  },
+  {
+    "section": "fruits",
+    "hanzi": "香蕉",
+    "pinyin": "xiāngjiāo",
+    "english": "banana",
+    "examples": [
+      {
+        "hanzi": "香蕉放久了会变黑。",
+        "pinyin": "Xiāngjiāo fàng jiǔ le huì biàn hēi.",
+        "english": "Bananas turn black if kept too long."
+      },
+      {
+        "hanzi": "孩子喜欢吃香蕉。",
+        "pinyin": "Háizi xǐhuan chī xiāngjiāo.",
+        "english": "Kids like eating bananas."
+      }
+    ]
+  },
+  {
+    "section": "fruits",
+    "hanzi": "橙子",
+    "pinyin": "chéngzi",
+    "english": "orange",
+    "examples": [
+      {
+        "hanzi": "橙子维生素很丰富。",
+        "pinyin": "Chéngzi wéishēngsù hěn fēngfù.",
+        "english": "Oranges are rich in vitamins."
+      },
+      {
+        "hanzi": "请给我两个橙子。",
+        "pinyin": "Qǐng gěi wǒ liǎng gè chéngzi.",
+        "english": "Please give me two oranges."
+      }
+    ]
+  },
+  {
+    "section": "fruits",
+    "hanzi": "葡萄",
+    "pinyin": "pútáo",
+    "english": "grape",
+    "examples": [
+      {
+        "hanzi": "这串葡萄很大。",
+        "pinyin": "Zhè chuàn pútáo hěn dà.",
+        "english": "This bunch of grapes is big."
+      },
+      {
+        "hanzi": "夏天葡萄最好吃。",
+        "pinyin": "Xiàtiān pútáo zuì hǎochī.",
+        "english": "Grapes taste best in summer."
+      }
+    ]
+  },
+  {
+    "section": "fruits",
+    "hanzi": "西瓜",
+    "pinyin": "xīguā",
+    "english": "watermelon",
+    "examples": [
+      {
+        "hanzi": "夏天吃西瓜很解暑。",
+        "pinyin": "Xiàtiān chī xīguā hěn jiěshǔ.",
+        "english": "Watermelon is refreshing in summer."
+      },
+      {
+        "hanzi": "这个西瓜很甜。",
+        "pinyin": "Zhège xīguā hěn tián.",
+        "english": "This watermelon is sweet."
+      }
+    ]
+  },
+  {
+    "section": "fruits",
+    "hanzi": "草莓",
+    "pinyin": "cǎoméi",
+    "english": "strawberry",
+    "examples": [
+      {
+        "hanzi": "草莓蛋糕很受欢迎。",
+        "pinyin": "Cǎoméi dàngāo hěn shòu huānyíng.",
+        "english": "Strawberry cake is popular."
+      },
+      {
+        "hanzi": "新鲜的草莓红了。",
+        "pinyin": "Xīnxiān de cǎoméi hóng le.",
+        "english": "Fresh strawberries have turned red."
+      }
+    ]
+  },
+  {
+    "section": "fruits",
+    "hanzi": "桃子",
+    "pinyin": "táozi",
+    "english": "peach",
+    "examples": [
+      {
+        "hanzi": "桃子熟了很香。",
+        "pinyin": "Táozi shú le hěn xiāng.",
+        "english": "Ripe peaches smell wonderful."
+      },
+      {
+        "hanzi": "我买了三斤桃子。",
+        "pinyin": "Wǒ mǎi le sān jīn táozi.",
+        "english": "I bought three jin of peaches."
+      }
+    ]
+  },
+  {
+    "section": "fruits",
+    "hanzi": "梨",
+    "pinyin": "lí",
+    "english": "pear",
+    "examples": [
+      {
+        "hanzi": "这种梨水分很多。",
+        "pinyin": "Zhè zhǒng lí shuǐfèn hěn duō.",
+        "english": "This type of pear is very juicy."
+      },
+      {
+        "hanzi": "冬天吃梨对嗓子好。",
+        "pinyin": "Dōngtiān chī lí duì sǎngzi hǎo.",
+        "english": "Eating pears in winter is good for your throat."
+      }
+    ]
+  },
+  {
+    "section": "fruits",
+    "hanzi": "芒果",
+    "pinyin": "mángguǒ",
+    "english": "mango",
+    "examples": [
+      {
+        "hanzi": "芒果是热带水果。",
+        "pinyin": "Mángguǒ shì rèdài shuǐguǒ.",
+        "english": "Mangoes are tropical fruit."
+      },
+      {
+        "hanzi": "我喜欢芒果的味道。",
+        "pinyin": "Wǒ xǐhuan mángguǒ de wèidào.",
+        "english": "I like the taste of mango."
+      }
+    ]
+  },
+  {
+    "section": "fruits",
+    "hanzi": "樱桃",
+    "pinyin": "yīngtáo",
+    "english": "cherry",
+    "examples": [
+      {
+        "hanzi": "樱桃季节很短。",
+        "pinyin": "Yīngtáo jìjié hěn duǎn.",
+        "english": "Cherry season is short."
+      },
+      {
+        "hanzi": "这些樱桃很新鲜。",
+        "pinyin": "Zhèxiē yīngtáo hěn xīnxiān.",
+        "english": "These cherries are very fresh."
+      }
+    ]
+  },
+  {
+    "section": "vegetables",
+    "hanzi": "白菜",
+    "pinyin": "báicài",
+    "english": "Chinese cabbage",
+    "examples": [
+      {
+        "hanzi": "白菜可以炒也可以煮。",
+        "pinyin": "Báicài kěyǐ chǎo yě kěyǐ zhǔ.",
+        "english": "Cabbage can be stir-fried or boiled."
+      },
+      {
+        "hanzi": "我要一棵白菜。",
+        "pinyin": "Wǒ yào yī kē báicài.",
+        "english": "I'd like one head of cabbage."
+      }
+    ]
+  },
+  {
+    "section": "vegetables",
+    "hanzi": "西红柿",
+    "pinyin": "xīhóngshì",
+    "english": "tomato",
+    "examples": [
+      {
+        "hanzi": "西红柿炒鸡蛋很好吃。",
+        "pinyin": "Xīhóngshì chǎo jīdàn hěn hǎochī.",
+        "english": "Tomato and egg stir-fry is delicious."
+      },
+      {
+        "hanzi": "这些西红柿很红。",
+        "pinyin": "Zhèxiē xīhóngshì hěn hóng.",
+        "english": "These tomatoes are very red."
+      }
+    ]
+  },
+  {
+    "section": "vegetables",
+    "hanzi": "土豆",
+    "pinyin": "tǔdòu",
+    "english": "potato",
+    "examples": [
+      {
+        "hanzi": "我喜欢吃炸土豆。",
+        "pinyin": "Wǒ xǐhuan chī zhá tǔdòu.",
+        "english": "I like fried potatoes."
+      },
+      {
+        "hanzi": "土豆可以做成很多菜。",
+        "pinyin": "Tǔdòu kěyǐ zuò chéng hěn duō cài.",
+        "english": "Potatoes can be made into many dishes."
+      }
+    ]
+  },
+  {
+    "section": "vegetables",
+    "hanzi": "胡萝卜",
+    "pinyin": "húluóbo",
+    "english": "carrot",
+    "examples": [
+      {
+        "hanzi": "胡萝卜对眼睛好。",
+        "pinyin": "Húluóbo duì yǎnjing hǎo.",
+        "english": "Carrots are good for your eyes."
+      },
+      {
+        "hanzi": "请切一些胡萝卜。",
+        "pinyin": "Qǐng qiē yīxiē húluóbo.",
+        "english": "Please cut some carrots."
+      }
+    ]
+  },
+  {
+    "section": "vegetables",
+    "hanzi": "黄瓜",
+    "pinyin": "huángguā",
+    "english": "cucumber",
+    "examples": [
+      {
+        "hanzi": "夏天吃黄瓜很清爽。",
+        "pinyin": "Xiàtiān chī huángguā hěn qīngshuǎng.",
+        "english": "Cucumber is refreshing in summer."
+      },
+      {
+        "hanzi": "我做一个黄瓜沙拉。",
+        "pinyin": "Wǒ zuò yī gè huángguā shālā.",
+        "english": "I'll make a cucumber salad."
+      }
+    ]
+  },
+  {
+    "section": "vegetables",
+    "hanzi": "茄子",
+    "pinyin": "qiézi",
+    "english": "eggplant",
+    "examples": [
+      {
+        "hanzi": "鱼香茄子很下饭。",
+        "pinyin": "Yúxiāng qiézi hěn xiàfàn.",
+        "english": "Yu Xiang eggplant goes well with rice."
+      },
+      {
+        "hanzi": "茄子要炒软才好吃。",
+        "pinyin": "Qiézi yào chǎo ruǎn cái hǎochī.",
+        "english": "Eggplant needs to be cooked soft."
+      }
+    ]
+  },
+  {
+    "section": "vegetables",
+    "hanzi": "菠菜",
+    "pinyin": "bōcài",
+    "english": "spinach",
+    "examples": [
+      {
+        "hanzi": "菠菜含铁量高。",
+        "pinyin": "Bōcài hán tiěliàng gāo.",
+        "english": "Spinach is high in iron."
+      },
+      {
+        "hanzi": "请给我一把菠菜。",
+        "pinyin": "Qǐng gěi wǒ yī bǎ bōcài.",
+        "english": "Please give me a bunch of spinach."
+      }
+    ]
+  },
+  {
+    "section": "vegetables",
+    "hanzi": "玉米",
+    "pinyin": "yùmǐ",
+    "english": "corn",
+    "examples": [
+      {
+        "hanzi": "煮玉米很香。",
+        "pinyin": "Zhǔ yùmǐ hěn xiāng.",
+        "english": "Boiled corn smells great."
+      },
+      {
+        "hanzi": "我买了一根玉米。",
+        "pinyin": "Wǒ mǎi le yī gēn yùmǐ.",
+        "english": "I bought an ear of corn."
+      }
+    ]
+  },
+  {
+    "section": "vegetables",
+    "hanzi": "蘑菇",
+    "pinyin": "mógū",
+    "english": "mushroom",
+    "examples": [
+      {
+        "hanzi": "这个汤里加了蘑菇。",
+        "pinyin": "Zhège tāng lǐ jiā le mógū.",
+        "english": "Mushrooms were added to this soup."
+      },
+      {
+        "hanzi": "蘑菇要洗干净。",
+        "pinyin": "Mógū yào xǐ gānjìng.",
+        "english": "Mushrooms need to be washed clean."
+      }
+    ]
+  },
+  {
+    "section": "vegetables",
+    "hanzi": "辣椒",
+    "pinyin": "làjiāo",
+    "english": "chili pepper",
+    "examples": [
+      {
+        "hanzi": "这个菜放了辣椒。",
+        "pinyin": "Zhège cài fàng le làjiāo.",
+        "english": "This dish has chili peppers."
+      },
+      {
+        "hanzi": "我不太能吃辣。",
+        "pinyin": "Wǒ bú tài néng chī là.",
+        "english": "I can't handle spicy food well."
+      }
+    ]
+  },
+  {
+    "section": "meat",
+    "hanzi": "牛肉",
+    "pinyin": "niúròu",
+    "english": "beef",
+    "examples": [
+      {
+        "hanzi": "牛肉面很受欢迎。",
+        "pinyin": "Niúròu miàn hěn shòu huānyíng.",
+        "english": "Beef noodles are very popular."
+      },
+      {
+        "hanzi": "请给我一斤牛肉。",
+        "pinyin": "Qǐng gěi wǒ yī jīn niúròu.",
+        "english": "Please give me half a kilo of beef."
+      }
+    ]
+  },
+  {
+    "section": "meat",
+    "hanzi": "猪肉",
+    "pinyin": "zhūròu",
+    "english": "pork",
+    "examples": [
+      {
+        "hanzi": "猪肉可以做成很多菜。",
+        "pinyin": "Zhūròu kěyǐ zuò chéng hěn duō cài.",
+        "english": "Pork can be made into many dishes."
+      },
+      {
+        "hanzi": "今天买了新鲜猪肉。",
+        "pinyin": "Jīntiān mǎi le xīnxiān zhūròu.",
+        "english": "We bought fresh pork today."
+      }
+    ]
+  },
+  {
+    "section": "meat",
+    "hanzi": "鸡肉",
+    "pinyin": "jīròu",
+    "english": "chicken",
+    "examples": [
+      {
+        "hanzi": "白切鸡是广东名菜。",
+        "pinyin": "Báiqiē jī shì Guǎngdōng míngcài.",
+        "english": "White-cut chicken is a famous Cantonese dish."
+      },
+      {
+        "hanzi": "鸡肉比较健康。",
+        "pinyin": "Jīròu bǐjiào jiànkāng.",
+        "english": "Chicken is relatively healthy."
+      }
+    ]
+  },
+  {
+    "section": "meat",
+    "hanzi": "羊肉",
+    "pinyin": "yángròu",
+    "english": "lamb",
+    "examples": [
+      {
+        "hanzi": "冬天吃羊肉火锅。",
+        "pinyin": "Dōngtiān chī yángròu huǒguō.",
+        "english": "We eat lamb hot pot in winter."
+      },
+      {
+        "hanzi": "羊肉要炖很久。",
+        "pinyin": "Yángròu yào dùn hěn jiǔ.",
+        "english": "Lamb needs to be stewed a long time."
+      }
+    ]
+  },
+  {
+    "section": "meat",
+    "hanzi": "排骨",
+    "pinyin": "páigǔ",
+    "english": "pork ribs",
+    "examples": [
+      {
+        "hanzi": "红烧排骨很好吃。",
+        "pinyin": "Hóngshāo páigǔ hěn hǎochī.",
+        "english": "Braised ribs are delicious."
+      },
+      {
+        "hanzi": "请给我两斤排骨。",
+        "pinyin": "Qǐng gěi wǒ liǎng jīn páigǔ.",
+        "english": "Please give me one kilo of ribs."
+      }
+    ]
+  },
+  {
+    "section": "meat",
+    "hanzi": "香肠",
+    "pinyin": "xiāngcháng",
+    "english": "sausage",
+    "examples": [
+      {
+        "hanzi": "早餐常吃香肠。",
+        "pinyin": "Zǎocān cháng chī xiāngcháng.",
+        "english": "Sausage is often eaten for breakfast."
+      },
+      {
+        "hanzi": "这种香肠很香。",
+        "pinyin": "Zhè zhǒng xiāngcháng hěn xiāng.",
+        "english": "This sausage smells great."
+      }
+    ]
+  },
+  {
+    "section": "meat",
+    "hanzi": "培根",
+    "pinyin": "péigēn",
+    "english": "bacon",
+    "examples": [
+      {
+        "hanzi": "我喜欢培根鸡蛋。",
+        "pinyin": "Wǒ xǐhuan péigēn jīdàn.",
+        "english": "I like bacon and eggs."
+      },
+      {
+        "hanzi": "请给我三片培根。",
+        "pinyin": "Qǐng gěi wǒ sān piàn péigēn.",
+        "english": "Please give me three slices of bacon."
+      }
+    ]
+  },
+  {
+    "section": "meat",
+    "hanzi": "火腿",
+    "pinyin": "huǒtuǐ",
+    "english": "ham",
+    "examples": [
+      {
+        "hanzi": "三明治里加了火腿。",
+        "pinyin": "Sān míngzhì lǐ jiā le huǒtuǐ.",
+        "english": "Ham was added to the sandwich."
+      },
+      {
+        "hanzi": "火腿切片很方便。",
+        "pinyin": "Huǒtuǐ qiēpiàn hěn fāngbiàn.",
+        "english": "Sliced ham is convenient."
+      }
+    ]
+  },
+  {
+    "section": "meat",
+    "hanzi": "牛排",
+    "pinyin": "niúpái",
+    "english": "steak",
+    "examples": [
+      {
+        "hanzi": "我要五分熟牛排。",
+        "pinyin": "Wǒ yào wǔ fēn shú niúpái.",
+        "english": "I'd like my steak medium."
+      },
+      {
+        "hanzi": "这家牛排馆很有名。",
+        "pinyin": "Zhè jiā niúpái guǎn hěn yǒumíng.",
+        "english": "This steakhouse is famous."
+      }
+    ]
+  },
+  {
+    "section": "meat",
+    "hanzi": "烤鸭",
+    "pinyin": "kǎoyā",
+    "english": "roast duck",
+    "examples": [
+      {
+        "hanzi": "北京烤鸭很有名。",
+        "pinyin": "Běijīng kǎoyā hěn yǒumíng.",
+        "english": "Peking duck is famous."
+      },
+      {
+        "hanzi": "我们点一只烤鸭。",
+        "pinyin": "Wǒmen diǎn yī zhī kǎoyā.",
+        "english": "Let's order a roast duck."
+      }
+    ]
+  },
+  {
+    "section": "seafood",
+    "hanzi": "鱼",
+    "pinyin": "yú",
+    "english": "fish",
+    "examples": [
+      {
+        "hanzi": "这条鱼很新鲜。",
+        "pinyin": "Zhè tiáo yú hěn xīnxiān.",
+        "english": "This fish is very fresh."
+      },
+      {
+        "hanzi": "我每周吃两次鱼。",
+        "pinyin": "Wǒ měi zhōu chī liǎng cì yú.",
+        "english": "I eat fish twice a week."
+      }
+    ]
+  },
+  {
+    "section": "seafood",
+    "hanzi": "虾",
+    "pinyin": "xiā",
+    "english": "shrimp",
+    "examples": [
+      {
+        "hanzi": "白灼虾很简单。",
+        "pinyin": "Báizhuó xiā hěn jiǎndān.",
+        "english": "Boiled shrimp is simple."
+      },
+      {
+        "hanzi": "这些虾很大。",
+        "pinyin": "Zhèxiē xiā hěn dà.",
+        "english": "These shrimp are big."
+      }
+    ]
+  },
+  {
+    "section": "seafood",
+    "hanzi": "螃蟹",
+    "pinyin": "pángxiè",
+    "english": "crab",
+    "examples": [
+      {
+        "hanzi": "秋天是吃螃蟹的季节。",
+        "pinyin": "Qiūtiān shì chī pángxiè de jìjié.",
+        "english": "Autumn is crab season."
+      },
+      {
+        "hanzi": "螃蟹要蒸十五分钟。",
+        "pinyin": "Pángxiè yào zhēng shíwǔ fēnzhōng.",
+        "english": "Crabs need to steam for fifteen minutes."
+      }
+    ]
+  },
+  {
+    "section": "seafood",
+    "hanzi": "贝类",
+    "pinyin": "bèilèi",
+    "english": "shellfish",
+    "examples": [
+      {
+        "hanzi": "贝类要煮透了再吃。",
+        "pinyin": "Bèilèi yào zhǔ tòu le zài chī.",
+        "english": "Shellfish must be fully cooked."
+      },
+      {
+        "hanzi": "我喜欢各种贝类。",
+        "pinyin": "Wǒ xǐhuan gè zhǒng bèilèi.",
+        "english": "I like all kinds of shellfish."
+      }
+    ]
+  },
+  {
+    "section": "seafood",
+    "hanzi": "鱿鱼",
+    "pinyin": "yóuyú",
+    "english": "squid",
+    "examples": [
+      {
+        "hanzi": "烤鱿鱼很香。",
+        "pinyin": "Kǎo yóuyú hěn xiāng.",
+        "english": "Grilled squid smells great."
+      },
+      {
+        "hanzi": "请给我一份炒鱿鱼。",
+        "pinyin": "Qǐng gěi wǒ yī fèn chǎo yóuyú.",
+        "english": "Please give me stir-fried squid."
+      }
+    ]
+  },
+  {
+    "section": "seafood",
+    "hanzi": "三文鱼",
+    "pinyin": "sānwényú",
+    "english": "salmon",
+    "examples": [
+      {
+        "hanzi": "三文鱼可以生吃。",
+        "pinyin": "Sānwényú kěyǐ shēng chī.",
+        "english": "Salmon can be eaten raw."
+      },
+      {
+        "hanzi": "我点一份三文鱼刺身。",
+        "pinyin": "Wǒ diǎn yī fèn sānwényú cìshēn.",
+        "english": "I'll order salmon sashimi."
+      }
+    ]
+  },
+  {
+    "section": "seafood",
+    "hanzi": "生蚝",
+    "pinyin": "shēng háo",
+    "english": "oyster",
+    "examples": [
+      {
+        "hanzi": "生蚝要配柠檬汁。",
+        "pinyin": "Shēng háo yào pèi níngméng zhī.",
+        "english": "Oysters go well with lemon juice."
+      },
+      {
+        "hanzi": "我不习惯吃生蚝。",
+        "pinyin": "Wǒ bù xíguàn chī shēng háo.",
+        "english": "I'm not used to eating oysters."
+      }
+    ]
+  },
+  {
+    "section": "seafood",
+    "hanzi": "海带",
+    "pinyin": "hǎidài",
+    "english": "kelp",
+    "examples": [
+      {
+        "hanzi": "海带汤很清爽。",
+        "pinyin": "Hǎidài tāng hěn qīngshuǎng.",
+        "english": "Kelp soup is light and refreshing."
+      },
+      {
+        "hanzi": "沙拉里加了海带丝。",
+        "pinyin": "Shālā lǐ jiā le hǎidài sī.",
+        "english": "Shredded kelp was added to the salad."
+      }
+    ]
+  },
+  {
+    "section": "seafood",
+    "hanzi": "带鱼",
+    "pinyin": "dàiyú",
+    "english": "hairtail fish",
+    "examples": [
+      {
+        "hanzi": "红烧带鱼是家常菜。",
+        "pinyin": "Hóngshāo dàiyú shì jiācháng cài.",
+        "english": "Braised hairtail is a home-style dish."
+      },
+      {
+        "hanzi": "带鱼要煎到两面金黄。",
+        "pinyin": "Dàiyú yào jiān dào liǎngmiàn jīnhuáng.",
+        "english": "Hairtail should be fried golden on both sides."
+      }
+    ]
+  },
+  {
+    "section": "seafood",
+    "hanzi": "龙虾",
+    "pinyin": "lóngxiā",
+    "english": "lobster",
+    "examples": [
+      {
+        "hanzi": "龙虾价格比较贵。",
+        "pinyin": "Lóngxiā jiàgé bǐjiào guì.",
+        "english": "Lobster is relatively expensive."
+      },
+      {
+        "hanzi": "我们庆祝时吃龙虾。",
+        "pinyin": "Wǒmen qìngzhù shí chī lóngxiā.",
+        "english": "We eat lobster when celebrating."
+      }
+    ]
+  },
+  {
+    "section": "cuisine",
+    "hanzi": "米饭",
+    "pinyin": "mǐfàn",
+    "english": "rice",
+    "examples": [
+      {
+        "hanzi": "请给我一碗米饭。",
+        "pinyin": "Qǐng gěi wǒ yī wǎn mǐfàn.",
+        "english": "Please give me a bowl of rice."
+      },
+      {
+        "hanzi": "米饭是主食。",
+        "pinyin": "Mǐfàn shì zhǔshí.",
+        "english": "Rice is the staple food."
+      }
+    ]
+  },
+  {
+    "section": "cuisine",
+    "hanzi": "面条",
+    "pinyin": "miàntiáo",
+    "english": "noodles",
+    "examples": [
+      {
+        "hanzi": "这碗面条很劲道。",
+        "pinyin": "Zhè wǎn miàntiáo hěn jìndào.",
+        "english": "These noodles are very chewy."
+      },
+      {
+        "hanzi": "我喜欢吃汤面。",
+        "pinyin": "Wǒ xǐhuan chī tāngmiàn.",
+        "english": "I like noodle soup."
+      }
+    ]
+  },
+  {
+    "section": "cuisine",
+    "hanzi": "饺子",
+    "pinyin": "jiǎozi",
+    "english": "dumplings",
+    "examples": [
+      {
+        "hanzi": "春节要吃饺子。",
+        "pinyin": "Chūnjié yào chī jiǎozi.",
+        "english": "You eat dumplings during Spring Festival."
+      },
+      {
+        "hanzi": "我包了一盘饺子。",
+        "pinyin": "Wǒ bāo le yī pán jiǎozi.",
+        "english": "I made a plate of dumplings."
+      }
+    ]
+  },
+  {
+    "section": "cuisine",
+    "hanzi": "包子",
+    "pinyin": "bāozi",
+    "english": "steamed bun",
+    "examples": [
+      {
+        "hanzi": "早餐买了两个包子。",
+        "pinyin": "Zǎocān mǎi le liǎng gè bāozi.",
+        "english": "I bought two buns for breakfast."
+      },
+      {
+        "hanzi": "肉包子很香。",
+        "pinyin": "Ròu bāozi hěn xiāng.",
+        "english": "Meat buns smell wonderful."
+      }
+    ]
+  },
+  {
+    "section": "cuisine",
+    "hanzi": "火锅",
+    "pinyin": "huǒguō",
+    "english": "hot pot",
+    "examples": [
+      {
+        "hanzi": "冬天最适合吃火锅。",
+        "pinyin": "Dōngtiān zuì shìhé chī huǒguō.",
+        "english": "Hot pot is perfect for winter."
+      },
+      {
+        "hanzi": "我们今晚去吃火锅。",
+        "pinyin": "Wǒmen jīn wǎn qù chī huǒguō.",
+        "english": "We're having hot pot tonight."
+      }
+    ]
+  },
+  {
+    "section": "cuisine",
+    "hanzi": "炒饭",
+    "pinyin": "chǎofàn",
+    "english": "fried rice",
+    "examples": [
+      {
+        "hanzi": "扬州炒饭很有名。",
+        "pinyin": "Yángzhōu chǎofàn hěn yǒumíng.",
+        "english": "Yangzhou fried rice is famous."
+      },
+      {
+        "hanzi": "请给我一份蛋炒饭。",
+        "pinyin": "Qǐng gěi wǒ yī fèn dàn chǎofàn.",
+        "english": "Please give me egg fried rice."
+      }
+    ]
+  },
+  {
+    "section": "cuisine",
+    "hanzi": "汤",
+    "pinyin": "tāng",
+    "english": "soup",
+    "examples": [
+      {
+        "hanzi": "这汤有点烫。",
+        "pinyin": "Zhè tāng yǒudiǎn tàng.",
+        "english": "This soup is a bit hot."
+      },
+      {
+        "hanzi": "饭前先喝碗汤。",
+        "pinyin": "Fàn qián xiān hē wǎn tāng.",
+        "english": "Have a bowl of soup before the meal."
+      }
+    ]
+  },
+  {
+    "section": "cuisine",
+    "hanzi": "炒菜",
+    "pinyin": "chǎocài",
+    "english": "stir-fry",
+    "examples": [
+      {
+        "hanzi": "妈妈很会炒菜。",
+        "pinyin": "Māma hěn huì chǎocài.",
+        "english": "Mom is great at stir-frying."
+      },
+      {
+        "hanzi": "请再炒一个菜。",
+        "pinyin": "Qǐng zài chǎo yī gè cài.",
+        "english": "Please stir-fry one more dish."
+      }
+    ]
+  },
+  {
+    "section": "cuisine",
+    "hanzi": "小吃",
+    "pinyin": "xiǎochī",
+    "english": "snack",
+    "examples": [
+      {
+        "hanzi": "这条街有很多小吃。",
+        "pinyin": "Zhè tiáo jiē yǒu hěn duō xiǎochī.",
+        "english": "This street has many snacks."
+      },
+      {
+        "hanzi": "小吃便宜又好吃。",
+        "pinyin": "Xiǎochī piányi yòu hǎochī.",
+        "english": "Snacks are cheap and tasty."
+      }
+    ]
+  },
+  {
+    "section": "cuisine",
+    "hanzi": "特色菜",
+    "pinyin": "tèsè cài",
+    "english": "specialty dish",
+    "examples": [
+      {
+        "hanzi": "请推荐一道特色菜。",
+        "pinyin": "Qǐng tuījiàn yī dào tèsè cài.",
+        "english": "Please recommend a specialty dish."
+      },
+      {
+        "hanzi": "这是本店的特色菜。",
+        "pinyin": "Zhè shì běn diàn de tèsè cài.",
+        "english": "This is our restaurant's signature dish."
+      }
+    ]
+  },
+  {
+    "section": "street_food",
+    "hanzi": "煎饼果子",
+    "pinyin": "jiānbing guǒzi",
+    "english": "Chinese crepe wrap",
+    "examples": [
+      {
+        "hanzi": "早餐常吃煎饼果子。",
+        "pinyin": "Zǎocān cháng chī jiānbing guǒzi.",
+        "english": "Jianbing is a common breakfast."
+      },
+      {
+        "hanzi": "这个煎饼果子加蛋。",
+        "pinyin": "Zhège jiānbing guǒzi jiā dàn.",
+        "english": "This jianbing has an egg added."
+      }
+    ]
+  },
+  {
+    "section": "street_food",
+    "hanzi": "烤串",
+    "pinyin": "kǎochuàn",
+    "english": "grilled skewers",
+    "examples": [
+      {
+        "hanzi": "夜市有很多烤串。",
+        "pinyin": "Yèshì yǒu hěn duō kǎochuàn.",
+        "english": "Night markets have lots of skewers."
+      },
+      {
+        "hanzi": "请给我五串烤串。",
+        "pinyin": "Qǐng gěi wǒ wǔ chuàn kǎochuàn.",
+        "english": "Please give me five skewers."
+      }
+    ]
+  },
+  {
+    "section": "street_food",
+    "hanzi": "麻辣烫",
+    "pinyin": "málàtàng",
+    "english": "spicy hot pot soup",
+    "examples": [
+      {
+        "hanzi": "麻辣烫可以自己选菜。",
+        "pinyin": "Málàtàng kěyǐ zìjǐ xuǎn cài.",
+        "english": "You pick your own ingredients for malatang."
+      },
+      {
+        "hanzi": "这碗麻辣烫很辣。",
+        "pinyin": "Zhè wǎn málàtàng hěn là.",
+        "english": "This malatang is very spicy."
+      }
+    ]
+  },
+  {
+    "section": "street_food",
+    "hanzi": "肉夹馍",
+    "pinyin": "ròu jiā mó",
+    "english": "Chinese meat sandwich",
+    "examples": [
+      {
+        "hanzi": "肉夹馍是陕西名吃。",
+        "pinyin": "Ròu jiā mó shì Shǎnxī míng chī.",
+        "english": "Roujiamo is a famous Shaanxi snack."
+      },
+      {
+        "hanzi": "我买了一个肉夹馍。",
+        "pinyin": "Wǒ mǎi le yī gè ròu jiā mó.",
+        "english": "I bought a roujiamo."
+      }
+    ]
+  },
+  {
+    "section": "street_food",
+    "hanzi": "臭豆腐",
+    "pinyin": "chòu dòufu",
+    "english": "stinky tofu",
+    "examples": [
+      {
+        "hanzi": "臭豆腐闻着臭吃着香。",
+        "pinyin": "Chòu dòufu wén zhe chòu chī zhe xiāng.",
+        "english": "Stinky tofu smells strong but tastes good."
+      },
+      {
+        "hanzi": "你敢吃臭豆腐吗？",
+        "pinyin": "Nǐ gǎn chī chòu dòufu ma?",
+        "english": "Do you dare to eat stinky tofu?"
+      }
+    ]
+  },
+  {
+    "section": "street_food",
+    "hanzi": "糖葫芦",
+    "pinyin": "tánghúlu",
+    "english": "candied hawthorn skewers",
+    "examples": [
+      {
+        "hanzi": "冬天常见糖葫芦。",
+        "pinyin": "Dōngtiān chángjiàn tánghúlu.",
+        "english": "Candied hawthorn is common in winter."
+      },
+      {
+        "hanzi": "孩子想要一串糖葫芦。",
+        "pinyin": "Háizi xiǎng yào yī chuàn tánghúlu.",
+        "english": "The child wants a tanghulu skewer."
+      }
+    ]
+  },
+  {
+    "section": "street_food",
+    "hanzi": "肠粉",
+    "pinyin": "chángfěn",
+    "english": "rice noodle roll",
+    "examples": [
+      {
+        "hanzi": "广东早餐常吃肠粉。",
+        "pinyin": "Guǎngdōng zǎocān cháng chī chángfěn.",
+        "english": "Cheung fun is a common Guangdong breakfast."
+      },
+      {
+        "hanzi": "请给我一份鸡蛋肠粉。",
+        "pinyin": "Qǐng gěi wǒ yī fèn jīdàn chángfěn.",
+        "english": "Please give me egg cheung fun."
+      }
+    ]
+  },
+  {
+    "section": "street_food",
+    "hanzi": "小笼包",
+    "pinyin": "xiǎolóngbāo",
+    "english": "soup dumplings",
+    "examples": [
+      {
+        "hanzi": "小笼包要小心烫。",
+        "pinyin": "Xiǎolóngbāo yào xiǎoxīn tàng.",
+        "english": "Be careful, soup dumplings are hot."
+      },
+      {
+        "hanzi": "上海小笼包很有名。",
+        "pinyin": "Shànghǎi xiǎolóngbāo hěn yǒumíng.",
+        "english": "Shanghai soup dumplings are famous."
+      }
+    ]
+  },
+  {
+    "section": "street_food",
+    "hanzi": "凉皮",
+    "pinyin": "liángpí",
+    "english": "cold skin noodles",
+    "examples": [
+      {
+        "hanzi": "夏天吃凉皮很解暑。",
+        "pinyin": "Xiàtiān chī liángpí hěn jiěshǔ.",
+        "english": "Cold skin noodles are refreshing in summer."
+      },
+      {
+        "hanzi": "请加醋和辣椒油。",
+        "pinyin": "Qǐng jiā cù hé làjiāo yóu.",
+        "english": "Please add vinegar and chili oil."
+      }
+    ]
+  },
+  {
+    "section": "street_food",
+    "hanzi": "炸酱面",
+    "pinyin": "zhájiàngmiàn",
+    "english": "noodles with soybean paste",
+    "examples": [
+      {
+        "hanzi": "炸酱面是北京特色。",
+        "pinyin": "Zhájiàngmiàn shì Běijīng tèsè.",
+        "english": "Zhajiangmian is a Beijing specialty."
+      },
+      {
+        "hanzi": "这碗炸酱面很地道。",
+        "pinyin": "Zhè wǎn zhájiàngmiàn hěn dìdào.",
+        "english": "This zhajiangmian is authentic."
+      }
+    ]
+  },
+  {
+    "section": "desserts",
+    "hanzi": "蛋糕",
+    "pinyin": "dàngāo",
+    "english": "cake",
+    "examples": [
+      {
+        "hanzi": "生日快乐，吃蛋糕吧。",
+        "pinyin": "Shēngrì kuàilè, chī dàngāo ba.",
+        "english": "Happy birthday, let's eat cake."
+      },
+      {
+        "hanzi": "这个蛋糕是巧克力味的。",
+        "pinyin": "Zhège dàngāo shì qiǎokèlì wèi de.",
+        "english": "This cake is chocolate flavored."
+      }
+    ]
+  },
+  {
+    "section": "desserts",
+    "hanzi": "冰淇淋",
+    "pinyin": "bīngqílín",
+    "english": "ice cream",
+    "examples": [
+      {
+        "hanzi": "夏天我最爱冰淇淋。",
+        "pinyin": "Xiàtiān wǒ zuì ài bīngqílín.",
+        "english": "Ice cream is my favorite in summer."
+      },
+      {
+        "hanzi": "请给我两个冰淇淋。",
+        "pinyin": "Qǐng gěi wǒ liǎng gè bīngqílín.",
+        "english": "Please give me two ice creams."
+      }
+    ]
+  },
+  {
+    "section": "desserts",
+    "hanzi": "布丁",
+    "pinyin": "bùdīng",
+    "english": "pudding",
+    "examples": [
+      {
+        "hanzi": "芒果布丁很滑。",
+        "pinyin": "Mángguǒ bùdīng hěn huá.",
+        "english": "Mango pudding is smooth."
+      },
+      {
+        "hanzi": "饭后甜点选了布丁。",
+        "pinyin": "Fàn hòu tiándiǎn xuǎn le bùdīng.",
+        "english": "I chose pudding for dessert."
+      }
+    ]
+  },
+  {
+    "section": "desserts",
+    "hanzi": "月饼",
+    "pinyin": "yuèbǐng",
+    "english": "mooncake",
+    "examples": [
+      {
+        "hanzi": "中秋节要吃月饼。",
+        "pinyin": "Zhōngqiū jié yào chī yuèbǐng.",
+        "english": "You eat mooncakes during Mid-Autumn Festival."
+      },
+      {
+        "hanzi": "这种月饼是五仁的。",
+        "pinyin": "Zhè zhǒng yuèbǐng shì wǔrén de.",
+        "english": "This mooncake has mixed nuts filling."
+      }
+    ]
+  },
+  {
+    "section": "desserts",
+    "hanzi": "汤圆",
+    "pinyin": "tāngyuán",
+    "english": "tangyuan",
+    "examples": [
+      {
+        "hanzi": "元宵节吃汤圆。",
+        "pinyin": "Yuánxiāo jié chī tāngyuán.",
+        "english": "Tangyuan are eaten during Lantern Festival."
+      },
+      {
+        "hanzi": "汤圆是甜的。",
+        "pinyin": "Tāngyuán shì tián de.",
+        "english": "Tangyuan are sweet."
+      }
+    ]
+  },
+  {
+    "section": "desserts",
+    "hanzi": "红豆沙",
+    "pinyin": "hóngdòushā",
+    "english": "red bean paste",
+    "examples": [
+      {
+        "hanzi": "包子馅是红豆沙。",
+        "pinyin": "Bāozi xiàn shì hóngdòushā.",
+        "english": "The bun filling is red bean paste."
+      },
+      {
+        "hanzi": "我喜欢红豆沙甜品。",
+        "pinyin": "Wǒ xǐhuan hóngdòushā tiánpǐn.",
+        "english": "I like red bean desserts."
+      }
+    ]
+  },
+  {
+    "section": "desserts",
+    "hanzi": "马蹄糕",
+    "pinyin": "mátí gāo",
+    "english": "water chestnut cake",
+    "examples": [
+      {
+        "hanzi": "马蹄糕是广式点心。",
+        "pinyin": "Mátí gāo shì Guǎngshì diǎnxīn.",
+        "english": "Water chestnut cake is Cantonese dim sum."
+      },
+      {
+        "hanzi": "这种糕点很清爽。",
+        "pinyin": "Zhè zhǒng gāodiǎn hěn qīngshuǎng.",
+        "english": "This pastry is light and refreshing."
+      }
+    ]
+  },
+  {
+    "section": "desserts",
+    "hanzi": "蛋挞",
+    "pinyin": "dàntà",
+    "english": "egg tart",
+    "examples": [
+      {
+        "hanzi": "新鲜出炉的蛋挞最好吃。",
+        "pinyin": "Xīnxiān chūlú de dàntà zuì hǎochī.",
+        "english": "Freshly baked egg tarts are the best."
+      },
+      {
+        "hanzi": "请给我三个蛋挞。",
+        "pinyin": "Qǐng gěi wǒ sān gè dàntà.",
+        "english": "Please give me three egg tarts."
+      }
+    ]
+  },
+  {
+    "section": "desserts",
+    "hanzi": "双皮奶",
+    "pinyin": "shuāngpí nǎi",
+    "english": "double-skin milk pudding",
+    "examples": [
+      {
+        "hanzi": "双皮奶是顺德名点。",
+        "pinyin": "Shuāngpí nǎi shì Shùndé míng diǎn.",
+        "english": "Double-skin milk is a Shunde specialty."
+      },
+      {
+        "hanzi": "这碗双皮奶很嫩。",
+        "pinyin": "Zhè wǎn shuāngpí nǎi hěn nèn.",
+        "english": "This double-skin milk is very silky."
+      }
+    ]
+  },
+  {
+    "section": "desserts",
+    "hanzi": "麻花",
+    "pinyin": "máhuā",
+    "english": "fried dough twist",
+    "examples": [
+      {
+        "hanzi": "麻花又脆又香。",
+        "pinyin": "Máhuā yòu cuì yòu xiāng.",
+        "english": "Mahua is crispy and fragrant."
+      },
+      {
+        "hanzi": "我买了一些麻花当零食。",
+        "pinyin": "Wǒ mǎi le yīxiē máhuā dāng língshí.",
+        "english": "I bought some mahua as a snack."
+      }
+    ]
+  },
+  {
+    "section": "coffee",
+    "hanzi": "咖啡",
+    "pinyin": "kāfēi",
+    "english": "coffee",
+    "examples": [
+      {
+        "hanzi": "我每天早上喝咖啡。",
+        "pinyin": "Wǒ měitiān zǎoshang hē kāfēi.",
+        "english": "I drink coffee every morning."
+      },
+      {
+        "hanzi": "请给我一杯热咖啡。",
+        "pinyin": "Qǐng gěi wǒ yī bēi rè kāfēi.",
+        "english": "Please give me a hot coffee."
+      }
+    ]
+  },
+  {
+    "section": "coffee",
+    "hanzi": "拿铁",
+    "pinyin": "nátiě",
+    "english": "latte",
+    "examples": [
+      {
+        "hanzi": "我要一杯冰拿铁。",
+        "pinyin": "Wǒ yào yī bēi bīng nátiě.",
+        "english": "I'd like an iced latte."
+      },
+      {
+        "hanzi": "拿铁奶泡很细腻。",
+        "pinyin": "Nátiě nǎipào hěn xìnì.",
+        "english": "The latte foam is very fine."
+      }
+    ]
+  },
+  {
+    "section": "coffee",
+    "hanzi": "美式",
+    "pinyin": "Měishì",
+    "english": "Americano",
+    "examples": [
+      {
+        "hanzi": "美式咖啡比较苦。",
+        "pinyin": "Měishì kāfēi bǐjiào kǔ.",
+        "english": "Americano is rather bitter."
+      },
+      {
+        "hanzi": "请换大杯美式。",
+        "pinyin": "Qǐng huàn dà bēi Měishì.",
+        "english": "Please upgrade to a large Americano."
+      }
+    ]
+  },
+  {
+    "section": "coffee",
+    "hanzi": "卡布奇诺",
+    "pinyin": "kǎbùqínuò",
+    "english": "cappuccino",
+    "examples": [
+      {
+        "hanzi": "卡布奇诺上面是奶泡。",
+        "pinyin": "Kǎbùqínuò shàngmiàn shì nǎipào.",
+        "english": "Cappuccino has foam on top."
+      },
+      {
+        "hanzi": "她点了卡布奇诺。",
+        "pinyin": "Tā diǎn le kǎbùqínuò.",
+        "english": "She ordered a cappuccino."
+      }
+    ]
+  },
+  {
+    "section": "coffee",
+    "hanzi": "浓缩",
+    "pinyin": "nóngsuō",
+    "english": "espresso",
+    "examples": [
+      {
+        "hanzi": "浓缩咖啡很小杯。",
+        "pinyin": "Nóngsuō kāfēi hěn xiǎo bēi.",
+        "english": "Espresso comes in a small cup."
+      },
+      {
+        "hanzi": "请做双份浓缩。",
+        "pinyin": "Qǐng zuò shuāng fèn nóngsuō.",
+        "english": "Please make a double espresso."
+      }
+    ]
+  },
+  {
+    "section": "coffee",
+    "hanzi": "咖啡豆",
+    "pinyin": "kāfēidòu",
+    "english": "coffee beans",
+    "examples": [
+      {
+        "hanzi": "这些咖啡豆很新鲜。",
+        "pinyin": "Zhèxiē kāfēidòu hěn xīnxiān.",
+        "english": "These coffee beans are fresh."
+      },
+      {
+        "hanzi": "我买了埃塞俄比亚咖啡豆。",
+        "pinyin": "Wǒ mǎi le Āisāi'ébǐyà kāfēidòu.",
+        "english": "I bought Ethiopian coffee beans."
+      }
+    ]
+  },
+  {
+    "section": "coffee",
+    "hanzi": "研磨",
+    "pinyin": "yánmó",
+    "english": "to grind coffee",
+    "examples": [
+      {
+        "hanzi": "请帮我研磨咖啡豆。",
+        "pinyin": "Qǐng bāng wǒ yánmó kāfēidòu.",
+        "english": "Please grind the coffee beans for me."
+      },
+      {
+        "hanzi": "现磨咖啡更香。",
+        "pinyin": "Xiàn mó kāfēi gèng xiāng.",
+        "english": "Freshly ground coffee smells better."
+      }
+    ]
+  },
+  {
+    "section": "coffee",
+    "hanzi": "外带",
+    "pinyin": "wàidài",
+    "english": "to go",
+    "examples": [
+      {
+        "hanzi": "咖啡外带还是堂食？",
+        "pinyin": "Kāfēi wàidài háishi tángshí?",
+        "english": "Coffee to go or for here?"
+      },
+      {
+        "hanzi": "我要外带。",
+        "pinyin": "Wǒ yào wàidài.",
+        "english": "I'll take it to go."
+      }
+    ]
+  },
+  {
+    "section": "coffee",
+    "hanzi": "半糖",
+    "pinyin": "bàntáng",
+    "english": "half sugar",
+    "examples": [
+      {
+        "hanzi": "请做半糖。",
+        "pinyin": "Qǐng zuò bàntáng.",
+        "english": "Please make it half sugar."
+      },
+      {
+        "hanzi": "半糖对我来说刚好。",
+        "pinyin": "Bàntáng duì wǒ lái shuō gānghǎo.",
+        "english": "Half sugar is just right for me."
+      }
+    ]
+  },
+  {
+    "section": "coffee",
+    "hanzi": "拉花",
+    "pinyin": "lāhuā",
+    "english": "latte art",
+    "examples": [
+      {
+        "hanzi": "这杯咖啡拉花很漂亮。",
+        "pinyin": "Zhè bēi kāfēi lāhuā hěn piàoliang.",
+        "english": "The latte art on this coffee is beautiful."
+      },
+      {
+        "hanzi": "店员擅长拉花。",
+        "pinyin": "Diànyuán shàncháng lāhuā.",
+        "english": "The barista is good at latte art."
+      }
+    ]
+  },
+  {
+    "section": "tea",
+    "hanzi": "绿茶",
+    "pinyin": "lǜchá",
+    "english": "green tea",
+    "examples": [
+      {
+        "hanzi": "绿茶比较清淡。",
+        "pinyin": "Lǜchá bǐjiào qīngdàn.",
+        "english": "Green tea is relatively light."
+      },
+      {
+        "hanzi": "请泡一杯绿茶。",
+        "pinyin": "Qǐng pào yī bēi lǜchá.",
+        "english": "Please brew a cup of green tea."
+      }
+    ]
+  },
+  {
+    "section": "tea",
+    "hanzi": "红茶",
+    "pinyin": "hóngchá",
+    "english": "black tea",
+    "examples": [
+      {
+        "hanzi": "红茶适合加牛奶。",
+        "pinyin": "Hóngchá shìhé jiā niúnǎi.",
+        "english": "Black tea goes well with milk."
+      },
+      {
+        "hanzi": "英式红茶很浓。",
+        "pinyin": "Yīngshì hóngchá hěn nóng.",
+        "english": "English black tea is strong."
+      }
+    ]
+  },
+  {
+    "section": "tea",
+    "hanzi": "乌龙茶",
+    "pinyin": "wūlóngchá",
+    "english": "oolong tea",
+    "examples": [
+      {
+        "hanzi": "乌龙茶可以反复冲泡。",
+        "pinyin": "Wūlóngchá kěyǐ fǎnfù chōngpào.",
+        "english": "Oolong can be steeped multiple times."
+      },
+      {
+        "hanzi": "铁观音是乌龙茶。",
+        "pinyin": "Tiěguānyīn shì wūlóngchá.",
+        "english": "Tieguanyin is an oolong tea."
+      }
+    ]
+  },
+  {
+    "section": "tea",
+    "hanzi": "茉莉花茶",
+    "pinyin": "mòlì huāchá",
+    "english": "jasmine tea",
+    "examples": [
+      {
+        "hanzi": "茉莉花茶很香。",
+        "pinyin": "Mòlì huāchá hěn xiāng.",
+        "english": "Jasmine tea is very fragrant."
+      },
+      {
+        "hanzi": "饭后我喝茉莉花茶。",
+        "pinyin": "Fàn hòu wǒ hē mòlì huāchá.",
+        "english": "I drink jasmine tea after meals."
+      }
+    ]
+  },
+  {
+    "section": "tea",
+    "hanzi": "普洱茶",
+    "pinyin": "pǔ'ěrchá",
+    "english": "Pu'er tea",
+    "examples": [
+      {
+        "hanzi": "普洱茶可以收藏。",
+        "pinyin": "Pǔ'ěrchá kěyǐ shōucáng.",
+        "english": "Pu'er tea can be aged and collected."
+      },
+      {
+        "hanzi": "熟普洱口感醇厚。",
+        "pinyin": "Shú pǔ'ěr kǒugǎn chúnhòu.",
+        "english": "Ripe Pu'er has a rich flavor."
+      }
+    ]
+  },
+  {
+    "section": "tea",
+    "hanzi": "泡茶",
+    "pinyin": "pào chá",
+    "english": "to brew tea",
+    "examples": [
+      {
+        "hanzi": "我来泡茶。",
+        "pinyin": "Wǒ lái pào chá.",
+        "english": "Let me brew the tea."
+      },
+      {
+        "hanzi": "水温太高不适合泡茶。",
+        "pinyin": "Shuǐwēn tài gāo bú shìhé pào chá.",
+        "english": "Water that's too hot isn't good for brewing tea."
+      }
+    ]
+  },
+  {
+    "section": "tea",
+    "hanzi": "茶叶",
+    "pinyin": "cháyè",
+    "english": "tea leaves",
+    "examples": [
+      {
+        "hanzi": "这些茶叶是今年的新茶。",
+        "pinyin": "Zhèxiē cháyè shì jīnnián de xīnchá.",
+        "english": "These tea leaves are this year's new harvest."
+      },
+      {
+        "hanzi": "茶叶要密封保存。",
+        "pinyin": "Cháyè yào mìfēng bǎocún.",
+        "english": "Tea leaves should be stored sealed."
+      }
+    ]
+  },
+  {
+    "section": "tea",
+    "hanzi": "功夫茶",
+    "pinyin": "gōngfuchá",
+    "english": "gongfu tea ceremony",
+    "examples": [
+      {
+        "hanzi": "广东人喜欢喝功夫茶。",
+        "pinyin": "Guǎngdōng rén xǐhuan hē gōngfuchá.",
+        "english": "People in Guangdong enjoy gongfu tea."
+      },
+      {
+        "hanzi": "功夫茶讲究水温。",
+        "pinyin": "Gōngfuchá jiǎngjiū shuǐwēn.",
+        "english": "Gongfu tea emphasizes water temperature."
+      }
+    ]
+  },
+  {
+    "section": "tea",
+    "hanzi": "茶馆",
+    "pinyin": "cháguǎn",
+    "english": "teahouse",
+    "examples": [
+      {
+        "hanzi": "我们去茶馆坐坐。",
+        "pinyin": "Wǒmen qù cháguǎn zuòzuò.",
+        "english": "Let's sit at a teahouse."
+      },
+      {
+        "hanzi": "这家茶馆环境很好。",
+        "pinyin": "Zhè jiā cháguǎn huánjìng hěn hǎo.",
+        "english": "This teahouse has a nice atmosphere."
+      }
+    ]
+  },
+  {
+    "section": "tea",
+    "hanzi": "倒茶",
+    "pinyin": "dào chá",
+    "english": "to pour tea",
+    "examples": [
+      {
+        "hanzi": "请帮我倒茶。",
+        "pinyin": "Qǐng bāng wǒ dào chá.",
+        "english": "Please pour me some tea."
+      },
+      {
+        "hanzi": "倒茶时先给长辈。",
+        "pinyin": "Dào chá shí xiān gěi zhǎngbèi.",
+        "english": "Serve tea to elders first."
+      }
+    ]
+  },
+  {
+    "section": "drinks",
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "english": "water",
+    "examples": [
+      {
+        "hanzi": "请给我一杯水。",
+        "pinyin": "Qǐng gěi wǒ yī bēi shuǐ.",
+        "english": "Please give me a glass of water."
+      },
+      {
+        "hanzi": "多喝水对身体好。",
+        "pinyin": "Duō hē shuǐ duì shēntǐ hǎo.",
+        "english": "Drinking more water is good for you."
+      }
+    ]
+  },
+  {
+    "section": "drinks",
+    "hanzi": "果汁",
+    "pinyin": "guǒzhī",
+    "english": "fruit juice",
+    "examples": [
+      {
+        "hanzi": "鲜榨果汁没有添加剂。",
+        "pinyin": "Xiānzhà guǒzhī méiyǒu tiānjiājì.",
+        "english": "Fresh juice has no additives."
+      },
+      {
+        "hanzi": "孩子喜欢喝橙汁。",
+        "pinyin": "Háizi xǐhuan hē chéngzhī.",
+        "english": "Kids like drinking orange juice."
+      }
+    ]
+  },
+  {
+    "section": "drinks",
+    "hanzi": "牛奶",
+    "pinyin": "niúnǎi",
+    "english": "milk",
+    "examples": [
+      {
+        "hanzi": "我早餐喝牛奶。",
+        "pinyin": "Wǒ zǎocān hē niúnǎi.",
+        "english": "I drink milk for breakfast."
+      },
+      {
+        "hanzi": "这盒牛奶要冷藏。",
+        "pinyin": "Zhè hé niúnǎi yào lěngcáng.",
+        "english": "This milk needs refrigeration."
+      }
+    ]
+  },
+  {
+    "section": "drinks",
+    "hanzi": "可乐",
+    "pinyin": "kělè",
+    "english": "cola",
+    "examples": [
+      {
+        "hanzi": "请给我一罐可乐。",
+        "pinyin": "Qǐng gěi wǒ yī guàn kělè.",
+        "english": "Please give me a can of cola."
+      },
+      {
+        "hanzi": "少喝可乐比较好。",
+        "pinyin": "Shǎo hē kělè bǐjiào hǎo.",
+        "english": "It's better to drink less cola."
+      }
+    ]
+  },
+  {
+    "section": "drinks",
+    "hanzi": "啤酒",
+    "pinyin": "píjiǔ",
+    "english": "beer",
+    "examples": [
+      {
+        "hanzi": "夏天喝冰啤酒很爽。",
+        "pinyin": "Xiàtiān hē bīng píjiǔ hěn shuǎng.",
+        "english": "Ice cold beer is great in summer."
+      },
+      {
+        "hanzi": "请给我两瓶啤酒。",
+        "pinyin": "Qǐng gěi wǒ liǎng píng píjiǔ.",
+        "english": "Please give me two bottles of beer."
+      }
+    ]
+  },
+  {
+    "section": "drinks",
+    "hanzi": "白酒",
+    "pinyin": "báijiǔ",
+    "english": "baijiu",
+    "examples": [
+      {
+        "hanzi": "白酒度数很高。",
+        "pinyin": "Báijiǔ dùshù hěn gāo.",
+        "english": "Baijiu has a high alcohol content."
+      },
+      {
+        "hanzi": "宴席上常喝白酒。",
+        "pinyin": "Yànxí shàng cháng hē báijiǔ.",
+        "english": "Baijiu is often served at banquets."
+      }
+    ]
+  },
+  {
+    "section": "drinks",
+    "hanzi": "红酒",
+    "pinyin": "hóngjiǔ",
+    "english": "red wine",
+    "examples": [
+      {
+        "hanzi": "红酒要醒一下。",
+        "pinyin": "Hóngjiǔ yào xǐng yīxià.",
+        "english": "Red wine needs to breathe."
+      },
+      {
+        "hanzi": "我们庆祝时开了一瓶红酒。",
+        "pinyin": "Wǒmen qìngzhù shí kāi le yī píng hóngjiǔ.",
+        "english": "We opened a bottle of red wine to celebrate."
+      }
+    ]
+  },
+  {
+    "section": "drinks",
+    "hanzi": "豆浆",
+    "pinyin": "dòujiāng",
+    "english": "soy milk",
+    "examples": [
+      {
+        "hanzi": "早餐配油条和豆浆。",
+        "pinyin": "Zǎocān pèi yóutiáo hé dòujiāng.",
+        "english": "Breakfast with youtiao and soy milk."
+      },
+      {
+        "hanzi": "热豆浆很好喝。",
+        "pinyin": "Rè dòujiāng hěn hǎo hē.",
+        "english": "Hot soy milk is delicious."
+      }
+    ]
+  },
+  {
+    "section": "drinks",
+    "hanzi": "奶茶",
+    "pinyin": "nǎichá",
+    "english": "milk tea",
+    "examples": [
+      {
+        "hanzi": "珍珠奶茶很流行。",
+        "pinyin": "Zhēnzhū nǎichá hěn liúxíng.",
+        "english": "Bubble milk tea is very popular."
+      },
+      {
+        "hanzi": "我要一杯少糖奶茶。",
+        "pinyin": "Wǒ yào yī bēi shǎo táng nǎichá.",
+        "english": "I'd like a milk tea with less sugar."
+      }
+    ]
+  },
+  {
+    "section": "drinks",
+    "hanzi": "功能饮料",
+    "pinyin": "gōngnéng yǐnliào",
+    "english": "energy drink",
+    "examples": [
+      {
+        "hanzi": "运动后喝功能饮料。",
+        "pinyin": "Yùndòng hòu hē gōngnéng yǐnliào.",
+        "english": "Drink an energy drink after exercise."
+      },
+      {
+        "hanzi": "功能饮料不要多喝。",
+        "pinyin": "Gōngnéng yǐnliào bú yào duō hē.",
+        "english": "Don't drink too many energy drinks."
+      }
+    ]
+  }
+]

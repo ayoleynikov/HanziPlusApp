@@ -1,0 +1,1043 @@
+[
+  {
+    "id": "ess-hello",
+    "categoryID": "essentials",
+    "simplifiedChinese": "你好",
+    "pinyin": "nǐ hǎo",
+    "english": "Hello",
+    "usageNote": "Standard polite greeting.",
+    "tags": [
+      "hello",
+      "greeting",
+      "polite"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "ess-thank-you",
+    "categoryID": "essentials",
+    "simplifiedChinese": "谢谢",
+    "pinyin": "xièxie",
+    "english": "Thank you",
+    "usageNote": null,
+    "tags": [
+      "thanks",
+      "thank-you",
+      "polite"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "ess-excuse-me",
+    "categoryID": "essentials",
+    "simplifiedChinese": "请问",
+    "pinyin": "qǐngwèn",
+    "english": "Excuse me / May I ask…",
+    "usageNote": "Start questions with this.",
+    "tags": [
+      "excuse",
+      "ask",
+      "polite"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "ess-sorry",
+    "categoryID": "essentials",
+    "simplifiedChinese": "对不起",
+    "pinyin": "duìbuqǐ",
+    "english": "Sorry",
+    "usageNote": null,
+    "tags": [
+      "sorry",
+      "apology"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "ess-dont-understand",
+    "categoryID": "essentials",
+    "simplifiedChinese": "对不起，我听不懂",
+    "pinyin": "duìbuqǐ, wǒ tīng bu dǒng",
+    "english": "Sorry, I don’t understand",
+    "usageNote": "Useful when Chinese is too fast.",
+    "tags": [
+      "understand",
+      "listen",
+      "beginner"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "ess-speak-english",
+    "categoryID": "essentials",
+    "simplifiedChinese": "你会说英文吗？",
+    "pinyin": "nǐ huì shuō Yīngwén ma?",
+    "english": "Do you speak English?",
+    "usageNote": null,
+    "tags": [
+      "english",
+      "language"
+    ],
+    "isEmergency": false,
+    "possibleReplies": [
+      {
+        "chinese": "会一点",
+        "pinyin": "huì yīdiǎn",
+        "english": "A little"
+      },
+      {
+        "chinese": "不会",
+        "pinyin": "bú huì",
+        "english": "No"
+      }
+    ]
+  },
+  {
+    "id": "ess-toilet",
+    "categoryID": "essentials",
+    "simplifiedChinese": "请问厕所在哪儿？",
+    "pinyin": "qǐngwèn cèsuǒ zài nǎr?",
+    "english": "Where is the restroom?",
+    "usageNote": null,
+    "tags": [
+      "toilet",
+      "bathroom",
+      "restroom"
+    ],
+    "isEmergency": false,
+    "possibleReplies": [
+      {
+        "chinese": "在那边",
+        "pinyin": "zài nàbiān",
+        "english": "Over there"
+      },
+      {
+        "chinese": "在左边",
+        "pinyin": "zài zuǒbian",
+        "english": "On the left"
+      }
+    ]
+  },
+  {
+    "id": "ess-help",
+    "categoryID": "essentials",
+    "simplifiedChinese": "可以帮我一下吗？",
+    "pinyin": "kěyǐ bāng wǒ yīxià ma?",
+    "english": "Can you help me?",
+    "usageNote": null,
+    "tags": [
+      "help",
+      "assist"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "ess-photo",
+    "categoryID": "essentials",
+    "simplifiedChinese": "可以帮我拍一张照片吗？",
+    "pinyin": "kěyǐ bāng wǒ pāi yī zhāng zhàopiàn ma?",
+    "english": "Can you take a photo for me?",
+    "usageNote": null,
+    "tags": [
+      "photo",
+      "camera"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "ess-slow",
+    "categoryID": "essentials",
+    "simplifiedChinese": "请说慢一点",
+    "pinyin": "qǐng shuō màn yīdiǎn",
+    "english": "Please speak more slowly",
+    "usageNote": null,
+    "tags": [
+      "slow",
+      "speak"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "air-checkin",
+    "categoryID": "airport",
+    "simplifiedChinese": "请问值机柜台在哪儿？",
+    "pinyin": "qǐngwèn zhíjī guìtái zài nǎr?",
+    "english": "Where is the check-in counter?",
+    "usageNote": null,
+    "tags": [
+      "check-in",
+      "airport",
+      "counter"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "air-boarding-pass",
+    "categoryID": "airport",
+    "simplifiedChinese": "请出示登机牌和护照",
+    "pinyin": "qǐng chūshì dēngjīpái hé hùzhào",
+    "english": "Please show your boarding pass and passport",
+    "usageNote": "You may hear this at the gate.",
+    "tags": [
+      "boarding",
+      "passport"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "air-gate",
+    "categoryID": "airport",
+    "simplifiedChinese": "登机口在哪儿？",
+    "pinyin": "dēngjīkǒu zài nǎr?",
+    "english": "Where is the boarding gate?",
+    "usageNote": null,
+    "tags": [
+      "gate",
+      "boarding"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "air-baggage",
+    "categoryID": "airport",
+    "simplifiedChinese": "行李转盘在哪儿？",
+    "pinyin": "xíngli zhuànpán zài nǎr?",
+    "english": "Where is the baggage carousel?",
+    "usageNote": null,
+    "tags": [
+      "luggage",
+      "baggage"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "air-delay",
+    "categoryID": "airport",
+    "simplifiedChinese": "航班延误了吗？",
+    "pinyin": "hángbān yánwù le ma?",
+    "english": "Is the flight delayed?",
+    "usageNote": null,
+    "tags": [
+      "delay",
+      "flight"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "air-customs",
+    "categoryID": "airport",
+    "simplifiedChinese": "海关走这边吗？",
+    "pinyin": "hǎiguān zǒu zhèbiān ma?",
+    "english": "Is customs this way?",
+    "usageNote": null,
+    "tags": [
+      "customs",
+      "immigration"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "air-lost-luggage",
+    "categoryID": "airport",
+    "simplifiedChinese": "我的行李丢了",
+    "pinyin": "wǒ de xíngli diū le",
+    "english": "My luggage is missing",
+    "usageNote": "Go to the airline baggage desk.",
+    "tags": [
+      "lost",
+      "luggage"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "air-transfer",
+    "categoryID": "airport",
+    "simplifiedChinese": "我要转机，怎么走？",
+    "pinyin": "wǒ yào zhuǎnjī, zěnme zǒu?",
+    "english": "I have a connecting flight. How do I get there?",
+    "usageNote": null,
+    "tags": [
+      "transfer",
+      "connection"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "tr-taxi-address",
+    "categoryID": "transport",
+    "simplifiedChinese": "师傅，请送我去这个地址",
+    "pinyin": "shīfu, qǐng sòng wǒ qù zhège dìzhǐ",
+    "english": "Driver, please take me to this address",
+    "usageNote": "Show the address on your phone while saying this.",
+    "tags": [
+      "taxi",
+      "address",
+      "driver"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "tr-stop-here",
+    "categoryID": "transport",
+    "simplifiedChinese": "请在这儿停",
+    "pinyin": "qǐng zài zhèr tíng",
+    "english": "Please stop here",
+    "usageNote": null,
+    "tags": [
+      "taxi",
+      "stop"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "tr-how-much",
+    "categoryID": "transport",
+    "simplifiedChinese": "到那儿大概多少钱？",
+    "pinyin": "dào nàr dàgài duōshao qián?",
+    "english": "About how much to get there?",
+    "usageNote": null,
+    "tags": [
+      "taxi",
+      "price",
+      "fare"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "tr-metro",
+    "categoryID": "transport",
+    "simplifiedChinese": "最近的地铁站在哪儿？",
+    "pinyin": "zuìjìn de dìtiě zhàn zài nǎr?",
+    "english": "Where is the nearest subway station?",
+    "usageNote": null,
+    "tags": [
+      "metro",
+      "subway"
+    ],
+    "isEmergency": false,
+    "possibleReplies": [
+      {
+        "chinese": "直走就到",
+        "pinyin": "zhí zǒu jiù dào",
+        "english": "Go straight ahead"
+      }
+    ]
+  },
+  {
+    "id": "tr-which-line",
+    "categoryID": "transport",
+    "simplifiedChinese": "请问坐几号线？",
+    "pinyin": "qǐngwèn zuò jǐ hào xiàn?",
+    "english": "Which metro line should I take?",
+    "usageNote": null,
+    "tags": [
+      "metro",
+      "line"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "tr-train-station",
+    "categoryID": "transport",
+    "simplifiedChinese": "火车站怎么走？",
+    "pinyin": "huǒchēzhàn zěnme zǒu?",
+    "english": "How do I get to the train station?",
+    "usageNote": null,
+    "tags": [
+      "train",
+      "station",
+      "directions"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "tr-platform",
+    "categoryID": "transport",
+    "simplifiedChinese": "请问几号站台？",
+    "pinyin": "qǐngwèn jǐ hào zhàntái?",
+    "english": "Which platform is it?",
+    "usageNote": "Useful for high-speed rail.",
+    "tags": [
+      "platform",
+      "train"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "tr-train-number",
+    "categoryID": "transport",
+    "simplifiedChinese": "请问这是G123次吗？",
+    "pinyin": "qǐngwèn zhè shì G yāo èr sān cì ma?",
+    "english": "Is this the G123 train?",
+    "usageNote": "Replace the number with yours.",
+    "tags": [
+      "train",
+      "number"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "tr-ticket",
+    "categoryID": "transport",
+    "simplifiedChinese": "请问在哪儿买票？",
+    "pinyin": "qǐngwèn zài nǎr mǎi piào?",
+    "english": "Where can I buy a ticket?",
+    "usageNote": null,
+    "tags": [
+      "ticket",
+      "buy"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "tr-left-right",
+    "categoryID": "transport",
+    "simplifiedChinese": "往左走还是往右走？",
+    "pinyin": "wǎng zuǒ zǒu háishì wǎng yòu zǒu?",
+    "english": "Should I go left or right?",
+    "usageNote": null,
+    "tags": [
+      "directions",
+      "left",
+      "right"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "hot-checkin",
+    "categoryID": "hotel",
+    "simplifiedChinese": "您好，我要办理入住",
+    "pinyin": "nín hǎo, wǒ yào bànlǐ rùzhù",
+    "english": "Hello, I’d like to check in",
+    "usageNote": null,
+    "tags": [
+      "hotel",
+      "check-in"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "hot-booking",
+    "categoryID": "hotel",
+    "simplifiedChinese": "我有预订，名字是……",
+    "pinyin": "wǒ yǒu yùdìng, míngzi shì…",
+    "english": "I have a reservation. The name is…",
+    "usageNote": "Say your name after this.",
+    "tags": [
+      "booking",
+      "reservation"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "hot-booking-problem",
+    "categoryID": "hotel",
+    "simplifiedChinese": "我的预订好像有问题",
+    "pinyin": "wǒ de yùdìng hǎoxiàng yǒu wèntí",
+    "english": "There seems to be a problem with my booking",
+    "usageNote": null,
+    "tags": [
+      "booking",
+      "problem",
+      "issue"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "hot-wifi",
+    "categoryID": "hotel",
+    "simplifiedChinese": "请问无线网密码是多少？",
+    "pinyin": "qǐngwèn wúxiànwǎng mìmǎ shì duōshao?",
+    "english": "What’s the Wi‑Fi password?",
+    "usageNote": null,
+    "tags": [
+      "wifi",
+      "password",
+      "hotel"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "hot-checkout",
+    "categoryID": "hotel",
+    "simplifiedChinese": "我想办理退房",
+    "pinyin": "wǒ xiǎng bànlǐ tuìfáng",
+    "english": "I’d like to check out",
+    "usageNote": null,
+    "tags": [
+      "checkout",
+      "hotel"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "hot-room",
+    "categoryID": "hotel",
+    "simplifiedChinese": "请问我的房间号是多少？",
+    "pinyin": "qǐngwèn wǒ de fángjiān hào shì duōshao?",
+    "english": "What’s my room number?",
+    "usageNote": null,
+    "tags": [
+      "room",
+      "number"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "hot-breakfast",
+    "categoryID": "hotel",
+    "simplifiedChinese": "早餐在哪儿？",
+    "pinyin": "zǎocān zài nǎr?",
+    "english": "Where is breakfast?",
+    "usageNote": null,
+    "tags": [
+      "breakfast",
+      "hotel"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "hot-extra-towel",
+    "categoryID": "hotel",
+    "simplifiedChinese": "可以再给我一条毛巾吗？",
+    "pinyin": "kěyǐ zài gěi wǒ yī tiáo máojīn ma?",
+    "english": "Could I have another towel?",
+    "usageNote": null,
+    "tags": [
+      "towel",
+      "hotel",
+      "request"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "food-menu",
+    "categoryID": "food",
+    "simplifiedChinese": "请问有英文菜单吗？",
+    "pinyin": "qǐngwèn yǒu Yīngwén càidān ma?",
+    "english": "Do you have an English menu?",
+    "usageNote": null,
+    "tags": [
+      "menu",
+      "english"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "food-not-spicy",
+    "categoryID": "food",
+    "simplifiedChinese": "请不要太辣",
+    "pinyin": "qǐng bú yào tài là",
+    "english": "Please don’t make it too spicy",
+    "usageNote": null,
+    "tags": [
+      "spicy",
+      "mild",
+      "food"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "food-allergy",
+    "categoryID": "food",
+    "simplifiedChinese": "我对花生过敏",
+    "pinyin": "wǒ duì huāshēng guòmǐn",
+    "english": "I’m allergic to peanuts",
+    "usageNote": "Replace 花生 with your allergen if needed.",
+    "tags": [
+      "allergy",
+      "peanuts",
+      "food"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "food-ingredients",
+    "categoryID": "food",
+    "simplifiedChinese": "这道菜里有什么？",
+    "pinyin": "zhè dào cài li yǒu shénme?",
+    "english": "What’s in this dish?",
+    "usageNote": null,
+    "tags": [
+      "ingredients",
+      "food"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "food-no-meat",
+    "categoryID": "food",
+    "simplifiedChinese": "我不要肉",
+    "pinyin": "wǒ bú yào ròu",
+    "english": "I don’t want meat",
+    "usageNote": null,
+    "tags": [
+      "vegetarian",
+      "meat"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "food-bill",
+    "categoryID": "food",
+    "simplifiedChinese": "麻烦买单",
+    "pinyin": "máfan mǎidān",
+    "english": "Could I get the bill, please?",
+    "usageNote": "Polite way to ask for the check in a restaurant.",
+    "tags": [
+      "bill",
+      "check",
+      "pay",
+      "restaurant"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "food-delicious",
+    "categoryID": "food",
+    "simplifiedChinese": "很好吃",
+    "pinyin": "hěn hǎochī",
+    "english": "It’s delicious",
+    "usageNote": null,
+    "tags": [
+      "delicious",
+      "compliment"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "food-recommend",
+    "categoryID": "food",
+    "simplifiedChinese": "有什么推荐的菜吗？",
+    "pinyin": "yǒu shénme tuījiàn de cài ma?",
+    "english": "What do you recommend?",
+    "usageNote": null,
+    "tags": [
+      "recommend",
+      "food"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "food-water",
+    "categoryID": "food",
+    "simplifiedChinese": "请给我一杯水",
+    "pinyin": "qǐng gěi wǒ yī bēi shuǐ",
+    "english": "Please give me a glass of water",
+    "usageNote": null,
+    "tags": [
+      "water",
+      "drink"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "food-takeaway",
+    "categoryID": "food",
+    "simplifiedChinese": "可以打包吗？",
+    "pinyin": "kěyǐ dǎbāo ma?",
+    "english": "Can I get this to go?",
+    "usageNote": null,
+    "tags": [
+      "takeaway",
+      "pack"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "shop-how-much",
+    "categoryID": "shopping",
+    "simplifiedChinese": "这个多少钱？",
+    "pinyin": "zhège duōshao qián?",
+    "english": "How much is this?",
+    "usageNote": null,
+    "tags": [
+      "price",
+      "shopping"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "shop-too-expensive",
+    "categoryID": "shopping",
+    "simplifiedChinese": "太贵了，便宜一点可以吗？",
+    "pinyin": "tài guì le, piányi yīdiǎn kěyǐ ma?",
+    "english": "That’s expensive. Can it be a bit cheaper?",
+    "usageNote": "More natural in markets than big stores.",
+    "tags": [
+      "bargain",
+      "price"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "shop-cash",
+    "categoryID": "shopping",
+    "simplifiedChinese": "可以付现金吗？",
+    "pinyin": "kěyǐ fù xiànjīn ma?",
+    "english": "Can I pay cash?",
+    "usageNote": null,
+    "tags": [
+      "cash",
+      "payment"
+    ],
+    "isEmergency": false,
+    "possibleReplies": [
+      {
+        "chinese": "可以",
+        "pinyin": "kěyǐ",
+        "english": "Yes"
+      },
+      {
+        "chinese": "只收微信或支付宝",
+        "pinyin": "zhǐ shōu Wēixìn huò Zhīfùbǎo",
+        "english": "WeChat or Alipay only"
+      }
+    ]
+  },
+  {
+    "id": "shop-alipay",
+    "categoryID": "shopping",
+    "simplifiedChinese": "可以用支付宝吗？",
+    "pinyin": "kěyǐ yòng Zhīfùbǎo ma?",
+    "english": "Can I pay with Alipay?",
+    "usageNote": null,
+    "tags": [
+      "alipay",
+      "payment"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "shop-wechat-pay",
+    "categoryID": "shopping",
+    "simplifiedChinese": "可以用微信支付吗？",
+    "pinyin": "kěyǐ yòng Wēixìn zhīfù ma?",
+    "english": "Can I pay with WeChat Pay?",
+    "usageNote": null,
+    "tags": [
+      "wechat",
+      "payment"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "shop-receipt",
+    "categoryID": "shopping",
+    "simplifiedChinese": "请给我发票",
+    "pinyin": "qǐng gěi wǒ fāpiào",
+    "english": "Please give me a receipt / fapiao",
+    "usageNote": null,
+    "tags": [
+      "receipt",
+      "invoice"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "shop-try-on",
+    "categoryID": "shopping",
+    "simplifiedChinese": "可以试穿吗？",
+    "pinyin": "kěyǐ shìchuān ma?",
+    "english": "Can I try this on?",
+    "usageNote": null,
+    "tags": [
+      "try",
+      "clothing"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "shop-smaller",
+    "categoryID": "shopping",
+    "simplifiedChinese": "有小一点的吗？",
+    "pinyin": "yǒu xiǎo yīdiǎn de ma?",
+    "english": "Do you have a smaller size?",
+    "usageNote": null,
+    "tags": [
+      "size",
+      "shopping"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "net-wifi",
+    "categoryID": "internet",
+    "simplifiedChinese": "请问有无线网吗？",
+    "pinyin": "qǐngwèn yǒu wúxiànwǎng ma?",
+    "english": "Do you have Wi‑Fi?",
+    "usageNote": null,
+    "tags": [
+      "wifi",
+      "internet"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "net-password",
+    "categoryID": "internet",
+    "simplifiedChinese": "无线网密码是多少？",
+    "pinyin": "wúxiànwǎng mìmǎ shì duōshao?",
+    "english": "What’s the Wi‑Fi password?",
+    "usageNote": null,
+    "tags": [
+      "wifi",
+      "password"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "net-sim",
+    "categoryID": "internet",
+    "simplifiedChinese": "我想买一张电话卡",
+    "pinyin": "wǒ xiǎng mǎi yī zhāng diànhuà kǎ",
+    "english": "I’d like to buy a SIM card",
+    "usageNote": null,
+    "tags": [
+      "sim",
+      "phone",
+      "card"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "net-esim",
+    "categoryID": "internet",
+    "simplifiedChinese": "你们有eSIM吗？",
+    "pinyin": "nǐmen yǒu eSIM ma?",
+    "english": "Do you have eSIM?",
+    "usageNote": null,
+    "tags": [
+      "esim",
+      "mobile"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "net-scan",
+    "categoryID": "internet",
+    "simplifiedChinese": "请扫这个码",
+    "pinyin": "qǐng sǎo zhège mǎ",
+    "english": "Please scan this QR code",
+    "usageNote": null,
+    "tags": [
+      "qr",
+      "scan",
+      "code"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "net-no-signal",
+    "categoryID": "internet",
+    "simplifiedChinese": "这里没有信号",
+    "pinyin": "zhèlǐ méiyǒu xìnhào",
+    "english": "There’s no signal here",
+    "usageNote": null,
+    "tags": [
+      "signal",
+      "mobile"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "net-charge",
+    "categoryID": "internet",
+    "simplifiedChinese": "请问哪里可以充电？",
+    "pinyin": "qǐngwèn nǎlǐ kěyǐ chōngdiàn?",
+    "english": "Where can I charge my phone?",
+    "usageNote": null,
+    "tags": [
+      "charge",
+      "battery"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "em-help",
+    "categoryID": "emergency",
+    "simplifiedChinese": "救命！",
+    "pinyin": "jiùmìng!",
+    "english": "Help!",
+    "usageNote": null,
+    "tags": [
+      "help",
+      "emergency"
+    ],
+    "isEmergency": true,
+    "possibleReplies": []
+  },
+  {
+    "id": "em-police",
+    "categoryID": "emergency",
+    "simplifiedChinese": "请帮我叫警察",
+    "pinyin": "qǐng bāng wǒ jiào jǐngchá",
+    "english": "Please call the police for me",
+    "usageNote": null,
+    "tags": [
+      "police",
+      "emergency"
+    ],
+    "isEmergency": true,
+    "possibleReplies": []
+  },
+  {
+    "id": "em-ambulance",
+    "categoryID": "emergency",
+    "simplifiedChinese": "请叫救护车",
+    "pinyin": "qǐng jiào jiùhùchē",
+    "english": "Please call an ambulance",
+    "usageNote": null,
+    "tags": [
+      "ambulance",
+      "hospital",
+      "emergency"
+    ],
+    "isEmergency": true,
+    "possibleReplies": []
+  },
+  {
+    "id": "em-hospital",
+    "categoryID": "emergency",
+    "simplifiedChinese": "最近的医院在哪儿？",
+    "pinyin": "zuìjìn de yīyuàn zài nǎr?",
+    "english": "Where is the nearest hospital?",
+    "usageNote": null,
+    "tags": [
+      "hospital",
+      "emergency"
+    ],
+    "isEmergency": true,
+    "possibleReplies": []
+  },
+  {
+    "id": "em-pharmacy",
+    "categoryID": "emergency",
+    "simplifiedChinese": "附近有药店吗？",
+    "pinyin": "fùjìn yǒu yàodiàn ma?",
+    "english": "Is there a pharmacy nearby?",
+    "usageNote": null,
+    "tags": [
+      "pharmacy",
+      "medicine"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "em-passport-lost",
+    "categoryID": "emergency",
+    "simplifiedChinese": "我的护照丢了",
+    "pinyin": "wǒ de hùzhào diū le",
+    "english": "I lost my passport",
+    "usageNote": "Contact your embassy and local police.",
+    "tags": [
+      "passport",
+      "lost",
+      "emergency"
+    ],
+    "isEmergency": true,
+    "possibleReplies": []
+  },
+  {
+    "id": "em-stolen",
+    "categoryID": "emergency",
+    "simplifiedChinese": "我的东西被偷了",
+    "pinyin": "wǒ de dōngxi bèi tōu le",
+    "english": "My things were stolen",
+    "usageNote": null,
+    "tags": [
+      "stolen",
+      "theft",
+      "emergency"
+    ],
+    "isEmergency": true,
+    "possibleReplies": []
+  },
+  {
+    "id": "em-feel-sick",
+    "categoryID": "emergency",
+    "simplifiedChinese": "我感觉不舒服",
+    "pinyin": "wǒ gǎnjué bù shūfu",
+    "english": "I don’t feel well",
+    "usageNote": null,
+    "tags": [
+      "sick",
+      "hospital"
+    ],
+    "isEmergency": false,
+    "possibleReplies": []
+  },
+  {
+    "id": "em-danger",
+    "categoryID": "emergency",
+    "simplifiedChinese": "这里很危险",
+    "pinyin": "zhèlǐ hěn wēixiǎn",
+    "english": "This place is dangerous",
+    "usageNote": null,
+    "tags": [
+      "danger",
+      "emergency"
+    ],
+    "isEmergency": true,
+    "possibleReplies": []
+  }
+]

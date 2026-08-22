@@ -1,0 +1,1802 @@
+[
+  {
+    "section": "greetings",
+    "hanzi": "早上好",
+    "pinyin": "zǎoshang hǎo",
+    "english": "good morning",
+    "examples": [
+      {
+        "hanzi": "早上好，今天天气不错。",
+        "pinyin": "Zǎoshang hǎo, jīntiān tiānqì búcuò.",
+        "english": "Good morning, the weather is nice today."
+      },
+      {
+        "hanzi": "她每天早上好地跟邻居打招呼。",
+        "pinyin": "Tā měitiān zǎoshang hǎo de gēn línjū dǎ zhāohu.",
+        "english": "She greets her neighbors good morning every day."
+      }
+    ]
+  },
+  {
+    "section": "greetings",
+    "hanzi": "晚上好",
+    "pinyin": "wǎnshang hǎo",
+    "english": "good evening",
+    "examples": [
+      {
+        "hanzi": "晚上好，欢迎光临。",
+        "pinyin": "Wǎnshang hǎo, huānyíng guānglín.",
+        "english": "Good evening, welcome."
+      },
+      {
+        "hanzi": "晚上好，吃饭了吗？",
+        "pinyin": "Wǎnshang hǎo, chīfàn le ma?",
+        "english": "Good evening, have you eaten?"
+      }
+    ]
+  },
+  {
+    "section": "greetings",
+    "hanzi": "再见",
+    "pinyin": "zàijiàn",
+    "english": "goodbye",
+    "examples": [
+      {
+        "hanzi": "再见，明天见。",
+        "pinyin": "Zàijiàn, míngtiān jiàn.",
+        "english": "Goodbye, see you tomorrow."
+      },
+      {
+        "hanzi": "我先走了，再见。",
+        "pinyin": "Wǒ xiān zǒu le, zàijiàn.",
+        "english": "I'm leaving now, goodbye."
+      }
+    ]
+  },
+  {
+    "section": "greetings",
+    "hanzi": "请多关照",
+    "pinyin": "qǐng duō guānzhào",
+    "english": "please take care of me (polite)",
+    "examples": [
+      {
+        "hanzi": "初来乍到，请多关照。",
+        "pinyin": "Chūlái zhàdào, qǐng duō guānzhào.",
+        "english": "I'm new here, please look after me."
+      },
+      {
+        "hanzi": "以后请多关照。",
+        "pinyin": "Yǐhòu qǐng duō guānzhào.",
+        "english": "Please take care of me in the future."
+      }
+    ]
+  },
+  {
+    "section": "greetings",
+    "hanzi": "久仰",
+    "pinyin": "jiǔyǎng",
+    "english": "I've heard so much about you",
+    "examples": [
+      {
+        "hanzi": "久仰大名。",
+        "pinyin": "Jiǔyǎng dàmíng.",
+        "english": "I've long admired your reputation."
+      },
+      {
+        "hanzi": "久仰，终于见面了。",
+        "pinyin": "Jiǔyǎng, zhōngyú jiànmiàn le.",
+        "english": "I've heard so much about you, finally we meet."
+      }
+    ]
+  },
+  {
+    "section": "greetings",
+    "hanzi": "最近怎么样",
+    "pinyin": "zuìjìn zěnmeyàng",
+    "english": "how have you been lately",
+    "examples": [
+      {
+        "hanzi": "最近怎么样？",
+        "pinyin": "Zuìjìn zěnmeyàng?",
+        "english": "How have you been lately?"
+      },
+      {
+        "hanzi": "好久不见，最近怎么样？",
+        "pinyin": "Hǎojiǔ bú jiàn, zuìjìn zěnmeyàng?",
+        "english": "Long time no see, how have you been?"
+      }
+    ]
+  },
+  {
+    "section": "greetings",
+    "hanzi": "欢迎",
+    "pinyin": "huānyíng",
+    "english": "welcome",
+    "examples": [
+      {
+        "hanzi": "欢迎来到北京。",
+        "pinyin": "Huānyíng lái dào Běijīng.",
+        "english": "Welcome to Beijing."
+      },
+      {
+        "hanzi": "欢迎大家参加。",
+        "pinyin": "Huānyíng dàjiā cānjiā.",
+        "english": "Welcome everyone to join."
+      }
+    ]
+  },
+  {
+    "section": "greetings",
+    "hanzi": "恭喜",
+    "pinyin": "gōngxǐ",
+    "english": "congratulations",
+    "examples": [
+      {
+        "hanzi": "恭喜你升职了。",
+        "pinyin": "Gōngxǐ nǐ shēngzhí le.",
+        "english": "Congratulations on your promotion."
+      },
+      {
+        "hanzi": "恭喜发财！",
+        "pinyin": "Gōngxǐ fācái!",
+        "english": "Wishing you prosperity!"
+      }
+    ]
+  },
+  {
+    "section": "greetings",
+    "hanzi": "节日快乐",
+    "pinyin": "jiérì kuàilè",
+    "english": "happy holiday",
+    "examples": [
+      {
+        "hanzi": "祝你节日快乐。",
+        "pinyin": "Zhù nǐ jiérì kuàilè.",
+        "english": "Happy holidays to you."
+      },
+      {
+        "hanzi": "节日快乐，阖家幸福。",
+        "pinyin": "Jiérì kuàilè, héjiā xìngfú.",
+        "english": "Happy holidays and happiness to your family."
+      }
+    ]
+  },
+  {
+    "section": "greetings",
+    "hanzi": "慢走",
+    "pinyin": "mànzǒu",
+    "english": "take care (when seeing someone off)",
+    "examples": [
+      {
+        "hanzi": "谢谢，慢走。",
+        "pinyin": "Xièxie, mànzǒu.",
+        "english": "Thank you, take care."
+      },
+      {
+        "hanzi": "天黑了，慢走啊。",
+        "pinyin": "Tiān hēi le, mànzǒu a.",
+        "english": "It's dark out, take care on your way."
+      }
+    ]
+  },
+  {
+    "section": "family",
+    "hanzi": "爸爸",
+    "pinyin": "bàba",
+    "english": "dad / father",
+    "examples": [
+      {
+        "hanzi": "我爸爸是医生。",
+        "pinyin": "Wǒ bàba shì yīshēng.",
+        "english": "My dad is a doctor."
+      },
+      {
+        "hanzi": "爸爸今天加班。",
+        "pinyin": "Bàba jīntiān jiābān.",
+        "english": "Dad is working overtime today."
+      }
+    ]
+  },
+  {
+    "section": "family",
+    "hanzi": "妈妈",
+    "pinyin": "māma",
+    "english": "mom / mother",
+    "examples": [
+      {
+        "hanzi": "妈妈做的饭最好吃。",
+        "pinyin": "Māma zuò de fàn zuì hǎochī.",
+        "english": "Mom's cooking is the best."
+      },
+      {
+        "hanzi": "我给妈妈买了礼物。",
+        "pinyin": "Wǒ gěi māma mǎi le lǐwù.",
+        "english": "I bought a gift for mom."
+      }
+    ]
+  },
+  {
+    "section": "family",
+    "hanzi": "孩子",
+    "pinyin": "háizi",
+    "english": "child",
+    "examples": [
+      {
+        "hanzi": "他们有两个孩子。",
+        "pinyin": "Tāmen yǒu liǎng gè háizi.",
+        "english": "They have two children."
+      },
+      {
+        "hanzi": "孩子在客厅玩。",
+        "pinyin": "Háizi zài kètīng wán.",
+        "english": "The child is playing in the living room."
+      }
+    ]
+  },
+  {
+    "section": "family",
+    "hanzi": "爷爷",
+    "pinyin": "yéye",
+    "english": "grandfather (paternal)",
+    "examples": [
+      {
+        "hanzi": "爷爷今年七十岁了。",
+        "pinyin": "Yéye jīnnián qīshí suì le.",
+        "english": "Grandpa is seventy this year."
+      },
+      {
+        "hanzi": "周末我去看爷爷。",
+        "pinyin": "Zhōumò wǒ qù kàn yéye.",
+        "english": "I'm visiting grandpa on the weekend."
+      }
+    ]
+  },
+  {
+    "section": "family",
+    "hanzi": "奶奶",
+    "pinyin": "nǎinai",
+    "english": "grandmother (paternal)",
+    "examples": [
+      {
+        "hanzi": "奶奶身体很健康。",
+        "pinyin": "Nǎinai shēntǐ hěn jiànkāng.",
+        "english": "Grandma is in good health."
+      },
+      {
+        "hanzi": "奶奶在厨房做饭。",
+        "pinyin": "Nǎinai zài chúfáng zuòfàn.",
+        "english": "Grandma is cooking in the kitchen."
+      }
+    ]
+  },
+  {
+    "section": "family",
+    "hanzi": "哥哥",
+    "pinyin": "gēge",
+    "english": "older brother",
+    "examples": [
+      {
+        "hanzi": "我哥哥在大学读书。",
+        "pinyin": "Wǒ gēge zài dàxué dúshū.",
+        "english": "My older brother is in university."
+      },
+      {
+        "hanzi": "哥哥比我大三岁。",
+        "pinyin": "Gēge bǐ wǒ dà sān suì.",
+        "english": "My brother is three years older than me."
+      }
+    ]
+  },
+  {
+    "section": "family",
+    "hanzi": "姐姐",
+    "pinyin": "jiějie",
+    "english": "older sister",
+    "examples": [
+      {
+        "hanzi": "姐姐在上海工作。",
+        "pinyin": "Jiějie zài Shànghǎi gōngzuò.",
+        "english": "My older sister works in Shanghai."
+      },
+      {
+        "hanzi": "姐姐教我学英语。",
+        "pinyin": "Jiějie jiāo wǒ xué Yīngyǔ.",
+        "english": "My sister teaches me English."
+      }
+    ]
+  },
+  {
+    "section": "family",
+    "hanzi": "丈夫",
+    "pinyin": "zhàngfu",
+    "english": "husband",
+    "examples": [
+      {
+        "hanzi": "我丈夫是工程师。",
+        "pinyin": "Wǒ zhàngfu shì gōngchéngshī.",
+        "english": "My husband is an engineer."
+      },
+      {
+        "hanzi": "丈夫在家带孩子。",
+        "pinyin": "Zhàngfu zài jiā dài háizi.",
+        "english": "My husband is home with the kids."
+      }
+    ]
+  },
+  {
+    "section": "family",
+    "hanzi": "妻子",
+    "pinyin": "qīzi",
+    "english": "wife",
+    "examples": [
+      {
+        "hanzi": "他妻子是老师。",
+        "pinyin": "Tā qīzi shì lǎoshī.",
+        "english": "His wife is a teacher."
+      },
+      {
+        "hanzi": "我和妻子一起去旅行。",
+        "pinyin": "Wǒ hé qīzi yīqǐ qù lǚxíng.",
+        "english": "My wife and I are traveling together."
+      }
+    ]
+  },
+  {
+    "section": "family",
+    "hanzi": "亲戚",
+    "pinyin": "qīnqi",
+    "english": "relative",
+    "examples": [
+      {
+        "hanzi": "春节亲戚都会来。",
+        "pinyin": "Chūnjié qīnqi dōu huì lái.",
+        "english": "Relatives all come during Spring Festival."
+      },
+      {
+        "hanzi": "他是我远房亲戚。",
+        "pinyin": "Tā shì wǒ yuǎnfáng qīnqi.",
+        "english": "He's a distant relative of mine."
+      }
+    ]
+  },
+  {
+    "section": "home",
+    "hanzi": "客厅",
+    "pinyin": "kètīng",
+    "english": "living room",
+    "examples": [
+      {
+        "hanzi": "大家在客厅看电视。",
+        "pinyin": "Dàjiā zài kètīng kàn diànshì.",
+        "english": "Everyone is watching TV in the living room."
+      },
+      {
+        "hanzi": "客厅很宽敞。",
+        "pinyin": "Kètīng hěn kuānchang.",
+        "english": "The living room is spacious."
+      }
+    ]
+  },
+  {
+    "section": "home",
+    "hanzi": "卧室",
+    "pinyin": "wòshì",
+    "english": "bedroom",
+    "examples": [
+      {
+        "hanzi": "我的卧室在二楼。",
+        "pinyin": "Wǒ de wòshì zài èr lóu.",
+        "english": "My bedroom is on the second floor."
+      },
+      {
+        "hanzi": "请保持卧室整洁。",
+        "pinyin": "Qǐng bǎochí wòshì zhěngjié.",
+        "english": "Please keep the bedroom tidy."
+      }
+    ]
+  },
+  {
+    "section": "home",
+    "hanzi": "厨房",
+    "pinyin": "chúfáng",
+    "english": "kitchen",
+    "examples": [
+      {
+        "hanzi": "厨房里有新设备。",
+        "pinyin": "Chúfáng lǐ yǒu xīn shèbèi.",
+        "english": "There's new equipment in the kitchen."
+      },
+      {
+        "hanzi": "她在厨房准备晚餐。",
+        "pinyin": "Tā zài chúfáng zhǔnbèi wǎncān.",
+        "english": "She's preparing dinner in the kitchen."
+      }
+    ]
+  },
+  {
+    "section": "home",
+    "hanzi": "卫生间",
+    "pinyin": "wèishēngjiān",
+    "english": "bathroom",
+    "examples": [
+      {
+        "hanzi": "请用里面的卫生间。",
+        "pinyin": "Qǐng yòng lǐmiàn de wèishēngjiān.",
+        "english": "Please use the bathroom inside."
+      },
+      {
+        "hanzi": "卫生间需要打扫了。",
+        "pinyin": "Wèishēngjiān xūyào dǎsǎo le.",
+        "english": "The bathroom needs cleaning."
+      }
+    ]
+  },
+  {
+    "section": "home",
+    "hanzi": "阳台",
+    "pinyin": "yángtái",
+    "english": "balcony",
+    "examples": [
+      {
+        "hanzi": "阳台上种了花。",
+        "pinyin": "Yángtái shàng zhòng le huā.",
+        "english": "Flowers are planted on the balcony."
+      },
+      {
+        "hanzi": "请到阳台晾衣服。",
+        "pinyin": "Qǐng dào yángtái liàng yīfu.",
+        "english": "Please hang clothes on the balcony."
+      }
+    ]
+  },
+  {
+    "section": "home",
+    "hanzi": "钥匙",
+    "pinyin": "yàoshi",
+    "english": "key",
+    "examples": [
+      {
+        "hanzi": "我的钥匙忘带了。",
+        "pinyin": "Wǒ de yàoshi wàng dài le.",
+        "english": "I forgot my keys."
+      },
+      {
+        "hanzi": "请把钥匙放在门口。",
+        "pinyin": "Qǐng bǎ yàoshi fàng zài ménkǒu.",
+        "english": "Please leave the keys at the door."
+      }
+    ]
+  },
+  {
+    "section": "home",
+    "hanzi": "打扫",
+    "pinyin": "dǎsǎo",
+    "english": "to clean",
+    "examples": [
+      {
+        "hanzi": "今天我要打扫房间。",
+        "pinyin": "Jīntiān wǒ yào dǎsǎo fángjiān.",
+        "english": "I'm cleaning the room today."
+      },
+      {
+        "hanzi": "我们每周六打扫。",
+        "pinyin": "Wǒmen měi zhōuliù dǎsǎo.",
+        "english": "We clean every Saturday."
+      }
+    ]
+  },
+  {
+    "section": "home",
+    "hanzi": "修理",
+    "pinyin": "xiūlǐ",
+    "english": "to repair / fix",
+    "examples": [
+      {
+        "hanzi": "空调需要修理了。",
+        "pinyin": "Kōngtiáo xūyào xiūlǐ le.",
+        "english": "The AC needs repair."
+      },
+      {
+        "hanzi": "他帮我把水龙头修好了。",
+        "pinyin": "Tā bāng wǒ bǎ shuǐlóngtóu xiū hǎo le.",
+        "english": "He fixed the faucet for me."
+      }
+    ]
+  },
+  {
+    "section": "home",
+    "hanzi": "邻居",
+    "pinyin": "línjū",
+    "english": "neighbor",
+    "examples": [
+      {
+        "hanzi": "我的邻居很友好。",
+        "pinyin": "Wǒ de línjū hěn yǒuhǎo.",
+        "english": "My neighbors are friendly."
+      },
+      {
+        "hanzi": "邻居借给我一把伞。",
+        "pinyin": "Línjū jiè gěi wǒ yī bǎ sǎn.",
+        "english": "My neighbor lent me an umbrella."
+      }
+    ]
+  },
+  {
+    "section": "home",
+    "hanzi": "房租",
+    "pinyin": "fángzū",
+    "english": "rent",
+    "examples": [
+      {
+        "hanzi": "房租每月三千块。",
+        "pinyin": "Fángzū měi yuè sān qiān kuài.",
+        "english": "Rent is three thousand a month."
+      },
+      {
+        "hanzi": "房租该交了。",
+        "pinyin": "Fángzū gāi jiāo le.",
+        "english": "It's time to pay the rent."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "超市",
+    "pinyin": "chāoshì",
+    "english": "supermarket",
+    "examples": [
+      {
+        "hanzi": "我去超市买菜。",
+        "pinyin": "Wǒ qù chāoshì mǎi cài.",
+        "english": "I'm going to the supermarket for groceries."
+      },
+      {
+        "hanzi": "这家超市很大。",
+        "pinyin": "Zhè jiā chāoshì hěn dà.",
+        "english": "This supermarket is very big."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "购物车",
+    "pinyin": "gòuwùchē",
+    "english": "shopping cart",
+    "examples": [
+      {
+        "hanzi": "请推一辆购物车。",
+        "pinyin": "Qǐng tuī yī liàng gòuwùchē.",
+        "english": "Please get a shopping cart."
+      },
+      {
+        "hanzi": "购物车满了。",
+        "pinyin": "Gòuwùchē mǎn le.",
+        "english": "The cart is full."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "打折",
+    "pinyin": "dǎzhé",
+    "english": "discount / on sale",
+    "examples": [
+      {
+        "hanzi": "这件衣服打折了。",
+        "pinyin": "Zhè jiàn yīfu dǎzhé le.",
+        "english": "This item is on sale."
+      },
+      {
+        "hanzi": "今天全场八折。",
+        "pinyin": "Jīntiān quánchǎng bā zhé.",
+        "english": "Everything is twenty percent off today."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "排队",
+    "pinyin": "páiduì",
+    "english": "to queue / line up",
+    "examples": [
+      {
+        "hanzi": "收银台在排队。",
+        "pinyin": "Shōuyíntái zài páiduì.",
+        "english": "There's a line at checkout."
+      },
+      {
+        "hanzi": "请在这里排队。",
+        "pinyin": "Qǐng zài zhèlǐ páiduì.",
+        "english": "Please queue here."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "称重",
+    "pinyin": "chēngzhòng",
+    "english": "to weigh",
+    "examples": [
+      {
+        "hanzi": "请在柜台称重。",
+        "pinyin": "Qǐng zài guìtái chēngzhòng.",
+        "english": "Please weigh it at the counter."
+      },
+      {
+        "hanzi": "水果需要先称重。",
+        "pinyin": "Shuǐguǒ xūyào xiān chēngzhòng.",
+        "english": "Fruit needs to be weighed first."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "保质期",
+    "pinyin": "bǎozhìqī",
+    "english": "shelf life / expiration date",
+    "examples": [
+      {
+        "hanzi": "请看一下保质期。",
+        "pinyin": "Qǐng kàn yīxià bǎozhìqī.",
+        "english": "Please check the expiration date."
+      },
+      {
+        "hanzi": "这牛奶保质期过了。",
+        "pinyin": "Zhè niúnǎi bǎozhìqī guò le.",
+        "english": "This milk is past its expiration date."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "退货",
+    "pinyin": "tuìhuò",
+    "english": "to return goods",
+    "examples": [
+      {
+        "hanzi": "我可以退货吗？",
+        "pinyin": "Wǒ kěyǐ tuìhuò ma?",
+        "english": "Can I return this item?"
+      },
+      {
+        "hanzi": "七天内可以退货。",
+        "pinyin": "Qī tiān nèi kěyǐ tuìhuò.",
+        "english": "Returns accepted within seven days."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "会员",
+    "pinyin": "huìyuán",
+    "english": "member / membership",
+    "examples": [
+      {
+        "hanzi": "办会员有积分。",
+        "pinyin": "Bàn huìyuán yǒu jīfēn.",
+        "english": "Members earn points."
+      },
+      {
+        "hanzi": "请出示会员卡。",
+        "pinyin": "Qǐng chūshì huìyuán kǎ.",
+        "english": "Please show your membership card."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "零钱",
+    "pinyin": "língqián",
+    "english": "small change",
+    "examples": [
+      {
+        "hanzi": "你有零钱吗？",
+        "pinyin": "Nǐ yǒu língqián ma?",
+        "english": "Do you have small change?"
+      },
+      {
+        "hanzi": "我换了些零钱。",
+        "pinyin": "Wǒ huàn le xiē língqián.",
+        "english": "I got some small change."
+      }
+    ]
+  },
+  {
+    "section": "shopping",
+    "hanzi": "购物袋",
+    "pinyin": "gòuwùdài",
+    "english": "shopping bag",
+    "examples": [
+      {
+        "hanzi": "需要购物袋吗？",
+        "pinyin": "Xūyào gòuwùdài ma?",
+        "english": "Do you need a shopping bag?"
+      },
+      {
+        "hanzi": "我自带了购物袋。",
+        "pinyin": "Wǒ zìdài le gòuwùdài.",
+        "english": "I brought my own shopping bag."
+      }
+    ]
+  },
+  {
+    "section": "weather",
+    "hanzi": "晴天",
+    "pinyin": "qíngtiān",
+    "english": "sunny day",
+    "examples": [
+      {
+        "hanzi": "今天是晴天。",
+        "pinyin": "Jīntiān shì qíngtiān.",
+        "english": "It's sunny today."
+      },
+      {
+        "hanzi": "晴天适合出去玩。",
+        "pinyin": "Qíngtiān shìhé chūqù wán.",
+        "english": "Sunny days are good for going out."
+      }
+    ]
+  },
+  {
+    "section": "weather",
+    "hanzi": "下雨",
+    "pinyin": "xiàyǔ",
+    "english": "to rain",
+    "examples": [
+      {
+        "hanzi": "外面下雨了。",
+        "pinyin": "Wàimiàn xiàyǔ le.",
+        "english": "It's raining outside."
+      },
+      {
+        "hanzi": "下午可能会下雨。",
+        "pinyin": "Xiàwǔ kěnéng huì xiàyǔ.",
+        "english": "It might rain this afternoon."
+      }
+    ]
+  },
+  {
+    "section": "weather",
+    "hanzi": "下雪",
+    "pinyin": "xiàxuě",
+    "english": "to snow",
+    "examples": [
+      {
+        "hanzi": "北方下雪了。",
+        "pinyin": "Běifāng xiàxuě le.",
+        "english": "It's snowing in the north."
+      },
+      {
+        "hanzi": "孩子们喜欢下雪。",
+        "pinyin": "Háizimen xǐhuan xiàxuě.",
+        "english": "Kids love snow."
+      }
+    ]
+  },
+  {
+    "section": "weather",
+    "hanzi": "刮风",
+    "pinyin": "guāfēng",
+    "english": "windy / to blow wind",
+    "examples": [
+      {
+        "hanzi": "今天风很大。",
+        "pinyin": "Jīntiān fēng hěn dà.",
+        "english": "It's very windy today."
+      },
+      {
+        "hanzi": "别出门，外面刮风了。",
+        "pinyin": "Bié chūmén, wàimiàn guāfēng le.",
+        "english": "Don't go out, it's windy."
+      }
+    ]
+  },
+  {
+    "section": "weather",
+    "hanzi": "温度",
+    "pinyin": "wēndù",
+    "english": "temperature",
+    "examples": [
+      {
+        "hanzi": "今天温度很高。",
+        "pinyin": "Jīntiān wēndù hěn gāo.",
+        "english": "The temperature is high today."
+      },
+      {
+        "hanzi": "请看一下温度。",
+        "pinyin": "Qǐng kàn yīxià wēndù.",
+        "english": "Please check the temperature."
+      }
+    ]
+  },
+  {
+    "section": "weather",
+    "hanzi": "预报",
+    "pinyin": "yùbào",
+    "english": "forecast",
+    "examples": [
+      {
+        "hanzi": "天气预报说会降温。",
+        "pinyin": "Tiānqì yùbào shuō huì jiàngwēn.",
+        "english": "The forecast says it will cool down."
+      },
+      {
+        "hanzi": "请听一下天气预报。",
+        "pinyin": "Qǐng tīng yīxià tiānqì yùbào.",
+        "english": "Please listen to the weather forecast."
+      }
+    ]
+  },
+  {
+    "section": "weather",
+    "hanzi": "潮湿",
+    "pinyin": "cháoshī",
+    "english": "humid / damp",
+    "examples": [
+      {
+        "hanzi": "南方夏天很潮湿。",
+        "pinyin": "Nánfāng xiàtiān hěn cháoshī.",
+        "english": "Summers in the south are humid."
+      },
+      {
+        "hanzi": "房间有点潮湿。",
+        "pinyin": "Fángjiān yǒudiǎn cháoshī.",
+        "english": "The room is a bit damp."
+      }
+    ]
+  },
+  {
+    "section": "weather",
+    "hanzi": "干燥",
+    "pinyin": "gānzào",
+    "english": "dry",
+    "examples": [
+      {
+        "hanzi": "秋天天气干燥。",
+        "pinyin": "Qiūtiān tiānqì gānzào.",
+        "english": "The weather is dry in autumn."
+      },
+      {
+        "hanzi": "北方冬天很干燥。",
+        "pinyin": "Běifāng dōngtiān hěn gānzào.",
+        "english": "Winters in the north are very dry."
+      }
+    ]
+  },
+  {
+    "section": "weather",
+    "hanzi": "阴天",
+    "pinyin": "yīntiān",
+    "english": "cloudy / overcast",
+    "examples": [
+      {
+        "hanzi": "今天是阴天。",
+        "pinyin": "Jīntiān shì yīntiān.",
+        "english": "It's overcast today."
+      },
+      {
+        "hanzi": "阴天人比较少。",
+        "pinyin": "Yīntiān rén bǐjiào shǎo.",
+        "english": "There are fewer people on cloudy days."
+      }
+    ]
+  },
+  {
+    "section": "weather",
+    "hanzi": "台风",
+    "pinyin": "táifēng",
+    "english": "typhoon",
+    "examples": [
+      {
+        "hanzi": "台风要来了。",
+        "pinyin": "Táifēng yào lái le.",
+        "english": "A typhoon is coming."
+      },
+      {
+        "hanzi": "台风天不要出门。",
+        "pinyin": "Táifēng tiān bú yào chūmén.",
+        "english": "Don't go out during a typhoon."
+      }
+    ]
+  },
+  {
+    "section": "time",
+    "hanzi": "现在",
+    "pinyin": "xiànzài",
+    "english": "now",
+    "examples": [
+      {
+        "hanzi": "现在几点了？",
+        "pinyin": "Xiànzài jǐ diǎn le?",
+        "english": "What time is it now?"
+      },
+      {
+        "hanzi": "我现在很忙。",
+        "pinyin": "Wǒ xiànzài hěn máng.",
+        "english": "I'm very busy now."
+      }
+    ]
+  },
+  {
+    "section": "time",
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "english": "today",
+    "examples": [
+      {
+        "hanzi": "今天是星期一。",
+        "pinyin": "Jīntiān shì xīngqīyī.",
+        "english": "Today is Monday."
+      },
+      {
+        "hanzi": "今天我有空。",
+        "pinyin": "Jīntiān wǒ yǒu kòng.",
+        "english": "I'm free today."
+      }
+    ]
+  },
+  {
+    "section": "time",
+    "hanzi": "明天",
+    "pinyin": "míngtiān",
+    "english": "tomorrow",
+    "examples": [
+      {
+        "hanzi": "明天见。",
+        "pinyin": "Míngtiān jiàn.",
+        "english": "See you tomorrow."
+      },
+      {
+        "hanzi": "明天要早起。",
+        "pinyin": "Míngtiān yào zǎo qǐ.",
+        "english": "I need to get up early tomorrow."
+      }
+    ]
+  },
+  {
+    "section": "time",
+    "hanzi": "昨天",
+    "pinyin": "zuótiān",
+    "english": "yesterday",
+    "examples": [
+      {
+        "hanzi": "我昨天去了北京。",
+        "pinyin": "Wǒ zuótiān qù le Běijīng.",
+        "english": "I went to Beijing yesterday."
+      },
+      {
+        "hanzi": "昨天下了雨。",
+        "pinyin": "Zuótiān xià le yǔ.",
+        "english": "It rained yesterday."
+      }
+    ]
+  },
+  {
+    "section": "time",
+    "hanzi": "周末",
+    "pinyin": "zhōumò",
+    "english": "weekend",
+    "examples": [
+      {
+        "hanzi": "周末你做什么？",
+        "pinyin": "Zhōumò nǐ zuò shénme?",
+        "english": "What do you do on weekends?"
+      },
+      {
+        "hanzi": "我们周末去爬山。",
+        "pinyin": "Wǒmen zhōumò qù pá shān.",
+        "english": "We're hiking on the weekend."
+      }
+    ]
+  },
+  {
+    "section": "time",
+    "hanzi": "分钟",
+    "pinyin": "fēnzhōng",
+    "english": "minute",
+    "examples": [
+      {
+        "hanzi": "请等我五分钟。",
+        "pinyin": "Qǐng děng wǒ wǔ fēnzhōng.",
+        "english": "Please wait five minutes for me."
+      },
+      {
+        "hanzi": "还有十分钟开始。",
+        "pinyin": "Hái yǒu shí fēnzhōng kāishǐ.",
+        "english": "It starts in ten minutes."
+      }
+    ]
+  },
+  {
+    "section": "time",
+    "hanzi": "小时",
+    "pinyin": "xiǎoshí",
+    "english": "hour",
+    "examples": [
+      {
+        "hanzi": "我睡了一个小时。",
+        "pinyin": "Wǒ shuì le yī gè xiǎoshí.",
+        "english": "I slept for an hour."
+      },
+      {
+        "hanzi": "开车要两个小时。",
+        "pinyin": "Kāichē yào liǎng gè xiǎoshí.",
+        "english": "The drive takes two hours."
+      }
+    ]
+  },
+  {
+    "section": "time",
+    "hanzi": "准时",
+    "pinyin": "zhǔnshí",
+    "english": "on time",
+    "examples": [
+      {
+        "hanzi": "请准时到达。",
+        "pinyin": "Qǐng zhǔnshí dàodá.",
+        "english": "Please arrive on time."
+      },
+      {
+        "hanzi": "火车准时出发了。",
+        "pinyin": "Huǒchē zhǔnshí chūfā le.",
+        "english": "The train departed on time."
+      }
+    ]
+  },
+  {
+    "section": "time",
+    "hanzi": "日历",
+    "pinyin": "rìlì",
+    "english": "calendar",
+    "examples": [
+      {
+        "hanzi": "看一下日历。",
+        "pinyin": "Kàn yīxià rìlì.",
+        "english": "Check the calendar."
+      },
+      {
+        "hanzi": "日历上标注了假期。",
+        "pinyin": "Rìlì shàng biāozhù le jiàqī.",
+        "english": "Holidays are marked on the calendar."
+      }
+    ]
+  },
+  {
+    "section": "time",
+    "hanzi": "生日",
+    "pinyin": "shēngrì",
+    "english": "birthday",
+    "examples": [
+      {
+        "hanzi": "今天是我的生日。",
+        "pinyin": "Jīntiān shì wǒ de shēngrì.",
+        "english": "Today is my birthday."
+      },
+      {
+        "hanzi": "祝你生日快乐。",
+        "pinyin": "Zhù nǐ shēngrì kuàilè.",
+        "english": "Happy birthday to you."
+      }
+    ]
+  },
+  {
+    "section": "emotions",
+    "hanzi": "高兴",
+    "pinyin": "gāoxìng",
+    "english": "happy / glad",
+    "examples": [
+      {
+        "hanzi": "听到这个消息我很高兴。",
+        "pinyin": "Tīngdào zhège xiāoxi wǒ hěn gāoxìng.",
+        "english": "I'm glad to hear this news."
+      },
+      {
+        "hanzi": "今天心情很高兴。",
+        "pinyin": "Jīntiān xīnqíng hěn gāoxìng.",
+        "english": "I'm in a happy mood today."
+      }
+    ]
+  },
+  {
+    "section": "emotions",
+    "hanzi": "难过",
+    "pinyin": "nánguò",
+    "english": "sad / upset",
+    "examples": [
+      {
+        "hanzi": "他看起来很难过。",
+        "pinyin": "Tā kàn qǐlái hěn nánguò.",
+        "english": "He looks very sad."
+      },
+      {
+        "hanzi": "别难过，会好起来的。",
+        "pinyin": "Bié nánguò, huì hǎo qǐlái de.",
+        "english": "Don't be sad, things will get better."
+      }
+    ]
+  },
+  {
+    "section": "emotions",
+    "hanzi": "生气",
+    "pinyin": "shēngqì",
+    "english": "angry",
+    "examples": [
+      {
+        "hanzi": "请不要生气。",
+        "pinyin": "Qǐng bú yào shēngqì.",
+        "english": "Please don't be angry."
+      },
+      {
+        "hanzi": "他对结果很生气。",
+        "pinyin": "Tā duì jiéguǒ hěn shēngqì.",
+        "english": "He's angry about the result."
+      }
+    ]
+  },
+  {
+    "section": "emotions",
+    "hanzi": "担心",
+    "pinyin": "dānxīn",
+    "english": "to worry",
+    "examples": [
+      {
+        "hanzi": "别担心，有我。",
+        "pinyin": "Bié dānxīn, yǒu wǒ.",
+        "english": "Don't worry, I'm here."
+      },
+      {
+        "hanzi": "妈妈很担心你。",
+        "pinyin": "Māma hěn dānxīn nǐ.",
+        "english": "Mom is worried about you."
+      }
+    ]
+  },
+  {
+    "section": "emotions",
+    "hanzi": "紧张",
+    "pinyin": "jǐnzhāng",
+    "english": "nervous / tense",
+    "examples": [
+      {
+        "hanzi": "考试前我很紧张。",
+        "pinyin": "Kǎoshì qián wǒ hěn jǐnzhāng.",
+        "english": "I'm nervous before exams."
+      },
+      {
+        "hanzi": "别紧张，慢慢来。",
+        "pinyin": "Bié jǐnzhāng, mànman lái.",
+        "english": "Don't be nervous, take your time."
+      }
+    ]
+  },
+  {
+    "section": "emotions",
+    "hanzi": "放松",
+    "pinyin": "fàngsōng",
+    "english": "to relax",
+    "examples": [
+      {
+        "hanzi": "周末好好放松。",
+        "pinyin": "Zhōumò hǎohao fàngsōng.",
+        "english": "Relax properly on the weekend."
+      },
+      {
+        "hanzi": "听音乐可以放松。",
+        "pinyin": "Tīng yīnyuè kěyǐ fàngsōng.",
+        "english": "Listening to music helps you relax."
+      }
+    ]
+  },
+  {
+    "section": "emotions",
+    "hanzi": "感动",
+    "pinyin": "gǎndòng",
+    "english": "moved / touched",
+    "examples": [
+      {
+        "hanzi": "这个故事很感人。",
+        "pinyin": "Zhège gùshi hěn gǎnrén.",
+        "english": "This story is very touching."
+      },
+      {
+        "hanzi": "我被他的帮助感动了。",
+        "pinyin": "Wǒ bèi tā de bāngzhù gǎndòng le.",
+        "english": "I was moved by his help."
+      }
+    ]
+  },
+  {
+    "section": "emotions",
+    "hanzi": "无聊",
+    "pinyin": "wúliáo",
+    "english": "bored",
+    "examples": [
+      {
+        "hanzi": "在家太无聊了。",
+        "pinyin": "Zài jiā tài wúliáo le.",
+        "english": "Staying home is so boring."
+      },
+      {
+        "hanzi": "这部电影很无聊。",
+        "pinyin": "Zhè bù diànyǐng hěn wúliáo.",
+        "english": "This movie is boring."
+      }
+    ]
+  },
+  {
+    "section": "emotions",
+    "hanzi": "兴奋",
+    "pinyin": "xīngfèn",
+    "english": "excited",
+    "examples": [
+      {
+        "hanzi": "孩子们很兴奋。",
+        "pinyin": "Háizimen hěn xīngfèn.",
+        "english": "The kids are excited."
+      },
+      {
+        "hanzi": "我对旅行很兴奋。",
+        "pinyin": "Wǒ duì lǚxíng hěn xīngfèn.",
+        "english": "I'm excited about the trip."
+      }
+    ]
+  },
+  {
+    "section": "emotions",
+    "hanzi": "满足",
+    "pinyin": "mǎnzú",
+    "english": "satisfied / content",
+    "examples": [
+      {
+        "hanzi": "我对结果很满足。",
+        "pinyin": "Wǒ duì jiéguǒ hěn mǎnzú.",
+        "english": "I'm satisfied with the result."
+      },
+      {
+        "hanzi": "简单的生活也很满足。",
+        "pinyin": "Jiǎndān de shēnghuó yě hěn mǎnzú.",
+        "english": "A simple life can be fulfilling too."
+      }
+    ]
+  },
+  {
+    "section": "clothing",
+    "hanzi": "衣服",
+    "pinyin": "yīfu",
+    "english": "clothes",
+    "examples": [
+      {
+        "hanzi": "这件衣服很好看。",
+        "pinyin": "Zhè jiàn yīfu hěn hǎokàn.",
+        "english": "These clothes look nice."
+      },
+      {
+        "hanzi": "我在洗衣服。",
+        "pinyin": "Wǒ zài xǐ yīfu.",
+        "english": "I'm doing laundry."
+      }
+    ]
+  },
+  {
+    "section": "clothing",
+    "hanzi": "裤子",
+    "pinyin": "kùzi",
+    "english": "pants / trousers",
+    "examples": [
+      {
+        "hanzi": "这条裤子太长了。",
+        "pinyin": "Zhè tiáo kùzi tài cháng le.",
+        "english": "These pants are too long."
+      },
+      {
+        "hanzi": "他买了一条新裤子。",
+        "pinyin": "Tā mǎi le yī tiáo xīn kùzi.",
+        "english": "He bought new pants."
+      }
+    ]
+  },
+  {
+    "section": "clothing",
+    "hanzi": "鞋子",
+    "pinyin": "xiézi",
+    "english": "shoes",
+    "examples": [
+      {
+        "hanzi": "这双鞋子很舒服。",
+        "pinyin": "Zhè shuāng xiézi hěn shūfu.",
+        "english": "These shoes are comfortable."
+      },
+      {
+        "hanzi": "我的鞋子脏了。",
+        "pinyin": "Wǒ de xiézi zāng le.",
+        "english": "My shoes are dirty."
+      }
+    ]
+  },
+  {
+    "section": "clothing",
+    "hanzi": "外套",
+    "pinyin": "wàitào",
+    "english": "jacket / coat",
+    "examples": [
+      {
+        "hanzi": "外面冷，穿外套。",
+        "pinyin": "Wàimiàn lěng, chuān wàitào.",
+        "english": "It's cold outside, wear a jacket."
+      },
+      {
+        "hanzi": "我把外套忘在餐厅了。",
+        "pinyin": "Wǒ bǎ wàitào wàng zài cāntīng le.",
+        "english": "I left my jacket at the restaurant."
+      }
+    ]
+  },
+  {
+    "section": "clothing",
+    "hanzi": "尺寸",
+    "pinyin": "chǐcùn",
+    "english": "size",
+    "examples": [
+      {
+        "hanzi": "请问有大一点的尺寸吗？",
+        "pinyin": "Qǐngwèn yǒu dà yīdiǎn de chǐcùn ma?",
+        "english": "Do you have a larger size?"
+      },
+      {
+        "hanzi": "尺寸很合适。",
+        "pinyin": "Chǐcùn hěn héshì.",
+        "english": "The size fits well."
+      }
+    ]
+  },
+  {
+    "section": "clothing",
+    "hanzi": "试穿",
+    "pinyin": "shíchuān",
+    "english": "to try on",
+    "examples": [
+      {
+        "hanzi": "我可以试穿吗？",
+        "pinyin": "Wǒ kěyǐ shíchuān ma?",
+        "english": "Can I try this on?"
+      },
+      {
+        "hanzi": "请去试衣间试穿。",
+        "pinyin": "Qǐng qù shìyījiān shíchuān.",
+        "english": "Please try it on in the fitting room."
+      }
+    ]
+  },
+  {
+    "section": "clothing",
+    "hanzi": "洗衣",
+    "pinyin": "xǐyī",
+    "english": "laundry / to wash clothes",
+    "examples": [
+      {
+        "hanzi": "我把衣服送去洗衣了。",
+        "pinyin": "Wǒ bǎ yīfu sòng qù xǐyī le.",
+        "english": "I sent the clothes to the laundry."
+      },
+      {
+        "hanzi": "洗衣店在楼下。",
+        "pinyin": "Xǐyīdiàn zài lóu xià.",
+        "english": "The laundry shop is downstairs."
+      }
+    ]
+  },
+  {
+    "section": "clothing",
+    "hanzi": "帽子",
+    "pinyin": "màozi",
+    "english": "hat / cap",
+    "examples": [
+      {
+        "hanzi": "夏天要戴帽子。",
+        "pinyin": "Xiàtiān yào dài màozi.",
+        "english": "Wear a hat in summer."
+      },
+      {
+        "hanzi": "他的帽子是蓝色的。",
+        "pinyin": "Tā de màozi shì lánsè de.",
+        "english": "His hat is blue."
+      }
+    ]
+  },
+  {
+    "section": "clothing",
+    "hanzi": "围巾",
+    "pinyin": "wéijīn",
+    "english": "scarf",
+    "examples": [
+      {
+        "hanzi": "冬天围巾很必要。",
+        "pinyin": "Dōngtiān wéijīn hěn bìyào.",
+        "english": "A scarf is essential in winter."
+      },
+      {
+        "hanzi": "她送了我一条围巾。",
+        "pinyin": "Tā sòng le wǒ yī tiáo wéijīn.",
+        "english": "She gave me a scarf."
+      }
+    ]
+  },
+  {
+    "section": "clothing",
+    "hanzi": "搭配",
+    "pinyin": "dāpèi",
+    "english": "to match / outfit coordination",
+    "examples": [
+      {
+        "hanzi": "这套搭配很好看。",
+        "pinyin": "Zhè tào dāpèi hěn hǎokàn.",
+        "english": "This outfit looks great."
+      },
+      {
+        "hanzi": "黑色很容易搭配。",
+        "pinyin": "Hēisè hěn róngyì dāpèi.",
+        "english": "Black is easy to match."
+      }
+    ]
+  },
+  {
+    "section": "health",
+    "hanzi": "健康",
+    "pinyin": "jiànkāng",
+    "english": "health / healthy",
+    "examples": [
+      {
+        "hanzi": "健康最重要。",
+        "pinyin": "Jiànkāng zuì zhòngyào.",
+        "english": "Health is most important."
+      },
+      {
+        "hanzi": "他身体很健康。",
+        "pinyin": "Tā shēntǐ hěn jiànkāng.",
+        "english": "He's in good health."
+      }
+    ]
+  },
+  {
+    "section": "health",
+    "hanzi": "感冒",
+    "pinyin": "gǎnmào",
+    "english": "cold (illness)",
+    "examples": [
+      {
+        "hanzi": "我感冒了。",
+        "pinyin": "Wǒ gǎnmào le.",
+        "english": "I caught a cold."
+      },
+      {
+        "hanzi": "多喝水，别感冒。",
+        "pinyin": "Duō hē shuǐ, bié gǎnmào.",
+        "english": "Drink more water so you don't catch a cold."
+      }
+    ]
+  },
+  {
+    "section": "health",
+    "hanzi": "发烧",
+    "pinyin": "fāshāo",
+    "english": "fever",
+    "examples": [
+      {
+        "hanzi": "孩子发烧了。",
+        "pinyin": "Háizi fāshāo le.",
+        "english": "The child has a fever."
+      },
+      {
+        "hanzi": "我发烧三十八度。",
+        "pinyin": "Wǒ fāshāo sānshíbā dù.",
+        "english": "I have a fever of 38°C."
+      }
+    ]
+  },
+  {
+    "section": "health",
+    "hanzi": "头痛",
+    "pinyin": "tóutòng",
+    "english": "headache",
+    "examples": [
+      {
+        "hanzi": "我头痛得厉害。",
+        "pinyin": "Wǒ tóutòng de lìhai.",
+        "english": "I have a bad headache."
+      },
+      {
+        "hanzi": "熬夜会头痛。",
+        "pinyin": "Áoyè huì tóutòng.",
+        "english": "Staying up late gives you headaches."
+      }
+    ]
+  },
+  {
+    "section": "health",
+    "hanzi": "锻炼",
+    "pinyin": "duànliàn",
+    "english": "to exercise",
+    "examples": [
+      {
+        "hanzi": "我每天锻炼半小时。",
+        "pinyin": "Wǒ měitiān duànliàn bàn xiǎoshí.",
+        "english": "I exercise half an hour daily."
+      },
+      {
+        "hanzi": "锻炼对身体好。",
+        "pinyin": "Duànliàn duì shēntǐ hǎo.",
+        "english": "Exercise is good for your body."
+      }
+    ]
+  },
+  {
+    "section": "health",
+    "hanzi": "休息",
+    "pinyin": "xiūxi",
+    "english": "to rest",
+    "examples": [
+      {
+        "hanzi": "你需要好好休息。",
+        "pinyin": "Nǐ xūyào hǎohao xiūxi.",
+        "english": "You need to rest properly."
+      },
+      {
+        "hanzi": "周末我在家休息。",
+        "pinyin": "Zhōumò wǒ zài jiā xiūxi.",
+        "english": "I rest at home on weekends."
+      }
+    ]
+  },
+  {
+    "section": "health",
+    "hanzi": "药",
+    "pinyin": "yào",
+    "english": "medicine",
+    "examples": [
+      {
+        "hanzi": "请按时吃药。",
+        "pinyin": "Qǐng ànshí chī yào.",
+        "english": "Please take your medicine on time."
+      },
+      {
+        "hanzi": "这种药很有效。",
+        "pinyin": "Zhè zhǒng yào hěn yǒuxiào.",
+        "english": "This medicine works well."
+      }
+    ]
+  },
+  {
+    "section": "health",
+    "hanzi": "预约",
+    "pinyin": "yùyuē",
+    "english": "appointment / to book",
+    "examples": [
+      {
+        "hanzi": "我预约了医生。",
+        "pinyin": "Wǒ yùyuē le yīshēng.",
+        "english": "I made a doctor's appointment."
+      },
+      {
+        "hanzi": "请提前预约体检。",
+        "pinyin": "Qǐng tíqián yùyuē tǐjiǎn.",
+        "english": "Please book a check-up in advance."
+      }
+    ]
+  },
+  {
+    "section": "health",
+    "hanzi": "过敏",
+    "pinyin": "guòmǐn",
+    "english": "allergy",
+    "examples": [
+      {
+        "hanzi": "我对海鲜过敏。",
+        "pinyin": "Wǒ duì hǎixiān guòmǐn.",
+        "english": "I'm allergic to seafood."
+      },
+      {
+        "hanzi": "春天容易过敏。",
+        "pinyin": "Chūntiān róngyì guòmǐn.",
+        "english": "Allergies are common in spring."
+      }
+    ]
+  },
+  {
+    "section": "health",
+    "hanzi": "睡眠",
+    "pinyin": "shuìmián",
+    "english": "sleep",
+    "examples": [
+      {
+        "hanzi": "睡眠很重要。",
+        "pinyin": "Shuìmián hěn zhòngyào.",
+        "english": "Sleep is important."
+      },
+      {
+        "hanzi": "我昨晚睡眠不好。",
+        "pinyin": "Wǒ zuó wǎn shuìmián bù hǎo.",
+        "english": "I didn't sleep well last night."
+      }
+    ]
+  },
+  {
+    "section": "social",
+    "hanzi": "朋友",
+    "pinyin": "péngyou",
+    "english": "friend",
+    "examples": [
+      {
+        "hanzi": "他是我的好朋友。",
+        "pinyin": "Tā shì wǒ de hǎo péngyou.",
+        "english": "He's my good friend."
+      },
+      {
+        "hanzi": "周末和朋友聚会。",
+        "pinyin": "Zhōumò hé péngyou jùhuì.",
+        "english": "I'm meeting friends on the weekend."
+      }
+    ]
+  },
+  {
+    "section": "social",
+    "hanzi": "聚会",
+    "pinyin": "jùhuì",
+    "english": "gathering / party",
+    "examples": [
+      {
+        "hanzi": "今晚有个聚会。",
+        "pinyin": "Jīn wǎn yǒu gè jùhuì.",
+        "english": "There's a gathering tonight."
+      },
+      {
+        "hanzi": "同学聚会很开心。",
+        "pinyin": "Tóngxué jùhuì hěn kāixīn.",
+        "english": "The class reunion was fun."
+      }
+    ]
+  },
+  {
+    "section": "social",
+    "hanzi": "邀请",
+    "pinyin": "yāoqǐng",
+    "english": "to invite",
+    "examples": [
+      {
+        "hanzi": "我邀请你来我家。",
+        "pinyin": "Wǒ yāoqǐng nǐ lái wǒ jiā.",
+        "english": "I invite you to my home."
+      },
+      {
+        "hanzi": "谢谢你的邀请。",
+        "pinyin": "Xièxie nǐ de yāoqǐng.",
+        "english": "Thank you for the invitation."
+      }
+    ]
+  },
+  {
+    "section": "social",
+    "hanzi": "聊天",
+    "pinyin": "liáotiān",
+    "english": "to chat",
+    "examples": [
+      {
+        "hanzi": "我们在网上聊天。",
+        "pinyin": "Wǒmen zài wǎngshàng liáotiān.",
+        "english": "We chat online."
+      },
+      {
+        "hanzi": "喜欢和朋友聊天。",
+        "pinyin": "Xǐhuan hé péngyou liáotiān.",
+        "english": "I like chatting with friends."
+      }
+    ]
+  },
+  {
+    "section": "social",
+    "hanzi": "爱好",
+    "pinyin": "àihào",
+    "english": "hobby",
+    "examples": [
+      {
+        "hanzi": "你的爱好是什么？",
+        "pinyin": "Nǐ de àihào shì shénme?",
+        "english": "What are your hobbies?"
+      },
+      {
+        "hanzi": "我的爱好是摄影。",
+        "pinyin": "Wǒ de àihào shì shèyǐng.",
+        "english": "My hobby is photography."
+      }
+    ]
+  },
+  {
+    "section": "social",
+    "hanzi": "约会",
+    "pinyin": "yuēhuì",
+    "english": "date / appointment (social)",
+    "examples": [
+      {
+        "hanzi": "他们今晚有约会。",
+        "pinyin": "Tāmen jīn wǎn yǒu yuēhuì.",
+        "english": "They have a date tonight."
+      },
+      {
+        "hanzi": "我约了朋友喝咖啡。",
+        "pinyin": "Wǒ yuē le péngyou hē kāfēi.",
+        "english": "I made plans to have coffee with a friend."
+      }
+    ]
+  },
+  {
+    "section": "social",
+    "hanzi": "介绍",
+    "pinyin": "jièshào",
+    "english": "to introduce",
+    "examples": [
+      {
+        "hanzi": "请介绍一下你自己。",
+        "pinyin": "Qǐng jièshào yīxià nǐ zìjǐ.",
+        "english": "Please introduce yourself."
+      },
+      {
+        "hanzi": "我介绍你们认识。",
+        "pinyin": "Wǒ jièshào nǐmen rènshi.",
+        "english": "Let me introduce you two."
+      }
+    ]
+  },
+  {
+    "section": "social",
+    "hanzi": "礼物",
+    "pinyin": "lǐwù",
+    "english": "gift",
+    "examples": [
+      {
+        "hanzi": "这是我给你的礼物。",
+        "pinyin": "Zhè shì wǒ gěi nǐ de lǐwù.",
+        "english": "This is a gift for you."
+      },
+      {
+        "hanzi": "谢谢你的礼物。",
+        "pinyin": "Xièxie nǐ de lǐwù.",
+        "english": "Thank you for the gift."
+      }
+    ]
+  },
+  {
+    "section": "social",
+    "hanzi": "祝福",
+    "pinyin": "zhùfú",
+    "english": "blessing / well wishes",
+    "examples": [
+      {
+        "hanzi": "祝你新婚祝福。",
+        "pinyin": "Zhù nǐ xīnhūn zhùfú.",
+        "english": "Best wishes on your wedding."
+      },
+      {
+        "hanzi": "收到很多祝福。",
+        "pinyin": "Shōudào hěn duō zhùfú.",
+        "english": "I received many well wishes."
+      }
+    ]
+  },
+  {
+    "section": "social",
+    "hanzi": "社交",
+    "pinyin": "shèjiāo",
+    "english": "social / socializing",
+    "examples": [
+      {
+        "hanzi": "我不太喜欢社交。",
+        "pinyin": "Wǒ bú tài xǐhuan shèjiāo.",
+        "english": "I don't really like socializing."
+      },
+      {
+        "hanzi": "社交能力很重要。",
+        "pinyin": "Shèjiāo nénglì hěn zhòngyào.",
+        "english": "Social skills are important."
+      }
+    ]
+  }
+]
