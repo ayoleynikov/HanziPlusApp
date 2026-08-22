@@ -12,7 +12,41 @@
       "polite"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Hello",
+      "ru": "Здравствуйте",
+      "es": "Hola",
+      "pt-BR": "Olá"
+    },
+    "usageNoteTranslations": {
+      "en": "Standard polite greeting.",
+      "ru": "Стандартное вежливое приветствие.",
+      "es": "Saludo educado habitual.",
+      "pt-BR": "Saudação educada padrão."
+    },
+    "tagTranslations": {
+      "en": [
+        "hello",
+        "greeting",
+        "polite"
+      ],
+      "ru": [
+        "приветствие",
+        "приветствие",
+        "вежливость"
+      ],
+      "es": [
+        "saludo",
+        "saludo",
+        "cortesía"
+      ],
+      "pt-BR": [
+        "saudação",
+        "saudação",
+        "educação"
+      ]
+    }
   },
   {
     "id": "ess-thank-you",
@@ -27,7 +61,35 @@
       "polite"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Thank you",
+      "ru": "Спасибо",
+      "es": "Gracias",
+      "pt-BR": "Obrigado"
+    },
+    "tagTranslations": {
+      "en": [
+        "thanks",
+        "thank-you",
+        "polite"
+      ],
+      "ru": [
+        "благодарность",
+        "спасибо",
+        "вежливость"
+      ],
+      "es": [
+        "agradecimiento",
+        "gracias",
+        "cortesía"
+      ],
+      "pt-BR": [
+        "agradecimento",
+        "obrigado",
+        "educação"
+      ]
+    }
   },
   {
     "id": "ess-excuse-me",
@@ -42,7 +104,41 @@
       "polite"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Excuse me / May I ask…",
+      "ru": "Извините / Можно спросить…",
+      "es": "Perdón / ¿Puedo preguntar…?",
+      "pt-BR": "Com licença / Posso perguntar…?"
+    },
+    "usageNoteTranslations": {
+      "en": "Start questions with this.",
+      "ru": "Так начинают вежливый вопрос.",
+      "es": "Úsalo para empezar una pregunta.",
+      "pt-BR": "Use para começar uma pergunta."
+    },
+    "tagTranslations": {
+      "en": [
+        "excuse",
+        "ask",
+        "polite"
+      ],
+      "ru": [
+        "извинение",
+        "вопрос",
+        "вежливость"
+      ],
+      "es": [
+        "perdón",
+        "pregunta",
+        "cortesía"
+      ],
+      "pt-BR": [
+        "desculpa",
+        "pergunta",
+        "educação"
+      ]
+    }
   },
   {
     "id": "ess-sorry",
@@ -56,7 +152,31 @@
       "apology"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Sorry",
+      "ru": "Извините",
+      "es": "Lo siento",
+      "pt-BR": "Desculpe"
+    },
+    "tagTranslations": {
+      "en": [
+        "sorry",
+        "apology"
+      ],
+      "ru": [
+        "извинение",
+        "извинение"
+      ],
+      "es": [
+        "perdón",
+        "disculpa"
+      ],
+      "pt-BR": [
+        "desculpa",
+        "desculpa"
+      ]
+    }
   },
   {
     "id": "ess-dont-understand",
@@ -71,7 +191,41 @@
       "beginner"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Sorry, I don’t understand",
+      "ru": "Извините, я не понимаю",
+      "es": "Lo siento, no entiendo",
+      "pt-BR": "Desculpe, não entendo"
+    },
+    "usageNoteTranslations": {
+      "en": "Useful when Chinese is too fast.",
+      "ru": "Полезно, если говорят слишком быстро.",
+      "es": "Útil si el chino es demasiado rápido.",
+      "pt-BR": "Útil quando o chinês está rápido demais."
+    },
+    "tagTranslations": {
+      "en": [
+        "understand",
+        "listen",
+        "beginner"
+      ],
+      "ru": [
+        "понимание",
+        "слушать",
+        "новичок"
+      ],
+      "es": [
+        "entender",
+        "escuchar",
+        "principiante"
+      ],
+      "pt-BR": [
+        "entender",
+        "ouvir",
+        "iniciante"
+      ]
+    }
   },
   {
     "id": "ess-speak-english",
@@ -89,14 +243,50 @@
       {
         "chinese": "会一点",
         "pinyin": "huì yīdiǎn",
-        "english": "A little"
+        "english": "A little",
+        "translations": {
+          "en": "A little",
+          "ru": "Немного",
+          "es": "Un poco",
+          "pt-BR": "Um pouco"
+        }
       },
       {
         "chinese": "不会",
         "pinyin": "bú huì",
-        "english": "No"
+        "english": "No",
+        "translations": {
+          "en": "No",
+          "ru": "Нет",
+          "es": "No",
+          "pt-BR": "Não"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Do you speak English?",
+      "ru": "Вы говорите по-английски?",
+      "es": "¿Habla inglés?",
+      "pt-BR": "Você fala inglês?"
+    },
+    "tagTranslations": {
+      "en": [
+        "english",
+        "language"
+      ],
+      "ru": [
+        "английский",
+        "язык"
+      ],
+      "es": [
+        "inglés",
+        "idioma"
+      ],
+      "pt-BR": [
+        "inglês",
+        "idioma"
+      ]
+    }
   },
   {
     "id": "ess-toilet",
@@ -115,14 +305,54 @@
       {
         "chinese": "在那边",
         "pinyin": "zài nàbiān",
-        "english": "Over there"
+        "english": "Over there",
+        "translations": {
+          "en": "Over there",
+          "ru": "Вон там",
+          "es": "Allí",
+          "pt-BR": "Ali"
+        }
       },
       {
         "chinese": "在左边",
         "pinyin": "zài zuǒbian",
-        "english": "On the left"
+        "english": "On the left",
+        "translations": {
+          "en": "On the left",
+          "ru": "Слева",
+          "es": "A la izquierda",
+          "pt-BR": "À esquerda"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Where is the restroom?",
+      "ru": "Где туалет?",
+      "es": "¿Dónde está el baño?",
+      "pt-BR": "Onde fica o banheiro?"
+    },
+    "tagTranslations": {
+      "en": [
+        "toilet",
+        "bathroom",
+        "restroom"
+      ],
+      "ru": [
+        "туалет",
+        "ванная",
+        "туалет"
+      ],
+      "es": [
+        "baño",
+        "baño",
+        "aseos"
+      ],
+      "pt-BR": [
+        "banheiro",
+        "banheiro",
+        "toalete"
+      ]
+    }
   },
   {
     "id": "ess-help",
@@ -136,7 +366,31 @@
       "assist"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Can you help me?",
+      "ru": "Можете мне помочь?",
+      "es": "¿Puede ayudarme?",
+      "pt-BR": "Pode me ajudar?"
+    },
+    "tagTranslations": {
+      "en": [
+        "help",
+        "assist"
+      ],
+      "ru": [
+        "помощь",
+        "помощь"
+      ],
+      "es": [
+        "ayuda",
+        "ayuda"
+      ],
+      "pt-BR": [
+        "ajuda",
+        "ajuda"
+      ]
+    }
   },
   {
     "id": "ess-photo",
@@ -150,7 +404,31 @@
       "camera"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Can you take a photo for me?",
+      "ru": "Можете сфотографировать меня?",
+      "es": "¿Puede tomarme una foto?",
+      "pt-BR": "Pode tirar uma foto para mim?"
+    },
+    "tagTranslations": {
+      "en": [
+        "photo",
+        "camera"
+      ],
+      "ru": [
+        "фото",
+        "камера"
+      ],
+      "es": [
+        "foto",
+        "cámara"
+      ],
+      "pt-BR": [
+        "foto",
+        "câmera"
+      ]
+    }
   },
   {
     "id": "ess-slow",
@@ -164,7 +442,31 @@
       "speak"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Please speak more slowly",
+      "ru": "Говорите, пожалуйста, медленнее",
+      "es": "Hable más despacio, por favor",
+      "pt-BR": "Por favor, fale mais devagar"
+    },
+    "tagTranslations": {
+      "en": [
+        "slow",
+        "speak"
+      ],
+      "ru": [
+        "медленнее",
+        "говорить"
+      ],
+      "es": [
+        "despacio",
+        "hablar"
+      ],
+      "pt-BR": [
+        "devagar",
+        "falar"
+      ]
+    }
   },
   {
     "id": "air-checkin",
@@ -179,7 +481,35 @@
       "counter"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Where is the check-in counter?",
+      "ru": "Где стойка регистрации?",
+      "es": "¿Dónde está el mostrador de facturación?",
+      "pt-BR": "Onde fica o balcão de check-in?"
+    },
+    "tagTranslations": {
+      "en": [
+        "check-in",
+        "airport",
+        "counter"
+      ],
+      "ru": [
+        "регистрация",
+        "аэропорт",
+        "стойка"
+      ],
+      "es": [
+        "facturación",
+        "aeropuerto",
+        "mostrador"
+      ],
+      "pt-BR": [
+        "check-in",
+        "aeroporto",
+        "balcão"
+      ]
+    }
   },
   {
     "id": "air-boarding-pass",
@@ -193,7 +523,37 @@
       "passport"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Please show your boarding pass and passport",
+      "ru": "Предъявите посадочный талон и паспорт",
+      "es": "Muestre su tarjeta de embarque y pasaporte",
+      "pt-BR": "Mostre o cartão de embarque e o passaporte"
+    },
+    "usageNoteTranslations": {
+      "en": "You may hear this at the gate.",
+      "ru": "Так могут сказать у выхода на посадку.",
+      "es": "Puedes oírlo en la puerta de embarque.",
+      "pt-BR": "Você pode ouvir isso no portão de embarque."
+    },
+    "tagTranslations": {
+      "en": [
+        "boarding",
+        "passport"
+      ],
+      "ru": [
+        "посадка",
+        "паспорт"
+      ],
+      "es": [
+        "embarque",
+        "pasaporte"
+      ],
+      "pt-BR": [
+        "embarque",
+        "passaporte"
+      ]
+    }
   },
   {
     "id": "air-gate",
@@ -207,7 +567,31 @@
       "boarding"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Where is the boarding gate?",
+      "ru": "Где выход на посадку?",
+      "es": "¿Dónde está la puerta de embarque?",
+      "pt-BR": "Onde fica o portão de embarque?"
+    },
+    "tagTranslations": {
+      "en": [
+        "gate",
+        "boarding"
+      ],
+      "ru": [
+        "выход",
+        "посадка"
+      ],
+      "es": [
+        "puerta",
+        "embarque"
+      ],
+      "pt-BR": [
+        "portão",
+        "embarque"
+      ]
+    }
   },
   {
     "id": "air-baggage",
@@ -221,7 +605,31 @@
       "baggage"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Where is the baggage carousel?",
+      "ru": "Где лента выдачи багажа?",
+      "es": "¿Dónde está la cinta de equipaje?",
+      "pt-BR": "Onde fica a esteira de bagagem?"
+    },
+    "tagTranslations": {
+      "en": [
+        "luggage",
+        "baggage"
+      ],
+      "ru": [
+        "багаж",
+        "багаж"
+      ],
+      "es": [
+        "equipaje",
+        "equipaje"
+      ],
+      "pt-BR": [
+        "bagagem",
+        "bagagem"
+      ]
+    }
   },
   {
     "id": "air-delay",
@@ -235,7 +643,31 @@
       "flight"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Is the flight delayed?",
+      "ru": "Рейс задерживается?",
+      "es": "¿El vuelo está retrasado?",
+      "pt-BR": "O voo está atrasado?"
+    },
+    "tagTranslations": {
+      "en": [
+        "delay",
+        "flight"
+      ],
+      "ru": [
+        "задержка",
+        "рейс"
+      ],
+      "es": [
+        "retraso",
+        "vuelo"
+      ],
+      "pt-BR": [
+        "atraso",
+        "voo"
+      ]
+    }
   },
   {
     "id": "air-customs",
@@ -249,7 +681,31 @@
       "immigration"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Is customs this way?",
+      "ru": "Таможня в эту сторону?",
+      "es": "¿La aduana es por aquí?",
+      "pt-BR": "A alfândega é por aqui?"
+    },
+    "tagTranslations": {
+      "en": [
+        "customs",
+        "immigration"
+      ],
+      "ru": [
+        "таможня",
+        "иммиграция"
+      ],
+      "es": [
+        "aduana",
+        "inmigración"
+      ],
+      "pt-BR": [
+        "alfândega",
+        "imigração"
+      ]
+    }
   },
   {
     "id": "air-lost-luggage",
@@ -263,7 +719,37 @@
       "luggage"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "My luggage is missing",
+      "ru": "Мой багаж пропал",
+      "es": "Falta mi equipaje",
+      "pt-BR": "Minha bagagem desapareceu"
+    },
+    "usageNoteTranslations": {
+      "en": "Go to the airline baggage desk.",
+      "ru": "Идите к стойке багажа авиакомпании.",
+      "es": "Vaya al mostrador de equipaje de la aerolínea.",
+      "pt-BR": "Vá ao balcão de bagagem da companhia aérea."
+    },
+    "tagTranslations": {
+      "en": [
+        "lost",
+        "luggage"
+      ],
+      "ru": [
+        "потеря",
+        "багаж"
+      ],
+      "es": [
+        "perdido",
+        "equipaje"
+      ],
+      "pt-BR": [
+        "perdido",
+        "bagagem"
+      ]
+    }
   },
   {
     "id": "air-transfer",
@@ -277,7 +763,31 @@
       "connection"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "I have a connecting flight. How do I get there?",
+      "ru": "У меня пересадка. Как пройти?",
+      "es": "Tengo un vuelo de conexión. ¿Cómo llego?",
+      "pt-BR": "Tenho um voo de conexão. Como chego lá?"
+    },
+    "tagTranslations": {
+      "en": [
+        "transfer",
+        "connection"
+      ],
+      "ru": [
+        "пересадка",
+        "стыковка"
+      ],
+      "es": [
+        "transbordo",
+        "conexión"
+      ],
+      "pt-BR": [
+        "conexão",
+        "conexão"
+      ]
+    }
   },
   {
     "id": "tr-taxi-address",
@@ -292,7 +802,41 @@
       "driver"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Driver, please take me to this address",
+      "ru": "Шифу, отвезите меня по этому адресу",
+      "es": "Maestro, lléveme a esta dirección",
+      "pt-BR": "Motorista, me leve a este endereço"
+    },
+    "usageNoteTranslations": {
+      "en": "Show the address on your phone while saying this.",
+      "ru": "Покажите адрес на телефоне, когда говорите это.",
+      "es": "Muestra la dirección en el teléfono al decirlo.",
+      "pt-BR": "Mostre o endereço no celular ao falar."
+    },
+    "tagTranslations": {
+      "en": [
+        "taxi",
+        "address",
+        "driver"
+      ],
+      "ru": [
+        "такси",
+        "адрес",
+        "водитель"
+      ],
+      "es": [
+        "taxi",
+        "dirección",
+        "conductor"
+      ],
+      "pt-BR": [
+        "táxi",
+        "endereço",
+        "motorista"
+      ]
+    }
   },
   {
     "id": "tr-stop-here",
@@ -306,7 +850,31 @@
       "stop"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Please stop here",
+      "ru": "Остановитесь здесь, пожалуйста",
+      "es": "Pare aquí, por favor",
+      "pt-BR": "Pare aqui, por favor"
+    },
+    "tagTranslations": {
+      "en": [
+        "taxi",
+        "stop"
+      ],
+      "ru": [
+        "такси",
+        "остановка"
+      ],
+      "es": [
+        "taxi",
+        "parar"
+      ],
+      "pt-BR": [
+        "táxi",
+        "parar"
+      ]
+    }
   },
   {
     "id": "tr-how-much",
@@ -321,7 +889,35 @@
       "fare"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "About how much to get there?",
+      "ru": "Сколько примерно будет доехать?",
+      "es": "¿Cuánto cuesta más o menos llegar?",
+      "pt-BR": "Quanto custa mais ou menos para chegar?"
+    },
+    "tagTranslations": {
+      "en": [
+        "taxi",
+        "price",
+        "fare"
+      ],
+      "ru": [
+        "такси",
+        "цена",
+        "тариф"
+      ],
+      "es": [
+        "taxi",
+        "precio",
+        "tarifa"
+      ],
+      "pt-BR": [
+        "táxi",
+        "preço",
+        "tarifa"
+      ]
+    }
   },
   {
     "id": "tr-metro",
@@ -339,9 +935,39 @@
       {
         "chinese": "直走就到",
         "pinyin": "zhí zǒu jiù dào",
-        "english": "Go straight ahead"
+        "english": "Go straight ahead",
+        "translations": {
+          "en": "Go straight ahead",
+          "ru": "Прямо и будете на месте",
+          "es": "Siga todo recto",
+          "pt-BR": "Siga em frente"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Where is the nearest subway station?",
+      "ru": "Где ближайшая станция метро?",
+      "es": "¿Dónde está la estación de metro más cercana?",
+      "pt-BR": "Onde fica a estação de metrô mais próxima?"
+    },
+    "tagTranslations": {
+      "en": [
+        "metro",
+        "subway"
+      ],
+      "ru": [
+        "метро",
+        "метро"
+      ],
+      "es": [
+        "metro",
+        "metro"
+      ],
+      "pt-BR": [
+        "metrô",
+        "metrô"
+      ]
+    }
   },
   {
     "id": "tr-which-line",
@@ -355,7 +981,31 @@
       "line"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Which metro line should I take?",
+      "ru": "На какую линию садиться?",
+      "es": "¿Qué línea de metro debo tomar?",
+      "pt-BR": "Qual linha de metrô eu pego?"
+    },
+    "tagTranslations": {
+      "en": [
+        "metro",
+        "line"
+      ],
+      "ru": [
+        "метро",
+        "линия"
+      ],
+      "es": [
+        "metro",
+        "línea"
+      ],
+      "pt-BR": [
+        "metrô",
+        "linha"
+      ]
+    }
   },
   {
     "id": "tr-train-station",
@@ -370,7 +1020,35 @@
       "directions"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "How do I get to the train station?",
+      "ru": "Как пройти на вокзал?",
+      "es": "¿Cómo llego a la estación de tren?",
+      "pt-BR": "Como chego à estação de trem?"
+    },
+    "tagTranslations": {
+      "en": [
+        "train",
+        "station",
+        "directions"
+      ],
+      "ru": [
+        "поезд",
+        "станция",
+        "направление"
+      ],
+      "es": [
+        "tren",
+        "estación",
+        "direcciones"
+      ],
+      "pt-BR": [
+        "trem",
+        "estação",
+        "direções"
+      ]
+    }
   },
   {
     "id": "tr-platform",
@@ -384,7 +1062,37 @@
       "train"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Which platform is it?",
+      "ru": "Какая платформа?",
+      "es": "¿Cuál es el andén?",
+      "pt-BR": "Qual é a plataforma?"
+    },
+    "usageNoteTranslations": {
+      "en": "Useful for high-speed rail.",
+      "ru": "Полезно на скоростных поездах.",
+      "es": "Útil en el tren de alta velocidad.",
+      "pt-BR": "Útil no trem-bala."
+    },
+    "tagTranslations": {
+      "en": [
+        "platform",
+        "train"
+      ],
+      "ru": [
+        "платформа",
+        "поезд"
+      ],
+      "es": [
+        "andén",
+        "tren"
+      ],
+      "pt-BR": [
+        "plataforma",
+        "trem"
+      ]
+    }
   },
   {
     "id": "tr-train-number",
@@ -398,7 +1106,37 @@
       "number"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Is this the G123 train?",
+      "ru": "Это поезд G123?",
+      "es": "¿Este es el tren G123?",
+      "pt-BR": "Este é o trem G123?"
+    },
+    "usageNoteTranslations": {
+      "en": "Replace the number with yours.",
+      "ru": "Подставьте свой номер поезда.",
+      "es": "Sustituye el número por el tuyo.",
+      "pt-BR": "Troque o número pelo seu."
+    },
+    "tagTranslations": {
+      "en": [
+        "train",
+        "number"
+      ],
+      "ru": [
+        "поезд",
+        "номер"
+      ],
+      "es": [
+        "tren",
+        "número"
+      ],
+      "pt-BR": [
+        "trem",
+        "número"
+      ]
+    }
   },
   {
     "id": "tr-ticket",
@@ -412,7 +1150,31 @@
       "buy"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Where can I buy a ticket?",
+      "ru": "Где купить билет?",
+      "es": "¿Dónde puedo comprar un billete?",
+      "pt-BR": "Onde posso comprar um bilhete?"
+    },
+    "tagTranslations": {
+      "en": [
+        "ticket",
+        "buy"
+      ],
+      "ru": [
+        "билет",
+        "купить"
+      ],
+      "es": [
+        "billete",
+        "comprar"
+      ],
+      "pt-BR": [
+        "bilhete",
+        "comprar"
+      ]
+    }
   },
   {
     "id": "tr-left-right",
@@ -427,7 +1189,35 @@
       "right"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Should I go left or right?",
+      "ru": "Налево или направо?",
+      "es": "¿A la izquierda o a la derecha?",
+      "pt-BR": "É para a esquerda ou para a direita?"
+    },
+    "tagTranslations": {
+      "en": [
+        "directions",
+        "left",
+        "right"
+      ],
+      "ru": [
+        "направление",
+        "налево",
+        "направо"
+      ],
+      "es": [
+        "direcciones",
+        "izquierda",
+        "derecha"
+      ],
+      "pt-BR": [
+        "direções",
+        "esquerda",
+        "direita"
+      ]
+    }
   },
   {
     "id": "hot-checkin",
@@ -441,7 +1231,31 @@
       "check-in"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Hello, I’d like to check in",
+      "ru": "Здравствуйте, я хочу зарегистрироваться",
+      "es": "Hola, quiero hacer el check-in",
+      "pt-BR": "Olá, quero fazer o check-in"
+    },
+    "tagTranslations": {
+      "en": [
+        "hotel",
+        "check-in"
+      ],
+      "ru": [
+        "отель",
+        "регистрация"
+      ],
+      "es": [
+        "hotel",
+        "facturación"
+      ],
+      "pt-BR": [
+        "hotel",
+        "check-in"
+      ]
+    }
   },
   {
     "id": "hot-booking",
@@ -455,7 +1269,37 @@
       "reservation"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "I have a reservation. The name is…",
+      "ru": "У меня бронь, фамилия…",
+      "es": "Tengo una reserva. El nombre es…",
+      "pt-BR": "Tenho uma reserva. O nome é…"
+    },
+    "usageNoteTranslations": {
+      "en": "Say your name after this.",
+      "ru": "После этой фразы назовите имя.",
+      "es": "Di tu nombre después.",
+      "pt-BR": "Diga seu nome em seguida."
+    },
+    "tagTranslations": {
+      "en": [
+        "booking",
+        "reservation"
+      ],
+      "ru": [
+        "бронь",
+        "бронь"
+      ],
+      "es": [
+        "reserva",
+        "reserva"
+      ],
+      "pt-BR": [
+        "reserva",
+        "reserva"
+      ]
+    }
   },
   {
     "id": "hot-booking-problem",
@@ -470,7 +1314,35 @@
       "issue"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "There seems to be a problem with my booking",
+      "ru": "Похоже, с моей бронью проблема",
+      "es": "Parece que hay un problema con mi reserva",
+      "pt-BR": "Parece que há um problema com a minha reserva"
+    },
+    "tagTranslations": {
+      "en": [
+        "booking",
+        "problem",
+        "issue"
+      ],
+      "ru": [
+        "бронь",
+        "проблема",
+        "проблема"
+      ],
+      "es": [
+        "reserva",
+        "problema",
+        "problema"
+      ],
+      "pt-BR": [
+        "reserva",
+        "problema",
+        "problema"
+      ]
+    }
   },
   {
     "id": "hot-wifi",
@@ -485,7 +1357,35 @@
       "hotel"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "What’s the Wi‑Fi password?",
+      "ru": "Какой пароль от Wi‑Fi?",
+      "es": "¿Cuál es la contraseña del Wi‑Fi?",
+      "pt-BR": "Qual é a senha do Wi‑Fi?"
+    },
+    "tagTranslations": {
+      "en": [
+        "wifi",
+        "password",
+        "hotel"
+      ],
+      "ru": [
+        "вайфай",
+        "пароль",
+        "отель"
+      ],
+      "es": [
+        "wifi",
+        "contraseña",
+        "hotel"
+      ],
+      "pt-BR": [
+        "wifi",
+        "senha",
+        "hotel"
+      ]
+    }
   },
   {
     "id": "hot-checkout",
@@ -499,7 +1399,31 @@
       "hotel"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "I’d like to check out",
+      "ru": "Я хочу выехать / сделать check-out",
+      "es": "Quiero hacer el check-out",
+      "pt-BR": "Quero fazer o check-out"
+    },
+    "tagTranslations": {
+      "en": [
+        "checkout",
+        "hotel"
+      ],
+      "ru": [
+        "выезд",
+        "отель"
+      ],
+      "es": [
+        "salida",
+        "hotel"
+      ],
+      "pt-BR": [
+        "check-out",
+        "hotel"
+      ]
+    }
   },
   {
     "id": "hot-room",
@@ -513,7 +1437,31 @@
       "number"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "What’s my room number?",
+      "ru": "Какой у меня номер комнаты?",
+      "es": "¿Cuál es mi número de habitación?",
+      "pt-BR": "Qual é o número do meu quarto?"
+    },
+    "tagTranslations": {
+      "en": [
+        "room",
+        "number"
+      ],
+      "ru": [
+        "номер",
+        "номер"
+      ],
+      "es": [
+        "habitación",
+        "número"
+      ],
+      "pt-BR": [
+        "quarto",
+        "número"
+      ]
+    }
   },
   {
     "id": "hot-breakfast",
@@ -527,7 +1475,31 @@
       "hotel"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Where is breakfast?",
+      "ru": "Где завтрак?",
+      "es": "¿Dónde está el desayuno?",
+      "pt-BR": "Onde fica o café da manhã?"
+    },
+    "tagTranslations": {
+      "en": [
+        "breakfast",
+        "hotel"
+      ],
+      "ru": [
+        "завтрак",
+        "отель"
+      ],
+      "es": [
+        "desayuno",
+        "hotel"
+      ],
+      "pt-BR": [
+        "café da manhã",
+        "hotel"
+      ]
+    }
   },
   {
     "id": "hot-extra-towel",
@@ -542,7 +1514,35 @@
       "request"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Could I have another towel?",
+      "ru": "Можно ещё одно полотенце?",
+      "es": "¿Me puede dar otra toalla?",
+      "pt-BR": "Pode me dar outra toalha?"
+    },
+    "tagTranslations": {
+      "en": [
+        "towel",
+        "hotel",
+        "request"
+      ],
+      "ru": [
+        "полотенце",
+        "отель",
+        "просьба"
+      ],
+      "es": [
+        "toalla",
+        "hotel",
+        "petición"
+      ],
+      "pt-BR": [
+        "toalha",
+        "hotel",
+        "pedido"
+      ]
+    }
   },
   {
     "id": "food-menu",
@@ -556,7 +1556,31 @@
       "english"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Do you have an English menu?",
+      "ru": "Есть меню на английском?",
+      "es": "¿Tienen menú en inglés?",
+      "pt-BR": "Vocês têm cardápio em inglês?"
+    },
+    "tagTranslations": {
+      "en": [
+        "menu",
+        "english"
+      ],
+      "ru": [
+        "меню",
+        "английский"
+      ],
+      "es": [
+        "menú",
+        "inglés"
+      ],
+      "pt-BR": [
+        "cardápio",
+        "inglês"
+      ]
+    }
   },
   {
     "id": "food-not-spicy",
@@ -571,7 +1595,35 @@
       "food"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Please don’t make it too spicy",
+      "ru": "Пожалуйста, не очень остро",
+      "es": "Por favor, que no pique mucho",
+      "pt-BR": "Por favor, sem muito picante"
+    },
+    "tagTranslations": {
+      "en": [
+        "spicy",
+        "mild",
+        "food"
+      ],
+      "ru": [
+        "острое",
+        "неостро",
+        "еда"
+      ],
+      "es": [
+        "picante",
+        "suave",
+        "comida"
+      ],
+      "pt-BR": [
+        "picante",
+        "suave",
+        "comida"
+      ]
+    }
   },
   {
     "id": "food-allergy",
@@ -586,7 +1638,41 @@
       "food"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "I’m allergic to peanuts",
+      "ru": "У меня аллергия на арахис",
+      "es": "Soy alérgico/a al cacahuete",
+      "pt-BR": "Tenho alergia a amendoim"
+    },
+    "usageNoteTranslations": {
+      "en": "Replace 花生 with your allergen if needed.",
+      "ru": "При необходимости замените 花生 на свой аллерген.",
+      "es": "Sustituye 花生 por tu alérgeno si hace falta.",
+      "pt-BR": "Troque 花生 pelo seu alérgeno se precisar."
+    },
+    "tagTranslations": {
+      "en": [
+        "allergy",
+        "peanuts",
+        "food"
+      ],
+      "ru": [
+        "аллергия",
+        "арахис",
+        "еда"
+      ],
+      "es": [
+        "alergia",
+        "cacahuetes",
+        "comida"
+      ],
+      "pt-BR": [
+        "alergia",
+        "amendoim",
+        "comida"
+      ]
+    }
   },
   {
     "id": "food-ingredients",
@@ -600,7 +1686,31 @@
       "food"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "What’s in this dish?",
+      "ru": "Что в этом блюде?",
+      "es": "¿Qué lleva este plato?",
+      "pt-BR": "O que tem neste prato?"
+    },
+    "tagTranslations": {
+      "en": [
+        "ingredients",
+        "food"
+      ],
+      "ru": [
+        "состав",
+        "еда"
+      ],
+      "es": [
+        "ingredientes",
+        "comida"
+      ],
+      "pt-BR": [
+        "ingredientes",
+        "comida"
+      ]
+    }
   },
   {
     "id": "food-no-meat",
@@ -614,7 +1724,31 @@
       "meat"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "I don’t want meat",
+      "ru": "Мне без мяса",
+      "es": "No quiero carne",
+      "pt-BR": "Não quero carne"
+    },
+    "tagTranslations": {
+      "en": [
+        "vegetarian",
+        "meat"
+      ],
+      "ru": [
+        "вегетарианство",
+        "мясо"
+      ],
+      "es": [
+        "vegetariano",
+        "carne"
+      ],
+      "pt-BR": [
+        "vegetariano",
+        "carne"
+      ]
+    }
   },
   {
     "id": "food-bill",
@@ -630,7 +1764,45 @@
       "restaurant"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Could I get the bill, please?",
+      "ru": "Счёт, пожалуйста",
+      "es": "La cuenta, por favor",
+      "pt-BR": "A conta, por favor"
+    },
+    "usageNoteTranslations": {
+      "en": "Polite way to ask for the check in a restaurant.",
+      "ru": "Вежливый способ попросить счёт в ресторане.",
+      "es": "Forma educada de pedir la cuenta.",
+      "pt-BR": "Jeito educado de pedir a conta."
+    },
+    "tagTranslations": {
+      "en": [
+        "bill",
+        "check",
+        "pay",
+        "restaurant"
+      ],
+      "ru": [
+        "счёт",
+        "счёт",
+        "оплата",
+        "ресторан"
+      ],
+      "es": [
+        "cuenta",
+        "cuenta",
+        "pagar",
+        "restaurante"
+      ],
+      "pt-BR": [
+        "conta",
+        "conta",
+        "pagar",
+        "restaurante"
+      ]
+    }
   },
   {
     "id": "food-delicious",
@@ -644,7 +1816,31 @@
       "compliment"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "It’s delicious",
+      "ru": "Очень вкусно",
+      "es": "Está delicioso",
+      "pt-BR": "Está uma delícia"
+    },
+    "tagTranslations": {
+      "en": [
+        "delicious",
+        "compliment"
+      ],
+      "ru": [
+        "вкусно",
+        "комплимент"
+      ],
+      "es": [
+        "delicioso",
+        "cumplido"
+      ],
+      "pt-BR": [
+        "delicioso",
+        "elogio"
+      ]
+    }
   },
   {
     "id": "food-recommend",
@@ -658,7 +1854,31 @@
       "food"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "What do you recommend?",
+      "ru": "Что посоветуете?",
+      "es": "¿Qué recomienda?",
+      "pt-BR": "O que você recomenda?"
+    },
+    "tagTranslations": {
+      "en": [
+        "recommend",
+        "food"
+      ],
+      "ru": [
+        "рекомендация",
+        "еда"
+      ],
+      "es": [
+        "recomendación",
+        "comida"
+      ],
+      "pt-BR": [
+        "recomendação",
+        "comida"
+      ]
+    }
   },
   {
     "id": "food-water",
@@ -672,7 +1892,31 @@
       "drink"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Please give me a glass of water",
+      "ru": "Принесите, пожалуйста, стакан воды",
+      "es": "Un vaso de agua, por favor",
+      "pt-BR": "Por favor, um copo d’água"
+    },
+    "tagTranslations": {
+      "en": [
+        "water",
+        "drink"
+      ],
+      "ru": [
+        "вода",
+        "напиток"
+      ],
+      "es": [
+        "agua",
+        "bebida"
+      ],
+      "pt-BR": [
+        "água",
+        "bebida"
+      ]
+    }
   },
   {
     "id": "food-takeaway",
@@ -686,7 +1930,31 @@
       "pack"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Can I get this to go?",
+      "ru": "Можно с собой?",
+      "es": "¿Me lo puede poner para llevar?",
+      "pt-BR": "Pode ser para viagem?"
+    },
+    "tagTranslations": {
+      "en": [
+        "takeaway",
+        "pack"
+      ],
+      "ru": [
+        "с собой",
+        "упаковать"
+      ],
+      "es": [
+        "para llevar",
+        "empaquetar"
+      ],
+      "pt-BR": [
+        "para viagem",
+        "embalar"
+      ]
+    }
   },
   {
     "id": "shop-how-much",
@@ -700,7 +1968,31 @@
       "shopping"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "How much is this?",
+      "ru": "Сколько это стоит?",
+      "es": "¿Cuánto cuesta esto?",
+      "pt-BR": "Quanto custa isto?"
+    },
+    "tagTranslations": {
+      "en": [
+        "price",
+        "shopping"
+      ],
+      "ru": [
+        "цена",
+        "покупки"
+      ],
+      "es": [
+        "precio",
+        "compras"
+      ],
+      "pt-BR": [
+        "preço",
+        "compras"
+      ]
+    }
   },
   {
     "id": "shop-too-expensive",
@@ -714,7 +2006,37 @@
       "price"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "That’s expensive. Can it be a bit cheaper?",
+      "ru": "Дорого. Можно чуть дешевле?",
+      "es": "Es caro. ¿Puede ser un poco más barato?",
+      "pt-BR": "Está caro. Pode ser um pouco mais barato?"
+    },
+    "usageNoteTranslations": {
+      "en": "More natural in markets than big stores.",
+      "ru": "Естественнее на рынке, чем в крупном магазине.",
+      "es": "Más natural en mercados que en grandes tiendas.",
+      "pt-BR": "Mais natural em feiras do que em lojas grandes."
+    },
+    "tagTranslations": {
+      "en": [
+        "bargain",
+        "price"
+      ],
+      "ru": [
+        "торг",
+        "цена"
+      ],
+      "es": [
+        "regatear",
+        "precio"
+      ],
+      "pt-BR": [
+        "pechincha",
+        "preço"
+      ]
+    }
   },
   {
     "id": "shop-cash",
@@ -732,14 +2054,50 @@
       {
         "chinese": "可以",
         "pinyin": "kěyǐ",
-        "english": "Yes"
+        "english": "Yes",
+        "translations": {
+          "en": "Yes",
+          "ru": "Да",
+          "es": "Sí",
+          "pt-BR": "Sim"
+        }
       },
       {
         "chinese": "只收微信或支付宝",
         "pinyin": "zhǐ shōu Wēixìn huò Zhīfùbǎo",
-        "english": "WeChat or Alipay only"
+        "english": "WeChat or Alipay only",
+        "translations": {
+          "en": "WeChat or Alipay only",
+          "ru": "Только WeChat или Alipay",
+          "es": "Solo WeChat o Alipay",
+          "pt-BR": "Só WeChat ou Alipay"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Can I pay cash?",
+      "ru": "Можно наличными?",
+      "es": "¿Puedo pagar en efectivo?",
+      "pt-BR": "Posso pagar em dinheiro?"
+    },
+    "tagTranslations": {
+      "en": [
+        "cash",
+        "payment"
+      ],
+      "ru": [
+        "наличные",
+        "оплата"
+      ],
+      "es": [
+        "efectivo",
+        "pago"
+      ],
+      "pt-BR": [
+        "dinheiro",
+        "pagamento"
+      ]
+    }
   },
   {
     "id": "shop-alipay",
@@ -753,7 +2111,31 @@
       "payment"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Can I pay with Alipay?",
+      "ru": "Можно через Alipay?",
+      "es": "¿Puedo pagar con Alipay?",
+      "pt-BR": "Posso pagar com Alipay?"
+    },
+    "tagTranslations": {
+      "en": [
+        "alipay",
+        "payment"
+      ],
+      "ru": [
+        "Alipay",
+        "оплата"
+      ],
+      "es": [
+        "Alipay",
+        "pago"
+      ],
+      "pt-BR": [
+        "Alipay",
+        "pagamento"
+      ]
+    }
   },
   {
     "id": "shop-wechat-pay",
@@ -767,7 +2149,31 @@
       "payment"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Can I pay with WeChat Pay?",
+      "ru": "Можно через WeChat Pay?",
+      "es": "¿Puedo pagar con WeChat Pay?",
+      "pt-BR": "Posso pagar com WeChat Pay?"
+    },
+    "tagTranslations": {
+      "en": [
+        "wechat",
+        "payment"
+      ],
+      "ru": [
+        "WeChat",
+        "оплата"
+      ],
+      "es": [
+        "WeChat",
+        "pago"
+      ],
+      "pt-BR": [
+        "WeChat",
+        "pagamento"
+      ]
+    }
   },
   {
     "id": "shop-receipt",
@@ -781,7 +2187,31 @@
       "invoice"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Please give me a receipt / fapiao",
+      "ru": "Дайте, пожалуйста, чек / фапяо",
+      "es": "Por favor, deme un recibo / fapiao",
+      "pt-BR": "Por favor, me dê um recibo / fapiao"
+    },
+    "tagTranslations": {
+      "en": [
+        "receipt",
+        "invoice"
+      ],
+      "ru": [
+        "чек",
+        "счёт-фактура"
+      ],
+      "es": [
+        "recibo",
+        "factura"
+      ],
+      "pt-BR": [
+        "recibo",
+        "nota fiscal"
+      ]
+    }
   },
   {
     "id": "shop-try-on",
@@ -795,7 +2225,31 @@
       "clothing"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Can I try this on?",
+      "ru": "Можно примерить?",
+      "es": "¿Puedo probármelo?",
+      "pt-BR": "Posso experimentar?"
+    },
+    "tagTranslations": {
+      "en": [
+        "try",
+        "clothing"
+      ],
+      "ru": [
+        "примерка",
+        "одежда"
+      ],
+      "es": [
+        "probar",
+        "ropa"
+      ],
+      "pt-BR": [
+        "provar",
+        "roupa"
+      ]
+    }
   },
   {
     "id": "shop-smaller",
@@ -809,7 +2263,31 @@
       "shopping"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Do you have a smaller size?",
+      "ru": "Есть размер поменьше?",
+      "es": "¿Tienen una talla más pequeña?",
+      "pt-BR": "Tem um tamanho menor?"
+    },
+    "tagTranslations": {
+      "en": [
+        "size",
+        "shopping"
+      ],
+      "ru": [
+        "размер",
+        "покупки"
+      ],
+      "es": [
+        "talla",
+        "compras"
+      ],
+      "pt-BR": [
+        "tamanho",
+        "compras"
+      ]
+    }
   },
   {
     "id": "net-wifi",
@@ -823,7 +2301,31 @@
       "internet"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Do you have Wi‑Fi?",
+      "ru": "У вас есть Wi‑Fi?",
+      "es": "¿Tienen Wi‑Fi?",
+      "pt-BR": "Vocês têm Wi‑Fi?"
+    },
+    "tagTranslations": {
+      "en": [
+        "wifi",
+        "internet"
+      ],
+      "ru": [
+        "вайфай",
+        "интернет"
+      ],
+      "es": [
+        "wifi",
+        "internet"
+      ],
+      "pt-BR": [
+        "wifi",
+        "internet"
+      ]
+    }
   },
   {
     "id": "net-password",
@@ -837,7 +2339,31 @@
       "password"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "What’s the Wi‑Fi password?",
+      "ru": "Какой пароль от Wi‑Fi?",
+      "es": "¿Cuál es la contraseña del Wi‑Fi?",
+      "pt-BR": "Qual é a senha do Wi‑Fi?"
+    },
+    "tagTranslations": {
+      "en": [
+        "wifi",
+        "password"
+      ],
+      "ru": [
+        "вайфай",
+        "пароль"
+      ],
+      "es": [
+        "wifi",
+        "contraseña"
+      ],
+      "pt-BR": [
+        "wifi",
+        "senha"
+      ]
+    }
   },
   {
     "id": "net-sim",
@@ -852,7 +2378,35 @@
       "card"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "I’d like to buy a SIM card",
+      "ru": "Я хочу купить SIM-карту",
+      "es": "Quiero comprar una tarjeta SIM",
+      "pt-BR": "Quero comprar um chip"
+    },
+    "tagTranslations": {
+      "en": [
+        "sim",
+        "phone",
+        "card"
+      ],
+      "ru": [
+        "SIM",
+        "телефон",
+        "карта"
+      ],
+      "es": [
+        "SIM",
+        "teléfono",
+        "tarjeta"
+      ],
+      "pt-BR": [
+        "chip",
+        "celular",
+        "cartão"
+      ]
+    }
   },
   {
     "id": "net-esim",
@@ -866,7 +2420,31 @@
       "mobile"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Do you have eSIM?",
+      "ru": "У вас есть eSIM?",
+      "es": "¿Tienen eSIM?",
+      "pt-BR": "Vocês têm eSIM?"
+    },
+    "tagTranslations": {
+      "en": [
+        "esim",
+        "mobile"
+      ],
+      "ru": [
+        "eSIM",
+        "мобильный"
+      ],
+      "es": [
+        "eSIM",
+        "móvil"
+      ],
+      "pt-BR": [
+        "eSIM",
+        "celular"
+      ]
+    }
   },
   {
     "id": "net-scan",
@@ -881,7 +2459,35 @@
       "code"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Please scan this QR code",
+      "ru": "Отсканируйте этот код, пожалуйста",
+      "es": "Escanee este código, por favor",
+      "pt-BR": "Por favor, escaneie este código"
+    },
+    "tagTranslations": {
+      "en": [
+        "qr",
+        "scan",
+        "code"
+      ],
+      "ru": [
+        "QR",
+        "сканировать",
+        "код"
+      ],
+      "es": [
+        "QR",
+        "escanear",
+        "código"
+      ],
+      "pt-BR": [
+        "QR",
+        "escanear",
+        "código"
+      ]
+    }
   },
   {
     "id": "net-no-signal",
@@ -895,7 +2501,31 @@
       "mobile"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "There’s no signal here",
+      "ru": "Здесь нет сигнала",
+      "es": "Aquí no hay señal",
+      "pt-BR": "Aqui não tem sinal"
+    },
+    "tagTranslations": {
+      "en": [
+        "signal",
+        "mobile"
+      ],
+      "ru": [
+        "сигнал",
+        "мобильный"
+      ],
+      "es": [
+        "señal",
+        "móvil"
+      ],
+      "pt-BR": [
+        "sinal",
+        "celular"
+      ]
+    }
   },
   {
     "id": "net-charge",
@@ -909,7 +2539,31 @@
       "battery"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Where can I charge my phone?",
+      "ru": "Где можно зарядить телефон?",
+      "es": "¿Dónde puedo cargar el teléfono?",
+      "pt-BR": "Onde posso carregar o celular?"
+    },
+    "tagTranslations": {
+      "en": [
+        "charge",
+        "battery"
+      ],
+      "ru": [
+        "зарядка",
+        "батарея"
+      ],
+      "es": [
+        "cargar",
+        "batería"
+      ],
+      "pt-BR": [
+        "carregar",
+        "bateria"
+      ]
+    }
   },
   {
     "id": "em-help",
@@ -923,7 +2577,31 @@
       "emergency"
     ],
     "isEmergency": true,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Help!",
+      "ru": "На помощь!",
+      "es": "¡Socorro!",
+      "pt-BR": "Socorro!"
+    },
+    "tagTranslations": {
+      "en": [
+        "help",
+        "emergency"
+      ],
+      "ru": [
+        "помощь",
+        "экстренное"
+      ],
+      "es": [
+        "ayuda",
+        "emergencia"
+      ],
+      "pt-BR": [
+        "ajuda",
+        "emergência"
+      ]
+    }
   },
   {
     "id": "em-police",
@@ -937,7 +2615,31 @@
       "emergency"
     ],
     "isEmergency": true,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Please call the police for me",
+      "ru": "Вызовите, пожалуйста, полицию",
+      "es": "Llame a la policía, por favor",
+      "pt-BR": "Por favor, chame a polícia"
+    },
+    "tagTranslations": {
+      "en": [
+        "police",
+        "emergency"
+      ],
+      "ru": [
+        "полиция",
+        "экстренное"
+      ],
+      "es": [
+        "policía",
+        "emergencia"
+      ],
+      "pt-BR": [
+        "polícia",
+        "emergência"
+      ]
+    }
   },
   {
     "id": "em-ambulance",
@@ -952,7 +2654,35 @@
       "emergency"
     ],
     "isEmergency": true,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Please call an ambulance",
+      "ru": "Вызовите скорую",
+      "es": "Llame una ambulancia, por favor",
+      "pt-BR": "Por favor, chame uma ambulância"
+    },
+    "tagTranslations": {
+      "en": [
+        "ambulance",
+        "hospital",
+        "emergency"
+      ],
+      "ru": [
+        "скорая",
+        "больница",
+        "экстренное"
+      ],
+      "es": [
+        "ambulancia",
+        "hospital",
+        "emergencia"
+      ],
+      "pt-BR": [
+        "ambulância",
+        "hospital",
+        "emergência"
+      ]
+    }
   },
   {
     "id": "em-hospital",
@@ -966,7 +2696,31 @@
       "emergency"
     ],
     "isEmergency": true,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Where is the nearest hospital?",
+      "ru": "Где ближайшая больница?",
+      "es": "¿Dónde está el hospital más cercano?",
+      "pt-BR": "Onde fica o hospital mais próximo?"
+    },
+    "tagTranslations": {
+      "en": [
+        "hospital",
+        "emergency"
+      ],
+      "ru": [
+        "больница",
+        "экстренное"
+      ],
+      "es": [
+        "hospital",
+        "emergencia"
+      ],
+      "pt-BR": [
+        "hospital",
+        "emergência"
+      ]
+    }
   },
   {
     "id": "em-pharmacy",
@@ -980,7 +2734,31 @@
       "medicine"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "Is there a pharmacy nearby?",
+      "ru": "Рядом есть аптека?",
+      "es": "¿Hay una farmacia cerca?",
+      "pt-BR": "Tem uma farmácia por perto?"
+    },
+    "tagTranslations": {
+      "en": [
+        "pharmacy",
+        "medicine"
+      ],
+      "ru": [
+        "аптека",
+        "лекарство"
+      ],
+      "es": [
+        "farmacia",
+        "medicina"
+      ],
+      "pt-BR": [
+        "farmácia",
+        "remédio"
+      ]
+    }
   },
   {
     "id": "em-passport-lost",
@@ -995,7 +2773,41 @@
       "emergency"
     ],
     "isEmergency": true,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "I lost my passport",
+      "ru": "Я потерял паспорт",
+      "es": "He perdido el pasaporte",
+      "pt-BR": "Perdi o passaporte"
+    },
+    "usageNoteTranslations": {
+      "en": "Contact your embassy and local police.",
+      "ru": "Свяжитесь с посольством и полицией.",
+      "es": "Contacta tu embajada y la policía local.",
+      "pt-BR": "Contate sua embaixada e a polícia local."
+    },
+    "tagTranslations": {
+      "en": [
+        "passport",
+        "lost",
+        "emergency"
+      ],
+      "ru": [
+        "паспорт",
+        "потеря",
+        "экстренное"
+      ],
+      "es": [
+        "pasaporte",
+        "perdido",
+        "emergencia"
+      ],
+      "pt-BR": [
+        "passaporte",
+        "perdido",
+        "emergência"
+      ]
+    }
   },
   {
     "id": "em-stolen",
@@ -1010,7 +2822,35 @@
       "emergency"
     ],
     "isEmergency": true,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "My things were stolen",
+      "ru": "У меня украли вещи",
+      "es": "Me han robado las cosas",
+      "pt-BR": "Minhas coisas foram roubadas"
+    },
+    "tagTranslations": {
+      "en": [
+        "stolen",
+        "theft",
+        "emergency"
+      ],
+      "ru": [
+        "кража",
+        "кража",
+        "экстренное"
+      ],
+      "es": [
+        "robado",
+        "robo",
+        "emergencia"
+      ],
+      "pt-BR": [
+        "roubado",
+        "roubo",
+        "emergência"
+      ]
+    }
   },
   {
     "id": "em-feel-sick",
@@ -1024,7 +2864,31 @@
       "hospital"
     ],
     "isEmergency": false,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "I don’t feel well",
+      "ru": "Мне плохо",
+      "es": "No me siento bien",
+      "pt-BR": "Não estou me sentindo bem"
+    },
+    "tagTranslations": {
+      "en": [
+        "sick",
+        "hospital"
+      ],
+      "ru": [
+        "плохо",
+        "больница"
+      ],
+      "es": [
+        "enfermo",
+        "hospital"
+      ],
+      "pt-BR": [
+        "doente",
+        "hospital"
+      ]
+    }
   },
   {
     "id": "em-danger",
@@ -1038,6 +2902,30 @@
       "emergency"
     ],
     "isEmergency": true,
-    "possibleReplies": []
+    "possibleReplies": [],
+    "translations": {
+      "en": "This place is dangerous",
+      "ru": "Здесь опасно",
+      "es": "Este sitio es peligroso",
+      "pt-BR": "Este lugar é perigoso"
+    },
+    "tagTranslations": {
+      "en": [
+        "danger",
+        "emergency"
+      ],
+      "ru": [
+        "опасность",
+        "экстренное"
+      ],
+      "es": [
+        "peligro",
+        "emergencia"
+      ],
+      "pt-BR": [
+        "perigo",
+        "emergência"
+      ]
+    }
   }
 ]
