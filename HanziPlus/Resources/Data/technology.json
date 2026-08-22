@@ -8,14 +8,32 @@
       {
         "hanzi": "智能手机改变了生活。",
         "pinyin": "Zhìnéng shǒujī gǎibiàn le shēnghuó.",
-        "english": "Smartphones changed our lives."
+        "english": "Smartphones changed our lives.",
+        "translations": {
+          "en": "Smartphones changed our lives.",
+          "ru": "Смартфоны изменили жизнь.",
+          "es": "Los smartphones cambiaron nuestra vida.",
+          "pt-BR": "Os smartphones mudaram a nossa vida."
+        }
       },
       {
         "hanzi": "我换了新智能手机。",
         "pinyin": "Wǒ huàn le xīn zhìnéng shǒujī.",
-        "english": "I got a new smartphone."
+        "english": "I got a new smartphone.",
+        "translations": {
+          "en": "I got a new smartphone.",
+          "ru": "Я сменил смартфон.",
+          "es": "Me cambié de smartphone.",
+          "pt-BR": "Troquei de smartphone."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "smartphone",
+      "ru": "смартфон",
+      "es": "teléfono inteligente / smartphone",
+      "pt-BR": "smartphone"
+    }
   },
   {
     "section": "smartphones",
@@ -26,14 +44,32 @@
       {
         "hanzi": "这个屏幕很大。",
         "pinyin": "Zhège píngmù hěn dà.",
-        "english": "This screen is very large."
+        "english": "This screen is very large.",
+        "translations": {
+          "en": "This screen is very large.",
+          "ru": "Этот экран очень большой.",
+          "es": "Esta pantalla es enorme.",
+          "pt-BR": "Esta tela é enorme."
+        }
       },
       {
         "hanzi": "屏幕碎了要换。",
         "pinyin": "Píngmù suì le yào huàn.",
-        "english": "The cracked screen needs replacing."
+        "english": "The cracked screen needs replacing.",
+        "translations": {
+          "en": "The cracked screen needs replacing.",
+          "ru": "Разбитый экран нужно заменить.",
+          "es": "Hay que cambiar la pantalla rota.",
+          "pt-BR": "A tela quebrada precisa ser trocada."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "screen",
+      "ru": "экран",
+      "es": "pantalla",
+      "pt-BR": "tela"
+    }
   },
   {
     "section": "smartphones",
@@ -44,14 +80,32 @@
       {
         "hanzi": "手机快没电了，要充电。",
         "pinyin": "Shǒujī kuài méi diàn le, yào chōngdiàn.",
-        "english": "The phone is low, needs charging."
+        "english": "The phone is low, needs charging.",
+        "translations": {
+          "en": "The phone is low, needs charging.",
+          "ru": "Телефон почти сел, нужно зарядить.",
+          "es": "El teléfono está bajo, hay que cargarlo.",
+          "pt-BR": "O celular está fraco, precisa carregar."
+        }
       },
       {
         "hanzi": "充电器在桌上。",
         "pinyin": "Chōngdiànqì zài zhuō shàng.",
-        "english": "The charger is on the table."
+        "english": "The charger is on the table.",
+        "translations": {
+          "en": "The charger is on the table.",
+          "ru": "Зарядка на столе.",
+          "es": "El cargador está en la mesa.",
+          "pt-BR": "O carregador está na mesa."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to charge",
+      "ru": "заряжать",
+      "es": "cargar",
+      "pt-BR": "carregar"
+    }
   },
   {
     "section": "smartphones",
@@ -62,14 +116,32 @@
       {
         "hanzi": "你下载这个应用了吗？",
         "pinyin": "Nǐ xiàzài zhège yìngyòng le ma?",
-        "english": "Did you download this app?"
+        "english": "Did you download this app?",
+        "translations": {
+          "en": "Did you download this app?",
+          "ru": "Ты скачал это приложение?",
+          "es": "¿Descargaste esta app?",
+          "pt-BR": "Você baixou este app?"
+        }
       },
       {
         "hanzi": "这个应用很好用。",
         "pinyin": "Zhège yìngyòng hěn hǎo yòng.",
-        "english": "This app is very useful."
+        "english": "This app is very useful.",
+        "translations": {
+          "en": "This app is very useful.",
+          "ru": "Это приложение очень удобное.",
+          "es": "Esta app es muy útil.",
+          "pt-BR": "Este app é muito útil."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "app / application",
+      "ru": "приложение",
+      "es": "aplicación / app",
+      "pt-BR": "aplicativo / app"
+    }
   },
   {
     "section": "smartphones",
@@ -80,14 +152,32 @@
       {
         "hanzi": "请更新系统。",
         "pinyin": "Qǐng gēngxīn xìtǒng.",
-        "english": "Please update the system."
+        "english": "Please update the system.",
+        "translations": {
+          "en": "Please update the system.",
+          "ru": "Обновите систему.",
+          "es": "Actualice el sistema.",
+          "pt-BR": "Atualize o sistema."
+        }
       },
       {
         "hanzi": "应用有新版本更新。",
         "pinyin": "Yìngyòng yǒu xīn bǎnběn gēngxīn.",
-        "english": "The app has a new update."
+        "english": "The app has a new update.",
+        "translations": {
+          "en": "The app has a new update.",
+          "ru": "У приложения есть новое обновление.",
+          "es": "La app tiene una actualización nueva.",
+          "pt-BR": "O app tem uma atualização nova."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to update",
+      "ru": "обновлять / обновление",
+      "es": "actualizar / actualizar",
+      "pt-BR": "atualizar"
+    }
   },
   {
     "section": "smartphones",
@@ -98,14 +188,32 @@
       {
         "hanzi": "用指纹解锁手机。",
         "pinyin": "Yòng zhǐwén jiěsuǒ shǒujī.",
-        "english": "Unlock the phone with fingerprint."
+        "english": "Unlock the phone with fingerprint.",
+        "translations": {
+          "en": "Unlock the phone with fingerprint.",
+          "ru": "Разблокируйте телефон отпечатком.",
+          "es": "Desbloquee el teléfono con la huella.",
+          "pt-BR": "Desbloqueie o celular com a digital."
+        }
       },
       {
         "hanzi": "指纹识别很快。",
         "pinyin": "Zhǐwén shíbié hěn kuài.",
-        "english": "Fingerprint recognition is fast."
+        "english": "Fingerprint recognition is fast.",
+        "translations": {
+          "en": "Fingerprint recognition is fast.",
+          "ru": "Распознавание отпечатка очень быстрое.",
+          "es": "El reconocimiento de huella es rápido.",
+          "pt-BR": "O reconhecimento da digital é rápido."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "fingerprint",
+      "ru": "отпечаток пальца",
+      "es": "huella dactilar",
+      "pt-BR": "impressão digital"
+    }
   },
   {
     "section": "smartphones",
@@ -116,14 +224,32 @@
       {
         "hanzi": "手机拍照很方便。",
         "pinyin": "Shǒujī pāizhào hěn fāngbiàn.",
-        "english": "Phone photography is convenient."
+        "english": "Phone photography is convenient.",
+        "translations": {
+          "en": "Phone photography is convenient.",
+          "ru": "Снимать на телефон очень удобно.",
+          "es": "Fotografiar con el móvil es muy práctico.",
+          "pt-BR": "Tirar foto no celular é muito prático."
+        }
       },
       {
         "hanzi": "请帮我拍张照。",
         "pinyin": "Qǐng bāng wǒ pāi zhāng zhào.",
-        "english": "Please take a photo for me."
+        "english": "Please take a photo for me.",
+        "translations": {
+          "en": "Please take a photo for me.",
+          "ru": "Сфотографируйте меня, пожалуйста.",
+          "es": "Háganme una foto, por favor.",
+          "pt-BR": "Tira uma foto minha, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to take photos",
+      "ru": "фотографировать",
+      "es": "hacer fotos / fotografiar",
+      "pt-BR": "tirar foto / fotografar"
+    }
   },
   {
     "section": "smartphones",
@@ -134,14 +260,32 @@
       {
         "hanzi": "手机内存不够了。",
         "pinyin": "Shǒujī nèicún bú gòu le.",
-        "english": "Phone storage is full."
+        "english": "Phone storage is full.",
+        "translations": {
+          "en": "Phone storage is full.",
+          "ru": "Память телефона закончилась.",
+          "es": "El almacenamiento del móvil está lleno.",
+          "pt-BR": "O armazenamento do celular está cheio."
+        }
       },
       {
         "hanzi": "这个型号内存很大。",
         "pinyin": "Zhège xínghào nèicún hěn dà.",
-        "english": "This model has large storage."
+        "english": "This model has large storage.",
+        "translations": {
+          "en": "This model has large storage.",
+          "ru": "У этой модели большая память.",
+          "es": "Este modelo tiene mucho almacenamiento.",
+          "pt-BR": "Este modelo tem bastante armazenamento."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "storage / memory",
+      "ru": "память / хранилище",
+      "es": "almacenamiento / memoria",
+      "pt-BR": "armazenamento / memória"
+    }
   },
   {
     "section": "smartphones",
@@ -152,14 +296,32 @@
       {
         "hanzi": "这里手机信号不好。",
         "pinyin": "Zhèlǐ shǒujī xìnhào bù hǎo.",
-        "english": "Cell signal is poor here."
+        "english": "Cell signal is poor here.",
+        "translations": {
+          "en": "Cell signal is poor here.",
+          "ru": "Здесь плохой сигнал.",
+          "es": "Aquí la señal es mala.",
+          "pt-BR": "Aqui o sinal está ruim."
+        }
       },
       {
         "hanzi": "信号满格了。",
         "pinyin": "Xìnhào mǎn gé le.",
-        "english": "Signal is at full bars."
+        "english": "Signal is at full bars.",
+        "translations": {
+          "en": "Signal is at full bars.",
+          "ru": "Сигнал на полных делениях.",
+          "es": "La señal está al máximo.",
+          "pt-BR": "O sinal está no máximo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "signal",
+      "ru": "сигнал (связи)",
+      "es": "señal",
+      "pt-BR": "sinal"
+    }
   },
   {
     "section": "smartphones",
@@ -170,14 +332,32 @@
       {
         "hanzi": "请打开蓝牙。",
         "pinyin": "Qǐng dǎkāi lányá.",
-        "english": "Please turn on Bluetooth."
+        "english": "Please turn on Bluetooth.",
+        "translations": {
+          "en": "Please turn on Bluetooth.",
+          "ru": "Включите Bluetooth.",
+          "es": "Active el Bluetooth.",
+          "pt-BR": "Ligue o Bluetooth."
+        }
       },
       {
         "hanzi": "耳机通过蓝牙连接。",
         "pinyin": "Ěrjī tōngguò lányá liánjiē.",
-        "english": "Headphones connect via Bluetooth."
+        "english": "Headphones connect via Bluetooth.",
+        "translations": {
+          "en": "Headphones connect via Bluetooth.",
+          "ru": "Наушники подключаются по Bluetooth.",
+          "es": "Los auriculares se conectan por Bluetooth.",
+          "pt-BR": "O fone conecta via Bluetooth."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Bluetooth",
+      "ru": "Bluetooth",
+      "es": "Bluetooth",
+      "pt-BR": "Bluetooth"
+    }
   },
   {
     "section": "computers",
@@ -188,14 +368,32 @@
       {
         "hanzi": "我的电脑运行很慢。",
         "pinyin": "Wǒ de diànnǎo yùnxíng hěn màn.",
-        "english": "My computer runs slowly."
+        "english": "My computer runs slowly.",
+        "translations": {
+          "en": "My computer runs slowly.",
+          "ru": "Мой компьютер работает медленно.",
+          "es": "Mi ordenador va lento.",
+          "pt-BR": "Meu computador está lento."
+        }
       },
       {
         "hanzi": "请重启电脑试试。",
         "pinyin": "Qǐng chóngqǐ diànnǎo shìshi.",
-        "english": "Try restarting the computer."
+        "english": "Try restarting the computer.",
+        "translations": {
+          "en": "Try restarting the computer.",
+          "ru": "Попробуйте перезагрузить компьютер.",
+          "es": "Pruebe a reiniciar el ordenador.",
+          "pt-BR": "Tente reiniciar o computador."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "computer",
+      "ru": "компьютер",
+      "es": "ordenador / computadora",
+      "pt-BR": "computador"
+    }
   },
   {
     "section": "computers",
@@ -206,14 +404,32 @@
       {
         "hanzi": "我上班带笔记本。",
         "pinyin": "Wǒ shàngbān dài bǐjìběn.",
-        "english": "I bring my laptop to work."
+        "english": "I bring my laptop to work.",
+        "translations": {
+          "en": "I bring my laptop to work.",
+          "ru": "На работу я беру ноутбук.",
+          "es": "Llevo el portátil al trabajo.",
+          "pt-BR": "Levo o notebook para o trabalho."
+        }
       },
       {
         "hanzi": "这台笔记本很轻。",
         "pinyin": "Zhè tái bǐjìběn hěn qīng.",
-        "english": "This laptop is very light."
+        "english": "This laptop is very light.",
+        "translations": {
+          "en": "This laptop is very light.",
+          "ru": "Этот ноутбук очень лёгкий.",
+          "es": "Este portátil es muy ligero.",
+          "pt-BR": "Este notebook é bem leve."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "laptop",
+      "ru": "ноутбук",
+      "es": "portátil / laptop",
+      "pt-BR": "notebook / laptop"
+    }
   },
   {
     "section": "computers",
@@ -224,14 +440,32 @@
       {
         "hanzi": "键盘有一个键坏了。",
         "pinyin": "Jiànpán yǒu yī gè jiàn huài le.",
-        "english": "One key on the keyboard is broken."
+        "english": "One key on the keyboard is broken.",
+        "translations": {
+          "en": "One key on the keyboard is broken.",
+          "ru": "На клавиатуре сломалась одна клавиша.",
+          "es": "Una tecla del teclado está rota.",
+          "pt-BR": "Uma tecla do teclado está quebrada."
+        }
       },
       {
         "hanzi": "请连接无线键盘。",
         "pinyin": "Qǐng liánjiē wúxiàn jiànpán.",
-        "english": "Please connect the wireless keyboard."
+        "english": "Please connect the wireless keyboard.",
+        "translations": {
+          "en": "Please connect the wireless keyboard.",
+          "ru": "Подключите беспроводную клавиатуру.",
+          "es": "Conecte el teclado inalámbrico.",
+          "pt-BR": "Conecte o teclado sem fio."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "keyboard",
+      "ru": "клавиатура",
+      "es": "teclado",
+      "pt-BR": "teclado"
+    }
   },
   {
     "section": "computers",
@@ -242,14 +476,32 @@
       {
         "hanzi": "鼠标不灵敏了。",
         "pinyin": "Shǔbiāo bù língmǐn le.",
-        "english": "The mouse isn't responsive."
+        "english": "The mouse isn't responsive.",
+        "translations": {
+          "en": "The mouse isn't responsive.",
+          "ru": "Мышь плохо реагирует.",
+          "es": "El ratón no responde bien.",
+          "pt-BR": "O mouse não responde bem."
+        }
       },
       {
         "hanzi": "我习惯用无线鼠标。",
         "pinyin": "Wǒ xíguàn yòng wúxiàn shǔbiāo.",
-        "english": "I prefer a wireless mouse."
+        "english": "I prefer a wireless mouse.",
+        "translations": {
+          "en": "I prefer a wireless mouse.",
+          "ru": "Я привык к беспроводной мыши.",
+          "es": "Prefiero el ratón inalámbrico.",
+          "pt-BR": "Prefiro mouse sem fio."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "mouse",
+      "ru": "мышь",
+      "es": "ratón",
+      "pt-BR": "mouse"
+    }
   },
   {
     "section": "computers",
@@ -260,14 +512,32 @@
       {
         "hanzi": "请安装这个软件。",
         "pinyin": "Qǐng ānzhuāng zhège ruǎnjiàn.",
-        "english": "Please install this software."
+        "english": "Please install this software.",
+        "translations": {
+          "en": "Please install this software.",
+          "ru": "Установите эту программу.",
+          "es": "Instale este software.",
+          "pt-BR": "Instale este software."
+        }
       },
       {
         "hanzi": "软件崩溃了。",
         "pinyin": "Ruǎnjiàn bēngkuì le.",
-        "english": "The software crashed."
+        "english": "The software crashed.",
+        "translations": {
+          "en": "The software crashed.",
+          "ru": "Программа зависла.",
+          "es": "El software se bloqueó.",
+          "pt-BR": "O software travou."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "software",
+      "ru": "программное обеспечение / софт",
+      "es": "software",
+      "pt-BR": "software"
+    }
   },
   {
     "section": "computers",
@@ -278,14 +548,32 @@
       {
         "hanzi": "硬盘空间不足。",
         "pinyin": "Yìngpán kōngjiān bùzú.",
-        "english": "Hard drive space is insufficient."
+        "english": "Hard drive space is insufficient.",
+        "translations": {
+          "en": "Hard drive space is insufficient.",
+          "ru": "Места на диске не хватает.",
+          "es": "No hay espacio en el disco duro.",
+          "pt-BR": "Não há espaço no HD."
+        }
       },
       {
         "hanzi": "我换了一个固态硬盘。",
         "pinyin": "Wǒ huàn le yī gè gùtài yìngpán.",
-        "english": "I replaced it with a solid-state drive."
+        "english": "I replaced it with a solid-state drive.",
+        "translations": {
+          "en": "I replaced it with a solid-state drive.",
+          "ru": "Я поставил SSD.",
+          "es": "Lo cambié por un disco de estado sólido.",
+          "pt-BR": "Troquei por um SSD."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "hard drive",
+      "ru": "жёсткий диск",
+      "es": "disco duro",
+      "pt-BR": "disco rígido / HD"
+    }
   },
   {
     "section": "computers",
@@ -296,14 +584,32 @@
       {
         "hanzi": "请定期备份数据。",
         "pinyin": "Qǐng dìngqī bèifèn shùjù.",
-        "english": "Please back up data regularly."
+        "english": "Please back up data regularly.",
+        "translations": {
+          "en": "Please back up data regularly.",
+          "ru": "Регулярно делайте резервные копии.",
+          "es": "Haga copias de seguridad con regularidad.",
+          "pt-BR": "Faça backup com regularidade."
+        }
       },
       {
         "hanzi": "我已经备份到云端了。",
         "pinyin": "Wǒ yǐjīng bèifèn dào yúnduān le.",
-        "english": "I've backed up to the cloud."
+        "english": "I've backed up to the cloud.",
+        "translations": {
+          "en": "I've backed up to the cloud.",
+          "ru": "Я уже сохранил копию в облаке.",
+          "es": "Ya hice la copia en la nube.",
+          "pt-BR": "Já fiz o backup na nuvem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to back up",
+      "ru": "делать резервную копию / бэкап",
+      "es": "hacer copia de seguridad",
+      "pt-BR": "fazer backup"
+    }
   },
   {
     "section": "computers",
@@ -314,14 +620,32 @@
       {
         "hanzi": "重启电脑试试。",
         "pinyin": "Chóngqǐ diànnǎo shìshi.",
-        "english": "Try restarting the computer."
+        "english": "Try restarting the computer.",
+        "translations": {
+          "en": "Try restarting the computer.",
+          "ru": "Попробуйте перезагрузить компьютер.",
+          "es": "Pruebe a reiniciar el ordenador.",
+          "pt-BR": "Tente reiniciar o computador."
+        }
       },
       {
         "hanzi": "更新后需要重启。",
         "pinyin": "Gēngxīn hòu xūyào chóngqǐ.",
-        "english": "A restart is required after updating."
+        "english": "A restart is required after updating.",
+        "translations": {
+          "en": "A restart is required after updating.",
+          "ru": "После обновления нужна перезагрузка.",
+          "es": "Tras actualizar hay que reiniciar.",
+          "pt-BR": "Depois de atualizar é preciso reiniciar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to restart",
+      "ru": "перезагружать",
+      "es": "reiniciar",
+      "pt-BR": "reiniciar"
+    }
   },
   {
     "section": "computers",
@@ -332,14 +656,32 @@
       {
         "hanzi": "我买了两个显示器。",
         "pinyin": "Wǒ mǎi le liǎng gè xiǎnshìqì.",
-        "english": "I bought two monitors."
+        "english": "I bought two monitors.",
+        "translations": {
+          "en": "I bought two monitors.",
+          "ru": "Я купил два монитора.",
+          "es": "Compré dos monitores.",
+          "pt-BR": "Comprei dois monitores."
+        }
       },
       {
         "hanzi": "显示器分辨率很高。",
         "pinyin": "Xiǎnshìqì fēnbiànlǜ hěn gāo.",
-        "english": "The monitor has high resolution."
+        "english": "The monitor has high resolution.",
+        "translations": {
+          "en": "The monitor has high resolution.",
+          "ru": "У монитора высокое разрешение.",
+          "es": "El monitor tiene mucha resolución.",
+          "pt-BR": "O monitor tem alta resolução."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "monitor",
+      "ru": "монитор",
+      "es": "monitor / pantalla",
+      "pt-BR": "monitor"
+    }
   },
   {
     "section": "computers",
@@ -350,14 +692,32 @@
       {
         "hanzi": "文件保存在桌面。",
         "pinyin": "Wénjiàn bǎocún zài zhuōmiàn.",
-        "english": "The file is saved on the desktop."
+        "english": "The file is saved on the desktop.",
+        "translations": {
+          "en": "The file is saved on the desktop.",
+          "ru": "Файл сохранён на рабочем столе.",
+          "es": "El archivo está guardado en el escritorio.",
+          "pt-BR": "O arquivo está salvo na área de trabalho."
+        }
       },
       {
         "hanzi": "请把这个文件发给我。",
         "pinyin": "Qǐng bǎ zhège wénjiàn fā gěi wǒ.",
-        "english": "Please send me this file."
+        "english": "Please send me this file.",
+        "translations": {
+          "en": "Please send me this file.",
+          "ru": "Пришлите мне этот файл.",
+          "es": "Envíeme este archivo.",
+          "pt-BR": "Me envie este arquivo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "file",
+      "ru": "файл / документ",
+      "es": "archivo / fichero",
+      "pt-BR": "arquivo"
+    }
   },
   {
     "section": "internet",
@@ -368,14 +728,32 @@
       {
         "hanzi": "互联网改变了世界。",
         "pinyin": "Hùliánwǎng gǎibiàn le shìjiè.",
-        "english": "The internet changed the world."
+        "english": "The internet changed the world.",
+        "translations": {
+          "en": "The internet changed the world.",
+          "ru": "Интернет изменил мир.",
+          "es": "Internet cambió el mundo.",
+          "pt-BR": "A internet mudou o mundo."
+        }
       },
       {
         "hanzi": "没有互联网我无法工作。",
         "pinyin": "Méiyǒu hùliánwǎng wǒ wúfǎ gōngzuò.",
-        "english": "I can't work without the internet."
+        "english": "I can't work without the internet.",
+        "translations": {
+          "en": "I can't work without the internet.",
+          "ru": "Без интернета я не могу работать.",
+          "es": "Sin internet no puedo trabajar.",
+          "pt-BR": "Sem internet não consigo trabalhar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "internet",
+      "ru": "интернет",
+      "es": "internet",
+      "pt-BR": "internet"
+    }
   },
   {
     "section": "internet",
@@ -386,14 +764,32 @@
       {
         "hanzi": "请访问我们的网站。",
         "pinyin": "Qǐng fǎngwèn wǒmen de wǎngzhàn.",
-        "english": "Please visit our website."
+        "english": "Please visit our website.",
+        "translations": {
+          "en": "Please visit our website.",
+          "ru": "Зайдите на наш сайт.",
+          "es": "Visite nuestro sitio web.",
+          "pt-BR": "Visite o nosso site."
+        }
       },
       {
         "hanzi": "这个网站加载很慢。",
         "pinyin": "Zhège wǎngzhàn jiāzài hěn màn.",
-        "english": "This website loads slowly."
+        "english": "This website loads slowly.",
+        "translations": {
+          "en": "This website loads slowly.",
+          "ru": "Этот сайт загружается медленно.",
+          "es": "Este sitio carga muy lento.",
+          "pt-BR": "Este site carrega muito lento."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "website",
+      "ru": "сайт / веб-сайт",
+      "es": "sitio web",
+      "pt-BR": "site / website"
+    }
   },
   {
     "section": "internet",
@@ -404,14 +800,32 @@
       {
         "hanzi": "请换一个浏览器试试。",
         "pinyin": "Qǐng huàn yī gè liúlǎnqì shìshi.",
-        "english": "Try a different browser."
+        "english": "Try a different browser.",
+        "translations": {
+          "en": "Try a different browser.",
+          "ru": "Попробуйте другой браузер.",
+          "es": "Pruebe otro navegador.",
+          "pt-BR": "Tente outro navegador."
+        }
       },
       {
         "hanzi": "浏览器需要更新。",
         "pinyin": "Liúlǎnqì xūyào gēngxīn.",
-        "english": "The browser needs updating."
+        "english": "The browser needs updating.",
+        "translations": {
+          "en": "The browser needs updating.",
+          "ru": "Браузер нужно обновить.",
+          "es": "El navegador necesita una actualización.",
+          "pt-BR": "O navegador precisa de atualização."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "browser",
+      "ru": "браузер",
+      "es": "navegador",
+      "pt-BR": "navegador"
+    }
   },
   {
     "section": "internet",
@@ -422,14 +836,32 @@
       {
         "hanzi": "请下载最新版本。",
         "pinyin": "Qǐng xiàzài zuìxīn bǎnběn.",
-        "english": "Please download the latest version."
+        "english": "Please download the latest version.",
+        "translations": {
+          "en": "Please download the latest version.",
+          "ru": "Скачайте последнюю версию.",
+          "es": "Descargue la última versión.",
+          "pt-BR": "Baixe a versão mais recente."
+        }
       },
       {
         "hanzi": "文件正在下载。",
         "pinyin": "Wénjiàn zhèngzài xiàzài.",
-        "english": "The file is downloading."
+        "english": "The file is downloading.",
+        "translations": {
+          "en": "The file is downloading.",
+          "ru": "Файл скачивается.",
+          "es": "El archivo se está descargando.",
+          "pt-BR": "O arquivo está baixando."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to download",
+      "ru": "скачивать / загружать",
+      "es": "descargar",
+      "pt-BR": "baixar / fazer download"
+    }
   },
   {
     "section": "internet",
@@ -440,14 +872,32 @@
       {
         "hanzi": "请上传你的简历。",
         "pinyin": "Qǐng shàngchuán nǐ de jiǎnlì.",
-        "english": "Please upload your resume."
+        "english": "Please upload your resume.",
+        "translations": {
+          "en": "Please upload your resume.",
+          "ru": "Загрузите резюме.",
+          "es": "Suba su currículum.",
+          "pt-BR": "Envie o seu currículo."
+        }
       },
       {
         "hanzi": "视频上传完成了。",
         "pinyin": "Shìpín shàngchuán wánchéng le.",
-        "english": "Video upload is complete."
+        "english": "Video upload is complete.",
+        "translations": {
+          "en": "Video upload is complete.",
+          "ru": "Видео уже загружено.",
+          "es": "La subida del vídeo terminó.",
+          "pt-BR": "O upload do vídeo terminou."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to upload",
+      "ru": "загружать на сервер / выкладывать",
+      "es": "subir / cargar (upload)",
+      "pt-BR": "enviar / fazer upload"
+    }
   },
   {
     "section": "internet",
@@ -458,14 +908,32 @@
       {
         "hanzi": "请在网上搜索一下。",
         "pinyin": "Qǐng zài wǎngshàng sōusuǒ yīxià.",
-        "english": "Please search online."
+        "english": "Please search online.",
+        "translations": {
+          "en": "Please search online.",
+          "ru": "Поищите в интернете.",
+          "es": "Búsquelo en internet.",
+          "pt-BR": "Pesquise na internet."
+        }
       },
       {
         "hanzi": "搜索引擎很快。",
         "pinyin": "Sōusuǒ yǐnqíng hěn kuài.",
-        "english": "The search engine is fast."
+        "english": "The search engine is fast.",
+        "translations": {
+          "en": "The search engine is fast.",
+          "ru": "Поисковик работает быстро.",
+          "es": "El buscador es rápido.",
+          "pt-BR": "O buscador é rápido."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to search",
+      "ru": "искать / поиск",
+      "es": "buscar / buscar en internet",
+      "pt-BR": "pesquisar / buscar"
+    }
   },
   {
     "section": "internet",
@@ -476,14 +944,32 @@
       {
         "hanzi": "请点击这个链接。",
         "pinyin": "Qǐng diǎnjī zhège liànjiē.",
-        "english": "Please click this link."
+        "english": "Please click this link.",
+        "translations": {
+          "en": "Please click this link.",
+          "ru": "Нажмите на эту ссылку.",
+          "es": "Haga clic en este enlace.",
+          "pt-BR": "Clique neste link."
+        }
       },
       {
         "hanzi": "链接已经失效了。",
         "pinyin": "Liànjiē yǐjīng shīxiào le.",
-        "english": "The link has expired."
+        "english": "The link has expired.",
+        "translations": {
+          "en": "The link has expired.",
+          "ru": "Ссылка уже недействительна.",
+          "es": "El enlace caducó.",
+          "pt-BR": "O link expirou."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "link",
+      "ru": "ссылка",
+      "es": "enlace / vínculo",
+      "pt-BR": "link"
+    }
   },
   {
     "section": "internet",
@@ -494,14 +980,32 @@
       {
         "hanzi": "请设置强密码。",
         "pinyin": "Qǐng shèzhì qiáng mìmǎ.",
-        "english": "Please set a strong password."
+        "english": "Please set a strong password.",
+        "translations": {
+          "en": "Please set a strong password.",
+          "ru": "Установите надёжный пароль.",
+          "es": "Ponga una contraseña fuerte.",
+          "pt-BR": "Coloque uma senha forte."
+        }
       },
       {
         "hanzi": "我忘了密码。",
         "pinyin": "Wǒ wàng le mìmǎ.",
-        "english": "I forgot my password."
+        "english": "I forgot my password.",
+        "translations": {
+          "en": "I forgot my password.",
+          "ru": "Я забыл пароль.",
+          "es": "Olvidé la contraseña.",
+          "pt-BR": "Esqueci a senha."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "password",
+      "ru": "пароль",
+      "es": "contraseña",
+      "pt-BR": "senha"
+    }
   },
   {
     "section": "internet",
@@ -512,14 +1016,32 @@
       {
         "hanzi": "WiFi密码是什么？",
         "pinyin": "WiFi mìmǎ shì shénme?",
-        "english": "What's the WiFi password?"
+        "english": "What's the WiFi password?",
+        "translations": {
+          "en": "What's the WiFi password?",
+          "ru": "Какой пароль от Wi-Fi?",
+          "es": "¿Cuál es la contraseña del Wi-Fi?",
+          "pt-BR": "Qual é a senha do Wi-Fi?"
+        }
       },
       {
         "hanzi": "这里WiFi信号很强。",
         "pinyin": "Zhèlǐ WiFi xìnhào hěn qiáng.",
-        "english": "WiFi signal is strong here."
+        "english": "WiFi signal is strong here.",
+        "translations": {
+          "en": "WiFi signal is strong here.",
+          "ru": "Здесь сильный сигнал Wi-Fi.",
+          "es": "Aquí la señal Wi-Fi es fuerte.",
+          "pt-BR": "Aqui o sinal de Wi-Fi é forte."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "WiFi",
+      "ru": "Wi-Fi",
+      "es": "Wi-Fi",
+      "pt-BR": "Wi-Fi"
+    }
   },
   {
     "section": "internet",
@@ -530,14 +1052,32 @@
       {
         "hanzi": "数据保存在云端。",
         "pinyin": "Shùjù bǎocún zài yúnduān.",
-        "english": "Data is stored in the cloud."
+        "english": "Data is stored in the cloud.",
+        "translations": {
+          "en": "Data is stored in the cloud.",
+          "ru": "Данные хранятся в облаке.",
+          "es": "Los datos están en la nube.",
+          "pt-BR": "Os dados estão na nuvem."
+        }
       },
       {
         "hanzi": "云端同步完成了。",
         "pinyin": "Yúnduān tóngbù wánchéng le.",
-        "english": "Cloud sync is complete."
+        "english": "Cloud sync is complete.",
+        "translations": {
+          "en": "Cloud sync is complete.",
+          "ru": "Синхронизация с облаком завершена.",
+          "es": "La sincronización en la nube terminó.",
+          "pt-BR": "A sincronização na nuvem terminou."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "cloud",
+      "ru": "облако / облачное хранилище",
+      "es": "nube / almacenamiento en la nube",
+      "pt-BR": "nuvem / armazenamento na nuvem"
+    }
   },
   {
     "section": "ai",
@@ -548,14 +1088,32 @@
       {
         "hanzi": "人工智能发展很快。",
         "pinyin": "Rén gōng zhìnéng fāzhǎn hěn kuài.",
-        "english": "AI is developing rapidly."
+        "english": "AI is developing rapidly.",
+        "translations": {
+          "en": "AI is developing rapidly.",
+          "ru": "ИИ развивается очень быстро.",
+          "es": "La IA avanza muy rápido.",
+          "pt-BR": "A IA avança muito rápido."
+        }
       },
       {
         "hanzi": "人工智能改变了很多行业。",
         "pinyin": "Rén gōng zhìnéng gǎibiàn le hěn duō hángyè.",
-        "english": "AI has transformed many industries."
+        "english": "AI has transformed many industries.",
+        "translations": {
+          "en": "AI has transformed many industries.",
+          "ru": "ИИ изменил многие отрасли.",
+          "es": "La IA transformó muchos sectores.",
+          "pt-BR": "A IA transformou muitos setores."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "artificial intelligence",
+      "ru": "искусственный интеллект",
+      "es": "inteligencia artificial",
+      "pt-BR": "inteligência artificial"
+    }
   },
   {
     "section": "ai",
@@ -566,14 +1124,32 @@
       {
         "hanzi": "推荐算法很精准。",
         "pinyin": "Tuījiàn suànfǎ hěn jīngzhǔn.",
-        "english": "The recommendation algorithm is accurate."
+        "english": "The recommendation algorithm is accurate.",
+        "translations": {
+          "en": "The recommendation algorithm is accurate.",
+          "ru": "Алгоритм рекомендаций очень точный.",
+          "es": "El algoritmo de recomendación es muy preciso.",
+          "pt-BR": "O algoritmo de recomendação é bem preciso."
+        }
       },
       {
         "hanzi": "算法需要不断优化。",
         "pinyin": "Suànfǎ xūyào bùduàn yōuhuà.",
-        "english": "Algorithms need constant optimization."
+        "english": "Algorithms need constant optimization.",
+        "translations": {
+          "en": "Algorithms need constant optimization.",
+          "ru": "Алгоритмы нужно постоянно улучшать.",
+          "es": "Los algoritmos hay que optimizarlos siempre.",
+          "pt-BR": "Os algoritmos precisam ser otimizados sempre."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "algorithm",
+      "ru": "алгоритм",
+      "es": "algoritmo",
+      "pt-BR": "algoritmo"
+    }
   },
   {
     "section": "ai",
@@ -584,14 +1160,32 @@
       {
         "hanzi": "这个语言模型很强大。",
         "pinyin": "Zhège yǔyán móxíng hěn qiángdà.",
-        "english": "This language model is powerful."
+        "english": "This language model is powerful.",
+        "translations": {
+          "en": "This language model is powerful.",
+          "ru": "Эта языковая модель очень мощная.",
+          "es": "Este modelo de lenguaje es muy potente.",
+          "pt-BR": "Este modelo de linguagem é muito poderoso."
+        }
       },
       {
         "hanzi": "模型需要大量数据训练。",
         "pinyin": "Móxíng xūyào dàliàng shùjù xùnliàn.",
-        "english": "Models need large datasets to train."
+        "english": "Models need large datasets to train.",
+        "translations": {
+          "en": "Models need large datasets to train.",
+          "ru": "Модели нужно много данных для обучения.",
+          "es": "Los modelos necesitan muchos datos para entrenarse.",
+          "pt-BR": "Os modelos precisam de muitos dados para treinar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "model (AI)",
+      "ru": "модель (ИИ)",
+      "es": "modelo (IA)",
+      "pt-BR": "modelo (IA)"
+    }
   },
   {
     "section": "ai",
@@ -602,14 +1196,32 @@
       {
         "hanzi": "模型训练需要很多时间。",
         "pinyin": "Móxíng xùnliàn xūyào hěn duō shíjiān.",
-        "english": "Model training takes a lot of time."
+        "english": "Model training takes a lot of time.",
+        "translations": {
+          "en": "Model training takes a lot of time.",
+          "ru": "Обучение модели занимает много времени.",
+          "es": "Entrenar el modelo lleva mucho tiempo.",
+          "pt-BR": "Treinar o modelo leva muito tempo."
+        }
       },
       {
         "hanzi": "他们在训练新的AI。",
         "pinyin": "Tāmen zài xùnliàn xīn de AI.",
-        "english": "They're training a new AI."
+        "english": "They're training a new AI.",
+        "translations": {
+          "en": "They're training a new AI.",
+          "ru": "Они обучают новый ИИ.",
+          "es": "Están entrenando una IA nueva.",
+          "pt-BR": "Eles estão treinando uma IA nova."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to train (AI)",
+      "ru": "обучать (модель ИИ)",
+      "es": "entrenar (IA)",
+      "pt-BR": "treinar (IA)"
+    }
   },
   {
     "section": "ai",
@@ -620,14 +1232,32 @@
       {
         "hanzi": "人脸识别很快。",
         "pinyin": "Rénliǎn shíbié hěn kuài.",
-        "english": "Face recognition is fast."
+        "english": "Face recognition is fast.",
+        "translations": {
+          "en": "Face recognition is fast.",
+          "ru": "Распознавание лиц очень быстрое.",
+          "es": "El reconocimiento facial es rápido.",
+          "pt-BR": "O reconhecimento facial é rápido."
+        }
       },
       {
         "hanzi": "语音识别准确率很高。",
         "pinyin": "Yǔyīn shíbié zhǔnquèlǜ hěn gāo.",
-        "english": "Speech recognition accuracy is high."
+        "english": "Speech recognition accuracy is high.",
+        "translations": {
+          "en": "Speech recognition accuracy is high.",
+          "ru": "Точность распознавания речи высокая.",
+          "es": "La precisión del reconocimiento de voz es alta.",
+          "pt-BR": "A precisão do reconhecimento de voz é alta."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "recognition / to recognize",
+      "ru": "распознавание / распознавать",
+      "es": "reconocimiento / reconocer",
+      "pt-BR": "reconhecimento / reconhecer"
+    }
   },
   {
     "section": "ai",
@@ -638,14 +1268,32 @@
       {
         "hanzi": "工厂实现了自动化。",
         "pinyin": "Gōngchǎng shíxiàn le zìdònghuà.",
-        "english": "The factory achieved automation."
+        "english": "The factory achieved automation.",
+        "translations": {
+          "en": "The factory achieved automation.",
+          "ru": "Завод автоматизировали.",
+          "es": "La fábrica se automatizó.",
+          "pt-BR": "A fábrica foi automatizada."
+        }
       },
       {
         "hanzi": "自动化提高了效率。",
         "pinyin": "Zìdònghuà tígāo le xiàolǜ.",
-        "english": "Automation improved efficiency."
+        "english": "Automation improved efficiency.",
+        "translations": {
+          "en": "Automation improved efficiency.",
+          "ru": "Автоматизация повысила эффективность.",
+          "es": "La automatización mejoró la eficiencia.",
+          "pt-BR": "A automação melhorou a eficiência."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "automation",
+      "ru": "автоматизация",
+      "es": "automatización",
+      "pt-BR": "automação"
+    }
   },
   {
     "section": "ai",
@@ -656,14 +1304,32 @@
       {
         "hanzi": "这是智能家居系统。",
         "pinyin": "Zhè shì zhìnéng jiājū xìtǒng.",
-        "english": "This is a smart home system."
+        "english": "This is a smart home system.",
+        "translations": {
+          "en": "This is a smart home system.",
+          "ru": "Это система умного дома.",
+          "es": "Este es un sistema de hogar inteligente.",
+          "pt-BR": "Este é um sistema de casa inteligente."
+        }
       },
       {
         "hanzi": "智能助手可以回答问题。",
         "pinyin": "Zhìnéng zhùshǒu kěyǐ huídá wèntí.",
-        "english": "Smart assistants can answer questions."
+        "english": "Smart assistants can answer questions.",
+        "translations": {
+          "en": "Smart assistants can answer questions.",
+          "ru": "Умный помощник может отвечать на вопросы.",
+          "es": "El asistente inteligente puede responder preguntas.",
+          "pt-BR": "O assistente inteligente pode responder perguntas."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "smart / intelligent",
+      "ru": "умный / интеллектуальный",
+      "es": "inteligente / smart",
+      "pt-BR": "inteligente / smart"
+    }
   },
   {
     "section": "ai",
@@ -674,14 +1340,32 @@
       {
         "hanzi": "数据安全很重要。",
         "pinyin": "Shùjù ānquán hěn zhòngyào.",
-        "english": "Data security is important."
+        "english": "Data security is important.",
+        "translations": {
+          "en": "Data security is important.",
+          "ru": "Безопасность данных очень важна.",
+          "es": "La seguridad de los datos es importante.",
+          "pt-BR": "A segurança dos dados é importante."
+        }
       },
       {
         "hanzi": "请分析这些数据。",
         "pinyin": "Qǐng fēnxī zhèxiē shùjù.",
-        "english": "Please analyze this data."
+        "english": "Please analyze this data.",
+        "translations": {
+          "en": "Please analyze this data.",
+          "ru": "Проанализируйте эти данные.",
+          "es": "Analice estos datos.",
+          "pt-BR": "Analise estes dados."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "data",
+      "ru": "данные",
+      "es": "datos",
+      "pt-BR": "dados"
+    }
   },
   {
     "section": "ai",
@@ -692,14 +1376,32 @@
       {
         "hanzi": "机器学习是AI的基础。",
         "pinyin": "Jīqì xuéxí shì AI de jīchǔ.",
-        "english": "Machine learning is the foundation of AI."
+        "english": "Machine learning is the foundation of AI.",
+        "translations": {
+          "en": "Machine learning is the foundation of AI.",
+          "ru": "Машинное обучение — основа ИИ.",
+          "es": "El aprendizaje automático es la base de la IA.",
+          "pt-BR": "O aprendizado de máquina é a base da IA."
+        }
       },
       {
         "hanzi": "他在学机器学习。",
         "pinyin": "Tā zài xué jīqì xuéxí.",
-        "english": "He's studying machine learning."
+        "english": "He's studying machine learning.",
+        "translations": {
+          "en": "He's studying machine learning.",
+          "ru": "Он изучает машинное обучение.",
+          "es": "Estudia aprendizaje automático.",
+          "pt-BR": "Ele estuda aprendizado de máquina."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "machine learning",
+      "ru": "машинное обучение",
+      "es": "aprendizaje automático",
+      "pt-BR": "aprendizado de máquina"
+    }
   },
   {
     "section": "ai",
@@ -710,14 +1412,32 @@
       {
         "hanzi": "客服是聊天机器人。",
         "pinyin": "Kèfú shì liáotiān jīqìrén.",
-        "english": "Customer service is a chatbot."
+        "english": "Customer service is a chatbot.",
+        "translations": {
+          "en": "Customer service is a chatbot.",
+          "ru": "Служба поддержки — чат-бот.",
+          "es": "La atención al cliente es un chatbot.",
+          "pt-BR": "O atendimento é um chatbot."
+        }
       },
       {
         "hanzi": "聊天机器人回答很快。",
         "pinyin": "Liáotiān jīqìrén huídá hěn kuài.",
-        "english": "The chatbot responds quickly."
+        "english": "The chatbot responds quickly.",
+        "translations": {
+          "en": "The chatbot responds quickly.",
+          "ru": "Чат-бот отвечает очень быстро.",
+          "es": "El chatbot responde muy rápido.",
+          "pt-BR": "O chatbot responde muito rápido."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "chatbot",
+      "ru": "чат-бот",
+      "es": "chatbot",
+      "pt-BR": "chatbot"
+    }
   },
   {
     "section": "social_media",
@@ -728,14 +1448,32 @@
       {
         "hanzi": "他在朋友圈发了照片。",
         "pinyin": "Tā zài péngyou quān fā le zhàopiàn.",
-        "english": "He posted photos on Moments."
+        "english": "He posted photos on Moments.",
+        "translations": {
+          "en": "He posted photos on Moments.",
+          "ru": "Он выложил фото в «Моменты».",
+          "es": "Publicó fotos en Momentos.",
+          "pt-BR": "Ele postou fotos nos Momentos."
+        }
       },
       {
         "hanzi": "别什么都发在朋友圈。",
         "pinyin": "Bié shénme dōu fā zài péngyou quān.",
-        "english": "Don't post everything on Moments."
+        "english": "Don't post everything on Moments.",
+        "translations": {
+          "en": "Don't post everything on Moments.",
+          "ru": "Не выкладывайте всё в «Моменты».",
+          "es": "No publiques todo en Momentos.",
+          "pt-BR": "Não poste tudo nos Momentos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Moments (WeChat feed)",
+      "ru": "лента «Моменты» (WeChat)",
+      "es": "Momentos (feed de WeChat)",
+      "pt-BR": "Momentos (feed do WeChat)"
+    }
   },
   {
     "section": "social_media",
@@ -746,14 +1484,32 @@
       {
         "hanzi": "请给我的视频点赞。",
         "pinyin": "Qǐng gěi wǒ de shìpín diǎnzàn.",
-        "english": "Please like my video."
+        "english": "Please like my video.",
+        "translations": {
+          "en": "Please like my video.",
+          "ru": "Поставьте лайк моему видео.",
+          "es": "Dale me gusta a mi vídeo.",
+          "pt-BR": "Dê like no meu vídeo."
+        }
       },
       {
         "hanzi": "这条帖子点赞很多。",
         "pinyin": "Zhè tiáo tiězi diǎnzàn hěn duō.",
-        "english": "This post got many likes."
+        "english": "This post got many likes.",
+        "translations": {
+          "en": "This post got many likes.",
+          "ru": "У этого поста много лайков.",
+          "es": "Este post tiene muchos me gusta.",
+          "pt-BR": "Este post tem muitos likes."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to like (a post)",
+      "ru": "ставить лайк",
+      "es": "dar me gusta / like",
+      "pt-BR": "dar like / curtir"
+    }
   },
   {
     "section": "social_media",
@@ -764,14 +1520,32 @@
       {
         "hanzi": "请留下你的评论。",
         "pinyin": "Qǐng liúxià nǐ de pínglùn.",
-        "english": "Please leave your comment."
+        "english": "Please leave your comment.",
+        "translations": {
+          "en": "Please leave your comment.",
+          "ru": "Оставьте свой комментарий.",
+          "es": "Deje su comentario.",
+          "pt-BR": "Deixe o seu comentário."
+        }
       },
       {
         "hanzi": "评论里讨论很热烈。",
         "pinyin": "Pínglùn lǐ tǎolùn hěn rèliè.",
-        "english": "Discussion in the comments is lively."
+        "english": "Discussion in the comments is lively.",
+        "translations": {
+          "en": "Discussion in the comments is lively.",
+          "ru": "В комментариях оживлённое обсуждение.",
+          "es": "En los comentarios hay un debate animado.",
+          "pt-BR": "Nos comentários a discussão está animada."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "comment",
+      "ru": "комментарий",
+      "es": "comentario",
+      "pt-BR": "comentário"
+    }
   },
   {
     "section": "social_media",
@@ -782,14 +1556,32 @@
       {
         "hanzi": "请分享这篇文章。",
         "pinyin": "Qǐng fēnxiǎng zhè piān wénzhāng.",
-        "english": "Please share this article."
+        "english": "Please share this article.",
+        "translations": {
+          "en": "Please share this article.",
+          "ru": "Поделитесь этой статьёй.",
+          "es": "Comparta este artículo.",
+          "pt-BR": "Compartilhe este artigo."
+        }
       },
       {
         "hanzi": "我分享到微信了。",
         "pinyin": "Wǒ fēnxiǎng dào Wēixìn le.",
-        "english": "I shared it on WeChat."
+        "english": "I shared it on WeChat.",
+        "translations": {
+          "en": "I shared it on WeChat.",
+          "ru": "Я отправил это в WeChat.",
+          "es": "Lo compartí en WeChat.",
+          "pt-BR": "Compartilhei no WeChat."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to share",
+      "ru": "делиться / репост",
+      "es": "compartir",
+      "pt-BR": "compartilhar"
+    }
   },
   {
     "section": "social_media",
@@ -800,14 +1592,32 @@
       {
         "hanzi": "请关注我的账号。",
         "pinyin": "Qǐng guānzhù wǒ de zhànghào.",
-        "english": "Please follow my account."
+        "english": "Please follow my account.",
+        "translations": {
+          "en": "Please follow my account.",
+          "ru": "Подпишитесь на мой аккаунт.",
+          "es": "Sígame en la cuenta.",
+          "pt-BR": "Siga a minha conta."
+        }
       },
       {
         "hanzi": "他关注了很多博主。",
         "pinyin": "Tā guānzhù le hěn duō bózhǔ.",
-        "english": "He follows many influencers."
+        "english": "He follows many influencers.",
+        "translations": {
+          "en": "He follows many influencers.",
+          "ru": "Он подписан на многих блогеров.",
+          "es": "Sigue a muchos influencers.",
+          "pt-BR": "Ele segue muitos influenciadores."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to follow",
+      "ru": "подписываться / следить",
+      "es": "seguir",
+      "pt-BR": "seguir"
+    }
   },
   {
     "section": "social_media",
@@ -818,14 +1628,32 @@
       {
         "hanzi": "他有一百万粉丝。",
         "pinyin": "Tā yǒu yī bǎi wàn fěnsī.",
-        "english": "He has a million followers."
+        "english": "He has a million followers.",
+        "translations": {
+          "en": "He has a million followers.",
+          "ru": "У него миллион подписчиков.",
+          "es": "Tiene un millón de seguidores.",
+          "pt-BR": "Ele tem um milhão de seguidores."
+        }
       },
       {
         "hanzi": "粉丝们很热情。",
         "pinyin": "Fěnsīmen hěn rèqíng.",
-        "english": "The fans are enthusiastic."
+        "english": "The fans are enthusiastic.",
+        "translations": {
+          "en": "The fans are enthusiastic.",
+          "ru": "Фанаты очень горячие.",
+          "es": "Los fans son muy entusiastas.",
+          "pt-BR": "Os fãs são muito entusiasmados."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "fans / followers",
+      "ru": "фанаты / подписчики",
+      "es": "seguidores / fans",
+      "pt-BR": "seguidores / fãs"
+    }
   },
   {
     "section": "social_media",
@@ -836,14 +1664,32 @@
       {
         "hanzi": "她今晚有直播。",
         "pinyin": "Tā jīn wǎn yǒu zhíbō.",
-        "english": "She has a live stream tonight."
+        "english": "She has a live stream tonight.",
+        "translations": {
+          "en": "She has a live stream tonight.",
+          "ru": "Сегодня вечером у неё стрим.",
+          "es": "Esta noche tiene un directo.",
+          "pt-BR": "Hoje à noite ela tem uma live."
+        }
       },
       {
         "hanzi": "直播带货很流行。",
         "pinyin": "Zhíbō dài huò hěn liúxíng.",
-        "english": "Live-stream selling is very popular."
+        "english": "Live-stream selling is very popular.",
+        "translations": {
+          "en": "Live-stream selling is very popular.",
+          "ru": "Продажи в прямом эфире очень популярны.",
+          "es": "La venta en directo es muy popular.",
+          "pt-BR": "Venda em live é muito popular."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "live stream",
+      "ru": "прямая трансляция / стрим",
+      "es": "directo / live",
+      "pt-BR": "live / transmissão ao vivo"
+    }
   },
   {
     "section": "social_media",
@@ -854,14 +1700,32 @@
       {
         "hanzi": "短视频很容易上瘾。",
         "pinyin": "Duǎn shìpín hěn róngyì shàngyǐn.",
-        "english": "Short videos are easily addictive."
+        "english": "Short videos are easily addictive.",
+        "translations": {
+          "en": "Short videos are easily addictive.",
+          "ru": "Короткие видео легко вызывают зависимость.",
+          "es": "Los vídeos cortos enganchan fácil.",
+          "pt-BR": "Vídeo curto vicia fácil."
+        }
       },
       {
         "hanzi": "他拍了很多短视频。",
         "pinyin": "Tā pāi le hěn duō duǎn shìpín.",
-        "english": "He made many short videos."
+        "english": "He made many short videos.",
+        "translations": {
+          "en": "He made many short videos.",
+          "ru": "Он снял много коротких видео.",
+          "es": "Hizo muchos vídeos cortos.",
+          "pt-BR": "Ele fez muitos vídeos curtos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "short video",
+      "ru": "короткое видео",
+      "es": "vídeo corto",
+      "pt-BR": "vídeo curto"
+    }
   },
   {
     "section": "social_media",
@@ -872,14 +1736,32 @@
       {
         "hanzi": "这条新闻上了热搜。",
         "pinyin": "Zhè tiáo xīnwén shàng le rèsōu.",
-        "english": "This news hit trending searches."
+        "english": "This news hit trending searches.",
+        "translations": {
+          "en": "This news hit trending searches.",
+          "ru": "Эта новость попала в тренды.",
+          "es": "Esta noticia llegó a tendencias.",
+          "pt-BR": "Esta notícia entrou nos trending."
+        }
       },
       {
         "hanzi": "热搜第一名是这个话题。",
         "pinyin": "Rèsōu dì yī míng shì zhège huàtí.",
-        "english": "This topic is number one trending."
+        "english": "This topic is number one trending.",
+        "translations": {
+          "en": "This topic is number one trending.",
+          "ru": "Эта тема — номер один в трендах.",
+          "es": "Este tema es el número uno en tendencias.",
+          "pt-BR": "Este assunto é o número um nos trending."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "trending search",
+      "ru": "трендовые поиски / хот-сёрч",
+      "es": "búsquedas en tendencia",
+      "pt-BR": "pesquisas em alta / trending"
+    }
   },
   {
     "section": "social_media",
@@ -890,14 +1772,32 @@
       {
         "hanzi": "请私信联系我。",
         "pinyin": "Qǐng sīxìn liánxi wǒ.",
-        "english": "Please contact me via DM."
+        "english": "Please contact me via DM.",
+        "translations": {
+          "en": "Please contact me via DM.",
+          "ru": "Напишите мне в личку.",
+          "es": "Contácteme por mensaje privado.",
+          "pt-BR": "Me chame no privado."
+        }
       },
       {
         "hanzi": "我收到了一条私信。",
         "pinyin": "Wǒ shōudào le yī tiáo sīxìn.",
-        "english": "I received a private message."
+        "english": "I received a private message.",
+        "translations": {
+          "en": "I received a private message.",
+          "ru": "Я получил личное сообщение.",
+          "es": "Recibí un mensaje privado.",
+          "pt-BR": "Recebi uma mensagem direta."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "private message",
+      "ru": "личное сообщение / директ",
+      "es": "mensaje privado / DM",
+      "pt-BR": "mensagem direta / DM"
+    }
   },
   {
     "section": "online_shopping",
@@ -908,14 +1808,32 @@
       {
         "hanzi": "我习惯网购。",
         "pinyin": "Wǒ xíguàn wǎnggòu.",
-        "english": "I'm used to shopping online."
+        "english": "I'm used to shopping online.",
+        "translations": {
+          "en": "I'm used to shopping online.",
+          "ru": "Я привык покупать онлайн.",
+          "es": "Estoy acostumbrado a comprar en línea.",
+          "pt-BR": "Estou acostumado a comprar online."
+        }
       },
       {
         "hanzi": "网购很方便。",
         "pinyin": "Wǎnggòu hěn fāngbiàn.",
-        "english": "Online shopping is convenient."
+        "english": "Online shopping is convenient.",
+        "translations": {
+          "en": "Online shopping is convenient.",
+          "ru": "Онлайн-покупки очень удобны.",
+          "es": "Comprar en línea es muy práctico.",
+          "pt-BR": "Comprar online é muito prático."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "online shopping",
+      "ru": "покупки онлайн",
+      "es": "compra en línea",
+      "pt-BR": "compra online"
+    }
   },
   {
     "section": "online_shopping",
@@ -926,14 +1844,32 @@
       {
         "hanzi": "请加入购物车。",
         "pinyin": "Qǐng jiārù gòuwùchē.",
-        "english": "Please add to cart."
+        "english": "Please add to cart.",
+        "translations": {
+          "en": "Please add to cart.",
+          "ru": "Добавьте в корзину.",
+          "es": "Añádalo al carrito.",
+          "pt-BR": "Adicione ao carrinho."
+        }
       },
       {
         "hanzi": "我的购物车满了。",
         "pinyin": "Wǒ de gòuwùchē mǎn le.",
-        "english": "My cart is full."
+        "english": "My cart is full.",
+        "translations": {
+          "en": "My cart is full.",
+          "ru": "Моя корзина полная.",
+          "es": "Mi carrito está lleno.",
+          "pt-BR": "Meu carrinho está cheio."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "shopping cart",
+      "ru": "корзина (в магазине)",
+      "es": "carrito de compra",
+      "pt-BR": "carrinho de compras"
+    }
   },
   {
     "section": "online_shopping",
@@ -944,14 +1880,32 @@
       {
         "hanzi": "我已经下单了。",
         "pinyin": "Wǒ yǐjīng xiàdān le.",
-        "english": "I've already placed the order."
+        "english": "I've already placed the order.",
+        "translations": {
+          "en": "I've already placed the order.",
+          "ru": "Я уже оформил заказ.",
+          "es": "Ya hice el pedido.",
+          "pt-BR": "Já fiz o pedido."
+        }
       },
       {
         "hanzi": "请在今晚前下单。",
         "pinyin": "Qǐng zài jīn wǎn qián xiàdān.",
-        "english": "Please order before tonight."
+        "english": "Please order before tonight.",
+        "translations": {
+          "en": "Please order before tonight.",
+          "ru": "Оформите заказ до вечера.",
+          "es": "Haga el pedido antes de esta noche.",
+          "pt-BR": "Faça o pedido até hoje à noite."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to place an order",
+      "ru": "оформить заказ",
+      "es": "hacer un pedido",
+      "pt-BR": "fazer um pedido"
+    }
   },
   {
     "section": "online_shopping",
@@ -962,14 +1916,32 @@
       {
         "hanzi": "快递明天到。",
         "pinyin": "Kuàidì míngtiān dào.",
-        "english": "Express delivery arrives tomorrow."
+        "english": "Express delivery arrives tomorrow.",
+        "translations": {
+          "en": "Express delivery arrives tomorrow.",
+          "ru": "Курьер прибудет завтра.",
+          "es": "El envío express llega mañana.",
+          "pt-BR": "A encomenda expressa chega amanhã."
+        }
       },
       {
         "hanzi": "请查一下快递到哪了。",
         "pinyin": "Qǐng chá yīxià kuàidì dào nǎ le.",
-        "english": "Please check where the package is."
+        "english": "Please check where the package is.",
+        "translations": {
+          "en": "Please check where the package is.",
+          "ru": "Проверьте, где посылка.",
+          "es": "Revise dónde está el paquete.",
+          "pt-BR": "Veja onde está o pacote."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "express delivery",
+      "ru": "экспресс-доставка / курьер",
+      "es": "mensajería urgente",
+      "pt-BR": "encomenda expressa / sedex"
+    }
   },
   {
     "section": "online_shopping",
@@ -980,14 +1952,32 @@
       {
         "hanzi": "请给商品评价。",
         "pinyin": "Qǐng gěi shāngpǐn píngjià.",
-        "english": "Please review the product."
+        "english": "Please review the product.",
+        "translations": {
+          "en": "Please review the product.",
+          "ru": "Оставьте отзыв о товаре.",
+          "es": "Valore el producto, por favor.",
+          "pt-BR": "Avalie o produto, por favor."
+        }
       },
       {
         "hanzi": "这个评价很有帮助。",
         "pinyin": "Zhège píngjià hěn yǒu bāngzhù.",
-        "english": "This review is very helpful."
+        "english": "This review is very helpful.",
+        "translations": {
+          "en": "This review is very helpful.",
+          "ru": "Этот отзыв очень полезный.",
+          "es": "Esta reseña es muy útil.",
+          "pt-BR": "Esta avaliação é muito útil."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "review / rating",
+      "ru": "отзыв / оценка",
+      "es": "reseña / valoración",
+      "pt-BR": "avaliação / review"
+    }
   },
   {
     "section": "online_shopping",
@@ -998,14 +1988,32 @@
       {
         "hanzi": "我可以申请退款吗？",
         "pinyin": "Wǒ kěyǐ shēnqǐng tuìkuǎn ma?",
-        "english": "Can I request a refund?"
+        "english": "Can I request a refund?",
+        "translations": {
+          "en": "Can I request a refund?",
+          "ru": "Можно запросить возврат?",
+          "es": "¿Puedo pedir un reembolso?",
+          "pt-BR": "Posso pedir reembolso?"
+        }
       },
       {
         "hanzi": "退款已经到账了。",
         "pinyin": "Tuìkuǎn yǐjīng dào zhàng le.",
-        "english": "The refund has been credited."
+        "english": "The refund has been credited.",
+        "translations": {
+          "en": "The refund has been credited.",
+          "ru": "Деньги уже вернулись на счёт.",
+          "es": "El reembolso ya se abonó.",
+          "pt-BR": "O reembolso já caiu na conta."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "refund",
+      "ru": "возврат денег",
+      "es": "reembolso",
+      "pt-BR": "reembolso"
+    }
   },
   {
     "section": "online_shopping",
@@ -1016,14 +2024,32 @@
       {
         "hanzi": "我有优惠券。",
         "pinyin": "Wǒ yǒu yōuhuìquàn.",
-        "english": "I have a coupon."
+        "english": "I have a coupon.",
+        "translations": {
+          "en": "I have a coupon.",
+          "ru": "У меня есть купон.",
+          "es": "Tengo un cupón.",
+          "pt-BR": "Tenho um cupom."
+        }
       },
       {
         "hanzi": "优惠券今天到期。",
         "pinyin": "Yōuhuìquàn jīntiān dàoqī.",
-        "english": "The coupon expires today."
+        "english": "The coupon expires today.",
+        "translations": {
+          "en": "The coupon expires today.",
+          "ru": "Купон истекает сегодня.",
+          "es": "El cupón caduca hoy.",
+          "pt-BR": "O cupom vence hoje."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "coupon",
+      "ru": "купон",
+      "es": "cupón",
+      "pt-BR": "cupom"
+    }
   },
   {
     "section": "online_shopping",
@@ -1034,14 +2060,32 @@
       {
         "hanzi": "今晚八点有秒杀。",
         "pinyin": "Jīn wǎn bā diǎn yǒu miǎoshā.",
-        "english": "There's a flash sale at 8 tonight."
+        "english": "There's a flash sale at 8 tonight.",
+        "translations": {
+          "en": "There's a flash sale at 8 tonight.",
+          "ru": "Сегодня в восемь вечера молниеносная распродажа.",
+          "es": "A las ocho hay una oferta relámpago.",
+          "pt-BR": "Às oito tem uma oferta relâmpago."
+        }
       },
       {
         "hanzi": "秒杀价格很优惠。",
         "pinyin": "Miǎoshā jiàgé hěn yōuhuì.",
-        "english": "Flash sale prices are great deals."
+        "english": "Flash sale prices are great deals.",
+        "translations": {
+          "en": "Flash sale prices are great deals.",
+          "ru": "Цены на сеоша очень выгодные.",
+          "es": "Los precios relámpago son muy buenos.",
+          "pt-BR": "Os preços relâmpago são ótimos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "flash sale",
+      "ru": "молниеносная распродажа / сеоша",
+      "es": "oferta relámpago",
+      "pt-BR": "oferta relâmpago"
+    }
   },
   {
     "section": "online_shopping",
@@ -1052,14 +2096,32 @@
       {
         "hanzi": "满一百包邮。",
         "pinyin": "Mǎn yībǎi bāoyóu.",
-        "english": "Free shipping on orders over 100."
+        "english": "Free shipping on orders over 100.",
+        "translations": {
+          "en": "Free shipping on orders over 100.",
+          "ru": "От ста юаней — бесплатная доставка.",
+          "es": "Envío gratis a partir de 100.",
+          "pt-BR": "Frete grátis a partir de 100."
+        }
       },
       {
         "hanzi": "这个商品包邮。",
         "pinyin": "Zhège shāngpǐn bāoyóu.",
-        "english": "This item ships free."
+        "english": "This item ships free.",
+        "translations": {
+          "en": "This item ships free.",
+          "ru": "У этого товара бесплатная доставка.",
+          "es": "Este artículo tiene envío gratis.",
+          "pt-BR": "Este item tem frete grátis."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "free shipping",
+      "ru": "бесплатная доставка",
+      "es": "envío gratis",
+      "pt-BR": "frete grátis"
+    }
   },
   {
     "section": "online_shopping",
@@ -1070,14 +2132,32 @@
       {
         "hanzi": "请联系在线客服。",
         "pinyin": "Qǐng liánxi zàixiàn kèfú.",
-        "english": "Please contact online customer service."
+        "english": "Please contact online customer service.",
+        "translations": {
+          "en": "Please contact online customer service.",
+          "ru": "Свяжитесь с онлайн-поддержкой.",
+          "es": "Contacte con atención al cliente en línea.",
+          "pt-BR": "Fale com o atendimento online."
+        }
       },
       {
         "hanzi": "客服回复很快。",
         "pinyin": "Kèfú huífù hěn kuài.",
-        "english": "Customer service replied quickly."
+        "english": "Customer service replied quickly.",
+        "translations": {
+          "en": "Customer service replied quickly.",
+          "ru": "Поддержка ответила быстро.",
+          "es": "Atención al cliente respondió rápido.",
+          "pt-BR": "O atendimento respondeu rápido."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "customer service",
+      "ru": "служба поддержки / клиентский сервис",
+      "es": "atención al cliente",
+      "pt-BR": "atendimento ao cliente / SAC"
+    }
   },
   {
     "section": "delivery",
@@ -1088,14 +2168,32 @@
       {
         "hanzi": "今晚叫外卖吧。",
         "pinyin": "Jīn wǎn jiào wàimài ba.",
-        "english": "Let's order delivery tonight."
+        "english": "Let's order delivery tonight.",
+        "translations": {
+          "en": "Let's order delivery tonight.",
+          "ru": "Давайте сегодня вечером закажем еду.",
+          "es": "Pidamos comida a domicilio esta noche.",
+          "pt-BR": "Vamos pedir delivery hoje à noite."
+        }
       },
       {
         "hanzi": "外卖三十分钟到。",
         "pinyin": "Wàimài sānshí fēnzhōng dào.",
-        "english": "Delivery arrives in thirty minutes."
+        "english": "Delivery arrives in thirty minutes.",
+        "translations": {
+          "en": "Delivery arrives in thirty minutes.",
+          "ru": "Доставка за тридцать минут.",
+          "es": "El pedido llega en treinta minutos.",
+          "pt-BR": "O delivery chega em trinta minutos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "food delivery",
+      "ru": "доставка еды / takeaway",
+      "es": "comida a domicilio / delivery",
+      "pt-BR": "delivery / comida por aplicativo"
+    }
   },
   {
     "section": "delivery",
@@ -1106,14 +2204,32 @@
       {
         "hanzi": "骑手已经在路上了。",
         "pinyin": "Qíshǒu yǐjīng zài lù shàng le.",
-        "english": "The rider is already on the way."
+        "english": "The rider is already on the way.",
+        "translations": {
+          "en": "The rider is already on the way.",
+          "ru": "Курьер уже в пути.",
+          "es": "El repartidor ya está en camino.",
+          "pt-BR": "O entregador já está a caminho."
+        }
       },
       {
         "hanzi": "骑手打电话说到了。",
         "pinyin": "Qíshǒu dǎ diànhuà shuō dào le.",
-        "english": "The rider called to say they've arrived."
+        "english": "The rider called to say they've arrived.",
+        "translations": {
+          "en": "The rider called to say they've arrived.",
+          "ru": "Курьер позвонил, что уже на месте.",
+          "es": "El repartidor llamó para decir que llegó.",
+          "pt-BR": "O entregador ligou dizendo que chegou."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "delivery rider",
+      "ru": "курьер на велосипеде / райдер",
+      "es": "repartidor",
+      "pt-BR": "entregador"
+    }
   },
   {
     "section": "delivery",
@@ -1124,14 +2240,32 @@
       {
         "hanzi": "配送费五块钱。",
         "pinyin": "Pèisòng fèi wǔ kuài qián.",
-        "english": "Delivery fee is five yuan."
+        "english": "Delivery fee is five yuan.",
+        "translations": {
+          "en": "Delivery fee is five yuan.",
+          "ru": "Плата за доставку — пять юаней.",
+          "es": "El envío cuesta cinco yuanes.",
+          "pt-BR": "A taxa de entrega é cinco yuans."
+        }
       },
       {
         "hanzi": "预计配送时间四十分钟。",
         "pinyin": "Yùjì pèisòng shíjiān sìshí fēnzhōng.",
-        "english": "Estimated delivery time is forty minutes."
+        "english": "Estimated delivery time is forty minutes.",
+        "translations": {
+          "en": "Estimated delivery time is forty minutes.",
+          "ru": "Ожидаемое время доставки — сорок минут.",
+          "es": "El tiempo estimado de entrega es de cuarenta minutos.",
+          "pt-BR": "O tempo estimado de entrega é de quarenta minutos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "delivery / distribution",
+      "ru": "доставка / развоз",
+      "es": "reparto / entrega",
+      "pt-BR": "entrega / distribuição"
+    }
   },
   {
     "section": "delivery",
@@ -1142,14 +2276,32 @@
       {
         "hanzi": "你的订单已发出。",
         "pinyin": "Nǐ de dìngdān yǐ fāchū.",
-        "english": "Your order has been dispatched."
+        "english": "Your order has been dispatched.",
+        "translations": {
+          "en": "Your order has been dispatched.",
+          "ru": "Ваш заказ отправлен.",
+          "es": "Su pedido ya se envió.",
+          "pt-BR": "Seu pedido já foi enviado."
+        }
       },
       {
         "hanzi": "请确认订单信息。",
         "pinyin": "Qǐng quèrèn dìngdān xìnxī.",
-        "english": "Please confirm order details."
+        "english": "Please confirm order details.",
+        "translations": {
+          "en": "Please confirm order details.",
+          "ru": "Подтвердите данные заказа.",
+          "es": "Confirme los datos del pedido.",
+          "pt-BR": "Confirme os dados do pedido."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "order",
+      "ru": "заказ",
+      "es": "pedido",
+      "pt-BR": "pedido"
+    }
   },
   {
     "section": "delivery",
@@ -1160,14 +2312,32 @@
       {
         "hanzi": "可以实时追踪配送。",
         "pinyin": "Kěyǐ shíshí zhuīzōng pèisòng.",
-        "english": "You can track delivery in real time."
+        "english": "You can track delivery in real time.",
+        "translations": {
+          "en": "You can track delivery in real time.",
+          "ru": "Доставку можно отслеживать в реальном времени.",
+          "es": "Puede rastrear la entrega en tiempo real.",
+          "pt-BR": "Dá para rastrear a entrega em tempo real."
+        }
       },
       {
         "hanzi": "请追踪我的包裹。",
         "pinyin": "Qǐng zhuīzōng wǒ de bāoguǒ.",
-        "english": "Please track my package."
+        "english": "Please track my package.",
+        "translations": {
+          "en": "Please track my package.",
+          "ru": "Отследите мою посылку.",
+          "es": "Rastree mi paquete.",
+          "pt-BR": "Rastreie o meu pacote."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to track",
+      "ru": "отслеживать",
+      "es": "rastrear",
+      "pt-BR": "rastrear"
+    }
   },
   {
     "section": "delivery",
@@ -1178,14 +2348,32 @@
       {
         "hanzi": "外卖准时送到了。",
         "pinyin": "Wàimài zhǔnshí sòng dào le.",
-        "english": "Delivery arrived on time."
+        "english": "Delivery arrived on time.",
+        "translations": {
+          "en": "Delivery arrived on time.",
+          "ru": "Еду доставили вовремя.",
+          "es": "La comida llegó a tiempo.",
+          "pt-BR": "A comida chegou no horário."
+        }
       },
       {
         "hanzi": "请尽量准时送达。",
         "pinyin": "Qǐng jǐnliàng zhǔnshí sòngdá.",
-        "english": "Please deliver on time if possible."
+        "english": "Please deliver on time if possible.",
+        "translations": {
+          "en": "Please deliver on time if possible.",
+          "ru": "Постарайтесь доставить вовремя.",
+          "es": "Entregue a tiempo si es posible.",
+          "pt-BR": "Entregue no horário se possível."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "on time",
+      "ru": "вовремя",
+      "es": "a tiempo / puntual",
+      "pt-BR": "no horário / pontual"
+    }
   },
   {
     "section": "delivery",
@@ -1196,14 +2384,32 @@
       {
         "hanzi": "外卖用了保温袋。",
         "pinyin": "Wàimài yòng le bǎowēn dài.",
-        "english": "Delivery used an insulated bag."
+        "english": "Delivery used an insulated bag.",
+        "translations": {
+          "en": "Delivery used an insulated bag.",
+          "ru": "Еду привезли в термосумке.",
+          "es": "El pedido venía en bolsa térmica.",
+          "pt-BR": "O pedido veio em sacola térmica."
+        }
       },
       {
         "hanzi": "保温效果还不错。",
         "pinyin": "Bǎowēn xiàoguǒ hái búcuò.",
-        "english": "Insulation works reasonably well."
+        "english": "Insulation works reasonably well.",
+        "translations": {
+          "en": "Insulation works reasonably well.",
+          "ru": "Тепло сохранилось неплохо.",
+          "es": "El aislamiento funciona bastante bien.",
+          "pt-BR": "O isolamento funciona relativamente bem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "keep warm (packaging)",
+      "ru": "сохранять тепло (упаковка)",
+      "es": "mantener caliente (embalaje)",
+      "pt-BR": "manter quente (embalagem)"
+    }
   },
   {
     "section": "delivery",
@@ -1214,14 +2420,32 @@
       {
         "hanzi": "请看一下取餐码。",
         "pinyin": "Qǐng kàn yīxià qǔ cān mǎ.",
-        "english": "Please check the pickup code."
+        "english": "Please check the pickup code.",
+        "translations": {
+          "en": "Please check the pickup code.",
+          "ru": "Посмотрите код получения.",
+          "es": "Mire el código de recogida.",
+          "pt-BR": "Olhe o código de retirada."
+        }
       },
       {
         "hanzi": "这个取餐码很重要。",
         "pinyin": "Zhège qǔ cān mǎ hěn zhòngyào.",
-        "english": "This pickup code is important."
+        "english": "This pickup code is important.",
+        "translations": {
+          "en": "This pickup code is important.",
+          "ru": "Этот код получения очень важен.",
+          "es": "Este código de recogida es importante.",
+          "pt-BR": "Este código de retirada é importante."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "pickup code",
+      "ru": "код получения заказа",
+      "es": "código de recogida",
+      "pt-BR": "código de retirada"
+    }
   },
   {
     "section": "delivery",
@@ -1232,14 +2456,32 @@
       {
         "hanzi": "你想给骑手小费吗？",
         "pinyin": "Nǐ xiǎng gěi qíshǒu xiǎofèi ma?",
-        "english": "Would you like to tip the rider?"
+        "english": "Would you like to tip the rider?",
+        "translations": {
+          "en": "Would you like to tip the rider?",
+          "ru": "Хотите дать курьеру чаевые?",
+          "es": "¿Quiere dar propina al repartidor?",
+          "pt-BR": "Quer dar gorjeta ao entregador?"
+        }
       },
       {
         "hanzi": "我给了十块小费。",
         "pinyin": "Wǒ gěi le shí kuài xiǎofèi.",
-        "english": "I gave a ten yuan tip."
+        "english": "I gave a ten yuan tip.",
+        "translations": {
+          "en": "I gave a ten yuan tip.",
+          "ru": "Я дал десять юаней чаевых.",
+          "es": "Di diez yuanes de propina.",
+          "pt-BR": "Dei dez yuans de gorjeta."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "tip",
+      "ru": "чаевые",
+      "es": "propina",
+      "pt-BR": "gorjeta"
+    }
   },
   {
     "section": "delivery",
@@ -1250,14 +2492,32 @@
       {
         "hanzi": "这个平台承诺准时达。",
         "pinyin": "Zhège píngtái chéngnuò zhǔn shí dá.",
-        "english": "This platform promises on-time delivery."
+        "english": "This platform promises on-time delivery.",
+        "translations": {
+          "en": "This platform promises on-time delivery.",
+          "ru": "Площадка обещает доставку точно в срок.",
+          "es": "La plataforma promete entrega puntual.",
+          "pt-BR": "A plataforma promete entrega pontual."
+        }
       },
       {
         "hanzi": "如果没有准时达可以退款。",
         "pinyin": "Rúguǒ méiyǒu zhǔn shí dá kěyǐ tuì kuǎn.",
-        "english": "You can get a refund if delivery is not on time."
+        "english": "You can get a refund if delivery is not on time.",
+        "translations": {
+          "en": "You can get a refund if delivery is not on time.",
+          "ru": "Если не успеют — можно вернуть деньги.",
+          "es": "Si no llega a tiempo, puede pedir reembolso.",
+          "pt-BR": "Se não chegar no horário, dá para pedir reembolso."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "on-time delivery",
+      "ru": "доставка точно в срок",
+      "es": "entrega puntual garantizada",
+      "pt-BR": "entrega pontual garantida"
+    }
   },
   {
     "section": "gaming",
@@ -1268,14 +2528,32 @@
       {
         "hanzi": "你玩什么游戏？",
         "pinyin": "Nǐ wán shénme yóuxì?",
-        "english": "What games do you play?"
+        "english": "What games do you play?",
+        "translations": {
+          "en": "What games do you play?",
+          "ru": "Во что ты играешь?",
+          "es": "¿A qué juegos juegas?",
+          "pt-BR": "Que jogos você joga?"
+        }
       },
       {
         "hanzi": "这个游戏很好玩。",
         "pinyin": "Zhège yóuxì hěn hǎowán.",
-        "english": "This game is fun."
+        "english": "This game is fun.",
+        "translations": {
+          "en": "This game is fun.",
+          "ru": "Эта игра очень увлекательная.",
+          "es": "Este juego es muy divertido.",
+          "pt-BR": "Este jogo é muito divertido."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "game",
+      "ru": "игра",
+      "es": "juego",
+      "pt-BR": "jogo"
+    }
   },
   {
     "section": "gaming",
@@ -1286,14 +2564,32 @@
       {
         "hanzi": "他是资深玩家。",
         "pinyin": "Tā shì zīshēn wánjiā.",
-        "english": "He's a veteran gamer."
+        "english": "He's a veteran gamer.",
+        "translations": {
+          "en": "He's a veteran gamer.",
+          "ru": "Он опытный игрок.",
+          "es": "Es un gamer veterano.",
+          "pt-BR": "Ele é um gamer veterano."
+        }
       },
       {
         "hanzi": "在线玩家很多。",
         "pinyin": "Zàixiàn wánjiā hěn duō.",
-        "english": "There are many players online."
+        "english": "There are many players online.",
+        "translations": {
+          "en": "There are many players online.",
+          "ru": "Онлайн сейчас много игроков.",
+          "es": "Hay muchos jugadores en línea.",
+          "pt-BR": "Há muitos jogadores online."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "player / gamer",
+      "ru": "игрок / геймер",
+      "es": "jugador / gamer",
+      "pt-BR": "jogador / gamer"
+    }
   },
   {
     "section": "gaming",
@@ -1304,14 +2600,32 @@
       {
         "hanzi": "请连接手柄。",
         "pinyin": "Qǐng liánjiē shǒubǐng.",
-        "english": "Please connect the controller."
+        "english": "Please connect the controller.",
+        "translations": {
+          "en": "Please connect the controller.",
+          "ru": "Подключите геймпад.",
+          "es": "Conecte el mando.",
+          "pt-BR": "Conecte o controle."
+        }
       },
       {
         "hanzi": "这个手柄手感很好。",
         "pinyin": "Zhège shǒubǐng shǒugǎn hěn hǎo.",
-        "english": "This controller feels great."
+        "english": "This controller feels great.",
+        "translations": {
+          "en": "This controller feels great.",
+          "ru": "У этого геймпада приятный хват.",
+          "es": "Este mando se siente muy bien.",
+          "pt-BR": "Este controle tem um toque muito bom."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "game controller",
+      "ru": "геймпад / контроллер",
+      "es": "mando / control",
+      "pt-BR": "controle / gamepad"
+    }
   },
   {
     "section": "gaming",
@@ -1322,14 +2636,32 @@
       {
         "hanzi": "这个关卡很难。",
         "pinyin": "Zhège guānkǎ hěn nán.",
-        "english": "This level is hard."
+        "english": "This level is hard.",
+        "translations": {
+          "en": "This level is hard.",
+          "ru": "Этот уровень очень сложный.",
+          "es": "Este nivel es muy difícil.",
+          "pt-BR": "Esta fase é muito difícil."
+        }
       },
       {
         "hanzi": "我过了第三关。",
         "pinyin": "Wǒ guò le dì sān guān.",
-        "english": "I cleared level three."
+        "english": "I cleared level three.",
+        "translations": {
+          "en": "I cleared level three.",
+          "ru": "Я прошёл третий уровень.",
+          "es": "Pasé el nivel tres.",
+          "pt-BR": "Passei a terceira fase."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "level / stage",
+      "ru": "уровень / этап (игры)",
+      "es": "nivel / fase",
+      "pt-BR": "fase / nível"
+    }
   },
   {
     "section": "gaming",
@@ -1340,14 +2672,32 @@
       {
         "hanzi": "我的排名上升了。",
         "pinyin": "Wǒ de páimíng shàngshēng le.",
-        "english": "My ranking went up."
+        "english": "My ranking went up.",
+        "translations": {
+          "en": "My ranking went up.",
+          "ru": "Моё место в рейтинге выросло.",
+          "es": "Subí en la clasificación.",
+          "pt-BR": "Minha posição no ranking subiu."
+        }
       },
       {
         "hanzi": "他在全球排名第一。",
         "pinyin": "Tā zài quánqiú páimíng dì yī.",
-        "english": "He's ranked number one globally."
+        "english": "He's ranked number one globally.",
+        "translations": {
+          "en": "He's ranked number one globally.",
+          "ru": "Он первый в мировом рейтинге.",
+          "es": "Está el número uno del mundo.",
+          "pt-BR": "Ele é o número um do mundo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "ranking",
+      "ru": "рейтинг / место в таблице",
+      "es": "clasificación / ranking",
+      "pt-BR": "ranking / classificação"
+    }
   },
   {
     "section": "gaming",
@@ -1358,14 +2708,32 @@
       {
         "hanzi": "我们组队打游戏吧。",
         "pinyin": "Wǒmen zǔduì dǎ yóuxì ba.",
-        "english": "Let's team up to play."
+        "english": "Let's team up to play.",
+        "translations": {
+          "en": "Let's team up to play.",
+          "ru": "Давайте сыграем вместе.",
+          "es": "Juguemos en equipo.",
+          "pt-BR": "Vamos jogar em time."
+        }
       },
       {
         "hanzi": "组队需要四个人。",
         "pinyin": "Zǔduì xūyào sì gè rén.",
-        "english": "Teaming up requires four people."
+        "english": "Teaming up requires four people.",
+        "translations": {
+          "en": "Teaming up requires four people.",
+          "ru": "Для команды нужно четверо.",
+          "es": "Hace falta ser cuatro para formar equipo.",
+          "pt-BR": "É preciso ser quatro para montar o time."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to team up",
+      "ru": "собирать команду / играть в группе",
+      "es": "formar equipo",
+      "pt-BR": "montar time / jogar em grupo"
+    }
   },
   {
     "section": "gaming",
@@ -1376,14 +2744,32 @@
       {
         "hanzi": "游戏需要充值吗？",
         "pinyin": "Yóuxì xūyào chōngzhí ma?",
-        "english": "Does the game require top-ups?"
+        "english": "Does the game require top-ups?",
+        "translations": {
+          "en": "Does the game require top-ups?",
+          "ru": "В игре нужно пополнять счёт?",
+          "es": "¿El juego exige recargas?",
+          "pt-BR": "O jogo exige recarga?"
+        }
       },
       {
         "hanzi": "我充值了六十八块。",
         "pinyin": "Wǒ chōngzhí le liùshíbā kuài.",
-        "english": "I topped up sixty-eight yuan."
+        "english": "I topped up sixty-eight yuan.",
+        "translations": {
+          "en": "I topped up sixty-eight yuan.",
+          "ru": "Я пополнил на шестьдесят восемь юаней.",
+          "es": "Recargué sesenta y ocho yuanes.",
+          "pt-BR": "Recarreguei sessenta e oito yuans."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to top up / recharge",
+      "ru": "пополнять счёт / донат",
+      "es": "recargar / donar en el juego",
+      "pt-BR": "recarregar / fazer recarga"
+    }
   },
   {
     "section": "gaming",
@@ -1394,14 +2780,32 @@
       {
         "hanzi": "这个装备属性很好。",
         "pinyin": "Zhège zhuāngbèi shǔxìng hěn hǎo.",
-        "english": "This gear has great stats."
+        "english": "This gear has great stats.",
+        "translations": {
+          "en": "This gear has great stats.",
+          "ru": "У этой экипировки отличные характеристики.",
+          "es": "Este equipo tiene muy buenas estadísticas.",
+          "pt-BR": "Este equipamento tem ótimos atributos."
+        }
       },
       {
         "hanzi": "请升级你的装备。",
         "pinyin": "Qǐng shēngjí nǐ de zhuāngbèi.",
-        "english": "Please upgrade your gear."
+        "english": "Please upgrade your gear.",
+        "translations": {
+          "en": "Please upgrade your gear.",
+          "ru": "Прокачайте снаряжение.",
+          "es": "Mejore su equipamiento.",
+          "pt-BR": "Melhore o seu equipamento."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "equipment / gear (gaming)",
+      "ru": "снаряжение / экипировка (в игре)",
+      "es": "equipamiento / gear",
+      "pt-BR": "equipamento / gear"
+    }
   },
   {
     "section": "gaming",
@@ -1412,14 +2816,32 @@
       {
         "hanzi": "网速太慢影响游戏。",
         "pinyin": "Wǎngsù tài màn yǐngxiǎng yóuxì.",
-        "english": "Slow internet affects gaming."
+        "english": "Slow internet affects gaming.",
+        "translations": {
+          "en": "Slow internet affects gaming.",
+          "ru": "Медленный интернет мешает игре.",
+          "es": "Internet lenta afecta al juego.",
+          "pt-BR": "Internet lenta atrapalha o jogo."
+        }
       },
       {
         "hanzi": "换宽带后网速快了。",
         "pinyin": "Huàn kuǎndài hòu wǎngsù kuài le.",
-        "english": "Internet speed improved after switching broadband."
+        "english": "Internet speed improved after switching broadband.",
+        "translations": {
+          "en": "Internet speed improved after switching broadband.",
+          "ru": "После смены тарифа интернет стал быстрее.",
+          "es": "Tras cambiar de fibra, la velocidad mejoró.",
+          "pt-BR": "Depois de trocar a banda, a velocidade melhorou."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "internet speed",
+      "ru": "скорость интернета",
+      "es": "velocidad de internet",
+      "pt-BR": "velocidade da internet"
+    }
   },
   {
     "section": "gaming",
@@ -1430,14 +2852,32 @@
       {
         "hanzi": "电竞现在是正规比赛。",
         "pinyin": "Diànjìng xiànzài shì zhèngguī bǐsài.",
-        "english": "Esports is now an official competitive sport."
+        "english": "Esports is now an official competitive sport.",
+        "translations": {
+          "en": "Esports is now an official competitive sport.",
+          "ru": "Киберспорт теперь официальные соревнования.",
+          "es": "Los esports ya son competición oficial.",
+          "pt-BR": "Esports já é competição oficial."
+        }
       },
       {
         "hanzi": "他梦想成为电竞选手。",
         "pinyin": "Tā mèngxiǎng chéngwéi diànjìng xuǎnshǒu.",
-        "english": "He dreams of becoming a pro gamer."
+        "english": "He dreams of becoming a pro gamer.",
+        "translations": {
+          "en": "He dreams of becoming a pro gamer.",
+          "ru": "Он мечтает стать киберспортсменом.",
+          "es": "Sueña con ser jugador profesional.",
+          "pt-BR": "Ele sonha em ser jogador profissional."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "esports",
+      "ru": "киберспорт",
+      "es": "deporte electrónico / esports",
+      "pt-BR": "esports / esportes eletrônicos"
+    }
   },
   {
     "section": "smart_devices",
@@ -1448,14 +2888,32 @@
       {
         "hanzi": "智能音箱可以控制家电。",
         "pinyin": "Zhìnéng yīnxiāng kěyǐ kòngzhì jiādiàn.",
-        "english": "Smart speakers can control home appliances."
+        "english": "Smart speakers can control home appliances.",
+        "translations": {
+          "en": "Smart speakers can control home appliances.",
+          "ru": "Умная колонка может управлять техникой.",
+          "es": "El altavoz inteligente controla electrodomésticos.",
+          "pt-BR": "A caixa inteligente controla eletrodomésticos."
+        }
       },
       {
         "hanzi": "请对着智能音箱说话。",
         "pinyin": "Qǐng duì zhe zhìnéng yīnxiāng shuōhuà.",
-        "english": "Speak to the smart speaker."
+        "english": "Speak to the smart speaker.",
+        "translations": {
+          "en": "Speak to the smart speaker.",
+          "ru": "Говорите с умной колонкой.",
+          "es": "Hable al altavoz inteligente.",
+          "pt-BR": "Fale com a caixa inteligente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "smart speaker",
+      "ru": "умная колонка",
+      "es": "altavoz inteligente",
+      "pt-BR": "caixa de som inteligente"
+    }
   },
   {
     "section": "smart_devices",
@@ -1466,14 +2924,32 @@
       {
         "hanzi": "智能手表可以测心率。",
         "pinyin": "Zhìnéng shǒubiǎo kěyǐ cè xīnlǜ.",
-        "english": "Smartwatches can measure heart rate."
+        "english": "Smartwatches can measure heart rate.",
+        "translations": {
+          "en": "Smartwatches can measure heart rate.",
+          "ru": "Умные часы измеряют пульс.",
+          "es": "El reloj inteligente mide el ritmo cardíaco.",
+          "pt-BR": "O relógio inteligente mede a frequência cardíaca."
+        }
       },
       {
         "hanzi": "我戴智能手表跑步。",
         "pinyin": "Wǒ dài zhìnéng shǒubiǎo pǎobù.",
-        "english": "I wear a smartwatch when running."
+        "english": "I wear a smartwatch when running.",
+        "translations": {
+          "en": "I wear a smartwatch when running.",
+          "ru": "Я бегаю с умными часами.",
+          "es": "Corro con el reloj inteligente.",
+          "pt-BR": "Corro com o relógio inteligente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "smartwatch",
+      "ru": "умные часы",
+      "es": "reloj inteligente",
+      "pt-BR": "relógio inteligente"
+    }
   },
   {
     "section": "smart_devices",
@@ -1484,14 +2960,32 @@
       {
         "hanzi": "智能家居让生活更方便。",
         "pinyin": "Zhìnéng jiājū ràng shēnghuó gèng fāngbiàn.",
-        "english": "Smart homes make life easier."
+        "english": "Smart homes make life easier.",
+        "translations": {
+          "en": "Smart homes make life easier.",
+          "ru": "Умный дом делает жизнь удобнее.",
+          "es": "El hogar inteligente hace la vida más fácil.",
+          "pt-BR": "A casa inteligente deixa a vida mais fácil."
+        }
       },
       {
         "hanzi": "我们装了智能家居系统。",
         "pinyin": "Wǒmen zhuāng le zhìnéng jiājū xìtǒng.",
-        "english": "We installed a smart home system."
+        "english": "We installed a smart home system.",
+        "translations": {
+          "en": "We installed a smart home system.",
+          "ru": "Мы установили систему умного дома.",
+          "es": "Instalamos un sistema de hogar inteligente.",
+          "pt-BR": "Instalamos um sistema de casa inteligente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "smart home",
+      "ru": "умный дом",
+      "es": "hogar inteligente",
+      "pt-BR": "casa inteligente"
+    }
   },
   {
     "section": "smart_devices",
@@ -1502,14 +2996,32 @@
       {
         "hanzi": "语音助手可以设闹钟。",
         "pinyin": "Yǔyīn zhùshǒu kěyǐ shè nàozhōng.",
-        "english": "Voice assistants can set alarms."
+        "english": "Voice assistants can set alarms.",
+        "translations": {
+          "en": "Voice assistants can set alarms.",
+          "ru": "Голосовой помощник может поставить будильник.",
+          "es": "El asistente de voz puede poner una alarma.",
+          "pt-BR": "O assistente de voz pode colocar um alarme."
+        }
       },
       {
         "hanzi": "请叫语音助手播放音乐。",
         "pinyin": "Qǐng jiào yǔyīn zhùshǒu bōfàng yīnyuè.",
-        "english": "Ask the voice assistant to play music."
+        "english": "Ask the voice assistant to play music.",
+        "translations": {
+          "en": "Ask the voice assistant to play music.",
+          "ru": "Попросите помощника включить музыку.",
+          "es": "Pida al asistente que ponga música.",
+          "pt-BR": "Peça ao assistente para tocar música."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "voice assistant",
+      "ru": "голосовой помощник",
+      "es": "asistente de voz",
+      "pt-BR": "assistente de voz"
+    }
   },
   {
     "section": "smart_devices",
@@ -1520,14 +3032,32 @@
       {
         "hanzi": "扫地机器人每天自动打扫。",
         "pinyin": "Sǎodì jīqìrén měitiān zìdòng dǎsǎo.",
-        "english": "The robot vacuum cleans automatically daily."
+        "english": "The robot vacuum cleans automatically daily.",
+        "translations": {
+          "en": "The robot vacuum cleans automatically daily.",
+          "ru": "Робот-пылесос убирает сам каждый день.",
+          "es": "El robot aspirador limpia solo todos los días.",
+          "pt-BR": "O robô aspirador limpa sozinho todo dia."
+        }
       },
       {
         "hanzi": "请清空扫地机器人的尘盒。",
         "pinyin": "Qǐng qīngkōng sǎodì jīqìrén de chénhé.",
-        "english": "Please empty the robot vacuum's dust bin."
+        "english": "Please empty the robot vacuum's dust bin.",
+        "translations": {
+          "en": "Please empty the robot vacuum's dust bin.",
+          "ru": "Очистите контейнер робота-пылесоса.",
+          "es": "Vacíe el depósito del robot.",
+          "pt-BR": "Esvazie o depósito do robô."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "robot vacuum",
+      "ru": "робот-пылесос",
+      "es": "robot aspirador",
+      "pt-BR": "robô aspirador"
+    }
   },
   {
     "section": "smart_devices",
@@ -1538,14 +3068,32 @@
       {
         "hanzi": "智能门锁用密码开。",
         "pinyin": "Zhìnéng ménsuǒ yòng mìmǎ kāi.",
-        "english": "The smart lock opens with a code."
+        "english": "The smart lock opens with a code.",
+        "translations": {
+          "en": "The smart lock opens with a code.",
+          "ru": "Умный замок открывается паролем.",
+          "es": "La cerradura inteligente se abre con código.",
+          "pt-BR": "A fechadura inteligente abre com senha."
+        }
       },
       {
         "hanzi": "我设置了智能门锁。",
         "pinyin": "Wǒ shèzhì le zhìnéng ménsuǒ.",
-        "english": "I set up a smart lock."
+        "english": "I set up a smart lock.",
+        "translations": {
+          "en": "I set up a smart lock.",
+          "ru": "Я настроил умный замок.",
+          "es": "Configuré una cerradura inteligente.",
+          "pt-BR": "Configurei uma fechadura inteligente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "smart lock",
+      "ru": "умный дверной замок",
+      "es": "cerradura inteligente",
+      "pt-BR": "fechadura inteligente"
+    }
   },
   {
     "section": "smart_devices",
@@ -1556,14 +3104,32 @@
       {
         "hanzi": "门口装了监控摄像头。",
         "pinyin": "Ménkǒu zhuāng le jiānkòng shèxiàngtóu.",
-        "english": "A security camera is installed at the door."
+        "english": "A security camera is installed at the door.",
+        "translations": {
+          "en": "A security camera is installed at the door.",
+          "ru": "У двери стоит камера наблюдения.",
+          "es": "Hay una cámara de seguridad en la puerta.",
+          "pt-BR": "Tem uma câmera de segurança na porta."
+        }
       },
       {
         "hanzi": "可以通过手机看监控。",
         "pinyin": "Kěyǐ tōngguò shǒujī kàn jiānkòng.",
-        "english": "You can view surveillance on your phone."
+        "english": "You can view surveillance on your phone.",
+        "translations": {
+          "en": "You can view surveillance on your phone.",
+          "ru": "Наблюдение можно смотреть с телефона.",
+          "es": "Se puede ver la vigilancia en el móvil.",
+          "pt-BR": "Dá para ver a vigilância no celular."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "surveillance / monitor",
+      "ru": "видеонаблюдение / мониторинг",
+      "es": "vigilancia / monitorizar",
+      "pt-BR": "vigilância / monitorar"
+    }
   },
   {
     "section": "smart_devices",
@@ -1574,14 +3140,32 @@
       {
         "hanzi": "传感器检测到有人。",
         "pinyin": "Chuángǎnqì jiǯcè dào yǒu rén.",
-        "english": "The sensor detected someone."
+        "english": "The sensor detected someone.",
+        "translations": {
+          "en": "The sensor detected someone.",
+          "ru": "Датчик обнаружил человека.",
+          "es": "El sensor detectó a alguien.",
+          "pt-BR": "O sensor detectou alguém."
+        }
       },
       {
         "hanzi": "温度传感器很准确。",
         "pinyin": "Wēndù chuángǎnqì hěn zhǔnquè.",
-        "english": "The temperature sensor is accurate."
+        "english": "The temperature sensor is accurate.",
+        "translations": {
+          "en": "The temperature sensor is accurate.",
+          "ru": "Датчик температуры очень точный.",
+          "es": "El sensor de temperatura es muy preciso.",
+          "pt-BR": "O sensor de temperatura é bem preciso."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "sensor",
+      "ru": "датчик / сенсор",
+      "es": "sensor",
+      "pt-BR": "sensor"
+    }
   },
   {
     "section": "smart_devices",
@@ -1592,14 +3176,32 @@
       {
         "hanzi": "可以远程控制空调。",
         "pinyin": "Kěyǐ yuǎnchéng kòngzhì kōngtiáo.",
-        "english": "You can control the AC remotely."
+        "english": "You can control the AC remotely.",
+        "translations": {
+          "en": "You can control the AC remotely.",
+          "ru": "Кондиционером можно управлять удалённо.",
+          "es": "Se puede controlar el aire a distancia.",
+          "pt-BR": "Dá para controlar o ar à distância."
+        }
       },
       {
         "hanzi": "远程控制很方便。",
         "pinyin": "Yuǎnchéng kòngzhì hěn fāngbiàn.",
-        "english": "Remote control is convenient."
+        "english": "Remote control is convenient.",
+        "translations": {
+          "en": "Remote control is convenient.",
+          "ru": "Удалённое управление очень удобно.",
+          "es": "El control a distancia es muy práctico.",
+          "pt-BR": "O controle à distância é muito prático."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "remote control",
+      "ru": "удалённое управление",
+      "es": "control remoto / control a distancia",
+      "pt-BR": "controle remoto / controle à distância"
+    }
   },
   {
     "section": "smart_devices",
@@ -1610,14 +3212,32 @@
       {
         "hanzi": "设备连接成功了。",
         "pinyin": "Shèbèi liánjiē chénggōng le.",
-        "english": "Device connected successfully."
+        "english": "Device connected successfully.",
+        "translations": {
+          "en": "Device connected successfully.",
+          "ru": "Устройство успешно подключилось.",
+          "es": "El dispositivo se conectó correctamente.",
+          "pt-BR": "O dispositivo conectou com sucesso."
+        }
       },
       {
         "hanzi": "请连接同一个WiFi。",
         "pinyin": "Qǐng liánjiē tóng yī gè WiFi.",
-        "english": "Please connect to the same WiFi."
+        "english": "Please connect to the same WiFi.",
+        "translations": {
+          "en": "Please connect to the same WiFi.",
+          "ru": "Подключитесь к той же сети Wi-Fi.",
+          "es": "Conéctese al mismo Wi-Fi.",
+          "pt-BR": "Conecte no mesmo Wi-Fi."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to connect",
+      "ru": "подключать / соединение",
+      "es": "conectar / conexión",
+      "pt-BR": "conectar / conexão"
+    }
   },
   {
     "section": "electronics",
@@ -1628,14 +3248,32 @@
       {
         "hanzi": "电池快没电了。",
         "pinyin": "Diànchí kuài méi diàn le.",
-        "english": "The battery is almost dead."
+        "english": "The battery is almost dead.",
+        "translations": {
+          "en": "The battery is almost dead.",
+          "ru": "Батарея почти села.",
+          "es": "La batería está casi agotada.",
+          "pt-BR": "A bateria está quase no fim."
+        }
       },
       {
         "hanzi": "请换新电池。",
         "pinyin": "Qǐng huàn xīn diànchí.",
-        "english": "Please replace the battery."
+        "english": "Please replace the battery.",
+        "translations": {
+          "en": "Please replace the battery.",
+          "ru": "Поставьте новую батарею.",
+          "es": "Ponga una batería nueva.",
+          "pt-BR": "Coloque uma bateria nova."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "battery",
+      "ru": "батарейка / аккумулятор",
+      "es": "batería / pila",
+      "pt-BR": "bateria / pilha"
+    }
   },
   {
     "section": "electronics",
@@ -1646,14 +3284,32 @@
       {
         "hanzi": "我的充电线坏了。",
         "pinyin": "Wǒ de chōngdiàn xiàn huài le.",
-        "english": "My charging cable is broken."
+        "english": "My charging cable is broken.",
+        "translations": {
+          "en": "My charging cable is broken.",
+          "ru": "Мой кабель зарядки сломался.",
+          "es": "Se me rompió el cable de carga.",
+          "pt-BR": "Meu cabo de carregamento quebrou."
+        }
       },
       {
         "hanzi": "请借我一条充电线。",
         "pinyin": "Qǐng jiè wǒ yī tiáo chōngdiàn xiàn.",
-        "english": "Please lend me a charging cable."
+        "english": "Please lend me a charging cable.",
+        "translations": {
+          "en": "Please lend me a charging cable.",
+          "ru": "Одолжите кабель зарядки.",
+          "es": "Préstenme un cable de carga.",
+          "pt-BR": "Me empreste um cabo de carregamento."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "charging cable",
+      "ru": "кабель зарядки",
+      "es": "cable de carga",
+      "pt-BR": "cabo de carregamento"
+    }
   },
   {
     "section": "electronics",
@@ -1664,14 +3320,32 @@
       {
         "hanzi": "无线耳机很方便。",
         "pinyin": "Wúxiàn ěrjī hěn fāngbiàn.",
-        "english": "Wireless earphones are convenient."
+        "english": "Wireless earphones are convenient.",
+        "translations": {
+          "en": "Wireless earphones are convenient.",
+          "ru": "Беспроводные наушники очень удобны.",
+          "es": "Los auriculares inalámbricos son muy prácticos.",
+          "pt-BR": "Fone sem fio é muito prático."
+        }
       },
       {
         "hanzi": "耳机音质很好。",
         "pinyin": "Ěrjī yīnzhì hěn hǎo.",
-        "english": "The headphones have great sound quality."
+        "english": "The headphones have great sound quality.",
+        "translations": {
+          "en": "The headphones have great sound quality.",
+          "ru": "У наушников отличный звук.",
+          "es": "Los auriculares tienen muy buen sonido.",
+          "pt-BR": "O fone tem um som ótimo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "headphones / earphones",
+      "ru": "наушники",
+      "es": "auriculares / cascos",
+      "pt-BR": "fone de ouvido / headphone"
+    }
   },
   {
     "section": "electronics",
@@ -1682,14 +3356,32 @@
       {
         "hanzi": "笔记本电脑有摄像头。",
         "pinyin": "Bǐjìběn diànnǎo yǒu shèxiàngtóu.",
-        "english": "The laptop has a camera."
+        "english": "The laptop has a camera.",
+        "translations": {
+          "en": "The laptop has a camera.",
+          "ru": "У ноутбука есть камера.",
+          "es": "El portátil tiene cámara.",
+          "pt-BR": "O notebook tem câmera."
+        }
       },
       {
         "hanzi": "请打开摄像头。",
         "pinyin": "Qǐng dǎkāi shèxiàngtóu.",
-        "english": "Please turn on the camera."
+        "english": "Please turn on the camera.",
+        "translations": {
+          "en": "Please turn on the camera.",
+          "ru": "Включите камеру.",
+          "es": "Encienda la cámara.",
+          "pt-BR": "Ligue a câmera."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "camera (device)",
+      "ru": "камера (устройства)",
+      "es": "cámara (del dispositivo)",
+      "pt-BR": "câmera (do aparelho)"
+    }
   },
   {
     "section": "electronics",
@@ -1700,14 +3392,32 @@
       {
         "hanzi": "路由器在客厅。",
         "pinyin": "Lùyóuqì zài kètīng.",
-        "english": "The router is in the living room."
+        "english": "The router is in the living room.",
+        "translations": {
+          "en": "The router is in the living room.",
+          "ru": "Роутер в гостиной.",
+          "es": "El router está en el salón.",
+          "pt-BR": "O roteador fica na sala."
+        }
       },
       {
         "hanzi": "请重启路由器。",
         "pinyin": "Qǐng chóngqǐ lùyóuqì.",
-        "english": "Please restart the router."
+        "english": "Please restart the router.",
+        "translations": {
+          "en": "Please restart the router.",
+          "ru": "Перезагрузите роутер.",
+          "es": "Reinicie el router.",
+          "pt-BR": "Reinicie o roteador."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "router",
+      "ru": "роутер / маршрутизатор",
+      "es": "router / enrutador",
+      "pt-BR": "roteador"
+    }
   },
   {
     "section": "electronics",
@@ -1718,14 +3428,32 @@
       {
         "hanzi": "插座在哪里？",
         "pinyin": "Chāzuò zài nǎlǐ?",
-        "english": "Where is the outlet?"
+        "english": "Where is the outlet?",
+        "translations": {
+          "en": "Where is the outlet?",
+          "ru": "Где розетка?",
+          "es": "¿Dónde está el enchufe?",
+          "pt-BR": "Onde fica a tomada?"
+        }
       },
       {
         "hanzi": "这个插座坏了。",
         "pinyin": "Zhège chāzuò huài le.",
-        "english": "This outlet is broken."
+        "english": "This outlet is broken.",
+        "translations": {
+          "en": "This outlet is broken.",
+          "ru": "Эта розетка сломана.",
+          "es": "Este enchufe está roto.",
+          "pt-BR": "Esta tomada está quebrada."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "power outlet / socket",
+      "ru": "розетка",
+      "es": "enchufe / toma de corriente",
+      "pt-BR": "tomada"
+    }
   },
   {
     "section": "electronics",
@@ -1736,14 +3464,32 @@
       {
         "hanzi": "请检查电源连接。",
         "pinyin": "Qǐng jiǎnchá diànyuán liánjiē.",
-        "english": "Please check the power connection."
+        "english": "Please check the power connection.",
+        "translations": {
+          "en": "Please check the power connection.",
+          "ru": "Проверьте подключение питания.",
+          "es": "Revise la conexión de alimentación.",
+          "pt-BR": "Confira a conexão da alimentação."
+        }
       },
       {
         "hanzi": "电源适配器不见了。",
         "pinyin": "Diànyuán shìpèiqì bú jiàn le.",
-        "english": "The power adapter is missing."
+        "english": "The power adapter is missing.",
+        "translations": {
+          "en": "The power adapter is missing.",
+          "ru": "Адаптер питания пропал.",
+          "es": "Falta el adaptador de corriente.",
+          "pt-BR": "O adaptador de energia sumiu."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "power supply",
+      "ru": "питание / блок питания",
+      "es": "fuente de alimentación",
+      "pt-BR": "fonte de alimentação"
+    }
   },
   {
     "section": "electronics",
@@ -1754,14 +3500,32 @@
       {
         "hanzi": "这个接口是USB-C。",
         "pinyin": "Zhège jiēkǒu shì USB-C.",
-        "english": "This port is USB-C."
+        "english": "This port is USB-C.",
+        "translations": {
+          "en": "This port is USB-C.",
+          "ru": "Этот разъём — USB-C.",
+          "es": "Este puerto es USB-C.",
+          "pt-BR": "Esta porta é USB-C."
+        }
       },
       {
         "hanzi": "接口坏了，充不了电。",
         "pinyin": "Jiēkǒu huài le, chōng bu liào diàn.",
-        "english": "The port is broken and won't charge."
+        "english": "The port is broken and won't charge.",
+        "translations": {
+          "en": "The port is broken and won't charge.",
+          "ru": "Разъём сломан, не заряжается.",
+          "es": "El puerto está roto y no carga.",
+          "pt-BR": "A porta está quebrada e não carrega."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "port / interface",
+      "ru": "разъём / порт / интерфейс",
+      "es": "puerto / conector",
+      "pt-BR": "porta / conector"
+    }
   },
   {
     "section": "electronics",
@@ -1772,14 +3536,32 @@
       {
         "hanzi": "这个产品保修一年。",
         "pinyin": "Zhège chǎnpǐn bǎoxiū yī nián.",
-        "english": "This product has a one-year warranty."
+        "english": "This product has a one-year warranty.",
+        "translations": {
+          "en": "This product has a one-year warranty.",
+          "ru": "У этого товара гарантия год.",
+          "es": "Este producto tiene un año de garantía.",
+          "pt-BR": "Este produto tem um ano de garantia."
+        }
       },
       {
         "hanzi": "保修期过了。",
         "pinyin": "Bǎoxiūqī guò le.",
-        "english": "The warranty period has expired."
+        "english": "The warranty period has expired.",
+        "translations": {
+          "en": "The warranty period has expired.",
+          "ru": "Гарантия уже закончилась.",
+          "es": "La garantía ya caducó.",
+          "pt-BR": "A garantia já venceu."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "warranty",
+      "ru": "гарантия",
+      "es": "garantía",
+      "pt-BR": "garantia"
+    }
   },
   {
     "section": "electronics",
@@ -1790,13 +3572,31 @@
       {
         "hanzi": "手机需要维修。",
         "pinyin": "Shǒujī xūyào wéixiū.",
-        "english": "The phone needs repair."
+        "english": "The phone needs repair.",
+        "translations": {
+          "en": "The phone needs repair.",
+          "ru": "Телефон нужно отремонтировать.",
+          "es": "El teléfono necesita reparación.",
+          "pt-BR": "O celular precisa de conserto."
+        }
       },
       {
         "hanzi": "维修店在商场里。",
         "pinyin": "Wéixiū diàn zài shāngchǎng lǐ.",
-        "english": "The repair shop is in the mall."
+        "english": "The repair shop is in the mall.",
+        "translations": {
+          "en": "The repair shop is in the mall.",
+          "ru": "Мастерская в торговом центре.",
+          "es": "El taller de reparación está en el centro comercial.",
+          "pt-BR": "A assistência fica no shopping."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to repair / maintenance",
+      "ru": "ремонт / обслуживание",
+      "es": "reparar / mantenimiento",
+      "pt-BR": "consertar / manutenção"
+    }
   }
 ]

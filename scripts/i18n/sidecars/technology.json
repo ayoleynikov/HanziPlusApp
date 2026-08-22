@@ -1,0 +1,1702 @@
+{
+  "智能手机": {
+    "ru": "смартфон",
+    "es": "teléfono inteligente / smartphone",
+    "pt-BR": "smartphone",
+    "examples": [
+      {
+        "ru": "Смартфоны изменили жизнь.",
+        "es": "Los smartphones cambiaron nuestra vida.",
+        "pt-BR": "Os smartphones mudaram a nossa vida."
+      },
+      {
+        "ru": "Я сменил смартфон.",
+        "es": "Me cambié de smartphone.",
+        "pt-BR": "Troquei de smartphone."
+      }
+    ]
+  },
+  "屏幕": {
+    "ru": "экран",
+    "es": "pantalla",
+    "pt-BR": "tela",
+    "examples": [
+      {
+        "ru": "Этот экран очень большой.",
+        "es": "Esta pantalla es enorme.",
+        "pt-BR": "Esta tela é enorme."
+      },
+      {
+        "ru": "Разбитый экран нужно заменить.",
+        "es": "Hay que cambiar la pantalla rota.",
+        "pt-BR": "A tela quebrada precisa ser trocada."
+      }
+    ]
+  },
+  "充电": {
+    "ru": "заряжать",
+    "es": "cargar",
+    "pt-BR": "carregar",
+    "examples": [
+      {
+        "ru": "Телефон почти сел, нужно зарядить.",
+        "es": "El teléfono está bajo, hay que cargarlo.",
+        "pt-BR": "O celular está fraco, precisa carregar."
+      },
+      {
+        "ru": "Зарядка на столе.",
+        "es": "El cargador está en la mesa.",
+        "pt-BR": "O carregador está na mesa."
+      }
+    ]
+  },
+  "应用": {
+    "ru": "приложение",
+    "es": "aplicación / app",
+    "pt-BR": "aplicativo / app",
+    "examples": [
+      {
+        "ru": "Ты скачал это приложение?",
+        "es": "¿Descargaste esta app?",
+        "pt-BR": "Você baixou este app?"
+      },
+      {
+        "ru": "Это приложение очень удобное.",
+        "es": "Esta app es muy útil.",
+        "pt-BR": "Este app é muito útil."
+      }
+    ]
+  },
+  "更新": {
+    "ru": "обновлять / обновление",
+    "es": "actualizar / actualizar",
+    "pt-BR": "atualizar",
+    "examples": [
+      {
+        "ru": "Обновите систему.",
+        "es": "Actualice el sistema.",
+        "pt-BR": "Atualize o sistema."
+      },
+      {
+        "ru": "У приложения есть новое обновление.",
+        "es": "La app tiene una actualización nueva.",
+        "pt-BR": "O app tem uma atualização nova."
+      }
+    ]
+  },
+  "指纹": {
+    "ru": "отпечаток пальца",
+    "es": "huella dactilar",
+    "pt-BR": "impressão digital",
+    "examples": [
+      {
+        "ru": "Разблокируйте телефон отпечатком.",
+        "es": "Desbloquee el teléfono con la huella.",
+        "pt-BR": "Desbloqueie o celular com a digital."
+      },
+      {
+        "ru": "Распознавание отпечатка очень быстрое.",
+        "es": "El reconocimiento de huella es rápido.",
+        "pt-BR": "O reconhecimento da digital é rápido."
+      }
+    ]
+  },
+  "拍照": {
+    "ru": "фотографировать",
+    "es": "hacer fotos / fotografiar",
+    "pt-BR": "tirar foto / fotografar",
+    "examples": [
+      {
+        "ru": "Снимать на телефон очень удобно.",
+        "es": "Fotografiar con el móvil es muy práctico.",
+        "pt-BR": "Tirar foto no celular é muito prático."
+      },
+      {
+        "ru": "Сфотографируйте меня, пожалуйста.",
+        "es": "Háganme una foto, por favor.",
+        "pt-BR": "Tira uma foto minha, por favor."
+      }
+    ]
+  },
+  "内存": {
+    "ru": "память / хранилище",
+    "es": "almacenamiento / memoria",
+    "pt-BR": "armazenamento / memória",
+    "examples": [
+      {
+        "ru": "Память телефона закончилась.",
+        "es": "El almacenamiento del móvil está lleno.",
+        "pt-BR": "O armazenamento do celular está cheio."
+      },
+      {
+        "ru": "У этой модели большая память.",
+        "es": "Este modelo tiene mucho almacenamiento.",
+        "pt-BR": "Este modelo tem bastante armazenamento."
+      }
+    ]
+  },
+  "信号": {
+    "ru": "сигнал (связи)",
+    "es": "señal",
+    "pt-BR": "sinal",
+    "examples": [
+      {
+        "ru": "Здесь плохой сигнал.",
+        "es": "Aquí la señal es mala.",
+        "pt-BR": "Aqui o sinal está ruim."
+      },
+      {
+        "ru": "Сигнал на полных делениях.",
+        "es": "La señal está al máximo.",
+        "pt-BR": "O sinal está no máximo."
+      }
+    ]
+  },
+  "蓝牙": {
+    "ru": "Bluetooth",
+    "es": "Bluetooth",
+    "pt-BR": "Bluetooth",
+    "examples": [
+      {
+        "ru": "Включите Bluetooth.",
+        "es": "Active el Bluetooth.",
+        "pt-BR": "Ligue o Bluetooth."
+      },
+      {
+        "ru": "Наушники подключаются по Bluetooth.",
+        "es": "Los auriculares se conectan por Bluetooth.",
+        "pt-BR": "O fone conecta via Bluetooth."
+      }
+    ]
+  },
+  "电脑": {
+    "ru": "компьютер",
+    "es": "ordenador / computadora",
+    "pt-BR": "computador",
+    "examples": [
+      {
+        "ru": "Мой компьютер работает медленно.",
+        "es": "Mi ordenador va lento.",
+        "pt-BR": "Meu computador está lento."
+      },
+      {
+        "ru": "Попробуйте перезагрузить компьютер.",
+        "es": "Pruebe a reiniciar el ordenador.",
+        "pt-BR": "Tente reiniciar o computador."
+      }
+    ]
+  },
+  "笔记本": {
+    "ru": "ноутбук",
+    "es": "portátil / laptop",
+    "pt-BR": "notebook / laptop",
+    "examples": [
+      {
+        "ru": "На работу я беру ноутбук.",
+        "es": "Llevo el portátil al trabajo.",
+        "pt-BR": "Levo o notebook para o trabalho."
+      },
+      {
+        "ru": "Этот ноутбук очень лёгкий.",
+        "es": "Este portátil es muy ligero.",
+        "pt-BR": "Este notebook é bem leve."
+      }
+    ]
+  },
+  "键盘": {
+    "ru": "клавиатура",
+    "es": "teclado",
+    "pt-BR": "teclado",
+    "examples": [
+      {
+        "ru": "На клавиатуре сломалась одна клавиша.",
+        "es": "Una tecla del teclado está rota.",
+        "pt-BR": "Uma tecla do teclado está quebrada."
+      },
+      {
+        "ru": "Подключите беспроводную клавиатуру.",
+        "es": "Conecte el teclado inalámbrico.",
+        "pt-BR": "Conecte o teclado sem fio."
+      }
+    ]
+  },
+  "鼠标": {
+    "ru": "мышь",
+    "es": "ratón",
+    "pt-BR": "mouse",
+    "examples": [
+      {
+        "ru": "Мышь плохо реагирует.",
+        "es": "El ratón no responde bien.",
+        "pt-BR": "O mouse não responde bem."
+      },
+      {
+        "ru": "Я привык к беспроводной мыши.",
+        "es": "Prefiero el ratón inalámbrico.",
+        "pt-BR": "Prefiro mouse sem fio."
+      }
+    ]
+  },
+  "软件": {
+    "ru": "программное обеспечение / софт",
+    "es": "software",
+    "pt-BR": "software",
+    "examples": [
+      {
+        "ru": "Установите эту программу.",
+        "es": "Instale este software.",
+        "pt-BR": "Instale este software."
+      },
+      {
+        "ru": "Программа зависла.",
+        "es": "El software se bloqueó.",
+        "pt-BR": "O software travou."
+      }
+    ]
+  },
+  "硬盘": {
+    "ru": "жёсткий диск",
+    "es": "disco duro",
+    "pt-BR": "disco rígido / HD",
+    "examples": [
+      {
+        "ru": "Места на диске не хватает.",
+        "es": "No hay espacio en el disco duro.",
+        "pt-BR": "Não há espaço no HD."
+      },
+      {
+        "ru": "Я поставил SSD.",
+        "es": "Lo cambié por un disco de estado sólido.",
+        "pt-BR": "Troquei por um SSD."
+      }
+    ]
+  },
+  "备份": {
+    "ru": "делать резервную копию / бэкап",
+    "es": "hacer copia de seguridad",
+    "pt-BR": "fazer backup",
+    "examples": [
+      {
+        "ru": "Регулярно делайте резервные копии.",
+        "es": "Haga copias de seguridad con regularidad.",
+        "pt-BR": "Faça backup com regularidade."
+      },
+      {
+        "ru": "Я уже сохранил копию в облаке.",
+        "es": "Ya hice la copia en la nube.",
+        "pt-BR": "Já fiz o backup na nuvem."
+      }
+    ]
+  },
+  "重启": {
+    "ru": "перезагружать",
+    "es": "reiniciar",
+    "pt-BR": "reiniciar",
+    "examples": [
+      {
+        "ru": "Попробуйте перезагрузить компьютер.",
+        "es": "Pruebe a reiniciar el ordenador.",
+        "pt-BR": "Tente reiniciar o computador."
+      },
+      {
+        "ru": "После обновления нужна перезагрузка.",
+        "es": "Tras actualizar hay que reiniciar.",
+        "pt-BR": "Depois de atualizar é preciso reiniciar."
+      }
+    ]
+  },
+  "显示器": {
+    "ru": "монитор",
+    "es": "monitor / pantalla",
+    "pt-BR": "monitor",
+    "examples": [
+      {
+        "ru": "Я купил два монитора.",
+        "es": "Compré dos monitores.",
+        "pt-BR": "Comprei dois monitores."
+      },
+      {
+        "ru": "У монитора высокое разрешение.",
+        "es": "El monitor tiene mucha resolución.",
+        "pt-BR": "O monitor tem alta resolução."
+      }
+    ]
+  },
+  "文件": {
+    "ru": "файл / документ",
+    "es": "archivo / fichero",
+    "pt-BR": "arquivo",
+    "examples": [
+      {
+        "ru": "Файл сохранён на рабочем столе.",
+        "es": "El archivo está guardado en el escritorio.",
+        "pt-BR": "O arquivo está salvo na área de trabalho."
+      },
+      {
+        "ru": "Пришлите мне этот файл.",
+        "es": "Envíeme este archivo.",
+        "pt-BR": "Me envie este arquivo."
+      }
+    ]
+  },
+  "互联网": {
+    "ru": "интернет",
+    "es": "internet",
+    "pt-BR": "internet",
+    "examples": [
+      {
+        "ru": "Интернет изменил мир.",
+        "es": "Internet cambió el mundo.",
+        "pt-BR": "A internet mudou o mundo."
+      },
+      {
+        "ru": "Без интернета я не могу работать.",
+        "es": "Sin internet no puedo trabajar.",
+        "pt-BR": "Sem internet não consigo trabalhar."
+      }
+    ]
+  },
+  "网站": {
+    "ru": "сайт / веб-сайт",
+    "es": "sitio web",
+    "pt-BR": "site / website",
+    "examples": [
+      {
+        "ru": "Зайдите на наш сайт.",
+        "es": "Visite nuestro sitio web.",
+        "pt-BR": "Visite o nosso site."
+      },
+      {
+        "ru": "Этот сайт загружается медленно.",
+        "es": "Este sitio carga muy lento.",
+        "pt-BR": "Este site carrega muito lento."
+      }
+    ]
+  },
+  "浏览器": {
+    "ru": "браузер",
+    "es": "navegador",
+    "pt-BR": "navegador",
+    "examples": [
+      {
+        "ru": "Попробуйте другой браузер.",
+        "es": "Pruebe otro navegador.",
+        "pt-BR": "Tente outro navegador."
+      },
+      {
+        "ru": "Браузер нужно обновить.",
+        "es": "El navegador necesita una actualización.",
+        "pt-BR": "O navegador precisa de atualização."
+      }
+    ]
+  },
+  "下载": {
+    "ru": "скачивать / загружать",
+    "es": "descargar",
+    "pt-BR": "baixar / fazer download",
+    "examples": [
+      {
+        "ru": "Скачайте последнюю версию.",
+        "es": "Descargue la última versión.",
+        "pt-BR": "Baixe a versão mais recente."
+      },
+      {
+        "ru": "Файл скачивается.",
+        "es": "El archivo se está descargando.",
+        "pt-BR": "O arquivo está baixando."
+      }
+    ]
+  },
+  "上传": {
+    "ru": "загружать на сервер / выкладывать",
+    "es": "subir / cargar (upload)",
+    "pt-BR": "enviar / fazer upload",
+    "examples": [
+      {
+        "ru": "Загрузите резюме.",
+        "es": "Suba su currículum.",
+        "pt-BR": "Envie o seu currículo."
+      },
+      {
+        "ru": "Видео уже загружено.",
+        "es": "La subida del vídeo terminó.",
+        "pt-BR": "O upload do vídeo terminou."
+      }
+    ]
+  },
+  "搜索": {
+    "ru": "искать / поиск",
+    "es": "buscar / buscar en internet",
+    "pt-BR": "pesquisar / buscar",
+    "examples": [
+      {
+        "ru": "Поищите в интернете.",
+        "es": "Búsquelo en internet.",
+        "pt-BR": "Pesquise na internet."
+      },
+      {
+        "ru": "Поисковик работает быстро.",
+        "es": "El buscador es rápido.",
+        "pt-BR": "O buscador é rápido."
+      }
+    ]
+  },
+  "链接": {
+    "ru": "ссылка",
+    "es": "enlace / vínculo",
+    "pt-BR": "link",
+    "examples": [
+      {
+        "ru": "Нажмите на эту ссылку.",
+        "es": "Haga clic en este enlace.",
+        "pt-BR": "Clique neste link."
+      },
+      {
+        "ru": "Ссылка уже недействительна.",
+        "es": "El enlace caducó.",
+        "pt-BR": "O link expirou."
+      }
+    ]
+  },
+  "密码": {
+    "ru": "пароль",
+    "es": "contraseña",
+    "pt-BR": "senha",
+    "examples": [
+      {
+        "ru": "Установите надёжный пароль.",
+        "es": "Ponga una contraseña fuerte.",
+        "pt-BR": "Coloque uma senha forte."
+      },
+      {
+        "ru": "Я забыл пароль.",
+        "es": "Olvidé la contraseña.",
+        "pt-BR": "Esqueci a senha."
+      }
+    ]
+  },
+  "WiFi": {
+    "ru": "Wi-Fi",
+    "es": "Wi-Fi",
+    "pt-BR": "Wi-Fi",
+    "examples": [
+      {
+        "ru": "Какой пароль от Wi-Fi?",
+        "es": "¿Cuál es la contraseña del Wi-Fi?",
+        "pt-BR": "Qual é a senha do Wi-Fi?"
+      },
+      {
+        "ru": "Здесь сильный сигнал Wi-Fi.",
+        "es": "Aquí la señal Wi-Fi es fuerte.",
+        "pt-BR": "Aqui o sinal de Wi-Fi é forte."
+      }
+    ]
+  },
+  "云端": {
+    "ru": "облако / облачное хранилище",
+    "es": "nube / almacenamiento en la nube",
+    "pt-BR": "nuvem / armazenamento na nuvem",
+    "examples": [
+      {
+        "ru": "Данные хранятся в облаке.",
+        "es": "Los datos están en la nube.",
+        "pt-BR": "Os dados estão na nuvem."
+      },
+      {
+        "ru": "Синхронизация с облаком завершена.",
+        "es": "La sincronización en la nube terminó.",
+        "pt-BR": "A sincronização na nuvem terminou."
+      }
+    ]
+  },
+  "人工智能": {
+    "ru": "искусственный интеллект",
+    "es": "inteligencia artificial",
+    "pt-BR": "inteligência artificial",
+    "examples": [
+      {
+        "ru": "ИИ развивается очень быстро.",
+        "es": "La IA avanza muy rápido.",
+        "pt-BR": "A IA avança muito rápido."
+      },
+      {
+        "ru": "ИИ изменил многие отрасли.",
+        "es": "La IA transformó muchos sectores.",
+        "pt-BR": "A IA transformou muitos setores."
+      }
+    ]
+  },
+  "算法": {
+    "ru": "алгоритм",
+    "es": "algoritmo",
+    "pt-BR": "algoritmo",
+    "examples": [
+      {
+        "ru": "Алгоритм рекомендаций очень точный.",
+        "es": "El algoritmo de recomendación es muy preciso.",
+        "pt-BR": "O algoritmo de recomendação é bem preciso."
+      },
+      {
+        "ru": "Алгоритмы нужно постоянно улучшать.",
+        "es": "Los algoritmos hay que optimizarlos siempre.",
+        "pt-BR": "Os algoritmos precisam ser otimizados sempre."
+      }
+    ]
+  },
+  "模型": {
+    "ru": "модель (ИИ)",
+    "es": "modelo (IA)",
+    "pt-BR": "modelo (IA)",
+    "examples": [
+      {
+        "ru": "Эта языковая модель очень мощная.",
+        "es": "Este modelo de lenguaje es muy potente.",
+        "pt-BR": "Este modelo de linguagem é muito poderoso."
+      },
+      {
+        "ru": "Модели нужно много данных для обучения.",
+        "es": "Los modelos necesitan muchos datos para entrenarse.",
+        "pt-BR": "Os modelos precisam de muitos dados para treinar."
+      }
+    ]
+  },
+  "训练": {
+    "ru": "обучать (модель ИИ)",
+    "es": "entrenar (IA)",
+    "pt-BR": "treinar (IA)",
+    "examples": [
+      {
+        "ru": "Обучение модели занимает много времени.",
+        "es": "Entrenar el modelo lleva mucho tiempo.",
+        "pt-BR": "Treinar o modelo leva muito tempo."
+      },
+      {
+        "ru": "Они обучают новый ИИ.",
+        "es": "Están entrenando una IA nueva.",
+        "pt-BR": "Eles estão treinando uma IA nova."
+      }
+    ]
+  },
+  "识别": {
+    "ru": "распознавание / распознавать",
+    "es": "reconocimiento / reconocer",
+    "pt-BR": "reconhecimento / reconhecer",
+    "examples": [
+      {
+        "ru": "Распознавание лиц очень быстрое.",
+        "es": "El reconocimiento facial es rápido.",
+        "pt-BR": "O reconhecimento facial é rápido."
+      },
+      {
+        "ru": "Точность распознавания речи высокая.",
+        "es": "La precisión del reconocimiento de voz es alta.",
+        "pt-BR": "A precisão do reconhecimento de voz é alta."
+      }
+    ]
+  },
+  "自动化": {
+    "ru": "автоматизация",
+    "es": "automatización",
+    "pt-BR": "automação",
+    "examples": [
+      {
+        "ru": "Завод автоматизировали.",
+        "es": "La fábrica se automatizó.",
+        "pt-BR": "A fábrica foi automatizada."
+      },
+      {
+        "ru": "Автоматизация повысила эффективность.",
+        "es": "La automatización mejoró la eficiencia.",
+        "pt-BR": "A automação melhorou a eficiência."
+      }
+    ]
+  },
+  "智能": {
+    "ru": "умный / интеллектуальный",
+    "es": "inteligente / smart",
+    "pt-BR": "inteligente / smart",
+    "examples": [
+      {
+        "ru": "Это система умного дома.",
+        "es": "Este es un sistema de hogar inteligente.",
+        "pt-BR": "Este é um sistema de casa inteligente."
+      },
+      {
+        "ru": "Умный помощник может отвечать на вопросы.",
+        "es": "El asistente inteligente puede responder preguntas.",
+        "pt-BR": "O assistente inteligente pode responder perguntas."
+      }
+    ]
+  },
+  "数据": {
+    "ru": "данные",
+    "es": "datos",
+    "pt-BR": "dados",
+    "examples": [
+      {
+        "ru": "Безопасность данных очень важна.",
+        "es": "La seguridad de los datos es importante.",
+        "pt-BR": "A segurança dos dados é importante."
+      },
+      {
+        "ru": "Проанализируйте эти данные.",
+        "es": "Analice estos datos.",
+        "pt-BR": "Analise estes dados."
+      }
+    ]
+  },
+  "机器学习": {
+    "ru": "машинное обучение",
+    "es": "aprendizaje automático",
+    "pt-BR": "aprendizado de máquina",
+    "examples": [
+      {
+        "ru": "Машинное обучение — основа ИИ.",
+        "es": "El aprendizaje automático es la base de la IA.",
+        "pt-BR": "O aprendizado de máquina é a base da IA."
+      },
+      {
+        "ru": "Он изучает машинное обучение.",
+        "es": "Estudia aprendizaje automático.",
+        "pt-BR": "Ele estuda aprendizado de máquina."
+      }
+    ]
+  },
+  "聊天机器人": {
+    "ru": "чат-бот",
+    "es": "chatbot",
+    "pt-BR": "chatbot",
+    "examples": [
+      {
+        "ru": "Служба поддержки — чат-бот.",
+        "es": "La atención al cliente es un chatbot.",
+        "pt-BR": "O atendimento é um chatbot."
+      },
+      {
+        "ru": "Чат-бот отвечает очень быстро.",
+        "es": "El chatbot responde muy rápido.",
+        "pt-BR": "O chatbot responde muito rápido."
+      }
+    ]
+  },
+  "朋友圈": {
+    "ru": "лента «Моменты» (WeChat)",
+    "es": "Momentos (feed de WeChat)",
+    "pt-BR": "Momentos (feed do WeChat)",
+    "examples": [
+      {
+        "ru": "Он выложил фото в «Моменты».",
+        "es": "Publicó fotos en Momentos.",
+        "pt-BR": "Ele postou fotos nos Momentos."
+      },
+      {
+        "ru": "Не выкладывайте всё в «Моменты».",
+        "es": "No publiques todo en Momentos.",
+        "pt-BR": "Não poste tudo nos Momentos."
+      }
+    ]
+  },
+  "点赞": {
+    "ru": "ставить лайк",
+    "es": "dar me gusta / like",
+    "pt-BR": "dar like / curtir",
+    "examples": [
+      {
+        "ru": "Поставьте лайк моему видео.",
+        "es": "Dale me gusta a mi vídeo.",
+        "pt-BR": "Dê like no meu vídeo."
+      },
+      {
+        "ru": "У этого поста много лайков.",
+        "es": "Este post tiene muchos me gusta.",
+        "pt-BR": "Este post tem muitos likes."
+      }
+    ]
+  },
+  "评论": {
+    "ru": "комментарий",
+    "es": "comentario",
+    "pt-BR": "comentário",
+    "examples": [
+      {
+        "ru": "Оставьте свой комментарий.",
+        "es": "Deje su comentario.",
+        "pt-BR": "Deixe o seu comentário."
+      },
+      {
+        "ru": "В комментариях оживлённое обсуждение.",
+        "es": "En los comentarios hay un debate animado.",
+        "pt-BR": "Nos comentários a discussão está animada."
+      }
+    ]
+  },
+  "分享": {
+    "ru": "делиться / репост",
+    "es": "compartir",
+    "pt-BR": "compartilhar",
+    "examples": [
+      {
+        "ru": "Поделитесь этой статьёй.",
+        "es": "Comparta este artículo.",
+        "pt-BR": "Compartilhe este artigo."
+      },
+      {
+        "ru": "Я отправил это в WeChat.",
+        "es": "Lo compartí en WeChat.",
+        "pt-BR": "Compartilhei no WeChat."
+      }
+    ]
+  },
+  "关注": {
+    "ru": "подписываться / следить",
+    "es": "seguir",
+    "pt-BR": "seguir",
+    "examples": [
+      {
+        "ru": "Подпишитесь на мой аккаунт.",
+        "es": "Sígame en la cuenta.",
+        "pt-BR": "Siga a minha conta."
+      },
+      {
+        "ru": "Он подписан на многих блогеров.",
+        "es": "Sigue a muchos influencers.",
+        "pt-BR": "Ele segue muitos influenciadores."
+      }
+    ]
+  },
+  "粉丝": {
+    "ru": "фанаты / подписчики",
+    "es": "seguidores / fans",
+    "pt-BR": "seguidores / fãs",
+    "examples": [
+      {
+        "ru": "У него миллион подписчиков.",
+        "es": "Tiene un millón de seguidores.",
+        "pt-BR": "Ele tem um milhão de seguidores."
+      },
+      {
+        "ru": "Фанаты очень горячие.",
+        "es": "Los fans son muy entusiastas.",
+        "pt-BR": "Os fãs são muito entusiasmados."
+      }
+    ]
+  },
+  "直播": {
+    "ru": "прямая трансляция / стрим",
+    "es": "directo / live",
+    "pt-BR": "live / transmissão ao vivo",
+    "examples": [
+      {
+        "ru": "Сегодня вечером у неё стрим.",
+        "es": "Esta noche tiene un directo.",
+        "pt-BR": "Hoje à noite ela tem uma live."
+      },
+      {
+        "ru": "Продажи в прямом эфире очень популярны.",
+        "es": "La venta en directo es muy popular.",
+        "pt-BR": "Venda em live é muito popular."
+      }
+    ]
+  },
+  "短视频": {
+    "ru": "короткое видео",
+    "es": "vídeo corto",
+    "pt-BR": "vídeo curto",
+    "examples": [
+      {
+        "ru": "Короткие видео легко вызывают зависимость.",
+        "es": "Los vídeos cortos enganchan fácil.",
+        "pt-BR": "Vídeo curto vicia fácil."
+      },
+      {
+        "ru": "Он снял много коротких видео.",
+        "es": "Hizo muchos vídeos cortos.",
+        "pt-BR": "Ele fez muitos vídeos curtos."
+      }
+    ]
+  },
+  "热搜": {
+    "ru": "трендовые поиски / хот-сёрч",
+    "es": "búsquedas en tendencia",
+    "pt-BR": "pesquisas em alta / trending",
+    "examples": [
+      {
+        "ru": "Эта новость попала в тренды.",
+        "es": "Esta noticia llegó a tendencias.",
+        "pt-BR": "Esta notícia entrou nos trending."
+      },
+      {
+        "ru": "Эта тема — номер один в трендах.",
+        "es": "Este tema es el número uno en tendencias.",
+        "pt-BR": "Este assunto é o número um nos trending."
+      }
+    ]
+  },
+  "私信": {
+    "ru": "личное сообщение / директ",
+    "es": "mensaje privado / DM",
+    "pt-BR": "mensagem direta / DM",
+    "examples": [
+      {
+        "ru": "Напишите мне в личку.",
+        "es": "Contácteme por mensaje privado.",
+        "pt-BR": "Me chame no privado."
+      },
+      {
+        "ru": "Я получил личное сообщение.",
+        "es": "Recibí un mensaje privado.",
+        "pt-BR": "Recebi uma mensagem direta."
+      }
+    ]
+  },
+  "网购": {
+    "ru": "покупки онлайн",
+    "es": "compra en línea",
+    "pt-BR": "compra online",
+    "examples": [
+      {
+        "ru": "Я привык покупать онлайн.",
+        "es": "Estoy acostumbrado a comprar en línea.",
+        "pt-BR": "Estou acostumado a comprar online."
+      },
+      {
+        "ru": "Онлайн-покупки очень удобны.",
+        "es": "Comprar en línea es muy práctico.",
+        "pt-BR": "Comprar online é muito prático."
+      }
+    ]
+  },
+  "购物车": {
+    "ru": "корзина (в магазине)",
+    "es": "carrito de compra",
+    "pt-BR": "carrinho de compras",
+    "examples": [
+      {
+        "ru": "Добавьте в корзину.",
+        "es": "Añádalo al carrito.",
+        "pt-BR": "Adicione ao carrinho."
+      },
+      {
+        "ru": "Моя корзина полная.",
+        "es": "Mi carrito está lleno.",
+        "pt-BR": "Meu carrinho está cheio."
+      }
+    ]
+  },
+  "下单": {
+    "ru": "оформить заказ",
+    "es": "hacer un pedido",
+    "pt-BR": "fazer um pedido",
+    "examples": [
+      {
+        "ru": "Я уже оформил заказ.",
+        "es": "Ya hice el pedido.",
+        "pt-BR": "Já fiz o pedido."
+      },
+      {
+        "ru": "Оформите заказ до вечера.",
+        "es": "Haga el pedido antes de esta noche.",
+        "pt-BR": "Faça o pedido até hoje à noite."
+      }
+    ]
+  },
+  "快递": {
+    "ru": "экспресс-доставка / курьер",
+    "es": "mensajería urgente",
+    "pt-BR": "encomenda expressa / sedex",
+    "examples": [
+      {
+        "ru": "Курьер прибудет завтра.",
+        "es": "El envío express llega mañana.",
+        "pt-BR": "A encomenda expressa chega amanhã."
+      },
+      {
+        "ru": "Проверьте, где посылка.",
+        "es": "Revise dónde está el paquete.",
+        "pt-BR": "Veja onde está o pacote."
+      }
+    ]
+  },
+  "评价": {
+    "ru": "отзыв / оценка",
+    "es": "reseña / valoración",
+    "pt-BR": "avaliação / review",
+    "examples": [
+      {
+        "ru": "Оставьте отзыв о товаре.",
+        "es": "Valore el producto, por favor.",
+        "pt-BR": "Avalie o produto, por favor."
+      },
+      {
+        "ru": "Этот отзыв очень полезный.",
+        "es": "Esta reseña es muy útil.",
+        "pt-BR": "Esta avaliação é muito útil."
+      }
+    ]
+  },
+  "退款": {
+    "ru": "возврат денег",
+    "es": "reembolso",
+    "pt-BR": "reembolso",
+    "examples": [
+      {
+        "ru": "Можно запросить возврат?",
+        "es": "¿Puedo pedir un reembolso?",
+        "pt-BR": "Posso pedir reembolso?"
+      },
+      {
+        "ru": "Деньги уже вернулись на счёт.",
+        "es": "El reembolso ya se abonó.",
+        "pt-BR": "O reembolso já caiu na conta."
+      }
+    ]
+  },
+  "优惠券": {
+    "ru": "купон",
+    "es": "cupón",
+    "pt-BR": "cupom",
+    "examples": [
+      {
+        "ru": "У меня есть купон.",
+        "es": "Tengo un cupón.",
+        "pt-BR": "Tenho um cupom."
+      },
+      {
+        "ru": "Купон истекает сегодня.",
+        "es": "El cupón caduca hoy.",
+        "pt-BR": "O cupom vence hoje."
+      }
+    ]
+  },
+  "秒杀": {
+    "ru": "молниеносная распродажа / сеоша",
+    "es": "oferta relámpago",
+    "pt-BR": "oferta relâmpago",
+    "examples": [
+      {
+        "ru": "Сегодня в восемь вечера молниеносная распродажа.",
+        "es": "A las ocho hay una oferta relámpago.",
+        "pt-BR": "Às oito tem uma oferta relâmpago."
+      },
+      {
+        "ru": "Цены на сеоша очень выгодные.",
+        "es": "Los precios relámpago son muy buenos.",
+        "pt-BR": "Os preços relâmpago são ótimos."
+      }
+    ]
+  },
+  "包邮": {
+    "ru": "бесплатная доставка",
+    "es": "envío gratis",
+    "pt-BR": "frete grátis",
+    "examples": [
+      {
+        "ru": "От ста юаней — бесплатная доставка.",
+        "es": "Envío gratis a partir de 100.",
+        "pt-BR": "Frete grátis a partir de 100."
+      },
+      {
+        "ru": "У этого товара бесплатная доставка.",
+        "es": "Este artículo tiene envío gratis.",
+        "pt-BR": "Este item tem frete grátis."
+      }
+    ]
+  },
+  "客服": {
+    "ru": "служба поддержки / клиентский сервис",
+    "es": "atención al cliente",
+    "pt-BR": "atendimento ao cliente / SAC",
+    "examples": [
+      {
+        "ru": "Свяжитесь с онлайн-поддержкой.",
+        "es": "Contacte con atención al cliente en línea.",
+        "pt-BR": "Fale com o atendimento online."
+      },
+      {
+        "ru": "Поддержка ответила быстро.",
+        "es": "Atención al cliente respondió rápido.",
+        "pt-BR": "O atendimento respondeu rápido."
+      }
+    ]
+  },
+  "外卖": {
+    "ru": "доставка еды / takeaway",
+    "es": "comida a domicilio / delivery",
+    "pt-BR": "delivery / comida por aplicativo",
+    "examples": [
+      {
+        "ru": "Давайте сегодня вечером закажем еду.",
+        "es": "Pidamos comida a domicilio esta noche.",
+        "pt-BR": "Vamos pedir delivery hoje à noite."
+      },
+      {
+        "ru": "Доставка за тридцать минут.",
+        "es": "El pedido llega en treinta minutos.",
+        "pt-BR": "O delivery chega em trinta minutos."
+      }
+    ]
+  },
+  "骑手": {
+    "ru": "курьер на велосипеде / райдер",
+    "es": "repartidor",
+    "pt-BR": "entregador",
+    "examples": [
+      {
+        "ru": "Курьер уже в пути.",
+        "es": "El repartidor ya está en camino.",
+        "pt-BR": "O entregador já está a caminho."
+      },
+      {
+        "ru": "Курьер позвонил, что уже на месте.",
+        "es": "El repartidor llamó para decir que llegó.",
+        "pt-BR": "O entregador ligou dizendo que chegou."
+      }
+    ]
+  },
+  "配送": {
+    "ru": "доставка / развоз",
+    "es": "reparto / entrega",
+    "pt-BR": "entrega / distribuição",
+    "examples": [
+      {
+        "ru": "Плата за доставку — пять юаней.",
+        "es": "El envío cuesta cinco yuanes.",
+        "pt-BR": "A taxa de entrega é cinco yuans."
+      },
+      {
+        "ru": "Ожидаемое время доставки — сорок минут.",
+        "es": "El tiempo estimado de entrega es de cuarenta minutos.",
+        "pt-BR": "O tempo estimado de entrega é de quarenta minutos."
+      }
+    ]
+  },
+  "订单": {
+    "ru": "заказ",
+    "es": "pedido",
+    "pt-BR": "pedido",
+    "examples": [
+      {
+        "ru": "Ваш заказ отправлен.",
+        "es": "Su pedido ya se envió.",
+        "pt-BR": "Seu pedido já foi enviado."
+      },
+      {
+        "ru": "Подтвердите данные заказа.",
+        "es": "Confirme los datos del pedido.",
+        "pt-BR": "Confirme os dados do pedido."
+      }
+    ]
+  },
+  "追踪": {
+    "ru": "отслеживать",
+    "es": "rastrear",
+    "pt-BR": "rastrear",
+    "examples": [
+      {
+        "ru": "Доставку можно отслеживать в реальном времени.",
+        "es": "Puede rastrear la entrega en tiempo real.",
+        "pt-BR": "Dá para rastrear a entrega em tempo real."
+      },
+      {
+        "ru": "Отследите мою посылку.",
+        "es": "Rastree mi paquete.",
+        "pt-BR": "Rastreie o meu pacote."
+      }
+    ]
+  },
+  "准时": {
+    "ru": "вовремя",
+    "es": "a tiempo / puntual",
+    "pt-BR": "no horário / pontual",
+    "examples": [
+      {
+        "ru": "Еду доставили вовремя.",
+        "es": "La comida llegó a tiempo.",
+        "pt-BR": "A comida chegou no horário."
+      },
+      {
+        "ru": "Постарайтесь доставить вовремя.",
+        "es": "Entregue a tiempo si es posible.",
+        "pt-BR": "Entregue no horário se possível."
+      }
+    ]
+  },
+  "保温": {
+    "ru": "сохранять тепло (упаковка)",
+    "es": "mantener caliente (embalaje)",
+    "pt-BR": "manter quente (embalagem)",
+    "examples": [
+      {
+        "ru": "Еду привезли в термосумке.",
+        "es": "El pedido venía en bolsa térmica.",
+        "pt-BR": "O pedido veio em sacola térmica."
+      },
+      {
+        "ru": "Тепло сохранилось неплохо.",
+        "es": "El aislamiento funciona bastante bien.",
+        "pt-BR": "O isolamento funciona relativamente bem."
+      }
+    ]
+  },
+  "取餐码": {
+    "ru": "код получения заказа",
+    "es": "código de recogida",
+    "pt-BR": "código de retirada",
+    "examples": [
+      {
+        "ru": "Посмотрите код получения.",
+        "es": "Mire el código de recogida.",
+        "pt-BR": "Olhe o código de retirada."
+      },
+      {
+        "ru": "Этот код получения очень важен.",
+        "es": "Este código de recogida es importante.",
+        "pt-BR": "Este código de retirada é importante."
+      }
+    ]
+  },
+  "小费": {
+    "ru": "чаевые",
+    "es": "propina",
+    "pt-BR": "gorjeta",
+    "examples": [
+      {
+        "ru": "Хотите дать курьеру чаевые?",
+        "es": "¿Quiere dar propina al repartidor?",
+        "pt-BR": "Quer dar gorjeta ao entregador?"
+      },
+      {
+        "ru": "Я дал десять юаней чаевых.",
+        "es": "Di diez yuanes de propina.",
+        "pt-BR": "Dei dez yuans de gorjeta."
+      }
+    ]
+  },
+  "准时达": {
+    "ru": "доставка точно в срок",
+    "es": "entrega puntual garantizada",
+    "pt-BR": "entrega pontual garantida",
+    "examples": [
+      {
+        "ru": "Площадка обещает доставку точно в срок.",
+        "es": "La plataforma promete entrega puntual.",
+        "pt-BR": "A plataforma promete entrega pontual."
+      },
+      {
+        "ru": "Если не успеют — можно вернуть деньги.",
+        "es": "Si no llega a tiempo, puede pedir reembolso.",
+        "pt-BR": "Se não chegar no horário, dá para pedir reembolso."
+      }
+    ]
+  },
+  "游戏": {
+    "ru": "игра",
+    "es": "juego",
+    "pt-BR": "jogo",
+    "examples": [
+      {
+        "ru": "Во что ты играешь?",
+        "es": "¿A qué juegos juegas?",
+        "pt-BR": "Que jogos você joga?"
+      },
+      {
+        "ru": "Эта игра очень увлекательная.",
+        "es": "Este juego es muy divertido.",
+        "pt-BR": "Este jogo é muito divertido."
+      }
+    ]
+  },
+  "玩家": {
+    "ru": "игрок / геймер",
+    "es": "jugador / gamer",
+    "pt-BR": "jogador / gamer",
+    "examples": [
+      {
+        "ru": "Он опытный игрок.",
+        "es": "Es un gamer veterano.",
+        "pt-BR": "Ele é um gamer veterano."
+      },
+      {
+        "ru": "Онлайн сейчас много игроков.",
+        "es": "Hay muchos jugadores en línea.",
+        "pt-BR": "Há muitos jogadores online."
+      }
+    ]
+  },
+  "手柄": {
+    "ru": "геймпад / контроллер",
+    "es": "mando / control",
+    "pt-BR": "controle / gamepad",
+    "examples": [
+      {
+        "ru": "Подключите геймпад.",
+        "es": "Conecte el mando.",
+        "pt-BR": "Conecte o controle."
+      },
+      {
+        "ru": "У этого геймпада приятный хват.",
+        "es": "Este mando se siente muy bien.",
+        "pt-BR": "Este controle tem um toque muito bom."
+      }
+    ]
+  },
+  "关卡": {
+    "ru": "уровень / этап (игры)",
+    "es": "nivel / fase",
+    "pt-BR": "fase / nível",
+    "examples": [
+      {
+        "ru": "Этот уровень очень сложный.",
+        "es": "Este nivel es muy difícil.",
+        "pt-BR": "Esta fase é muito difícil."
+      },
+      {
+        "ru": "Я прошёл третий уровень.",
+        "es": "Pasé el nivel tres.",
+        "pt-BR": "Passei a terceira fase."
+      }
+    ]
+  },
+  "排名": {
+    "ru": "рейтинг / место в таблице",
+    "es": "clasificación / ranking",
+    "pt-BR": "ranking / classificação",
+    "examples": [
+      {
+        "ru": "Моё место в рейтинге выросло.",
+        "es": "Subí en la clasificación.",
+        "pt-BR": "Minha posição no ranking subiu."
+      },
+      {
+        "ru": "Он первый в мировом рейтинге.",
+        "es": "Está el número uno del mundo.",
+        "pt-BR": "Ele é o número um do mundo."
+      }
+    ]
+  },
+  "组队": {
+    "ru": "собирать команду / играть в группе",
+    "es": "formar equipo",
+    "pt-BR": "montar time / jogar em grupo",
+    "examples": [
+      {
+        "ru": "Давайте сыграем вместе.",
+        "es": "Juguemos en equipo.",
+        "pt-BR": "Vamos jogar em time."
+      },
+      {
+        "ru": "Для команды нужно четверо.",
+        "es": "Hace falta ser cuatro para formar equipo.",
+        "pt-BR": "É preciso ser quatro para montar o time."
+      }
+    ]
+  },
+  "充值": {
+    "ru": "пополнять счёт / донат",
+    "es": "recargar / donar en el juego",
+    "pt-BR": "recarregar / fazer recarga",
+    "examples": [
+      {
+        "ru": "В игре нужно пополнять счёт?",
+        "es": "¿El juego exige recargas?",
+        "pt-BR": "O jogo exige recarga?"
+      },
+      {
+        "ru": "Я пополнил на шестьдесят восемь юаней.",
+        "es": "Recargué sesenta y ocho yuanes.",
+        "pt-BR": "Recarreguei sessenta e oito yuans."
+      }
+    ]
+  },
+  "装备": {
+    "ru": "снаряжение / экипировка (в игре)",
+    "es": "equipamiento / gear",
+    "pt-BR": "equipamento / gear",
+    "examples": [
+      {
+        "ru": "У этой экипировки отличные характеристики.",
+        "es": "Este equipo tiene muy buenas estadísticas.",
+        "pt-BR": "Este equipamento tem ótimos atributos."
+      },
+      {
+        "ru": "Прокачайте снаряжение.",
+        "es": "Mejore su equipamiento.",
+        "pt-BR": "Melhore o seu equipamento."
+      }
+    ]
+  },
+  "网速": {
+    "ru": "скорость интернета",
+    "es": "velocidad de internet",
+    "pt-BR": "velocidade da internet",
+    "examples": [
+      {
+        "ru": "Медленный интернет мешает игре.",
+        "es": "Internet lenta afecta al juego.",
+        "pt-BR": "Internet lenta atrapalha o jogo."
+      },
+      {
+        "ru": "После смены тарифа интернет стал быстрее.",
+        "es": "Tras cambiar de fibra, la velocidad mejoró.",
+        "pt-BR": "Depois de trocar a banda, a velocidade melhorou."
+      }
+    ]
+  },
+  "电竞": {
+    "ru": "киберспорт",
+    "es": "deporte electrónico / esports",
+    "pt-BR": "esports / esportes eletrônicos",
+    "examples": [
+      {
+        "ru": "Киберспорт теперь официальные соревнования.",
+        "es": "Los esports ya son competición oficial.",
+        "pt-BR": "Esports já é competição oficial."
+      },
+      {
+        "ru": "Он мечтает стать киберспортсменом.",
+        "es": "Sueña con ser jugador profesional.",
+        "pt-BR": "Ele sonha em ser jogador profissional."
+      }
+    ]
+  },
+  "智能音箱": {
+    "ru": "умная колонка",
+    "es": "altavoz inteligente",
+    "pt-BR": "caixa de som inteligente",
+    "examples": [
+      {
+        "ru": "Умная колонка может управлять техникой.",
+        "es": "El altavoz inteligente controla electrodomésticos.",
+        "pt-BR": "A caixa inteligente controla eletrodomésticos."
+      },
+      {
+        "ru": "Говорите с умной колонкой.",
+        "es": "Hable al altavoz inteligente.",
+        "pt-BR": "Fale com a caixa inteligente."
+      }
+    ]
+  },
+  "智能手表": {
+    "ru": "умные часы",
+    "es": "reloj inteligente",
+    "pt-BR": "relógio inteligente",
+    "examples": [
+      {
+        "ru": "Умные часы измеряют пульс.",
+        "es": "El reloj inteligente mide el ritmo cardíaco.",
+        "pt-BR": "O relógio inteligente mede a frequência cardíaca."
+      },
+      {
+        "ru": "Я бегаю с умными часами.",
+        "es": "Corro con el reloj inteligente.",
+        "pt-BR": "Corro com o relógio inteligente."
+      }
+    ]
+  },
+  "智能家居": {
+    "ru": "умный дом",
+    "es": "hogar inteligente",
+    "pt-BR": "casa inteligente",
+    "examples": [
+      {
+        "ru": "Умный дом делает жизнь удобнее.",
+        "es": "El hogar inteligente hace la vida más fácil.",
+        "pt-BR": "A casa inteligente deixa a vida mais fácil."
+      },
+      {
+        "ru": "Мы установили систему умного дома.",
+        "es": "Instalamos un sistema de hogar inteligente.",
+        "pt-BR": "Instalamos um sistema de casa inteligente."
+      }
+    ]
+  },
+  "语音助手": {
+    "ru": "голосовой помощник",
+    "es": "asistente de voz",
+    "pt-BR": "assistente de voz",
+    "examples": [
+      {
+        "ru": "Голосовой помощник может поставить будильник.",
+        "es": "El asistente de voz puede poner una alarma.",
+        "pt-BR": "O assistente de voz pode colocar um alarme."
+      },
+      {
+        "ru": "Попросите помощника включить музыку.",
+        "es": "Pida al asistente que ponga música.",
+        "pt-BR": "Peça ao assistente para tocar música."
+      }
+    ]
+  },
+  "扫地机器人": {
+    "ru": "робот-пылесос",
+    "es": "robot aspirador",
+    "pt-BR": "robô aspirador",
+    "examples": [
+      {
+        "ru": "Робот-пылесос убирает сам каждый день.",
+        "es": "El robot aspirador limpia solo todos los días.",
+        "pt-BR": "O robô aspirador limpa sozinho todo dia."
+      },
+      {
+        "ru": "Очистите контейнер робота-пылесоса.",
+        "es": "Vacíe el depósito del robot.",
+        "pt-BR": "Esvazie o depósito do robô."
+      }
+    ]
+  },
+  "智能门锁": {
+    "ru": "умный дверной замок",
+    "es": "cerradura inteligente",
+    "pt-BR": "fechadura inteligente",
+    "examples": [
+      {
+        "ru": "Умный замок открывается паролем.",
+        "es": "La cerradura inteligente se abre con código.",
+        "pt-BR": "A fechadura inteligente abre com senha."
+      },
+      {
+        "ru": "Я настроил умный замок.",
+        "es": "Configuré una cerradura inteligente.",
+        "pt-BR": "Configurei uma fechadura inteligente."
+      }
+    ]
+  },
+  "监控": {
+    "ru": "видеонаблюдение / мониторинг",
+    "es": "vigilancia / monitorizar",
+    "pt-BR": "vigilância / monitorar",
+    "examples": [
+      {
+        "ru": "У двери стоит камера наблюдения.",
+        "es": "Hay una cámara de seguridad en la puerta.",
+        "pt-BR": "Tem uma câmera de segurança na porta."
+      },
+      {
+        "ru": "Наблюдение можно смотреть с телефона.",
+        "es": "Se puede ver la vigilancia en el móvil.",
+        "pt-BR": "Dá para ver a vigilância no celular."
+      }
+    ]
+  },
+  "传感器": {
+    "ru": "датчик / сенсор",
+    "es": "sensor",
+    "pt-BR": "sensor",
+    "examples": [
+      {
+        "ru": "Датчик обнаружил человека.",
+        "es": "El sensor detectó a alguien.",
+        "pt-BR": "O sensor detectou alguém."
+      },
+      {
+        "ru": "Датчик температуры очень точный.",
+        "es": "El sensor de temperatura es muy preciso.",
+        "pt-BR": "O sensor de temperatura é bem preciso."
+      }
+    ]
+  },
+  "远程控制": {
+    "ru": "удалённое управление",
+    "es": "control remoto / control a distancia",
+    "pt-BR": "controle remoto / controle à distância",
+    "examples": [
+      {
+        "ru": "Кондиционером можно управлять удалённо.",
+        "es": "Se puede controlar el aire a distancia.",
+        "pt-BR": "Dá para controlar o ar à distância."
+      },
+      {
+        "ru": "Удалённое управление очень удобно.",
+        "es": "El control a distancia es muy práctico.",
+        "pt-BR": "O controle à distância é muito prático."
+      }
+    ]
+  },
+  "连接": {
+    "ru": "подключать / соединение",
+    "es": "conectar / conexión",
+    "pt-BR": "conectar / conexão",
+    "examples": [
+      {
+        "ru": "Устройство успешно подключилось.",
+        "es": "El dispositivo se conectó correctamente.",
+        "pt-BR": "O dispositivo conectou com sucesso."
+      },
+      {
+        "ru": "Подключитесь к той же сети Wi-Fi.",
+        "es": "Conéctese al mismo Wi-Fi.",
+        "pt-BR": "Conecte no mesmo Wi-Fi."
+      }
+    ]
+  },
+  "电池": {
+    "ru": "батарейка / аккумулятор",
+    "es": "batería / pila",
+    "pt-BR": "bateria / pilha",
+    "examples": [
+      {
+        "ru": "Батарея почти села.",
+        "es": "La batería está casi agotada.",
+        "pt-BR": "A bateria está quase no fim."
+      },
+      {
+        "ru": "Поставьте новую батарею.",
+        "es": "Ponga una batería nueva.",
+        "pt-BR": "Coloque uma bateria nova."
+      }
+    ]
+  },
+  "充电线": {
+    "ru": "кабель зарядки",
+    "es": "cable de carga",
+    "pt-BR": "cabo de carregamento",
+    "examples": [
+      {
+        "ru": "Мой кабель зарядки сломался.",
+        "es": "Se me rompió el cable de carga.",
+        "pt-BR": "Meu cabo de carregamento quebrou."
+      },
+      {
+        "ru": "Одолжите кабель зарядки.",
+        "es": "Préstenme un cable de carga.",
+        "pt-BR": "Me empreste um cabo de carregamento."
+      }
+    ]
+  },
+  "耳机": {
+    "ru": "наушники",
+    "es": "auriculares / cascos",
+    "pt-BR": "fone de ouvido / headphone",
+    "examples": [
+      {
+        "ru": "Беспроводные наушники очень удобны.",
+        "es": "Los auriculares inalámbricos son muy prácticos.",
+        "pt-BR": "Fone sem fio é muito prático."
+      },
+      {
+        "ru": "У наушников отличный звук.",
+        "es": "Los auriculares tienen muy buen sonido.",
+        "pt-BR": "O fone tem um som ótimo."
+      }
+    ]
+  },
+  "摄像头": {
+    "ru": "камера (устройства)",
+    "es": "cámara (del dispositivo)",
+    "pt-BR": "câmera (do aparelho)",
+    "examples": [
+      {
+        "ru": "У ноутбука есть камера.",
+        "es": "El portátil tiene cámara.",
+        "pt-BR": "O notebook tem câmera."
+      },
+      {
+        "ru": "Включите камеру.",
+        "es": "Encienda la cámara.",
+        "pt-BR": "Ligue a câmera."
+      }
+    ]
+  },
+  "路由器": {
+    "ru": "роутер / маршрутизатор",
+    "es": "router / enrutador",
+    "pt-BR": "roteador",
+    "examples": [
+      {
+        "ru": "Роутер в гостиной.",
+        "es": "El router está en el salón.",
+        "pt-BR": "O roteador fica na sala."
+      },
+      {
+        "ru": "Перезагрузите роутер.",
+        "es": "Reinicie el router.",
+        "pt-BR": "Reinicie o roteador."
+      }
+    ]
+  },
+  "插座": {
+    "ru": "розетка",
+    "es": "enchufe / toma de corriente",
+    "pt-BR": "tomada",
+    "examples": [
+      {
+        "ru": "Где розетка?",
+        "es": "¿Dónde está el enchufe?",
+        "pt-BR": "Onde fica a tomada?"
+      },
+      {
+        "ru": "Эта розетка сломана.",
+        "es": "Este enchufe está roto.",
+        "pt-BR": "Esta tomada está quebrada."
+      }
+    ]
+  },
+  "电源": {
+    "ru": "питание / блок питания",
+    "es": "fuente de alimentación",
+    "pt-BR": "fonte de alimentação",
+    "examples": [
+      {
+        "ru": "Проверьте подключение питания.",
+        "es": "Revise la conexión de alimentación.",
+        "pt-BR": "Confira a conexão da alimentação."
+      },
+      {
+        "ru": "Адаптер питания пропал.",
+        "es": "Falta el adaptador de corriente.",
+        "pt-BR": "O adaptador de energia sumiu."
+      }
+    ]
+  },
+  "接口": {
+    "ru": "разъём / порт / интерфейс",
+    "es": "puerto / conector",
+    "pt-BR": "porta / conector",
+    "examples": [
+      {
+        "ru": "Этот разъём — USB-C.",
+        "es": "Este puerto es USB-C.",
+        "pt-BR": "Esta porta é USB-C."
+      },
+      {
+        "ru": "Разъём сломан, не заряжается.",
+        "es": "El puerto está roto y no carga.",
+        "pt-BR": "A porta está quebrada e não carrega."
+      }
+    ]
+  },
+  "保修": {
+    "ru": "гарантия",
+    "es": "garantía",
+    "pt-BR": "garantia",
+    "examples": [
+      {
+        "ru": "У этого товара гарантия год.",
+        "es": "Este producto tiene un año de garantía.",
+        "pt-BR": "Este produto tem um ano de garantia."
+      },
+      {
+        "ru": "Гарантия уже закончилась.",
+        "es": "La garantía ya caducó.",
+        "pt-BR": "A garantia já venceu."
+      }
+    ]
+  },
+  "维修": {
+    "ru": "ремонт / обслуживание",
+    "es": "reparar / mantenimiento",
+    "pt-BR": "consertar / manutenção",
+    "examples": [
+      {
+        "ru": "Телефон нужно отремонтировать.",
+        "es": "El teléfono necesita reparación.",
+        "pt-BR": "O celular precisa de conserto."
+      },
+      {
+        "ru": "Мастерская в торговом центре.",
+        "es": "El taller de reparación está en el centro comercial.",
+        "pt-BR": "A assistência fica no shopping."
+      }
+    ]
+  }
+}
