@@ -8,14 +8,32 @@
       {
         "hanzi": "早上好，今天天气不错。",
         "pinyin": "Zǎoshang hǎo, jīntiān tiānqì búcuò.",
-        "english": "Good morning, the weather is nice today."
+        "english": "Good morning, the weather is nice today.",
+        "translations": {
+          "en": "Good morning, the weather is nice today.",
+          "ru": "Доброе утро, сегодня хорошая погода.",
+          "es": "Buenos días, hoy hace buen tiempo.",
+          "pt-BR": "Bom dia, hoje o tempo está bom."
+        }
       },
       {
         "hanzi": "她每天早上好地跟邻居打招呼。",
         "pinyin": "Tā měitiān zǎoshang hǎo de gēn línjū dǎ zhāohu.",
-        "english": "She greets her neighbors good morning every day."
+        "english": "She greets her neighbors good morning every day.",
+        "translations": {
+          "en": "She greets her neighbors good morning every day.",
+          "ru": "Каждое утро она здоровается с соседями.",
+          "es": "Cada mañana saluda a los vecinos.",
+          "pt-BR": "Toda manhã ela cumprimenta os vizinhos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "good morning",
+      "ru": "доброе утро",
+      "es": "buenos días",
+      "pt-BR": "bom dia"
+    }
   },
   {
     "section": "greetings",
@@ -26,14 +44,32 @@
       {
         "hanzi": "晚上好，欢迎光临。",
         "pinyin": "Wǎnshang hǎo, huānyíng guānglín.",
-        "english": "Good evening, welcome."
+        "english": "Good evening, welcome.",
+        "translations": {
+          "en": "Good evening, welcome.",
+          "ru": "Добрый вечер, добро пожаловать.",
+          "es": "Buenas noches, bienvenido.",
+          "pt-BR": "Boa noite, seja bem-vindo."
+        }
       },
       {
         "hanzi": "晚上好，吃饭了吗？",
         "pinyin": "Wǎnshang hǎo, chīfàn le ma?",
-        "english": "Good evening, have you eaten?"
+        "english": "Good evening, have you eaten?",
+        "translations": {
+          "en": "Good evening, have you eaten?",
+          "ru": "Добрый вечер, вы уже ели?",
+          "es": "Buenas noches, ¿ya comiste?",
+          "pt-BR": "Boa noite, você já comeu?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "good evening",
+      "ru": "добрый вечер",
+      "es": "buenas tardes / buenas noches",
+      "pt-BR": "boa noite / boa tarde"
+    }
   },
   {
     "section": "greetings",
@@ -44,14 +80,32 @@
       {
         "hanzi": "再见，明天见。",
         "pinyin": "Zàijiàn, míngtiān jiàn.",
-        "english": "Goodbye, see you tomorrow."
+        "english": "Goodbye, see you tomorrow.",
+        "translations": {
+          "en": "Goodbye, see you tomorrow.",
+          "ru": "До свидания, до завтра.",
+          "es": "Adiós, hasta mañana.",
+          "pt-BR": "Tchau, até amanhã."
+        }
       },
       {
         "hanzi": "我先走了，再见。",
         "pinyin": "Wǒ xiān zǒu le, zàijiàn.",
-        "english": "I'm leaving now, goodbye."
+        "english": "I'm leaving now, goodbye.",
+        "translations": {
+          "en": "I'm leaving now, goodbye.",
+          "ru": "Я пойду, до свидания.",
+          "es": "Me voy, adiós.",
+          "pt-BR": "Vou embora, tchau."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "goodbye",
+      "ru": "до свидания",
+      "es": "adiós / hasta luego",
+      "pt-BR": "tchau / até logo"
+    }
   },
   {
     "section": "greetings",
@@ -62,14 +116,32 @@
       {
         "hanzi": "初来乍到，请多关照。",
         "pinyin": "Chūlái zhàdào, qǐng duō guānzhào.",
-        "english": "I'm new here, please look after me."
+        "english": "I'm new here, please look after me.",
+        "translations": {
+          "en": "I'm new here, please look after me.",
+          "ru": "Я здесь новенький, прошу вашей поддержки.",
+          "es": "Soy nuevo aquí, cuídenme por favor.",
+          "pt-BR": "Sou novo aqui, contem comigo."
+        }
       },
       {
         "hanzi": "以后请多关照。",
         "pinyin": "Yǐhòu qǐng duō guānzhào.",
-        "english": "Please take care of me in the future."
+        "english": "Please take care of me in the future.",
+        "translations": {
+          "en": "Please take care of me in the future.",
+          "ru": "В дальнейшем прошу вашей поддержки.",
+          "es": "En el futuro, cuídenme.",
+          "pt-BR": "Daí pra frente, contem comigo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "please take care of me (polite)",
+      "ru": "прошу вашей благосклонности / будем на связи",
+      "es": "cuídeme / encantado de conocernos",
+      "pt-BR": "conte comigo / prazer em conhecer"
+    }
   },
   {
     "section": "greetings",
@@ -80,14 +152,32 @@
       {
         "hanzi": "久仰大名。",
         "pinyin": "Jiǔyǎng dàmíng.",
-        "english": "I've long admired your reputation."
+        "english": "I've long admired your reputation.",
+        "translations": {
+          "en": "I've long admired your reputation.",
+          "ru": "Давно наслышан о вашей славе.",
+          "es": "He oído hablar mucho de usted.",
+          "pt-BR": "Já ouvi muito falar de você."
+        }
       },
       {
         "hanzi": "久仰，终于见面了。",
         "pinyin": "Jiǔyǎng, zhōngyú jiànmiàn le.",
-        "english": "I've heard so much about you, finally we meet."
+        "english": "I've heard so much about you, finally we meet.",
+        "translations": {
+          "en": "I've heard so much about you, finally we meet.",
+          "ru": "Давно наслышан, наконец встретились.",
+          "es": "Mucho gusto, por fin nos vemos.",
+          "pt-BR": "Prazer, finalmente nos encontramos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "I've heard so much about you",
+      "ru": "давно наслышан / рад знакомству",
+      "es": "mucho gusto / he oído hablar de usted",
+      "pt-BR": "prazer / já ouvi falar de você"
+    }
   },
   {
     "section": "greetings",
@@ -98,14 +188,32 @@
       {
         "hanzi": "最近怎么样？",
         "pinyin": "Zuìjìn zěnmeyàng?",
-        "english": "How have you been lately?"
+        "english": "How have you been lately?",
+        "translations": {
+          "en": "How have you been lately?",
+          "ru": "Как дела в последнее время?",
+          "es": "¿Cómo te ha ido últimamente?",
+          "pt-BR": "Como você tem estado?"
+        }
       },
       {
         "hanzi": "好久不见，最近怎么样？",
         "pinyin": "Hǎojiǔ bú jiàn, zuìjìn zěnmeyàng?",
-        "english": "Long time no see, how have you been?"
+        "english": "Long time no see, how have you been?",
+        "translations": {
+          "en": "Long time no see, how have you been?",
+          "ru": "Давно не виделись, как ты?",
+          "es": "Cuánto tiempo, ¿cómo has estado?",
+          "pt-BR": "Há quanto tempo, como você tem estado?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "how have you been lately",
+      "ru": "как дела в последнее время",
+      "es": "¿cómo te ha ido últimamente?",
+      "pt-BR": "como você tem estado?"
+    }
   },
   {
     "section": "greetings",
@@ -116,14 +224,32 @@
       {
         "hanzi": "欢迎来到北京。",
         "pinyin": "Huānyíng lái dào Běijīng.",
-        "english": "Welcome to Beijing."
+        "english": "Welcome to Beijing.",
+        "translations": {
+          "en": "Welcome to Beijing.",
+          "ru": "Добро пожаловать в Пекин.",
+          "es": "Bienvenido a Pekín.",
+          "pt-BR": "Bem-vindo a Pequim."
+        }
       },
       {
         "hanzi": "欢迎大家参加。",
         "pinyin": "Huānyíng dàjiā cānjiā.",
-        "english": "Welcome everyone to join."
+        "english": "Welcome everyone to join.",
+        "translations": {
+          "en": "Welcome everyone to join.",
+          "ru": "Приглашаем всех принять участие.",
+          "es": "Bienvenidos todos a participar.",
+          "pt-BR": "Sejam bem-vindos a participar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "welcome",
+      "ru": "добро пожаловать / приветствовать",
+      "es": "bienvenido / dar la bienvenida",
+      "pt-BR": "bem-vindo / dar as boas-vindas"
+    }
   },
   {
     "section": "greetings",
@@ -134,14 +260,32 @@
       {
         "hanzi": "恭喜你升职了。",
         "pinyin": "Gōngxǐ nǐ shēngzhí le.",
-        "english": "Congratulations on your promotion."
+        "english": "Congratulations on your promotion.",
+        "translations": {
+          "en": "Congratulations on your promotion.",
+          "ru": "Поздравляю с повышением.",
+          "es": "Felicidades por tu ascenso.",
+          "pt-BR": "Parabéns pela promoção."
+        }
       },
       {
         "hanzi": "恭喜发财！",
         "pinyin": "Gōngxǐ fācái!",
-        "english": "Wishing you prosperity!"
+        "english": "Wishing you prosperity!",
+        "translations": {
+          "en": "Wishing you prosperity!",
+          "ru": "Поздравляю с богатством!",
+          "es": "¡Gong Xi Fa Cai!",
+          "pt-BR": "Gong Xi Fa Cai!"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "congratulations",
+      "ru": "поздравлять",
+      "es": "felicitar / enhorabuena",
+      "pt-BR": "parabéns / parabenizar"
+    }
   },
   {
     "section": "greetings",
@@ -152,14 +296,32 @@
       {
         "hanzi": "祝你节日快乐。",
         "pinyin": "Zhù nǐ jiérì kuàilè.",
-        "english": "Happy holidays to you."
+        "english": "Happy holidays to you.",
+        "translations": {
+          "en": "Happy holidays to you.",
+          "ru": "С праздником!",
+          "es": "Felices fiestas.",
+          "pt-BR": "Boas festas."
+        }
       },
       {
         "hanzi": "节日快乐，阖家幸福。",
         "pinyin": "Jiérì kuàilè, héjiā xìngfú.",
-        "english": "Happy holidays and happiness to your family."
+        "english": "Happy holidays and happiness to your family.",
+        "translations": {
+          "en": "Happy holidays and happiness to your family.",
+          "ru": "С праздником и счастья вашей семье.",
+          "es": "Felices fiestas y felicidad para tu familia.",
+          "pt-BR": "Boas festas e felicidade para a família."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "happy holiday",
+      "ru": "с праздником",
+      "es": "felices fiestas",
+      "pt-BR": "boas festas"
+    }
   },
   {
     "section": "greetings",
@@ -170,14 +332,32 @@
       {
         "hanzi": "谢谢，慢走。",
         "pinyin": "Xièxie, mànzǒu.",
-        "english": "Thank you, take care."
+        "english": "Thank you, take care.",
+        "translations": {
+          "en": "Thank you, take care.",
+          "ru": "Спасибо, счастливо.",
+          "es": "Gracias, cuídate.",
+          "pt-BR": "Obrigado, se cuida."
+        }
       },
       {
         "hanzi": "天黑了，慢走啊。",
         "pinyin": "Tiān hēi le, mànzǒu a.",
-        "english": "It's dark out, take care on your way."
+        "english": "It's dark out, take care on your way.",
+        "translations": {
+          "en": "It's dark out, take care on your way.",
+          "ru": "Уже темно, осторожно в пути.",
+          "es": "Ya oscureció, ve con cuidado.",
+          "pt-BR": "Já escureceu, vai com cuidado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "take care (when seeing someone off)",
+      "ru": "счастливо / осторожно в пути",
+      "es": "que te vaya bien / cuídate",
+      "pt-BR": "vai com cuidado / se cuida"
+    }
   },
   {
     "section": "family",
@@ -188,14 +368,32 @@
       {
         "hanzi": "我爸爸是医生。",
         "pinyin": "Wǒ bàba shì yīshēng.",
-        "english": "My dad is a doctor."
+        "english": "My dad is a doctor.",
+        "translations": {
+          "en": "My dad is a doctor.",
+          "ru": "Мой папа — врач.",
+          "es": "Mi papá es médico.",
+          "pt-BR": "Meu pai é médico."
+        }
       },
       {
         "hanzi": "爸爸今天加班。",
         "pinyin": "Bàba jīntiān jiābān.",
-        "english": "Dad is working overtime today."
+        "english": "Dad is working overtime today.",
+        "translations": {
+          "en": "Dad is working overtime today.",
+          "ru": "Папа сегодня задерживается на работе.",
+          "es": "Papá hace horas extra hoy.",
+          "pt-BR": "O papai está fazendo hora extra hoje."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "dad / father",
+      "ru": "папа / отец",
+      "es": "papá / padre",
+      "pt-BR": "papai / pai"
+    }
   },
   {
     "section": "family",
@@ -206,14 +404,32 @@
       {
         "hanzi": "妈妈做的饭最好吃。",
         "pinyin": "Māma zuò de fàn zuì hǎochī.",
-        "english": "Mom's cooking is the best."
+        "english": "Mom's cooking is the best.",
+        "translations": {
+          "en": "Mom's cooking is the best.",
+          "ru": "Мамина еда самая вкусная.",
+          "es": "La comida de mamá es la mejor.",
+          "pt-BR": "A comida da mamãe é a melhor."
+        }
       },
       {
         "hanzi": "我给妈妈买了礼物。",
         "pinyin": "Wǒ gěi māma mǎi le lǐwù.",
-        "english": "I bought a gift for mom."
+        "english": "I bought a gift for mom.",
+        "translations": {
+          "en": "I bought a gift for mom.",
+          "ru": "Я купил маме подарок.",
+          "es": "Le compré un regalo a mamá.",
+          "pt-BR": "Comprei um presente para a mamãe."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "mom / mother",
+      "ru": "мама / мать",
+      "es": "mamá / madre",
+      "pt-BR": "mamãe / mãe"
+    }
   },
   {
     "section": "family",
@@ -224,14 +440,32 @@
       {
         "hanzi": "他们有两个孩子。",
         "pinyin": "Tāmen yǒu liǎng gè háizi.",
-        "english": "They have two children."
+        "english": "They have two children.",
+        "translations": {
+          "en": "They have two children.",
+          "ru": "У них двое детей.",
+          "es": "Tienen dos hijos.",
+          "pt-BR": "Eles têm dois filhos."
+        }
       },
       {
         "hanzi": "孩子在客厅玩。",
         "pinyin": "Háizi zài kètīng wán.",
-        "english": "The child is playing in the living room."
+        "english": "The child is playing in the living room.",
+        "translations": {
+          "en": "The child is playing in the living room.",
+          "ru": "Ребёнок играет в гостиной.",
+          "es": "El niño está jugando en el salón.",
+          "pt-BR": "A criança está brincando na sala."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "child",
+      "ru": "ребёнок / дети",
+      "es": "hijo / niño",
+      "pt-BR": "filho / criança"
+    }
   },
   {
     "section": "family",
@@ -242,14 +476,32 @@
       {
         "hanzi": "爷爷今年七十岁了。",
         "pinyin": "Yéye jīnnián qīshí suì le.",
-        "english": "Grandpa is seventy this year."
+        "english": "Grandpa is seventy this year.",
+        "translations": {
+          "en": "Grandpa is seventy this year.",
+          "ru": "Дедушке в этом году семьдесят.",
+          "es": "El abuelo cumple setenta este año.",
+          "pt-BR": "O vovô faz setenta este ano."
+        }
       },
       {
         "hanzi": "周末我去看爷爷。",
         "pinyin": "Zhōumò wǒ qù kàn yéye.",
-        "english": "I'm visiting grandpa on the weekend."
+        "english": "I'm visiting grandpa on the weekend.",
+        "translations": {
+          "en": "I'm visiting grandpa on the weekend.",
+          "ru": "На выходных я навещу дедушку.",
+          "es": "El fin de semana voy a ver al abuelo.",
+          "pt-BR": "No fim de semana vou ver o vovô."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "grandfather (paternal)",
+      "ru": "дедушка (по отцу)",
+      "es": "abuelo paterno",
+      "pt-BR": "avô paterno / vovô"
+    }
   },
   {
     "section": "family",
@@ -260,14 +512,32 @@
       {
         "hanzi": "奶奶身体很健康。",
         "pinyin": "Nǎinai shēntǐ hěn jiànkāng.",
-        "english": "Grandma is in good health."
+        "english": "Grandma is in good health.",
+        "translations": {
+          "en": "Grandma is in good health.",
+          "ru": "У бабушки крепкое здоровье.",
+          "es": "La abuela está muy sana.",
+          "pt-BR": "A vovó está com a saúde boa."
+        }
       },
       {
         "hanzi": "奶奶在厨房做饭。",
         "pinyin": "Nǎinai zài chúfáng zuòfàn.",
-        "english": "Grandma is cooking in the kitchen."
+        "english": "Grandma is cooking in the kitchen.",
+        "translations": {
+          "en": "Grandma is cooking in the kitchen.",
+          "ru": "Бабушка готовит на кухне.",
+          "es": "La abuela está cocinando.",
+          "pt-BR": "A vovó está cozinhando na cozinha."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "grandmother (paternal)",
+      "ru": "бабушка (по отцу)",
+      "es": "abuela paterna",
+      "pt-BR": "avó paterna / vovó"
+    }
   },
   {
     "section": "family",
@@ -278,14 +548,32 @@
       {
         "hanzi": "我哥哥在大学读书。",
         "pinyin": "Wǒ gēge zài dàxué dúshū.",
-        "english": "My older brother is in university."
+        "english": "My older brother is in university.",
+        "translations": {
+          "en": "My older brother is in university.",
+          "ru": "Мой старший брат учится в университете.",
+          "es": "Mi hermano mayor estudia en la universidad.",
+          "pt-BR": "Meu irmão mais velho estuda na universidade."
+        }
       },
       {
         "hanzi": "哥哥比我大三岁。",
         "pinyin": "Gēge bǐ wǒ dà sān suì.",
-        "english": "My brother is three years older than me."
+        "english": "My brother is three years older than me.",
+        "translations": {
+          "en": "My brother is three years older than me.",
+          "ru": "Брат старше меня на три года.",
+          "es": "Mi hermano es tres años mayor que yo.",
+          "pt-BR": "Meu irmão é três anos mais velho do que eu."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "older brother",
+      "ru": "старший брат",
+      "es": "hermano mayor",
+      "pt-BR": "irmão mais velho"
+    }
   },
   {
     "section": "family",
@@ -296,14 +584,32 @@
       {
         "hanzi": "姐姐在上海工作。",
         "pinyin": "Jiějie zài Shànghǎi gōngzuò.",
-        "english": "My older sister works in Shanghai."
+        "english": "My older sister works in Shanghai.",
+        "translations": {
+          "en": "My older sister works in Shanghai.",
+          "ru": "Старшая сестра работает в Шанхае.",
+          "es": "Mi hermana mayor trabaja en Shanghái.",
+          "pt-BR": "Minha irmã mais velha trabalha em Xangai."
+        }
       },
       {
         "hanzi": "姐姐教我学英语。",
         "pinyin": "Jiějie jiāo wǒ xué Yīngyǔ.",
-        "english": "My sister teaches me English."
+        "english": "My sister teaches me English.",
+        "translations": {
+          "en": "My sister teaches me English.",
+          "ru": "Сестра учит меня английскому.",
+          "es": "Mi hermana me enseña inglés.",
+          "pt-BR": "Minha irmã me ensina inglês."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "older sister",
+      "ru": "старшая сестра",
+      "es": "hermana mayor",
+      "pt-BR": "irmã mais velha"
+    }
   },
   {
     "section": "family",
@@ -314,14 +620,32 @@
       {
         "hanzi": "我丈夫是工程师。",
         "pinyin": "Wǒ zhàngfu shì gōngchéngshī.",
-        "english": "My husband is an engineer."
+        "english": "My husband is an engineer.",
+        "translations": {
+          "en": "My husband is an engineer.",
+          "ru": "Мой муж — инженер.",
+          "es": "Mi esposo es ingeniero.",
+          "pt-BR": "Meu marido é engenheiro."
+        }
       },
       {
         "hanzi": "丈夫在家带孩子。",
         "pinyin": "Zhàngfu zài jiā dài háizi.",
-        "english": "My husband is home with the kids."
+        "english": "My husband is home with the kids.",
+        "translations": {
+          "en": "My husband is home with the kids.",
+          "ru": "Муж дома с детьми.",
+          "es": "Mi esposo está en casa con los niños.",
+          "pt-BR": "Meu marido está em casa com as crianças."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "husband",
+      "ru": "муж",
+      "es": "esposo / marido",
+      "pt-BR": "marido / esposo"
+    }
   },
   {
     "section": "family",
@@ -332,14 +656,32 @@
       {
         "hanzi": "他妻子是老师。",
         "pinyin": "Tā qīzi shì lǎoshī.",
-        "english": "His wife is a teacher."
+        "english": "His wife is a teacher.",
+        "translations": {
+          "en": "His wife is a teacher.",
+          "ru": "Его жена — учительница.",
+          "es": "Su esposa es profesora.",
+          "pt-BR": "A esposa dele é professora."
+        }
       },
       {
         "hanzi": "我和妻子一起去旅行。",
         "pinyin": "Wǒ hé qīzi yīqǐ qù lǚxíng.",
-        "english": "My wife and I are traveling together."
+        "english": "My wife and I are traveling together.",
+        "translations": {
+          "en": "My wife and I are traveling together.",
+          "ru": "Мы с женой едем путешествовать.",
+          "es": "Mi esposa y yo viajamos juntos.",
+          "pt-BR": "Eu e minha esposa vamos viajar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "wife",
+      "ru": "жена",
+      "es": "esposa",
+      "pt-BR": "esposa"
+    }
   },
   {
     "section": "family",
@@ -350,14 +692,32 @@
       {
         "hanzi": "春节亲戚都会来。",
         "pinyin": "Chūnjié qīnqi dōu huì lái.",
-        "english": "Relatives all come during Spring Festival."
+        "english": "Relatives all come during Spring Festival.",
+        "translations": {
+          "en": "Relatives all come during Spring Festival.",
+          "ru": "На Чуньцзе съезжаются все родственники.",
+          "es": "En el Año Nuevo vienen todos los parientes.",
+          "pt-BR": "No Ano Novo Chinês vêm todos os parentes."
+        }
       },
       {
         "hanzi": "他是我远房亲戚。",
         "pinyin": "Tā shì wǒ yuǎnfáng qīnqi.",
-        "english": "He's a distant relative of mine."
+        "english": "He's a distant relative of mine.",
+        "translations": {
+          "en": "He's a distant relative of mine.",
+          "ru": "Он мой дальний родственник.",
+          "es": "Es un pariente lejano mío.",
+          "pt-BR": "Ele é um parente distante meu."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "relative",
+      "ru": "родственники",
+      "es": "parientes / familiares",
+      "pt-BR": "parentes / familiares"
+    }
   },
   {
     "section": "home",
@@ -368,14 +728,32 @@
       {
         "hanzi": "大家在客厅看电视。",
         "pinyin": "Dàjiā zài kètīng kàn diànshì.",
-        "english": "Everyone is watching TV in the living room."
+        "english": "Everyone is watching TV in the living room.",
+        "translations": {
+          "en": "Everyone is watching TV in the living room.",
+          "ru": "Все смотрят телевизор в гостиной.",
+          "es": "Todos ven la tele en el salón.",
+          "pt-BR": "Todo mundo assiste TV na sala."
+        }
       },
       {
         "hanzi": "客厅很宽敞。",
         "pinyin": "Kètīng hěn kuānchang.",
-        "english": "The living room is spacious."
+        "english": "The living room is spacious.",
+        "translations": {
+          "en": "The living room is spacious.",
+          "ru": "Гостиная просторная.",
+          "es": "El salón es amplio.",
+          "pt-BR": "A sala é espaçosa."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "living room",
+      "ru": "гостиная",
+      "es": "salón / sala de estar",
+      "pt-BR": "sala de estar"
+    }
   },
   {
     "section": "home",
@@ -386,14 +764,32 @@
       {
         "hanzi": "我的卧室在二楼。",
         "pinyin": "Wǒ de wòshì zài èr lóu.",
-        "english": "My bedroom is on the second floor."
+        "english": "My bedroom is on the second floor.",
+        "translations": {
+          "en": "My bedroom is on the second floor.",
+          "ru": "Моя спальня на втором этаже.",
+          "es": "Mi dormitorio está en el segundo piso.",
+          "pt-BR": "Meu quarto fica no segundo andar."
+        }
       },
       {
         "hanzi": "请保持卧室整洁。",
         "pinyin": "Qǐng bǎochí wòshì zhěngjié.",
-        "english": "Please keep the bedroom tidy."
+        "english": "Please keep the bedroom tidy.",
+        "translations": {
+          "en": "Please keep the bedroom tidy.",
+          "ru": "Держите спальню в порядке.",
+          "es": "Mantenga el dormitorio ordenado.",
+          "pt-BR": "Mantenha o quarto arrumado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "bedroom",
+      "ru": "спальня",
+      "es": "dormitorio / habitación",
+      "pt-BR": "quarto"
+    }
   },
   {
     "section": "home",
@@ -404,14 +800,32 @@
       {
         "hanzi": "厨房里有新设备。",
         "pinyin": "Chúfáng lǐ yǒu xīn shèbèi.",
-        "english": "There's new equipment in the kitchen."
+        "english": "There's new equipment in the kitchen.",
+        "translations": {
+          "en": "There's new equipment in the kitchen.",
+          "ru": "На кухне новая техника.",
+          "es": "Hay electrodomésticos nuevos en la cocina.",
+          "pt-BR": "Tem eletrodomésticos novos na cozinha."
+        }
       },
       {
         "hanzi": "她在厨房准备晚餐。",
         "pinyin": "Tā zài chúfáng zhǔnbèi wǎncān.",
-        "english": "She's preparing dinner in the kitchen."
+        "english": "She's preparing dinner in the kitchen.",
+        "translations": {
+          "en": "She's preparing dinner in the kitchen.",
+          "ru": "Она готовит ужин на кухне.",
+          "es": "Está preparando la cena en la cocina.",
+          "pt-BR": "Ela está fazendo o jantar na cozinha."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "kitchen",
+      "ru": "кухня",
+      "es": "cocina",
+      "pt-BR": "cozinha"
+    }
   },
   {
     "section": "home",
@@ -422,14 +836,32 @@
       {
         "hanzi": "请用里面的卫生间。",
         "pinyin": "Qǐng yòng lǐmiàn de wèishēngjiān.",
-        "english": "Please use the bathroom inside."
+        "english": "Please use the bathroom inside.",
+        "translations": {
+          "en": "Please use the bathroom inside.",
+          "ru": "Пользуйтесь ванной внутри.",
+          "es": "Use el baño de adentro.",
+          "pt-BR": "Use o banheiro de dentro."
+        }
       },
       {
         "hanzi": "卫生间需要打扫了。",
         "pinyin": "Wèishēngjiān xūyào dǎsǎo le.",
-        "english": "The bathroom needs cleaning."
+        "english": "The bathroom needs cleaning.",
+        "translations": {
+          "en": "The bathroom needs cleaning.",
+          "ru": "Ванную нужно убрать.",
+          "es": "El baño necesita limpieza.",
+          "pt-BR": "O banheiro precisa de limpeza."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "bathroom",
+      "ru": "ванная / туалет",
+      "es": "baño",
+      "pt-BR": "banheiro"
+    }
   },
   {
     "section": "home",
@@ -440,14 +872,32 @@
       {
         "hanzi": "阳台上种了花。",
         "pinyin": "Yángtái shàng zhòng le huā.",
-        "english": "Flowers are planted on the balcony."
+        "english": "Flowers are planted on the balcony.",
+        "translations": {
+          "en": "Flowers are planted on the balcony.",
+          "ru": "На балконе посадили цветы.",
+          "es": "Hay flores plantadas en el balcón.",
+          "pt-BR": "Tem flores plantadas na varanda."
+        }
       },
       {
         "hanzi": "请到阳台晾衣服。",
         "pinyin": "Qǐng dào yángtái liàng yīfu.",
-        "english": "Please hang clothes on the balcony."
+        "english": "Please hang clothes on the balcony.",
+        "translations": {
+          "en": "Please hang clothes on the balcony.",
+          "ru": "Сушите бельё на балконе.",
+          "es": "Tender la ropa en el balcón.",
+          "pt-BR": "Pendure a roupa na varanda."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "balcony",
+      "ru": "балкон",
+      "es": "balcón",
+      "pt-BR": "varanda / sacada"
+    }
   },
   {
     "section": "home",
@@ -458,14 +908,32 @@
       {
         "hanzi": "我的钥匙忘带了。",
         "pinyin": "Wǒ de yàoshi wàng dài le.",
-        "english": "I forgot my keys."
+        "english": "I forgot my keys.",
+        "translations": {
+          "en": "I forgot my keys.",
+          "ru": "Я забыл ключи.",
+          "es": "Olvidé las llaves.",
+          "pt-BR": "Esqueci as chaves."
+        }
       },
       {
         "hanzi": "请把钥匙放在门口。",
         "pinyin": "Qǐng bǎ yàoshi fàng zài ménkǒu.",
-        "english": "Please leave the keys at the door."
+        "english": "Please leave the keys at the door.",
+        "translations": {
+          "en": "Please leave the keys at the door.",
+          "ru": "Оставьте ключи у двери.",
+          "es": "Deje las llaves en la puerta.",
+          "pt-BR": "Deixe as chaves na porta."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "key",
+      "ru": "ключ",
+      "es": "llave",
+      "pt-BR": "chave"
+    }
   },
   {
     "section": "home",
@@ -476,14 +944,32 @@
       {
         "hanzi": "今天我要打扫房间。",
         "pinyin": "Jīntiān wǒ yào dǎsǎo fángjiān.",
-        "english": "I'm cleaning the room today."
+        "english": "I'm cleaning the room today.",
+        "translations": {
+          "en": "I'm cleaning the room today.",
+          "ru": "Сегодня я буду убирать комнату.",
+          "es": "Hoy voy a limpiar la habitación.",
+          "pt-BR": "Hoje vou limpar o quarto."
+        }
       },
       {
         "hanzi": "我们每周六打扫。",
         "pinyin": "Wǒmen měi zhōuliù dǎsǎo.",
-        "english": "We clean every Saturday."
+        "english": "We clean every Saturday.",
+        "translations": {
+          "en": "We clean every Saturday.",
+          "ru": "Мы убираемся каждую субботу.",
+          "es": "Limpiamos todos los sábados.",
+          "pt-BR": "Limpamos todo sábado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to clean",
+      "ru": "убирать / чистить",
+      "es": "limpiar",
+      "pt-BR": "limpar"
+    }
   },
   {
     "section": "home",
@@ -494,14 +980,32 @@
       {
         "hanzi": "空调需要修理了。",
         "pinyin": "Kōngtiáo xūyào xiūlǐ le.",
-        "english": "The AC needs repair."
+        "english": "The AC needs repair.",
+        "translations": {
+          "en": "The AC needs repair.",
+          "ru": "Кондиционер нужно починить.",
+          "es": "Hay que reparar el aire acondicionado.",
+          "pt-BR": "O ar-condicionado precisa de conserto."
+        }
       },
       {
         "hanzi": "他帮我把水龙头修好了。",
         "pinyin": "Tā bāng wǒ bǎ shuǐlóngtóu xiū hǎo le.",
-        "english": "He fixed the faucet for me."
+        "english": "He fixed the faucet for me.",
+        "translations": {
+          "en": "He fixed the faucet for me.",
+          "ru": "Он починил мне кран.",
+          "es": "Me arregló el grifo.",
+          "pt-BR": "Ele consertou a torneira para mim."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to repair / fix",
+      "ru": "чинить / ремонтировать",
+      "es": "reparar / arreglar",
+      "pt-BR": "consertar / reparar"
+    }
   },
   {
     "section": "home",
@@ -512,14 +1016,32 @@
       {
         "hanzi": "我的邻居很友好。",
         "pinyin": "Wǒ de línjū hěn yǒuhǎo.",
-        "english": "My neighbors are friendly."
+        "english": "My neighbors are friendly.",
+        "translations": {
+          "en": "My neighbors are friendly.",
+          "ru": "Мои соседи очень дружелюбные.",
+          "es": "Mis vecinos son muy amables.",
+          "pt-BR": "Meus vizinhos são muito simpáticos."
+        }
       },
       {
         "hanzi": "邻居借给我一把伞。",
         "pinyin": "Línjū jiè gěi wǒ yī bǎ sǎn.",
-        "english": "My neighbor lent me an umbrella."
+        "english": "My neighbor lent me an umbrella.",
+        "translations": {
+          "en": "My neighbor lent me an umbrella.",
+          "ru": "Сосед одолжил мне зонт.",
+          "es": "El vecino me prestó un paraguas.",
+          "pt-BR": "O vizinho me emprestou um guarda-chuva."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "neighbor",
+      "ru": "сосед",
+      "es": "vecino",
+      "pt-BR": "vizinho"
+    }
   },
   {
     "section": "home",
@@ -530,14 +1052,32 @@
       {
         "hanzi": "房租每月三千块。",
         "pinyin": "Fángzū měi yuè sān qiān kuài.",
-        "english": "Rent is three thousand a month."
+        "english": "Rent is three thousand a month.",
+        "translations": {
+          "en": "Rent is three thousand a month.",
+          "ru": "Аренда — три тысячи в месяц.",
+          "es": "El alquiler es de tres mil al mes.",
+          "pt-BR": "O aluguel é três mil por mês."
+        }
       },
       {
         "hanzi": "房租该交了。",
         "pinyin": "Fángzū gāi jiāo le.",
-        "english": "It's time to pay the rent."
+        "english": "It's time to pay the rent.",
+        "translations": {
+          "en": "It's time to pay the rent.",
+          "ru": "Пора платить за квартиру.",
+          "es": "Es hora de pagar el alquiler.",
+          "pt-BR": "Está na hora de pagar o aluguel."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "rent",
+      "ru": "аренда / квартплата",
+      "es": "alquiler / renta",
+      "pt-BR": "aluguel"
+    }
   },
   {
     "section": "shopping",
@@ -548,14 +1088,32 @@
       {
         "hanzi": "我去超市买菜。",
         "pinyin": "Wǒ qù chāoshì mǎi cài.",
-        "english": "I'm going to the supermarket for groceries."
+        "english": "I'm going to the supermarket for groceries.",
+        "translations": {
+          "en": "I'm going to the supermarket for groceries.",
+          "ru": "Иду в супермаркет за продуктами.",
+          "es": "Voy al supermercado a comprar comida.",
+          "pt-BR": "Vou ao supermercado comprar comida."
+        }
       },
       {
         "hanzi": "这家超市很大。",
         "pinyin": "Zhè jiā chāoshì hěn dà.",
-        "english": "This supermarket is very big."
+        "english": "This supermarket is very big.",
+        "translations": {
+          "en": "This supermarket is very big.",
+          "ru": "Этот супермаркет очень большой.",
+          "es": "Este supermercado es enorme.",
+          "pt-BR": "Este supermercado é enorme."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "supermarket",
+      "ru": "супермаркет",
+      "es": "supermercado",
+      "pt-BR": "supermercado"
+    }
   },
   {
     "section": "shopping",
@@ -566,14 +1124,32 @@
       {
         "hanzi": "请推一辆购物车。",
         "pinyin": "Qǐng tuī yī liàng gòuwùchē.",
-        "english": "Please get a shopping cart."
+        "english": "Please get a shopping cart.",
+        "translations": {
+          "en": "Please get a shopping cart.",
+          "ru": "Возьмите тележку.",
+          "es": "Tome un carrito, por favor.",
+          "pt-BR": "Pegue um carrinho, por favor."
+        }
       },
       {
         "hanzi": "购物车满了。",
         "pinyin": "Gòuwùchē mǎn le.",
-        "english": "The cart is full."
+        "english": "The cart is full.",
+        "translations": {
+          "en": "The cart is full.",
+          "ru": "Тележка полная.",
+          "es": "El carrito está lleno.",
+          "pt-BR": "O carrinho está cheio."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "shopping cart",
+      "ru": "тележка",
+      "es": "carrito de compra",
+      "pt-BR": "carrinho de compras"
+    }
   },
   {
     "section": "shopping",
@@ -584,14 +1160,32 @@
       {
         "hanzi": "这件衣服打折了。",
         "pinyin": "Zhè jiàn yīfu dǎzhé le.",
-        "english": "This item is on sale."
+        "english": "This item is on sale.",
+        "translations": {
+          "en": "This item is on sale.",
+          "ru": "Эта одежда со скидкой.",
+          "es": "Esta prenda está en oferta.",
+          "pt-BR": "Esta roupa está em promoção."
+        }
       },
       {
         "hanzi": "今天全场八折。",
         "pinyin": "Jīntiān quánchǎng bā zhé.",
-        "english": "Everything is twenty percent off today."
+        "english": "Everything is twenty percent off today.",
+        "translations": {
+          "en": "Everything is twenty percent off today.",
+          "ru": "Сегодня скидка 20% на всё.",
+          "es": "Hoy todo está al 80%.",
+          "pt-BR": "Hoje tudo está com 20% de desconto."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "discount / on sale",
+      "ru": "скидка / распродажа",
+      "es": "descuento / oferta",
+      "pt-BR": "desconto / promoção"
+    }
   },
   {
     "section": "shopping",
@@ -602,14 +1196,32 @@
       {
         "hanzi": "收银台在排队。",
         "pinyin": "Shōuyíntái zài páiduì.",
-        "english": "There's a line at checkout."
+        "english": "There's a line at checkout.",
+        "translations": {
+          "en": "There's a line at checkout.",
+          "ru": "На кассе очередь.",
+          "es": "Hay cola en la caja.",
+          "pt-BR": "Tem fila no caixa."
+        }
       },
       {
         "hanzi": "请在这里排队。",
         "pinyin": "Qǐng zài zhèlǐ páiduì.",
-        "english": "Please queue here."
+        "english": "Please queue here.",
+        "translations": {
+          "en": "Please queue here.",
+          "ru": "Встаньте в очередь здесь.",
+          "es": "Haga cola aquí, por favor.",
+          "pt-BR": "Fique na fila aqui, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to queue / line up",
+      "ru": "стоять в очереди",
+      "es": "hacer cola / hacer fila",
+      "pt-BR": "ficar na fila"
+    }
   },
   {
     "section": "shopping",
@@ -620,14 +1232,32 @@
       {
         "hanzi": "请在柜台称重。",
         "pinyin": "Qǐng zài guìtái chēngzhòng.",
-        "english": "Please weigh it at the counter."
+        "english": "Please weigh it at the counter.",
+        "translations": {
+          "en": "Please weigh it at the counter.",
+          "ru": "Взвесьте на стойке.",
+          "es": "Péselo en el mostrador.",
+          "pt-BR": "Pese no balcão."
+        }
       },
       {
         "hanzi": "水果需要先称重。",
         "pinyin": "Shuǐguǒ xūyào xiān chēngzhòng.",
-        "english": "Fruit needs to be weighed first."
+        "english": "Fruit needs to be weighed first.",
+        "translations": {
+          "en": "Fruit needs to be weighed first.",
+          "ru": "Фрукты нужно сначала взвесить.",
+          "es": "La fruta hay que pesarla primero.",
+          "pt-BR": "A fruta precisa ser pesada primeiro."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to weigh",
+      "ru": "взвешивать",
+      "es": "pesar",
+      "pt-BR": "pesar"
+    }
   },
   {
     "section": "shopping",
@@ -638,14 +1268,32 @@
       {
         "hanzi": "请看一下保质期。",
         "pinyin": "Qǐng kàn yīxià bǎozhìqī.",
-        "english": "Please check the expiration date."
+        "english": "Please check the expiration date.",
+        "translations": {
+          "en": "Please check the expiration date.",
+          "ru": "Посмотрите срок годности.",
+          "es": "Mire la fecha de caducidad.",
+          "pt-BR": "Olhe a data de validade."
+        }
       },
       {
         "hanzi": "这牛奶保质期过了。",
         "pinyin": "Zhè niúnǎi bǎozhìqī guò le.",
-        "english": "This milk is past its expiration date."
+        "english": "This milk is past its expiration date.",
+        "translations": {
+          "en": "This milk is past its expiration date.",
+          "ru": "У этого молока истёк срок.",
+          "es": "Esta leche está caducada.",
+          "pt-BR": "Este leite está vencido."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "shelf life / expiration date",
+      "ru": "срок годности",
+      "es": "fecha de caducidad",
+      "pt-BR": "data de validade"
+    }
   },
   {
     "section": "shopping",
@@ -656,14 +1304,32 @@
       {
         "hanzi": "我可以退货吗？",
         "pinyin": "Wǒ kěyǐ tuìhuò ma?",
-        "english": "Can I return this item?"
+        "english": "Can I return this item?",
+        "translations": {
+          "en": "Can I return this item?",
+          "ru": "Можно вернуть товар?",
+          "es": "¿Puedo devolver este artículo?",
+          "pt-BR": "Posso devolver este produto?"
+        }
       },
       {
         "hanzi": "七天内可以退货。",
         "pinyin": "Qī tiān nèi kěyǐ tuìhuò.",
-        "english": "Returns accepted within seven days."
+        "english": "Returns accepted within seven days.",
+        "translations": {
+          "en": "Returns accepted within seven days.",
+          "ru": "В течение семи дней можно вернуть.",
+          "es": "Se puede devolver en siete días.",
+          "pt-BR": "Dá para devolver em sete dias."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to return goods",
+      "ru": "возврат товара",
+      "es": "devolver un producto",
+      "pt-BR": "devolver produto"
+    }
   },
   {
     "section": "shopping",
@@ -674,14 +1340,32 @@
       {
         "hanzi": "办会员有积分。",
         "pinyin": "Bàn huìyuán yǒu jīfēn.",
-        "english": "Members earn points."
+        "english": "Members earn points.",
+        "translations": {
+          "en": "Members earn points.",
+          "ru": "С картой лояльности копятся баллы.",
+          "es": "Los socios acumulan puntos.",
+          "pt-BR": "Membros acumulam pontos."
+        }
       },
       {
         "hanzi": "请出示会员卡。",
         "pinyin": "Qǐng chūshì huìyuán kǎ.",
-        "english": "Please show your membership card."
+        "english": "Please show your membership card.",
+        "translations": {
+          "en": "Please show your membership card.",
+          "ru": "Предъявите карту члена.",
+          "es": "Muestre su tarjeta de socio.",
+          "pt-BR": "Mostre o cartão de membro."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "member / membership",
+      "ru": "член / карта лояльности",
+      "es": "socio / membresía",
+      "pt-BR": "membro / clube de fidelidade"
+    }
   },
   {
     "section": "shopping",
@@ -692,14 +1376,32 @@
       {
         "hanzi": "你有零钱吗？",
         "pinyin": "Nǐ yǒu língqián ma?",
-        "english": "Do you have small change?"
+        "english": "Do you have small change?",
+        "translations": {
+          "en": "Do you have small change?",
+          "ru": "Есть мелочь?",
+          "es": "¿Tienes cambio menudo?",
+          "pt-BR": "Você tem troco?"
+        }
       },
       {
         "hanzi": "我换了些零钱。",
         "pinyin": "Wǒ huàn le xiē língqián.",
-        "english": "I got some small change."
+        "english": "I got some small change.",
+        "translations": {
+          "en": "I got some small change.",
+          "ru": "Я разменял мелочь.",
+          "es": "Cambié un poco de menudo.",
+          "pt-BR": "Troquei um pouco de miúdo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "small change",
+      "ru": "мелочь / сдача",
+      "es": "cambio menudo",
+      "pt-BR": "troco / miúdo"
+    }
   },
   {
     "section": "shopping",
@@ -710,14 +1412,32 @@
       {
         "hanzi": "需要购物袋吗？",
         "pinyin": "Xūyào gòuwùdài ma?",
-        "english": "Do you need a shopping bag?"
+        "english": "Do you need a shopping bag?",
+        "translations": {
+          "en": "Do you need a shopping bag?",
+          "ru": "Нужен пакет?",
+          "es": "¿Necesita una bolsa?",
+          "pt-BR": "Precisa de uma sacola?"
+        }
       },
       {
         "hanzi": "我自带了购物袋。",
         "pinyin": "Wǒ zìdài le gòuwùdài.",
-        "english": "I brought my own shopping bag."
+        "english": "I brought my own shopping bag.",
+        "translations": {
+          "en": "I brought my own shopping bag.",
+          "ru": "Я принёс свой пакет.",
+          "es": "Traje mi propia bolsa.",
+          "pt-BR": "Trouxe minha própria sacola."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "shopping bag",
+      "ru": "пакет для покупок",
+      "es": "bolsa de compra",
+      "pt-BR": "sacola de compras"
+    }
   },
   {
     "section": "weather",
@@ -728,14 +1448,32 @@
       {
         "hanzi": "今天是晴天。",
         "pinyin": "Jīntiān shì qíngtiān.",
-        "english": "It's sunny today."
+        "english": "It's sunny today.",
+        "translations": {
+          "en": "It's sunny today.",
+          "ru": "Сегодня солнечно.",
+          "es": "Hoy está soleado.",
+          "pt-BR": "Hoje está um dia de sol."
+        }
       },
       {
         "hanzi": "晴天适合出去玩。",
         "pinyin": "Qíngtiān shìhé chūqù wán.",
-        "english": "Sunny days are good for going out."
+        "english": "Sunny days are good for going out.",
+        "translations": {
+          "en": "Sunny days are good for going out.",
+          "ru": "В ясный день хорошо гулять.",
+          "es": "Los días soleados son buenos para salir.",
+          "pt-BR": "Dia de sol é bom para sair."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "sunny day",
+      "ru": "ясный день / солнечно",
+      "es": "día soleado",
+      "pt-BR": "dia de sol"
+    }
   },
   {
     "section": "weather",
@@ -746,14 +1484,32 @@
       {
         "hanzi": "外面下雨了。",
         "pinyin": "Wàimiàn xiàyǔ le.",
-        "english": "It's raining outside."
+        "english": "It's raining outside.",
+        "translations": {
+          "en": "It's raining outside.",
+          "ru": "На улице дождь.",
+          "es": "Está lloviendo afuera.",
+          "pt-BR": "Está chovendo lá fora."
+        }
       },
       {
         "hanzi": "下午可能会下雨。",
         "pinyin": "Xiàwǔ kěnéng huì xiàyǔ.",
-        "english": "It might rain this afternoon."
+        "english": "It might rain this afternoon.",
+        "translations": {
+          "en": "It might rain this afternoon.",
+          "ru": "Днём может пойти дождь.",
+          "es": "Por la tarde puede llover.",
+          "pt-BR": "À tarde pode chover."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to rain",
+      "ru": "идти дождь",
+      "es": "llover",
+      "pt-BR": "chover"
+    }
   },
   {
     "section": "weather",
@@ -764,14 +1520,32 @@
       {
         "hanzi": "北方下雪了。",
         "pinyin": "Běifāng xiàxuě le.",
-        "english": "It's snowing in the north."
+        "english": "It's snowing in the north.",
+        "translations": {
+          "en": "It's snowing in the north.",
+          "ru": "На севере идёт снег.",
+          "es": "Está nevando en el norte.",
+          "pt-BR": "Está nevando no norte."
+        }
       },
       {
         "hanzi": "孩子们喜欢下雪。",
         "pinyin": "Háizimen xǐhuan xiàxuě.",
-        "english": "Kids love snow."
+        "english": "Kids love snow.",
+        "translations": {
+          "en": "Kids love snow.",
+          "ru": "Дети любят снег.",
+          "es": "A los niños les encanta que nieve.",
+          "pt-BR": "Crianças adoram neve."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to snow",
+      "ru": "идти снег",
+      "es": "nevar",
+      "pt-BR": "nevar"
+    }
   },
   {
     "section": "weather",
@@ -782,14 +1556,32 @@
       {
         "hanzi": "今天风很大。",
         "pinyin": "Jīntiān fēng hěn dà.",
-        "english": "It's very windy today."
+        "english": "It's very windy today.",
+        "translations": {
+          "en": "It's very windy today.",
+          "ru": "Сегодня сильный ветер.",
+          "es": "Hoy hace mucho viento.",
+          "pt-BR": "Hoje está ventando muito."
+        }
       },
       {
         "hanzi": "别出门，外面刮风了。",
         "pinyin": "Bié chūmén, wàimiàn guāfēng le.",
-        "english": "Don't go out, it's windy."
+        "english": "Don't go out, it's windy.",
+        "translations": {
+          "en": "Don't go out, it's windy.",
+          "ru": "Не выходи, на улице ветрено.",
+          "es": "No salgas, afuera hace viento.",
+          "pt-BR": "Não saia, está ventando lá fora."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "windy / to blow wind",
+      "ru": "ветрено / дуть (о ветре)",
+      "es": "hacer viento / ventoso",
+      "pt-BR": "ventar / ventania"
+    }
   },
   {
     "section": "weather",
@@ -800,14 +1592,32 @@
       {
         "hanzi": "今天温度很高。",
         "pinyin": "Jīntiān wēndù hěn gāo.",
-        "english": "The temperature is high today."
+        "english": "The temperature is high today.",
+        "translations": {
+          "en": "The temperature is high today.",
+          "ru": "Сегодня высокая температура.",
+          "es": "Hoy la temperatura es alta.",
+          "pt-BR": "Hoje a temperatura está alta."
+        }
       },
       {
         "hanzi": "请看一下温度。",
         "pinyin": "Qǐng kàn yīxià wēndù.",
-        "english": "Please check the temperature."
+        "english": "Please check the temperature.",
+        "translations": {
+          "en": "Please check the temperature.",
+          "ru": "Посмотрите температуру.",
+          "es": "Mire la temperatura.",
+          "pt-BR": "Olhe a temperatura."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "temperature",
+      "ru": "температура",
+      "es": "temperatura",
+      "pt-BR": "temperatura"
+    }
   },
   {
     "section": "weather",
@@ -818,14 +1628,32 @@
       {
         "hanzi": "天气预报说会降温。",
         "pinyin": "Tiānqì yùbào shuō huì jiàngwēn.",
-        "english": "The forecast says it will cool down."
+        "english": "The forecast says it will cool down.",
+        "translations": {
+          "en": "The forecast says it will cool down.",
+          "ru": "По прогнозу похолодает.",
+          "es": "El pronóstico dice que va a enfriar.",
+          "pt-BR": "A previsão diz que vai esfriar."
+        }
       },
       {
         "hanzi": "请听一下天气预报。",
         "pinyin": "Qǐng tīng yīxià tiānqì yùbào.",
-        "english": "Please listen to the weather forecast."
+        "english": "Please listen to the weather forecast.",
+        "translations": {
+          "en": "Please listen to the weather forecast.",
+          "ru": "Послушайте прогноз погоды.",
+          "es": "Escuche el pronóstico del tiempo.",
+          "pt-BR": "Ouça a previsão do tempo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "forecast",
+      "ru": "прогноз",
+      "es": "pronóstico",
+      "pt-BR": "previsão"
+    }
   },
   {
     "section": "weather",
@@ -836,14 +1664,32 @@
       {
         "hanzi": "南方夏天很潮湿。",
         "pinyin": "Nánfāng xiàtiān hěn cháoshī.",
-        "english": "Summers in the south are humid."
+        "english": "Summers in the south are humid.",
+        "translations": {
+          "en": "Summers in the south are humid.",
+          "ru": "На юге летом очень влажно.",
+          "es": "En el sur los veranos son húmedos.",
+          "pt-BR": "No sul o verão é úmido."
+        }
       },
       {
         "hanzi": "房间有点潮湿。",
         "pinyin": "Fángjiān yǒudiǎn cháoshī.",
-        "english": "The room is a bit damp."
+        "english": "The room is a bit damp.",
+        "translations": {
+          "en": "The room is a bit damp.",
+          "ru": "В комнате немного сыро.",
+          "es": "La habitación está un poco húmeda.",
+          "pt-BR": "O quarto está um pouco úmido."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "humid / damp",
+      "ru": "влажный / сырой",
+      "es": "húmedo",
+      "pt-BR": "úmido"
+    }
   },
   {
     "section": "weather",
@@ -854,14 +1700,32 @@
       {
         "hanzi": "秋天天气干燥。",
         "pinyin": "Qiūtiān tiānqì gānzào.",
-        "english": "The weather is dry in autumn."
+        "english": "The weather is dry in autumn.",
+        "translations": {
+          "en": "The weather is dry in autumn.",
+          "ru": "Осенью погода сухая.",
+          "es": "En otoño el tiempo es seco.",
+          "pt-BR": "No outono o tempo é seco."
+        }
       },
       {
         "hanzi": "北方冬天很干燥。",
         "pinyin": "Běifāng dōngtiān hěn gānzào.",
-        "english": "Winters in the north are very dry."
+        "english": "Winters in the north are very dry.",
+        "translations": {
+          "en": "Winters in the north are very dry.",
+          "ru": "На севере зимой очень сухо.",
+          "es": "En el norte el invierno es muy seco.",
+          "pt-BR": "No norte o inverno é muito seco."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "dry",
+      "ru": "сухой",
+      "es": "seco",
+      "pt-BR": "seco"
+    }
   },
   {
     "section": "weather",
@@ -872,14 +1736,32 @@
       {
         "hanzi": "今天是阴天。",
         "pinyin": "Jīntiān shì yīntiān.",
-        "english": "It's overcast today."
+        "english": "It's overcast today.",
+        "translations": {
+          "en": "It's overcast today.",
+          "ru": "Сегодня пасмурно.",
+          "es": "Hoy está nublado.",
+          "pt-BR": "Hoje está nublado."
+        }
       },
       {
         "hanzi": "阴天人比较少。",
         "pinyin": "Yīntiān rén bǐjiào shǎo.",
-        "english": "There are fewer people on cloudy days."
+        "english": "There are fewer people on cloudy days.",
+        "translations": {
+          "en": "There are fewer people on cloudy days.",
+          "ru": "В пасмурный день людей меньше.",
+          "es": "Los días nublados hay menos gente.",
+          "pt-BR": "Em dia nublado tem menos gente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "cloudy / overcast",
+      "ru": "пасмурно",
+      "es": "nublado / cubierto",
+      "pt-BR": "nublado / encoberto"
+    }
   },
   {
     "section": "weather",
@@ -890,14 +1772,32 @@
       {
         "hanzi": "台风要来了。",
         "pinyin": "Táifēng yào lái le.",
-        "english": "A typhoon is coming."
+        "english": "A typhoon is coming.",
+        "translations": {
+          "en": "A typhoon is coming.",
+          "ru": "Приближается тайфун.",
+          "es": "Se acerca un tifón.",
+          "pt-BR": "Um tufão está chegando."
+        }
       },
       {
         "hanzi": "台风天不要出门。",
         "pinyin": "Táifēng tiān bú yào chūmén.",
-        "english": "Don't go out during a typhoon."
+        "english": "Don't go out during a typhoon.",
+        "translations": {
+          "en": "Don't go out during a typhoon.",
+          "ru": "В тайфун на улицу не выходите.",
+          "es": "No salga durante un tifón.",
+          "pt-BR": "Não saia durante um tufão."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "typhoon",
+      "ru": "тайфун",
+      "es": "tifón",
+      "pt-BR": "tufão"
+    }
   },
   {
     "section": "time",
@@ -908,14 +1808,32 @@
       {
         "hanzi": "现在几点了？",
         "pinyin": "Xiànzài jǐ diǎn le?",
-        "english": "What time is it now?"
+        "english": "What time is it now?",
+        "translations": {
+          "en": "What time is it now?",
+          "ru": "Который сейчас час?",
+          "es": "¿Qué hora es ahora?",
+          "pt-BR": "Que horas são agora?"
+        }
       },
       {
         "hanzi": "我现在很忙。",
         "pinyin": "Wǒ xiànzài hěn máng.",
-        "english": "I'm very busy now."
+        "english": "I'm very busy now.",
+        "translations": {
+          "en": "I'm very busy now.",
+          "ru": "Я сейчас очень занят.",
+          "es": "Ahora estoy muy ocupado.",
+          "pt-BR": "Agora estou muito ocupado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "now",
+      "ru": "сейчас / теперь",
+      "es": "ahora",
+      "pt-BR": "agora"
+    }
   },
   {
     "section": "time",
@@ -926,14 +1844,32 @@
       {
         "hanzi": "今天是星期一。",
         "pinyin": "Jīntiān shì xīngqīyī.",
-        "english": "Today is Monday."
+        "english": "Today is Monday.",
+        "translations": {
+          "en": "Today is Monday.",
+          "ru": "Сегодня понедельник.",
+          "es": "Hoy es lunes.",
+          "pt-BR": "Hoje é segunda-feira."
+        }
       },
       {
         "hanzi": "今天我有空。",
         "pinyin": "Jīntiān wǒ yǒu kòng.",
-        "english": "I'm free today."
+        "english": "I'm free today.",
+        "translations": {
+          "en": "I'm free today.",
+          "ru": "Сегодня я свободен.",
+          "es": "Hoy estoy libre.",
+          "pt-BR": "Hoje estou livre."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "today",
+      "ru": "сегодня",
+      "es": "hoy",
+      "pt-BR": "hoje"
+    }
   },
   {
     "section": "time",
@@ -944,14 +1880,32 @@
       {
         "hanzi": "明天见。",
         "pinyin": "Míngtiān jiàn.",
-        "english": "See you tomorrow."
+        "english": "See you tomorrow.",
+        "translations": {
+          "en": "See you tomorrow.",
+          "ru": "До завтра.",
+          "es": "Hasta mañana.",
+          "pt-BR": "Até amanhã."
+        }
       },
       {
         "hanzi": "明天要早起。",
         "pinyin": "Míngtiān yào zǎo qǐ.",
-        "english": "I need to get up early tomorrow."
+        "english": "I need to get up early tomorrow.",
+        "translations": {
+          "en": "I need to get up early tomorrow.",
+          "ru": "Завтра нужно рано встать.",
+          "es": "Mañana hay que madrugar.",
+          "pt-BR": "Amanhã preciso acordar cedo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "tomorrow",
+      "ru": "завтра",
+      "es": "mañana",
+      "pt-BR": "amanhã"
+    }
   },
   {
     "section": "time",
@@ -962,14 +1916,32 @@
       {
         "hanzi": "我昨天去了北京。",
         "pinyin": "Wǒ zuótiān qù le Běijīng.",
-        "english": "I went to Beijing yesterday."
+        "english": "I went to Beijing yesterday.",
+        "translations": {
+          "en": "I went to Beijing yesterday.",
+          "ru": "Вчера я ездил в Пекин.",
+          "es": "Ayer fui a Pekín.",
+          "pt-BR": "Ontem eu fui a Pequim."
+        }
       },
       {
         "hanzi": "昨天下了雨。",
         "pinyin": "Zuótiān xià le yǔ.",
-        "english": "It rained yesterday."
+        "english": "It rained yesterday.",
+        "translations": {
+          "en": "It rained yesterday.",
+          "ru": "Вчера шёл дождь.",
+          "es": "Ayer llovió.",
+          "pt-BR": "Ontem choveu."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "yesterday",
+      "ru": "вчера",
+      "es": "ayer",
+      "pt-BR": "ontem"
+    }
   },
   {
     "section": "time",
@@ -980,14 +1952,32 @@
       {
         "hanzi": "周末你做什么？",
         "pinyin": "Zhōumò nǐ zuò shénme?",
-        "english": "What do you do on weekends?"
+        "english": "What do you do on weekends?",
+        "translations": {
+          "en": "What do you do on weekends?",
+          "ru": "Что ты делаешь на выходных?",
+          "es": "¿Qué haces el fin de semana?",
+          "pt-BR": "O que você faz no fim de semana?"
+        }
       },
       {
         "hanzi": "我们周末去爬山。",
         "pinyin": "Wǒmen zhōumò qù pá shān.",
-        "english": "We're hiking on the weekend."
+        "english": "We're hiking on the weekend.",
+        "translations": {
+          "en": "We're hiking on the weekend.",
+          "ru": "На выходных идём в горы.",
+          "es": "El fin de semana vamos a hacer senderismo.",
+          "pt-BR": "No fim de semana vamos fazer trilha."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "weekend",
+      "ru": "выходные",
+      "es": "fin de semana",
+      "pt-BR": "fim de semana"
+    }
   },
   {
     "section": "time",
@@ -998,14 +1988,32 @@
       {
         "hanzi": "请等我五分钟。",
         "pinyin": "Qǐng děng wǒ wǔ fēnzhōng.",
-        "english": "Please wait five minutes for me."
+        "english": "Please wait five minutes for me.",
+        "translations": {
+          "en": "Please wait five minutes for me.",
+          "ru": "Подождите меня пять минут.",
+          "es": "Espéreme cinco minutos.",
+          "pt-BR": "Espere cinco minutos."
+        }
       },
       {
         "hanzi": "还有十分钟开始。",
         "pinyin": "Hái yǒu shí fēnzhōng kāishǐ.",
-        "english": "It starts in ten minutes."
+        "english": "It starts in ten minutes.",
+        "translations": {
+          "en": "It starts in ten minutes.",
+          "ru": "До начала ещё десять минут.",
+          "es": "Empieza en diez minutos.",
+          "pt-BR": "Começa em dez minutos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "minute",
+      "ru": "минута",
+      "es": "minuto",
+      "pt-BR": "minuto"
+    }
   },
   {
     "section": "time",
@@ -1016,14 +2024,32 @@
       {
         "hanzi": "我睡了一个小时。",
         "pinyin": "Wǒ shuì le yī gè xiǎoshí.",
-        "english": "I slept for an hour."
+        "english": "I slept for an hour.",
+        "translations": {
+          "en": "I slept for an hour.",
+          "ru": "Я спал час.",
+          "es": "Dormí una hora.",
+          "pt-BR": "Dormi uma hora."
+        }
       },
       {
         "hanzi": "开车要两个小时。",
         "pinyin": "Kāichē yào liǎng gè xiǎoshí.",
-        "english": "The drive takes two hours."
+        "english": "The drive takes two hours.",
+        "translations": {
+          "en": "The drive takes two hours.",
+          "ru": "На машине нужно два часа.",
+          "es": "En coche se tardan dos horas.",
+          "pt-BR": "De carro leva duas horas."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "hour",
+      "ru": "час",
+      "es": "hora",
+      "pt-BR": "hora"
+    }
   },
   {
     "section": "time",
@@ -1034,14 +2060,32 @@
       {
         "hanzi": "请准时到达。",
         "pinyin": "Qǐng zhǔnshí dàodá.",
-        "english": "Please arrive on time."
+        "english": "Please arrive on time.",
+        "translations": {
+          "en": "Please arrive on time.",
+          "ru": "Приходите вовремя.",
+          "es": "Llegue a tiempo, por favor.",
+          "pt-BR": "Chegue no horário, por favor."
+        }
       },
       {
         "hanzi": "火车准时出发了。",
         "pinyin": "Huǒchē zhǔnshí chūfā le.",
-        "english": "The train departed on time."
+        "english": "The train departed on time.",
+        "translations": {
+          "en": "The train departed on time.",
+          "ru": "Поезд отправился вовремя.",
+          "es": "El tren salió puntual.",
+          "pt-BR": "O trem partiu no horário."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "on time",
+      "ru": "вовремя / пунктуально",
+      "es": "a tiempo / puntual",
+      "pt-BR": "no horário / pontual"
+    }
   },
   {
     "section": "time",
@@ -1052,14 +2096,32 @@
       {
         "hanzi": "看一下日历。",
         "pinyin": "Kàn yīxià rìlì.",
-        "english": "Check the calendar."
+        "english": "Check the calendar.",
+        "translations": {
+          "en": "Check the calendar.",
+          "ru": "Посмотрите календарь.",
+          "es": "Mire el calendario.",
+          "pt-BR": "Olhe o calendário."
+        }
       },
       {
         "hanzi": "日历上标注了假期。",
         "pinyin": "Rìlì shàng biāozhù le jiàqī.",
-        "english": "Holidays are marked on the calendar."
+        "english": "Holidays are marked on the calendar.",
+        "translations": {
+          "en": "Holidays are marked on the calendar.",
+          "ru": "На календаре отмечены праздники.",
+          "es": "Los festivos están marcados en el calendario.",
+          "pt-BR": "Os feriados estão marcados no calendário."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "calendar",
+      "ru": "календарь",
+      "es": "calendario",
+      "pt-BR": "calendário"
+    }
   },
   {
     "section": "time",
@@ -1070,14 +2132,32 @@
       {
         "hanzi": "今天是我的生日。",
         "pinyin": "Jīntiān shì wǒ de shēngrì.",
-        "english": "Today is my birthday."
+        "english": "Today is my birthday.",
+        "translations": {
+          "en": "Today is my birthday.",
+          "ru": "Сегодня мой день рождения.",
+          "es": "Hoy es mi cumpleaños.",
+          "pt-BR": "Hoje é o meu aniversário."
+        }
       },
       {
         "hanzi": "祝你生日快乐。",
         "pinyin": "Zhù nǐ shēngrì kuàilè.",
-        "english": "Happy birthday to you."
+        "english": "Happy birthday to you.",
+        "translations": {
+          "en": "Happy birthday to you.",
+          "ru": "С днём рождения!",
+          "es": "¡Feliz cumpleaños!",
+          "pt-BR": "Feliz aniversário!"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "birthday",
+      "ru": "день рождения",
+      "es": "cumpleaños",
+      "pt-BR": "aniversário"
+    }
   },
   {
     "section": "emotions",
@@ -1088,14 +2168,32 @@
       {
         "hanzi": "听到这个消息我很高兴。",
         "pinyin": "Tīngdào zhège xiāoxi wǒ hěn gāoxìng.",
-        "english": "I'm glad to hear this news."
+        "english": "I'm glad to hear this news.",
+        "translations": {
+          "en": "I'm glad to hear this news.",
+          "ru": "Я очень рад этой новости.",
+          "es": "Me alegra oír esta noticia.",
+          "pt-BR": "Fico feliz com esta notícia."
+        }
       },
       {
         "hanzi": "今天心情很高兴。",
         "pinyin": "Jīntiān xīnqíng hěn gāoxìng.",
-        "english": "I'm in a happy mood today."
+        "english": "I'm in a happy mood today.",
+        "translations": {
+          "en": "I'm in a happy mood today.",
+          "ru": "Сегодня у меня хорошее настроение.",
+          "es": "Hoy estoy de buen humor.",
+          "pt-BR": "Hoje estou de bom humor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "happy / glad",
+      "ru": "радостный / рад",
+      "es": "contento / alegre",
+      "pt-BR": "feliz / contente"
+    }
   },
   {
     "section": "emotions",
@@ -1106,14 +2204,32 @@
       {
         "hanzi": "他看起来很难过。",
         "pinyin": "Tā kàn qǐlái hěn nánguò.",
-        "english": "He looks very sad."
+        "english": "He looks very sad.",
+        "translations": {
+          "en": "He looks very sad.",
+          "ru": "Он выглядит очень грустным.",
+          "es": "Se le ve muy triste.",
+          "pt-BR": "Ele parece muito triste."
+        }
       },
       {
         "hanzi": "别难过，会好起来的。",
         "pinyin": "Bié nánguò, huì hǎo qǐlái de.",
-        "english": "Don't be sad, things will get better."
+        "english": "Don't be sad, things will get better.",
+        "translations": {
+          "en": "Don't be sad, things will get better.",
+          "ru": "Не грусти, всё наладится.",
+          "es": "No estés triste, las cosas mejorarán.",
+          "pt-BR": "Não fique triste, as coisas vão melhorar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "sad / upset",
+      "ru": "грустный / тяжело",
+      "es": "triste",
+      "pt-BR": "triste"
+    }
   },
   {
     "section": "emotions",
@@ -1124,14 +2240,32 @@
       {
         "hanzi": "请不要生气。",
         "pinyin": "Qǐng bú yào shēngqì.",
-        "english": "Please don't be angry."
+        "english": "Please don't be angry.",
+        "translations": {
+          "en": "Please don't be angry.",
+          "ru": "Пожалуйста, не злись.",
+          "es": "Por favor, no te enfades.",
+          "pt-BR": "Por favor, não fique bravo."
+        }
       },
       {
         "hanzi": "他对结果很生气。",
         "pinyin": "Tā duì jiéguǒ hěn shēngqì.",
-        "english": "He's angry about the result."
+        "english": "He's angry about the result.",
+        "translations": {
+          "en": "He's angry about the result.",
+          "ru": "Он зол из-за результата.",
+          "es": "Está enfadado con el resultado.",
+          "pt-BR": "Ele está bravo com o resultado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "angry",
+      "ru": "злиться",
+      "es": "enfadarse / enojarse",
+      "pt-BR": "ficar bravo"
+    }
   },
   {
     "section": "emotions",
@@ -1142,14 +2276,32 @@
       {
         "hanzi": "别担心，有我。",
         "pinyin": "Bié dānxīn, yǒu wǒ.",
-        "english": "Don't worry, I'm here."
+        "english": "Don't worry, I'm here.",
+        "translations": {
+          "en": "Don't worry, I'm here.",
+          "ru": "Не волнуйся, я рядом.",
+          "es": "No te preocupes, estoy aquí.",
+          "pt-BR": "Não se preocupe, eu estou aqui."
+        }
       },
       {
         "hanzi": "妈妈很担心你。",
         "pinyin": "Māma hěn dānxīn nǐ.",
-        "english": "Mom is worried about you."
+        "english": "Mom is worried about you.",
+        "translations": {
+          "en": "Mom is worried about you.",
+          "ru": "Мама очень за тебя переживает.",
+          "es": "Mamá está muy preocupada por ti.",
+          "pt-BR": "A mamãe está muito preocupada com você."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to worry",
+      "ru": "беспокоиться",
+      "es": "preocuparse",
+      "pt-BR": "se preocupar"
+    }
   },
   {
     "section": "emotions",
@@ -1160,14 +2312,32 @@
       {
         "hanzi": "考试前我很紧张。",
         "pinyin": "Kǎoshì qián wǒ hěn jǐnzhāng.",
-        "english": "I'm nervous before exams."
+        "english": "I'm nervous before exams.",
+        "translations": {
+          "en": "I'm nervous before exams.",
+          "ru": "Перед экзаменом я очень нервничаю.",
+          "es": "Antes del examen estoy muy nervioso.",
+          "pt-BR": "Antes da prova fico muito nervoso."
+        }
       },
       {
         "hanzi": "别紧张，慢慢来。",
         "pinyin": "Bié jǐnzhāng, mànman lái.",
-        "english": "Don't be nervous, take your time."
+        "english": "Don't be nervous, take your time.",
+        "translations": {
+          "en": "Don't be nervous, take your time.",
+          "ru": "Не нервничай, не торопись.",
+          "es": "No te pongas nervioso, con calma.",
+          "pt-BR": "Não fique nervoso, com calma."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "nervous / tense",
+      "ru": "нервничать / напряжённый",
+      "es": "nervioso / tenso",
+      "pt-BR": "nervoso / tenso"
+    }
   },
   {
     "section": "emotions",
@@ -1178,14 +2348,32 @@
       {
         "hanzi": "周末好好放松。",
         "pinyin": "Zhōumò hǎohao fàngsōng.",
-        "english": "Relax properly on the weekend."
+        "english": "Relax properly on the weekend.",
+        "translations": {
+          "en": "Relax properly on the weekend.",
+          "ru": "На выходных хорошенько отдохни.",
+          "es": "Relájate bien el fin de semana.",
+          "pt-BR": "Relaxe bem no fim de semana."
+        }
       },
       {
         "hanzi": "听音乐可以放松。",
         "pinyin": "Tīng yīnyuè kěyǐ fàngsōng.",
-        "english": "Listening to music helps you relax."
+        "english": "Listening to music helps you relax.",
+        "translations": {
+          "en": "Listening to music helps you relax.",
+          "ru": "Музыка помогает расслабиться.",
+          "es": "Escuchar música ayuda a relajarse.",
+          "pt-BR": "Ouvir música ajuda a relaxar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to relax",
+      "ru": "расслабляться",
+      "es": "relajarse",
+      "pt-BR": "relaxar"
+    }
   },
   {
     "section": "emotions",
@@ -1196,14 +2384,32 @@
       {
         "hanzi": "这个故事很感人。",
         "pinyin": "Zhège gùshi hěn gǎnrén.",
-        "english": "This story is very touching."
+        "english": "This story is very touching.",
+        "translations": {
+          "en": "This story is very touching.",
+          "ru": "Эта история очень трогательная.",
+          "es": "Esta historia es muy conmovedora.",
+          "pt-BR": "Esta história é muito emocionante."
+        }
       },
       {
         "hanzi": "我被他的帮助感动了。",
         "pinyin": "Wǒ bèi tā de bāngzhù gǎndòng le.",
-        "english": "I was moved by his help."
+        "english": "I was moved by his help.",
+        "translations": {
+          "en": "I was moved by his help.",
+          "ru": "Его помощь меня тронула.",
+          "es": "Me conmovió su ayuda.",
+          "pt-BR": "A ajuda dele me emocionou."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "moved / touched",
+      "ru": "быть тронутым / растрогаться",
+      "es": "emocionarse / conmoverse",
+      "pt-BR": "se emocionar / se comover"
+    }
   },
   {
     "section": "emotions",
@@ -1214,14 +2420,32 @@
       {
         "hanzi": "在家太无聊了。",
         "pinyin": "Zài jiā tài wúliáo le.",
-        "english": "Staying home is so boring."
+        "english": "Staying home is so boring.",
+        "translations": {
+          "en": "Staying home is so boring.",
+          "ru": "Дома так скучно.",
+          "es": "Estar en casa es tan aburrido.",
+          "pt-BR": "Ficar em casa é tão entediante."
+        }
       },
       {
         "hanzi": "这部电影很无聊。",
         "pinyin": "Zhè bù diànyǐng hěn wúliáo.",
-        "english": "This movie is boring."
+        "english": "This movie is boring.",
+        "translations": {
+          "en": "This movie is boring.",
+          "ru": "Этот фильм скучный.",
+          "es": "Esta película es aburrida.",
+          "pt-BR": "Este filme é entediante."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "bored",
+      "ru": "скучный / скучать (от безделья)",
+      "es": "aburrido",
+      "pt-BR": "entediante / entediado"
+    }
   },
   {
     "section": "emotions",
@@ -1232,14 +2456,32 @@
       {
         "hanzi": "孩子们很兴奋。",
         "pinyin": "Háizimen hěn xīngfèn.",
-        "english": "The kids are excited."
+        "english": "The kids are excited.",
+        "translations": {
+          "en": "The kids are excited.",
+          "ru": "Дети в восторге.",
+          "es": "Los niños están emocionados.",
+          "pt-BR": "As crianças estão empolgadas."
+        }
       },
       {
         "hanzi": "我对旅行很兴奋。",
         "pinyin": "Wǒ duì lǚxíng hěn xīngfèn.",
-        "english": "I'm excited about the trip."
+        "english": "I'm excited about the trip.",
+        "translations": {
+          "en": "I'm excited about the trip.",
+          "ru": "Я в предвкушении поездки.",
+          "es": "Estoy emocionado por el viaje.",
+          "pt-BR": "Estou empolgado com a viagem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "excited",
+      "ru": "в восторге / возбуждённый",
+      "es": "emocionado / entusiasmado",
+      "pt-BR": "empolgado / animado"
+    }
   },
   {
     "section": "emotions",
@@ -1250,14 +2492,32 @@
       {
         "hanzi": "我对结果很满足。",
         "pinyin": "Wǒ duì jiéguǒ hěn mǎnzú.",
-        "english": "I'm satisfied with the result."
+        "english": "I'm satisfied with the result.",
+        "translations": {
+          "en": "I'm satisfied with the result.",
+          "ru": "Я доволен результатом.",
+          "es": "Estoy satisfecho con el resultado.",
+          "pt-BR": "Estou satisfeito com o resultado."
+        }
       },
       {
         "hanzi": "简单的生活也很满足。",
         "pinyin": "Jiǎndān de shēnghuó yě hěn mǎnzú.",
-        "english": "A simple life can be fulfilling too."
+        "english": "A simple life can be fulfilling too.",
+        "translations": {
+          "en": "A simple life can be fulfilling too.",
+          "ru": "Простая жизнь тоже может давать удовлетворение.",
+          "es": "Una vida sencilla también puede ser plena.",
+          "pt-BR": "Uma vida simples também pode ser plena."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "satisfied / content",
+      "ru": "удовлетворённый / довольный",
+      "es": "satisfecho / contento",
+      "pt-BR": "satisfeito / realizado"
+    }
   },
   {
     "section": "clothing",
@@ -1268,14 +2528,32 @@
       {
         "hanzi": "这件衣服很好看。",
         "pinyin": "Zhè jiàn yīfu hěn hǎokàn.",
-        "english": "These clothes look nice."
+        "english": "These clothes look nice.",
+        "translations": {
+          "en": "These clothes look nice.",
+          "ru": "Эта одежда очень красивая.",
+          "es": "Esta ropa está muy bonita.",
+          "pt-BR": "Esta roupa está muito bonita."
+        }
       },
       {
         "hanzi": "我在洗衣服。",
         "pinyin": "Wǒ zài xǐ yīfu.",
-        "english": "I'm doing laundry."
+        "english": "I'm doing laundry.",
+        "translations": {
+          "en": "I'm doing laundry.",
+          "ru": "Я стираю одежду.",
+          "es": "Estoy lavando la ropa.",
+          "pt-BR": "Estou lavando a roupa."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "clothes",
+      "ru": "одежда",
+      "es": "ropa",
+      "pt-BR": "roupa"
+    }
   },
   {
     "section": "clothing",
@@ -1286,14 +2564,32 @@
       {
         "hanzi": "这条裤子太长了。",
         "pinyin": "Zhè tiáo kùzi tài cháng le.",
-        "english": "These pants are too long."
+        "english": "These pants are too long.",
+        "translations": {
+          "en": "These pants are too long.",
+          "ru": "Эти брюки слишком длинные.",
+          "es": "Estos pantalones son demasiado largos.",
+          "pt-BR": "Esta calça está longa demais."
+        }
       },
       {
         "hanzi": "他买了一条新裤子。",
         "pinyin": "Tā mǎi le yī tiáo xīn kùzi.",
-        "english": "He bought new pants."
+        "english": "He bought new pants.",
+        "translations": {
+          "en": "He bought new pants.",
+          "ru": "Он купил новые брюки.",
+          "es": "Compró unos pantalones nuevos.",
+          "pt-BR": "Ele comprou uma calça nova."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "pants / trousers",
+      "ru": "брюки",
+      "es": "pantalones",
+      "pt-BR": "calça"
+    }
   },
   {
     "section": "clothing",
@@ -1304,14 +2600,32 @@
       {
         "hanzi": "这双鞋子很舒服。",
         "pinyin": "Zhè shuāng xiézi hěn shūfu.",
-        "english": "These shoes are comfortable."
+        "english": "These shoes are comfortable.",
+        "translations": {
+          "en": "These shoes are comfortable.",
+          "ru": "Эта обувь очень удобная.",
+          "es": "Estos zapatos son muy cómodos.",
+          "pt-BR": "Este sapato é muito confortável."
+        }
       },
       {
         "hanzi": "我的鞋子脏了。",
         "pinyin": "Wǒ de xiézi zāng le.",
-        "english": "My shoes are dirty."
+        "english": "My shoes are dirty.",
+        "translations": {
+          "en": "My shoes are dirty.",
+          "ru": "Моя обувь испачкалась.",
+          "es": "Se me ensuciaron los zapatos.",
+          "pt-BR": "Meu sapato ficou sujo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "shoes",
+      "ru": "обувь",
+      "es": "zapatos",
+      "pt-BR": "sapato"
+    }
   },
   {
     "section": "clothing",
@@ -1322,14 +2636,32 @@
       {
         "hanzi": "外面冷，穿外套。",
         "pinyin": "Wàimiàn lěng, chuān wàitào.",
-        "english": "It's cold outside, wear a jacket."
+        "english": "It's cold outside, wear a jacket.",
+        "translations": {
+          "en": "It's cold outside, wear a jacket.",
+          "ru": "На улице холодно, надень куртку.",
+          "es": "Hace frío, ponte la chaqueta.",
+          "pt-BR": "Está frio, vista a jaqueta."
+        }
       },
       {
         "hanzi": "我把外套忘在餐厅了。",
         "pinyin": "Wǒ bǎ wàitào wàng zài cāntīng le.",
-        "english": "I left my jacket at the restaurant."
+        "english": "I left my jacket at the restaurant.",
+        "translations": {
+          "en": "I left my jacket at the restaurant.",
+          "ru": "Я забыл куртку в ресторане.",
+          "es": "Olvidé la chaqueta en el restaurante.",
+          "pt-BR": "Esqueci a jaqueta no restaurante."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "jacket / coat",
+      "ru": "куртка / пальто",
+      "es": "chaqueta / abrigo",
+      "pt-BR": "jaqueta / casaco"
+    }
   },
   {
     "section": "clothing",
@@ -1340,14 +2672,32 @@
       {
         "hanzi": "请问有大一点的尺寸吗？",
         "pinyin": "Qǐngwèn yǒu dà yīdiǎn de chǐcùn ma?",
-        "english": "Do you have a larger size?"
+        "english": "Do you have a larger size?",
+        "translations": {
+          "en": "Do you have a larger size?",
+          "ru": "Есть размер побольше?",
+          "es": "¿Tienen una talla más grande?",
+          "pt-BR": "Tem um tamanho maior?"
+        }
       },
       {
         "hanzi": "尺寸很合适。",
         "pinyin": "Chǐcùn hěn héshì.",
-        "english": "The size fits well."
+        "english": "The size fits well.",
+        "translations": {
+          "en": "The size fits well.",
+          "ru": "Размер как раз.",
+          "es": "La talla queda perfecta.",
+          "pt-BR": "O tamanho está perfeito."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "size",
+      "ru": "размер",
+      "es": "talla / talla de ropa",
+      "pt-BR": "tamanho"
+    }
   },
   {
     "section": "clothing",
@@ -1358,14 +2708,32 @@
       {
         "hanzi": "我可以试穿吗？",
         "pinyin": "Wǒ kěyǐ shíchuān ma?",
-        "english": "Can I try this on?"
+        "english": "Can I try this on?",
+        "translations": {
+          "en": "Can I try this on?",
+          "ru": "Можно примерить?",
+          "es": "¿Puedo probármelo?",
+          "pt-BR": "Posso provar?"
+        }
       },
       {
         "hanzi": "请去试衣间试穿。",
         "pinyin": "Qǐng qù shìyījiān shíchuān.",
-        "english": "Please try it on in the fitting room."
+        "english": "Please try it on in the fitting room.",
+        "translations": {
+          "en": "Please try it on in the fitting room.",
+          "ru": "Примерьте в примерочной.",
+          "es": "Pruébeselo en el probador.",
+          "pt-BR": "Prove no provador."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to try on",
+      "ru": "примерять",
+      "es": "probarse",
+      "pt-BR": "provar"
+    }
   },
   {
     "section": "clothing",
@@ -1376,14 +2744,32 @@
       {
         "hanzi": "我把衣服送去洗衣了。",
         "pinyin": "Wǒ bǎ yīfu sòng qù xǐyī le.",
-        "english": "I sent the clothes to the laundry."
+        "english": "I sent the clothes to the laundry.",
+        "translations": {
+          "en": "I sent the clothes to the laundry.",
+          "ru": "Я отдал одежду в стирку.",
+          "es": "Llevé la ropa a la lavandería.",
+          "pt-BR": "Levei a roupa para a lavanderia."
+        }
       },
       {
         "hanzi": "洗衣店在楼下。",
         "pinyin": "Xǐyīdiàn zài lóu xià.",
-        "english": "The laundry shop is downstairs."
+        "english": "The laundry shop is downstairs.",
+        "translations": {
+          "en": "The laundry shop is downstairs.",
+          "ru": "Прачечная внизу.",
+          "es": "La tintorería está abajo.",
+          "pt-BR": "A lavanderia fica embaixo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "laundry / to wash clothes",
+      "ru": "стирка / сдавать в стирку",
+      "es": "lavandería / lavar la ropa",
+      "pt-BR": "lavanderia / lavar roupa"
+    }
   },
   {
     "section": "clothing",
@@ -1394,14 +2780,32 @@
       {
         "hanzi": "夏天要戴帽子。",
         "pinyin": "Xiàtiān yào dài màozi.",
-        "english": "Wear a hat in summer."
+        "english": "Wear a hat in summer.",
+        "translations": {
+          "en": "Wear a hat in summer.",
+          "ru": "Летом нужно носить шляпу.",
+          "es": "En verano hay que llevar sombrero.",
+          "pt-BR": "No verão é preciso usar chapéu."
+        }
       },
       {
         "hanzi": "他的帽子是蓝色的。",
         "pinyin": "Tā de màozi shì lánsè de.",
-        "english": "His hat is blue."
+        "english": "His hat is blue.",
+        "translations": {
+          "en": "His hat is blue.",
+          "ru": "Его шапка синяя.",
+          "es": "Su gorro es azul.",
+          "pt-BR": "O boné dele é azul."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "hat / cap",
+      "ru": "шапка / шляпа",
+      "es": "gorro / sombrero",
+      "pt-BR": "boné / chapéu"
+    }
   },
   {
     "section": "clothing",
@@ -1412,14 +2816,32 @@
       {
         "hanzi": "冬天围巾很必要。",
         "pinyin": "Dōngtiān wéijīn hěn bìyào.",
-        "english": "A scarf is essential in winter."
+        "english": "A scarf is essential in winter.",
+        "translations": {
+          "en": "A scarf is essential in winter.",
+          "ru": "Зимой шарф необходим.",
+          "es": "En invierno la bufanda es esencial.",
+          "pt-BR": "No inverno o cachecol é essencial."
+        }
       },
       {
         "hanzi": "她送了我一条围巾。",
         "pinyin": "Tā sòng le wǒ yī tiáo wéijīn.",
-        "english": "She gave me a scarf."
+        "english": "She gave me a scarf.",
+        "translations": {
+          "en": "She gave me a scarf.",
+          "ru": "Она подарила мне шарф.",
+          "es": "Me regaló una bufanda.",
+          "pt-BR": "Ela me deu um cachecol."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "scarf",
+      "ru": "шарф",
+      "es": "bufanda",
+      "pt-BR": "cachecol / echarpe"
+    }
   },
   {
     "section": "clothing",
@@ -1430,14 +2852,32 @@
       {
         "hanzi": "这套搭配很好看。",
         "pinyin": "Zhè tào dāpèi hěn hǎokàn.",
-        "english": "This outfit looks great."
+        "english": "This outfit looks great.",
+        "translations": {
+          "en": "This outfit looks great.",
+          "ru": "Этот комплект очень хорошо смотрится.",
+          "es": "Este conjunto queda muy bien.",
+          "pt-BR": "Esse look ficou muito bom."
+        }
       },
       {
         "hanzi": "黑色很容易搭配。",
         "pinyin": "Hēisè hěn róngyì dāpèi.",
-        "english": "Black is easy to match."
+        "english": "Black is easy to match.",
+        "translations": {
+          "en": "Black is easy to match.",
+          "ru": "Чёрный легко сочетать.",
+          "es": "El negro combina fácil.",
+          "pt-BR": "O preto combina fácil."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to match / outfit coordination",
+      "ru": "сочетать / подбирать (одежду)",
+      "es": "combinar / coordinar",
+      "pt-BR": "combinar / combinar look"
+    }
   },
   {
     "section": "health",
@@ -1448,14 +2888,32 @@
       {
         "hanzi": "健康最重要。",
         "pinyin": "Jiànkāng zuì zhòngyào.",
-        "english": "Health is most important."
+        "english": "Health is most important.",
+        "translations": {
+          "en": "Health is most important.",
+          "ru": "Здоровье важнее всего.",
+          "es": "La salud es lo más importante.",
+          "pt-BR": "A saúde é o mais importante."
+        }
       },
       {
         "hanzi": "他身体很健康。",
         "pinyin": "Tā shēntǐ hěn jiànkāng.",
-        "english": "He's in good health."
+        "english": "He's in good health.",
+        "translations": {
+          "en": "He's in good health.",
+          "ru": "Он очень здоров.",
+          "es": "Está muy sano.",
+          "pt-BR": "Ele está com a saúde ótima."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "health / healthy",
+      "ru": "здоровье / здоровый",
+      "es": "salud / sano",
+      "pt-BR": "saúde / saudável"
+    }
   },
   {
     "section": "health",
@@ -1466,14 +2924,32 @@
       {
         "hanzi": "我感冒了。",
         "pinyin": "Wǒ gǎnmào le.",
-        "english": "I caught a cold."
+        "english": "I caught a cold.",
+        "translations": {
+          "en": "I caught a cold.",
+          "ru": "Я простудился.",
+          "es": "Me resfrié.",
+          "pt-BR": "Peguei um resfriado."
+        }
       },
       {
         "hanzi": "多喝水，别感冒。",
         "pinyin": "Duō hē shuǐ, bié gǎnmào.",
-        "english": "Drink more water so you don't catch a cold."
+        "english": "Drink more water so you don't catch a cold.",
+        "translations": {
+          "en": "Drink more water so you don't catch a cold.",
+          "ru": "Пейте больше воды, не простудитесь.",
+          "es": "Beba más agua para no resfriarte.",
+          "pt-BR": "Beba mais água para não pegar resfriado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "cold (illness)",
+      "ru": "простуда / простудиться",
+      "es": "resfriado / resfriarse",
+      "pt-BR": "resfriado / pegar resfriado"
+    }
   },
   {
     "section": "health",
@@ -1484,14 +2960,32 @@
       {
         "hanzi": "孩子发烧了。",
         "pinyin": "Háizi fāshāo le.",
-        "english": "The child has a fever."
+        "english": "The child has a fever.",
+        "translations": {
+          "en": "The child has a fever.",
+          "ru": "У ребёнка температура.",
+          "es": "El niño tiene fiebre.",
+          "pt-BR": "A criança está com febre."
+        }
       },
       {
         "hanzi": "我发烧三十八度。",
         "pinyin": "Wǒ fāshāo sānshíbā dù.",
-        "english": "I have a fever of 38°C."
+        "english": "I have a fever of 38°C.",
+        "translations": {
+          "en": "I have a fever of 38°C.",
+          "ru": "У меня 38 градусов.",
+          "es": "Tengo 38 de fiebre.",
+          "pt-BR": "Estou com 38 de febre."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "fever",
+      "ru": "температура / жар",
+      "es": "fiebre",
+      "pt-BR": "febre"
+    }
   },
   {
     "section": "health",
@@ -1502,14 +2996,32 @@
       {
         "hanzi": "我头痛得厉害。",
         "pinyin": "Wǒ tóutòng de lìhai.",
-        "english": "I have a bad headache."
+        "english": "I have a bad headache.",
+        "translations": {
+          "en": "I have a bad headache.",
+          "ru": "У меня сильная головная боль.",
+          "es": "Tengo un dolor de cabeza fuerte.",
+          "pt-BR": "Estou com uma dor de cabeça forte."
+        }
       },
       {
         "hanzi": "熬夜会头痛。",
         "pinyin": "Áoyè huì tóutòng.",
-        "english": "Staying up late gives you headaches."
+        "english": "Staying up late gives you headaches.",
+        "translations": {
+          "en": "Staying up late gives you headaches.",
+          "ru": "Из-за бессонницы болит голова.",
+          "es": "Trasnochar da dolor de cabeza.",
+          "pt-BR": "Virar a noite dá dor de cabeça."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "headache",
+      "ru": "головная боль",
+      "es": "dolor de cabeza",
+      "pt-BR": "dor de cabeça"
+    }
   },
   {
     "section": "health",
@@ -1520,14 +3032,32 @@
       {
         "hanzi": "我每天锻炼半小时。",
         "pinyin": "Wǒ měitiān duànliàn bàn xiǎoshí.",
-        "english": "I exercise half an hour daily."
+        "english": "I exercise half an hour daily.",
+        "translations": {
+          "en": "I exercise half an hour daily.",
+          "ru": "Каждый день я занимаюсь полчаса.",
+          "es": "Hago ejercicio media hora al día.",
+          "pt-BR": "Faço exercício meia hora por dia."
+        }
       },
       {
         "hanzi": "锻炼对身体好。",
         "pinyin": "Duànliàn duì shēntǐ hǎo.",
-        "english": "Exercise is good for your body."
+        "english": "Exercise is good for your body.",
+        "translations": {
+          "en": "Exercise is good for your body.",
+          "ru": "Спорт полезен для здоровья.",
+          "es": "El ejercicio es bueno para el cuerpo.",
+          "pt-BR": "Exercício faz bem ao corpo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to exercise",
+      "ru": "тренироваться / заниматься спортом",
+      "es": "hacer ejercicio",
+      "pt-BR": "fazer exercício"
+    }
   },
   {
     "section": "health",
@@ -1538,14 +3068,32 @@
       {
         "hanzi": "你需要好好休息。",
         "pinyin": "Nǐ xūyào hǎohao xiūxi.",
-        "english": "You need to rest properly."
+        "english": "You need to rest properly.",
+        "translations": {
+          "en": "You need to rest properly.",
+          "ru": "Тебе нужно хорошо отдохнуть.",
+          "es": "Necesitas descansar bien.",
+          "pt-BR": "Você precisa descansar bem."
+        }
       },
       {
         "hanzi": "周末我在家休息。",
         "pinyin": "Zhōumò wǒ zài jiā xiūxi.",
-        "english": "I rest at home on weekends."
+        "english": "I rest at home on weekends.",
+        "translations": {
+          "en": "I rest at home on weekends.",
+          "ru": "На выходных я отдыхаю дома.",
+          "es": "El fin de semana descanso en casa.",
+          "pt-BR": "No fim de semana descanso em casa."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to rest",
+      "ru": "отдыхать",
+      "es": "descansar",
+      "pt-BR": "descansar"
+    }
   },
   {
     "section": "health",
@@ -1556,14 +3104,32 @@
       {
         "hanzi": "请按时吃药。",
         "pinyin": "Qǐng ànshí chī yào.",
-        "english": "Please take your medicine on time."
+        "english": "Please take your medicine on time.",
+        "translations": {
+          "en": "Please take your medicine on time.",
+          "ru": "Принимайте лекарство вовремя.",
+          "es": "Tome el medicamento a tiempo.",
+          "pt-BR": "Tome o remédio na hora."
+        }
       },
       {
         "hanzi": "这种药很有效。",
         "pinyin": "Zhè zhǒng yào hěn yǒuxiào.",
-        "english": "This medicine works well."
+        "english": "This medicine works well.",
+        "translations": {
+          "en": "This medicine works well.",
+          "ru": "Это лекарство очень помогает.",
+          "es": "Esta medicina es muy eficaz.",
+          "pt-BR": "Este remédio é muito eficaz."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "medicine",
+      "ru": "лекарство",
+      "es": "medicina / medicamento",
+      "pt-BR": "remédio / medicamento"
+    }
   },
   {
     "section": "health",
@@ -1574,14 +3140,32 @@
       {
         "hanzi": "我预约了医生。",
         "pinyin": "Wǒ yùyuē le yīshēng.",
-        "english": "I made a doctor's appointment."
+        "english": "I made a doctor's appointment.",
+        "translations": {
+          "en": "I made a doctor's appointment.",
+          "ru": "Я записался к врачу.",
+          "es": "Pedí cita con el médico.",
+          "pt-BR": "Marquei consulta com o médico."
+        }
       },
       {
         "hanzi": "请提前预约体检。",
         "pinyin": "Qǐng tíqián yùyuē tǐjiǎn.",
-        "english": "Please book a check-up in advance."
+        "english": "Please book a check-up in advance.",
+        "translations": {
+          "en": "Please book a check-up in advance.",
+          "ru": "Запишитесь на медосмотр заранее.",
+          "es": "Reserve el chequeo con antelación.",
+          "pt-BR": "Agende o check-up com antecedência."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "appointment / to book",
+      "ru": "запись / записываться (к врачу)",
+      "es": "cita / reservar",
+      "pt-BR": "consulta / agendar"
+    }
   },
   {
     "section": "health",
@@ -1592,14 +3176,32 @@
       {
         "hanzi": "我对海鲜过敏。",
         "pinyin": "Wǒ duì hǎixiān guòmǐn.",
-        "english": "I'm allergic to seafood."
+        "english": "I'm allergic to seafood.",
+        "translations": {
+          "en": "I'm allergic to seafood.",
+          "ru": "У меня аллергия на морепродукты.",
+          "es": "Soy alérgico al marisco.",
+          "pt-BR": "Tenho alergia a frutos do mar."
+        }
       },
       {
         "hanzi": "春天容易过敏。",
         "pinyin": "Chūntiān róngyì guòmǐn.",
-        "english": "Allergies are common in spring."
+        "english": "Allergies are common in spring.",
+        "translations": {
+          "en": "Allergies are common in spring.",
+          "ru": "Весной часто бывает аллергия.",
+          "es": "En primavera son comunes las alergias.",
+          "pt-BR": "Na primavera alergia é comum."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "allergy",
+      "ru": "аллергия",
+      "es": "alergia",
+      "pt-BR": "alergia"
+    }
   },
   {
     "section": "health",
@@ -1610,14 +3212,32 @@
       {
         "hanzi": "睡眠很重要。",
         "pinyin": "Shuìmián hěn zhòngyào.",
-        "english": "Sleep is important."
+        "english": "Sleep is important.",
+        "translations": {
+          "en": "Sleep is important.",
+          "ru": "Сон очень важен.",
+          "es": "Dormir es muy importante.",
+          "pt-BR": "O sono é muito importante."
+        }
       },
       {
         "hanzi": "我昨晚睡眠不好。",
         "pinyin": "Wǒ zuó wǎn shuìmián bù hǎo.",
-        "english": "I didn't sleep well last night."
+        "english": "I didn't sleep well last night.",
+        "translations": {
+          "en": "I didn't sleep well last night.",
+          "ru": "Прошлой ночью я плохо спал.",
+          "es": "Anoche no dormí bien.",
+          "pt-BR": "Ontem à noite eu não dormi bem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "sleep",
+      "ru": "сон",
+      "es": "sueño / dormir",
+      "pt-BR": "sono / dormir"
+    }
   },
   {
     "section": "social",
@@ -1628,14 +3248,32 @@
       {
         "hanzi": "他是我的好朋友。",
         "pinyin": "Tā shì wǒ de hǎo péngyou.",
-        "english": "He's my good friend."
+        "english": "He's my good friend.",
+        "translations": {
+          "en": "He's my good friend.",
+          "ru": "Он мой хороший друг.",
+          "es": "Es un buen amigo mío.",
+          "pt-BR": "Ele é um bom amigo meu."
+        }
       },
       {
         "hanzi": "周末和朋友聚会。",
         "pinyin": "Zhōumò hé péngyou jùhuì.",
-        "english": "I'm meeting friends on the weekend."
+        "english": "I'm meeting friends on the weekend.",
+        "translations": {
+          "en": "I'm meeting friends on the weekend.",
+          "ru": "На выходных встречаюсь с друзьями.",
+          "es": "El fin de semana quedo con amigos.",
+          "pt-BR": "No fim de semana encontro os amigos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "friend",
+      "ru": "друг",
+      "es": "amigo",
+      "pt-BR": "amigo"
+    }
   },
   {
     "section": "social",
@@ -1646,14 +3284,32 @@
       {
         "hanzi": "今晚有个聚会。",
         "pinyin": "Jīn wǎn yǒu gè jùhuì.",
-        "english": "There's a gathering tonight."
+        "english": "There's a gathering tonight.",
+        "translations": {
+          "en": "There's a gathering tonight.",
+          "ru": "Сегодня вечером будет встреча.",
+          "es": "Esta noche hay una reunión.",
+          "pt-BR": "Hoje à noite tem um encontro."
+        }
       },
       {
         "hanzi": "同学聚会很开心。",
         "pinyin": "Tóngxué jùhuì hěn kāixīn.",
-        "english": "The class reunion was fun."
+        "english": "The class reunion was fun.",
+        "translations": {
+          "en": "The class reunion was fun.",
+          "ru": "Встреча одноклассников была весёлой.",
+          "es": "La reunión de compañeros fue muy divertida.",
+          "pt-BR": "O reencontro da turma foi muito divertido."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "gathering / party",
+      "ru": "встреча / вечеринка / сбор",
+      "es": "quedada / fiesta / reunión",
+      "pt-BR": "encontro / festa / reunião"
+    }
   },
   {
     "section": "social",
@@ -1664,14 +3320,32 @@
       {
         "hanzi": "我邀请你来我家。",
         "pinyin": "Wǒ yāoqǐng nǐ lái wǒ jiā.",
-        "english": "I invite you to my home."
+        "english": "I invite you to my home.",
+        "translations": {
+          "en": "I invite you to my home.",
+          "ru": "Приглашаю тебя ко мне домой.",
+          "es": "Te invito a mi casa.",
+          "pt-BR": "Te convido para a minha casa."
+        }
       },
       {
         "hanzi": "谢谢你的邀请。",
         "pinyin": "Xièxie nǐ de yāoqǐng.",
-        "english": "Thank you for the invitation."
+        "english": "Thank you for the invitation.",
+        "translations": {
+          "en": "Thank you for the invitation.",
+          "ru": "Спасибо за приглашение.",
+          "es": "Gracias por la invitación.",
+          "pt-BR": "Obrigado pelo convite."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to invite",
+      "ru": "приглашать",
+      "es": "invitar",
+      "pt-BR": "convidar"
+    }
   },
   {
     "section": "social",
@@ -1682,14 +3356,32 @@
       {
         "hanzi": "我们在网上聊天。",
         "pinyin": "Wǒmen zài wǎngshàng liáotiān.",
-        "english": "We chat online."
+        "english": "We chat online.",
+        "translations": {
+          "en": "We chat online.",
+          "ru": "Мы болтаем в интернете.",
+          "es": "Charlamos por internet.",
+          "pt-BR": "A gente conversa pela internet."
+        }
       },
       {
         "hanzi": "喜欢和朋友聊天。",
         "pinyin": "Xǐhuan hé péngyou liáotiān.",
-        "english": "I like chatting with friends."
+        "english": "I like chatting with friends.",
+        "translations": {
+          "en": "I like chatting with friends.",
+          "ru": "Люблю болтать с друзьями.",
+          "es": "Me gusta charlar con amigos.",
+          "pt-BR": "Gosto de bater papo com os amigos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to chat",
+      "ru": "болтать / общаться",
+      "es": "charlar",
+      "pt-BR": "conversar / bater papo"
+    }
   },
   {
     "section": "social",
@@ -1700,14 +3392,32 @@
       {
         "hanzi": "你的爱好是什么？",
         "pinyin": "Nǐ de àihào shì shénme?",
-        "english": "What are your hobbies?"
+        "english": "What are your hobbies?",
+        "translations": {
+          "en": "What are your hobbies?",
+          "ru": "Какие у тебя увлечения?",
+          "es": "¿Cuáles son tus aficiones?",
+          "pt-BR": "Quais são os seus hobbies?"
+        }
       },
       {
         "hanzi": "我的爱好是摄影。",
         "pinyin": "Wǒ de àihào shì shèyǐng.",
-        "english": "My hobby is photography."
+        "english": "My hobby is photography.",
+        "translations": {
+          "en": "My hobby is photography.",
+          "ru": "Моё хобби — фотография.",
+          "es": "Mi afición es la fotografía.",
+          "pt-BR": "Meu hobby é fotografia."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "hobby",
+      "ru": "хобби / увлечение",
+      "es": "afición / hobby",
+      "pt-BR": "hobby / passatempo"
+    }
   },
   {
     "section": "social",
@@ -1718,14 +3428,32 @@
       {
         "hanzi": "他们今晚有约会。",
         "pinyin": "Tāmen jīn wǎn yǒu yuēhuì.",
-        "english": "They have a date tonight."
+        "english": "They have a date tonight.",
+        "translations": {
+          "en": "They have a date tonight.",
+          "ru": "У них сегодня вечером свидание.",
+          "es": "Esta noche tienen una cita.",
+          "pt-BR": "Eles têm um encontro hoje à noite."
+        }
       },
       {
         "hanzi": "我约了朋友喝咖啡。",
         "pinyin": "Wǒ yuē le péngyou hē kāfēi.",
-        "english": "I made plans to have coffee with a friend."
+        "english": "I made plans to have coffee with a friend.",
+        "translations": {
+          "en": "I made plans to have coffee with a friend.",
+          "ru": "Я договорился с другом выпить кофе.",
+          "es": "Quedé con un amigo para tomar café.",
+          "pt-BR": "Marquei de tomar café com um amigo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "date / appointment (social)",
+      "ru": "свидание / встреча",
+      "es": "cita / quedada",
+      "pt-BR": "encontro / date"
+    }
   },
   {
     "section": "social",
@@ -1736,14 +3464,32 @@
       {
         "hanzi": "请介绍一下你自己。",
         "pinyin": "Qǐng jièshào yīxià nǐ zìjǐ.",
-        "english": "Please introduce yourself."
+        "english": "Please introduce yourself.",
+        "translations": {
+          "en": "Please introduce yourself.",
+          "ru": "Представьтесь, пожалуйста.",
+          "es": "Preséntese, por favor.",
+          "pt-BR": "Apresente-se, por favor."
+        }
       },
       {
         "hanzi": "我介绍你们认识。",
         "pinyin": "Wǒ jièshào nǐmen rènshi.",
-        "english": "Let me introduce you two."
+        "english": "Let me introduce you two.",
+        "translations": {
+          "en": "Let me introduce you two.",
+          "ru": "Познакомлю вас.",
+          "es": "Os presento.",
+          "pt-BR": "Vou apresentar vocês."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to introduce",
+      "ru": "представлять / знакомить",
+      "es": "presentar",
+      "pt-BR": "apresentar"
+    }
   },
   {
     "section": "social",
@@ -1754,14 +3500,32 @@
       {
         "hanzi": "这是我给你的礼物。",
         "pinyin": "Zhè shì wǒ gěi nǐ de lǐwù.",
-        "english": "This is a gift for you."
+        "english": "This is a gift for you.",
+        "translations": {
+          "en": "This is a gift for you.",
+          "ru": "Это тебе подарок.",
+          "es": "Este es un regalo para ti.",
+          "pt-BR": "Este é um presente para você."
+        }
       },
       {
         "hanzi": "谢谢你的礼物。",
         "pinyin": "Xièxie nǐ de lǐwù.",
-        "english": "Thank you for the gift."
+        "english": "Thank you for the gift.",
+        "translations": {
+          "en": "Thank you for the gift.",
+          "ru": "Спасибо за подарок.",
+          "es": "Gracias por el regalo.",
+          "pt-BR": "Obrigado pelo presente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "gift",
+      "ru": "подарок",
+      "es": "regalo",
+      "pt-BR": "presente"
+    }
   },
   {
     "section": "social",
@@ -1772,14 +3536,32 @@
       {
         "hanzi": "祝你新婚祝福。",
         "pinyin": "Zhù nǐ xīnhūn zhùfú.",
-        "english": "Best wishes on your wedding."
+        "english": "Best wishes on your wedding.",
+        "translations": {
+          "en": "Best wishes on your wedding.",
+          "ru": "Поздравляю со свадьбой.",
+          "es": "Mis mejores deseos para vuestra boda.",
+          "pt-BR": "Meus votos para o casamento de vocês."
+        }
       },
       {
         "hanzi": "收到很多祝福。",
         "pinyin": "Shōudào hěn duō zhùfú.",
-        "english": "I received many well wishes."
+        "english": "I received many well wishes.",
+        "translations": {
+          "en": "I received many well wishes.",
+          "ru": "Получил много пожеланий.",
+          "es": "Recibí muchos buenos deseos.",
+          "pt-BR": "Recebi muitos votos de felicidade."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "blessing / well wishes",
+      "ru": "пожелания / благословение",
+      "es": "deseos / felicitación",
+      "pt-BR": "votos / bênção / desejos"
+    }
   },
   {
     "section": "social",
@@ -1790,13 +3572,31 @@
       {
         "hanzi": "我不太喜欢社交。",
         "pinyin": "Wǒ bú tài xǐhuan shèjiāo.",
-        "english": "I don't really like socializing."
+        "english": "I don't really like socializing.",
+        "translations": {
+          "en": "I don't really like socializing.",
+          "ru": "Я не очень люблю светские мероприятия.",
+          "es": "No me gusta mucho socializar.",
+          "pt-BR": "Não gosto muito de socializar."
+        }
       },
       {
         "hanzi": "社交能力很重要。",
         "pinyin": "Shèjiāo nénglì hěn zhòngyào.",
-        "english": "Social skills are important."
+        "english": "Social skills are important.",
+        "translations": {
+          "en": "Social skills are important.",
+          "ru": "Навыки общения очень важны.",
+          "es": "Las habilidades sociales son importantes.",
+          "pt-BR": "Habilidade social é importante."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "social / socializing",
+      "ru": "общение / светская жизнь",
+      "es": "vida social / socializar",
+      "pt-BR": "vida social / socializar"
+    }
   }
 ]

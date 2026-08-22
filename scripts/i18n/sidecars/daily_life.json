@@ -1,0 +1,1702 @@
+{
+  "早上好": {
+    "ru": "доброе утро",
+    "es": "buenos días",
+    "pt-BR": "bom dia",
+    "examples": [
+      {
+        "ru": "Доброе утро, сегодня хорошая погода.",
+        "es": "Buenos días, hoy hace buen tiempo.",
+        "pt-BR": "Bom dia, hoje o tempo está bom."
+      },
+      {
+        "ru": "Каждое утро она здоровается с соседями.",
+        "es": "Cada mañana saluda a los vecinos.",
+        "pt-BR": "Toda manhã ela cumprimenta os vizinhos."
+      }
+    ]
+  },
+  "晚上好": {
+    "ru": "добрый вечер",
+    "es": "buenas tardes / buenas noches",
+    "pt-BR": "boa noite / boa tarde",
+    "examples": [
+      {
+        "ru": "Добрый вечер, добро пожаловать.",
+        "es": "Buenas noches, bienvenido.",
+        "pt-BR": "Boa noite, seja bem-vindo."
+      },
+      {
+        "ru": "Добрый вечер, вы уже ели?",
+        "es": "Buenas noches, ¿ya comiste?",
+        "pt-BR": "Boa noite, você já comeu?"
+      }
+    ]
+  },
+  "再见": {
+    "ru": "до свидания",
+    "es": "adiós / hasta luego",
+    "pt-BR": "tchau / até logo",
+    "examples": [
+      {
+        "ru": "До свидания, до завтра.",
+        "es": "Adiós, hasta mañana.",
+        "pt-BR": "Tchau, até amanhã."
+      },
+      {
+        "ru": "Я пойду, до свидания.",
+        "es": "Me voy, adiós.",
+        "pt-BR": "Vou embora, tchau."
+      }
+    ]
+  },
+  "请多关照": {
+    "ru": "прошу вашей благосклонности / будем на связи",
+    "es": "cuídeme / encantado de conocernos",
+    "pt-BR": "conte comigo / prazer em conhecer",
+    "examples": [
+      {
+        "ru": "Я здесь новенький, прошу вашей поддержки.",
+        "es": "Soy nuevo aquí, cuídenme por favor.",
+        "pt-BR": "Sou novo aqui, contem comigo."
+      },
+      {
+        "ru": "В дальнейшем прошу вашей поддержки.",
+        "es": "En el futuro, cuídenme.",
+        "pt-BR": "Daí pra frente, contem comigo."
+      }
+    ]
+  },
+  "久仰": {
+    "ru": "давно наслышан / рад знакомству",
+    "es": "mucho gusto / he oído hablar de usted",
+    "pt-BR": "prazer / já ouvi falar de você",
+    "examples": [
+      {
+        "ru": "Давно наслышан о вашей славе.",
+        "es": "He oído hablar mucho de usted.",
+        "pt-BR": "Já ouvi muito falar de você."
+      },
+      {
+        "ru": "Давно наслышан, наконец встретились.",
+        "es": "Mucho gusto, por fin nos vemos.",
+        "pt-BR": "Prazer, finalmente nos encontramos."
+      }
+    ]
+  },
+  "最近怎么样": {
+    "ru": "как дела в последнее время",
+    "es": "¿cómo te ha ido últimamente?",
+    "pt-BR": "como você tem estado?",
+    "examples": [
+      {
+        "ru": "Как дела в последнее время?",
+        "es": "¿Cómo te ha ido últimamente?",
+        "pt-BR": "Como você tem estado?"
+      },
+      {
+        "ru": "Давно не виделись, как ты?",
+        "es": "Cuánto tiempo, ¿cómo has estado?",
+        "pt-BR": "Há quanto tempo, como você tem estado?"
+      }
+    ]
+  },
+  "欢迎": {
+    "ru": "добро пожаловать / приветствовать",
+    "es": "bienvenido / dar la bienvenida",
+    "pt-BR": "bem-vindo / dar as boas-vindas",
+    "examples": [
+      {
+        "ru": "Добро пожаловать в Пекин.",
+        "es": "Bienvenido a Pekín.",
+        "pt-BR": "Bem-vindo a Pequim."
+      },
+      {
+        "ru": "Приглашаем всех принять участие.",
+        "es": "Bienvenidos todos a participar.",
+        "pt-BR": "Sejam bem-vindos a participar."
+      }
+    ]
+  },
+  "恭喜": {
+    "ru": "поздравлять",
+    "es": "felicitar / enhorabuena",
+    "pt-BR": "parabéns / parabenizar",
+    "examples": [
+      {
+        "ru": "Поздравляю с повышением.",
+        "es": "Felicidades por tu ascenso.",
+        "pt-BR": "Parabéns pela promoção."
+      },
+      {
+        "ru": "Поздравляю с богатством!",
+        "es": "¡Gong Xi Fa Cai!",
+        "pt-BR": "Gong Xi Fa Cai!"
+      }
+    ]
+  },
+  "节日快乐": {
+    "ru": "с праздником",
+    "es": "felices fiestas",
+    "pt-BR": "boas festas",
+    "examples": [
+      {
+        "ru": "С праздником!",
+        "es": "Felices fiestas.",
+        "pt-BR": "Boas festas."
+      },
+      {
+        "ru": "С праздником и счастья вашей семье.",
+        "es": "Felices fiestas y felicidad para tu familia.",
+        "pt-BR": "Boas festas e felicidade para a família."
+      }
+    ]
+  },
+  "慢走": {
+    "ru": "счастливо / осторожно в пути",
+    "es": "que te vaya bien / cuídate",
+    "pt-BR": "vai com cuidado / se cuida",
+    "examples": [
+      {
+        "ru": "Спасибо, счастливо.",
+        "es": "Gracias, cuídate.",
+        "pt-BR": "Obrigado, se cuida."
+      },
+      {
+        "ru": "Уже темно, осторожно в пути.",
+        "es": "Ya oscureció, ve con cuidado.",
+        "pt-BR": "Já escureceu, vai com cuidado."
+      }
+    ]
+  },
+  "爸爸": {
+    "ru": "папа / отец",
+    "es": "papá / padre",
+    "pt-BR": "papai / pai",
+    "examples": [
+      {
+        "ru": "Мой папа — врач.",
+        "es": "Mi papá es médico.",
+        "pt-BR": "Meu pai é médico."
+      },
+      {
+        "ru": "Папа сегодня задерживается на работе.",
+        "es": "Papá hace horas extra hoy.",
+        "pt-BR": "O papai está fazendo hora extra hoje."
+      }
+    ]
+  },
+  "妈妈": {
+    "ru": "мама / мать",
+    "es": "mamá / madre",
+    "pt-BR": "mamãe / mãe",
+    "examples": [
+      {
+        "ru": "Мамина еда самая вкусная.",
+        "es": "La comida de mamá es la mejor.",
+        "pt-BR": "A comida da mamãe é a melhor."
+      },
+      {
+        "ru": "Я купил маме подарок.",
+        "es": "Le compré un regalo a mamá.",
+        "pt-BR": "Comprei um presente para a mamãe."
+      }
+    ]
+  },
+  "孩子": {
+    "ru": "ребёнок / дети",
+    "es": "hijo / niño",
+    "pt-BR": "filho / criança",
+    "examples": [
+      {
+        "ru": "У них двое детей.",
+        "es": "Tienen dos hijos.",
+        "pt-BR": "Eles têm dois filhos."
+      },
+      {
+        "ru": "Ребёнок играет в гостиной.",
+        "es": "El niño está jugando en el salón.",
+        "pt-BR": "A criança está brincando na sala."
+      }
+    ]
+  },
+  "爷爷": {
+    "ru": "дедушка (по отцу)",
+    "es": "abuelo paterno",
+    "pt-BR": "avô paterno / vovô",
+    "examples": [
+      {
+        "ru": "Дедушке в этом году семьдесят.",
+        "es": "El abuelo cumple setenta este año.",
+        "pt-BR": "O vovô faz setenta este ano."
+      },
+      {
+        "ru": "На выходных я навещу дедушку.",
+        "es": "El fin de semana voy a ver al abuelo.",
+        "pt-BR": "No fim de semana vou ver o vovô."
+      }
+    ]
+  },
+  "奶奶": {
+    "ru": "бабушка (по отцу)",
+    "es": "abuela paterna",
+    "pt-BR": "avó paterna / vovó",
+    "examples": [
+      {
+        "ru": "У бабушки крепкое здоровье.",
+        "es": "La abuela está muy sana.",
+        "pt-BR": "A vovó está com a saúde boa."
+      },
+      {
+        "ru": "Бабушка готовит на кухне.",
+        "es": "La abuela está cocinando.",
+        "pt-BR": "A vovó está cozinhando na cozinha."
+      }
+    ]
+  },
+  "哥哥": {
+    "ru": "старший брат",
+    "es": "hermano mayor",
+    "pt-BR": "irmão mais velho",
+    "examples": [
+      {
+        "ru": "Мой старший брат учится в университете.",
+        "es": "Mi hermano mayor estudia en la universidad.",
+        "pt-BR": "Meu irmão mais velho estuda na universidade."
+      },
+      {
+        "ru": "Брат старше меня на три года.",
+        "es": "Mi hermano es tres años mayor que yo.",
+        "pt-BR": "Meu irmão é três anos mais velho do que eu."
+      }
+    ]
+  },
+  "姐姐": {
+    "ru": "старшая сестра",
+    "es": "hermana mayor",
+    "pt-BR": "irmã mais velha",
+    "examples": [
+      {
+        "ru": "Старшая сестра работает в Шанхае.",
+        "es": "Mi hermana mayor trabaja en Shanghái.",
+        "pt-BR": "Minha irmã mais velha trabalha em Xangai."
+      },
+      {
+        "ru": "Сестра учит меня английскому.",
+        "es": "Mi hermana me enseña inglés.",
+        "pt-BR": "Minha irmã me ensina inglês."
+      }
+    ]
+  },
+  "丈夫": {
+    "ru": "муж",
+    "es": "esposo / marido",
+    "pt-BR": "marido / esposo",
+    "examples": [
+      {
+        "ru": "Мой муж — инженер.",
+        "es": "Mi esposo es ingeniero.",
+        "pt-BR": "Meu marido é engenheiro."
+      },
+      {
+        "ru": "Муж дома с детьми.",
+        "es": "Mi esposo está en casa con los niños.",
+        "pt-BR": "Meu marido está em casa com as crianças."
+      }
+    ]
+  },
+  "妻子": {
+    "ru": "жена",
+    "es": "esposa",
+    "pt-BR": "esposa",
+    "examples": [
+      {
+        "ru": "Его жена — учительница.",
+        "es": "Su esposa es profesora.",
+        "pt-BR": "A esposa dele é professora."
+      },
+      {
+        "ru": "Мы с женой едем путешествовать.",
+        "es": "Mi esposa y yo viajamos juntos.",
+        "pt-BR": "Eu e minha esposa vamos viajar."
+      }
+    ]
+  },
+  "亲戚": {
+    "ru": "родственники",
+    "es": "parientes / familiares",
+    "pt-BR": "parentes / familiares",
+    "examples": [
+      {
+        "ru": "На Чуньцзе съезжаются все родственники.",
+        "es": "En el Año Nuevo vienen todos los parientes.",
+        "pt-BR": "No Ano Novo Chinês vêm todos os parentes."
+      },
+      {
+        "ru": "Он мой дальний родственник.",
+        "es": "Es un pariente lejano mío.",
+        "pt-BR": "Ele é um parente distante meu."
+      }
+    ]
+  },
+  "客厅": {
+    "ru": "гостиная",
+    "es": "salón / sala de estar",
+    "pt-BR": "sala de estar",
+    "examples": [
+      {
+        "ru": "Все смотрят телевизор в гостиной.",
+        "es": "Todos ven la tele en el salón.",
+        "pt-BR": "Todo mundo assiste TV na sala."
+      },
+      {
+        "ru": "Гостиная просторная.",
+        "es": "El salón es amplio.",
+        "pt-BR": "A sala é espaçosa."
+      }
+    ]
+  },
+  "卧室": {
+    "ru": "спальня",
+    "es": "dormitorio / habitación",
+    "pt-BR": "quarto",
+    "examples": [
+      {
+        "ru": "Моя спальня на втором этаже.",
+        "es": "Mi dormitorio está en el segundo piso.",
+        "pt-BR": "Meu quarto fica no segundo andar."
+      },
+      {
+        "ru": "Держите спальню в порядке.",
+        "es": "Mantenga el dormitorio ordenado.",
+        "pt-BR": "Mantenha o quarto arrumado."
+      }
+    ]
+  },
+  "厨房": {
+    "ru": "кухня",
+    "es": "cocina",
+    "pt-BR": "cozinha",
+    "examples": [
+      {
+        "ru": "На кухне новая техника.",
+        "es": "Hay electrodomésticos nuevos en la cocina.",
+        "pt-BR": "Tem eletrodomésticos novos na cozinha."
+      },
+      {
+        "ru": "Она готовит ужин на кухне.",
+        "es": "Está preparando la cena en la cocina.",
+        "pt-BR": "Ela está fazendo o jantar na cozinha."
+      }
+    ]
+  },
+  "卫生间": {
+    "ru": "ванная / туалет",
+    "es": "baño",
+    "pt-BR": "banheiro",
+    "examples": [
+      {
+        "ru": "Пользуйтесь ванной внутри.",
+        "es": "Use el baño de adentro.",
+        "pt-BR": "Use o banheiro de dentro."
+      },
+      {
+        "ru": "Ванную нужно убрать.",
+        "es": "El baño necesita limpieza.",
+        "pt-BR": "O banheiro precisa de limpeza."
+      }
+    ]
+  },
+  "阳台": {
+    "ru": "балкон",
+    "es": "balcón",
+    "pt-BR": "varanda / sacada",
+    "examples": [
+      {
+        "ru": "На балконе посадили цветы.",
+        "es": "Hay flores plantadas en el balcón.",
+        "pt-BR": "Tem flores plantadas na varanda."
+      },
+      {
+        "ru": "Сушите бельё на балконе.",
+        "es": "Tender la ropa en el balcón.",
+        "pt-BR": "Pendure a roupa na varanda."
+      }
+    ]
+  },
+  "钥匙": {
+    "ru": "ключ",
+    "es": "llave",
+    "pt-BR": "chave",
+    "examples": [
+      {
+        "ru": "Я забыл ключи.",
+        "es": "Olvidé las llaves.",
+        "pt-BR": "Esqueci as chaves."
+      },
+      {
+        "ru": "Оставьте ключи у двери.",
+        "es": "Deje las llaves en la puerta.",
+        "pt-BR": "Deixe as chaves na porta."
+      }
+    ]
+  },
+  "打扫": {
+    "ru": "убирать / чистить",
+    "es": "limpiar",
+    "pt-BR": "limpar",
+    "examples": [
+      {
+        "ru": "Сегодня я буду убирать комнату.",
+        "es": "Hoy voy a limpiar la habitación.",
+        "pt-BR": "Hoje vou limpar o quarto."
+      },
+      {
+        "ru": "Мы убираемся каждую субботу.",
+        "es": "Limpiamos todos los sábados.",
+        "pt-BR": "Limpamos todo sábado."
+      }
+    ]
+  },
+  "修理": {
+    "ru": "чинить / ремонтировать",
+    "es": "reparar / arreglar",
+    "pt-BR": "consertar / reparar",
+    "examples": [
+      {
+        "ru": "Кондиционер нужно починить.",
+        "es": "Hay que reparar el aire acondicionado.",
+        "pt-BR": "O ar-condicionado precisa de conserto."
+      },
+      {
+        "ru": "Он починил мне кран.",
+        "es": "Me arregló el grifo.",
+        "pt-BR": "Ele consertou a torneira para mim."
+      }
+    ]
+  },
+  "邻居": {
+    "ru": "сосед",
+    "es": "vecino",
+    "pt-BR": "vizinho",
+    "examples": [
+      {
+        "ru": "Мои соседи очень дружелюбные.",
+        "es": "Mis vecinos son muy amables.",
+        "pt-BR": "Meus vizinhos são muito simpáticos."
+      },
+      {
+        "ru": "Сосед одолжил мне зонт.",
+        "es": "El vecino me prestó un paraguas.",
+        "pt-BR": "O vizinho me emprestou um guarda-chuva."
+      }
+    ]
+  },
+  "房租": {
+    "ru": "аренда / квартплата",
+    "es": "alquiler / renta",
+    "pt-BR": "aluguel",
+    "examples": [
+      {
+        "ru": "Аренда — три тысячи в месяц.",
+        "es": "El alquiler es de tres mil al mes.",
+        "pt-BR": "O aluguel é três mil por mês."
+      },
+      {
+        "ru": "Пора платить за квартиру.",
+        "es": "Es hora de pagar el alquiler.",
+        "pt-BR": "Está na hora de pagar o aluguel."
+      }
+    ]
+  },
+  "超市": {
+    "ru": "супермаркет",
+    "es": "supermercado",
+    "pt-BR": "supermercado",
+    "examples": [
+      {
+        "ru": "Иду в супермаркет за продуктами.",
+        "es": "Voy al supermercado a comprar comida.",
+        "pt-BR": "Vou ao supermercado comprar comida."
+      },
+      {
+        "ru": "Этот супермаркет очень большой.",
+        "es": "Este supermercado es enorme.",
+        "pt-BR": "Este supermercado é enorme."
+      }
+    ]
+  },
+  "购物车": {
+    "ru": "тележка",
+    "es": "carrito de compra",
+    "pt-BR": "carrinho de compras",
+    "examples": [
+      {
+        "ru": "Возьмите тележку.",
+        "es": "Tome un carrito, por favor.",
+        "pt-BR": "Pegue um carrinho, por favor."
+      },
+      {
+        "ru": "Тележка полная.",
+        "es": "El carrito está lleno.",
+        "pt-BR": "O carrinho está cheio."
+      }
+    ]
+  },
+  "打折": {
+    "ru": "скидка / распродажа",
+    "es": "descuento / oferta",
+    "pt-BR": "desconto / promoção",
+    "examples": [
+      {
+        "ru": "Эта одежда со скидкой.",
+        "es": "Esta prenda está en oferta.",
+        "pt-BR": "Esta roupa está em promoção."
+      },
+      {
+        "ru": "Сегодня скидка 20% на всё.",
+        "es": "Hoy todo está al 80%.",
+        "pt-BR": "Hoje tudo está com 20% de desconto."
+      }
+    ]
+  },
+  "排队": {
+    "ru": "стоять в очереди",
+    "es": "hacer cola / hacer fila",
+    "pt-BR": "ficar na fila",
+    "examples": [
+      {
+        "ru": "На кассе очередь.",
+        "es": "Hay cola en la caja.",
+        "pt-BR": "Tem fila no caixa."
+      },
+      {
+        "ru": "Встаньте в очередь здесь.",
+        "es": "Haga cola aquí, por favor.",
+        "pt-BR": "Fique na fila aqui, por favor."
+      }
+    ]
+  },
+  "称重": {
+    "ru": "взвешивать",
+    "es": "pesar",
+    "pt-BR": "pesar",
+    "examples": [
+      {
+        "ru": "Взвесьте на стойке.",
+        "es": "Péselo en el mostrador.",
+        "pt-BR": "Pese no balcão."
+      },
+      {
+        "ru": "Фрукты нужно сначала взвесить.",
+        "es": "La fruta hay que pesarla primero.",
+        "pt-BR": "A fruta precisa ser pesada primeiro."
+      }
+    ]
+  },
+  "保质期": {
+    "ru": "срок годности",
+    "es": "fecha de caducidad",
+    "pt-BR": "data de validade",
+    "examples": [
+      {
+        "ru": "Посмотрите срок годности.",
+        "es": "Mire la fecha de caducidad.",
+        "pt-BR": "Olhe a data de validade."
+      },
+      {
+        "ru": "У этого молока истёк срок.",
+        "es": "Esta leche está caducada.",
+        "pt-BR": "Este leite está vencido."
+      }
+    ]
+  },
+  "退货": {
+    "ru": "возврат товара",
+    "es": "devolver un producto",
+    "pt-BR": "devolver produto",
+    "examples": [
+      {
+        "ru": "Можно вернуть товар?",
+        "es": "¿Puedo devolver este artículo?",
+        "pt-BR": "Posso devolver este produto?"
+      },
+      {
+        "ru": "В течение семи дней можно вернуть.",
+        "es": "Se puede devolver en siete días.",
+        "pt-BR": "Dá para devolver em sete dias."
+      }
+    ]
+  },
+  "会员": {
+    "ru": "член / карта лояльности",
+    "es": "socio / membresía",
+    "pt-BR": "membro / clube de fidelidade",
+    "examples": [
+      {
+        "ru": "С картой лояльности копятся баллы.",
+        "es": "Los socios acumulan puntos.",
+        "pt-BR": "Membros acumulam pontos."
+      },
+      {
+        "ru": "Предъявите карту члена.",
+        "es": "Muestre su tarjeta de socio.",
+        "pt-BR": "Mostre o cartão de membro."
+      }
+    ]
+  },
+  "零钱": {
+    "ru": "мелочь / сдача",
+    "es": "cambio menudo",
+    "pt-BR": "troco / miúdo",
+    "examples": [
+      {
+        "ru": "Есть мелочь?",
+        "es": "¿Tienes cambio menudo?",
+        "pt-BR": "Você tem troco?"
+      },
+      {
+        "ru": "Я разменял мелочь.",
+        "es": "Cambié un poco de menudo.",
+        "pt-BR": "Troquei um pouco de miúdo."
+      }
+    ]
+  },
+  "购物袋": {
+    "ru": "пакет для покупок",
+    "es": "bolsa de compra",
+    "pt-BR": "sacola de compras",
+    "examples": [
+      {
+        "ru": "Нужен пакет?",
+        "es": "¿Necesita una bolsa?",
+        "pt-BR": "Precisa de uma sacola?"
+      },
+      {
+        "ru": "Я принёс свой пакет.",
+        "es": "Traje mi propia bolsa.",
+        "pt-BR": "Trouxe minha própria sacola."
+      }
+    ]
+  },
+  "晴天": {
+    "ru": "ясный день / солнечно",
+    "es": "día soleado",
+    "pt-BR": "dia de sol",
+    "examples": [
+      {
+        "ru": "Сегодня солнечно.",
+        "es": "Hoy está soleado.",
+        "pt-BR": "Hoje está um dia de sol."
+      },
+      {
+        "ru": "В ясный день хорошо гулять.",
+        "es": "Los días soleados son buenos para salir.",
+        "pt-BR": "Dia de sol é bom para sair."
+      }
+    ]
+  },
+  "下雨": {
+    "ru": "идти дождь",
+    "es": "llover",
+    "pt-BR": "chover",
+    "examples": [
+      {
+        "ru": "На улице дождь.",
+        "es": "Está lloviendo afuera.",
+        "pt-BR": "Está chovendo lá fora."
+      },
+      {
+        "ru": "Днём может пойти дождь.",
+        "es": "Por la tarde puede llover.",
+        "pt-BR": "À tarde pode chover."
+      }
+    ]
+  },
+  "下雪": {
+    "ru": "идти снег",
+    "es": "nevar",
+    "pt-BR": "nevar",
+    "examples": [
+      {
+        "ru": "На севере идёт снег.",
+        "es": "Está nevando en el norte.",
+        "pt-BR": "Está nevando no norte."
+      },
+      {
+        "ru": "Дети любят снег.",
+        "es": "A los niños les encanta que nieve.",
+        "pt-BR": "Crianças adoram neve."
+      }
+    ]
+  },
+  "刮风": {
+    "ru": "ветрено / дуть (о ветре)",
+    "es": "hacer viento / ventoso",
+    "pt-BR": "ventar / ventania",
+    "examples": [
+      {
+        "ru": "Сегодня сильный ветер.",
+        "es": "Hoy hace mucho viento.",
+        "pt-BR": "Hoje está ventando muito."
+      },
+      {
+        "ru": "Не выходи, на улице ветрено.",
+        "es": "No salgas, afuera hace viento.",
+        "pt-BR": "Não saia, está ventando lá fora."
+      }
+    ]
+  },
+  "温度": {
+    "ru": "температура",
+    "es": "temperatura",
+    "pt-BR": "temperatura",
+    "examples": [
+      {
+        "ru": "Сегодня высокая температура.",
+        "es": "Hoy la temperatura es alta.",
+        "pt-BR": "Hoje a temperatura está alta."
+      },
+      {
+        "ru": "Посмотрите температуру.",
+        "es": "Mire la temperatura.",
+        "pt-BR": "Olhe a temperatura."
+      }
+    ]
+  },
+  "预报": {
+    "ru": "прогноз",
+    "es": "pronóstico",
+    "pt-BR": "previsão",
+    "examples": [
+      {
+        "ru": "По прогнозу похолодает.",
+        "es": "El pronóstico dice que va a enfriar.",
+        "pt-BR": "A previsão diz que vai esfriar."
+      },
+      {
+        "ru": "Послушайте прогноз погоды.",
+        "es": "Escuche el pronóstico del tiempo.",
+        "pt-BR": "Ouça a previsão do tempo."
+      }
+    ]
+  },
+  "潮湿": {
+    "ru": "влажный / сырой",
+    "es": "húmedo",
+    "pt-BR": "úmido",
+    "examples": [
+      {
+        "ru": "На юге летом очень влажно.",
+        "es": "En el sur los veranos son húmedos.",
+        "pt-BR": "No sul o verão é úmido."
+      },
+      {
+        "ru": "В комнате немного сыро.",
+        "es": "La habitación está un poco húmeda.",
+        "pt-BR": "O quarto está um pouco úmido."
+      }
+    ]
+  },
+  "干燥": {
+    "ru": "сухой",
+    "es": "seco",
+    "pt-BR": "seco",
+    "examples": [
+      {
+        "ru": "Осенью погода сухая.",
+        "es": "En otoño el tiempo es seco.",
+        "pt-BR": "No outono o tempo é seco."
+      },
+      {
+        "ru": "На севере зимой очень сухо.",
+        "es": "En el norte el invierno es muy seco.",
+        "pt-BR": "No norte o inverno é muito seco."
+      }
+    ]
+  },
+  "阴天": {
+    "ru": "пасмурно",
+    "es": "nublado / cubierto",
+    "pt-BR": "nublado / encoberto",
+    "examples": [
+      {
+        "ru": "Сегодня пасмурно.",
+        "es": "Hoy está nublado.",
+        "pt-BR": "Hoje está nublado."
+      },
+      {
+        "ru": "В пасмурный день людей меньше.",
+        "es": "Los días nublados hay menos gente.",
+        "pt-BR": "Em dia nublado tem menos gente."
+      }
+    ]
+  },
+  "台风": {
+    "ru": "тайфун",
+    "es": "tifón",
+    "pt-BR": "tufão",
+    "examples": [
+      {
+        "ru": "Приближается тайфун.",
+        "es": "Se acerca un tifón.",
+        "pt-BR": "Um tufão está chegando."
+      },
+      {
+        "ru": "В тайфун на улицу не выходите.",
+        "es": "No salga durante un tifón.",
+        "pt-BR": "Não saia durante um tufão."
+      }
+    ]
+  },
+  "现在": {
+    "ru": "сейчас / теперь",
+    "es": "ahora",
+    "pt-BR": "agora",
+    "examples": [
+      {
+        "ru": "Который сейчас час?",
+        "es": "¿Qué hora es ahora?",
+        "pt-BR": "Que horas são agora?"
+      },
+      {
+        "ru": "Я сейчас очень занят.",
+        "es": "Ahora estoy muy ocupado.",
+        "pt-BR": "Agora estou muito ocupado."
+      }
+    ]
+  },
+  "今天": {
+    "ru": "сегодня",
+    "es": "hoy",
+    "pt-BR": "hoje",
+    "examples": [
+      {
+        "ru": "Сегодня понедельник.",
+        "es": "Hoy es lunes.",
+        "pt-BR": "Hoje é segunda-feira."
+      },
+      {
+        "ru": "Сегодня я свободен.",
+        "es": "Hoy estoy libre.",
+        "pt-BR": "Hoje estou livre."
+      }
+    ]
+  },
+  "明天": {
+    "ru": "завтра",
+    "es": "mañana",
+    "pt-BR": "amanhã",
+    "examples": [
+      {
+        "ru": "До завтра.",
+        "es": "Hasta mañana.",
+        "pt-BR": "Até amanhã."
+      },
+      {
+        "ru": "Завтра нужно рано встать.",
+        "es": "Mañana hay que madrugar.",
+        "pt-BR": "Amanhã preciso acordar cedo."
+      }
+    ]
+  },
+  "昨天": {
+    "ru": "вчера",
+    "es": "ayer",
+    "pt-BR": "ontem",
+    "examples": [
+      {
+        "ru": "Вчера я ездил в Пекин.",
+        "es": "Ayer fui a Pekín.",
+        "pt-BR": "Ontem eu fui a Pequim."
+      },
+      {
+        "ru": "Вчера шёл дождь.",
+        "es": "Ayer llovió.",
+        "pt-BR": "Ontem choveu."
+      }
+    ]
+  },
+  "周末": {
+    "ru": "выходные",
+    "es": "fin de semana",
+    "pt-BR": "fim de semana",
+    "examples": [
+      {
+        "ru": "Что ты делаешь на выходных?",
+        "es": "¿Qué haces el fin de semana?",
+        "pt-BR": "O que você faz no fim de semana?"
+      },
+      {
+        "ru": "На выходных идём в горы.",
+        "es": "El fin de semana vamos a hacer senderismo.",
+        "pt-BR": "No fim de semana vamos fazer trilha."
+      }
+    ]
+  },
+  "分钟": {
+    "ru": "минута",
+    "es": "minuto",
+    "pt-BR": "minuto",
+    "examples": [
+      {
+        "ru": "Подождите меня пять минут.",
+        "es": "Espéreme cinco minutos.",
+        "pt-BR": "Espere cinco minutos."
+      },
+      {
+        "ru": "До начала ещё десять минут.",
+        "es": "Empieza en diez minutos.",
+        "pt-BR": "Começa em dez minutos."
+      }
+    ]
+  },
+  "小时": {
+    "ru": "час",
+    "es": "hora",
+    "pt-BR": "hora",
+    "examples": [
+      {
+        "ru": "Я спал час.",
+        "es": "Dormí una hora.",
+        "pt-BR": "Dormi uma hora."
+      },
+      {
+        "ru": "На машине нужно два часа.",
+        "es": "En coche se tardan dos horas.",
+        "pt-BR": "De carro leva duas horas."
+      }
+    ]
+  },
+  "准时": {
+    "ru": "вовремя / пунктуально",
+    "es": "a tiempo / puntual",
+    "pt-BR": "no horário / pontual",
+    "examples": [
+      {
+        "ru": "Приходите вовремя.",
+        "es": "Llegue a tiempo, por favor.",
+        "pt-BR": "Chegue no horário, por favor."
+      },
+      {
+        "ru": "Поезд отправился вовремя.",
+        "es": "El tren salió puntual.",
+        "pt-BR": "O trem partiu no horário."
+      }
+    ]
+  },
+  "日历": {
+    "ru": "календарь",
+    "es": "calendario",
+    "pt-BR": "calendário",
+    "examples": [
+      {
+        "ru": "Посмотрите календарь.",
+        "es": "Mire el calendario.",
+        "pt-BR": "Olhe o calendário."
+      },
+      {
+        "ru": "На календаре отмечены праздники.",
+        "es": "Los festivos están marcados en el calendario.",
+        "pt-BR": "Os feriados estão marcados no calendário."
+      }
+    ]
+  },
+  "生日": {
+    "ru": "день рождения",
+    "es": "cumpleaños",
+    "pt-BR": "aniversário",
+    "examples": [
+      {
+        "ru": "Сегодня мой день рождения.",
+        "es": "Hoy es mi cumpleaños.",
+        "pt-BR": "Hoje é o meu aniversário."
+      },
+      {
+        "ru": "С днём рождения!",
+        "es": "¡Feliz cumpleaños!",
+        "pt-BR": "Feliz aniversário!"
+      }
+    ]
+  },
+  "高兴": {
+    "ru": "радостный / рад",
+    "es": "contento / alegre",
+    "pt-BR": "feliz / contente",
+    "examples": [
+      {
+        "ru": "Я очень рад этой новости.",
+        "es": "Me alegra oír esta noticia.",
+        "pt-BR": "Fico feliz com esta notícia."
+      },
+      {
+        "ru": "Сегодня у меня хорошее настроение.",
+        "es": "Hoy estoy de buen humor.",
+        "pt-BR": "Hoje estou de bom humor."
+      }
+    ]
+  },
+  "难过": {
+    "ru": "грустный / тяжело",
+    "es": "triste",
+    "pt-BR": "triste",
+    "examples": [
+      {
+        "ru": "Он выглядит очень грустным.",
+        "es": "Se le ve muy triste.",
+        "pt-BR": "Ele parece muito triste."
+      },
+      {
+        "ru": "Не грусти, всё наладится.",
+        "es": "No estés triste, las cosas mejorarán.",
+        "pt-BR": "Não fique triste, as coisas vão melhorar."
+      }
+    ]
+  },
+  "生气": {
+    "ru": "злиться",
+    "es": "enfadarse / enojarse",
+    "pt-BR": "ficar bravo",
+    "examples": [
+      {
+        "ru": "Пожалуйста, не злись.",
+        "es": "Por favor, no te enfades.",
+        "pt-BR": "Por favor, não fique bravo."
+      },
+      {
+        "ru": "Он зол из-за результата.",
+        "es": "Está enfadado con el resultado.",
+        "pt-BR": "Ele está bravo com o resultado."
+      }
+    ]
+  },
+  "担心": {
+    "ru": "беспокоиться",
+    "es": "preocuparse",
+    "pt-BR": "se preocupar",
+    "examples": [
+      {
+        "ru": "Не волнуйся, я рядом.",
+        "es": "No te preocupes, estoy aquí.",
+        "pt-BR": "Não se preocupe, eu estou aqui."
+      },
+      {
+        "ru": "Мама очень за тебя переживает.",
+        "es": "Mamá está muy preocupada por ti.",
+        "pt-BR": "A mamãe está muito preocupada com você."
+      }
+    ]
+  },
+  "紧张": {
+    "ru": "нервничать / напряжённый",
+    "es": "nervioso / tenso",
+    "pt-BR": "nervoso / tenso",
+    "examples": [
+      {
+        "ru": "Перед экзаменом я очень нервничаю.",
+        "es": "Antes del examen estoy muy nervioso.",
+        "pt-BR": "Antes da prova fico muito nervoso."
+      },
+      {
+        "ru": "Не нервничай, не торопись.",
+        "es": "No te pongas nervioso, con calma.",
+        "pt-BR": "Não fique nervoso, com calma."
+      }
+    ]
+  },
+  "放松": {
+    "ru": "расслабляться",
+    "es": "relajarse",
+    "pt-BR": "relaxar",
+    "examples": [
+      {
+        "ru": "На выходных хорошенько отдохни.",
+        "es": "Relájate bien el fin de semana.",
+        "pt-BR": "Relaxe bem no fim de semana."
+      },
+      {
+        "ru": "Музыка помогает расслабиться.",
+        "es": "Escuchar música ayuda a relajarse.",
+        "pt-BR": "Ouvir música ajuda a relaxar."
+      }
+    ]
+  },
+  "感动": {
+    "ru": "быть тронутым / растрогаться",
+    "es": "emocionarse / conmoverse",
+    "pt-BR": "se emocionar / se comover",
+    "examples": [
+      {
+        "ru": "Эта история очень трогательная.",
+        "es": "Esta historia es muy conmovedora.",
+        "pt-BR": "Esta história é muito emocionante."
+      },
+      {
+        "ru": "Его помощь меня тронула.",
+        "es": "Me conmovió su ayuda.",
+        "pt-BR": "A ajuda dele me emocionou."
+      }
+    ]
+  },
+  "无聊": {
+    "ru": "скучный / скучать (от безделья)",
+    "es": "aburrido",
+    "pt-BR": "entediante / entediado",
+    "examples": [
+      {
+        "ru": "Дома так скучно.",
+        "es": "Estar en casa es tan aburrido.",
+        "pt-BR": "Ficar em casa é tão entediante."
+      },
+      {
+        "ru": "Этот фильм скучный.",
+        "es": "Esta película es aburrida.",
+        "pt-BR": "Este filme é entediante."
+      }
+    ]
+  },
+  "兴奋": {
+    "ru": "в восторге / возбуждённый",
+    "es": "emocionado / entusiasmado",
+    "pt-BR": "empolgado / animado",
+    "examples": [
+      {
+        "ru": "Дети в восторге.",
+        "es": "Los niños están emocionados.",
+        "pt-BR": "As crianças estão empolgadas."
+      },
+      {
+        "ru": "Я в предвкушении поездки.",
+        "es": "Estoy emocionado por el viaje.",
+        "pt-BR": "Estou empolgado com a viagem."
+      }
+    ]
+  },
+  "满足": {
+    "ru": "удовлетворённый / довольный",
+    "es": "satisfecho / contento",
+    "pt-BR": "satisfeito / realizado",
+    "examples": [
+      {
+        "ru": "Я доволен результатом.",
+        "es": "Estoy satisfecho con el resultado.",
+        "pt-BR": "Estou satisfeito com o resultado."
+      },
+      {
+        "ru": "Простая жизнь тоже может давать удовлетворение.",
+        "es": "Una vida sencilla también puede ser plena.",
+        "pt-BR": "Uma vida simples também pode ser plena."
+      }
+    ]
+  },
+  "衣服": {
+    "ru": "одежда",
+    "es": "ropa",
+    "pt-BR": "roupa",
+    "examples": [
+      {
+        "ru": "Эта одежда очень красивая.",
+        "es": "Esta ropa está muy bonita.",
+        "pt-BR": "Esta roupa está muito bonita."
+      },
+      {
+        "ru": "Я стираю одежду.",
+        "es": "Estoy lavando la ropa.",
+        "pt-BR": "Estou lavando a roupa."
+      }
+    ]
+  },
+  "裤子": {
+    "ru": "брюки",
+    "es": "pantalones",
+    "pt-BR": "calça",
+    "examples": [
+      {
+        "ru": "Эти брюки слишком длинные.",
+        "es": "Estos pantalones son demasiado largos.",
+        "pt-BR": "Esta calça está longa demais."
+      },
+      {
+        "ru": "Он купил новые брюки.",
+        "es": "Compró unos pantalones nuevos.",
+        "pt-BR": "Ele comprou uma calça nova."
+      }
+    ]
+  },
+  "鞋子": {
+    "ru": "обувь",
+    "es": "zapatos",
+    "pt-BR": "sapato",
+    "examples": [
+      {
+        "ru": "Эта обувь очень удобная.",
+        "es": "Estos zapatos son muy cómodos.",
+        "pt-BR": "Este sapato é muito confortável."
+      },
+      {
+        "ru": "Моя обувь испачкалась.",
+        "es": "Se me ensuciaron los zapatos.",
+        "pt-BR": "Meu sapato ficou sujo."
+      }
+    ]
+  },
+  "外套": {
+    "ru": "куртка / пальто",
+    "es": "chaqueta / abrigo",
+    "pt-BR": "jaqueta / casaco",
+    "examples": [
+      {
+        "ru": "На улице холодно, надень куртку.",
+        "es": "Hace frío, ponte la chaqueta.",
+        "pt-BR": "Está frio, vista a jaqueta."
+      },
+      {
+        "ru": "Я забыл куртку в ресторане.",
+        "es": "Olvidé la chaqueta en el restaurante.",
+        "pt-BR": "Esqueci a jaqueta no restaurante."
+      }
+    ]
+  },
+  "尺寸": {
+    "ru": "размер",
+    "es": "talla / talla de ropa",
+    "pt-BR": "tamanho",
+    "examples": [
+      {
+        "ru": "Есть размер побольше?",
+        "es": "¿Tienen una talla más grande?",
+        "pt-BR": "Tem um tamanho maior?"
+      },
+      {
+        "ru": "Размер как раз.",
+        "es": "La talla queda perfecta.",
+        "pt-BR": "O tamanho está perfeito."
+      }
+    ]
+  },
+  "试穿": {
+    "ru": "примерять",
+    "es": "probarse",
+    "pt-BR": "provar",
+    "examples": [
+      {
+        "ru": "Можно примерить?",
+        "es": "¿Puedo probármelo?",
+        "pt-BR": "Posso provar?"
+      },
+      {
+        "ru": "Примерьте в примерочной.",
+        "es": "Pruébeselo en el probador.",
+        "pt-BR": "Prove no provador."
+      }
+    ]
+  },
+  "洗衣": {
+    "ru": "стирка / сдавать в стирку",
+    "es": "lavandería / lavar la ropa",
+    "pt-BR": "lavanderia / lavar roupa",
+    "examples": [
+      {
+        "ru": "Я отдал одежду в стирку.",
+        "es": "Llevé la ropa a la lavandería.",
+        "pt-BR": "Levei a roupa para a lavanderia."
+      },
+      {
+        "ru": "Прачечная внизу.",
+        "es": "La tintorería está abajo.",
+        "pt-BR": "A lavanderia fica embaixo."
+      }
+    ]
+  },
+  "帽子": {
+    "ru": "шапка / шляпа",
+    "es": "gorro / sombrero",
+    "pt-BR": "boné / chapéu",
+    "examples": [
+      {
+        "ru": "Летом нужно носить шляпу.",
+        "es": "En verano hay que llevar sombrero.",
+        "pt-BR": "No verão é preciso usar chapéu."
+      },
+      {
+        "ru": "Его шапка синяя.",
+        "es": "Su gorro es azul.",
+        "pt-BR": "O boné dele é azul."
+      }
+    ]
+  },
+  "围巾": {
+    "ru": "шарф",
+    "es": "bufanda",
+    "pt-BR": "cachecol / echarpe",
+    "examples": [
+      {
+        "ru": "Зимой шарф необходим.",
+        "es": "En invierno la bufanda es esencial.",
+        "pt-BR": "No inverno o cachecol é essencial."
+      },
+      {
+        "ru": "Она подарила мне шарф.",
+        "es": "Me regaló una bufanda.",
+        "pt-BR": "Ela me deu um cachecol."
+      }
+    ]
+  },
+  "搭配": {
+    "ru": "сочетать / подбирать (одежду)",
+    "es": "combinar / coordinar",
+    "pt-BR": "combinar / combinar look",
+    "examples": [
+      {
+        "ru": "Этот комплект очень хорошо смотрится.",
+        "es": "Este conjunto queda muy bien.",
+        "pt-BR": "Esse look ficou muito bom."
+      },
+      {
+        "ru": "Чёрный легко сочетать.",
+        "es": "El negro combina fácil.",
+        "pt-BR": "O preto combina fácil."
+      }
+    ]
+  },
+  "健康": {
+    "ru": "здоровье / здоровый",
+    "es": "salud / sano",
+    "pt-BR": "saúde / saudável",
+    "examples": [
+      {
+        "ru": "Здоровье важнее всего.",
+        "es": "La salud es lo más importante.",
+        "pt-BR": "A saúde é o mais importante."
+      },
+      {
+        "ru": "Он очень здоров.",
+        "es": "Está muy sano.",
+        "pt-BR": "Ele está com a saúde ótima."
+      }
+    ]
+  },
+  "感冒": {
+    "ru": "простуда / простудиться",
+    "es": "resfriado / resfriarse",
+    "pt-BR": "resfriado / pegar resfriado",
+    "examples": [
+      {
+        "ru": "Я простудился.",
+        "es": "Me resfrié.",
+        "pt-BR": "Peguei um resfriado."
+      },
+      {
+        "ru": "Пейте больше воды, не простудитесь.",
+        "es": "Beba más agua para no resfriarte.",
+        "pt-BR": "Beba mais água para não pegar resfriado."
+      }
+    ]
+  },
+  "发烧": {
+    "ru": "температура / жар",
+    "es": "fiebre",
+    "pt-BR": "febre",
+    "examples": [
+      {
+        "ru": "У ребёнка температура.",
+        "es": "El niño tiene fiebre.",
+        "pt-BR": "A criança está com febre."
+      },
+      {
+        "ru": "У меня 38 градусов.",
+        "es": "Tengo 38 de fiebre.",
+        "pt-BR": "Estou com 38 de febre."
+      }
+    ]
+  },
+  "头痛": {
+    "ru": "головная боль",
+    "es": "dolor de cabeza",
+    "pt-BR": "dor de cabeça",
+    "examples": [
+      {
+        "ru": "У меня сильная головная боль.",
+        "es": "Tengo un dolor de cabeza fuerte.",
+        "pt-BR": "Estou com uma dor de cabeça forte."
+      },
+      {
+        "ru": "Из-за бессонницы болит голова.",
+        "es": "Trasnochar da dolor de cabeza.",
+        "pt-BR": "Virar a noite dá dor de cabeça."
+      }
+    ]
+  },
+  "锻炼": {
+    "ru": "тренироваться / заниматься спортом",
+    "es": "hacer ejercicio",
+    "pt-BR": "fazer exercício",
+    "examples": [
+      {
+        "ru": "Каждый день я занимаюсь полчаса.",
+        "es": "Hago ejercicio media hora al día.",
+        "pt-BR": "Faço exercício meia hora por dia."
+      },
+      {
+        "ru": "Спорт полезен для здоровья.",
+        "es": "El ejercicio es bueno para el cuerpo.",
+        "pt-BR": "Exercício faz bem ao corpo."
+      }
+    ]
+  },
+  "休息": {
+    "ru": "отдыхать",
+    "es": "descansar",
+    "pt-BR": "descansar",
+    "examples": [
+      {
+        "ru": "Тебе нужно хорошо отдохнуть.",
+        "es": "Necesitas descansar bien.",
+        "pt-BR": "Você precisa descansar bem."
+      },
+      {
+        "ru": "На выходных я отдыхаю дома.",
+        "es": "El fin de semana descanso en casa.",
+        "pt-BR": "No fim de semana descanso em casa."
+      }
+    ]
+  },
+  "药": {
+    "ru": "лекарство",
+    "es": "medicina / medicamento",
+    "pt-BR": "remédio / medicamento",
+    "examples": [
+      {
+        "ru": "Принимайте лекарство вовремя.",
+        "es": "Tome el medicamento a tiempo.",
+        "pt-BR": "Tome o remédio na hora."
+      },
+      {
+        "ru": "Это лекарство очень помогает.",
+        "es": "Esta medicina es muy eficaz.",
+        "pt-BR": "Este remédio é muito eficaz."
+      }
+    ]
+  },
+  "预约": {
+    "ru": "запись / записываться (к врачу)",
+    "es": "cita / reservar",
+    "pt-BR": "consulta / agendar",
+    "examples": [
+      {
+        "ru": "Я записался к врачу.",
+        "es": "Pedí cita con el médico.",
+        "pt-BR": "Marquei consulta com o médico."
+      },
+      {
+        "ru": "Запишитесь на медосмотр заранее.",
+        "es": "Reserve el chequeo con antelación.",
+        "pt-BR": "Agende o check-up com antecedência."
+      }
+    ]
+  },
+  "过敏": {
+    "ru": "аллергия",
+    "es": "alergia",
+    "pt-BR": "alergia",
+    "examples": [
+      {
+        "ru": "У меня аллергия на морепродукты.",
+        "es": "Soy alérgico al marisco.",
+        "pt-BR": "Tenho alergia a frutos do mar."
+      },
+      {
+        "ru": "Весной часто бывает аллергия.",
+        "es": "En primavera son comunes las alergias.",
+        "pt-BR": "Na primavera alergia é comum."
+      }
+    ]
+  },
+  "睡眠": {
+    "ru": "сон",
+    "es": "sueño / dormir",
+    "pt-BR": "sono / dormir",
+    "examples": [
+      {
+        "ru": "Сон очень важен.",
+        "es": "Dormir es muy importante.",
+        "pt-BR": "O sono é muito importante."
+      },
+      {
+        "ru": "Прошлой ночью я плохо спал.",
+        "es": "Anoche no dormí bien.",
+        "pt-BR": "Ontem à noite eu não dormi bem."
+      }
+    ]
+  },
+  "朋友": {
+    "ru": "друг",
+    "es": "amigo",
+    "pt-BR": "amigo",
+    "examples": [
+      {
+        "ru": "Он мой хороший друг.",
+        "es": "Es un buen amigo mío.",
+        "pt-BR": "Ele é um bom amigo meu."
+      },
+      {
+        "ru": "На выходных встречаюсь с друзьями.",
+        "es": "El fin de semana quedo con amigos.",
+        "pt-BR": "No fim de semana encontro os amigos."
+      }
+    ]
+  },
+  "聚会": {
+    "ru": "встреча / вечеринка / сбор",
+    "es": "quedada / fiesta / reunión",
+    "pt-BR": "encontro / festa / reunião",
+    "examples": [
+      {
+        "ru": "Сегодня вечером будет встреча.",
+        "es": "Esta noche hay una reunión.",
+        "pt-BR": "Hoje à noite tem um encontro."
+      },
+      {
+        "ru": "Встреча одноклассников была весёлой.",
+        "es": "La reunión de compañeros fue muy divertida.",
+        "pt-BR": "O reencontro da turma foi muito divertido."
+      }
+    ]
+  },
+  "邀请": {
+    "ru": "приглашать",
+    "es": "invitar",
+    "pt-BR": "convidar",
+    "examples": [
+      {
+        "ru": "Приглашаю тебя ко мне домой.",
+        "es": "Te invito a mi casa.",
+        "pt-BR": "Te convido para a minha casa."
+      },
+      {
+        "ru": "Спасибо за приглашение.",
+        "es": "Gracias por la invitación.",
+        "pt-BR": "Obrigado pelo convite."
+      }
+    ]
+  },
+  "聊天": {
+    "ru": "болтать / общаться",
+    "es": "charlar",
+    "pt-BR": "conversar / bater papo",
+    "examples": [
+      {
+        "ru": "Мы болтаем в интернете.",
+        "es": "Charlamos por internet.",
+        "pt-BR": "A gente conversa pela internet."
+      },
+      {
+        "ru": "Люблю болтать с друзьями.",
+        "es": "Me gusta charlar con amigos.",
+        "pt-BR": "Gosto de bater papo com os amigos."
+      }
+    ]
+  },
+  "爱好": {
+    "ru": "хобби / увлечение",
+    "es": "afición / hobby",
+    "pt-BR": "hobby / passatempo",
+    "examples": [
+      {
+        "ru": "Какие у тебя увлечения?",
+        "es": "¿Cuáles son tus aficiones?",
+        "pt-BR": "Quais são os seus hobbies?"
+      },
+      {
+        "ru": "Моё хобби — фотография.",
+        "es": "Mi afición es la fotografía.",
+        "pt-BR": "Meu hobby é fotografia."
+      }
+    ]
+  },
+  "约会": {
+    "ru": "свидание / встреча",
+    "es": "cita / quedada",
+    "pt-BR": "encontro / date",
+    "examples": [
+      {
+        "ru": "У них сегодня вечером свидание.",
+        "es": "Esta noche tienen una cita.",
+        "pt-BR": "Eles têm um encontro hoje à noite."
+      },
+      {
+        "ru": "Я договорился с другом выпить кофе.",
+        "es": "Quedé con un amigo para tomar café.",
+        "pt-BR": "Marquei de tomar café com um amigo."
+      }
+    ]
+  },
+  "介绍": {
+    "ru": "представлять / знакомить",
+    "es": "presentar",
+    "pt-BR": "apresentar",
+    "examples": [
+      {
+        "ru": "Представьтесь, пожалуйста.",
+        "es": "Preséntese, por favor.",
+        "pt-BR": "Apresente-se, por favor."
+      },
+      {
+        "ru": "Познакомлю вас.",
+        "es": "Os presento.",
+        "pt-BR": "Vou apresentar vocês."
+      }
+    ]
+  },
+  "礼物": {
+    "ru": "подарок",
+    "es": "regalo",
+    "pt-BR": "presente",
+    "examples": [
+      {
+        "ru": "Это тебе подарок.",
+        "es": "Este es un regalo para ti.",
+        "pt-BR": "Este é um presente para você."
+      },
+      {
+        "ru": "Спасибо за подарок.",
+        "es": "Gracias por el regalo.",
+        "pt-BR": "Obrigado pelo presente."
+      }
+    ]
+  },
+  "祝福": {
+    "ru": "пожелания / благословение",
+    "es": "deseos / felicitación",
+    "pt-BR": "votos / bênção / desejos",
+    "examples": [
+      {
+        "ru": "Поздравляю со свадьбой.",
+        "es": "Mis mejores deseos para vuestra boda.",
+        "pt-BR": "Meus votos para o casamento de vocês."
+      },
+      {
+        "ru": "Получил много пожеланий.",
+        "es": "Recibí muchos buenos deseos.",
+        "pt-BR": "Recebi muitos votos de felicidade."
+      }
+    ]
+  },
+  "社交": {
+    "ru": "общение / светская жизнь",
+    "es": "vida social / socializar",
+    "pt-BR": "vida social / socializar",
+    "examples": [
+      {
+        "ru": "Я не очень люблю светские мероприятия.",
+        "es": "No me gusta mucho socializar.",
+        "pt-BR": "Não gosto muito de socializar."
+      },
+      {
+        "ru": "Навыки общения очень важны.",
+        "es": "Las habilidades sociales son importantes.",
+        "pt-BR": "Habilidade social é importante."
+      }
+    ]
+  }
+}
