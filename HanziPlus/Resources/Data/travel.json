@@ -8,14 +8,32 @@
       {
         "hanzi": "你好，我是游客。",
         "pinyin": "Nǐ hǎo, wǒ shì yóukè.",
-        "english": "Hello, I'm a tourist."
+        "english": "Hello, I'm a tourist.",
+        "translations": {
+          "en": "Hello, I'm a tourist.",
+          "ru": "Здравствуйте, я турист.",
+          "es": "Hola, soy turista.",
+          "pt-BR": "Olá, sou turista."
+        }
       },
       {
         "hanzi": "你好，请问这里怎么走？",
         "pinyin": "Nǐ hǎo, qǐngwèn zhèlǐ zěnme zǒu?",
-        "english": "Hello, how do I get here?"
+        "english": "Hello, how do I get here?",
+        "translations": {
+          "en": "Hello, how do I get here?",
+          "ru": "Здравствуйте, как пройти сюда?",
+          "es": "Hola, ¿cómo llego aquí?",
+          "pt-BR": "Olá, como chego aqui?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "hello",
+      "ru": "привет / здравствуйте",
+      "es": "hola",
+      "pt-BR": "olá / oi"
+    }
   },
   {
     "section": "essentials",
@@ -26,14 +44,32 @@
       {
         "hanzi": "谢谢你的帮助。",
         "pinyin": "Xièxie nǐ de bāngzhù.",
-        "english": "Thank you for your help."
+        "english": "Thank you for your help.",
+        "translations": {
+          "en": "Thank you for your help.",
+          "ru": "Спасибо за помощь.",
+          "es": "Gracias por tu ayuda.",
+          "pt-BR": "Obrigado pela ajuda."
+        }
       },
       {
         "hanzi": "太谢谢了！",
         "pinyin": "Tài xièxie le!",
-        "english": "Thank you so much!"
+        "english": "Thank you so much!",
+        "translations": {
+          "en": "Thank you so much!",
+          "ru": "Большое спасибо!",
+          "es": "¡Muchísimas gracias!",
+          "pt-BR": "Muito obrigado!"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "thank you",
+      "ru": "спасибо",
+      "es": "gracias",
+      "pt-BR": "obrigado / obrigada"
+    }
   },
   {
     "section": "essentials",
@@ -44,14 +80,32 @@
       {
         "hanzi": "对不起，我迟到了。",
         "pinyin": "Duìbuqǐ, wǒ chídào le.",
-        "english": "Sorry, I'm late."
+        "english": "Sorry, I'm late.",
+        "translations": {
+          "en": "Sorry, I'm late.",
+          "ru": "Извините, я опоздал.",
+          "es": "Perdón, llegué tarde.",
+          "pt-BR": "Desculpe, cheguei atrasado."
+        }
       },
       {
         "hanzi": "对不起，打扰一下。",
         "pinyin": "Duìbuqǐ, dǎrǎo yīxià.",
-        "english": "Excuse me, sorry to bother you."
+        "english": "Excuse me, sorry to bother you.",
+        "translations": {
+          "en": "Excuse me, sorry to bother you.",
+          "ru": "Извините, можно вас на минутку.",
+          "es": "Perdón, siento molestarlo.",
+          "pt-BR": "Com licença, desculpe incomodar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "sorry / excuse me",
+      "ru": "извините / простите",
+      "es": "perdón / lo siento",
+      "pt-BR": "desculpe / com licença"
+    }
   },
   {
     "section": "essentials",
@@ -62,14 +116,32 @@
       {
         "hanzi": "请问厕所在哪儿？",
         "pinyin": "Qǐngwèn cèsuǒ zài nǎr?",
-        "english": "Excuse me, where is the restroom?"
+        "english": "Excuse me, where is the restroom?",
+        "translations": {
+          "en": "Excuse me, where is the restroom?",
+          "ru": "Скажите, пожалуйста, где туалет?",
+          "es": "Disculpe, ¿dónde está el baño?",
+          "pt-BR": "Com licença, onde fica o banheiro?"
+        }
       },
       {
         "hanzi": "请问你会说英文吗？",
         "pinyin": "Qǐngwèn nǐ huì shuō Yīngwén ma?",
-        "english": "Excuse me, do you speak English?"
+        "english": "Excuse me, do you speak English?",
+        "translations": {
+          "en": "Excuse me, do you speak English?",
+          "ru": "Скажите, вы говорите по-английски?",
+          "es": "Disculpe, ¿habla inglés?",
+          "pt-BR": "Com licença, você fala inglês?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "excuse me / may I ask",
+      "ru": "скажите, пожалуйста",
+      "es": "disculpe / por favor",
+      "pt-BR": "com licença / por favor"
+    }
   },
   {
     "section": "essentials",
@@ -80,14 +152,32 @@
       {
         "hanzi": "我不会说中文。",
         "pinyin": "Wǒ bú huì shuō Zhōngwén.",
-        "english": "I can't speak Chinese."
+        "english": "I can't speak Chinese.",
+        "translations": {
+          "en": "I can't speak Chinese.",
+          "ru": "Я не говорю по-китайски.",
+          "es": "No hablo chino.",
+          "pt-BR": "Não falo chinês."
+        }
       },
       {
         "hanzi": "我不会用这个App。",
         "pinyin": "Wǒ bú huì yòng zhège App.",
-        "english": "I don't know how to use this app."
+        "english": "I don't know how to use this app.",
+        "translations": {
+          "en": "I don't know how to use this app.",
+          "ru": "Я не умею пользоваться этим приложением.",
+          "es": "No sé usar esta app.",
+          "pt-BR": "Não sei usar este app."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "can't / don't know how",
+      "ru": "не умею / не могу",
+      "es": "no saber / no poder",
+      "pt-BR": "não saber / não conseguir"
+    }
   },
   {
     "section": "essentials",
@@ -98,14 +188,32 @@
       {
         "hanzi": "对不起，我听不懂。",
         "pinyin": "Duìbuqǐ, wǒ tīng bu dǒng.",
-        "english": "Sorry, I don't understand."
+        "english": "Sorry, I don't understand.",
+        "translations": {
+          "en": "Sorry, I don't understand.",
+          "ru": "Извините, я не понимаю.",
+          "es": "Perdón, no entiendo.",
+          "pt-BR": "Desculpe, não entendo."
+        }
       },
       {
         "hanzi": "请说慢一点，我听不懂。",
         "pinyin": "Qǐng shuō màn yīdiǎn, wǒ tīng bu dǒng.",
-        "english": "Please speak slower, I don't understand."
+        "english": "Please speak slower, I don't understand.",
+        "translations": {
+          "en": "Please speak slower, I don't understand.",
+          "ru": "Говорите помедленнее, я не понимаю.",
+          "es": "Hable más despacio, no entiendo.",
+          "pt-BR": "Fale mais devagar, não entendo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "don't understand (spoken)",
+      "ru": "не понимаю (на слух)",
+      "es": "no entiendo (lo hablado)",
+      "pt-BR": "não entendo (falado)"
+    }
   },
   {
     "section": "essentials",
@@ -116,14 +224,32 @@
       {
         "hanzi": "你会说中文吗？",
         "pinyin": "Nǐ huì shuō Zhōngwén ma?",
-        "english": "Do you speak Chinese?"
+        "english": "Do you speak Chinese?",
+        "translations": {
+          "en": "Do you speak Chinese?",
+          "ru": "Вы говорите по-китайски?",
+          "es": "¿Habla chino?",
+          "pt-BR": "Você fala chinês?"
+        }
       },
       {
         "hanzi": "我在学中文。",
         "pinyin": "Wǒ zài xué Zhōngwén.",
-        "english": "I'm learning Chinese."
+        "english": "I'm learning Chinese.",
+        "translations": {
+          "en": "I'm learning Chinese.",
+          "ru": "Я учу китайский.",
+          "es": "Estoy aprendiendo chino.",
+          "pt-BR": "Estou aprendendo chinês."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Chinese language",
+      "ru": "китайский язык",
+      "es": "chino (idioma)",
+      "pt-BR": "chinês (idioma)"
+    }
   },
   {
     "section": "essentials",
@@ -134,14 +260,32 @@
       {
         "hanzi": "请用英文说。",
         "pinyin": "Qǐng yòng Yīngwén shuō.",
-        "english": "Please say it in English."
+        "english": "Please say it in English.",
+        "translations": {
+          "en": "Please say it in English.",
+          "ru": "Скажите это, пожалуйста, по-английски.",
+          "es": "Dígalo en inglés, por favor.",
+          "pt-BR": "Diga em inglês, por favor."
+        }
       },
       {
         "hanzi": "菜单有英文吗？",
         "pinyin": "Càidān yǒu Yīngwén ma?",
-        "english": "Is there an English menu?"
+        "english": "Is there an English menu?",
+        "translations": {
+          "en": "Is there an English menu?",
+          "ru": "Есть меню на английском?",
+          "es": "¿Hay menú en inglés?",
+          "pt-BR": "Tem cardápio em inglês?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "English language",
+      "ru": "английский язык",
+      "es": "inglés",
+      "pt-BR": "inglês"
+    }
   },
   {
     "section": "essentials",
@@ -152,14 +296,32 @@
       {
         "hanzi": "可以用地图吗？",
         "pinyin": "Kěyǐ yòng dìtú ma?",
-        "english": "Can I use a map?"
+        "english": "Can I use a map?",
+        "translations": {
+          "en": "Can I use a map?",
+          "ru": "Можно воспользоваться картой?",
+          "es": "¿Puedo usar un mapa?",
+          "pt-BR": "Posso usar um mapa?"
+        }
       },
       {
         "hanzi": "我在地图上看一下。",
         "pinyin": "Wǒ zài dìtú shàng kàn yīxià.",
-        "english": "Let me check on the map."
+        "english": "Let me check on the map.",
+        "translations": {
+          "en": "Let me check on the map.",
+          "ru": "Посмотрю на карте.",
+          "es": "Lo miro en el mapa.",
+          "pt-BR": "Vou olhar no mapa."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "map",
+      "ru": "карта",
+      "es": "mapa",
+      "pt-BR": "mapa"
+    }
   },
   {
     "section": "essentials",
@@ -170,14 +332,32 @@
       {
         "hanzi": "厕所在哪儿？",
         "pinyin": "Cèsuǒ zài nǎr?",
-        "english": "Where is the restroom?"
+        "english": "Where is the restroom?",
+        "translations": {
+          "en": "Where is the restroom?",
+          "ru": "Где туалет?",
+          "es": "¿Dónde está el baño?",
+          "pt-BR": "Onde fica o banheiro?"
+        }
       },
       {
         "hanzi": "附近有公共厕所吗？",
         "pinyin": "Fùjìn yǒu gōnggòng cèsuǒ ma?",
-        "english": "Is there a public restroom nearby?"
+        "english": "Is there a public restroom nearby?",
+        "translations": {
+          "en": "Is there a public restroom nearby?",
+          "ru": "Есть ли поблизости общественный туалет?",
+          "es": "¿Hay un baño público cerca?",
+          "pt-BR": "Tem um banheiro público por perto?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "restroom / toilet",
+      "ru": "туалет / уборная",
+      "es": "baño / aseos",
+      "pt-BR": "banheiro"
+    }
   },
   {
     "section": "airport",
@@ -188,14 +368,32 @@
       {
         "hanzi": "值机柜台在哪儿？",
         "pinyin": "Zhí jī guìtái zài nǎr?",
-        "english": "Where is the check-in counter?"
+        "english": "Where is the check-in counter?",
+        "translations": {
+          "en": "Where is the check-in counter?",
+          "ru": "Где стойка регистрации?",
+          "es": "¿Dónde está el mostrador de facturación?",
+          "pt-BR": "Onde fica o balcão de check-in?"
+        }
       },
       {
         "hanzi": "我已经在线值机了。",
         "pinyin": "Wǒ yǐjīng zàixiàn zhí jī le.",
-        "english": "I have already checked in online."
+        "english": "I have already checked in online.",
+        "translations": {
+          "en": "I have already checked in online.",
+          "ru": "Я уже зарегистрировался онлайн.",
+          "es": "Ya hice el check-in en línea.",
+          "pt-BR": "Já fiz o check-in online."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "check-in (airport)",
+      "ru": "регистрация (на рейс)",
+      "es": "facturación / check-in",
+      "pt-BR": "check-in"
+    }
   },
   {
     "section": "airport",
@@ -206,14 +404,32 @@
       {
         "hanzi": "现在开始登机了。",
         "pinyin": "Xiànzài kāishǐ dēng jī le.",
-        "english": "Boarding has started now."
+        "english": "Boarding has started now.",
+        "translations": {
+          "en": "Boarding has started now.",
+          "ru": "Посадка уже началась.",
+          "es": "Ya empezó el embarque.",
+          "pt-BR": "O embarque já começou."
+        }
       },
       {
         "hanzi": "请准备好登机。",
         "pinyin": "Qǐng zhǔnbèi hǎo dēng jī.",
-        "english": "Please get ready to board."
+        "english": "Please get ready to board.",
+        "translations": {
+          "en": "Please get ready to board.",
+          "ru": "Приготовьтесь к посадке.",
+          "es": "Prepárese para embarcar.",
+          "pt-BR": "Prepare-se para embarcar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to board (a plane)",
+      "ru": "садиться на самолёт / посадка",
+      "es": "embarcar",
+      "pt-BR": "embarcar"
+    }
   },
   {
     "section": "airport",
@@ -224,14 +440,32 @@
       {
         "hanzi": "请出示您的护照。",
         "pinyin": "Qǐng chūshì nín de hùzhào.",
-        "english": "Please show your passport."
+        "english": "Please show your passport.",
+        "translations": {
+          "en": "Please show your passport.",
+          "ru": "Предъявите, пожалуйста, паспорт.",
+          "es": "Muestre su pasaporte, por favor.",
+          "pt-BR": "Mostre o passaporte, por favor."
+        }
       },
       {
         "hanzi": "护照需要在有效期内。",
         "pinyin": "Hùzhào xūyào zài yǒuxiào qī nèi.",
-        "english": "Your passport must be valid."
+        "english": "Your passport must be valid.",
+        "translations": {
+          "en": "Your passport must be valid.",
+          "ru": "Паспорт должен быть действительным.",
+          "es": "El pasaporte debe estar vigente.",
+          "pt-BR": "O passaporte precisa estar válido."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "passport",
+      "ru": "паспорт",
+      "es": "pasaporte",
+      "pt-BR": "passaporte"
+    }
   },
   {
     "section": "airport",
@@ -242,14 +476,32 @@
       {
         "hanzi": "安检请把电脑拿出来。",
         "pinyin": "Ān jiǎn qǐng bǎ diànnǎo ná chūlái.",
-        "english": "Please take out your laptop for security."
+        "english": "Please take out your laptop for security.",
+        "translations": {
+          "en": "Please take out your laptop for security.",
+          "ru": "На досмотре достаньте ноутбук.",
+          "es": "Saque el portátil en el control de seguridad.",
+          "pt-BR": "Retire o notebook na inspeção."
+        }
       },
       {
         "hanzi": "液体不能带过安检。",
         "pinyin": "Yètǐ bù néng dài guò ān jiǎn.",
-        "english": "Liquids cannot go through security."
+        "english": "Liquids cannot go through security.",
+        "translations": {
+          "en": "Liquids cannot go through security.",
+          "ru": "Жидкости через досмотр не пропускают.",
+          "es": "Los líquidos no pasan el control.",
+          "pt-BR": "Líquidos não passam na inspeção."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "security check",
+      "ru": "досмотр / контроль безопасности",
+      "es": "control de seguridad",
+      "pt-BR": "inspeção de segurança"
+    }
   },
   {
     "section": "airport",
@@ -260,14 +512,32 @@
       {
         "hanzi": "入境处在这边。",
         "pinyin": "Rù jìng chù zài zhè biān.",
-        "english": "Immigration is this way."
+        "english": "Immigration is this way.",
+        "translations": {
+          "en": "Immigration is this way.",
+          "ru": "Паспортный контроль — сюда.",
+          "es": "Inmigración es por aquí.",
+          "pt-BR": "A imigração é por aqui."
+        }
       },
       {
         "hanzi": "入境需要填写申报表。",
         "pinyin": "Rù jìng xūyào tiánxiě shēnbào biǎo.",
-        "english": "You need to fill out a declaration form for entry."
+        "english": "You need to fill out a declaration form for entry.",
+        "translations": {
+          "en": "You need to fill out a declaration form for entry.",
+          "ru": "Для въезда нужно заполнить декларацию.",
+          "es": "Para entrar hay que llenar una declaración.",
+          "pt-BR": "Para entrar é preciso preencher uma declaração."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "immigration entry",
+      "ru": "въезд / паспортный контроль",
+      "es": "inmigración / entrada",
+      "pt-BR": "imigração / entrada"
+    }
   },
   {
     "section": "airport",
@@ -278,14 +548,32 @@
       {
         "hanzi": "登机口改成A12了。",
         "pinyin": "Dēng jī kǒu gǎi chéng A shí'èr le.",
-        "english": "The boarding gate has changed to A12."
+        "english": "The boarding gate has changed to A12.",
+        "translations": {
+          "en": "The boarding gate has changed to A12.",
+          "ru": "Выход сменили на A12.",
+          "es": "La puerta cambió a A12.",
+          "pt-BR": "O portão mudou para A12."
+        }
       },
       {
         "hanzi": "请问登机口怎么走？",
         "pinyin": "Qǐngwèn dēng jī kǒu zěnme zǒu?",
-        "english": "Excuse me, how do I get to the boarding gate?"
+        "english": "Excuse me, how do I get to the boarding gate?",
+        "translations": {
+          "en": "Excuse me, how do I get to the boarding gate?",
+          "ru": "Как пройти к выходу на посадку?",
+          "es": "¿Cómo llego a la puerta de embarque?",
+          "pt-BR": "Como chego ao portão de embarque?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "boarding gate",
+      "ru": "выход на посадку",
+      "es": "puerta de embarque",
+      "pt-BR": "portão de embarque"
+    }
   },
   {
     "section": "airport",
@@ -296,14 +584,32 @@
       {
         "hanzi": "行李转盘在出口左边。",
         "pinyin": "Xíngli zhuànpán zài chūkǒu zuǒbian.",
-        "english": "The baggage carousel is to the left of the exit."
+        "english": "The baggage carousel is to the left of the exit.",
+        "translations": {
+          "en": "The baggage carousel is to the left of the exit.",
+          "ru": "Лента выдачи багажа слева от выхода.",
+          "es": "La cinta de equipaje está a la izquierda de la salida.",
+          "pt-BR": "A esteira de bagagem fica à esquerda da saída."
+        }
       },
       {
         "hanzi": "我的行李还没出来。",
         "pinyin": "Wǒ de xíngli hái méi chūlái.",
-        "english": "My luggage hasn't come out yet."
+        "english": "My luggage hasn't come out yet.",
+        "translations": {
+          "en": "My luggage hasn't come out yet.",
+          "ru": "Мой багаж ещё не вышел.",
+          "es": "Mi equipaje aún no ha salido.",
+          "pt-BR": "Minha bagagem ainda não saiu."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "luggage",
+      "ru": "багаж",
+      "es": "equipaje",
+      "pt-BR": "bagagem"
+    }
   },
   {
     "section": "airport",
@@ -314,14 +620,32 @@
       {
         "hanzi": "请走红色通道过海关。",
         "pinyin": "Qǐng zǒu hóngsè tōngdào guò hǎiguān.",
-        "english": "Please use the red channel for customs."
+        "english": "Please use the red channel for customs.",
+        "translations": {
+          "en": "Please use the red channel for customs.",
+          "ru": "Пройдите таможню по красному коридору.",
+          "es": "Pase por el canal rojo de aduana.",
+          "pt-BR": "Passe pelo canal vermelho da alfândega."
+        }
       },
       {
         "hanzi": "这些物品需要向海关申报。",
         "pinyin": "Zhèxiē wùpǐn xūyào xiàng hǎiguān shēnbào.",
-        "english": "These items must be declared to customs."
+        "english": "These items must be declared to customs.",
+        "translations": {
+          "en": "These items must be declared to customs.",
+          "ru": "Эти вещи нужно задекларировать.",
+          "es": "Estos artículos hay que declararlos en aduana.",
+          "pt-BR": "Estes itens precisam ser declarados na alfândega."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "customs",
+      "ru": "таможня",
+      "es": "aduana",
+      "pt-BR": "alfândega"
+    }
   },
   {
     "section": "airport",
@@ -332,14 +656,32 @@
       {
         "hanzi": "请出示登机牌和护照。",
         "pinyin": "Qǐng chūshì dēng jī pái hé hùzhào.",
-        "english": "Please show your boarding pass and passport."
+        "english": "Please show your boarding pass and passport.",
+        "translations": {
+          "en": "Please show your boarding pass and passport.",
+          "ru": "Предъявите посадочный талон и паспорт.",
+          "es": "Muestre la tarjeta de embarque y el pasaporte.",
+          "pt-BR": "Mostre o cartão de embarque e o passaporte."
+        }
       },
       {
         "hanzi": "登机牌可以扫码登机。",
         "pinyin": "Dēng jī pái kěyǐ sǎo mǎ dēng jī.",
-        "english": "You can board by scanning the boarding pass."
+        "english": "You can board by scanning the boarding pass.",
+        "translations": {
+          "en": "You can board by scanning the boarding pass.",
+          "ru": "Посадочный талон можно отсканировать.",
+          "es": "Puede embarcar escaneando la tarjeta.",
+          "pt-BR": "Dá para embarcar escaneando o cartão."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "boarding pass",
+      "ru": "посадочный талон",
+      "es": "tarjeta de embarque",
+      "pt-BR": "cartão de embarque"
+    }
   },
   {
     "section": "airport",
@@ -350,14 +692,32 @@
       {
         "hanzi": "您的航班准时起飞。",
         "pinyin": "Nín de hángbān zhǔnshí qǐfēi.",
-        "english": "Your flight departs on time."
+        "english": "Your flight departs on time.",
+        "translations": {
+          "en": "Your flight departs on time.",
+          "ru": "Ваш рейс вылетает вовремя.",
+          "es": "Su vuelo sale a tiempo.",
+          "pt-BR": "Seu voo parte no horário."
+        }
       },
       {
         "hanzi": "请问这个航班在哪个航站楼？",
         "pinyin": "Qǐngwèn zhège hángbān zài nǎ ge hángzhàn lóu?",
-        "english": "Which terminal is this flight in?"
+        "english": "Which terminal is this flight in?",
+        "translations": {
+          "en": "Which terminal is this flight in?",
+          "ru": "В каком терминале этот рейс?",
+          "es": "¿En qué terminal está este vuelo?",
+          "pt-BR": "Em qual terminal é este voo?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "flight",
+      "ru": "рейс",
+      "es": "vuelo",
+      "pt-BR": "voo"
+    }
   },
   {
     "section": "hotel",
@@ -368,14 +728,32 @@
       {
         "hanzi": "我在网上预订了房间。",
         "pinyin": "Wǒ zài wǎngshàng yùdìng le fángjiān.",
-        "english": "I booked a room online."
+        "english": "I booked a room online.",
+        "translations": {
+          "en": "I booked a room online.",
+          "ru": "Я забронировал номер онлайн.",
+          "es": "Reservé una habitación en internet.",
+          "pt-BR": "Reservei um quarto pela internet."
+        }
       },
       {
         "hanzi": "预订的名字是Smith。",
         "pinyin": "Yùdìng de míngzi shì Smith.",
-        "english": "The reservation is under the name Smith."
+        "english": "The reservation is under the name Smith.",
+        "translations": {
+          "en": "The reservation is under the name Smith.",
+          "ru": "Бронь на имя Smith.",
+          "es": "La reserva está a nombre de Smith.",
+          "pt-BR": "A reserva está no nome Smith."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "reservation",
+      "ru": "бронь / бронирование",
+      "es": "reserva",
+      "pt-BR": "reserva"
+    }
   },
   {
     "section": "hotel",
@@ -386,14 +764,32 @@
       {
         "hanzi": "前台在一楼大厅。",
         "pinyin": "Qiántái zài yì lóu dàtīng.",
-        "english": "Reception is in the lobby on the first floor."
+        "english": "Reception is in the lobby on the first floor.",
+        "translations": {
+          "en": "Reception is in the lobby on the first floor.",
+          "ru": "Ресепшен в холле на первом этаже.",
+          "es": "La recepción está en el vestíbulo de la planta baja.",
+          "pt-BR": "A recepção fica no saguão do térreo."
+        }
       },
       {
         "hanzi": "有问题可以问前台。",
         "pinyin": "Yǒu wèntí kěyǐ wèn qiántái.",
-        "english": "You can ask the front desk if you have questions."
+        "english": "You can ask the front desk if you have questions.",
+        "translations": {
+          "en": "You can ask the front desk if you have questions.",
+          "ru": "По вопросам можно обратиться на ресепшен.",
+          "es": "Si tiene dudas, pregunte en recepción.",
+          "pt-BR": "Se tiver dúvida, pergunte na recepção."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "reception (front desk)",
+      "ru": "ресепшен / стойка регистрации",
+      "es": "recepción",
+      "pt-BR": "recepção"
+    }
   },
   {
     "section": "hotel",
@@ -404,14 +800,32 @@
       {
         "hanzi": "我想要一间安静一点的房间。",
         "pinyin": "Wǒ xiǎng yào yì jiān ānjìng yìdiǎn de fángjiān.",
-        "english": "I'd like a quieter room."
+        "english": "I'd like a quieter room.",
+        "translations": {
+          "en": "I'd like a quieter room.",
+          "ru": "Хочу более тихий номер.",
+          "es": "Quisiera una habitación más silenciosa.",
+          "pt-BR": "Quero um quarto mais silencioso."
+        }
       },
       {
         "hanzi": "房间里有热水吗？",
         "pinyin": "Fángjiān lǐ yǒu rè shuǐ ma?",
-        "english": "Is there hot water in the room?"
+        "english": "Is there hot water in the room?",
+        "translations": {
+          "en": "Is there hot water in the room?",
+          "ru": "В номере есть горячая вода?",
+          "es": "¿Hay agua caliente en la habitación?",
+          "pt-BR": "Tem água quente no quarto?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "room",
+      "ru": "номер (в отеле)",
+      "es": "habitación",
+      "pt-BR": "quarto"
+    }
   },
   {
     "section": "hotel",
@@ -422,14 +836,32 @@
       {
         "hanzi": "房卡请收好。",
         "pinyin": "Fáng kǎ qǐng shōu hǎo.",
-        "english": "Please keep your key card safe."
+        "english": "Please keep your key card safe.",
+        "translations": {
+          "en": "Please keep your key card safe.",
+          "ru": "Сохраните карточку от номера.",
+          "es": "Guarde bien la tarjeta.",
+          "pt-BR": "Guarde bem o cartão do quarto."
+        }
       },
       {
         "hanzi": "我的房卡刷不开了。",
         "pinyin": "Wǒ de fáng kǎ shuā bu kāi le.",
-        "english": "My key card won't open the door."
+        "english": "My key card won't open the door.",
+        "translations": {
+          "en": "My key card won't open the door.",
+          "ru": "Карточка не открывает дверь.",
+          "es": "La tarjeta no abre la puerta.",
+          "pt-BR": "O cartão não abre a porta."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "key card",
+      "ru": "карточка от номера",
+      "es": "tarjeta de habitación",
+      "pt-BR": "cartão do quarto"
+    }
   },
   {
     "section": "hotel",
@@ -440,14 +872,32 @@
       {
         "hanzi": "早餐在二楼餐厅。",
         "pinyin": "Zǎocān zài èr lóu cāntīng.",
-        "english": "Breakfast is served in the restaurant on the second floor."
+        "english": "Breakfast is served in the restaurant on the second floor.",
+        "translations": {
+          "en": "Breakfast is served in the restaurant on the second floor.",
+          "ru": "Завтрак в ресторане на втором этаже.",
+          "es": "El desayuno es en el restaurante del segundo piso.",
+          "pt-BR": "O café da manhã é no restaurante do segundo andar."
+        }
       },
       {
         "hanzi": "早餐几点开始？",
         "pinyin": "Zǎocān jǐ diǎn kāishǐ?",
-        "english": "What time does breakfast start?"
+        "english": "What time does breakfast start?",
+        "translations": {
+          "en": "What time does breakfast start?",
+          "ru": "Во сколько начинается завтрак?",
+          "es": "¿A qué hora empieza el desayuno?",
+          "pt-BR": "A que horas começa o café da manhã?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "breakfast",
+      "ru": "завтрак",
+      "es": "desayuno",
+      "pt-BR": "café da manhã"
+    }
   },
   {
     "section": "hotel",
@@ -458,14 +908,32 @@
       {
         "hanzi": "电梯在那边。",
         "pinyin": "Diàntī zài nà biān.",
-        "english": "The elevator is over there."
+        "english": "The elevator is over there.",
+        "translations": {
+          "en": "The elevator is over there.",
+          "ru": "Лифт там.",
+          "es": "El ascensor está allí.",
+          "pt-BR": "O elevador fica ali."
+        }
       },
       {
         "hanzi": "请走右边的电梯。",
         "pinyin": "Qǐng zǒu yòubian de diàntī.",
-        "english": "Please take the elevator on the right."
+        "english": "Please take the elevator on the right.",
+        "translations": {
+          "en": "Please take the elevator on the right.",
+          "ru": "Возьмите лифт справа.",
+          "es": "Tome el ascensor de la derecha.",
+          "pt-BR": "Pegue o elevador da direita."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "elevator",
+      "ru": "лифт",
+      "es": "ascensor / elevador",
+      "pt-BR": "elevador"
+    }
   },
   {
     "section": "hotel",
@@ -476,14 +944,32 @@
       {
         "hanzi": "我想办理入住。",
         "pinyin": "Wǒ xiǎng bànlǐ rù zhù.",
-        "english": "I'd like to check in."
+        "english": "I'd like to check in.",
+        "translations": {
+          "en": "I'd like to check in.",
+          "ru": "Хочу заселиться.",
+          "es": "Quisiera hacer el check-in.",
+          "pt-BR": "Quero fazer o check-in."
+        }
       },
       {
         "hanzi": "入住时间是下午两点。",
         "pinyin": "Rù zhù shíjiān shì xiàwǔ liǎng diǎn.",
-        "english": "Check-in time is 2 p.m."
+        "english": "Check-in time is 2 p.m.",
+        "translations": {
+          "en": "Check-in time is 2 p.m.",
+          "ru": "Заселение с двух часов дня.",
+          "es": "El check-in es a las 2 de la tarde.",
+          "pt-BR": "O check-in é às 14h."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "hotel check-in",
+      "ru": "заселяться / регистрация в отеле",
+      "es": "hacer el check-in",
+      "pt-BR": "fazer check-in"
+    }
   },
   {
     "section": "hotel",
@@ -494,14 +980,32 @@
       {
         "hanzi": "我明天中午退房。",
         "pinyin": "Wǒ míngtiān zhōngwǔ tuì fáng.",
-        "english": "I'm checking out tomorrow at noon."
+        "english": "I'm checking out tomorrow at noon.",
+        "translations": {
+          "en": "I'm checking out tomorrow at noon.",
+          "ru": "Завтра в полдень выезжаю.",
+          "es": "Hago el check-out mañana al mediodía.",
+          "pt-BR": "Faço o check-out amanhã ao meio-dia."
+        }
       },
       {
         "hanzi": "退房前请把房卡交给前台。",
         "pinyin": "Tuì fáng qián qǐng bǎ fáng kǎ jiāo gěi qiántái.",
-        "english": "Please return your key card to reception before checking out."
+        "english": "Please return your key card to reception before checking out.",
+        "translations": {
+          "en": "Please return your key card to reception before checking out.",
+          "ru": "Перед выездом сдайте карточку на ресепшен.",
+          "es": "Devuelva la tarjeta en recepción antes del check-out.",
+          "pt-BR": "Devolva o cartão na recepção antes do check-out."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "hotel check-out",
+      "ru": "выселяться / выезд из отеля",
+      "es": "hacer el check-out",
+      "pt-BR": "fazer check-out"
+    }
   },
   {
     "section": "hotel",
@@ -512,14 +1016,32 @@
       {
         "hanzi": "酒店有洗衣服务吗？",
         "pinyin": "Jiǔdiàn yǒu xǐ yī fúwù ma?",
-        "english": "Does the hotel have laundry service?"
+        "english": "Does the hotel have laundry service?",
+        "translations": {
+          "en": "Does the hotel have laundry service?",
+          "ru": "В отеле есть услуга стирки?",
+          "es": "¿El hotel tiene servicio de lavandería?",
+          "pt-BR": "O hotel tem serviço de lavanderia?"
+        }
       },
       {
         "hanzi": "洗衣房在地下一层。",
         "pinyin": "Xǐ yī fáng zài dìxià yì céng.",
-        "english": "The laundry room is on the basement level."
+        "english": "The laundry room is on the basement level.",
+        "translations": {
+          "en": "The laundry room is on the basement level.",
+          "ru": "Прачечная в цокольном этаже.",
+          "es": "La lavandería está en el sótano.",
+          "pt-BR": "A lavanderia fica no subsolo."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "laundry",
+      "ru": "стирка / прачечная",
+      "es": "lavandería",
+      "pt-BR": "lavanderia"
+    }
   },
   {
     "section": "hotel",
@@ -530,14 +1052,32 @@
       {
         "hanzi": "这家酒店离地铁很近。",
         "pinyin": "Zhè jiā jiǔdiàn lí dìtiě hěn jìn.",
-        "english": "This hotel is very close to the subway."
+        "english": "This hotel is very close to the subway.",
+        "translations": {
+          "en": "This hotel is very close to the subway.",
+          "ru": "Этот отель очень близко к метро.",
+          "es": "Este hotel está muy cerca del metro.",
+          "pt-BR": "Este hotel fica bem perto do metrô."
+        }
       },
       {
         "hanzi": "请送我去这个酒店。",
         "pinyin": "Qǐng sòng wǒ qù zhège jiǔdiàn.",
-        "english": "Please take me to this hotel."
+        "english": "Please take me to this hotel.",
+        "translations": {
+          "en": "Please take me to this hotel.",
+          "ru": "Отвезите меня, пожалуйста, в этот отель.",
+          "es": "Lléveme a este hotel, por favor.",
+          "pt-BR": "Me leve a este hotel, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "hotel",
+      "ru": "отель / гостиница",
+      "es": "hotel",
+      "pt-BR": "hotel"
+    }
   },
   {
     "section": "transportation",
@@ -548,14 +1088,32 @@
       {
         "hanzi": "最近的地铁站在哪儿？",
         "pinyin": "Zuìjìn de dìtiě zhàn zài nǎr?",
-        "english": "Where is the nearest subway station?"
+        "english": "Where is the nearest subway station?",
+        "translations": {
+          "en": "Where is the nearest subway station?",
+          "ru": "Где ближайшая станция метро?",
+          "es": "¿Dónde está la estación de metro más cercana?",
+          "pt-BR": "Onde fica a estação de metrô mais próxima?"
+        }
       },
       {
         "hanzi": "我们坐地铁去吧。",
         "pinyin": "Wǒmen zuò dìtiě qù ba.",
-        "english": "Let's take the subway."
+        "english": "Let's take the subway.",
+        "translations": {
+          "en": "Let's take the subway.",
+          "ru": "Поедем на метро.",
+          "es": "Vamos en metro.",
+          "pt-BR": "Vamos de metrô."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "subway / metro",
+      "ru": "метро",
+      "es": "metro",
+      "pt-BR": "metrô"
+    }
   },
   {
     "section": "transportation",
@@ -566,14 +1124,32 @@
       {
         "hanzi": "火车站离这儿远吗？",
         "pinyin": "Huǒchē zhàn lí zhèr yuǎn ma?",
-        "english": "Is the train station far from here?"
+        "english": "Is the train station far from here?",
+        "translations": {
+          "en": "Is the train station far from here?",
+          "ru": "Вокзал далеко отсюда?",
+          "es": "¿La estación de tren está lejos de aquí?",
+          "pt-BR": "A estação de trem fica longe daqui?"
+        }
       },
       {
         "hanzi": "请到火车站。",
         "pinyin": "Qǐng dào huǒchē zhàn.",
-        "english": "Please go to the train station."
+        "english": "Please go to the train station.",
+        "translations": {
+          "en": "Please go to the train station.",
+          "ru": "До вокзала, пожалуйста.",
+          "es": "A la estación de tren, por favor.",
+          "pt-BR": "Até a estação de trem, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "train station",
+      "ru": "вокзал",
+      "es": "estación de tren",
+      "pt-BR": "estação de trem"
+    }
   },
   {
     "section": "transportation",
@@ -584,14 +1160,32 @@
       {
         "hanzi": "我坐高铁去北京。",
         "pinyin": "Wǒ zuò gāotiě qù Běijīng.",
-        "english": "I'm taking the high-speed train to Beijing."
+        "english": "I'm taking the high-speed train to Beijing.",
+        "translations": {
+          "en": "I'm taking the high-speed train to Beijing.",
+          "ru": "Я еду в Пекин на скоростном поезде.",
+          "es": "Voy a Pekín en tren de alta velocidad.",
+          "pt-BR": "Vou a Pequim de trem-bala."
+        }
       },
       {
         "hanzi": "高铁票买了吗？",
         "pinyin": "Gāotiě piào mǎi le ma?",
-        "english": "Did you buy the high-speed train ticket?"
+        "english": "Did you buy the high-speed train ticket?",
+        "translations": {
+          "en": "Did you buy the high-speed train ticket?",
+          "ru": "Билет на скоростной поезд купили?",
+          "es": "¿Compraste el billete del tren de alta velocidad?",
+          "pt-BR": "Você comprou a passagem do trem-bala?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "high-speed train",
+      "ru": "скоростной поезд / гао те",
+      "es": "tren de alta velocidad",
+      "pt-BR": "trem-bala / trem de alta velocidade"
+    }
   },
   {
     "section": "transportation",
@@ -602,14 +1196,32 @@
       {
         "hanzi": "车票在哪里买？",
         "pinyin": "Chēpiào zài nǎlǐ mǎi?",
-        "english": "Where can I buy a ticket?"
+        "english": "Where can I buy a ticket?",
+        "translations": {
+          "en": "Where can I buy a ticket?",
+          "ru": "Где купить билет?",
+          "es": "¿Dónde se compra el billete?",
+          "pt-BR": "Onde se compra a passagem?"
+        }
       },
       {
         "hanzi": "请出示您的车票。",
         "pinyin": "Qǐng chūshì nín de chēpiào.",
-        "english": "Please show your ticket."
+        "english": "Please show your ticket.",
+        "translations": {
+          "en": "Please show your ticket.",
+          "ru": "Предъявите, пожалуйста, билет.",
+          "es": "Muestre su billete, por favor.",
+          "pt-BR": "Mostre a passagem, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "ticket (train/bus)",
+      "ru": "билет (на поезд/автобус)",
+      "es": "billete / boleto",
+      "pt-BR": "passagem"
+    }
   },
   {
     "section": "transportation",
@@ -620,14 +1232,32 @@
       {
         "hanzi": "这路公交车到市中心吗？",
         "pinyin": "Zhè lù gōngjiāo chē dào shì zhōngxīn ma?",
-        "english": "Does this bus go to the city center?"
+        "english": "Does this bus go to the city center?",
+        "translations": {
+          "en": "Does this bus go to the city center?",
+          "ru": "Этот автобус идёт в центр?",
+          "es": "¿Este autobús va al centro?",
+          "pt-BR": "Este ônibus vai ao centro?"
+        }
       },
       {
         "hanzi": "下一班公交车什么时候来？",
         "pinyin": "Xià yī bān gōngjiāo chē shénme shíhou lái?",
-        "english": "When is the next bus coming?"
+        "english": "When is the next bus coming?",
+        "translations": {
+          "en": "When is the next bus coming?",
+          "ru": "Когда следующий автобус?",
+          "es": "¿Cuándo llega el próximo autobús?",
+          "pt-BR": "Quando chega o próximo ônibus?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "bus",
+      "ru": "автобус",
+      "es": "autobús",
+      "pt-BR": "ônibus"
+    }
   },
   {
     "section": "transportation",
@@ -638,14 +1268,32 @@
       {
         "hanzi": "师傅，停这儿就行。",
         "pinyin": "Shīfu, tíng zhèr jiù xíng.",
-        "english": "Driver, you can stop here."
+        "english": "Driver, you can stop here.",
+        "translations": {
+          "en": "Driver, you can stop here.",
+          "ru": "Водитель, остановитесь здесь.",
+          "es": "Maestro, puede parar aquí.",
+          "pt-BR": "Motorista, pode parar aqui."
+        }
       },
       {
         "hanzi": "请在前面的酒店停这儿。",
         "pinyin": "Qǐng zài qiánmiàn de jiǔdiàn tíng zhèr.",
-        "english": "Please stop here at the hotel ahead."
+        "english": "Please stop here at the hotel ahead.",
+        "translations": {
+          "en": "Please stop here at the hotel ahead.",
+          "ru": "Остановитесь у отеля впереди.",
+          "es": "Pare aquí en el hotel de adelante.",
+          "pt-BR": "Pare aqui no hotel à frente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "stop here",
+      "ru": "остановитесь здесь",
+      "es": "párese aquí",
+      "pt-BR": "pare aqui"
+    }
   },
   {
     "section": "transportation",
@@ -656,14 +1304,32 @@
       {
         "hanzi": "能快一点吗？我赶时间。",
         "pinyin": "Néng kuài yìdiǎn ma? Wǒ gǎn shíjiān.",
-        "english": "Can you go a bit faster? I'm in a hurry."
+        "english": "Can you go a bit faster? I'm in a hurry.",
+        "translations": {
+          "en": "Can you go a bit faster? I'm in a hurry.",
+          "ru": "Можно побыстрее? Я спешу.",
+          "es": "¿Puede ir un poco más rápido? Tengo prisa.",
+          "pt-BR": "Pode ir um pouco mais rápido? Estou com pressa."
+        }
       },
       {
         "hanzi": "麻烦快一点，谢谢。",
         "pinyin": "Máfan kuài yìdiǎn, xièxie.",
-        "english": "Please go a little faster, thanks."
+        "english": "Please go a little faster, thanks.",
+        "translations": {
+          "en": "Please go a little faster, thanks.",
+          "ru": "Пожалуйста, чуть быстрее, спасибо.",
+          "es": "Un poco más rápido, por favor.",
+          "pt-BR": "Um pouco mais rápido, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "a bit faster",
+      "ru": "побыстрее",
+      "es": "un poco más rápido",
+      "pt-BR": "um pouco mais rápido"
+    }
   },
   {
     "section": "transportation",
@@ -674,14 +1340,32 @@
       {
         "hanzi": "请慢一点，我不舒服。",
         "pinyin": "Qǐng màn yìdiǎn, wǒ bù shūfu.",
-        "english": "Please drive slower, I feel unwell."
+        "english": "Please drive slower, I feel unwell.",
+        "translations": {
+          "en": "Please drive slower, I feel unwell.",
+          "ru": "Помедленнее, мне нехорошо.",
+          "es": "Más despacio, por favor, no me siento bien.",
+          "pt-BR": "Mais devagar, por favor, não estou bem."
+        }
       },
       {
         "hanzi": "路滑，开慢一点。",
         "pinyin": "Lù huá, kāi màn yìdiǎn.",
-        "english": "The road is slippery, drive slower."
+        "english": "The road is slippery, drive slower.",
+        "translations": {
+          "en": "The road is slippery, drive slower.",
+          "ru": "Дорога скользкая, езжайте медленнее.",
+          "es": "La carretera está resbaladiza, vaya más despacio.",
+          "pt-BR": "A pista está escorregadia, vá mais devagar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "a bit slower",
+      "ru": "помедленнее",
+      "es": "un poco más despacio",
+      "pt-BR": "um pouco mais devagar"
+    }
   },
   {
     "section": "transportation",
@@ -692,14 +1376,32 @@
       {
         "hanzi": "前面堵车了。",
         "pinyin": "Qiánmiàn dǔ chē le.",
-        "english": "There's a traffic jam ahead."
+        "english": "There's a traffic jam ahead.",
+        "translations": {
+          "en": "There's a traffic jam ahead.",
+          "ru": "Впереди пробка.",
+          "es": "Hay un atasco adelante.",
+          "pt-BR": "Tem engarrafamento à frente."
+        }
       },
       {
         "hanzi": "高峰期很堵车。",
         "pinyin": "Gāofēng qī hěn dǔ chē.",
-        "english": "It's very congested during rush hour."
+        "english": "It's very congested during rush hour.",
+        "translations": {
+          "en": "It's very congested during rush hour.",
+          "ru": "В час пик очень стоят.",
+          "es": "En hora punta hay mucho tráfico.",
+          "pt-BR": "No horário de pico o trânsito está pesado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "traffic jam",
+      "ru": "пробка",
+      "es": "atasco / tráfico",
+      "pt-BR": "engarrafamento"
+    }
   },
   {
     "section": "transportation",
@@ -710,14 +1412,32 @@
       {
         "hanzi": "请帮我叫一辆出租车。",
         "pinyin": "Qǐng bāng wǒ jiào yí liàng chūzūchē.",
-        "english": "Please call a taxi for me."
+        "english": "Please call a taxi for me.",
+        "translations": {
+          "en": "Please call a taxi for me.",
+          "ru": "Вызовите мне, пожалуйста, такси.",
+          "es": "Pida un taxi para mí, por favor.",
+          "pt-BR": "Chame um táxi para mim, por favor."
+        }
       },
       {
         "hanzi": "出租车站在出口外面。",
         "pinyin": "Chūzūchē zhàn zài chūkǒu wàimiàn.",
-        "english": "The taxi stand is outside the exit."
+        "english": "The taxi stand is outside the exit.",
+        "translations": {
+          "en": "The taxi stand is outside the exit.",
+          "ru": "Стоянка такси за выходом.",
+          "es": "La parada de taxis está fuera de la salida.",
+          "pt-BR": "O ponto de táxi fica do lado de fora da saída."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "taxi",
+      "ru": "такси",
+      "es": "taxi",
+      "pt-BR": "táxi"
+    }
   },
   {
     "section": "restaurant",
@@ -728,14 +1448,32 @@
       {
         "hanzi": "请给我看看菜单。",
         "pinyin": "Qǐng gěi wǒ kànkan càidān.",
-        "english": "Please let me see the menu."
+        "english": "Please let me see the menu.",
+        "translations": {
+          "en": "Please let me see the menu.",
+          "ru": "Покажите, пожалуйста, меню.",
+          "es": "La carta, por favor.",
+          "pt-BR": "O cardápio, por favor."
+        }
       },
       {
         "hanzi": "有英文菜单吗？",
         "pinyin": "Yǒu Yīngwén càidān ma?",
-        "english": "Do you have an English menu?"
+        "english": "Do you have an English menu?",
+        "translations": {
+          "en": "Do you have an English menu?",
+          "ru": "Есть меню на английском?",
+          "es": "¿Tienen menú en inglés?",
+          "pt-BR": "Tem cardápio em inglês?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "menu",
+      "ru": "меню",
+      "es": "menú / carta",
+      "pt-BR": "cardápio"
+    }
   },
   {
     "section": "restaurant",
@@ -746,14 +1484,32 @@
       {
         "hanzi": "请来一壶热茶。",
         "pinyin": "Qǐng lái yì hú rè chá.",
-        "english": "Please bring a pot of hot tea."
+        "english": "Please bring a pot of hot tea.",
+        "translations": {
+          "en": "Please bring a pot of hot tea.",
+          "ru": "Принесите, пожалуйста, чайник горячего чая.",
+          "es": "Una tetera de té caliente, por favor.",
+          "pt-BR": "Uma chaleira de chá quente, por favor."
+        }
       },
       {
         "hanzi": "这里免费供应茶。",
         "pinyin": "Zhèlǐ miǎnfèi gōngyìng chá.",
-        "english": "Tea is served here for free."
+        "english": "Tea is served here for free.",
+        "translations": {
+          "en": "Tea is served here for free.",
+          "ru": "Здесь чай подают бесплатно.",
+          "es": "Aquí el té es gratis.",
+          "pt-BR": "Aqui o chá é de graça."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "tea",
+      "ru": "чай",
+      "es": "té",
+      "pt-BR": "chá"
+    }
   },
   {
     "section": "restaurant",
@@ -764,14 +1520,32 @@
       {
         "hanzi": "请给我一杯温水。",
         "pinyin": "Qǐng gěi wǒ yì bēi wēn shuǐ.",
-        "english": "Please give me a glass of warm water."
+        "english": "Please give me a glass of warm water.",
+        "translations": {
+          "en": "Please give me a glass of warm water.",
+          "ru": "Дайте мне, пожалуйста, тёплой воды.",
+          "es": "Un vaso de agua tibia, por favor.",
+          "pt-BR": "Um copo de água morna, por favor."
+        }
       },
       {
         "hanzi": "要瓶装水还是自来水？",
         "pinyin": "Yào píngzhuāng shuǐ háishi zìláishuǐ?",
-        "english": "Would you like bottled or tap water?"
+        "english": "Would you like bottled or tap water?",
+        "translations": {
+          "en": "Would you like bottled or tap water?",
+          "ru": "Бутилированную или из-под крана?",
+          "es": "¿Agua embotellada o del grifo?",
+          "pt-BR": "Água engarrafada ou da torneira?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "water",
+      "ru": "вода",
+      "es": "agua",
+      "pt-BR": "água"
+    }
   },
   {
     "section": "restaurant",
@@ -782,14 +1556,32 @@
       {
         "hanzi": "再来一碗米饭。",
         "pinyin": "Zài lái yì wǎn mǐfàn.",
-        "english": "Another bowl of rice, please."
+        "english": "Another bowl of rice, please.",
+        "translations": {
+          "en": "Another bowl of rice, please.",
+          "ru": "Ещё одну миску риса, пожалуйста.",
+          "es": "Otro tazón de arroz, por favor.",
+          "pt-BR": "Mais uma tigela de arroz, por favor."
+        }
       },
       {
         "hanzi": "这个菜配米饭很好吃。",
         "pinyin": "Zhège cài pèi mǐfàn hěn hǎochī.",
-        "english": "This dish goes well with rice."
+        "english": "This dish goes well with rice.",
+        "translations": {
+          "en": "This dish goes well with rice.",
+          "ru": "Это блюдо хорошо идёт с рисом.",
+          "es": "Este plato queda muy bien con arroz.",
+          "pt-BR": "Este prato combina muito com arroz."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "rice",
+      "ru": "рис",
+      "es": "arroz",
+      "pt-BR": "arroz"
+    }
   },
   {
     "section": "restaurant",
@@ -800,14 +1592,32 @@
       {
         "hanzi": "我想吃牛肉面。",
         "pinyin": "Wǒ xiǎng chī niúròu miàn.",
-        "english": "I'd like beef noodles."
+        "english": "I'd like beef noodles.",
+        "translations": {
+          "en": "I'd like beef noodles.",
+          "ru": "Хочу лапшу с говядиной.",
+          "es": "Quisiera fideos con ternera.",
+          "pt-BR": "Quero macarrão com carne."
+        }
       },
       {
         "hanzi": "面条可以少放辣吗？",
         "pinyin": "Miàntiáo kěyǐ shǎo fàng là ma?",
-        "english": "Can the noodles be less spicy?"
+        "english": "Can the noodles be less spicy?",
+        "translations": {
+          "en": "Can the noodles be less spicy?",
+          "ru": "Можно лапшу менее острую?",
+          "es": "¿Pueden los fideos ser menos picantes?",
+          "pt-BR": "Dá para o macarrão ficar menos picante?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "noodles",
+      "ru": "лапша",
+      "es": "fideos / tallarines",
+      "pt-BR": "macarrão"
+    }
   },
   {
     "section": "restaurant",
@@ -818,14 +1628,32 @@
       {
         "hanzi": "这个有牛肉吗？",
         "pinyin": "Zhège yǒu niúròu ma?",
-        "english": "Does this contain beef?"
+        "english": "Does this contain beef?",
+        "translations": {
+          "en": "Does this contain beef?",
+          "ru": "Тут есть говядина?",
+          "es": "¿Esto lleva ternera?",
+          "pt-BR": "Isso tem carne bovina?"
+        }
       },
       {
         "hanzi": "请推荐一道牛肉菜。",
         "pinyin": "Qǐng tuījiàn yí dào niúròu cài.",
-        "english": "Please recommend a beef dish."
+        "english": "Please recommend a beef dish.",
+        "translations": {
+          "en": "Please recommend a beef dish.",
+          "ru": "Порекомендуйте блюдо с говядиной.",
+          "es": "Recomiende un plato de ternera.",
+          "pt-BR": "Recomende um prato de carne."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "beef",
+      "ru": "говядина",
+      "es": "ternera / carne de res",
+      "pt-BR": "carne bovina"
+    }
   },
   {
     "section": "restaurant",
@@ -836,14 +1664,32 @@
       {
         "hanzi": "我不吃鸡肉。",
         "pinyin": "Wǒ bù chī jīròu.",
-        "english": "I don't eat chicken."
+        "english": "I don't eat chicken.",
+        "translations": {
+          "en": "I don't eat chicken.",
+          "ru": "Я не ем курицу.",
+          "es": "No como pollo.",
+          "pt-BR": "Não como frango."
+        }
       },
       {
         "hanzi": "宫保鸡丁是经典鸡肉菜。",
         "pinyin": "Gōngbǎo jīdīng shì jīngdiǎn jīròu cài.",
-        "english": "Kung Pao chicken is a classic chicken dish."
+        "english": "Kung Pao chicken is a classic chicken dish.",
+        "translations": {
+          "en": "Kung Pao chicken is a classic chicken dish.",
+          "ru": "Гунбао с курицей — классика.",
+          "es": "El pollo kung pao es un clásico.",
+          "pt-BR": "Frango kung pao é um clássico."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "chicken",
+      "ru": "курица",
+      "es": "pollo",
+      "pt-BR": "frango"
+    }
   },
   {
     "section": "restaurant",
@@ -854,14 +1700,32 @@
       {
         "hanzi": "请做一份猪肉饺子。",
         "pinyin": "Qǐng zuò yí fèn zhūròu jiǎozi.",
-        "english": "Please make a serving of pork dumplings."
+        "english": "Please make a serving of pork dumplings.",
+        "translations": {
+          "en": "Please make a serving of pork dumplings.",
+          "ru": "Сделайте порцию пельменей со свининой.",
+          "es": "Una ración de dumplings de cerdo, por favor.",
+          "pt-BR": "Uma porção de dumpling de porco, por favor."
+        }
       },
       {
         "hanzi": "这个菜里有猪肉吗？",
         "pinyin": "Zhège cài lǐ yǒu zhūròu ma?",
-        "english": "Is there pork in this dish?"
+        "english": "Is there pork in this dish?",
+        "translations": {
+          "en": "Is there pork in this dish?",
+          "ru": "В этом блюде есть свинина?",
+          "es": "¿Este plato lleva cerdo?",
+          "pt-BR": "Este prato tem porco?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "pork",
+      "ru": "свинина",
+      "es": "cerdo",
+      "pt-BR": "porco"
+    }
   },
   {
     "section": "restaurant",
@@ -872,14 +1736,32 @@
       {
         "hanzi": "今天的鱼很新鲜。",
         "pinyin": "Jīntiān de yú hěn xīnxiān.",
-        "english": "Today's fish is very fresh."
+        "english": "Today's fish is very fresh.",
+        "translations": {
+          "en": "Today's fish is very fresh.",
+          "ru": "Сегодня рыба очень свежая.",
+          "es": "El pescado de hoy está muy fresco.",
+          "pt-BR": "O peixe de hoje está bem fresco."
+        }
       },
       {
         "hanzi": "请蒸一条鱼。",
         "pinyin": "Qǐng zhēng yì tiáo yú.",
-        "english": "Please steam a fish."
+        "english": "Please steam a fish.",
+        "translations": {
+          "en": "Please steam a fish.",
+          "ru": "Приготовьте рыбу на пару.",
+          "es": "Cueza un pescado al vapor, por favor.",
+          "pt-BR": "Cozinhe um peixe no vapor, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "fish",
+      "ru": "рыба",
+      "es": "pescado / pez",
+      "pt-BR": "peixe"
+    }
   },
   {
     "section": "restaurant",
@@ -890,14 +1772,32 @@
       {
         "hanzi": "请多放一些蔬菜。",
         "pinyin": "Qǐng duō fàng yìxiē shūcài.",
-        "english": "Please add more vegetables."
+        "english": "Please add more vegetables.",
+        "translations": {
+          "en": "Please add more vegetables.",
+          "ru": "Положите, пожалуйста, больше овощей.",
+          "es": "Ponga más verduras, por favor.",
+          "pt-BR": "Coloque mais verdura, por favor."
+        }
       },
       {
         "hanzi": "有清炒蔬菜吗？",
         "pinyin": "Yǒu qīng chǎo shūcài ma?",
-        "english": "Do you have stir-fried vegetables?"
+        "english": "Do you have stir-fried vegetables?",
+        "translations": {
+          "en": "Do you have stir-fried vegetables?",
+          "ru": "Есть овощи обжаренные без острого?",
+          "es": "¿Tienen verduras salteadas?",
+          "pt-BR": "Tem verdura refogada?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "vegetables",
+      "ru": "овощи",
+      "es": "verduras / vegetales",
+      "pt-BR": "verduras / legumes"
+    }
   },
   {
     "section": "shopping",
@@ -908,14 +1808,32 @@
       {
         "hanzi": "这个价格可以便宜一点吗？",
         "pinyin": "Zhège jiàgé kěyǐ piányi yìdiǎn ma?",
-        "english": "Can this price be a little cheaper?"
+        "english": "Can this price be a little cheaper?",
+        "translations": {
+          "en": "Can this price be a little cheaper?",
+          "ru": "Можно немного дешевле?",
+          "es": "¿Se puede un poco más barato?",
+          "pt-BR": "Dá para ficar um pouco mais barato?"
+        }
       },
       {
         "hanzi": "请告诉我总价。",
         "pinyin": "Qǐng gàosu wǒ zǒng jià.",
-        "english": "Please tell me the total price."
+        "english": "Please tell me the total price.",
+        "translations": {
+          "en": "Please tell me the total price.",
+          "ru": "Скажите итоговую цену.",
+          "es": "Dígame el precio total.",
+          "pt-BR": "Diga o preço total."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "price",
+      "ru": "цена",
+      "es": "precio",
+      "pt-BR": "preço"
+    }
   },
   {
     "section": "shopping",
@@ -926,14 +1844,32 @@
       {
         "hanzi": "今天全场打八折。",
         "pinyin": "Jīntiān quánchǎng dǎ bā zhé.",
-        "english": "Everything is 20% off today."
+        "english": "Everything is 20% off today.",
+        "translations": {
+          "en": "Everything is 20% off today.",
+          "ru": "Сегодня скидка 20% на всё.",
+          "es": "Hoy todo está al 80%.",
+          "pt-BR": "Hoje tudo está com 20% de desconto."
+        }
       },
       {
         "hanzi": "留学生可以打折吗？",
         "pinyin": "Liúxuéshēng kěyǐ dǎzhé ma?",
-        "english": "Is there a student discount?"
+        "english": "Is there a student discount?",
+        "translations": {
+          "en": "Is there a student discount?",
+          "ru": "Студентам есть скидка?",
+          "es": "¿Hay descuento para estudiantes?",
+          "pt-BR": "Tem desconto para estudante?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "discount",
+      "ru": "скидка",
+      "es": "descuento",
+      "pt-BR": "desconto"
+    }
   },
   {
     "section": "shopping",
@@ -944,14 +1880,32 @@
       {
         "hanzi": "有大一点的尺码吗？",
         "pinyin": "Yǒu dà yìdiǎn de chǐmǎ ma?",
-        "english": "Do you have a larger size?"
+        "english": "Do you have a larger size?",
+        "translations": {
+          "en": "Do you have a larger size?",
+          "ru": "Есть размер побольше?",
+          "es": "¿Tienen una talla más grande?",
+          "pt-BR": "Tem um tamanho maior?"
+        }
       },
       {
         "hanzi": "我的尺码是中号。",
         "pinyin": "Wǒ de chǐmǎ shì zhōng hào.",
-        "english": "My size is medium."
+        "english": "My size is medium.",
+        "translations": {
+          "en": "My size is medium.",
+          "ru": "Мой размер — средний.",
+          "es": "Mi talla es mediana.",
+          "pt-BR": "Meu tamanho é médio."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "size",
+      "ru": "размер",
+      "es": "talla / talla de ropa",
+      "pt-BR": "tamanho"
+    }
   },
   {
     "section": "shopping",
@@ -962,14 +1916,32 @@
       {
         "hanzi": "有别的颜色吗？",
         "pinyin": "Yǒu bié de yánsè ma?",
-        "english": "Are there other colors?"
+        "english": "Are there other colors?",
+        "translations": {
+          "en": "Are there other colors?",
+          "ru": "Есть другие цвета?",
+          "es": "¿Hay otros colores?",
+          "pt-BR": "Tem outras cores?"
+        }
       },
       {
         "hanzi": "我喜欢这个颜色。",
         "pinyin": "Wǒ xǐhuan zhège yánsè.",
-        "english": "I like this color."
+        "english": "I like this color.",
+        "translations": {
+          "en": "I like this color.",
+          "ru": "Мне нравится этот цвет.",
+          "es": "Me gusta este color.",
+          "pt-BR": "Gosto desta cor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "color",
+      "ru": "цвет",
+      "es": "color",
+      "pt-BR": "cor"
+    }
   },
   {
     "section": "shopping",
@@ -980,14 +1952,32 @@
       {
         "hanzi": "我可以试穿吗？",
         "pinyin": "Wǒ kěyǐ shìchuān ma?",
-        "english": "Can I try this on?"
+        "english": "Can I try this on?",
+        "translations": {
+          "en": "Can I try this on?",
+          "ru": "Можно примерить?",
+          "es": "¿Puedo probármelo?",
+          "pt-BR": "Posso provar?"
+        }
       },
       {
         "hanzi": "试衣间在哪儿？",
         "pinyin": "Shìyī jiān zài nǎr?",
-        "english": "Where is the fitting room?"
+        "english": "Where is the fitting room?",
+        "translations": {
+          "en": "Where is the fitting room?",
+          "ru": "Где примерочная?",
+          "es": "¿Dónde está el probador?",
+          "pt-BR": "Onde fica o provador?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to try on",
+      "ru": "примерять",
+      "es": "probarse",
+      "pt-BR": "provar"
+    }
   },
   {
     "section": "shopping",
@@ -998,14 +1988,32 @@
       {
         "hanzi": "请给我开发票。",
         "pinyin": "Qǐng gěi wǒ kāi fāpiào.",
-        "english": "Please issue a receipt for me."
+        "english": "Please issue a receipt for me.",
+        "translations": {
+          "en": "Please issue a receipt for me.",
+          "ru": "Выпишите, пожалуйста, чек.",
+          "es": "Emita una factura, por favor.",
+          "pt-BR": "Emita uma nota fiscal, por favor."
+        }
       },
       {
         "hanzi": "发票可以寄到酒店吗？",
         "pinyin": "Fāpiào kěyǐ jì dào jiǔdiàn ma?",
-        "english": "Can the receipt be sent to my hotel?"
+        "english": "Can the receipt be sent to my hotel?",
+        "translations": {
+          "en": "Can the receipt be sent to my hotel?",
+          "ru": "Чек можно отправить в отель?",
+          "es": "¿Pueden enviar la factura al hotel?",
+          "pt-BR": "Dá para enviar a nota para o hotel?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "receipt (fapiao)",
+      "ru": "фискальный чек / фапяо",
+      "es": "factura / fapiao",
+      "pt-BR": "nota fiscal / fapiao"
+    }
   },
   {
     "section": "shopping",
@@ -1016,14 +2024,32 @@
       {
         "hanzi": "有点贵，能便宜吗？",
         "pinyin": "Yǒudiǎn guì, néng piányi ma?",
-        "english": "It's a bit expensive, can you lower the price?"
+        "english": "It's a bit expensive, can you lower the price?",
+        "translations": {
+          "en": "It's a bit expensive, can you lower the price?",
+          "ru": "Немного дорого, можно дешевле?",
+          "es": "Está un poco caro, ¿se puede bajar?",
+          "pt-BR": "Está um pouco caro, dá para baixar?"
+        }
       },
       {
         "hanzi": "这个比网上贵。",
         "pinyin": "Zhège bǐ wǎngshàng guì.",
-        "english": "This is more expensive than online."
+        "english": "This is more expensive than online.",
+        "translations": {
+          "en": "This is more expensive than online.",
+          "ru": "Это дороже, чем в интернете.",
+          "es": "Esto es más caro que en internet.",
+          "pt-BR": "Isso é mais caro do que na internet."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "expensive",
+      "ru": "дорогой",
+      "es": "caro",
+      "pt-BR": "caro"
+    }
   },
   {
     "section": "shopping",
@@ -1034,14 +2060,32 @@
       {
         "hanzi": "有没有便宜一点的？",
         "pinyin": "Yǒu méiyǒu piányi yìdiǎn de?",
-        "english": "Do you have something cheaper?"
+        "english": "Do you have something cheaper?",
+        "translations": {
+          "en": "Do you have something cheaper?",
+          "ru": "Есть что-нибудь подешевле?",
+          "es": "¿Hay algo más barato?",
+          "pt-BR": "Tem algo mais barato?"
+        }
       },
       {
         "hanzi": "这里买特产比较便宜。",
         "pinyin": "Zhèlǐ mǎi tèchǎn bǐjiào piányi.",
-        "english": "It's cheaper to buy local specialties here."
+        "english": "It's cheaper to buy local specialties here.",
+        "translations": {
+          "en": "It's cheaper to buy local specialties here.",
+          "ru": "Здесь сувениры дешевле.",
+          "es": "Aquí las especialidades salen más baratas.",
+          "pt-BR": "Aqui as especialidades saem mais baratas."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "cheap / inexpensive",
+      "ru": "дешёвый",
+      "es": "barato",
+      "pt-BR": "barato"
+    }
   },
   {
     "section": "shopping",
@@ -1052,14 +2096,32 @@
       {
         "hanzi": "这个商店可以免税吗？",
         "pinyin": "Zhège shāngdiàn kěyǐ miǎnshuì ma?",
-        "english": "Is this store tax-free?"
+        "english": "Is this store tax-free?",
+        "translations": {
+          "en": "Is this store tax-free?",
+          "ru": "В этом магазине можно без пошлины?",
+          "es": "¿Esta tienda es duty free?",
+          "pt-BR": "Esta loja é duty-free?"
+        }
       },
       {
         "hanzi": "我在机场买了免税商品。",
         "pinyin": "Wǒ zài jīchǎng mǎi le miǎnshuì shāngpǐn.",
-        "english": "I bought duty-free items at the airport."
+        "english": "I bought duty-free items at the airport.",
+        "translations": {
+          "en": "I bought duty-free items at the airport.",
+          "ru": "В аэропорту я купил товары duty-free.",
+          "es": "Compré artículos libres de impuestos en el aeropuerto.",
+          "pt-BR": "Comprei itens duty-free no aeroporto."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "tax-free",
+      "ru": "без пошлины / duty-free",
+      "es": "libre de impuestos / duty free",
+      "pt-BR": "livre de impostos / duty-free"
+    }
   },
   {
     "section": "shopping",
@@ -1070,14 +2132,32 @@
       {
         "hanzi": "游客可以在机场办理退税。",
         "pinyin": "Yóukè kěyǐ zài jīchǎng bànlǐ tuìshuì.",
-        "english": "Tourists can get a tax refund at the airport."
+        "english": "Tourists can get a tax refund at the airport.",
+        "translations": {
+          "en": "Tourists can get a tax refund at the airport.",
+          "ru": "Туристы могут оформить возврат налога в аэропорту.",
+          "es": "Los turistas pueden solicitar la devolución en el aeropuerto.",
+          "pt-BR": "Turistas podem pedir o reembolso no aeroporto."
+        }
       },
       {
         "hanzi": "请保留发票以便退税。",
         "pinyin": "Qǐng bǎoliú fāpiào yǐbiàn tuìshuì.",
-        "english": "Please keep the receipt for a tax refund."
+        "english": "Please keep the receipt for a tax refund.",
+        "translations": {
+          "en": "Please keep the receipt for a tax refund.",
+          "ru": "Сохраните чек для возврата налога.",
+          "es": "Guarde la factura para la devolución.",
+          "pt-BR": "Guarde a nota para o reembolso."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "tax refund",
+      "ru": "возврат налога / tax refund",
+      "es": "devolución de impuestos",
+      "pt-BR": "reembolso de imposto"
+    }
   },
   {
     "section": "sightseeing",
@@ -1088,14 +2168,32 @@
       {
         "hanzi": "我的目的地是外滩。",
         "pinyin": "Wǒ de mùdìdì shì Wàitān.",
-        "english": "My destination is the Bund."
+        "english": "My destination is the Bund.",
+        "translations": {
+          "en": "My destination is the Bund.",
+          "ru": "Мой пункт назначения — набережная Вайтань.",
+          "es": "Mi destino es el Bund.",
+          "pt-BR": "Meu destino é o Bund."
+        }
       },
       {
         "hanzi": "师傅，去这个目的地。",
         "pinyin": "Shīfu, qù zhège mùdìdì.",
-        "english": "Driver, please go to this destination."
+        "english": "Driver, please go to this destination.",
+        "translations": {
+          "en": "Driver, please go to this destination.",
+          "ru": "Водитель, сюда, пожалуйста.",
+          "es": "Conductor, a este destino, por favor.",
+          "pt-BR": "Motorista, para este destino, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "destination",
+      "ru": "пункт назначения",
+      "es": "destino",
+      "pt-BR": "destino"
+    }
   },
   {
     "section": "sightseeing",
@@ -1106,14 +2204,32 @@
       {
         "hanzi": "前面路口左转。",
         "pinyin": "Qiánmiàn lùkǒu zuǒ zhuǎn.",
-        "english": "Turn left at the intersection ahead."
+        "english": "Turn left at the intersection ahead.",
+        "translations": {
+          "en": "Turn left at the intersection ahead.",
+          "ru": "На перекрёстке впереди налево.",
+          "es": "Gire a la izquierda en el cruce de adelante.",
+          "pt-BR": "Vire à esquerda no cruzamento à frente."
+        }
       },
       {
         "hanzi": "银行在左边。",
         "pinyin": "Yínháng zài zuǒbian.",
-        "english": "The bank is on the left."
+        "english": "The bank is on the left.",
+        "translations": {
+          "en": "The bank is on the left.",
+          "ru": "Банк слева.",
+          "es": "El banco está a la izquierda.",
+          "pt-BR": "O banco fica à esquerda."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "left",
+      "ru": "налево / слева",
+      "es": "izquierda",
+      "pt-BR": "esquerda"
+    }
   },
   {
     "section": "sightseeing",
@@ -1124,14 +2240,32 @@
       {
         "hanzi": "请在下一个路口右转。",
         "pinyin": "Qǐng zài xià yí ge lùkǒu yòu zhuǎn.",
-        "english": "Please turn right at the next intersection."
+        "english": "Please turn right at the next intersection.",
+        "translations": {
+          "en": "Please turn right at the next intersection.",
+          "ru": "На следующем перекрёстке направо.",
+          "es": "Gire a la derecha en el próximo cruce.",
+          "pt-BR": "Vire à direita no próximo cruzamento."
+        }
       },
       {
         "hanzi": "入口在右边。",
         "pinyin": "Rùkǒu zài yòubian.",
-        "english": "The entrance is on the right."
+        "english": "The entrance is on the right.",
+        "translations": {
+          "en": "The entrance is on the right.",
+          "ru": "Вход справа.",
+          "es": "La entrada está a la derecha.",
+          "pt-BR": "A entrada fica à direita."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "right",
+      "ru": "направо / справа",
+      "es": "derecha",
+      "pt-BR": "direita"
+    }
   },
   {
     "section": "sightseeing",
@@ -1142,14 +2276,32 @@
       {
         "hanzi": "一直直走就到了。",
         "pinyin": "Yìzhí zhí zǒu jiù dào le.",
-        "english": "Keep going straight and you'll arrive."
+        "english": "Keep going straight and you'll arrive.",
+        "translations": {
+          "en": "Keep going straight and you'll arrive.",
+          "ru": "Идите прямо — и вы на месте.",
+          "es": "Siga recto y llega.",
+          "pt-BR": "Siga em frente e você chega."
+        }
       },
       {
         "hanzi": "过了红绿灯直走。",
         "pinyin": "Guò le hónglǜdēng zhí zǒu.",
-        "english": "Go straight after the traffic light."
+        "english": "Go straight after the traffic light.",
+        "translations": {
+          "en": "Go straight after the traffic light.",
+          "ru": "После светофора прямо.",
+          "es": "Después del semáforo, siga recto.",
+          "pt-BR": "Depois do semáforo, siga em frente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "go straight",
+      "ru": "прямо",
+      "es": "siga recto",
+      "pt-BR": "siga em frente"
+    }
   },
   {
     "section": "sightseeing",
@@ -1160,14 +2312,32 @@
       {
         "hanzi": "这个景点很有名。",
         "pinyin": "Zhège jǐngdiǎn hěn yǒumíng.",
-        "english": "This attraction is very famous."
+        "english": "This attraction is very famous.",
+        "translations": {
+          "en": "This attraction is very famous.",
+          "ru": "Это очень известная достопримечательность.",
+          "es": "Este atractivo es muy famoso.",
+          "pt-BR": "Este ponto turístico é muito famoso."
+        }
       },
       {
         "hanzi": "我们今天去三个景点。",
         "pinyin": "Wǒmen jīntiān qù sān gè jǐngdiǎn.",
-        "english": "We're visiting three sights today."
+        "english": "We're visiting three sights today.",
+        "translations": {
+          "en": "We're visiting three sights today.",
+          "ru": "Сегодня мы посетим три места.",
+          "es": "Hoy visitamos tres atractivos.",
+          "pt-BR": "Hoje vamos a três pontos turísticos."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "scenic spot / attraction",
+      "ru": "достопримечательность",
+      "es": "atractivo turístico",
+      "pt-BR": "ponto turístico"
+    }
   },
   {
     "section": "sightseeing",
@@ -1178,14 +2348,32 @@
       {
         "hanzi": "门票多少钱一张？",
         "pinyin": "Ménpiào duōshao qián yī zhāng?",
-        "english": "How much is one admission ticket?"
+        "english": "How much is one admission ticket?",
+        "translations": {
+          "en": "How much is one admission ticket?",
+          "ru": "Сколько стоит один билет?",
+          "es": "¿Cuánto cuesta una entrada?",
+          "pt-BR": "Quanto custa um ingresso?"
+        }
       },
       {
         "hanzi": "学生可以买优惠门票。",
         "pinyin": "Xuésheng kěyǐ mǎi yōuhuì ménpiào.",
-        "english": "Students can buy discounted tickets."
+        "english": "Students can buy discounted tickets.",
+        "translations": {
+          "en": "Students can buy discounted tickets.",
+          "ru": "Студентам — льготные билеты.",
+          "es": "Los estudiantes pueden comprar entradas con descuento.",
+          "pt-BR": "Estudantes podem comprar ingresso com desconto."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "admission ticket",
+      "ru": "входной билет",
+      "es": "entrada / boleto de admisión",
+      "pt-BR": "ingresso"
+    }
   },
   {
     "section": "sightseeing",
@@ -1196,14 +2384,32 @@
       {
         "hanzi": "导游用中文讲解。",
         "pinyin": "Dǎoyóu yòng Zhōngwén jiǎngjiě.",
-        "english": "The guide explains in Chinese."
+        "english": "The guide explains in Chinese.",
+        "translations": {
+          "en": "The guide explains in Chinese.",
+          "ru": "Гид объясняет по-китайски.",
+          "es": "El guía explica en chino.",
+          "pt-BR": "O guia explica em chinês."
+        }
       },
       {
         "hanzi": "我们需要一位英文导游。",
         "pinyin": "Wǒmen xūyào yī wèi Yīngwén dǎoyóu.",
-        "english": "We need an English-speaking guide."
+        "english": "We need an English-speaking guide.",
+        "translations": {
+          "en": "We need an English-speaking guide.",
+          "ru": "Нам нужен англоязычный гид.",
+          "es": "Necesitamos un guía en inglés.",
+          "pt-BR": "Precisamos de um guia em inglês."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "tour guide",
+      "ru": "гид",
+      "es": "guía turístico",
+      "pt-BR": "guia de turismo"
+    }
   },
   {
     "section": "sightseeing",
@@ -1214,14 +2420,32 @@
       {
         "hanzi": "这里可以拍照吗？",
         "pinyin": "Zhèlǐ kěyǐ pāizhào ma?",
-        "english": "Can I take photos here?"
+        "english": "Can I take photos here?",
+        "translations": {
+          "en": "Can I take photos here?",
+          "ru": "Здесь можно фотографировать?",
+          "es": "¿Se pueden tomar fotos aquí?",
+          "pt-BR": "Pode tirar foto aqui?"
+        }
       },
       {
         "hanzi": "请帮我拍张照片。",
         "pinyin": "Qǐng bāng wǒ pāi zhāng zhàopiàn.",
-        "english": "Please take a photo for me."
+        "english": "Please take a photo for me.",
+        "translations": {
+          "en": "Please take a photo for me.",
+          "ru": "Сфотографируйте меня, пожалуйста.",
+          "es": "Háganme una foto, por favor.",
+          "pt-BR": "Tira uma foto minha, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to take photos",
+      "ru": "фотографировать",
+      "es": "tomar fotos",
+      "pt-BR": "tirar fotos"
+    }
   },
   {
     "section": "sightseeing",
@@ -1232,14 +2456,32 @@
       {
         "hanzi": "博物馆周一闭馆。",
         "pinyin": "Bówùguǎn zhōuyī bìguǎn.",
-        "english": "The museum is closed on Mondays."
+        "english": "The museum is closed on Mondays.",
+        "translations": {
+          "en": "The museum is closed on Mondays.",
+          "ru": "В понедельник музей закрыт.",
+          "es": "El museo cierra los lunes.",
+          "pt-BR": "O museu fecha às segundas."
+        }
       },
       {
         "hanzi": "我们在博物馆待了两个小时。",
         "pinyin": "Wǒmen zài bówùguǎn dāi le liǎng gè xiǎoshí.",
-        "english": "We spent two hours at the museum."
+        "english": "We spent two hours at the museum.",
+        "translations": {
+          "en": "We spent two hours at the museum.",
+          "ru": "Мы провели в музее два часа.",
+          "es": "Pasamos dos horas en el museo.",
+          "pt-BR": "Passamos duas horas no museu."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "museum",
+      "ru": "музей",
+      "es": "museo",
+      "pt-BR": "museu"
+    }
   },
   {
     "section": "sightseeing",
@@ -1250,14 +2492,32 @@
       {
         "hanzi": "故宫是北京必去的景点。",
         "pinyin": "Gùgōng shì Běijīng bì qù de jǐngdiǎn.",
-        "english": "The Forbidden City is a must-see in Beijing."
+        "english": "The Forbidden City is a must-see in Beijing.",
+        "translations": {
+          "en": "The Forbidden City is a must-see in Beijing.",
+          "ru": "Гугун — обязательное место в Пекине.",
+          "es": "La Ciudad Prohibida es imprescindible en Pekín.",
+          "pt-BR": "A Cidade Proibida é imperdível em Pequim."
+        }
       },
       {
         "hanzi": "我们早上参观了故宫。",
         "pinyin": "Wǒmen zǎoshang cānguān le Gùgōng.",
-        "english": "We visited the Forbidden City this morning."
+        "english": "We visited the Forbidden City this morning.",
+        "translations": {
+          "en": "We visited the Forbidden City this morning.",
+          "ru": "Утром мы посетили Запретный город.",
+          "es": "Visitamos la Ciudad Prohibida esta mañana.",
+          "pt-BR": "Visitamos a Cidade Proibida esta manhã."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Forbidden City",
+      "ru": "Запретный город / Гугун",
+      "es": "Ciudad Prohibida",
+      "pt-BR": "Cidade Proibida"
+    }
   },
   {
     "section": "mobile",
@@ -1268,14 +2528,32 @@
       {
         "hanzi": "我的手机没电了。",
         "pinyin": "Wǒ de shǒujī méi diàn le.",
-        "english": "My phone is out of battery."
+        "english": "My phone is out of battery.",
+        "translations": {
+          "en": "My phone is out of battery.",
+          "ru": "У телефона сел аккумулятор.",
+          "es": "Se me acabó la batería del móvil.",
+          "pt-BR": "Meu celular está sem bateria."
+        }
       },
       {
         "hanzi": "可以用你的手机吗？",
         "pinyin": "Kěyǐ yòng nǐ de shǒujī ma?",
-        "english": "Can I use your phone?"
+        "english": "Can I use your phone?",
+        "translations": {
+          "en": "Can I use your phone?",
+          "ru": "Можно воспользоваться вашим телефоном?",
+          "es": "¿Puedo usar tu teléfono?",
+          "pt-BR": "Posso usar o seu celular?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "mobile phone",
+      "ru": "мобильный телефон",
+      "es": "teléfono móvil",
+      "pt-BR": "celular"
+    }
   },
   {
     "section": "mobile",
@@ -1286,14 +2564,32 @@
       {
         "hanzi": "无线网密码是多少？",
         "pinyin": "Wúxiàn wǎng mìmǎ shì duōshao?",
-        "english": "What is the Wi-Fi password?"
+        "english": "What is the Wi-Fi password?",
+        "translations": {
+          "en": "What is the Wi-Fi password?",
+          "ru": "Какой пароль от Wi-Fi?",
+          "es": "¿Cuál es la contraseña del Wi-Fi?",
+          "pt-BR": "Qual é a senha do Wi-Fi?"
+        }
       },
       {
         "hanzi": "房间里的无线网很快。",
         "pinyin": "Fángjiān lǐ de wúxiàn wǎng hěn kuài.",
-        "english": "The Wi-Fi in the room is fast."
+        "english": "The Wi-Fi in the room is fast.",
+        "translations": {
+          "en": "The Wi-Fi in the room is fast.",
+          "ru": "В номере Wi-Fi быстрый.",
+          "es": "El Wi-Fi de la habitación es rápido.",
+          "pt-BR": "O Wi-Fi do quarto é rápido."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Wi-Fi",
+      "ru": "Wi-Fi / беспроводная сеть",
+      "es": "Wi-Fi",
+      "pt-BR": "Wi-Fi"
+    }
   },
   {
     "section": "mobile",
@@ -1304,14 +2600,32 @@
       {
         "hanzi": "我的流量用完了。",
         "pinyin": "Wǒ de liúliàng yòng wán le.",
-        "english": "I've used up my mobile data."
+        "english": "I've used up my mobile data.",
+        "translations": {
+          "en": "I've used up my mobile data.",
+          "ru": "У меня закончился трафик.",
+          "es": "Se me acabaron los datos.",
+          "pt-BR": "Meus dados acabaram."
+        }
       },
       {
         "hanzi": "这里有免费的流量吗？",
         "pinyin": "Zhèlǐ yǒu miǎnfèi de liúliàng ma?",
-        "english": "Is there free mobile data here?"
+        "english": "Is there free mobile data here?",
+        "translations": {
+          "en": "Is there free mobile data here?",
+          "ru": "Здесь есть бесплатный мобильный интернет?",
+          "es": "¿Hay datos móviles gratis aquí?",
+          "pt-BR": "Tem dados móveis grátis aqui?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "mobile data",
+      "ru": "мобильный трафик / интернет",
+      "es": "datos móviles",
+      "pt-BR": "dados móveis"
+    }
   },
   {
     "section": "mobile",
@@ -1322,14 +2636,32 @@
       {
         "hanzi": "请问哪里可以充电？",
         "pinyin": "Qǐngwèn nǎlǐ kěyǐ chōngdiàn?",
-        "english": "Where can I charge my phone?"
+        "english": "Where can I charge my phone?",
+        "translations": {
+          "en": "Where can I charge my phone?",
+          "ru": "Где можно зарядить телефон?",
+          "es": "¿Dónde puedo cargar el teléfono?",
+          "pt-BR": "Onde posso carregar o celular?"
+        }
       },
       {
         "hanzi": "我的手机需要充电。",
         "pinyin": "Wǒ de shǒujī xūyào chōngdiàn.",
-        "english": "My phone needs charging."
+        "english": "My phone needs charging.",
+        "translations": {
+          "en": "My phone needs charging.",
+          "ru": "Мой телефон нужно зарядить.",
+          "es": "Mi teléfono necesita carga.",
+          "pt-BR": "Meu celular precisa carregar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to charge (a device)",
+      "ru": "заряжать",
+      "es": "cargar (un dispositivo)",
+      "pt-BR": "carregar (aparelho)"
+    }
   },
   {
     "section": "mobile",
@@ -1340,14 +2672,32 @@
       {
         "hanzi": "请扫码支付。",
         "pinyin": "Qǐng sǎomǎ zhīfù.",
-        "english": "Please pay by scanning the QR code."
+        "english": "Please pay by scanning the QR code.",
+        "translations": {
+          "en": "Please pay by scanning the QR code.",
+          "ru": "Оплатите, пожалуйста, по QR-коду.",
+          "es": "Pague escaneando el código QR.",
+          "pt-BR": "Pague escaneando o QR code."
+        }
       },
       {
         "hanzi": "进站要先扫码。",
         "pinyin": "Jìn zhàn yào xiān sǎomǎ.",
-        "english": "You need to scan a code before entering."
+        "english": "You need to scan a code before entering.",
+        "translations": {
+          "en": "You need to scan a code before entering.",
+          "ru": "Перед входом нужно отсканировать код.",
+          "es": "Hay que escanear el código para entrar.",
+          "pt-BR": "É preciso escanear o código para entrar."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to scan a QR code",
+      "ru": "сканировать QR-код",
+      "es": "escanear un código QR",
+      "pt-BR": "escanear QR code"
+    }
   },
   {
     "section": "mobile",
@@ -1358,14 +2708,32 @@
       {
         "hanzi": "无线网的密码是什么？",
         "pinyin": "Wúxiànwǎng de mìmǎ shì shénme?",
-        "english": "What's the Wi-Fi password?"
+        "english": "What's the Wi-Fi password?",
+        "translations": {
+          "en": "What's the Wi-Fi password?",
+          "ru": "Какой пароль от Wi-Fi?",
+          "es": "¿Cuál es la contraseña del Wi-Fi?",
+          "pt-BR": "Qual é a senha do Wi-Fi?"
+        }
       },
       {
         "hanzi": "请输入您的密码。",
         "pinyin": "Qǐng shūrù nín de mìmǎ.",
-        "english": "Please enter your password."
+        "english": "Please enter your password.",
+        "translations": {
+          "en": "Please enter your password.",
+          "ru": "Введите пароль.",
+          "es": "Introduzca su contraseña.",
+          "pt-BR": "Digite a senha."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "password",
+      "ru": "пароль",
+      "es": "contraseña",
+      "pt-BR": "senha"
+    }
   },
   {
     "section": "mobile",
@@ -1376,14 +2744,32 @@
       {
         "hanzi": "这里的网络很快。",
         "pinyin": "Zhèlǐ de wǎngluò hěn kuài.",
-        "english": "The network here is fast."
+        "english": "The network here is fast.",
+        "translations": {
+          "en": "The network here is fast.",
+          "ru": "Здесь сеть быстрая.",
+          "es": "La red aquí es rápida.",
+          "pt-BR": "A internet daqui é rápida."
+        }
       },
       {
         "hanzi": "我的网络连接不上。",
         "pinyin": "Wǒ de wǎngluò liánjiē bù shàng.",
-        "english": "I can't connect to the network."
+        "english": "I can't connect to the network.",
+        "translations": {
+          "en": "I can't connect to the network.",
+          "ru": "Я не могу подключиться к сети.",
+          "es": "No puedo conectarme a la red.",
+          "pt-BR": "Não consigo conectar à rede."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "network / internet",
+      "ru": "сеть / интернет",
+      "es": "red / internet",
+      "pt-BR": "rede / internet"
+    }
   },
   {
     "section": "mobile",
@@ -1394,14 +2780,32 @@
       {
         "hanzi": "我们可以加微信吗？",
         "pinyin": "Wǒmen kěyǐ jiā Wēixìn ma?",
-        "english": "Can we add each other on WeChat?"
+        "english": "Can we add each other on WeChat?",
+        "translations": {
+          "en": "Can we add each other on WeChat?",
+          "ru": "Можно добавить друг друга в WeChat?",
+          "es": "¿Nos añadimos en WeChat?",
+          "pt-BR": "Podemos nos adicionar no WeChat?"
+        }
       },
       {
         "hanzi": "请用微信发给我地址。",
         "pinyin": "Qǐng yòng Wēixìn fā gěi wǒ dìzhǐ.",
-        "english": "Please send me the address on WeChat."
+        "english": "Please send me the address on WeChat.",
+        "translations": {
+          "en": "Please send me the address on WeChat.",
+          "ru": "Пришлите адрес в WeChat.",
+          "es": "Envíeme la dirección por WeChat.",
+          "pt-BR": "Me envie o endereço no WeChat."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "WeChat",
+      "ru": "WeChat",
+      "es": "WeChat",
+      "pt-BR": "WeChat"
+    }
   },
   {
     "section": "mobile",
@@ -1412,14 +2816,32 @@
       {
         "hanzi": "请帮我换一张SIM卡。",
         "pinyin": "Qǐng bāng wǒ huàn yī zhāng SIM kǎ.",
-        "english": "Please help me replace the SIM card."
+        "english": "Please help me replace the SIM card.",
+        "translations": {
+          "en": "Please help me replace the SIM card.",
+          "ru": "Помогите заменить SIM-карту.",
+          "es": "Ayúdeme a cambiar la SIM.",
+          "pt-BR": "Me ajude a trocar o chip."
+        }
       },
       {
         "hanzi": "机场可以买到旅游SIM卡。",
         "pinyin": "Jīchǎng kěyǐ mǎi dào lǚyóu SIM kǎ.",
-        "english": "You can buy a travel SIM card at the airport."
+        "english": "You can buy a travel SIM card at the airport.",
+        "translations": {
+          "en": "You can buy a travel SIM card at the airport.",
+          "ru": "В аэропорту можно купить туристическую SIM.",
+          "es": "En el aeropuerto se puede comprar una SIM de viaje.",
+          "pt-BR": "No aeroporto dá para comprar um chip de viagem."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "SIM card",
+      "ru": "SIM-карта",
+      "es": "tarjeta SIM",
+      "pt-BR": "chip / cartão SIM"
+    }
   },
   {
     "section": "mobile",
@@ -1430,14 +2852,32 @@
       {
         "hanzi": "出国前请开通国际漫游。",
         "pinyin": "Chūguó qián qǐng kāitōng guójì mànyóu.",
-        "english": "Enable international roaming before going abroad."
+        "english": "Enable international roaming before going abroad.",
+        "translations": {
+          "en": "Enable international roaming before going abroad.",
+          "ru": "Перед поездкой включите международный роуминг.",
+          "es": "Active el roaming internacional antes de salir.",
+          "pt-BR": "Ative o roaming internacional antes de viajar."
+        }
       },
       {
         "hanzi": "漫游费用比较高。",
         "pinyin": "Mànyóu fèiyòng bǐjiào gāo.",
-        "english": "Roaming charges are relatively high."
+        "english": "Roaming charges are relatively high.",
+        "translations": {
+          "en": "Roaming charges are relatively high.",
+          "ru": "Роуминг довольно дорогой.",
+          "es": "Las tarifas de roaming son altas.",
+          "pt-BR": "A tarifa de roaming é alta."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "roaming",
+      "ru": "роуминг",
+      "es": "roaming",
+      "pt-BR": "roaming"
+    }
   },
   {
     "section": "money",
@@ -1448,14 +2888,32 @@
       {
         "hanzi": "我忘带钱了。",
         "pinyin": "Wǒ wàng dài qián le.",
-        "english": "I forgot to bring money."
+        "english": "I forgot to bring money.",
+        "translations": {
+          "en": "I forgot to bring money.",
+          "ru": "Я забыл деньги.",
+          "es": "Olvidé traer dinero.",
+          "pt-BR": "Esqueci o dinheiro."
+        }
       },
       {
         "hanzi": "可以用手机付钱吗？",
         "pinyin": "Kěyǐ yòng shǒujī fù qián ma?",
-        "english": "Can I pay with my phone?"
+        "english": "Can I pay with my phone?",
+        "translations": {
+          "en": "Can I pay with my phone?",
+          "ru": "Можно заплатить с телефона?",
+          "es": "¿Puedo pagar con el móvil?",
+          "pt-BR": "Posso pagar com o celular?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "money",
+      "ru": "деньги",
+      "es": "dinero",
+      "pt-BR": "dinheiro"
+    }
   },
   {
     "section": "money",
@@ -1466,14 +2924,32 @@
       {
         "hanzi": "可以用手机付款吗？",
         "pinyin": "Kěyǐ yòng shǒujī fù kuǎn ma?",
-        "english": "Can I pay with my phone?"
+        "english": "Can I pay with my phone?",
+        "translations": {
+          "en": "Can I pay with my phone?",
+          "ru": "Можно оплатить с телефона?",
+          "es": "¿Puedo pagar con el móvil?",
+          "pt-BR": "Posso pagar com o celular?"
+        }
       },
       {
         "hanzi": "到地方再付款。",
         "pinyin": "Dào dìfang zài fù kuǎn.",
-        "english": "I'll pay when we arrive."
+        "english": "I'll pay when we arrive.",
+        "translations": {
+          "en": "I'll pay when we arrive.",
+          "ru": "Оплачу по прибытии.",
+          "es": "Pago al llegar.",
+          "pt-BR": "Pago na chegada."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "payment",
+      "ru": "оплата",
+      "es": "pago",
+      "pt-BR": "pagamento"
+    }
   },
   {
     "section": "money",
@@ -1484,14 +2960,32 @@
       {
         "hanzi": "可以付现金吗？",
         "pinyin": "Kěyǐ fù xiànjīn ma?",
-        "english": "Can I pay in cash?"
+        "english": "Can I pay in cash?",
+        "translations": {
+          "en": "Can I pay in cash?",
+          "ru": "Можно наличными?",
+          "es": "¿Puedo pagar en efectivo?",
+          "pt-BR": "Posso pagar em dinheiro?"
+        }
       },
       {
         "hanzi": "我身上现金不够。",
         "pinyin": "Wǒ shēnshang xiànjīn búgòu.",
-        "english": "I don't have enough cash on me."
+        "english": "I don't have enough cash on me.",
+        "translations": {
+          "en": "I don't have enough cash on me.",
+          "ru": "Наличных с собой не хватает.",
+          "es": "No llevo suficiente efectivo.",
+          "pt-BR": "Não tenho dinheiro suficiente em espécie."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "cash",
+      "ru": "наличные",
+      "es": "efectivo",
+      "pt-BR": "dinheiro em espécie"
+    }
   },
   {
     "section": "money",
@@ -1502,14 +2996,32 @@
       {
         "hanzi": "可以刷卡吗？",
         "pinyin": "Kěyǐ shuā kǎ ma?",
-        "english": "Can I pay by card?"
+        "english": "Can I pay by card?",
+        "translations": {
+          "en": "Can I pay by card?",
+          "ru": "Можно картой?",
+          "es": "¿Puedo pagar con tarjeta?",
+          "pt-BR": "Aceita cartão?"
+        }
       },
       {
         "hanzi": "请在这边刷卡。",
         "pinyin": "Qǐng zài zhè biān shuā kǎ.",
-        "english": "Please swipe your card here."
+        "english": "Please swipe your card here.",
+        "translations": {
+          "en": "Please swipe your card here.",
+          "ru": "Проведите карту здесь.",
+          "es": "Pase la tarjeta aquí.",
+          "pt-BR": "Passe o cartão aqui."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "pay by card",
+      "ru": "оплатить картой",
+      "es": "pagar con tarjeta",
+      "pt-BR": "pagar no cartão"
+    }
   },
   {
     "section": "money",
@@ -1520,14 +3032,32 @@
       {
         "hanzi": "这里可以用支付宝吗？",
         "pinyin": "Zhèlǐ kěyǐ yòng Zhīfùbǎo ma?",
-        "english": "Can I pay with Alipay here?"
+        "english": "Can I pay with Alipay here?",
+        "translations": {
+          "en": "Can I pay with Alipay here?",
+          "ru": "Здесь принимают Alipay?",
+          "es": "¿Se puede pagar con Alipay aquí?",
+          "pt-BR": "Aceita Alipay aqui?"
+        }
       },
       {
         "hanzi": "我习惯用支付宝付款。",
         "pinyin": "Wǒ xíguàn yòng Zhīfùbǎo fùkuǎn.",
-        "english": "I usually pay with Alipay."
+        "english": "I usually pay with Alipay.",
+        "translations": {
+          "en": "I usually pay with Alipay.",
+          "ru": "Я обычно плачу через Alipay.",
+          "es": "Suelo pagar con Alipay.",
+          "pt-BR": "Costumo pagar com Alipay."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "Alipay",
+      "ru": "Alipay",
+      "es": "Alipay",
+      "pt-BR": "Alipay"
+    }
   },
   {
     "section": "money",
@@ -1538,14 +3068,32 @@
       {
         "hanzi": "请打开微信支付。",
         "pinyin": "Qǐng dǎkāi Wēixìn zhīfù.",
-        "english": "Please open WeChat Pay."
+        "english": "Please open WeChat Pay.",
+        "translations": {
+          "en": "Please open WeChat Pay.",
+          "ru": "Откройте WeChat Pay.",
+          "es": "Abra WeChat Pay.",
+          "pt-BR": "Abra o WeChat Pay."
+        }
       },
       {
         "hanzi": "小店只接受微信支付。",
         "pinyin": "Xiǎodiàn zhǐ jiēshòu Wēixìn zhīfù.",
-        "english": "The shop only accepts WeChat Pay."
+        "english": "The shop only accepts WeChat Pay.",
+        "translations": {
+          "en": "The shop only accepts WeChat Pay.",
+          "ru": "Магазин принимает только WeChat Pay.",
+          "es": "La tienda solo acepta WeChat Pay.",
+          "pt-BR": "A loja só aceita WeChat Pay."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "WeChat Pay",
+      "ru": "WeChat Pay",
+      "es": "WeChat Pay",
+      "pt-BR": "WeChat Pay"
+    }
   },
   {
     "section": "money",
@@ -1556,14 +3104,32 @@
       {
         "hanzi": "今天的汇率是多少？",
         "pinyin": "Jīntiān de huìlǜ shì duōshao?",
-        "english": "What's the exchange rate today?"
+        "english": "What's the exchange rate today?",
+        "translations": {
+          "en": "What's the exchange rate today?",
+          "ru": "Какой сегодня курс?",
+          "es": "¿Cuál es el tipo de cambio de hoy?",
+          "pt-BR": "Qual é o câmbio de hoje?"
+        }
       },
       {
         "hanzi": "汇率每天都在变化。",
         "pinyin": "Huìlǜ měitiān dōu zài biànhuà.",
-        "english": "The exchange rate changes every day."
+        "english": "The exchange rate changes every day.",
+        "translations": {
+          "en": "The exchange rate changes every day.",
+          "ru": "Курс меняется каждый день.",
+          "es": "El tipo de cambio cambia todos los días.",
+          "pt-BR": "O câmbio muda todo dia."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "exchange rate",
+      "ru": "курс обмена",
+      "es": "tipo de cambio",
+      "pt-BR": "câmbio / taxa de câmbio"
+    }
   },
   {
     "section": "money",
@@ -1574,14 +3140,32 @@
       {
         "hanzi": "请不用找零了。",
         "pinyin": "Qǐng búyòng zhǎolíng le.",
-        "english": "Keep the change, please."
+        "english": "Keep the change, please.",
+        "translations": {
+          "en": "Keep the change, please.",
+          "ru": "Сдачу не надо.",
+          "es": "Quédese con el cambio.",
+          "pt-BR": "Pode ficar com o troco."
+        }
       },
       {
         "hanzi": "店员找零很及时。",
         "pinyin": "Diànyuán zhǎolíng hěn jíshí.",
-        "english": "The clerk gave change promptly."
+        "english": "The clerk gave change promptly.",
+        "translations": {
+          "en": "The clerk gave change promptly.",
+          "ru": "Продавец быстро дал сдачу.",
+          "es": "El empleado dio el cambio de inmediato.",
+          "pt-BR": "O atendente deu o troco na hora."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "change (money returned)",
+      "ru": "сдача",
+      "es": "cambio (dinero)",
+      "pt-BR": "troco"
+    }
   },
   {
     "section": "money",
@@ -1592,14 +3176,32 @@
       {
         "hanzi": "请给我一张收据。",
         "pinyin": "Qǐng gěi wǒ yī zhāng shōujù.",
-        "english": "Please give me a receipt."
+        "english": "Please give me a receipt.",
+        "translations": {
+          "en": "Please give me a receipt.",
+          "ru": "Дайте, пожалуйста, чек.",
+          "es": "Un recibo, por favor.",
+          "pt-BR": "Um recibo, por favor."
+        }
       },
       {
         "hanzi": "收据我放钱包里了。",
         "pinyin": "Shōujù wǒ fàng qiánbāo lǐ le.",
-        "english": "I put the receipt in my wallet."
+        "english": "I put the receipt in my wallet.",
+        "translations": {
+          "en": "I put the receipt in my wallet.",
+          "ru": "Чек я положил в кошелёк.",
+          "es": "Puse el recibo en la cartera.",
+          "pt-BR": "Coloquei o recibo na carteira."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "receipt",
+      "ru": "чек / квитанция",
+      "es": "recibo",
+      "pt-BR": "recibo"
+    }
   },
   {
     "section": "money",
@@ -1610,14 +3212,32 @@
       {
         "hanzi": "我的旅行预算有限。",
         "pinyin": "Wǒ de lǚxíng yùsuàn yǒuxiàn.",
-        "english": "My travel budget is limited."
+        "english": "My travel budget is limited.",
+        "translations": {
+          "en": "My travel budget is limited.",
+          "ru": "Мой бюджет на поездку ограничен.",
+          "es": "Mi presupuesto de viaje es limitado.",
+          "pt-BR": "Meu orçamento de viagem é limitado."
+        }
       },
       {
         "hanzi": "我们按预算安排行程。",
         "pinyin": "Wǒmen àn yùsuàn ānpái xíngchéng.",
-        "english": "We plan the trip according to our budget."
+        "english": "We plan the trip according to our budget.",
+        "translations": {
+          "en": "We plan the trip according to our budget.",
+          "ru": "Маршрут планируем по бюджету.",
+          "es": "Planeamos el viaje según el presupuesto.",
+          "pt-BR": "Planejamos a viagem de acordo com o orçamento."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "budget",
+      "ru": "бюджет",
+      "es": "presupuesto",
+      "pt-BR": "orçamento"
+    }
   },
   {
     "section": "emergency",
@@ -1628,14 +3248,32 @@
       {
         "hanzi": "请帮帮我！",
         "pinyin": "Qǐng bāngbang wǒ!",
-        "english": "Please help me!"
+        "english": "Please help me!",
+        "translations": {
+          "en": "Please help me!",
+          "ru": "Помогите, пожалуйста!",
+          "es": "¡Ayúdenme, por favor!",
+          "pt-BR": "Por favor, me ajudem!"
+        }
       },
       {
         "hanzi": "你能帮助我吗？",
         "pinyin": "Nǐ néng bāngzhù wǒ ma?",
-        "english": "Can you help me?"
+        "english": "Can you help me?",
+        "translations": {
+          "en": "Can you help me?",
+          "ru": "Вы можете мне помочь?",
+          "es": "¿Puede ayudarme?",
+          "pt-BR": "Você pode me ajudar?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "help",
+      "ru": "помощь",
+      "es": "ayuda",
+      "pt-BR": "ajuda"
+    }
   },
   {
     "section": "emergency",
@@ -1646,14 +3284,32 @@
       {
         "hanzi": "请帮我叫警察。",
         "pinyin": "Qǐng bāng wǒ jiào jǐngchá.",
-        "english": "Please help me call the police."
+        "english": "Please help me call the police.",
+        "translations": {
+          "en": "Please help me call the police.",
+          "ru": "Вызовите полицию, пожалуйста.",
+          "es": "Llame a la policía, por favor.",
+          "pt-BR": "Chame a polícia, por favor."
+        }
       },
       {
         "hanzi": "警察局在前面。",
         "pinyin": "Jǐngchájú zài qiánmiàn.",
-        "english": "The police station is up ahead."
+        "english": "The police station is up ahead.",
+        "translations": {
+          "en": "The police station is up ahead.",
+          "ru": "Полицейский участок впереди.",
+          "es": "La comisaría está más adelante.",
+          "pt-BR": "A delegacia fica à frente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "police",
+      "ru": "полиция",
+      "es": "policía",
+      "pt-BR": "polícia"
+    }
   },
   {
     "section": "emergency",
@@ -1664,14 +3320,32 @@
       {
         "hanzi": "最近的医院在哪儿？",
         "pinyin": "Zuì jìn de yīyuàn zài nǎr?",
-        "english": "Where is the nearest hospital?"
+        "english": "Where is the nearest hospital?",
+        "translations": {
+          "en": "Where is the nearest hospital?",
+          "ru": "Где ближайшая больница?",
+          "es": "¿Dónde está el hospital más cercano?",
+          "pt-BR": "Onde fica o hospital mais próximo?"
+        }
       },
       {
         "hanzi": "请送我去医院。",
         "pinyin": "Qǐng sòng wǒ qù yīyuàn.",
-        "english": "Please take me to the hospital."
+        "english": "Please take me to the hospital.",
+        "translations": {
+          "en": "Please take me to the hospital.",
+          "ru": "Отвезите меня в больницу.",
+          "es": "Lléveme al hospital, por favor.",
+          "pt-BR": "Me leve ao hospital, por favor."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "hospital",
+      "ru": "больница",
+      "es": "hospital",
+      "pt-BR": "hospital"
+    }
   },
   {
     "section": "emergency",
@@ -1682,14 +3356,32 @@
       {
         "hanzi": "我需要看医生。",
         "pinyin": "Wǒ xūyào kàn yīshēng.",
-        "english": "I need to see a doctor."
+        "english": "I need to see a doctor.",
+        "translations": {
+          "en": "I need to see a doctor.",
+          "ru": "Мне нужно к врачу.",
+          "es": "Necesito ver a un médico.",
+          "pt-BR": "Preciso ver um médico."
+        }
       },
       {
         "hanzi": "有会说英语的医生吗？",
         "pinyin": "Yǒu huì shuō Yīngyǔ de yīshēng ma?",
-        "english": "Is there a doctor who speaks English?"
+        "english": "Is there a doctor who speaks English?",
+        "translations": {
+          "en": "Is there a doctor who speaks English?",
+          "ru": "Есть врач, который говорит по-английски?",
+          "es": "¿Hay un médico que hable inglés?",
+          "pt-BR": "Tem médico que fale inglês?"
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "doctor",
+      "ru": "врач",
+      "es": "médico / doctora",
+      "pt-BR": "médico / médica"
+    }
   },
   {
     "section": "emergency",
@@ -1700,14 +3392,32 @@
       {
         "hanzi": "附近有药店吗？",
         "pinyin": "Fùjìn yǒu yàodiàn ma?",
-        "english": "Is there a pharmacy nearby?"
+        "english": "Is there a pharmacy nearby?",
+        "translations": {
+          "en": "Is there a pharmacy nearby?",
+          "ru": "Есть аптека поблизости?",
+          "es": "¿Hay una farmacia cerca?",
+          "pt-BR": "Tem farmácia por perto?"
+        }
       },
       {
         "hanzi": "我想去药店买感冒药。",
         "pinyin": "Wǒ xiǎng qù yàodiàn mǎi gǎnmào yào.",
-        "english": "I want to go to the pharmacy for cold medicine."
+        "english": "I want to go to the pharmacy for cold medicine.",
+        "translations": {
+          "en": "I want to go to the pharmacy for cold medicine.",
+          "ru": "Хочу купить лекарство от простуды.",
+          "es": "Quiero ir a la farmacia a comprar medicina para el resfriado.",
+          "pt-BR": "Quero ir à farmácia comprar remédio para resfriado."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "pharmacy",
+      "ru": "аптека",
+      "es": "farmacia",
+      "pt-BR": "farmácia"
+    }
   },
   {
     "section": "emergency",
@@ -1718,14 +3428,32 @@
       {
         "hanzi": "请叫救护车！",
         "pinyin": "Qǐng jiào jiùhùchē!",
-        "english": "Please call an ambulance!"
+        "english": "Please call an ambulance!",
+        "translations": {
+          "en": "Please call an ambulance!",
+          "ru": "Вызовите скорую!",
+          "es": "¡Llame a una ambulancia!",
+          "pt-BR": "Chame uma ambulância!"
+        }
       },
       {
         "hanzi": "救护车已经在路上了。",
         "pinyin": "Jiùhùchē yǐjīng zài lù shàng le.",
-        "english": "The ambulance is already on the way."
+        "english": "The ambulance is already on the way.",
+        "translations": {
+          "en": "The ambulance is already on the way.",
+          "ru": "Скорая уже в пути.",
+          "es": "La ambulancia ya está en camino.",
+          "pt-BR": "A ambulância já está a caminho."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "ambulance",
+      "ru": "скорая помощь",
+      "es": "ambulancia",
+      "pt-BR": "ambulância"
+    }
   },
   {
     "section": "emergency",
@@ -1736,14 +3464,32 @@
       {
         "hanzi": "着火了，快离开！",
         "pinyin": "Zháo huǒ le, kuài líkāi!",
-        "english": "It's on fire, get out quickly!"
+        "english": "It's on fire, get out quickly!",
+        "translations": {
+          "en": "It's on fire, get out quickly!",
+          "ru": "Пожар, быстро уходите!",
+          "es": "¡Hay fuego, salgan rápido!",
+          "pt-BR": "Pegou fogo, saiam rápido!"
+        }
       },
       {
         "hanzi": "请报火警。",
         "pinyin": "Qǐng bào huǒjǐng.",
-        "english": "Please report the fire."
+        "english": "Please report the fire.",
+        "translations": {
+          "en": "Please report the fire.",
+          "ru": "Сообщите о пожаре.",
+          "es": "Avise del incendio.",
+          "pt-BR": "Avise o incêndio."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "on fire",
+      "ru": "пожар / горит",
+      "es": "incendio / en llamas",
+      "pt-BR": "incêndio / pegando fogo"
+    }
   },
   {
     "section": "emergency",
@@ -1754,14 +3500,32 @@
       {
         "hanzi": "这里很危险，别过去。",
         "pinyin": "Zhèlǐ hěn wēixiǎn, bié guòqù.",
-        "english": "It's dangerous here, don't go over."
+        "english": "It's dangerous here, don't go over.",
+        "translations": {
+          "en": "It's dangerous here, don't go over.",
+          "ru": "Здесь опасно, не подходите.",
+          "es": "Es peligroso aquí, no se acerque.",
+          "pt-BR": "Aqui é perigoso, não se aproxime."
+        }
       },
       {
         "hanzi": "请注意安全，前方危险。",
         "pinyin": "Qǐng zhùyì ānquán, qiánfāng wēixiǎn.",
-        "english": "Please stay safe, danger ahead."
+        "english": "Please stay safe, danger ahead.",
+        "translations": {
+          "en": "Please stay safe, danger ahead.",
+          "ru": "Будьте осторожны, впереди опасность.",
+          "es": "Tenga cuidado, hay peligro adelante.",
+          "pt-BR": "Tenha cuidado, tem perigo à frente."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "dangerous",
+      "ru": "опасно / опасность",
+      "es": "peligroso / peligro",
+      "pt-BR": "perigoso / perigo"
+    }
   },
   {
     "section": "emergency",
@@ -1772,14 +3536,32 @@
       {
         "hanzi": "遇到危险请马上报警。",
         "pinyin": "Yù dào wēixiǎn qǐng mǎshàng bào jǐng.",
-        "english": "If you're in danger, call the police immediately."
+        "english": "If you're in danger, call the police immediately.",
+        "translations": {
+          "en": "If you're in danger, call the police immediately.",
+          "ru": "В опасности сразу вызывайте полицию.",
+          "es": "Si hay peligro, llame a la policía de inmediato.",
+          "pt-BR": "Se houver perigo, chame a polícia na hora."
+        }
       },
       {
         "hanzi": "我已经报警了。",
         "pinyin": "Wǒ yǐjīng bào jǐng le.",
-        "english": "I've already called the police."
+        "english": "I've already called the police.",
+        "translations": {
+          "en": "I've already called the police.",
+          "ru": "Я уже вызвал полицию.",
+          "es": "Ya llamé a la policía.",
+          "pt-BR": "Já chamei a polícia."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "to call the police",
+      "ru": "вызывать полицию / заявлять",
+      "es": "llamar a la policía",
+      "pt-BR": "chamar a polícia"
+    }
   },
   {
     "section": "emergency",
@@ -1790,13 +3572,31 @@
       {
         "hanzi": "我的护照丢了，怎么办？",
         "pinyin": "Wǒ de hùzhào diū le, zěnme bàn?",
-        "english": "I lost my passport, what should I do?"
+        "english": "I lost my passport, what should I do?",
+        "translations": {
+          "en": "I lost my passport, what should I do?",
+          "ru": "Я потерял паспорт, что делать?",
+          "es": "Perdí el pasaporte, ¿qué hago?",
+          "pt-BR": "Perdi o passaporte, o que eu faço?"
+        }
       },
       {
         "hanzi": "护照丢了，请帮我联系大使馆。",
         "pinyin": "Hùzhào diū le, qǐng bāng wǒ liánxì dàshǐguǎn.",
-        "english": "I lost my passport, please help me contact the embassy."
+        "english": "I lost my passport, please help me contact the embassy.",
+        "translations": {
+          "en": "I lost my passport, please help me contact the embassy.",
+          "ru": "Паспорт потерян, помогите связаться с посольством.",
+          "es": "Perdí el pasaporte, ayúdeme a contactar la embajada.",
+          "pt-BR": "Perdi o passaporte, me ajude a falar com a embaixada."
+        }
       }
-    ]
+    ],
+    "translations": {
+      "en": "lost passport",
+      "ru": "потерян паспорт",
+      "es": "pasaporte perdido",
+      "pt-BR": "passaporte perdido"
+    }
   }
 ]

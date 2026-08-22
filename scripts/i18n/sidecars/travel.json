@@ -1,0 +1,1702 @@
+{
+  "你好": {
+    "ru": "привет / здравствуйте",
+    "es": "hola",
+    "pt-BR": "olá / oi",
+    "examples": [
+      {
+        "ru": "Здравствуйте, я турист.",
+        "es": "Hola, soy turista.",
+        "pt-BR": "Olá, sou turista."
+      },
+      {
+        "ru": "Здравствуйте, как пройти сюда?",
+        "es": "Hola, ¿cómo llego aquí?",
+        "pt-BR": "Olá, como chego aqui?"
+      }
+    ]
+  },
+  "谢谢": {
+    "ru": "спасибо",
+    "es": "gracias",
+    "pt-BR": "obrigado / obrigada",
+    "examples": [
+      {
+        "ru": "Спасибо за помощь.",
+        "es": "Gracias por tu ayuda.",
+        "pt-BR": "Obrigado pela ajuda."
+      },
+      {
+        "ru": "Большое спасибо!",
+        "es": "¡Muchísimas gracias!",
+        "pt-BR": "Muito obrigado!"
+      }
+    ]
+  },
+  "对不起": {
+    "ru": "извините / простите",
+    "es": "perdón / lo siento",
+    "pt-BR": "desculpe / com licença",
+    "examples": [
+      {
+        "ru": "Извините, я опоздал.",
+        "es": "Perdón, llegué tarde.",
+        "pt-BR": "Desculpe, cheguei atrasado."
+      },
+      {
+        "ru": "Извините, можно вас на минутку.",
+        "es": "Perdón, siento molestarlo.",
+        "pt-BR": "Com licença, desculpe incomodar."
+      }
+    ]
+  },
+  "请问": {
+    "ru": "скажите, пожалуйста",
+    "es": "disculpe / por favor",
+    "pt-BR": "com licença / por favor",
+    "examples": [
+      {
+        "ru": "Скажите, пожалуйста, где туалет?",
+        "es": "Disculpe, ¿dónde está el baño?",
+        "pt-BR": "Com licença, onde fica o banheiro?"
+      },
+      {
+        "ru": "Скажите, вы говорите по-английски?",
+        "es": "Disculpe, ¿habla inglés?",
+        "pt-BR": "Com licença, você fala inglês?"
+      }
+    ]
+  },
+  "不会": {
+    "ru": "не умею / не могу",
+    "es": "no saber / no poder",
+    "pt-BR": "não saber / não conseguir",
+    "examples": [
+      {
+        "ru": "Я не говорю по-китайски.",
+        "es": "No hablo chino.",
+        "pt-BR": "Não falo chinês."
+      },
+      {
+        "ru": "Я не умею пользоваться этим приложением.",
+        "es": "No sé usar esta app.",
+        "pt-BR": "Não sei usar este app."
+      }
+    ]
+  },
+  "听不懂": {
+    "ru": "не понимаю (на слух)",
+    "es": "no entiendo (lo hablado)",
+    "pt-BR": "não entendo (falado)",
+    "examples": [
+      {
+        "ru": "Извините, я не понимаю.",
+        "es": "Perdón, no entiendo.",
+        "pt-BR": "Desculpe, não entendo."
+      },
+      {
+        "ru": "Говорите помедленнее, я не понимаю.",
+        "es": "Hable más despacio, no entiendo.",
+        "pt-BR": "Fale mais devagar, não entendo."
+      }
+    ]
+  },
+  "中文": {
+    "ru": "китайский язык",
+    "es": "chino (idioma)",
+    "pt-BR": "chinês (idioma)",
+    "examples": [
+      {
+        "ru": "Вы говорите по-китайски?",
+        "es": "¿Habla chino?",
+        "pt-BR": "Você fala chinês?"
+      },
+      {
+        "ru": "Я учу китайский.",
+        "es": "Estoy aprendiendo chino.",
+        "pt-BR": "Estou aprendendo chinês."
+      }
+    ]
+  },
+  "英文": {
+    "ru": "английский язык",
+    "es": "inglés",
+    "pt-BR": "inglês",
+    "examples": [
+      {
+        "ru": "Скажите это, пожалуйста, по-английски.",
+        "es": "Dígalo en inglés, por favor.",
+        "pt-BR": "Diga em inglês, por favor."
+      },
+      {
+        "ru": "Есть меню на английском?",
+        "es": "¿Hay menú en inglés?",
+        "pt-BR": "Tem cardápio em inglês?"
+      }
+    ]
+  },
+  "地图": {
+    "ru": "карта",
+    "es": "mapa",
+    "pt-BR": "mapa",
+    "examples": [
+      {
+        "ru": "Можно воспользоваться картой?",
+        "es": "¿Puedo usar un mapa?",
+        "pt-BR": "Posso usar um mapa?"
+      },
+      {
+        "ru": "Посмотрю на карте.",
+        "es": "Lo miro en el mapa.",
+        "pt-BR": "Vou olhar no mapa."
+      }
+    ]
+  },
+  "厕所": {
+    "ru": "туалет / уборная",
+    "es": "baño / aseos",
+    "pt-BR": "banheiro",
+    "examples": [
+      {
+        "ru": "Где туалет?",
+        "es": "¿Dónde está el baño?",
+        "pt-BR": "Onde fica o banheiro?"
+      },
+      {
+        "ru": "Есть ли поблизости общественный туалет?",
+        "es": "¿Hay un baño público cerca?",
+        "pt-BR": "Tem um banheiro público por perto?"
+      }
+    ]
+  },
+  "值机": {
+    "ru": "регистрация (на рейс)",
+    "es": "facturación / check-in",
+    "pt-BR": "check-in",
+    "examples": [
+      {
+        "ru": "Где стойка регистрации?",
+        "es": "¿Dónde está el mostrador de facturación?",
+        "pt-BR": "Onde fica o balcão de check-in?"
+      },
+      {
+        "ru": "Я уже зарегистрировался онлайн.",
+        "es": "Ya hice el check-in en línea.",
+        "pt-BR": "Já fiz o check-in online."
+      }
+    ]
+  },
+  "登机": {
+    "ru": "садиться на самолёт / посадка",
+    "es": "embarcar",
+    "pt-BR": "embarcar",
+    "examples": [
+      {
+        "ru": "Посадка уже началась.",
+        "es": "Ya empezó el embarque.",
+        "pt-BR": "O embarque já começou."
+      },
+      {
+        "ru": "Приготовьтесь к посадке.",
+        "es": "Prepárese para embarcar.",
+        "pt-BR": "Prepare-se para embarcar."
+      }
+    ]
+  },
+  "护照": {
+    "ru": "паспорт",
+    "es": "pasaporte",
+    "pt-BR": "passaporte",
+    "examples": [
+      {
+        "ru": "Предъявите, пожалуйста, паспорт.",
+        "es": "Muestre su pasaporte, por favor.",
+        "pt-BR": "Mostre o passaporte, por favor."
+      },
+      {
+        "ru": "Паспорт должен быть действительным.",
+        "es": "El pasaporte debe estar vigente.",
+        "pt-BR": "O passaporte precisa estar válido."
+      }
+    ]
+  },
+  "安检": {
+    "ru": "досмотр / контроль безопасности",
+    "es": "control de seguridad",
+    "pt-BR": "inspeção de segurança",
+    "examples": [
+      {
+        "ru": "На досмотре достаньте ноутбук.",
+        "es": "Saque el portátil en el control de seguridad.",
+        "pt-BR": "Retire o notebook na inspeção."
+      },
+      {
+        "ru": "Жидкости через досмотр не пропускают.",
+        "es": "Los líquidos no pasan el control.",
+        "pt-BR": "Líquidos não passam na inspeção."
+      }
+    ]
+  },
+  "入境": {
+    "ru": "въезд / паспортный контроль",
+    "es": "inmigración / entrada",
+    "pt-BR": "imigração / entrada",
+    "examples": [
+      {
+        "ru": "Паспортный контроль — сюда.",
+        "es": "Inmigración es por aquí.",
+        "pt-BR": "A imigração é por aqui."
+      },
+      {
+        "ru": "Для въезда нужно заполнить декларацию.",
+        "es": "Para entrar hay que llenar una declaración.",
+        "pt-BR": "Para entrar é preciso preencher uma declaração."
+      }
+    ]
+  },
+  "登机口": {
+    "ru": "выход на посадку",
+    "es": "puerta de embarque",
+    "pt-BR": "portão de embarque",
+    "examples": [
+      {
+        "ru": "Выход сменили на A12.",
+        "es": "La puerta cambió a A12.",
+        "pt-BR": "O portão mudou para A12."
+      },
+      {
+        "ru": "Как пройти к выходу на посадку?",
+        "es": "¿Cómo llego a la puerta de embarque?",
+        "pt-BR": "Como chego ao portão de embarque?"
+      }
+    ]
+  },
+  "行李": {
+    "ru": "багаж",
+    "es": "equipaje",
+    "pt-BR": "bagagem",
+    "examples": [
+      {
+        "ru": "Лента выдачи багажа слева от выхода.",
+        "es": "La cinta de equipaje está a la izquierda de la salida.",
+        "pt-BR": "A esteira de bagagem fica à esquerda da saída."
+      },
+      {
+        "ru": "Мой багаж ещё не вышел.",
+        "es": "Mi equipaje aún no ha salido.",
+        "pt-BR": "Minha bagagem ainda não saiu."
+      }
+    ]
+  },
+  "海关": {
+    "ru": "таможня",
+    "es": "aduana",
+    "pt-BR": "alfândega",
+    "examples": [
+      {
+        "ru": "Пройдите таможню по красному коридору.",
+        "es": "Pase por el canal rojo de aduana.",
+        "pt-BR": "Passe pelo canal vermelho da alfândega."
+      },
+      {
+        "ru": "Эти вещи нужно задекларировать.",
+        "es": "Estos artículos hay que declararlos en aduana.",
+        "pt-BR": "Estes itens precisam ser declarados na alfândega."
+      }
+    ]
+  },
+  "登机牌": {
+    "ru": "посадочный талон",
+    "es": "tarjeta de embarque",
+    "pt-BR": "cartão de embarque",
+    "examples": [
+      {
+        "ru": "Предъявите посадочный талон и паспорт.",
+        "es": "Muestre la tarjeta de embarque y el pasaporte.",
+        "pt-BR": "Mostre o cartão de embarque e o passaporte."
+      },
+      {
+        "ru": "Посадочный талон можно отсканировать.",
+        "es": "Puede embarcar escaneando la tarjeta.",
+        "pt-BR": "Dá para embarcar escaneando o cartão."
+      }
+    ]
+  },
+  "航班": {
+    "ru": "рейс",
+    "es": "vuelo",
+    "pt-BR": "voo",
+    "examples": [
+      {
+        "ru": "Ваш рейс вылетает вовремя.",
+        "es": "Su vuelo sale a tiempo.",
+        "pt-BR": "Seu voo parte no horário."
+      },
+      {
+        "ru": "В каком терминале этот рейс?",
+        "es": "¿En qué terminal está este vuelo?",
+        "pt-BR": "Em qual terminal é este voo?"
+      }
+    ]
+  },
+  "预订": {
+    "ru": "бронь / бронирование",
+    "es": "reserva",
+    "pt-BR": "reserva",
+    "examples": [
+      {
+        "ru": "Я забронировал номер онлайн.",
+        "es": "Reservé una habitación en internet.",
+        "pt-BR": "Reservei um quarto pela internet."
+      },
+      {
+        "ru": "Бронь на имя Smith.",
+        "es": "La reserva está a nombre de Smith.",
+        "pt-BR": "A reserva está no nome Smith."
+      }
+    ]
+  },
+  "前台": {
+    "ru": "ресепшен / стойка регистрации",
+    "es": "recepción",
+    "pt-BR": "recepção",
+    "examples": [
+      {
+        "ru": "Ресепшен в холле на первом этаже.",
+        "es": "La recepción está en el vestíbulo de la planta baja.",
+        "pt-BR": "A recepção fica no saguão do térreo."
+      },
+      {
+        "ru": "По вопросам можно обратиться на ресепшен.",
+        "es": "Si tiene dudas, pregunte en recepción.",
+        "pt-BR": "Se tiver dúvida, pergunte na recepção."
+      }
+    ]
+  },
+  "房间": {
+    "ru": "номер (в отеле)",
+    "es": "habitación",
+    "pt-BR": "quarto",
+    "examples": [
+      {
+        "ru": "Хочу более тихий номер.",
+        "es": "Quisiera una habitación más silenciosa.",
+        "pt-BR": "Quero um quarto mais silencioso."
+      },
+      {
+        "ru": "В номере есть горячая вода?",
+        "es": "¿Hay agua caliente en la habitación?",
+        "pt-BR": "Tem água quente no quarto?"
+      }
+    ]
+  },
+  "房卡": {
+    "ru": "карточка от номера",
+    "es": "tarjeta de habitación",
+    "pt-BR": "cartão do quarto",
+    "examples": [
+      {
+        "ru": "Сохраните карточку от номера.",
+        "es": "Guarde bien la tarjeta.",
+        "pt-BR": "Guarde bem o cartão do quarto."
+      },
+      {
+        "ru": "Карточка не открывает дверь.",
+        "es": "La tarjeta no abre la puerta.",
+        "pt-BR": "O cartão não abre a porta."
+      }
+    ]
+  },
+  "早餐": {
+    "ru": "завтрак",
+    "es": "desayuno",
+    "pt-BR": "café da manhã",
+    "examples": [
+      {
+        "ru": "Завтрак в ресторане на втором этаже.",
+        "es": "El desayuno es en el restaurante del segundo piso.",
+        "pt-BR": "O café da manhã é no restaurante do segundo andar."
+      },
+      {
+        "ru": "Во сколько начинается завтрак?",
+        "es": "¿A qué hora empieza el desayuno?",
+        "pt-BR": "A que horas começa o café da manhã?"
+      }
+    ]
+  },
+  "电梯": {
+    "ru": "лифт",
+    "es": "ascensor / elevador",
+    "pt-BR": "elevador",
+    "examples": [
+      {
+        "ru": "Лифт там.",
+        "es": "El ascensor está allí.",
+        "pt-BR": "O elevador fica ali."
+      },
+      {
+        "ru": "Возьмите лифт справа.",
+        "es": "Tome el ascensor de la derecha.",
+        "pt-BR": "Pegue o elevador da direita."
+      }
+    ]
+  },
+  "入住": {
+    "ru": "заселяться / регистрация в отеле",
+    "es": "hacer el check-in",
+    "pt-BR": "fazer check-in",
+    "examples": [
+      {
+        "ru": "Хочу заселиться.",
+        "es": "Quisiera hacer el check-in.",
+        "pt-BR": "Quero fazer o check-in."
+      },
+      {
+        "ru": "Заселение с двух часов дня.",
+        "es": "El check-in es a las 2 de la tarde.",
+        "pt-BR": "O check-in é às 14h."
+      }
+    ]
+  },
+  "退房": {
+    "ru": "выселяться / выезд из отеля",
+    "es": "hacer el check-out",
+    "pt-BR": "fazer check-out",
+    "examples": [
+      {
+        "ru": "Завтра в полдень выезжаю.",
+        "es": "Hago el check-out mañana al mediodía.",
+        "pt-BR": "Faço o check-out amanhã ao meio-dia."
+      },
+      {
+        "ru": "Перед выездом сдайте карточку на ресепшен.",
+        "es": "Devuelva la tarjeta en recepción antes del check-out.",
+        "pt-BR": "Devolva o cartão na recepção antes do check-out."
+      }
+    ]
+  },
+  "洗衣": {
+    "ru": "стирка / прачечная",
+    "es": "lavandería",
+    "pt-BR": "lavanderia",
+    "examples": [
+      {
+        "ru": "В отеле есть услуга стирки?",
+        "es": "¿El hotel tiene servicio de lavandería?",
+        "pt-BR": "O hotel tem serviço de lavanderia?"
+      },
+      {
+        "ru": "Прачечная в цокольном этаже.",
+        "es": "La lavandería está en el sótano.",
+        "pt-BR": "A lavanderia fica no subsolo."
+      }
+    ]
+  },
+  "酒店": {
+    "ru": "отель / гостиница",
+    "es": "hotel",
+    "pt-BR": "hotel",
+    "examples": [
+      {
+        "ru": "Этот отель очень близко к метро.",
+        "es": "Este hotel está muy cerca del metro.",
+        "pt-BR": "Este hotel fica bem perto do metrô."
+      },
+      {
+        "ru": "Отвезите меня, пожалуйста, в этот отель.",
+        "es": "Lléveme a este hotel, por favor.",
+        "pt-BR": "Me leve a este hotel, por favor."
+      }
+    ]
+  },
+  "地铁": {
+    "ru": "метро",
+    "es": "metro",
+    "pt-BR": "metrô",
+    "examples": [
+      {
+        "ru": "Где ближайшая станция метро?",
+        "es": "¿Dónde está la estación de metro más cercana?",
+        "pt-BR": "Onde fica a estação de metrô mais próxima?"
+      },
+      {
+        "ru": "Поедем на метро.",
+        "es": "Vamos en metro.",
+        "pt-BR": "Vamos de metrô."
+      }
+    ]
+  },
+  "火车站": {
+    "ru": "вокзал",
+    "es": "estación de tren",
+    "pt-BR": "estação de trem",
+    "examples": [
+      {
+        "ru": "Вокзал далеко отсюда?",
+        "es": "¿La estación de tren está lejos de aquí?",
+        "pt-BR": "A estação de trem fica longe daqui?"
+      },
+      {
+        "ru": "До вокзала, пожалуйста.",
+        "es": "A la estación de tren, por favor.",
+        "pt-BR": "Até a estação de trem, por favor."
+      }
+    ]
+  },
+  "高铁": {
+    "ru": "скоростной поезд / гао те",
+    "es": "tren de alta velocidad",
+    "pt-BR": "trem-bala / trem de alta velocidade",
+    "examples": [
+      {
+        "ru": "Я еду в Пекин на скоростном поезде.",
+        "es": "Voy a Pekín en tren de alta velocidad.",
+        "pt-BR": "Vou a Pequim de trem-bala."
+      },
+      {
+        "ru": "Билет на скоростной поезд купили?",
+        "es": "¿Compraste el billete del tren de alta velocidad?",
+        "pt-BR": "Você comprou a passagem do trem-bala?"
+      }
+    ]
+  },
+  "车票": {
+    "ru": "билет (на поезд/автобус)",
+    "es": "billete / boleto",
+    "pt-BR": "passagem",
+    "examples": [
+      {
+        "ru": "Где купить билет?",
+        "es": "¿Dónde se compra el billete?",
+        "pt-BR": "Onde se compra a passagem?"
+      },
+      {
+        "ru": "Предъявите, пожалуйста, билет.",
+        "es": "Muestre su billete, por favor.",
+        "pt-BR": "Mostre a passagem, por favor."
+      }
+    ]
+  },
+  "公交车": {
+    "ru": "автобус",
+    "es": "autobús",
+    "pt-BR": "ônibus",
+    "examples": [
+      {
+        "ru": "Этот автобус идёт в центр?",
+        "es": "¿Este autobús va al centro?",
+        "pt-BR": "Este ônibus vai ao centro?"
+      },
+      {
+        "ru": "Когда следующий автобус?",
+        "es": "¿Cuándo llega el próximo autobús?",
+        "pt-BR": "Quando chega o próximo ônibus?"
+      }
+    ]
+  },
+  "停这儿": {
+    "ru": "остановитесь здесь",
+    "es": "párese aquí",
+    "pt-BR": "pare aqui",
+    "examples": [
+      {
+        "ru": "Водитель, остановитесь здесь.",
+        "es": "Maestro, puede parar aquí.",
+        "pt-BR": "Motorista, pode parar aqui."
+      },
+      {
+        "ru": "Остановитесь у отеля впереди.",
+        "es": "Pare aquí en el hotel de adelante.",
+        "pt-BR": "Pare aqui no hotel à frente."
+      }
+    ]
+  },
+  "快一点": {
+    "ru": "побыстрее",
+    "es": "un poco más rápido",
+    "pt-BR": "um pouco mais rápido",
+    "examples": [
+      {
+        "ru": "Можно побыстрее? Я спешу.",
+        "es": "¿Puede ir un poco más rápido? Tengo prisa.",
+        "pt-BR": "Pode ir um pouco mais rápido? Estou com pressa."
+      },
+      {
+        "ru": "Пожалуйста, чуть быстрее, спасибо.",
+        "es": "Un poco más rápido, por favor.",
+        "pt-BR": "Um pouco mais rápido, por favor."
+      }
+    ]
+  },
+  "慢一点": {
+    "ru": "помедленнее",
+    "es": "un poco más despacio",
+    "pt-BR": "um pouco mais devagar",
+    "examples": [
+      {
+        "ru": "Помедленнее, мне нехорошо.",
+        "es": "Más despacio, por favor, no me siento bien.",
+        "pt-BR": "Mais devagar, por favor, não estou bem."
+      },
+      {
+        "ru": "Дорога скользкая, езжайте медленнее.",
+        "es": "La carretera está resbaladiza, vaya más despacio.",
+        "pt-BR": "A pista está escorregadia, vá mais devagar."
+      }
+    ]
+  },
+  "堵车": {
+    "ru": "пробка",
+    "es": "atasco / tráfico",
+    "pt-BR": "engarrafamento",
+    "examples": [
+      {
+        "ru": "Впереди пробка.",
+        "es": "Hay un atasco adelante.",
+        "pt-BR": "Tem engarrafamento à frente."
+      },
+      {
+        "ru": "В час пик очень стоят.",
+        "es": "En hora punta hay mucho tráfico.",
+        "pt-BR": "No horário de pico o trânsito está pesado."
+      }
+    ]
+  },
+  "出租车": {
+    "ru": "такси",
+    "es": "taxi",
+    "pt-BR": "táxi",
+    "examples": [
+      {
+        "ru": "Вызовите мне, пожалуйста, такси.",
+        "es": "Pida un taxi para mí, por favor.",
+        "pt-BR": "Chame um táxi para mim, por favor."
+      },
+      {
+        "ru": "Стоянка такси за выходом.",
+        "es": "La parada de taxis está fuera de la salida.",
+        "pt-BR": "O ponto de táxi fica do lado de fora da saída."
+      }
+    ]
+  },
+  "菜单": {
+    "ru": "меню",
+    "es": "menú / carta",
+    "pt-BR": "cardápio",
+    "examples": [
+      {
+        "ru": "Покажите, пожалуйста, меню.",
+        "es": "La carta, por favor.",
+        "pt-BR": "O cardápio, por favor."
+      },
+      {
+        "ru": "Есть меню на английском?",
+        "es": "¿Tienen menú en inglés?",
+        "pt-BR": "Tem cardápio em inglês?"
+      }
+    ]
+  },
+  "茶": {
+    "ru": "чай",
+    "es": "té",
+    "pt-BR": "chá",
+    "examples": [
+      {
+        "ru": "Принесите, пожалуйста, чайник горячего чая.",
+        "es": "Una tetera de té caliente, por favor.",
+        "pt-BR": "Uma chaleira de chá quente, por favor."
+      },
+      {
+        "ru": "Здесь чай подают бесплатно.",
+        "es": "Aquí el té es gratis.",
+        "pt-BR": "Aqui o chá é de graça."
+      }
+    ]
+  },
+  "水": {
+    "ru": "вода",
+    "es": "agua",
+    "pt-BR": "água",
+    "examples": [
+      {
+        "ru": "Дайте мне, пожалуйста, тёплой воды.",
+        "es": "Un vaso de agua tibia, por favor.",
+        "pt-BR": "Um copo de água morna, por favor."
+      },
+      {
+        "ru": "Бутилированную или из-под крана?",
+        "es": "¿Agua embotellada o del grifo?",
+        "pt-BR": "Água engarrafada ou da torneira?"
+      }
+    ]
+  },
+  "米饭": {
+    "ru": "рис",
+    "es": "arroz",
+    "pt-BR": "arroz",
+    "examples": [
+      {
+        "ru": "Ещё одну миску риса, пожалуйста.",
+        "es": "Otro tazón de arroz, por favor.",
+        "pt-BR": "Mais uma tigela de arroz, por favor."
+      },
+      {
+        "ru": "Это блюдо хорошо идёт с рисом.",
+        "es": "Este plato queda muy bien con arroz.",
+        "pt-BR": "Este prato combina muito com arroz."
+      }
+    ]
+  },
+  "面条": {
+    "ru": "лапша",
+    "es": "fideos / tallarines",
+    "pt-BR": "macarrão",
+    "examples": [
+      {
+        "ru": "Хочу лапшу с говядиной.",
+        "es": "Quisiera fideos con ternera.",
+        "pt-BR": "Quero macarrão com carne."
+      },
+      {
+        "ru": "Можно лапшу менее острую?",
+        "es": "¿Pueden los fideos ser menos picantes?",
+        "pt-BR": "Dá para o macarrão ficar menos picante?"
+      }
+    ]
+  },
+  "牛肉": {
+    "ru": "говядина",
+    "es": "ternera / carne de res",
+    "pt-BR": "carne bovina",
+    "examples": [
+      {
+        "ru": "Тут есть говядина?",
+        "es": "¿Esto lleva ternera?",
+        "pt-BR": "Isso tem carne bovina?"
+      },
+      {
+        "ru": "Порекомендуйте блюдо с говядиной.",
+        "es": "Recomiende un plato de ternera.",
+        "pt-BR": "Recomende um prato de carne."
+      }
+    ]
+  },
+  "鸡肉": {
+    "ru": "курица",
+    "es": "pollo",
+    "pt-BR": "frango",
+    "examples": [
+      {
+        "ru": "Я не ем курицу.",
+        "es": "No como pollo.",
+        "pt-BR": "Não como frango."
+      },
+      {
+        "ru": "Гунбао с курицей — классика.",
+        "es": "El pollo kung pao es un clásico.",
+        "pt-BR": "Frango kung pao é um clássico."
+      }
+    ]
+  },
+  "猪肉": {
+    "ru": "свинина",
+    "es": "cerdo",
+    "pt-BR": "porco",
+    "examples": [
+      {
+        "ru": "Сделайте порцию пельменей со свининой.",
+        "es": "Una ración de dumplings de cerdo, por favor.",
+        "pt-BR": "Uma porção de dumpling de porco, por favor."
+      },
+      {
+        "ru": "В этом блюде есть свинина?",
+        "es": "¿Este plato lleva cerdo?",
+        "pt-BR": "Este prato tem porco?"
+      }
+    ]
+  },
+  "鱼": {
+    "ru": "рыба",
+    "es": "pescado / pez",
+    "pt-BR": "peixe",
+    "examples": [
+      {
+        "ru": "Сегодня рыба очень свежая.",
+        "es": "El pescado de hoy está muy fresco.",
+        "pt-BR": "O peixe de hoje está bem fresco."
+      },
+      {
+        "ru": "Приготовьте рыбу на пару.",
+        "es": "Cueza un pescado al vapor, por favor.",
+        "pt-BR": "Cozinhe um peixe no vapor, por favor."
+      }
+    ]
+  },
+  "蔬菜": {
+    "ru": "овощи",
+    "es": "verduras / vegetales",
+    "pt-BR": "verduras / legumes",
+    "examples": [
+      {
+        "ru": "Положите, пожалуйста, больше овощей.",
+        "es": "Ponga más verduras, por favor.",
+        "pt-BR": "Coloque mais verdura, por favor."
+      },
+      {
+        "ru": "Есть овощи обжаренные без острого?",
+        "es": "¿Tienen verduras salteadas?",
+        "pt-BR": "Tem verdura refogada?"
+      }
+    ]
+  },
+  "价格": {
+    "ru": "цена",
+    "es": "precio",
+    "pt-BR": "preço",
+    "examples": [
+      {
+        "ru": "Можно немного дешевле?",
+        "es": "¿Se puede un poco más barato?",
+        "pt-BR": "Dá para ficar um pouco mais barato?"
+      },
+      {
+        "ru": "Скажите итоговую цену.",
+        "es": "Dígame el precio total.",
+        "pt-BR": "Diga o preço total."
+      }
+    ]
+  },
+  "打折": {
+    "ru": "скидка",
+    "es": "descuento",
+    "pt-BR": "desconto",
+    "examples": [
+      {
+        "ru": "Сегодня скидка 20% на всё.",
+        "es": "Hoy todo está al 80%.",
+        "pt-BR": "Hoje tudo está com 20% de desconto."
+      },
+      {
+        "ru": "Студентам есть скидка?",
+        "es": "¿Hay descuento para estudiantes?",
+        "pt-BR": "Tem desconto para estudante?"
+      }
+    ]
+  },
+  "尺码": {
+    "ru": "размер",
+    "es": "talla / talla de ropa",
+    "pt-BR": "tamanho",
+    "examples": [
+      {
+        "ru": "Есть размер побольше?",
+        "es": "¿Tienen una talla más grande?",
+        "pt-BR": "Tem um tamanho maior?"
+      },
+      {
+        "ru": "Мой размер — средний.",
+        "es": "Mi talla es mediana.",
+        "pt-BR": "Meu tamanho é médio."
+      }
+    ]
+  },
+  "颜色": {
+    "ru": "цвет",
+    "es": "color",
+    "pt-BR": "cor",
+    "examples": [
+      {
+        "ru": "Есть другие цвета?",
+        "es": "¿Hay otros colores?",
+        "pt-BR": "Tem outras cores?"
+      },
+      {
+        "ru": "Мне нравится этот цвет.",
+        "es": "Me gusta este color.",
+        "pt-BR": "Gosto desta cor."
+      }
+    ]
+  },
+  "试穿": {
+    "ru": "примерять",
+    "es": "probarse",
+    "pt-BR": "provar",
+    "examples": [
+      {
+        "ru": "Можно примерить?",
+        "es": "¿Puedo probármelo?",
+        "pt-BR": "Posso provar?"
+      },
+      {
+        "ru": "Где примерочная?",
+        "es": "¿Dónde está el probador?",
+        "pt-BR": "Onde fica o provador?"
+      }
+    ]
+  },
+  "发票": {
+    "ru": "фискальный чек / фапяо",
+    "es": "factura / fapiao",
+    "pt-BR": "nota fiscal / fapiao",
+    "examples": [
+      {
+        "ru": "Выпишите, пожалуйста, чек.",
+        "es": "Emita una factura, por favor.",
+        "pt-BR": "Emita uma nota fiscal, por favor."
+      },
+      {
+        "ru": "Чек можно отправить в отель?",
+        "es": "¿Pueden enviar la factura al hotel?",
+        "pt-BR": "Dá para enviar a nota para o hotel?"
+      }
+    ]
+  },
+  "贵": {
+    "ru": "дорогой",
+    "es": "caro",
+    "pt-BR": "caro",
+    "examples": [
+      {
+        "ru": "Немного дорого, можно дешевле?",
+        "es": "Está un poco caro, ¿se puede bajar?",
+        "pt-BR": "Está um pouco caro, dá para baixar?"
+      },
+      {
+        "ru": "Это дороже, чем в интернете.",
+        "es": "Esto es más caro que en internet.",
+        "pt-BR": "Isso é mais caro do que na internet."
+      }
+    ]
+  },
+  "便宜": {
+    "ru": "дешёвый",
+    "es": "barato",
+    "pt-BR": "barato",
+    "examples": [
+      {
+        "ru": "Есть что-нибудь подешевле?",
+        "es": "¿Hay algo más barato?",
+        "pt-BR": "Tem algo mais barato?"
+      },
+      {
+        "ru": "Здесь сувениры дешевле.",
+        "es": "Aquí las especialidades salen más baratas.",
+        "pt-BR": "Aqui as especialidades saem mais baratas."
+      }
+    ]
+  },
+  "免税": {
+    "ru": "без пошлины / duty-free",
+    "es": "libre de impuestos / duty free",
+    "pt-BR": "livre de impostos / duty-free",
+    "examples": [
+      {
+        "ru": "В этом магазине можно без пошлины?",
+        "es": "¿Esta tienda es duty free?",
+        "pt-BR": "Esta loja é duty-free?"
+      },
+      {
+        "ru": "В аэропорту я купил товары duty-free.",
+        "es": "Compré artículos libres de impuestos en el aeropuerto.",
+        "pt-BR": "Comprei itens duty-free no aeroporto."
+      }
+    ]
+  },
+  "退税": {
+    "ru": "возврат налога / tax refund",
+    "es": "devolución de impuestos",
+    "pt-BR": "reembolso de imposto",
+    "examples": [
+      {
+        "ru": "Туристы могут оформить возврат налога в аэропорту.",
+        "es": "Los turistas pueden solicitar la devolución en el aeropuerto.",
+        "pt-BR": "Turistas podem pedir o reembolso no aeroporto."
+      },
+      {
+        "ru": "Сохраните чек для возврата налога.",
+        "es": "Guarde la factura para la devolución.",
+        "pt-BR": "Guarde a nota para o reembolso."
+      }
+    ]
+  },
+  "目的地": {
+    "ru": "пункт назначения",
+    "es": "destino",
+    "pt-BR": "destino",
+    "examples": [
+      {
+        "ru": "Мой пункт назначения — набережная Вайтань.",
+        "es": "Mi destino es el Bund.",
+        "pt-BR": "Meu destino é o Bund."
+      },
+      {
+        "ru": "Водитель, сюда, пожалуйста.",
+        "es": "Conductor, a este destino, por favor.",
+        "pt-BR": "Motorista, para este destino, por favor."
+      }
+    ]
+  },
+  "左边": {
+    "ru": "налево / слева",
+    "es": "izquierda",
+    "pt-BR": "esquerda",
+    "examples": [
+      {
+        "ru": "На перекрёстке впереди налево.",
+        "es": "Gire a la izquierda en el cruce de adelante.",
+        "pt-BR": "Vire à esquerda no cruzamento à frente."
+      },
+      {
+        "ru": "Банк слева.",
+        "es": "El banco está a la izquierda.",
+        "pt-BR": "O banco fica à esquerda."
+      }
+    ]
+  },
+  "右边": {
+    "ru": "направо / справа",
+    "es": "derecha",
+    "pt-BR": "direita",
+    "examples": [
+      {
+        "ru": "На следующем перекрёстке направо.",
+        "es": "Gire a la derecha en el próximo cruce.",
+        "pt-BR": "Vire à direita no próximo cruzamento."
+      },
+      {
+        "ru": "Вход справа.",
+        "es": "La entrada está a la derecha.",
+        "pt-BR": "A entrada fica à direita."
+      }
+    ]
+  },
+  "直走": {
+    "ru": "прямо",
+    "es": "siga recto",
+    "pt-BR": "siga em frente",
+    "examples": [
+      {
+        "ru": "Идите прямо — и вы на месте.",
+        "es": "Siga recto y llega.",
+        "pt-BR": "Siga em frente e você chega."
+      },
+      {
+        "ru": "После светофора прямо.",
+        "es": "Después del semáforo, siga recto.",
+        "pt-BR": "Depois do semáforo, siga em frente."
+      }
+    ]
+  },
+  "景点": {
+    "ru": "достопримечательность",
+    "es": "atractivo turístico",
+    "pt-BR": "ponto turístico",
+    "examples": [
+      {
+        "ru": "Это очень известная достопримечательность.",
+        "es": "Este atractivo es muy famoso.",
+        "pt-BR": "Este ponto turístico é muito famoso."
+      },
+      {
+        "ru": "Сегодня мы посетим три места.",
+        "es": "Hoy visitamos tres atractivos.",
+        "pt-BR": "Hoje vamos a três pontos turísticos."
+      }
+    ]
+  },
+  "门票": {
+    "ru": "входной билет",
+    "es": "entrada / boleto de admisión",
+    "pt-BR": "ingresso",
+    "examples": [
+      {
+        "ru": "Сколько стоит один билет?",
+        "es": "¿Cuánto cuesta una entrada?",
+        "pt-BR": "Quanto custa um ingresso?"
+      },
+      {
+        "ru": "Студентам — льготные билеты.",
+        "es": "Los estudiantes pueden comprar entradas con descuento.",
+        "pt-BR": "Estudantes podem comprar ingresso com desconto."
+      }
+    ]
+  },
+  "导游": {
+    "ru": "гид",
+    "es": "guía turístico",
+    "pt-BR": "guia de turismo",
+    "examples": [
+      {
+        "ru": "Гид объясняет по-китайски.",
+        "es": "El guía explica en chino.",
+        "pt-BR": "O guia explica em chinês."
+      },
+      {
+        "ru": "Нам нужен англоязычный гид.",
+        "es": "Necesitamos un guía en inglés.",
+        "pt-BR": "Precisamos de um guia em inglês."
+      }
+    ]
+  },
+  "拍照": {
+    "ru": "фотографировать",
+    "es": "tomar fotos",
+    "pt-BR": "tirar fotos",
+    "examples": [
+      {
+        "ru": "Здесь можно фотографировать?",
+        "es": "¿Se pueden tomar fotos aquí?",
+        "pt-BR": "Pode tirar foto aqui?"
+      },
+      {
+        "ru": "Сфотографируйте меня, пожалуйста.",
+        "es": "Háganme una foto, por favor.",
+        "pt-BR": "Tira uma foto minha, por favor."
+      }
+    ]
+  },
+  "博物馆": {
+    "ru": "музей",
+    "es": "museo",
+    "pt-BR": "museu",
+    "examples": [
+      {
+        "ru": "В понедельник музей закрыт.",
+        "es": "El museo cierra los lunes.",
+        "pt-BR": "O museu fecha às segundas."
+      },
+      {
+        "ru": "Мы провели в музее два часа.",
+        "es": "Pasamos dos horas en el museo.",
+        "pt-BR": "Passamos duas horas no museu."
+      }
+    ]
+  },
+  "故宫": {
+    "ru": "Запретный город / Гугун",
+    "es": "Ciudad Prohibida",
+    "pt-BR": "Cidade Proibida",
+    "examples": [
+      {
+        "ru": "Гугун — обязательное место в Пекине.",
+        "es": "La Ciudad Prohibida es imprescindible en Pekín.",
+        "pt-BR": "A Cidade Proibida é imperdível em Pequim."
+      },
+      {
+        "ru": "Утром мы посетили Запретный город.",
+        "es": "Visitamos la Ciudad Prohibida esta mañana.",
+        "pt-BR": "Visitamos a Cidade Proibida esta manhã."
+      }
+    ]
+  },
+  "手机": {
+    "ru": "мобильный телефон",
+    "es": "teléfono móvil",
+    "pt-BR": "celular",
+    "examples": [
+      {
+        "ru": "У телефона сел аккумулятор.",
+        "es": "Se me acabó la batería del móvil.",
+        "pt-BR": "Meu celular está sem bateria."
+      },
+      {
+        "ru": "Можно воспользоваться вашим телефоном?",
+        "es": "¿Puedo usar tu teléfono?",
+        "pt-BR": "Posso usar o seu celular?"
+      }
+    ]
+  },
+  "无线网": {
+    "ru": "Wi-Fi / беспроводная сеть",
+    "es": "Wi-Fi",
+    "pt-BR": "Wi-Fi",
+    "examples": [
+      {
+        "ru": "Какой пароль от Wi-Fi?",
+        "es": "¿Cuál es la contraseña del Wi-Fi?",
+        "pt-BR": "Qual é a senha do Wi-Fi?"
+      },
+      {
+        "ru": "В номере Wi-Fi быстрый.",
+        "es": "El Wi-Fi de la habitación es rápido.",
+        "pt-BR": "O Wi-Fi do quarto é rápido."
+      }
+    ]
+  },
+  "流量": {
+    "ru": "мобильный трафик / интернет",
+    "es": "datos móviles",
+    "pt-BR": "dados móveis",
+    "examples": [
+      {
+        "ru": "У меня закончился трафик.",
+        "es": "Se me acabaron los datos.",
+        "pt-BR": "Meus dados acabaram."
+      },
+      {
+        "ru": "Здесь есть бесплатный мобильный интернет?",
+        "es": "¿Hay datos móviles gratis aquí?",
+        "pt-BR": "Tem dados móveis grátis aqui?"
+      }
+    ]
+  },
+  "充电": {
+    "ru": "заряжать",
+    "es": "cargar (un dispositivo)",
+    "pt-BR": "carregar (aparelho)",
+    "examples": [
+      {
+        "ru": "Где можно зарядить телефон?",
+        "es": "¿Dónde puedo cargar el teléfono?",
+        "pt-BR": "Onde posso carregar o celular?"
+      },
+      {
+        "ru": "Мой телефон нужно зарядить.",
+        "es": "Mi teléfono necesita carga.",
+        "pt-BR": "Meu celular precisa carregar."
+      }
+    ]
+  },
+  "扫码": {
+    "ru": "сканировать QR-код",
+    "es": "escanear un código QR",
+    "pt-BR": "escanear QR code",
+    "examples": [
+      {
+        "ru": "Оплатите, пожалуйста, по QR-коду.",
+        "es": "Pague escaneando el código QR.",
+        "pt-BR": "Pague escaneando o QR code."
+      },
+      {
+        "ru": "Перед входом нужно отсканировать код.",
+        "es": "Hay que escanear el código para entrar.",
+        "pt-BR": "É preciso escanear o código para entrar."
+      }
+    ]
+  },
+  "密码": {
+    "ru": "пароль",
+    "es": "contraseña",
+    "pt-BR": "senha",
+    "examples": [
+      {
+        "ru": "Какой пароль от Wi-Fi?",
+        "es": "¿Cuál es la contraseña del Wi-Fi?",
+        "pt-BR": "Qual é a senha do Wi-Fi?"
+      },
+      {
+        "ru": "Введите пароль.",
+        "es": "Introduzca su contraseña.",
+        "pt-BR": "Digite a senha."
+      }
+    ]
+  },
+  "网络": {
+    "ru": "сеть / интернет",
+    "es": "red / internet",
+    "pt-BR": "rede / internet",
+    "examples": [
+      {
+        "ru": "Здесь сеть быстрая.",
+        "es": "La red aquí es rápida.",
+        "pt-BR": "A internet daqui é rápida."
+      },
+      {
+        "ru": "Я не могу подключиться к сети.",
+        "es": "No puedo conectarme a la red.",
+        "pt-BR": "Não consigo conectar à rede."
+      }
+    ]
+  },
+  "微信": {
+    "ru": "WeChat",
+    "es": "WeChat",
+    "pt-BR": "WeChat",
+    "examples": [
+      {
+        "ru": "Можно добавить друг друга в WeChat?",
+        "es": "¿Nos añadimos en WeChat?",
+        "pt-BR": "Podemos nos adicionar no WeChat?"
+      },
+      {
+        "ru": "Пришлите адрес в WeChat.",
+        "es": "Envíeme la dirección por WeChat.",
+        "pt-BR": "Me envie o endereço no WeChat."
+      }
+    ]
+  },
+  "SIM卡": {
+    "ru": "SIM-карта",
+    "es": "tarjeta SIM",
+    "pt-BR": "chip / cartão SIM",
+    "examples": [
+      {
+        "ru": "Помогите заменить SIM-карту.",
+        "es": "Ayúdeme a cambiar la SIM.",
+        "pt-BR": "Me ajude a trocar o chip."
+      },
+      {
+        "ru": "В аэропорту можно купить туристическую SIM.",
+        "es": "En el aeropuerto se puede comprar una SIM de viaje.",
+        "pt-BR": "No aeroporto dá para comprar um chip de viagem."
+      }
+    ]
+  },
+  "漫游": {
+    "ru": "роуминг",
+    "es": "roaming",
+    "pt-BR": "roaming",
+    "examples": [
+      {
+        "ru": "Перед поездкой включите международный роуминг.",
+        "es": "Active el roaming internacional antes de salir.",
+        "pt-BR": "Ative o roaming internacional antes de viajar."
+      },
+      {
+        "ru": "Роуминг довольно дорогой.",
+        "es": "Las tarifas de roaming son altas.",
+        "pt-BR": "A tarifa de roaming é alta."
+      }
+    ]
+  },
+  "钱": {
+    "ru": "деньги",
+    "es": "dinero",
+    "pt-BR": "dinheiro",
+    "examples": [
+      {
+        "ru": "Я забыл деньги.",
+        "es": "Olvidé traer dinero.",
+        "pt-BR": "Esqueci o dinheiro."
+      },
+      {
+        "ru": "Можно заплатить с телефона?",
+        "es": "¿Puedo pagar con el móvil?",
+        "pt-BR": "Posso pagar com o celular?"
+      }
+    ]
+  },
+  "付款": {
+    "ru": "оплата",
+    "es": "pago",
+    "pt-BR": "pagamento",
+    "examples": [
+      {
+        "ru": "Можно оплатить с телефона?",
+        "es": "¿Puedo pagar con el móvil?",
+        "pt-BR": "Posso pagar com o celular?"
+      },
+      {
+        "ru": "Оплачу по прибытии.",
+        "es": "Pago al llegar.",
+        "pt-BR": "Pago na chegada."
+      }
+    ]
+  },
+  "现金": {
+    "ru": "наличные",
+    "es": "efectivo",
+    "pt-BR": "dinheiro em espécie",
+    "examples": [
+      {
+        "ru": "Можно наличными?",
+        "es": "¿Puedo pagar en efectivo?",
+        "pt-BR": "Posso pagar em dinheiro?"
+      },
+      {
+        "ru": "Наличных с собой не хватает.",
+        "es": "No llevo suficiente efectivo.",
+        "pt-BR": "Não tenho dinheiro suficiente em espécie."
+      }
+    ]
+  },
+  "刷卡": {
+    "ru": "оплатить картой",
+    "es": "pagar con tarjeta",
+    "pt-BR": "pagar no cartão",
+    "examples": [
+      {
+        "ru": "Можно картой?",
+        "es": "¿Puedo pagar con tarjeta?",
+        "pt-BR": "Aceita cartão?"
+      },
+      {
+        "ru": "Проведите карту здесь.",
+        "es": "Pase la tarjeta aquí.",
+        "pt-BR": "Passe o cartão aqui."
+      }
+    ]
+  },
+  "支付宝": {
+    "ru": "Alipay",
+    "es": "Alipay",
+    "pt-BR": "Alipay",
+    "examples": [
+      {
+        "ru": "Здесь принимают Alipay?",
+        "es": "¿Se puede pagar con Alipay aquí?",
+        "pt-BR": "Aceita Alipay aqui?"
+      },
+      {
+        "ru": "Я обычно плачу через Alipay.",
+        "es": "Suelo pagar con Alipay.",
+        "pt-BR": "Costumo pagar com Alipay."
+      }
+    ]
+  },
+  "微信支付": {
+    "ru": "WeChat Pay",
+    "es": "WeChat Pay",
+    "pt-BR": "WeChat Pay",
+    "examples": [
+      {
+        "ru": "Откройте WeChat Pay.",
+        "es": "Abra WeChat Pay.",
+        "pt-BR": "Abra o WeChat Pay."
+      },
+      {
+        "ru": "Магазин принимает только WeChat Pay.",
+        "es": "La tienda solo acepta WeChat Pay.",
+        "pt-BR": "A loja só aceita WeChat Pay."
+      }
+    ]
+  },
+  "汇率": {
+    "ru": "курс обмена",
+    "es": "tipo de cambio",
+    "pt-BR": "câmbio / taxa de câmbio",
+    "examples": [
+      {
+        "ru": "Какой сегодня курс?",
+        "es": "¿Cuál es el tipo de cambio de hoy?",
+        "pt-BR": "Qual é o câmbio de hoje?"
+      },
+      {
+        "ru": "Курс меняется каждый день.",
+        "es": "El tipo de cambio cambia todos los días.",
+        "pt-BR": "O câmbio muda todo dia."
+      }
+    ]
+  },
+  "找零": {
+    "ru": "сдача",
+    "es": "cambio (dinero)",
+    "pt-BR": "troco",
+    "examples": [
+      {
+        "ru": "Сдачу не надо.",
+        "es": "Quédese con el cambio.",
+        "pt-BR": "Pode ficar com o troco."
+      },
+      {
+        "ru": "Продавец быстро дал сдачу.",
+        "es": "El empleado dio el cambio de inmediato.",
+        "pt-BR": "O atendente deu o troco na hora."
+      }
+    ]
+  },
+  "收据": {
+    "ru": "чек / квитанция",
+    "es": "recibo",
+    "pt-BR": "recibo",
+    "examples": [
+      {
+        "ru": "Дайте, пожалуйста, чек.",
+        "es": "Un recibo, por favor.",
+        "pt-BR": "Um recibo, por favor."
+      },
+      {
+        "ru": "Чек я положил в кошелёк.",
+        "es": "Puse el recibo en la cartera.",
+        "pt-BR": "Coloquei o recibo na carteira."
+      }
+    ]
+  },
+  "预算": {
+    "ru": "бюджет",
+    "es": "presupuesto",
+    "pt-BR": "orçamento",
+    "examples": [
+      {
+        "ru": "Мой бюджет на поездку ограничен.",
+        "es": "Mi presupuesto de viaje es limitado.",
+        "pt-BR": "Meu orçamento de viagem é limitado."
+      },
+      {
+        "ru": "Маршрут планируем по бюджету.",
+        "es": "Planeamos el viaje según el presupuesto.",
+        "pt-BR": "Planejamos a viagem de acordo com o orçamento."
+      }
+    ]
+  },
+  "帮助": {
+    "ru": "помощь",
+    "es": "ayuda",
+    "pt-BR": "ajuda",
+    "examples": [
+      {
+        "ru": "Помогите, пожалуйста!",
+        "es": "¡Ayúdenme, por favor!",
+        "pt-BR": "Por favor, me ajudem!"
+      },
+      {
+        "ru": "Вы можете мне помочь?",
+        "es": "¿Puede ayudarme?",
+        "pt-BR": "Você pode me ajudar?"
+      }
+    ]
+  },
+  "警察": {
+    "ru": "полиция",
+    "es": "policía",
+    "pt-BR": "polícia",
+    "examples": [
+      {
+        "ru": "Вызовите полицию, пожалуйста.",
+        "es": "Llame a la policía, por favor.",
+        "pt-BR": "Chame a polícia, por favor."
+      },
+      {
+        "ru": "Полицейский участок впереди.",
+        "es": "La comisaría está más adelante.",
+        "pt-BR": "A delegacia fica à frente."
+      }
+    ]
+  },
+  "医院": {
+    "ru": "больница",
+    "es": "hospital",
+    "pt-BR": "hospital",
+    "examples": [
+      {
+        "ru": "Где ближайшая больница?",
+        "es": "¿Dónde está el hospital más cercano?",
+        "pt-BR": "Onde fica o hospital mais próximo?"
+      },
+      {
+        "ru": "Отвезите меня в больницу.",
+        "es": "Lléveme al hospital, por favor.",
+        "pt-BR": "Me leve ao hospital, por favor."
+      }
+    ]
+  },
+  "医生": {
+    "ru": "врач",
+    "es": "médico / doctora",
+    "pt-BR": "médico / médica",
+    "examples": [
+      {
+        "ru": "Мне нужно к врачу.",
+        "es": "Necesito ver a un médico.",
+        "pt-BR": "Preciso ver um médico."
+      },
+      {
+        "ru": "Есть врач, который говорит по-английски?",
+        "es": "¿Hay un médico que hable inglés?",
+        "pt-BR": "Tem médico que fale inglês?"
+      }
+    ]
+  },
+  "药店": {
+    "ru": "аптека",
+    "es": "farmacia",
+    "pt-BR": "farmácia",
+    "examples": [
+      {
+        "ru": "Есть аптека поблизости?",
+        "es": "¿Hay una farmacia cerca?",
+        "pt-BR": "Tem farmácia por perto?"
+      },
+      {
+        "ru": "Хочу купить лекарство от простуды.",
+        "es": "Quiero ir a la farmacia a comprar medicina para el resfriado.",
+        "pt-BR": "Quero ir à farmácia comprar remédio para resfriado."
+      }
+    ]
+  },
+  "救护车": {
+    "ru": "скорая помощь",
+    "es": "ambulancia",
+    "pt-BR": "ambulância",
+    "examples": [
+      {
+        "ru": "Вызовите скорую!",
+        "es": "¡Llame a una ambulancia!",
+        "pt-BR": "Chame uma ambulância!"
+      },
+      {
+        "ru": "Скорая уже в пути.",
+        "es": "La ambulancia ya está en camino.",
+        "pt-BR": "A ambulância já está a caminho."
+      }
+    ]
+  },
+  "着火": {
+    "ru": "пожар / горит",
+    "es": "incendio / en llamas",
+    "pt-BR": "incêndio / pegando fogo",
+    "examples": [
+      {
+        "ru": "Пожар, быстро уходите!",
+        "es": "¡Hay fuego, salgan rápido!",
+        "pt-BR": "Pegou fogo, saiam rápido!"
+      },
+      {
+        "ru": "Сообщите о пожаре.",
+        "es": "Avise del incendio.",
+        "pt-BR": "Avise o incêndio."
+      }
+    ]
+  },
+  "危险": {
+    "ru": "опасно / опасность",
+    "es": "peligroso / peligro",
+    "pt-BR": "perigoso / perigo",
+    "examples": [
+      {
+        "ru": "Здесь опасно, не подходите.",
+        "es": "Es peligroso aquí, no se acerque.",
+        "pt-BR": "Aqui é perigoso, não se aproxime."
+      },
+      {
+        "ru": "Будьте осторожны, впереди опасность.",
+        "es": "Tenga cuidado, hay peligro adelante.",
+        "pt-BR": "Tenha cuidado, tem perigo à frente."
+      }
+    ]
+  },
+  "报警": {
+    "ru": "вызывать полицию / заявлять",
+    "es": "llamar a la policía",
+    "pt-BR": "chamar a polícia",
+    "examples": [
+      {
+        "ru": "В опасности сразу вызывайте полицию.",
+        "es": "Si hay peligro, llame a la policía de inmediato.",
+        "pt-BR": "Se houver perigo, chame a polícia na hora."
+      },
+      {
+        "ru": "Я уже вызвал полицию.",
+        "es": "Ya llamé a la policía.",
+        "pt-BR": "Já chamei a polícia."
+      }
+    ]
+  },
+  "护照丢了": {
+    "ru": "потерян паспорт",
+    "es": "pasaporte perdido",
+    "pt-BR": "passaporte perdido",
+    "examples": [
+      {
+        "ru": "Я потерял паспорт, что делать?",
+        "es": "Perdí el pasaporte, ¿qué hago?",
+        "pt-BR": "Perdi o passaporte, o que eu faço?"
+      },
+      {
+        "ru": "Паспорт потерян, помогите связаться с посольством.",
+        "es": "Perdí el pasaporte, ayúdeme a contactar la embajada.",
+        "pt-BR": "Perdi o passaporte, me ajude a falar com a embaixada."
+      }
+    ]
+  }
+}
