@@ -79,9 +79,9 @@ struct StudyView: View {
                     .transition(.opacity)
             } else {
                 ContentUnavailableView(
-                    "No Words Available",
+                    String(localized: "study.empty.title"),
                     systemImage: "exclamationmark.triangle",
-                    description: Text("This study set could not be loaded.")
+                    description: Text("study.empty.desc")
                 )
             }
         }
@@ -141,7 +141,7 @@ struct StudyView: View {
                 .padding(.top, AppSpacing.medium)
                 .padding(.bottom, AppSpacing.small)
 
-                Text("Tap card to flip  ·  Swipe left for next")
+                Text("study.hint.flip_swipe")
                     .font(.caption)
                     .foregroundStyle(.tertiary)
                     .padding(.bottom, AppSpacing.small)

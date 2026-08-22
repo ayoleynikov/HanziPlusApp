@@ -15,12 +15,7 @@ enum MemoryMatchMode: String, CaseIterable, Identifiable, Codable {
     var id: String { rawValue }
 
     var label: String {
-        switch self {
-        case .chineseEnglish: "Chinese ↔ English"
-        case .chinesePinyin: "Chinese ↔ Pinyin"
-        case .chineseAudio: "Chinese ↔ Audio"
-        case .englishChinese: "English ↔ Chinese"
-        }
+        String(localized: String.LocalizationValue("games.memory.mode.\(rawValue)"))
     }
 
     var isAvailable: Bool {

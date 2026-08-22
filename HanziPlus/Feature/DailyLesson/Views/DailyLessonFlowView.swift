@@ -123,8 +123,8 @@ struct DailyLessonFlowView: View {
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 if vm.session.phase != .summary {
-                    Button("Close") { dismiss() }
-                        .accessibilityLabel("Close lesson and continue later")
+                    Button(String(localized: "common.close")) { dismiss() }
+                        .accessibilityLabel(String(localized: "lesson.a11y.close"))
                 }
             }
         }
@@ -132,9 +132,9 @@ struct DailyLessonFlowView: View {
 
     private var emptyLesson: some View {
         ContentUnavailableView(
-            "No words available",
+            String(localized: "lesson.empty.title"),
             systemImage: "text.book.closed",
-            description: Text("Try another study set from Learn.")
+            description: Text("lesson.empty.desc")
         )
     }
 
@@ -149,7 +149,7 @@ struct DailyLessonFlowView: View {
             total = max(vm.reviewQueue.count, 1)
             index = vm.session.currentIndex + 1
         case .summary:
-            return "Done"
+            return String(localized: "common.done")
         }
         return "\(index) / \(total)"
     }

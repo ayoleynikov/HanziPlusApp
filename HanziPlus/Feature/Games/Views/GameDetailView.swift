@@ -100,7 +100,7 @@ struct GameDetailView: View {
             Text("\(game.emoji) \(game.localizedTitle)")
                 .font(.largeTitle.weight(.bold))
 
-            Text(game.description)
+            Text(game.localizedDescription)
                 .font(.body)
                 .foregroundStyle(.secondary)
                 .fixedSize(horizontal: false, vertical: true)
@@ -109,10 +109,10 @@ struct GameDetailView: View {
 
     private var benefitsSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Benefits")
+            Text("games.detail.benefits")
                 .font(.title3.weight(.semibold))
 
-            ForEach(game.benefits, id: \.self) { benefit in
+            ForEach(Array(game.localizedBenefits.enumerated()), id: \.offset) { _, benefit in
                 Label {
                     Text(benefit)
                         .font(.subheadline)
@@ -129,16 +129,16 @@ struct GameDetailView: View {
 
     private var statsSection: some View {
         LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: AppSpacing.small) {
-            detailChip(title: "Difficulty", value: game.difficulty.label, tint: game.difficulty.color)
-            detailChip(title: "Est. Time", value: game.estimatedTimeLabel, tint: .blue)
-            detailChip(title: "XP Reward", value: game.xpRewardLabel, tint: .purple)
-            detailChip(title: "Best Score", value: stats.bestScore > 0 ? "\(stats.bestScore)" : "—", tint: .orange)
+            detailChip(title: String(localized: "games.difficulty"), value: game.difficulty.label, tint: game.difficulty.color)
+            detailChip(title: String(localized: "games.detail.est_time"), value: game.estimatedTimeLabel, tint: .blue)
+            detailChip(title: String(localized: "games.detail.xp_reward"), value: game.xpRewardLabel, tint: .purple)
+            detailChip(title: String(localized: "games.detail.best_score"), value: stats.bestScore > 0 ? "\(stats.bestScore)" : "—", tint: .orange)
         }
     }
 
     private var achievementsSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Achievements")
+            Text("games.detail.achievements")
                 .font(.title3.weight(.semibold))
 
             ForEach(relatedAchievements.prefix(4)) { achievement in
@@ -172,7 +172,7 @@ struct GameDetailView: View {
 
     private var modeSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Mode Selection")
+            Text("games.detail.mode_selection")
                 .font(.title3.weight(.semibold))
 
             VStack(spacing: 8) {
@@ -215,7 +215,7 @@ struct GameDetailView: View {
 
     private var difficultySection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Difficulty Selection")
+            Text("games.detail.difficulty_selection")
                 .font(.title3.weight(.semibold))
 
             GameDifficultyPicker(difficulty: $difficulty)
@@ -227,14 +227,14 @@ struct GameDetailView: View {
 
     private var personalStatsSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Your Statistics")
+            Text("games.detail.your_statistics")
                 .font(.title3.weight(.semibold))
 
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 10) {
-                statTile("Played", "\(stats.gamesPlayed)")
-                statTile("Accuracy", stats.gamesPlayed > 0 ? "\(stats.averageAccuracy)%" : "—")
-                statTile("Best Streak", "\(stats.longestStreak)")
-                statTile("Total XP", "\(stats.xpEarned)")
+                statTile(String(localized: "games.stat.played"), "\(stats.gamesPlayed)")
+                statTile(String(localized: "games.stat.accuracy"), stats.gamesPlayed > 0 ? "\(stats.averageAccuracy)%" : "—")
+                statTile(String(localized: "games.stat.best_streak"), "\(stats.longestStreak)")
+                statTile(String(localized: "games.stat.total_xp"), "\(stats.xpEarned)")
             }
         }
         .padding(20)
@@ -250,7 +250,7 @@ struct GameDetailView: View {
             HStack(spacing: 10) {
                 Image(systemName: "play.fill")
                     .font(.headline.weight(.bold))
-                Text("Start Game")
+                Text("games.start_game")
                     .font(.headline.weight(.semibold))
             }
             .foregroundStyle(.white)

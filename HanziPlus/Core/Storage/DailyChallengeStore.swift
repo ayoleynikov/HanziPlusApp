@@ -11,6 +11,10 @@ struct DailyChallengeTask: Identifiable, Codable, Equatable {
     let title: String
     let kind: GameKind
     let targetCount: Int
+
+    var localizedTitle: String {
+        String(localized: String.LocalizationValue("games.daily.task.\(id)"))
+    }
 }
 
 struct DailyChallengeState: Codable, Equatable {

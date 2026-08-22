@@ -70,19 +70,21 @@ struct CityUnlockCelebrationView: View {
                 .frame(height: 190)
 
                 VStack(spacing: 10) {
-                    Text(isJourneyComplete ? "🇨🇳 Journey Complete!" : "New Destination Unlocked!")
+                    Text(isJourneyComplete
+                         ? String(localized: "journey.celebration.complete_title")
+                         : String(localized: "journey.celebration.unlock_title"))
                         .font(.title2.weight(.bold))
                         .multilineTextAlignment(.center)
 
                     Text(isJourneyComplete
-                         ? "You've explored all of China!"
-                         : "Welcome to \(city.name)!")
+                         ? String(localized: "journey.celebration.explored_all")
+                         : String(localized: "journey.celebration.welcome \(city.localizedName)"))
                         .font(.title3.weight(.semibold))
                         .foregroundStyle(city.theme.primary)
                         .multilineTextAlignment(.center)
 
                     if !isJourneyComplete {
-                        Text("Travel collectible unlocked: \(city.travelCollectible)")
+                        Text(String(localized: "journey.celebration.collectible \(city.travelCollectible)"))
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }
@@ -91,7 +93,7 @@ struct CityUnlockCelebrationView: View {
                 .offset(y: contentOffset)
 
                 Button(action: onDismiss) {
-                    Text(isJourneyComplete ? "Continue Journey" : "Explore \(city.name)")
+                    Text(isJourneyComplete ? String(localized: "journey.celebration.continue") : String(localized: "journey.celebration.explore \(city.localizedName)"))
                         .font(.body.weight(.semibold))
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 16)

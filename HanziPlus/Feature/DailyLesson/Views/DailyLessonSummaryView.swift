@@ -19,30 +19,30 @@ struct DailyLessonSummaryView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: AppSpacing.large) {
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Lesson Complete")
+                    Text("lesson.summary.title")
                         .font(.largeTitle.weight(.bold))
                         .accessibilityAddTraits(.isHeader)
 
-                    Text("You worked through \(wordCount) words today.")
+                    Text(String(localized: "lesson.summary.worked_through \(L10n.words(wordCount))"))
                         .font(.body)
                         .foregroundStyle(.secondary)
                 }
 
                 HStack(spacing: AppSpacing.small) {
                     summaryStat(
-                        title: "Studied",
+                        title: String(localized: "lesson.summary.stat_studied"),
                         value: "\(learnedCount)",
                         icon: "checkmark.seal.fill",
                         tint: .green
                     )
                     summaryStat(
-                        title: "Meaning",
+                        title: String(localized: "lesson.summary.stat_meaning"),
                         value: percent(meaningAccuracy),
                         icon: "text.book.closed.fill",
                         tint: .blue
                     )
                     summaryStat(
-                        title: "Listening",
+                        title: String(localized: "lesson.summary.stat_listening"),
                         value: percent(listeningAccuracy),
                         icon: "ear.fill",
                         tint: .orange
@@ -51,7 +51,7 @@ struct DailyLessonSummaryView: View {
 
                 if !mistakes.isEmpty {
                     VStack(alignment: .leading, spacing: AppSpacing.small) {
-                        Text("Words to review")
+                        Text("lesson.summary.words_to_review")
                             .font(.headline)
 
                         ForEach(mistakes) { word in
@@ -77,7 +77,7 @@ struct DailyLessonSummaryView: View {
                         }
                     }
                 } else {
-                    Label("No mistakes — great focus today.", systemImage: "sparkles")
+                    Label(String(localized: "lesson.summary.no_mistakes"), systemImage: "sparkles")
                         .font(.subheadline.weight(.medium))
                         .foregroundStyle(.secondary)
                 }
@@ -85,7 +85,7 @@ struct DailyLessonSummaryView: View {
                 VStack(spacing: AppSpacing.small) {
                     if !mistakes.isEmpty {
                         Button(action: onReviewMistakes) {
-                            Text("Review Mistakes")
+                            Text("lesson.summary.review_mistakes")
                                 .font(.body.weight(.semibold))
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 16)
@@ -97,7 +97,7 @@ struct DailyLessonSummaryView: View {
                     }
 
                     Button(action: onDone) {
-                        Text("Done")
+                        Text("common.done")
                             .font(.body.weight(.semibold))
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 16)
@@ -109,7 +109,7 @@ struct DailyLessonSummaryView: View {
                             .foregroundStyle(.orange)
                     }
                     .buttonStyle(.plain)
-                    .accessibilityHint("Closes the lesson. You can continue later from Today.")
+                    .accessibilityHint(String(localized: "lesson.summary.a11y_done_hint"))
                 }
             }
             .padding(.horizontal, AppSpacing.medium)

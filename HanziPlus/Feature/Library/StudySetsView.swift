@@ -63,7 +63,7 @@ struct StudySetsView: View {
             profile: profileStore.profile,
             learnedStore: learnedStore
         )
-        let setTitle = SampleStudySets.studySet(fileName: session.fileName)?.title ?? session.fileName
+        let setTitle = SampleStudySets.studySet(fileName: session.fileName)?.localizedTitle ?? session.fileName
 
         VStack(alignment: .leading, spacing: AppSpacing.small) {
             NavigationLink {

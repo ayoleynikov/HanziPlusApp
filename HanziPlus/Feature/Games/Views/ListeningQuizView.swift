@@ -58,7 +58,7 @@ struct ListeningQuizView: View {
 
             audioSection
 
-            Text("Which Hanzi did you hear?")
+            Text("games.listening.prompt")
                 .font(.subheadline.weight(.medium))
                 .foregroundStyle(.secondary)
 
@@ -123,7 +123,7 @@ struct ListeningQuizView: View {
             }
             .buttonStyle(.plain)
 
-            Text("Tap to replay")
+            Text("games.listening.replay")
                 .font(.caption)
                 .foregroundStyle(.tertiary)
         }

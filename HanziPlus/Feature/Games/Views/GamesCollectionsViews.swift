@@ -15,7 +15,7 @@ struct GamesCompletedView: View {
         List {
             Section {
                 HStack {
-                    Text("Total Sessions")
+                    Text("games.hub.total_sessions")
                     Spacer()
                     Text("\(gamesCompleted)")
                         .foregroundStyle(.secondary)
@@ -97,7 +97,7 @@ struct GamesPerfectScoresView: View {
                 ContentUnavailableView(
                     "No Perfect Scores Yet",
                     systemImage: "star.circle",
-                    description: Text("Finish a game with 100% accuracy to earn a perfect score.")
+                    description: Text("games.perfect_scores.empty")
                 )
             } else {
                 ForEach(perfectScoreGames) { game in
@@ -125,7 +125,7 @@ struct GamesPerfectScoresView: View {
                 }
             }
         }
-        .navigationTitle("Perfect Scores")
+        .navigationTitle(String(localized: "games.perfect_scores.title"))
         .navigationBarTitleDisplayMode(.inline)
     }
 }

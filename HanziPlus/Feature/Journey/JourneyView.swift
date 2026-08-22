@@ -96,10 +96,10 @@ struct JourneyView: View {
         VStack(alignment: .leading, spacing: 10) {
             HStack {
                 VStack(alignment: .leading, spacing: 6) {
-                    Text("Journey")
+                    Text("journey.title")
                         .font(.system(size: 34, weight: .bold, design: .rounded))
 
-                    Text("Travel across China as you master Chinese.")
+                    Text("journey.subtitle")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }
@@ -151,9 +151,9 @@ struct JourneyView: View {
         VStack(spacing: 12) {
             Text("🎉")
                 .font(.system(size: 48))
-            Text("China Journey Complete!")
+            Text("journey.complete.title")
                 .font(.title3.weight(.bold))
-            Text("You've collected every travel collectible. You're a true explorer!")
+            Text("journey.complete.subtitle")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)

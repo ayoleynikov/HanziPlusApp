@@ -30,8 +30,8 @@ final class AchievementStore {
         catalog.map { item in
             Achievement(
                 id: item.id,
-                title: item.title,
-                description: item.description,
+                title: String(localized: String.LocalizationValue("achievement.\(item.id).title")),
+                description: String(localized: String.LocalizationValue("achievement.\(item.id).description")),
                 icon: item.icon,
                 isUnlocked: unlockedIDs.contains(item.id)
             )

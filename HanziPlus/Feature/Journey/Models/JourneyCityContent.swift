@@ -23,6 +23,21 @@ struct JourneyVocabularyWord: Identifiable, Equatable {
     let hanzi: String
     let pinyin: String
     let english: String
+    let translations: [String: String]?
+
+    init(
+        id: String,
+        hanzi: String,
+        pinyin: String,
+        english: String,
+        translations: [String: String]? = nil
+    ) {
+        self.id = id
+        self.hanzi = hanzi
+        self.pinyin = pinyin
+        self.english = english
+        self.translations = translations
+    }
 }
 
 struct JourneyMiniActivity: Equatable {

@@ -37,8 +37,8 @@ struct DailyLessonPreviewView: View {
                         Text(example.hanzi)
                             .font(.body.weight(.medium))
                             .multilineTextAlignment(.center)
-                        if let english = example.english {
-                            Text(english)
+                        if let translation = example.localizedMeaning {
+                            Text(translation)
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)
                                 .multilineTextAlignment(.center)
@@ -46,7 +46,7 @@ struct DailyLessonPreviewView: View {
                     }
                     .padding(.top, 4)
                     .accessibilityElement(children: .combine)
-                    .accessibilityLabel("Example \(example.hanzi)\(example.english.map { ". \($0)" } ?? "")")
+                    .accessibilityLabel("Example \(example.hanzi)\(example.localizedMeaning.map { ". \($0)" } ?? "")")
                 }
 
                 DailyLessonSpeakButton(text: word.hanzi)
@@ -63,7 +63,7 @@ struct DailyLessonPreviewView: View {
             Spacer(minLength: AppSpacing.small)
 
             Button(action: onContinue) {
-                Text(index + 1 < total ? "Next Word" : "Start Practice")
+                Text(index + 1 < total ? String(localized: "lesson.preview.next_word") : String(localized: "lesson.preview.start_practice"))
                     .font(.body.weight(.semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
@@ -72,7 +72,7 @@ struct DailyLessonPreviewView: View {
                     .foregroundStyle(.white)
             }
             .buttonStyle(.plain)
-            .accessibilityHint("Moves to the next preview word or practice")
+            .accessibilityHint(String(localized: "lesson.preview.a11y_hint"))
         }
     }
 }

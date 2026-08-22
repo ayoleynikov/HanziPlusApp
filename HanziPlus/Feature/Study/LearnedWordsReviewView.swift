@@ -24,7 +24,7 @@ struct LearnedWordsReviewView: View {
                 ContentUnavailableView(
                     "No Learned Words",
                     systemImage: "checkmark.circle",
-                    description: Text("Words you mark as learned will appear here.")
+                    description: Text("study.learned_words.empty")
                 )
             } else {
                 List(learnedWords) { word in

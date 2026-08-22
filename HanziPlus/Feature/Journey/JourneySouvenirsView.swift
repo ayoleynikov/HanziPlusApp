@@ -17,7 +17,7 @@ struct JourneySouvenirsView: View {
                 ContentUnavailableView(
                     "No Souvenirs Yet",
                     systemImage: "gift",
-                    description: Text("Complete cities on your journey to collect souvenirs.")
+                    description: Text("journey.souvenirs.empty")
                 )
                 .padding(.top, 80)
             } else {
@@ -31,7 +31,7 @@ struct JourneySouvenirsView: View {
             }
         }
         .background(Color(.systemGroupedBackground))
-        .navigationTitle("Souvenirs")
+        .navigationTitle(String(localized: "journey.souvenirs.title"))
         .navigationBarTitleDisplayMode(.inline)
     }
 
@@ -44,11 +44,11 @@ struct JourneySouvenirsView: View {
                 .grayscale(collected ? 0 : 1)
                 .opacity(collected ? 1 : 0.25)
 
-            Text(city.souvenirName)
+            Text(city.localizedSouvenirName)
                 .font(.subheadline.weight(.semibold))
                 .multilineTextAlignment(.center)
 
-            Text(city.name)
+            Text(city.localizedName)
                 .font(.caption)
                 .foregroundStyle(.secondary)
         }

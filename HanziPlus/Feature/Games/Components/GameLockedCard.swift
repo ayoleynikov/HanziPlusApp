@@ -133,7 +133,7 @@ struct GameLockedCard: View {
                     .lineLimit(1)
             }
 
-            Text(game.shortDescription)
+            Text(game.localizedTagline)
                 .font(style == .compact ? .caption2 : .caption)
                 .foregroundStyle(.white.opacity(0.82))
                 .lineLimit(2)

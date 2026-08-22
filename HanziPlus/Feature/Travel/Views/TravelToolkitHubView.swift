@@ -31,19 +31,19 @@ struct TravelToolkitHubView: View {
                     quickAccessSection
                     categoriesSection
                     TravelPhraseStrip(
-                        title: "Favorites",
+                        title: String(localized: "travel.favorites"),
                         phrases: Array(phraseStore.favoritePhrases.prefix(12)),
-                        emptyTitle: "No favorites yet",
+                        emptyTitle: String(localized: "travel.favorites.empty_title"),
                         emptySystemImage: "heart",
-                        emptyDescription: "Heart a phrase to keep it ready offline.",
+                        emptyDescription: String(localized: "travel.favorites.empty_desc"),
                         seeAllRoute: .favorites
                     )
                     TravelPhraseStrip(
-                        title: "Recently Used",
+                        title: String(localized: "travel.recent"),
                         phrases: Array(phraseStore.recentPhrases.prefix(12)),
-                        emptyTitle: "No recent phrases",
+                        emptyTitle: String(localized: "travel.recent.empty_title"),
                         emptySystemImage: "clock",
-                        emptyDescription: "Opened or played phrases will appear here.",
+                        emptyDescription: String(localized: "travel.recent.empty_desc"),
                         seeAllRoute: .recent
                     )
                     tripEssentialsSection
@@ -53,14 +53,14 @@ struct TravelToolkitHubView: View {
             .padding(.bottom, AppSpacing.extraLarge)
         }
         .background(Color(.systemGroupedBackground))
-        .navigationTitle("Travel Toolkit")
+        .navigationTitle(String(localized: "travel.nav_title"))
         .navigationBarTitleDisplayMode(.large)
-        .searchable(text: $query, prompt: "Chinese, pinyin, English, tags")
+        .searchable(text: $query, prompt: String(localized: "travel.search.prompt"))
     }
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("Works fully offline — find a phrase, play it, or show your phone.")
+            Text("travel.offline_blurb")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
                 .fixedSize(horizontal: false, vertical: true)
@@ -71,7 +71,7 @@ struct TravelToolkitHubView: View {
 
     private var quickAccessSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("Quick Access")
+            Text("travel.section.quick_access")
                 .font(.title3.weight(.semibold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -93,7 +93,7 @@ struct TravelToolkitHubView: View {
 
     private var categoriesSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("Categories")
+            Text("travel.section.categories")
                 .font(.title3.weight(.semibold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -116,7 +116,7 @@ struct TravelToolkitHubView: View {
 
     private var tripEssentialsSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("Trip Essentials")
+            Text("travel.section.trip_essentials")
                 .font(.title3.weight(.semibold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -158,7 +158,7 @@ struct TravelToolkitHubView: View {
 
     private var studyWordsLink: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("Vocabulary Study")
+            Text("travel.section.vocab_study")
                 .font(.title3.weight(.semibold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -174,9 +174,9 @@ struct TravelToolkitHubView: View {
                             .foregroundStyle(.orange)
                     }
                     VStack(alignment: .leading, spacing: 4) {
-                        Text("Study Travel Words")
+                        Text("travel.study_words")
                             .font(.headline)
-                        Text("Flashcards from the Travel study set")
+                        Text("travel.study_words.subtitle")
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }
@@ -192,13 +192,13 @@ struct TravelToolkitHubView: View {
             }
             .buttonStyle(.plain)
             .padding(.horizontal, AppSpacing.medium)
-            .accessibilityLabel("Study Travel Words")
+            .accessibilityLabel(String(localized: "travel.study_words"))
         }
     }
 
     private var searchResultsSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("Results")
+            Text("travel.section.results")
                 .font(.title3.weight(.semibold))
                 .padding(.horizontal, AppSpacing.medium)
 

@@ -22,7 +22,7 @@ struct YourProgressSection: View {
                 Text("\(statistics.accuracy)%")
                     .font(.system(size: 36, weight: .bold))
 
-                Text("Overall Accuracy")
+                Text("settings.progress.overall_accuracy")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
             }
@@ -34,50 +34,50 @@ struct YourProgressSection: View {
                 Text("\(statistics.bestAccuracy)%")
                     .fontWeight(.semibold)
             } label: {
-                Label("Best Accuracy", systemImage: "trophy.fill")
+                Label(String(localized: "settings.progress.best_accuracy"), systemImage: "trophy.fill")
             }
 
             LabeledContent {
                 Text("\(statistics.quizzesCompleted)")
                     .fontWeight(.semibold)
             } label: {
-                Label("Quizzes Completed", systemImage: "checkmark.circle.fill")
+                Label(String(localized: "settings.progress.quizzes_completed"), systemImage: "checkmark.circle.fill")
             }
 
             LabeledContent {
                 Text("\(statistics.correctAnswers)")
                     .fontWeight(.semibold)
             } label: {
-                Label("Correct Answers", systemImage: "hand.thumbsup.fill")
+                Label(String(localized: "settings.progress.correct"), systemImage: "hand.thumbsup.fill")
             }
 
             LabeledContent {
                 Text("\(statistics.wrongAnswers)")
                     .fontWeight(.semibold)
             } label: {
-                Label("Wrong Answers", systemImage: "xmark.circle.fill")
+                Label(String(localized: "settings.progress.wrong"), systemImage: "xmark.circle.fill")
             }
 
             achievementRow(
                 icon: "1.circle.fill",
-                title: "First Quiz",
+                title: String(localized: "settings.progress.first_quiz"),
                 unlocked: statistics.quizzesCompleted >= 1
             )
 
             achievementRow(
                 icon: "10.circle.fill",
-                title: "10 Quizzes Completed",
+                title: String(localized: "settings.progress.ten_quizzes"),
                 unlocked: statistics.quizzesCompleted >= 10
             )
 
             achievementRow(
                 icon: "target",
-                title: "Perfect Score",
+                title: String(localized: "settings.progress.perfect_score"),
                 unlocked: statistics.bestAccuracy == 100
             )
 
             VStack(alignment: .leading, spacing: 8) {
-                Text("Next Goal")
+                Text("settings.progress.next_goal")
                     .font(.headline)
 
                 ProgressView(
@@ -85,7 +85,7 @@ struct YourProgressSection: View {
                     total: 10
                 )
 
-                Text("\(statistics.quizzesCompleted) / 10 Quizzes Completed")
+                Text(String(localized: "settings.progress.quizzes_goal \(statistics.quizzesCompleted)"))
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
@@ -94,16 +94,16 @@ struct YourProgressSection: View {
             Button(role: .destructive) {
                 showResetAlert = true
             } label: {
-                Label("Reset Statistics", systemImage: "trash")
+                Label(String(localized: "settings.progress.reset"), systemImage: "trash")
             }
         }
-        .alert("Reset Statistics?", isPresented: $showResetAlert) {
-            Button("Cancel", role: .cancel) {}
-            Button("Reset", role: .destructive) {
+        .alert(String(localized: "settings.progress.reset_alert_title"), isPresented: $showResetAlert) {
+            Button(String(localized: "common.cancel"), role: .cancel) {}
+            Button(String(localized: "common.reset"), role: .destructive) {
                 statistics.reset()
             }
         } message: {
-            Text("This will permanently delete all quiz statistics.")
+            Text("settings.progress.reset_alert_body")
         }
     }
 

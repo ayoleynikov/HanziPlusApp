@@ -36,7 +36,7 @@ struct DailyChallengeView: View {
                 challengeHub
             }
         }
-        .navigationTitle("Daily Challenge")
+        .navigationTitle(String(localized: "games.daily_challenge"))
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             dailyStore.refreshIfNeeded()
@@ -56,7 +56,7 @@ struct DailyChallengeView: View {
                 }
 
                 VStack(alignment: .leading, spacing: AppSpacing.medium) {
-                    Text("Today's Tasks")
+                    Text("games.daily.tasks_title")
                         .font(.title2.weight(.semibold))
 
                     ForEach(dailyStore.state.tasks) { task in
@@ -72,7 +72,7 @@ struct DailyChallengeView: View {
                     NavigationLink {
                         dailyTaskDestination(for: task)
                     } label: {
-                        Text("Start: \(task.title)")
+                        Text(String(localized: "games.daily.start_task \(task.localizedTitle)"))
                             .font(.body.weight(.semibold))
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 16)
@@ -83,7 +83,7 @@ struct DailyChallengeView: View {
                 }
 
                 if dailyStore.state.isFullyCompleted {
-                    Button("Claim Rewards") {
+                    Button(String(localized: "games.daily.claim_rewards")) {
                         viewModel?.finish(
                             scoreStore: scoreStore,
                             statisticsStore: statisticsStore,
@@ -109,7 +109,7 @@ struct DailyChallengeView: View {
                     .foregroundStyle(game.color)
 
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("Daily Challenge")
+                    Text("games.daily_challenge")
                         .font(.title2.weight(.bold))
                     Text(dailyStore.state.dateKey)
                         .font(.caption)
@@ -144,7 +144,7 @@ struct DailyChallengeView: View {
     }
 
     private var completedBanner: some View {
-        Label("All tasks completed today!", systemImage: "checkmark.seal.fill")
+        Label(String(localized: "games.daily.all_done"), systemImage: "checkmark.seal.fill")
             .font(.headline.weight(.semibold))
             .foregroundStyle(.green)
             .frame(maxWidth: .infinity, alignment: .leading)
@@ -188,7 +188,7 @@ private struct DailyTaskRow: View {
                 .font(.title3)
 
             VStack(alignment: .leading, spacing: 4) {
-                Text(task.title)
+                Text(task.localizedTitle)
                     .font(.headline.weight(.semibold))
                 Text("\(task.targetCount) items")
                     .font(.caption)

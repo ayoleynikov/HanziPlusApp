@@ -165,7 +165,7 @@ enum JourneyRequirementFactory {
         JourneyRequirement(
             id: "learned-\(count)",
             kind: .learnedWords,
-            title: "Learn \(count) words",
+            title: String(localized: "journey.req.learn_words \(count)"),
             target: count
         )
     }
@@ -174,7 +174,7 @@ enum JourneyRequirementFactory {
         JourneyRequirement(
             id: "xp-\(amount)",
             kind: .xp,
-            title: "Earn XP",
+            title: String(localized: "journey.req.earn_xp"),
             target: amount
         )
     }
@@ -183,7 +183,7 @@ enum JourneyRequirementFactory {
         JourneyRequirement(
             id: "games-\(count)",
             kind: .gamesPlayed,
-            title: "Play Games",
+            title: String(localized: "journey.req.play_games"),
             target: count
         )
     }
@@ -192,7 +192,7 @@ enum JourneyRequirementFactory {
         JourneyRequirement(
             id: "accuracy-\(percent)",
             kind: .accuracy,
-            title: "Reach \(percent)% accuracy",
+            title: String(localized: "journey.req.accuracy \(percent)"),
             target: percent
         )
     }
@@ -201,7 +201,7 @@ enum JourneyRequirementFactory {
         JourneyRequirement(
             id: "hsk1-complete",
             kind: .hsk1Complete,
-            title: "Complete HSK 1",
+            title: String(localized: "journey.req.hsk1"),
             target: 1
         )
     }
@@ -210,7 +210,7 @@ enum JourneyRequirementFactory {
         JourneyRequirement(
             id: "hsk2-complete",
             kind: .hsk2Complete,
-            title: "Complete HSK 2",
+            title: String(localized: "journey.req.hsk2"),
             target: 1
         )
     }

@@ -49,7 +49,7 @@ struct WordDetailView: View {
                 Button {
                     SpeechService.shared.speak(word.hanzi)
                 } label: {
-                    Label("Listen", systemImage: "speaker.wave.2.fill")
+                    Label(String(localized: "common.listen"), systemImage: "speaker.wave.2.fill")
                         .font(.headline)
                         .frame(maxWidth: .infinity)
                         .padding()
@@ -62,7 +62,7 @@ struct WordDetailView: View {
 
                 if !word.examples.isEmpty {
                     VStack(alignment: .leading, spacing: 16) {
-                        Label("Examples", systemImage: "text.quote")
+                        Label(String(localized: "word.detail.examples"), systemImage: "text.quote")
                             .font(.headline)
 
                         ForEach(word.examples) { example in

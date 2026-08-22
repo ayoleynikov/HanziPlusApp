@@ -35,7 +35,7 @@ struct GameStudySetPickerView: View {
                     .padding(.top, AppSpacing.small)
 
                 VStack(alignment: .leading, spacing: AppSpacing.medium) {
-                    Text("Choose a Study Set")
+                    Text("games.choose_study_set")
                         .font(.title2.weight(.semibold))
                         .padding(.horizontal, AppSpacing.medium)
 
@@ -88,7 +88,7 @@ struct GameStudySetPickerView: View {
                 Text(game.localizedTitle)
                     .font(.title3.weight(.bold))
 
-                Text(game.description)
+                Text(game.localizedDescription)
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
             }

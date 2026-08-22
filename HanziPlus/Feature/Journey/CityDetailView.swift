@@ -54,14 +54,14 @@ struct CityDetailView: View {
             )
             .ignoresSafeArea()
         )
-        .navigationTitle(city.name)
+        .navigationTitle(city.localizedName)
         .navigationBarTitleDisplayMode(.inline)
     }
 
     private var progressSection: some View {
         VStack(alignment: .leading, spacing: 12) {
             HStack {
-                Text("Chapter Progress")
+                Text("journey.detail.chapter_progress")
                     .font(.headline.weight(.semibold))
                 Spacer()
                 if isCompleted {
@@ -75,7 +75,7 @@ struct CityDetailView: View {
                 metric("XP", "\(progress.totalXP)")
                 metric("Words", "\(progress.learnedWords)")
                 metric("Games", "\(progress.gamesPlayed)")
-                metric("Done", "\(Int(fraction * 100))%")
+                metric(String(localized: "common.done_short"), "\(Int(fraction * 100))%")
             }
 
             AnimatedProgressBar(progress: fraction, tint: city.theme.primary, height: 7)
@@ -106,10 +106,10 @@ struct CityDetailView: View {
                 .foregroundStyle(city.theme.secondary)
 
             VStack(alignment: .leading, spacing: 4) {
-                Text("City Badge")
+                Text("journey.detail.city_badge")
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(.secondary)
-                Text(city.localAchievement)
+                Text(city.localizedAchievementName)
                     .font(.headline.weight(.semibold))
             }
 
@@ -133,18 +133,18 @@ struct CityDetailView: View {
                 .font(.system(size: 44))
 
             VStack(alignment: .leading, spacing: 4) {
-                Text("Souvenir")
+                Text("journey.detail.souvenir")
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(.secondary)
-                Text(city.souvenirName)
+                Text(city.localizedSouvenirName)
                     .font(.headline.weight(.semibold))
 
                 if isCompleted, let record = journeyStore.completion(for: city.id) {
-                    Text("Collected \(record.completedAt.formatted(date: .abbreviated, time: .omitted))")
+                    Text(String(localized: "journey.detail.collected_on \(record.completedAt.formatted(date: .abbreviated, time: .omitted))"))
                         .font(.caption)
                         .foregroundStyle(.tertiary)
                 } else {
-                    Text("Complete this chapter to collect")
+                    Text("journey.detail.complete_to_collect")
                         .font(.caption)
                         .foregroundStyle(.tertiary)
                 }
@@ -166,7 +166,7 @@ struct CityDetailView: View {
 
     private var requirementsCard: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("Unlock Requirements")
+            Text("journey.detail.unlock_requirements")
                 .font(.headline.weight(.semibold))
 
             ForEach(city.requirements.evaluations(for: progress, dailyStreak: progress.dailyStreak)) { evaluation in
@@ -186,7 +186,7 @@ struct CityDetailView: View {
             Button {
                 tabRouter.switchToStudy()
             } label: {
-                Text("Continue Learning")
+                Text("journey.cta.continue_learning")
                     .font(.body.weight(.semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
@@ -198,7 +198,7 @@ struct CityDetailView: View {
             Button {
                 tabRouter.switchToGames()
             } label: {
-                Text("Play Games")
+                Text("journey.cta.play_games")
                     .font(.body.weight(.semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 14)

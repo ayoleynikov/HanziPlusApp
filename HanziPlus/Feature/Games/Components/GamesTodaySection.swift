@@ -17,7 +17,7 @@ struct GamesTodaySection: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.large) {
-            Text("Today")
+            Text("games.section.today")
                 .font(.title2.weight(.bold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -47,7 +47,7 @@ struct GamesTodaySection: View {
 
     private var recentlyPlayedRow: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("Recently Played")
+            Text("games.section.recently_played")
                 .font(.headline.weight(.semibold))
 
             ScrollView(.horizontal, showsIndicators: false) {

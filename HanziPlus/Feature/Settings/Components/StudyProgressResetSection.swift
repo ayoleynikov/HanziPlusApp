@@ -27,7 +27,7 @@ struct StudyProgressResetSection: View {
                     studySetPendingReset = studySet
                 } label: {
                     HStack {
-                        Text("Reset \(studySet.title) Progress")
+                        Text(String(localized: "settings.reset.set_progress \(studySet.localizedTitle)"))
                         Spacer()
                         Text("\(learned)/\(total)")
                             .font(.caption)
@@ -38,16 +38,16 @@ struct StudyProgressResetSection: View {
             }
         }
         .alert(
-            "Reset \(studySetPendingReset?.title ?? "") Progress?",
+            String(localized: "settings.reset.set_alert_title \(studySetPendingReset?.localizedTitle ?? "")"),
             isPresented: Binding(
                 get: { studySetPendingReset != nil },
                 set: { if !$0 { studySetPendingReset = nil } }
             )
         ) {
-            Button("Cancel", role: .cancel) {
+            Button(String(localized: "common.cancel"), role: .cancel) {
                 studySetPendingReset = nil
             }
-            Button("Reset", role: .destructive) {
+            Button(String(localized: "common.reset"), role: .destructive) {
                 if let studySet = studySetPendingReset {
                     learnedStore.reset(fileName: studySet.fileName)
                     smartReviewStore.reset(fileName: studySet.fileName)
@@ -61,7 +61,7 @@ struct StudyProgressResetSection: View {
                 studySetPendingReset = nil
             }
         } message: {
-            Text("This will remove all learned words and session progress for this study set. Your favorites will not be affected.")
+            Text("settings.reset.set_alert_body")
         }
     }
 

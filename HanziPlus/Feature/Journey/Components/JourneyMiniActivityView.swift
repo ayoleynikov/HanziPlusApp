@@ -17,7 +17,7 @@ struct JourneyMiniActivityView: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: AppSpacing.large) {
-                Text(city.miniActivity.instruction)
+                Text(city.localizedMiniInstruction)
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
@@ -34,11 +34,11 @@ struct JourneyMiniActivityView: View {
                 }
             }
             .padding(AppSpacing.medium)
-            .navigationTitle(city.miniActivity.title)
+            .navigationTitle(city.localizedMiniTitle)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button("Close") { dismiss() }
+                    Button(String(localized: "common.close")) { dismiss() }
                 }
             }
             .onAppear { setupTiles(); startTimer() }
@@ -75,14 +75,14 @@ struct JourneyMiniActivityView: View {
                 .scaleEffect(found ? 1 : 0.5)
                 .animation(.spring(response: 0.5, dampingFraction: 0.65), value: found)
 
-            Text("Great find!")
+            Text("journey.mini.great_find")
                 .font(.title2.weight(.bold))
 
             Label("+\(city.miniActivity.xpReward) XP", systemImage: "sparkles")
                 .font(.headline)
                 .foregroundStyle(city.theme.primary)
 
-            Button("Done") { dismiss() }
+            Button(String(localized: "common.done")) { dismiss() }
                 .buttonStyle(.borderedProminent)
                 .tint(city.theme.primary)
                 .padding(.top, 8)

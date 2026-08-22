@@ -49,16 +49,16 @@ struct JourneyCityHeroCard: View {
                             .shadow(color: .black.opacity(0.15), radius: 8, y: 4)
 
                         VStack(alignment: .leading, spacing: 4) {
-                            Text("🇨🇳 \(city.name)")
+                            Text("🇨🇳 \(city.localizedName)")
                                 .font(.title.weight(.bold))
                                 .foregroundStyle(.white)
-                            Text(city.province)
+                            Text(city.localizedProvince)
                                 .font(.subheadline.weight(.medium))
                                 .foregroundStyle(.white.opacity(0.85))
                         }
                     }
 
-                    Text(city.introduction)
+                    Text(city.localizedIntroduction)
                         .font(.subheadline)
                         .foregroundStyle(.white.opacity(0.92))
                         .fixedSize(horizontal: false, vertical: true)
@@ -85,13 +85,13 @@ struct JourneyCityInfoGrid: View {
 
     var body: some View {
         LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: AppSpacing.small) {
-            JourneyInfoTile(icon: "person.3.fill", title: "Population", value: city.population, tint: city.theme.primary)
-            JourneyInfoTile(icon: "mappin.and.ellipse", title: "Province", value: city.province, tint: city.theme.primary)
-            JourneyInfoTile(icon: "star.fill", title: "Famous For", value: city.famousFor, tint: city.theme.secondary)
-            JourneyInfoTile(icon: "sun.max.fill", title: "Best Season", value: city.bestSeason, tint: city.theme.secondary)
+            JourneyInfoTile(icon: "person.3.fill", title: String(localized: "journey.info.population"), value: city.localizedPopulation, tint: city.theme.primary)
+            JourneyInfoTile(icon: "mappin.and.ellipse", title: String(localized: "journey.info.province"), value: city.localizedProvince, tint: city.theme.primary)
+            JourneyInfoTile(icon: "star.fill", title: String(localized: "journey.info.famous_for"), value: city.localizedFamousFor, tint: city.theme.secondary)
+            JourneyInfoTile(icon: "sun.max.fill", title: String(localized: "journey.info.best_season"), value: city.localizedBestSeason, tint: city.theme.secondary)
         }
 
-        JourneyInfoTile(icon: "fork.knife", title: "Local Food", value: city.localFood, tint: city.theme.primary, fullWidth: true)
+        JourneyInfoTile(icon: "fork.knife", title: String(localized: "journey.info.local_food"), value: city.localizedLocalFood, tint: city.theme.primary, fullWidth: true)
     }
 }
 
@@ -136,7 +136,7 @@ struct JourneyFactsSection: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            sectionHeader("Interesting Facts", icon: "lightbulb.max.fill")
+            sectionHeader(String(localized: "journey.section.facts_title"), icon: "lightbulb.max.fill")
 
             ForEach(city.facts) { fact in
                 HStack(alignment: .top, spacing: 12) {
@@ -168,7 +168,7 @@ struct JourneyMustVisitSection: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            sectionHeader("Must Visit", icon: "camera.fill")
+            sectionHeader(String(localized: "journey.section.must_visit_title"), icon: "camera.fill")
 
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 14) {
@@ -240,7 +240,7 @@ struct JourneyVocabularySection: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            sectionHeader("City Vocabulary", icon: "character.book.closed.fill")
+            sectionHeader(String(localized: "journey.section.vocab_title"), icon: "character.book.closed.fill")
 
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 10) {
                 ForEach(city.vocabulary) { word in
@@ -250,7 +250,7 @@ struct JourneyVocabularySection: View {
                         Text(word.pinyin)
                             .font(.caption)
                             .foregroundStyle(.secondary)
-                        Text(word.english)
+                        Text(word.localizedMeaning)
                             .font(.caption2)
                             .foregroundStyle(.tertiary)
                     }
@@ -274,7 +274,7 @@ struct JourneyMiniActivityCard: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            sectionHeader("Mini Activity", icon: "gamecontroller.fill")
+            sectionHeader(String(localized: "journey.section.mini_activity_title"), icon: "gamecontroller.fill")
 
             Button {
                 HapticService.medium()
@@ -291,7 +291,7 @@ struct JourneyMiniActivityCard: View {
                     }
 
                     VStack(alignment: .leading, spacing: 4) {
-                        Text(city.miniActivity.title)
+                        Text(city.localizedMiniTitle)
                             .font(.headline.weight(.semibold))
                             .foregroundStyle(.primary)
                         Text("~25 sec · +\(city.miniActivity.xpReward) XP")
@@ -350,7 +350,7 @@ struct JourneyPassportStrip: View {
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
             HStack {
-                Label("Travel Collection", systemImage: "rectangle.stack.fill")
+                Label(String(localized: "journey.link.travel_collection"), systemImage: "rectangle.stack.fill")
                     .font(.headline.weight(.bold))
                 Spacer()
                 Text("\(journeyStore.collectedSouvenirs.count)/\(JourneyCityCatalog.all.count)")
@@ -372,7 +372,7 @@ struct JourneyPassportStrip: View {
                                     .grayscale(stamped ? 0 : 1)
                                     .opacity(stamped ? 1 : 0.35)
                             }
-                            Text(city.name)
+                            Text(city.localizedName)
                                 .font(.caption2.weight(.medium))
                                 .foregroundStyle(stamped ? .primary : .tertiary)
                                 .lineLimit(1)

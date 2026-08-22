@@ -57,7 +57,7 @@ struct MatchPairsView: View {
                 .font(.caption.weight(.bold))
                 .foregroundStyle(.tertiary)
 
-            Text("Choose the matching meaning")
+            Text("games.match.prompt")
                 .font(.subheadline.weight(.medium))
                 .foregroundStyle(.secondary)
 

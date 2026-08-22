@@ -21,7 +21,7 @@ struct DailyLessonListeningView: View {
             VStack(spacing: 16) {
                 DailyLessonSpeakButton(text: word.hanzi, large: true)
 
-                Text("Tap to hear again")
+                Text("lesson.listening.tap_again")
                     .font(.caption)
                     .foregroundStyle(.tertiary)
 
@@ -31,7 +31,7 @@ struct DailyLessonListeningView: View {
                         .foregroundStyle(.secondary)
                         .accessibilityLabel("Pinyin \(word.pinyin)")
                 } else {
-                    Text("Which Hanzi did you hear?")
+                    Text("lesson.listening.prompt")
                         .font(.subheadline.weight(.medium))
                         .foregroundStyle(.secondary)
                 }
@@ -64,7 +64,7 @@ struct DailyLessonListeningView: View {
 
             if showFeedback {
                 Button(action: onContinue) {
-                    Text("Continue")
+                    Text("common.continue")
                         .font(.body.weight(.semibold))
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 16)

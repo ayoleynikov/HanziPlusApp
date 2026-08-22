@@ -29,7 +29,7 @@ struct DailyLessonMeaningView: View {
                         .transition(.opacity)
                         .accessibilityLabel("Pinyin \(word.pinyin)")
                 } else {
-                    Text("Choose the English meaning")
+                    Text("lesson.meaning.prompt")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }
@@ -59,7 +59,7 @@ struct DailyLessonMeaningView: View {
 
             if showFeedback {
                 Button(action: onContinue) {
-                    Text("Continue")
+                    Text("common.continue")
                         .font(.body.weight(.semibold))
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 16)

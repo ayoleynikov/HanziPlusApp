@@ -29,6 +29,20 @@ struct GameDefinition: Identifiable {
         String(localized: String.LocalizationValue("games.def.\(kind.rawValue).title"))
     }
 
+    var localizedDescription: String {
+        String(localized: String.LocalizationValue("games.def.\(kind.rawValue).description"))
+    }
+
+    var localizedTagline: String {
+        String(localized: String.LocalizationValue("games.def.\(kind.rawValue).tagline"))
+    }
+
+    var localizedBenefits: [String] {
+        (0..<benefits.count).map { index in
+            String(localized: String.LocalizationValue("games.def.\(kind.rawValue).benefit.\(index)"))
+        }
+    }
+
     var xpRewardLabel: String { String(localized: "games.xp_up_to \(xpReward)") }
     var estimatedTimeLabel: String { String(localized: "games.est_minutes \(estimatedMinutes)") }
 

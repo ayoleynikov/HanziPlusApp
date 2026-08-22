@@ -37,7 +37,7 @@ struct GameContinuePlayingCard: View {
                         AnimatedProgressBar(progress: session.progressValue, tint: game.color)
                             .frame(height: 5)
 
-                        Label("Continue", systemImage: "arrow.right")
+                        Label(String(localized: "common.continue"), systemImage: "arrow.right")
                             .font(.subheadline.weight(.semibold))
                             .foregroundStyle(game.color)
                     }
@@ -111,7 +111,7 @@ struct GameDailyChallengeCard: View {
             DailyChallengeView()
         } label: {
             VStack(alignment: .leading, spacing: 16) {
-                Text("Daily Challenge")
+                Text("games.daily_challenge")
                     .font(.headline.weight(.bold))
                     .foregroundStyle(.primary)
 
@@ -122,7 +122,7 @@ struct GameDailyChallengeCard: View {
                 }
 
                 HStack {
-                    Text("Reward")
+                    Text("games.hub.reward")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                     Spacer()
@@ -150,7 +150,7 @@ struct GameDailyChallengeCard: View {
                 .foregroundStyle(isDone ? Color.green : Color.secondary.opacity(0.4))
                 .font(.body.weight(.semibold))
 
-            Text("\(taskGame.emoji) \(task.title)")
+            Text("\(taskGame.emoji) \(task.localizedTitle)")
                 .font(.subheadline.weight(.medium))
                 .foregroundStyle(isDone ? .secondary : .primary)
                 .strikethrough(isDone, color: .secondary)
@@ -170,28 +170,28 @@ struct GamesPlayerStatsSection: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("Player Stats")
+            Text("games.hub.player_stats")
                 .font(.title2.weight(.bold))
 
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: AppSpacing.small) {
                     fitnessRingCard(
-                        title: "Today's XP",
+                        title: String(localized: "games.hub.todays_xp"),
                         value: "\(todayXP)",
                         icon: "sparkles",
                         tint: .purple,
                         progress: min(Double(todayXP) / 500.0, 1.0)
                     )
                     fitnessRingCard(
-                        title: "Weekly XP",
+                        title: String(localized: "games.hub.weekly_xp"),
                         value: "\(weeklyXP)",
                         icon: "calendar",
                         tint: .blue,
                         progress: min(Double(weeklyXP) / 2000.0, 1.0)
                     )
-                    fitnessStatCard(title: "Current Streak", value: "\(streak)", icon: "flame.fill", tint: .orange)
-                    fitnessStatCard(title: "Games Played", value: "\(gamesPlayed)", icon: "gamecontroller.fill", tint: .green)
-                    fitnessStatCard(title: "Accuracy", value: "\(accuracy)%", icon: "target", tint: .mint)
+                    fitnessStatCard(title: String(localized: "games.hub.current_streak"), value: "\(streak)", icon: "flame.fill", tint: .orange)
+                    fitnessStatCard(title: String(localized: "games.hub.games_played"), value: "\(gamesPlayed)", icon: "gamecontroller.fill", tint: .green)
+                    fitnessStatCard(title: String(localized: "games.stat.accuracy"), value: "\(accuracy)%", icon: "target", tint: .mint)
                 }
                 .padding(.vertical, 4)
             }

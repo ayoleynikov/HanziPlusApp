@@ -21,7 +21,7 @@ enum TodayDestinationRouter {
                     StudyView(studySet: set)
                 }
             } else {
-                ContentUnavailableView("Study set unavailable", systemImage: "book.closed")
+                ContentUnavailableView(String(localized: "today.router.study_unavailable"), systemImage: "book.closed")
             }
 
         case .smartReview(let fileName):
@@ -37,13 +37,13 @@ enum TodayDestinationRouter {
         case .travelHub, .travelEssentials:
             // Prefer tab deep-links from TodayView.open(_:). Fallback for safety.
             ContentUnavailableView(
-                "Travel Toolkit",
+                String(localized: "today.router.travel_title"),
                 systemImage: "airplane",
-                description: Text("Open the Travel tab to use offline phrases.")
+                description: Text("today.router.travel_desc")
             )
 
         case .journey, .learnTab, .gamesTab:
-            ContentUnavailableView("Opening…", systemImage: "arrow.right.circle")
+            ContentUnavailableView(String(localized: "common.opening"), systemImage: "arrow.right.circle")
         }
     }
 }

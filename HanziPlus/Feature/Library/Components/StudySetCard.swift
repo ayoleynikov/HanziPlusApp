@@ -62,7 +62,7 @@ struct StudySetCard: View {
                 HStack(alignment: .firstTextBaseline) {
                     Spacer()
 
-                    Text("\(learnedWords) / \(wordCount) learned")
+                    Text(String(localized: "catalog.learned_fraction \(learnedWords) \(wordCount)"))
                         .font(.caption.weight(.medium))
                         .foregroundStyle(.secondary)
 

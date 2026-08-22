@@ -63,7 +63,7 @@ struct TypingChallengeView: View {
 
             if let word = viewModel.currentWord {
                 VStack(spacing: 8) {
-                    Text("Type the Hanzi for")
+                    Text("games.typing.prompt")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
 
@@ -127,12 +127,12 @@ struct TypingChallengeView: View {
     @ViewBuilder
     private var resultFeedback: some View {
         if viewModel.wasCorrect {
-            Label("Perfect!", systemImage: "checkmark.circle.fill")
+            Label(String(localized: "games.typing.perfect"), systemImage: "checkmark.circle.fill")
                 .foregroundStyle(.green)
                 .font(.headline.weight(.semibold))
         } else if let word = viewModel.currentWord {
             VStack(spacing: 4) {
-                Label("Correct answer", systemImage: "xmark.circle.fill")
+                Label(String(localized: "games.typing.correct_answer"), systemImage: "xmark.circle.fill")
                     .foregroundStyle(.red)
                     .font(.subheadline.weight(.semibold))
 

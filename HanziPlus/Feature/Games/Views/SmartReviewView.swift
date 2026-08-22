@@ -65,7 +65,7 @@ struct SmartReviewView: View {
                 .font(.system(size: 56, weight: .semibold))
                 .foregroundStyle(game.color)
 
-            Text("Today's Review")
+            Text("games.review.todays")
                 .font(.largeTitle.weight(.bold))
 
             if let viewModel {
@@ -82,7 +82,7 @@ struct SmartReviewView: View {
                 .studyCardShadow()
             }
 
-            Button("Start Review") {
+            Button(String(localized: "games.review.start")) {
                 hasStarted = true
             }
             .buttonStyle(.borderedProminent)
@@ -108,7 +108,7 @@ struct SmartReviewView: View {
     private func reviewSession(_ viewModel: SmartReviewViewModel) -> some View {
         VStack(spacing: AppSpacing.medium) {
             HStack {
-                Text("Completion \(viewModel.completionPercent)%")
+                Text(String(localized: "games.review.completion \(viewModel.completionPercent)"))
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(game.color)
                 Spacer()

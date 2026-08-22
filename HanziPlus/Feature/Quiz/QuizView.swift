@@ -30,12 +30,12 @@ struct QuizView: View {
                         let total = max(1, viewModel.correctAnswers + viewModel.wrongAnswers)
                         let accuracy = Int(Double(viewModel.correctAnswers) / Double(total) * 100)
 
-                        Button("Try Again") {
+                        Button(String(localized: "quiz.try_again")) {
                             viewModel.restart()
                         }
                         .buttonStyle(.borderedProminent)
 
-                        Button("Back to Library") {
+                        Button(String(localized: "quiz.back_to_library")) {
                             dismiss()
                         }
                         .buttonStyle(.bordered)
@@ -50,7 +50,7 @@ struct QuizView: View {
                                     .font(.system(size: 80))
                                     .foregroundStyle(.yellow)
 
-                                Text("Perfect Score!")
+                                Text("quiz.result.perfect")
                                     .font(.title.bold())
                                     .foregroundStyle(.yellow)
 
@@ -60,7 +60,7 @@ struct QuizView: View {
                                     .font(.system(size: 80))
                                     .foregroundStyle(.gray)
 
-                                Text("Excellent!")
+                                Text("quiz.result.excellent")
                                     .font(.title.bold())
 
                             } else if accuracy >= 60 {
@@ -69,7 +69,7 @@ struct QuizView: View {
                                     .font(.system(size: 80))
                                     .foregroundStyle(.orange)
 
-                                Text("Good Job!")
+                                Text("quiz.result.good")
                                     .font(.title.bold())
 
                             } else {
@@ -78,7 +78,7 @@ struct QuizView: View {
                                     .font(.system(size: 80))
                                     .foregroundStyle(.blue)
 
-                                Text("Keep Practicing!")
+                                Text("quiz.result.keep_practicing")
                                     .font(.title.bold())
 
                             }
@@ -86,33 +86,33 @@ struct QuizView: View {
                         .transition(.scale.combined(with: .opacity))
                         .animation(.spring(response: 0.45, dampingFraction: 0.7), value: accuracy)
 
-                        Text("Quiz Complete")
+                        Text("quiz.complete")
                             .font(.largeTitle.bold())
 
-                        Text("Correct: \(viewModel.correctAnswers)")
+                        Text(String(localized: "quiz.correct_count \(viewModel.correctAnswers)"))
                             .font(.title2)
 
-                        Text("Wrong: \(viewModel.wrongAnswers)")
+                        Text(String(localized: "quiz.wrong_count \(viewModel.wrongAnswers)"))
                             .font(.title2)
 
 
-                        Text("Accuracy: \(accuracy)%")
+                        Text(String(localized: "quiz.accuracy \(accuracy)"))
                             .font(.headline)
                             .foregroundStyle(.secondary)
 
-                        Text("🏅 Best Score: \(viewModel.bestScore)%")
+                        Text(String(localized: "quiz.best_score \(viewModel.bestScore)"))
                             .font(.headline)
                             .foregroundStyle(.yellow)
 
                         if accuracy >= viewModel.bestScore && accuracy > 0 {
-                            Text("🎉 New Record!")
+                            Text("quiz.new_record")
                                 .font(.title3.bold())
                                 .foregroundStyle(.green)
                                 .transition(.scale.combined(with: .opacity))
                         }
 
                         VStack(spacing: 16) {
-                            Text("Final Score")
+                            Text("quiz.final_score")
                                 .font(.headline)
                                 .foregroundStyle(.secondary)
 
@@ -162,7 +162,7 @@ struct QuizView: View {
                                     .scaleEffect(viewModel.showResult ? 1.08 : 1.0)
                                     .animation(.spring(duration: 0.35), value: viewModel.showResult)
                             } else {
-                                Text("No words available")
+                                Text("quiz.empty_words")
                                     .foregroundStyle(.secondary)
                             }
                         }
@@ -172,7 +172,7 @@ struct QuizView: View {
                         .clipShape(RoundedRectangle(cornerRadius: 24))
                         .shadow(color: .black.opacity(0.08), radius: 10, y: 4)
 
-                        Text("Choose the correct meaning")
+                        Text("quiz.prompt")
                             .font(.headline)
                             .foregroundStyle(.secondary)
                             .padding(.bottom, 4)
@@ -199,7 +199,7 @@ struct QuizView: View {
                             }
                         }
 
-                        Text("Score: \(viewModel.correctAnswers) ✓   \(viewModel.wrongAnswers) ✗")
+                        Text(String(localized: "quiz.score_line \(viewModel.correctAnswers) \(viewModel.wrongAnswers)"))
                             .font(.headline)
                             .foregroundStyle(.secondary)
                             .padding(.bottom)
@@ -214,7 +214,7 @@ struct QuizView: View {
                 }
             }
             .padding()
-            .navigationTitle("Quiz")
+            .navigationTitle(String(localized: "quiz.nav_title"))
             .onChange(of: viewModel.showResult) { _, showResult in
 
                 guard showResult else { return }

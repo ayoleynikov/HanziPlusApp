@@ -118,7 +118,7 @@ struct GamesHubView: View {
     }
 
     private var header: some View {
-        Text("Games")
+        Text("games.title")
             .font(.largeTitle.weight(.bold))
             .padding(.horizontal, AppSpacing.medium)
             .padding(.top, AppSpacing.small)
@@ -126,7 +126,7 @@ struct GamesHubView: View {
 
     private var featuredCollectionsSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("Collections")
+            Text("games.section.collections")
                 .font(.title2.weight(.bold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -144,7 +144,7 @@ struct GamesHubView: View {
 
     private var allGamesSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.medium) {
-            Text("Play")
+            Text("games.section.play")
                 .font(.title2.weight(.bold))
                 .padding(.horizontal, AppSpacing.medium)
 

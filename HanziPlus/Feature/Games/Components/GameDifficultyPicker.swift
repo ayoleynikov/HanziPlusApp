@@ -10,7 +10,7 @@ struct GameDifficultyPicker: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text("Difficulty")
+            Text("games.difficulty")
                 .font(.headline)
 
             Picker("Difficulty", selection: $difficulty) {

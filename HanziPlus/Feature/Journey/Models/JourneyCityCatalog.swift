@@ -47,12 +47,12 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "bj-a4", name: "Peking Duck", emoji: "🦆", description: "Crispy-skinned duck, Beijing's signature dish.")
         ],
         vocabulary: vocab(
-            ("北京", "Běijīng", "Beijing"),
-            ("故宫", "Gùgōng", "Forbidden City"),
-            ("长城", "Chángchéng", "Great Wall"),
-            ("酒店", "jiǔdiàn", "hotel"),
-            ("旅游", "lǚyóu", "travel"),
-            ("地铁", "dìtiě", "subway")
+            ("北京", "Běijīng", "Beijing", "Пекин", "Pekín", "Pequim"),
+            ("故宫", "Gùgōng", "Forbidden City", "Запретный город", "Ciudad Prohibida", "Cidade Proibida"),
+            ("长城", "Chángchéng", "Great Wall", "Великая стена", "Gran Muralla", "Grande Muralha"),
+            ("酒店", "jiǔdiàn", "hotel", "отель", "hotel", "hotel"),
+            ("旅游", "lǚyóu", "travel", "путешествовать", "viajar", "viajar"),
+            ("地铁", "dìtiě", "subway", "метро", "metro", "metrô")
         ),
         miniActivity: JourneyMiniActivity(
             title: "Find the Great Wall",
@@ -101,12 +101,12 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "xa-a4", name: "Big Wild Goose Pagoda", emoji: "🛕", description: "Buddhist pagoda from the Tang dynasty.")
         ],
         vocabulary: vocab(
-            ("西安", "Xī'ān", "Xi'an"),
-            ("历史", "lìshǐ", "history"),
-            ("博物馆", "bówùguǎn", "museum"),
-            ("古城", "gǔchéng", "ancient city"),
-            ("文化", "wénhuà", "culture"),
-            ("参观", "cānguān", "to visit")
+            ("西安", "Xī'ān", "Xi'an", "Сиань", "Xi'an", "Xi'an"),
+            ("历史", "lìshǐ", "history", "история", "historia", "história"),
+            ("博物馆", "bówùguǎn", "museum", "музей", "museo", "museu"),
+            ("古城", "gǔchéng", "ancient city", "древний город", "ciudad antigua", "cidade antiga"),
+            ("文化", "wénhuà", "culture", "культура", "cultura", "cultura"),
+            ("参观", "cānguān", "to visit", "посещать", "visitar", "visitar")
         ),
         miniActivity: JourneyMiniActivity(
             title: "Assemble a Warrior",
@@ -155,12 +155,12 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "cd-a4", name: "Wuhou Shrine", emoji: "⛩", description: "Temple honoring Three Kingdoms heroes.")
         ],
         vocabulary: vocab(
-            ("成都", "Chéngdū", "Chengdu"),
-            ("熊猫", "xióngmāo", "panda"),
-            ("火锅", "huǒguō", "hot pot"),
-            ("辣", "là", "spicy"),
-            ("茶", "chá", "tea"),
-            ("慢", "màn", "slow")
+            ("成都", "Chéngdū", "Chengdu", "Чэнду", "Chengdú", "Chengdu"),
+            ("熊猫", "xióngmāo", "panda", "панда", "panda", "panda"),
+            ("火锅", "huǒguō", "hot pot", "хого", "hot pot", "hot pot"),
+            ("辣", "là", "spicy", "острый", "picante", "picante"),
+            ("茶", "chá", "tea", "чай", "té", "chá"),
+            ("慢", "màn", "slow", "медленный", "lento", "lento")
         ),
         miniActivity: JourneyMiniActivity(
             title: "Find the Panda",
@@ -209,12 +209,12 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "gl-a4", name: "Longji Terraces", emoji: "🌾", description: "Dragon's Backbone rice terraces.")
         ],
         vocabulary: vocab(
-            ("桂林", "Guìlín", "Guilin"),
-            ("山", "shān", "mountain"),
-            ("河", "hé", "river"),
-            ("风景", "fēngjǐng", "scenery"),
-            ("漂亮", "piàoliang", "beautiful"),
-            ("画", "huà", "painting")
+            ("桂林", "Guìlín", "Guilin", "Гуйлинь", "Guilin", "Guilin"),
+            ("山", "shān", "mountain", "гора", "montaña", "montanha"),
+            ("河", "hé", "river", "река", "río", "rio"),
+            ("风景", "fēngjǐng", "scenery", "пейзаж", "paisaje", "paisagem"),
+            ("漂亮", "piàoliang", "beautiful", "красивый", "bonito", "bonito"),
+            ("画", "huà", "painting", "картина", "pintura", "pintura")
         ),
         miniActivity: JourneyMiniActivity(
             title: "Paint the Landscape",
@@ -263,12 +263,12 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "sh-a4", name: "Nanjing Road", emoji: "🛍", description: "Premier shopping street, dazzling at night.")
         ],
         vocabulary: vocab(
-            ("上海", "Shànghǎi", "Shanghai"),
-            ("城市", "chéngshì", "city"),
-            ("现代", "xiàndài", "modern"),
-            ("高楼", "gāolóu", "skyscraper"),
-            ("地铁", "dìtiě", "subway"),
-            ("快", "kuài", "fast")
+            ("上海", "Shànghǎi", "Shanghai", "Шанхай", "Shanghái", "Xangai"),
+            ("城市", "chéngshì", "city", "город", "ciudad", "cidade"),
+            ("现代", "xiàndài", "modern", "современный", "moderno", "moderno"),
+            ("高楼", "gāolóu", "skyscraper", "небоскрёб", "rascacielos", "arranha-céu"),
+            ("地铁", "dìtiě", "subway", "метро", "metro", "metrô"),
+            ("快", "kuài", "fast", "быстрый", "rápido", "rápido")
         ),
         miniActivity: JourneyMiniActivity(
             title: "Skyline Puzzle",
@@ -317,12 +317,12 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "hz-a4", name: "Lingyin Temple", emoji: "⛩", description: "Ancient Buddhist temple in forested hills.")
         ],
         vocabulary: vocab(
-            ("杭州", "Hángzhōu", "Hangzhou"),
-            ("西湖", "Xīhú", "West Lake"),
-            ("茶", "chá", "tea"),
-            ("安静", "ānjìng", "quiet"),
-            ("春天", "chūntiān", "spring"),
-            ("美丽", "měilì", "beautiful")
+            ("杭州", "Hángzhōu", "Hangzhou", "Ханчжоу", "Hangzhou", "Hangzhou"),
+            ("西湖", "Xīhú", "West Lake", "Западное озеро", "Lago del Oeste", "Lago Ocidental"),
+            ("茶", "chá", "tea", "чай", "té", "chá"),
+            ("安静", "ānjìng", "quiet", "тихий", "tranquilo", "tranquilo"),
+            ("春天", "chūntiān", "spring", "весна", "primavera", "primavera"),
+            ("美丽", "měilì", "beautiful", "прекрасный", "hermoso", "bonito")
         ),
         miniActivity: JourneyMiniActivity(
             title: "Steep the Tea",
@@ -371,12 +371,12 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "sz-a4", name: "Silk Museum", emoji: "🧵", description: "Centuries of silk weaving tradition.")
         ],
         vocabulary: vocab(
-            ("苏州", "Sūzhōu", "Suzhou"),
-            ("花园", "huāyuán", "garden"),
-            ("丝绸", "sīchóu", "silk"),
-            ("桥", "qiáo", "bridge"),
-            ("水", "shuǐ", "water"),
-            ("传统", "chuántǒng", "tradition")
+            ("苏州", "Sūzhōu", "Suzhou", "Сучжоу", "Suzhou", "Suzhou"),
+            ("花园", "huāyuán", "garden", "сад", "jardín", "jardim"),
+            ("丝绸", "sīchóu", "silk", "шёлк", "seda", "seda"),
+            ("桥", "qiáo", "bridge", "мост", "puente", "ponte"),
+            ("水", "shuǐ", "water", "вода", "agua", "água"),
+            ("传统", "chuántǒng", "tradition", "традиция", "tradición", "tradição")
         ),
         miniActivity: JourneyMiniActivity(
             title: "Design a Garden",
@@ -425,12 +425,12 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "hb-a4", name: "Snow World", emoji: "❄️", description: "Fantasy snow castles and slides.")
         ],
         vocabulary: vocab(
-            ("哈尔滨", "Hā'ěrbīn", "Harbin"),
-            ("冰", "bīng", "ice"),
-            ("雪", "xuě", "snow"),
-            ("冷", "lěng", "cold"),
-            ("冬天", "dōngtiān", "winter"),
-            ("漂亮", "piàoliang", "beautiful")
+            ("哈尔滨", "Hā'ěrbīn", "Harbin", "Харбин", "Harbin", "Harbin"),
+            ("冰", "bīng", "ice", "лёд", "hielo", "gelo"),
+            ("雪", "xuě", "snow", "снег", "nieve", "neve"),
+            ("冷", "lěng", "cold", "холодный", "frío", "frio"),
+            ("冬天", "dōngtiān", "winter", "зима", "invierno", "inverno"),
+            ("漂亮", "piàoliang", "beautiful", "красивый", "bonito", "bonito")
         ),
         miniActivity: JourneyMiniActivity(
             title: "Carve the Ice",
@@ -479,12 +479,12 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "hk-a4", name: "Dim Sum", emoji: "🥟", description: "Steamed baskets of Cantonese delights.")
         ],
         vocabulary: vocab(
-            ("香港", "Xiānggǎng", "Hong Kong"),
-            ("港口", "gǎngkǒu", "harbor"),
-            ("点心", "diǎnxin", "dim sum"),
-            ("购物", "gòuwù", "shopping"),
-            ("晚上", "wǎnshang", "evening"),
-            ("热闹", "rènao", "lively")
+            ("香港", "Xiānggǎng", "Hong Kong", "Гонконг", "Hong Kong", "Hong Kong"),
+            ("港口", "gǎngkǒu", "harbor", "гавань", "puerto", "porto"),
+            ("点心", "diǎnxin", "dim sum", "димсам", "dim sum", "dim sum"),
+            ("购物", "gòuwù", "shopping", "шопинг", "compras", "compras"),
+            ("晚上", "wǎnshang", "evening", "вечер", "noche", "noite"),
+            ("热闹", "rènao", "lively", "оживлённый", "animado", "movimentado")
         ),
         miniActivity: JourneyMiniActivity(
             title: "Catch the Ferry",
@@ -498,9 +498,15 @@ enum JourneyCityCatalog {
         ])
     )
 
-    private static func vocab(_ items: (String, String, String)...) -> [JourneyVocabularyWord] {
+    private static func vocab(_ items: (String, String, String, String, String, String)...) -> [JourneyVocabularyWord] {
         items.enumerated().map { index, item in
-            JourneyVocabularyWord(id: "v-\(index)", hanzi: item.0, pinyin: item.1, english: item.2)
+            JourneyVocabularyWord(
+                id: "v-\(index)",
+                hanzi: item.0,
+                pinyin: item.1,
+                english: item.2,
+                translations: ["en": item.2, "ru": item.3, "es": item.4, "pt-BR": item.5]
+            )
         }
     }
 }

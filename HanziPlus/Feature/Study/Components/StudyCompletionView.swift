@@ -24,9 +24,9 @@ struct StudyCompletionView: View {
 
     private var completionSubtitle: String {
         if let sectionTitle {
-            return "You have completed \(sectionTitle) in \(studySet.title)."
+            return String(localized: "study.complete.subtitle_section \(sectionTitle) \(studySet.localizedTitle)")
         }
-        return "You have completed \(studySet.title)."
+        return String(localized: "study.complete.subtitle_set \(studySet.localizedTitle)")
     }
 
     var body: some View {
@@ -43,7 +43,7 @@ struct StudyCompletionView: View {
                 successIcon
 
                 VStack(spacing: AppSpacing.small) {
-                    Text("🎉 Congratulations!")
+                    Text("study.complete.congrats")
                         .font(.largeTitle.weight(.bold))
                         .multilineTextAlignment(.center)
 
@@ -52,7 +52,7 @@ struct StudyCompletionView: View {
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
 
-                    Text("\(totalWords) / \(totalWords) words learned.")
+                    Text(String(localized: "study.complete.words_learned \(totalWords) \(totalWords)"))
                         .font(.headline.weight(.semibold))
                         .foregroundStyle(studySet.color)
                         .padding(.top, 4)
@@ -64,21 +64,21 @@ struct StudyCompletionView: View {
 
                 VStack(spacing: AppSpacing.small) {
                     completionButton(
-                        title: "Review Learned Words",
+                        title: String(localized: "study.complete.review_learned"),
                         style: .primary,
                         color: studySet.color,
                         action: onReviewLearned
                     )
 
                     completionButton(
-                        title: "Start Again",
+                        title: String(localized: "study.complete.start_again"),
                         style: .secondary,
                         color: studySet.color,
                         action: onStartAgain
                     )
 
                     completionButton(
-                        title: "Back to Study Sets",
+                        title: String(localized: "study.complete.back_to_sets"),
                         style: .tertiary,
                         color: studySet.color,
                         action: onBackToSets

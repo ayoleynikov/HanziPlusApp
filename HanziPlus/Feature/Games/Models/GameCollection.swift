@@ -16,25 +16,11 @@ enum GameCollection: String, CaseIterable, Identifiable {
     var id: String { rawValue }
 
     var title: String {
-        switch self {
-        case .vocabulary: "Vocabulary"
-        case .memory: "Memory"
-        case .listening: "Listening"
-        case .speed: "Fast Challenge"
-        case .writing: "Writing"
-        case .review: "Smart Review"
-        }
+        String(localized: String.LocalizationValue("games.collection.\(rawValue).title"))
     }
 
     var subtitle: String {
-        switch self {
-        case .vocabulary: "Build your word library"
-        case .memory: "Master characters visually"
-        case .listening: "Train your ear"
-        case .speed: "Think fast, score big"
-        case .writing: "Active recall & typing"
-        case .review: "Focus on weak spots"
-        }
+        String(localized: String.LocalizationValue("games.collection.\(rawValue).subtitle"))
     }
 
     var emoji: String {

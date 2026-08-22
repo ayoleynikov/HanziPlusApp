@@ -47,7 +47,8 @@ struct SentencePuzzle: Identifiable, Equatable {
     let correctOrder: [String]
 
     var hanzi: String { example.hanzi }
-    var english: String { example.english ?? "" }
+    var localizedHint: String { example.localizedMeaning ?? "" }
+    var english: String { localizedHint }
 
     static func puzzles(from studySet: StudySet, limit: Int = 10) -> [SentencePuzzle] {
         let vocabulary = GameWordProvider.vocabularyHanzi(for: studySet)
@@ -65,8 +66,8 @@ struct SentencePuzzle: Identifiable, Equatable {
                 guard
                     tokens.count >= 3,
                     tokens.count <= 8,
-                    let english = example.english,
-                    !english.isEmpty
+                    let meaning = example.localizedMeaning,
+                    !meaning.isEmpty
                 else { continue }
 
                 puzzles.append(SentencePuzzle(

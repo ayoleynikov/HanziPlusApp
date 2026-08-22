@@ -92,7 +92,7 @@ struct HanziMemoryView: View {
     private var gameplay: some View {
         VStack(spacing: AppSpacing.medium) {
             HStack {
-                Text("Pairs Found")
+                Text("games.memory.pairs_found")
                     .font(.subheadline.weight(.medium))
                     .foregroundStyle(.secondary)
                 Text("\(viewModel.matchedPairs) / \(viewModel.totalPairs)")
@@ -101,7 +101,7 @@ struct HanziMemoryView: View {
 
                 Spacer()
 
-                Text("Moves")
+                Text("games.memory.moves")
                     .font(.subheadline.weight(.medium))
                     .foregroundStyle(.secondary)
                 Text("\(viewModel.moves)")

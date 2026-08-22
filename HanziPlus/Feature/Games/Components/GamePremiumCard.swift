@@ -221,7 +221,7 @@ struct GamePremiumCard: View {
             Image(systemName: "sparkles")
                 .font(.caption2.weight(.bold))
                 .symbolEffect(.pulse, options: .repeating)
-            Text("Recommended Today")
+            Text("games.daily.recommended")
                 .font(.caption2.weight(.bold))
         }
         .foregroundStyle(.white)
@@ -251,7 +251,7 @@ struct GamePremiumCard: View {
                     .lineLimit(style == .compact ? 1 : 2)
                     .shadow(color: .black.opacity(0.35), radius: 4, y: 2)
 
-                Text(game.shortDescription)
+                Text(game.localizedTagline)
                     .font(style == .compact ? .caption2 : .caption)
                     .foregroundStyle(.white.opacity(0.88))
                     .lineLimit(style == .compact ? 2 : 2)

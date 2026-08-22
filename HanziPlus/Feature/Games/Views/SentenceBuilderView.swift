@@ -37,7 +37,7 @@ struct SentenceBuilderView: View {
                 ContentUnavailableView(
                     "No Sentences Available",
                     systemImage: "text.word.spacing",
-                    description: Text("This study set doesn't have enough example sentences yet.")
+                    description: Text("games.sentence.empty")
                 )
             } else {
                 gameplay
@@ -61,7 +61,7 @@ struct SentenceBuilderView: View {
                         return true
                     }
 
-                Text("Drag words to build the sentence")
+                Text("games.sentence.prompt")
                     .font(.caption)
                     .foregroundStyle(.tertiary)
 
@@ -155,7 +155,7 @@ struct SentenceBuilderView: View {
             }
 
             if viewModel.builtTokens.isEmpty {
-                Text("Drop words here")
+                Text("games.sentence.drop")
                     .font(.subheadline)
                     .foregroundStyle(.tertiary)
                     .frame(maxWidth: .infinity, minHeight: 56)
@@ -201,7 +201,7 @@ struct SentenceBuilderView: View {
     private func resultBanner(correct: Bool, puzzle: SentencePuzzle) -> some View {
         VStack(spacing: 6) {
             Label(
-                correct ? "Correct!" : "Not quite",
+                correct ? String(localized: "games.sentence.correct") : String(localized: "games.sentence.not_quite"),
                 systemImage: correct ? "checkmark.circle.fill" : "xmark.circle.fill"
             )
             .font(.headline.weight(.semibold))

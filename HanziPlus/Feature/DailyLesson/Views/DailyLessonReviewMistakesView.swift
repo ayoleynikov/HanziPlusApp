@@ -41,7 +41,7 @@ struct DailyLessonReviewMistakesView: View {
             .accessibilityElement(children: .combine)
             .accessibilityLabel("\(word.hanzi), \(word.pinyin), \(word.localizedMeaning)")
 
-            Text("Confirm the meaning")
+            Text("lesson.review.confirm_meaning")
                 .font(.subheadline.weight(.medium))
                 .foregroundStyle(.secondary)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -63,7 +63,7 @@ struct DailyLessonReviewMistakesView: View {
 
             if showFeedback {
                 Button(action: onContinue) {
-                    Text("Continue")
+                    Text("common.continue")
                         .font(.body.weight(.semibold))
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 16)

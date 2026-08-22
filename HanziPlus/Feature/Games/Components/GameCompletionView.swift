@@ -36,11 +36,11 @@ struct GameCompletionView: View {
                     successIcon
 
                     VStack(spacing: 8) {
-                        Text("Game Complete")
+                        Text("games.complete.title")
                             .font(.largeTitle.weight(.bold))
 
                         if result.isNewRecord {
-                            Text("New Record!")
+                            Text("games.complete.new_record")
                                 .font(.title3.weight(.bold))
                                 .foregroundStyle(.green)
                                 .transition(.scale.combined(with: .opacity))
@@ -53,13 +53,13 @@ struct GameCompletionView: View {
 
                     VStack(spacing: AppSpacing.small) {
                         completionButton(
-                            title: "Play Again",
+                            title: String(localized: "games.complete.play_again"),
                             style: .primary,
                             action: onPlayAgain
                         )
 
                         completionButton(
-                            title: "Back to Games",
+                            title: String(localized: "games.complete.back"),
                             style: .secondary,
                             action: onBackToGames
                         )
@@ -122,13 +122,13 @@ struct GameCompletionView: View {
 
     private var statsGrid: some View {
         VStack(spacing: AppSpacing.small) {
-            statRow(title: "Score", value: "\(result.score)", icon: "star.fill", tint: .orange)
-            statRow(title: "Accuracy", value: "\(result.accuracy)%", icon: "target", tint: game.color)
-            statRow(title: "Time", value: formattedTime, icon: "clock.fill", tint: .secondary)
-            statRow(title: "XP Earned", value: "+\(result.xpEarned)", icon: "sparkles", tint: .purple)
+            statRow(title: String(localized: "games.complete.score"), value: "\(result.score)", icon: "star.fill", tint: .orange)
+            statRow(title: String(localized: "games.complete.accuracy"), value: "\(result.accuracy)%", icon: "target", tint: game.color)
+            statRow(title: String(localized: "games.complete.time"), value: formattedTime, icon: "clock.fill", tint: .secondary)
+            statRow(title: String(localized: "games.complete.xp_earned"), value: "+\(result.xpEarned)", icon: "sparkles", tint: .purple)
 
             if result.comboPeak > 1 {
-                statRow(title: "Best Combo", value: "×\(result.comboPeak)", icon: "flame.fill", tint: .orange)
+                statRow(title: String(localized: "games.complete.best_combo"), value: "×\(result.comboPeak)", icon: "flame.fill", tint: .orange)
             }
         }
         .padding(AppSpacing.medium)

@@ -11,10 +11,10 @@ struct LibraryHeaderView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text("Hanzi+")
+            Text("learn.header.brand")
                 .font(.system(size: 34, weight: .bold, design: .rounded))
 
-            Text("Learn Chinese, one card at a time.")
+            Text("learn.header.tagline")
                 .font(.title3.weight(.regular))
                 .foregroundStyle(.secondary)
                 .fixedSize(horizontal: false, vertical: true)

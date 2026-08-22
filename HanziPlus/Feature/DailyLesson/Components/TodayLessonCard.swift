@@ -14,17 +14,17 @@ struct TodayLessonCard: View {
 
     private var statusLabel: String {
         switch status {
-        case .notStarted: "Not Started"
-        case .inProgress: "In Progress"
-        case .complete: "Complete"
+        case .notStarted: String(localized: "lesson.card.status.not_started")
+        case .inProgress: String(localized: "lesson.card.status.in_progress")
+        case .complete: String(localized: "lesson.card.status.complete")
         }
     }
 
     private var buttonTitle: String {
         switch status {
-        case .notStarted: "Start"
-        case .inProgress: "Continue"
-        case .complete: "Review"
+        case .notStarted: String(localized: "common.start")
+        case .inProgress: String(localized: "common.continue")
+        case .complete: String(localized: "common.review")
         }
     }
 
@@ -34,6 +34,14 @@ struct TodayLessonCard: View {
         case .inProgress: .blue
         case .complete: .green
         }
+    }
+
+    private var metaLine: String {
+        var parts = [L10n.words(wordCount), statusLabel]
+        if isReviewLesson {
+            parts.append(String(localized: "common.review"))
+        }
+        return parts.joined(separator: " · ")
     }
 
     var body: some View {
@@ -56,9 +64,10 @@ struct TodayLessonCard: View {
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
 
-                Text("\(wordCount) words · \(statusLabel)\(isReviewLesson ? " · Review" : "")")
+                Text(metaLine)
                     .font(.caption.weight(.medium))
                     .foregroundStyle(.tertiary)
+                    .fixedSize(horizontal: false, vertical: true)
             }
 
             Spacer(minLength: 0)
@@ -78,7 +87,7 @@ struct TodayLessonCard: View {
         }
         .studyCardShadow()
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("Today’s Lesson. \(setTitle). \(wordCount) words. \(statusLabel)")
+        .accessibilityLabel("\(String(localized: "lesson.card.title")). \(setTitle). \(L10n.words(wordCount)). \(statusLabel)")
         .accessibilityHint(buttonTitle)
         .accessibilityAddTraits(.isButton)
     }

@@ -245,12 +245,12 @@ private struct JourneyCityNode: View {
             }
 
             VStack(alignment: .leading, spacing: 6) {
-                Text(city.name)
+                Text(city.localizedName)
                     .font(.headline.weight(.bold))
                     .foregroundStyle(isLocked ? .secondary : .primary)
 
                 if isLocked {
-                    Text("Destination locked")
+                    Text("journey.map.destination_locked")
                         .font(.caption)
                         .foregroundStyle(.tertiary)
                 } else {

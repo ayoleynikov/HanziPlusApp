@@ -19,7 +19,7 @@ struct GamesPlayerProfileSection: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("Player")
+            Text("common.player")
                 .font(.title2.weight(.bold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -31,7 +31,7 @@ struct GamesPlayerProfileSection: View {
                         statRing(title: "Today's XP", value: "\(todayXP)", progress: min(Double(todayXP) / 400, 1), tint: .purple)
                         statRing(title: "Weekly XP", value: "\(weeklyXP)", progress: min(Double(weeklyXP) / 1500, 1), tint: .blue)
                         statTile(title: "Streak", value: "\(streak)", icon: "flame.fill", tint: .orange)
-                        statTile(title: "Played", value: "\(gamesPlayed)", icon: "gamecontroller.fill", tint: .green)
+                        statTile(title: String(localized: "games.stat.played"), value: "\(gamesPlayed)", icon: "gamecontroller.fill", tint: .green)
                         statTile(title: "Accuracy", value: "\(accuracy)%", icon: "target", tint: .mint)
                     }
                     .padding(.horizontal, AppSpacing.medium)
@@ -66,7 +66,7 @@ struct GamesPlayerProfileSection: View {
             }
 
             VStack(alignment: .leading, spacing: 6) {
-                Text("Level \(level)")
+                Text(String(localized: "common.level_n \(level)"))
                     .font(.headline.weight(.bold))
 
                 Text("\(totalXP) XP total")

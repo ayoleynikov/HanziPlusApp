@@ -54,14 +54,14 @@ struct JourneyPassportView: View {
                 VStack(spacing: 8) {
                     Text("🇨🇳")
                         .font(.largeTitle)
-                    Text("TRAVEL COLLECTION")
+                    Text("journey.passport.collection_header")
                         .font(.caption.weight(.heavy))
                         .tracking(2)
                         .foregroundStyle(.white.opacity(0.9))
                 }
             }
 
-            Text("HanziPlus Travel Collection")
+            Text("journey.passport.title")
                 .font(.title3.weight(.bold))
 
             Text("\(journeyStore.collectedSouvenirs.count) of \(JourneyCityCatalog.all.count) collectibles collected")
@@ -103,7 +103,7 @@ struct JourneyPassportView: View {
                     .rotationEffect(.degrees(isAnimating ? -12 : 0))
             }
 
-            Text(city.name)
+            Text(city.localizedName)
                 .font(.caption.weight(.semibold))
                 .lineLimit(1)
 
@@ -112,7 +112,7 @@ struct JourneyPassportView: View {
                     .font(.caption2)
                     .foregroundStyle(.tertiary)
             } else {
-                Text("Not discovered")
+                Text("journey.passport.not_discovered")
                     .font(.caption2)
                     .foregroundStyle(.tertiary)
             }

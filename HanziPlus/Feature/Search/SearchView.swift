@@ -24,7 +24,7 @@ struct SearchView: View {
                 ProgressView()
             }
         }
-        .navigationTitle("Search")
+        .navigationTitle(String(localized: "search.nav_title"))
         .onAppear { setupViewModelIfNeeded() }
         .onChange(of: favoritesStore.favorites) { _, favorites in
             viewModel?.updateFavoriteHanzi(favorites)
@@ -58,9 +58,9 @@ struct SearchView: View {
                     }
                 } else if viewModel.results.isEmpty {
                     ContentUnavailableView(
-                        "No words found",
+                        String(localized: "search.empty.no_words"),
                         systemImage: "magnifyingglass",
-                        description: Text("Try a different search term or filter.")
+                        description: Text("search.empty.try_different")
                     )
                 } else {
                     resultsList(viewModel: viewModel)
@@ -70,7 +70,7 @@ struct SearchView: View {
         .searchable(
             text: $viewModel.query,
             placement: .navigationBarDrawer(displayMode: .always),
-            prompt: "Chinese or English"
+            prompt: String(localized: "search.prompt")
         )
         .onSubmit(of: .search) {
             history.addSearch(viewModel.query)
@@ -94,7 +94,7 @@ struct SearchView: View {
                                 Image(systemName: filter.icon)
                                     .font(.caption.weight(.bold))
                             }
-                            Text(filter.rawValue)
+                            Text(filter.title)
                                 .font(.subheadline.weight(.semibold))
                         }
                         .padding(.horizontal, 14)
@@ -122,7 +122,7 @@ struct SearchView: View {
 
     private func resultsList(viewModel: SearchViewModel) -> some View {
         List {
-            Section("\(viewModel.results.count) Results") {
+            Section(String(localized: "search.results_count \(viewModel.results.count)")) {
                 ForEach(viewModel.results) { entry in
                     wordRow(entry: entry, viewModel: viewModel)
                 }
@@ -135,17 +135,19 @@ struct SearchView: View {
         Group {
             if viewModel.results.isEmpty {
                 ContentUnavailableView(
-                    viewModel.filters.wordFilter == .favorites ? "No Favorites" : "No Learned Words",
+                    viewModel.filters.wordFilter == .favorites
+                        ? String(localized: "search.empty.no_favorites")
+                        : String(localized: "search.empty.no_learned"),
                     systemImage: viewModel.filters.wordFilter == .favorites ? "heart" : "checkmark.circle",
                     description: Text(
                         viewModel.filters.wordFilter == .favorites
-                            ? "Tap the heart on any word to save it here."
-                            : "Words you mark as learned in Study will appear here."
+                            ? "search.empty.favorites_hint"
+                            : "search.empty.learned_hint"
                     )
                 )
             } else {
                 List {
-                    Section("\(viewModel.results.count) \(viewModel.filters.wordFilter.rawValue)") {
+                    Section("\(viewModel.results.count) \(viewModel.filters.wordFilter.title)") {
                         ForEach(viewModel.results) { entry in
                             wordRow(entry: entry, viewModel: viewModel)
                         }
@@ -182,14 +184,14 @@ struct SearchView: View {
 
         if history.recentSearches.isEmpty && recentWords.isEmpty {
             ContentUnavailableView(
-                "Search",
+                String(localized: "search.nav_title"),
                 systemImage: "magnifyingglass",
-                description: Text("Search by Chinese or English, or browse Favorites and Learned.")
+                description: Text("search.empty.idle_desc")
             )
         } else {
             List {
                 if !history.recentSearches.isEmpty {
-                    Section("Recent Searches") {
+                    Section(String(localized: "search.section.recent")) {
                         ForEach(displayedSearches, id: \.self) { term in
                             Button { viewModel.query = term } label: {
                                 Label(term, systemImage: "clock.arrow.circlepath")
@@ -209,7 +211,9 @@ struct SearchView: View {
                                 }
                             } label: {
                                 Label(
-                                    showAllRecentSearches ? "Show Less" : "Show More",
+                                    showAllRecentSearches
+                                        ? String(localized: "search.show_less")
+                                        : String(localized: "search.show_more"),
                                     systemImage: showAllRecentSearches ? "chevron.up" : "chevron.down"
                                 )
                                 .font(.subheadline)
@@ -220,7 +224,7 @@ struct SearchView: View {
                 }
 
                 if !recentWords.isEmpty {
-                    Section("Recently Viewed") {
+                    Section(String(localized: "search.section.recently_viewed")) {
                         ForEach(recentWords) { entry in
                             NavigationLink {
                                 WordDetailView(word: entry.word, entryID: entry.id)

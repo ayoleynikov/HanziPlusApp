@@ -17,7 +17,7 @@ struct HanziMemoryModePickerView: View {
                     .padding(.top, AppSpacing.small)
 
                 VStack(alignment: .leading, spacing: AppSpacing.medium) {
-                    Text("Choose Mode")
+                    Text("games.choose_mode")
                         .font(.title2.weight(.semibold))
                         .padding(.horizontal, AppSpacing.medium)
 
@@ -57,7 +57,7 @@ struct HanziMemoryModePickerView: View {
                 Text(game.localizedTitle)
                     .font(.title3.weight(.bold))
 
-                Text("Pick how you want to match cards, then choose a study set.")
+                Text("games.mode.pick_hint")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                     .fixedSize(horizontal: false, vertical: true)

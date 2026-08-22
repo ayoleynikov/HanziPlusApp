@@ -25,7 +25,7 @@ struct CityLockedSheet: View {
 
                     requirementsSection
 
-                    Text("Keep learning to unlock your next destination.")
+                    Text("journey.locked.keep_learning")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
@@ -40,7 +40,7 @@ struct CityLockedSheet: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button("Close") { dismiss() }
+                    Button(String(localized: "common.close")) { dismiss() }
                         .font(.subheadline.weight(.semibold))
                 }
             }
@@ -73,10 +73,10 @@ struct CityLockedSheet: View {
             }
             .padding(.top, AppSpacing.small)
 
-            Text("Destination Locked")
+            Text("journey.locked.title")
                 .font(.title2.weight(.bold))
 
-            Text("Complete requirements to unlock \(city.name).")
+            Text(String(localized: "journey.locked.unlock_city \(city.localizedName)"))
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
@@ -85,11 +85,11 @@ struct CityLockedSheet: View {
 
     private var requirementsSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.medium) {
-            Text("Requirements")
+            Text("journey.locked.requirements")
                 .font(.headline.weight(.semibold))
 
             if evaluations.isEmpty {
-                Text("Complete the previous city to continue your journey.")
+                Text("journey.locked.complete_previous")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
             } else {
@@ -112,7 +112,7 @@ struct CityLockedSheet: View {
                 dismiss()
                 tabRouter.switchToStudy()
             } label: {
-                Text("Continue Learning")
+                Text("journey.cta.continue_learning")
                     .font(.body.weight(.semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
@@ -125,7 +125,7 @@ struct CityLockedSheet: View {
                 dismiss()
                 tabRouter.switchToGames()
             } label: {
-                Text("Play Games")
+                Text("journey.cta.play_games")
                     .font(.body.weight(.semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
@@ -136,7 +136,7 @@ struct CityLockedSheet: View {
             }
             .buttonStyle(GamePressButtonStyle())
 
-            Button("Close") { dismiss() }
+            Button(String(localized: "common.close")) { dismiss() }
                 .font(.subheadline.weight(.medium))
                 .foregroundStyle(.secondary)
                 .padding(.top, 4)

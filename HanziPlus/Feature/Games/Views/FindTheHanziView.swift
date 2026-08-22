@@ -52,7 +52,7 @@ struct FindTheHanziView: View {
 
             if let word = viewModel.currentWord {
                 VStack(spacing: 8) {
-                    Text("Find the Hanzi for")
+                    Text("games.find.prompt")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
 

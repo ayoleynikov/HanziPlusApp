@@ -41,6 +41,6 @@ struct TravelCategoryView: View {
         .listStyle(.insetGrouped)
         .navigationTitle(category.title)
         .navigationBarTitleDisplayMode(.large)
-        .searchable(text: $query, prompt: "Search in \(category.title)")
+        .searchable(text: $query, prompt: String(localized: "travel.search.prompt"))
     }
 }

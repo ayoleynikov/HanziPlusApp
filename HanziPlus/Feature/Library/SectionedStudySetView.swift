@@ -39,7 +39,7 @@ struct SectionedStudySetView: View {
                 }
 
                 VStack(alignment: .leading, spacing: AppSpacing.medium) {
-                    Text("Sections")
+                    Text("learn.sections")
                         .font(.title3.weight(.semibold))
                         .padding(.horizontal, AppSpacing.medium)
 
@@ -141,7 +141,7 @@ struct SectionedStudySetView: View {
         let wordCount = SectionedVocabulary.wordCount(in: section, fileName: studySet.fileName)
 
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("Continue")
+            Text("common.continue")
                 .font(.title3.weight(.semibold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -164,7 +164,7 @@ struct SectionedStudySetView: View {
                             .font(.headline)
 
                         if let session {
-                            Text("Card \(session.currentIndex + 1) of \(wordCount)")
+                            Text(String(localized: "study.card_of \(session.currentIndex + 1) \(wordCount)"))
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)
                         }

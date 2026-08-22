@@ -26,7 +26,7 @@ struct StudyProgressHeader: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack(alignment: .firstTextBaseline) {
-                Text("Card \(currentCardIndex + 1)")
+                Text(String(localized: "study.progress.card_n \(currentCardIndex + 1)"))
                     .font(.subheadline.weight(.medium))
                     .foregroundStyle(.secondary)
 

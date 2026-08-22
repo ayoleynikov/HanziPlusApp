@@ -44,8 +44,8 @@ struct ExampleRowView: View {
                     .frame(maxWidth: .infinity, alignment: frameAlignment)
             }
 
-            if let english = example.english {
-                Text(english)
+            if let translation = example.localizedMeaning {
+                Text(translation)
                     .font(.caption)
                     .foregroundStyle(.tertiary)
                     .multilineTextAlignment(textAlignment)

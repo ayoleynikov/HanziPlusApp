@@ -23,10 +23,10 @@ struct TravelPhraseStrip: View {
 
                 if let seeAllRoute, !phrases.isEmpty {
                     NavigationLink(value: seeAllRoute) {
-                        Text("See All")
+                        Text("travel.see_all")
                             .font(.subheadline.weight(.semibold))
                     }
-                    .accessibilityLabel("See all \(title)")
+                    .accessibilityLabel(String(localized: "travel.a11y.see_all \(title)"))
                 }
             }
             .padding(.horizontal, AppSpacing.medium)

@@ -91,7 +91,7 @@ private struct GameHeroSlide: View {
                         .foregroundStyle(.primary)
                         .multilineTextAlignment(.center)
 
-                    Text(game.shortDescription)
+                    Text(game.localizedTagline)
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
@@ -106,7 +106,7 @@ private struct GameHeroSlide: View {
                     HStack(spacing: 8) {
                         Image(systemName: "play.fill")
                             .font(.body.weight(.bold))
-                        Text("Play Now")
+                        Text("games.play_now")
                             .font(.headline.weight(.semibold))
                     }
                     .foregroundStyle(.white)

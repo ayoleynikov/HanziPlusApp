@@ -31,6 +31,11 @@ struct Example: Identifiable, Codable, Hashable {
         self.translations = translations
     }
 
+    /// Current UI content language (see `LocalizedContent.currentLanguage`).
+    var localizedMeaning: String? {
+        localizedTranslation(for: LocalizedContent.currentLanguage)
+    }
+
     func localizedTranslation(for language: ContentLanguageCode) -> String? {
         let value = LocalizedContent.pick(
             from: translations,
