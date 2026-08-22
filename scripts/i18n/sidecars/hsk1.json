@@ -1,0 +1,2552 @@
+{
+  "出差": {
+    "ru": "ехать в командировку",
+    "es": "ir de viaje de negocios",
+    "pt-BR": "viajar a trabalho",
+    "examples": [
+      {
+        "ru": "На следующей неделе менеджер едет в командировку в Шанхай.",
+        "es": "La semana que viene el gerente va de viaje de negocios a Shanghái.",
+        "pt-BR": "Na semana que vem o gerente viaja a trabalho para Xangai."
+      },
+      {
+        "ru": "Он часто ездит в командировки по работе.",
+        "es": "A menudo viaja por trabajo.",
+        "pt-BR": "Ele costuma viajar a trabalho."
+      }
+    ]
+  },
+  "出发": {
+    "ru": "отправляться / уходить",
+    "es": "salir / partir",
+    "pt-BR": "partir / sair",
+    "examples": [
+      {
+        "ru": "Мы планируем отправиться завтра рано утром.",
+        "es": "Planeamos salir mañana muy temprano.",
+        "pt-BR": "Vamos partir amanhã de manhã cedo."
+      },
+      {
+        "ru": "Поезд сейчас отправится.",
+        "es": "El tren está a punto de partir.",
+        "pt-BR": "O trem está prestes a partir."
+      }
+    ]
+  },
+  "出生": {
+    "ru": "родиться",
+    "es": "nacer",
+    "pt-BR": "nascer",
+    "examples": [
+      {
+        "ru": "Он родился в красивом южном городе.",
+        "es": "Nació en una hermosa ciudad del sur.",
+        "pt-BR": "Ele nasceu numa bela cidade do sul."
+      },
+      {
+        "ru": "Пожалуйста, запишите дату рождения.",
+        "es": "Por favor, anote su fecha de nacimiento.",
+        "pt-BR": "Por favor, anote a data de nascimento."
+      }
+    ]
+  },
+  "厨房": {
+    "ru": "кухня",
+    "es": "cocina",
+    "pt-BR": "cozinha",
+    "examples": [
+      {
+        "ru": "Мама готовит ужин на кухне.",
+        "es": "Mamá está preparando la cena en la cocina.",
+        "pt-BR": "A mamãe está fazendo o jantar na cozinha."
+      },
+      {
+        "ru": "Пожалуйста, уберите на кухне.",
+        "es": "Por favor, limpia la cocina.",
+        "pt-BR": "Por favor, limpe a cozinha."
+      }
+    ]
+  },
+  "词语": {
+    "ru": "слова / выражения",
+    "es": "palabras / expresiones",
+    "pt-BR": "palavras / expressões",
+    "examples": [
+      {
+        "ru": "Составьте предложения с этими словами.",
+        "es": "Hagan oraciones con estas palabras.",
+        "pt-BR": "Façam frases com estas palavras."
+      },
+      {
+        "ru": "Накапливать словарь очень полезно для изучения языка.",
+        "es": "Acumular vocabulario es muy útil para aprender un idioma.",
+        "pt-BR": "Acumular vocabulário ajuda muito a aprender um idioma."
+      }
+    ]
+  },
+  "打扰": {
+    "ru": "мешать / беспокоить",
+    "es": "molestar / interrumpir",
+    "pt-BR": "incomodar / interromper",
+    "examples": [
+      {
+        "ru": "Извините, можно вас побеспокоить на секунду.",
+        "es": "Perdón, siento molestarlo un segundo.",
+        "pt-BR": "Com licença, desculpe incomodar um segundo."
+      },
+      {
+        "ru": "Он работает, пожалуйста, не мешайте.",
+        "es": "Está trabajando, por favor no lo molesten.",
+        "pt-BR": "Ele está trabalhando, por favor não incomodem."
+      }
+    ]
+  },
+  "打印": {
+    "ru": "печатать",
+    "es": "imprimir",
+    "pt-BR": "imprimir",
+    "examples": [
+      {
+        "ru": "Пожалуйста, распечатайте этот документ.",
+        "es": "Por favor, imprima una copia de este documento.",
+        "pt-BR": "Por favor, imprima uma cópia deste documento."
+      },
+      {
+        "ru": "В принтере закончилась бумага.",
+        "es": "La impresora se quedó sin papel.",
+        "pt-BR": "A impressora está sem papel."
+      }
+    ]
+  },
+  "打折": {
+    "ru": "давать скидку",
+    "es": "hacer descuento",
+    "pt-BR": "dar desconto",
+    "examples": [
+      {
+        "ru": "В этом торговом центре сейчас скидки.",
+        "es": "Este centro comercial tiene descuentos ahora.",
+        "pt-BR": "Este shopping está com descontos agora."
+      },
+      {
+        "ru": "Эта одежда продаётся со скидкой 20%.",
+        "es": "Esta prenda está al 80% del precio original.",
+        "pt-BR": "Esta roupa está com 20% de desconto."
+      }
+    ]
+  },
+  "打针": {
+    "ru": "делать укол / ставить инъекцию",
+    "es": "poner una inyección",
+    "pt-BR": "aplicar uma injeção",
+    "examples": [
+      {
+        "ru": "Медсестра делает укол пациенту.",
+        "es": "La enfermera le está poniendo una inyección al paciente.",
+        "pt-BR": "A enfermeira está aplicando uma injeção no paciente."
+      },
+      {
+        "ru": "Я не боюсь таблеток, но боюсь уколов.",
+        "es": "No temo los medicamentos, pero sí las inyecciones.",
+        "pt-BR": "Não tenho medo de remédio, mas tenho medo de injeção."
+      }
+    ]
+  },
+  "大使馆": {
+    "ru": "посольство",
+    "es": "embajada",
+    "pt-BR": "embaixada",
+    "examples": [
+      {
+        "ru": "Нам нужно в посольство оформить визу.",
+        "es": "Tenemos que ir a la embajada a tramitar el visado.",
+        "pt-BR": "Precisamos ir à embaixada para tratar do visto."
+      },
+      {
+        "ru": "Китайское посольство прямо впереди.",
+        "es": "La embajada de China está justo delante.",
+        "pt-BR": "A embaixada da China fica logo à frente."
+      }
+    ]
+  },
+  "大约": {
+    "ru": "примерно / около",
+    "es": "aproximadamente / unos",
+    "pt-BR": "cerca de / aproximadamente",
+    "examples": [
+      {
+        "ru": "Отсюда до аэропорта примерно час.",
+        "es": "De aquí al aeropuerto hay aproximadamente una hora.",
+        "pt-BR": "Daqui até o aeroporto dá cerca de uma hora."
+      },
+      {
+        "ru": "Сегодня на мероприятии было около ста человек.",
+        "es": "Hoy asistieron unas cien personas al evento.",
+        "pt-BR": "Hoje cerca de cem pessoas participaram do evento."
+      }
+    ]
+  },
+  "戴": {
+    "ru": "надевать (очки, шляпу, украшения)",
+    "es": "ponerse (gafas, sombrero, accesorios)",
+    "pt-BR": "usar / colocar (óculos, chapéu, acessórios)",
+    "examples": [
+      {
+        "ru": "Он носит очки в чёрной оправе.",
+        "es": "Lleva unas gafas de montura negra.",
+        "pt-BR": "Ele usa óculos de armação preta."
+      },
+      {
+        "ru": "Зимой на улице надевайте шапку.",
+        "es": "Póngase un sombrero al salir en invierno.",
+        "pt-BR": "Use um chapéu ao sair no inverno."
+      }
+    ]
+  },
+  "代表": {
+    "ru": "представитель / представлять",
+    "es": "representante / representar",
+    "pt-BR": "representante / representar",
+    "examples": [
+      {
+        "ru": "Он говорит от имени компании.",
+        "es": "Habla en nombre de la empresa.",
+        "pt-BR": "Ele fala em nome da empresa."
+      },
+      {
+        "ru": "Он наш студенческий представитель.",
+        "es": "Es nuestro representante estudiantil.",
+        "pt-BR": "Ele é o nosso representante estudantil."
+      }
+    ]
+  },
+  "代替": {
+    "ru": "заменять / вместо",
+    "es": "reemplazar / en lugar de",
+    "pt-BR": "substituir / no lugar de",
+    "examples": [
+      {
+        "ru": "Никто не заменит твоё место в моём сердце.",
+        "es": "Nadie puede reemplazar tu lugar en mi corazón.",
+        "pt-BR": "Ninguém substitui o seu lugar no meu coração."
+      },
+      {
+        "ru": "Сегодня Сяо Ли пошла на собрание вместо меня.",
+        "es": "Hoy Xiao Li asistió a la reunión en mi lugar.",
+        "pt-BR": "Hoje a Xiao Li foi à reunião no meu lugar."
+      }
+    ]
+  },
+  "导游": {
+    "ru": "гид / экскурсовод",
+    "es": "guía turístico",
+    "pt-BR": "guia de turismo",
+    "examples": [
+      {
+        "ru": "Гид подробно рассказал нам историю достопримечательности.",
+        "es": "El guía nos explicó en detalle la historia del lugar.",
+        "pt-BR": "O guia nos contou em detalhe a história do ponto turístico."
+      },
+      {
+        "ru": "Она очень душевный гид.",
+        "es": "Es una guía extremadamente entusiasta.",
+        "pt-BR": "Ela é uma guia extremamente atenciosa."
+      }
+    ]
+  },
+  "得意": {
+    "ru": "гордиться собой / быть довольным собой",
+    "es": "estar orgulloso de sí / engreído",
+    "pt-BR": "orgulhoso de si / convencido",
+    "examples": [
+      {
+        "ru": "Набрав полный балл, он гордо улыбнулся.",
+        "es": "Al sacar la nota máxima, sonrió orgulloso.",
+        "pt-BR": "Ao tirar nota máxima, ele sorriu orgulhoso."
+      },
+      {
+        "ru": "Даже при хорошем результате не зазнавайтесь.",
+        "es": "Aunque logres buenos resultados, no te engrias.",
+        "pt-BR": "Mesmo com bons resultados, não fique convencido."
+      }
+    ]
+  },
+  "底": {
+    "ru": "дно / конец (месяца, года)",
+    "es": "fondo / finales de",
+    "pt-BR": "fundo / fim de (mês/ano)",
+    "examples": [
+      {
+        "ru": "В конце месяца у нас будет экзамен.",
+        "es": "A finales de mes haremos un examen.",
+        "pt-BR": "No fim do mês teremos uma prova."
+      },
+      {
+        "ru": "На дне чашки следы воды.",
+        "es": "Hay marcas de agua en el fondo de la taza.",
+        "pt-BR": "Há marcas de água no fundo da xícara."
+      }
+    ]
+  },
+  "地球": {
+    "ru": "Земля",
+    "es": "la Tierra",
+    "pt-BR": "a Terra",
+    "examples": [
+      {
+        "ru": "Земля — наш общий дом.",
+        "es": "La Tierra es nuestro hogar compartido.",
+        "pt-BR": "A Terra é o nosso lar compartilhado."
+      },
+      {
+        "ru": "Мы должны вместе беречь окружающую среду Земли.",
+        "es": "Debemos proteger juntos el entorno de la Tierra.",
+        "pt-BR": "Precisamos proteger juntos o ambiente da Terra."
+      }
+    ]
+  },
+  "地址": {
+    "ru": "адрес",
+    "es": "dirección",
+    "pt-BR": "endereço",
+    "examples": [
+      {
+        "ru": "Пришлите мне домашний адрес.",
+        "es": "Envíeme su dirección de casa.",
+        "pt-BR": "Me envie o seu endereço residencial."
+      },
+      {
+        "ru": "Адрес на конверте написан неверно.",
+        "es": "La dirección del sobre está mal escrita.",
+        "pt-BR": "O endereço no envelope está errado."
+      }
+    ]
+  },
+  "调查": {
+    "ru": "расследование / опрос / расследовать",
+    "es": "investigación / encuesta / investigar",
+    "pt-BR": "investigação / pesquisa / investigar",
+    "examples": [
+      {
+        "ru": "Нужно провести исследование рынка.",
+        "es": "Tenemos que hacer un estudio de mercado.",
+        "pt-BR": "Precisamos fazer uma pesquisa de mercado."
+      },
+      {
+        "ru": "Полиция сейчас расследует это дело.",
+        "es": "La policía está investigando este asunto.",
+        "pt-BR": "A polícia está investigando este caso."
+      }
+    ]
+  },
+  "丢": {
+    "ru": "терять / выбрасывать",
+    "es": "perder / tirar",
+    "pt-BR": "perder / jogar fora",
+    "examples": [
+      {
+        "ru": "О нет, я потерял кошелёк!",
+        "es": "¡Ay, se me perdió la cartera!",
+        "pt-BR": "Puxa, perdi a carteira!"
+      },
+      {
+        "ru": "Пожалуйста, не бросайте мусор.",
+        "es": "Por favor, no tire basura.",
+        "pt-BR": "Por favor, não jogue lixo no chão."
+      }
+    ]
+  },
+  "动作": {
+    "ru": "движение / действие",
+    "es": "movimiento / acción",
+    "pt-BR": "movimento / ação",
+    "examples": [
+      {
+        "ru": "Движения танцора очень изящны.",
+        "es": "Los movimientos de la bailarina son muy elegantes.",
+        "pt-BR": "Os movimentos da dançarina são muito elegantes."
+      },
+      {
+        "ru": "Пожалуйста, делайте движения медленнее.",
+        "es": "Por favor, ralentice los movimientos.",
+        "pt-BR": "Por favor, faça os movimentos mais devagar."
+      }
+    ]
+  },
+  "堵车": {
+    "ru": "пробка (на дороге)",
+    "es": "atasco / tráfico",
+    "pt-BR": "engarrafamento",
+    "examples": [
+      {
+        "ru": "На дороге была сильная пробка, я опоздал.",
+        "es": "El atasco era terrible y llegué tarde.",
+        "pt-BR": "O trânsito estava horrível e eu me atrasei."
+      },
+      {
+        "ru": "В утренний час пик пробки бывают часто.",
+        "es": "En hora punta de la mañana hay atascos a menudo.",
+        "pt-BR": "No horário de pico da manhã o trânsito trava com frequência."
+      }
+    ]
+  },
+  "肚子": {
+    "ru": "живот",
+    "es": "barriga / estómago",
+    "pt-BR": "barriga / estômago",
+    "examples": [
+      {
+        "ru": "Я голоден, живот урчит.",
+        "es": "Tengo hambre, me ruge el estómago.",
+        "pt-BR": "Estou com fome, a barriga está roncando."
+      },
+      {
+        "ru": "От несвежей еды легко заболеть животом.",
+        "es": "Comer comida sucia causa dolor de estómago.",
+        "pt-BR": "Comida estragada facilmente dá dor de barriga."
+      }
+    ]
+  },
+  "同情": {
+    "ru": "сочувствие / сочувствовать",
+    "es": "simpatía / simpatizar",
+    "pt-BR": "compaixão / solidarizar-se",
+    "examples": [
+      {
+        "ru": "Все глубоко сочувствовали его положению.",
+        "es": "Todos simpatizaron profundamente con su situación.",
+        "pt-BR": "Todos se solidarizaram profundamente com a situação dele."
+      },
+      {
+        "ru": "Сочувствие — прекрасная добродетель.",
+        "es": "La compasión es una virtud admirable.",
+        "pt-BR": "A compaixão é uma bela virtude."
+      }
+    ]
+  },
+  "推迟": {
+    "ru": "откладывать / переносить",
+    "es": "aplazar / posponer",
+    "pt-BR": "adiar / postergar",
+    "examples": [
+      {
+        "ru": "Из-за погоды собрание перенесли на завтра.",
+        "es": "Por el tiempo, la reunión se aplazó hasta mañana.",
+        "pt-BR": "Por causa do tempo, a reunião foi adiada para amanhã."
+      },
+      {
+        "ru": "Это решение больше нельзя откладывать.",
+        "es": "Esta decisión no se puede posponer más.",
+        "pt-BR": "Essa decisão não pode ser adiada mais."
+      }
+    ]
+  },
+  "脱": {
+    "ru": "снимать (одежду, обувь)",
+    "es": "quitarse (ropa, zapatos)",
+    "pt-BR": "tirar (roupa, sapato)",
+    "examples": [
+      {
+        "ru": "В комнате жарко, снимите куртку.",
+        "es": "Hace calor en la habitación, quítese la chaqueta.",
+        "pt-BR": "Está quente no quarto, tire o casaco."
+      },
+      {
+        "ru": "Пожалуйста, снимите обувь перед входом.",
+        "es": "Quítese los zapatos antes de entrar.",
+        "pt-BR": "Tire os sapatos antes de entrar."
+      }
+    ]
+  },
+  "危险": {
+    "ru": "опасность / опасный",
+    "es": "peligro / peligroso",
+    "pt-BR": "perigo / perigoso",
+    "examples": [
+      {
+        "ru": "Здесь глубоко, не плавайте — очень опасно!",
+        "es": "El agua es profunda, no nade, ¡es muy peligroso!",
+        "pt-BR": "A água é fundo, não nade — é muito perigoso!"
+      },
+      {
+        "ru": "В опасности сохраняйте спокойствие.",
+        "es": "Mantenga la calma ante el peligro.",
+        "pt-BR": "Mantenha a calma diante do perigo."
+      }
+    ]
+  },
+  "温度": {
+    "ru": "температура",
+    "es": "temperatura",
+    "pt-BR": "temperatura",
+    "examples": [
+      {
+        "ru": "Сегодня температура на три градуса ниже, чем вчера.",
+        "es": "Hoy la temperatura es tres grados más baja que ayer.",
+        "pt-BR": "Hoje a temperatura está três graus mais baixa que ontem."
+      },
+      {
+        "ru": "Пожалуйста, измерьте температуру в помещении.",
+        "es": "Mida la temperatura interior.",
+        "pt-BR": "Meça a temperatura do ambiente."
+      }
+    ]
+  },
+  "文章": {
+    "ru": "статья / сочинение",
+    "es": "artículo / texto",
+    "pt-BR": "artigo / texto",
+    "examples": [
+      {
+        "ru": "Эта статья написана очень живо.",
+        "es": "Este artículo está escrito de forma muy viva.",
+        "pt-BR": "Este artigo está escrito de forma muito viva."
+      },
+      {
+        "ru": "Пожалуйста, внимательно прочитайте эту статью.",
+        "es": "Lea este artículo con atención.",
+        "pt-BR": "Leia este artigo com atenção."
+      }
+    ]
+  },
+  "污染": {
+    "ru": "загрязнение / загрязнять",
+    "es": "contaminación / contaminar",
+    "pt-BR": "poluição / poluir",
+    "examples": [
+      {
+        "ru": "Выхлопы машин загрязняют воздух.",
+        "es": "Los gases de los coches contaminan el aire.",
+        "pt-BR": "A fumaça dos carros polui o ar."
+      },
+      {
+        "ru": "Нужно уменьшить загрязнение водных ресурсов.",
+        "es": "Debemos reducir la contaminación del agua.",
+        "pt-BR": "Precisamos reduzir a poluição da água."
+      }
+    ]
+  },
+  "无聊": {
+    "ru": "скучный / скучать",
+    "es": "aburrido / aburrirse",
+    "pt-BR": "entediante / entediado",
+    "examples": [
+      {
+        "ru": "Весь день дома мне было очень скучно.",
+        "es": "Estar en casa todo el día me aburrió mucho.",
+        "pt-BR": "Ficar em casa o dia todo me deixou entediado."
+      },
+      {
+        "ru": "Сюжет этого фильма слишком скучный.",
+        "es": "La trama de esta película es demasiado aburrida.",
+        "pt-BR": "O enredo deste filme é tedioso demais."
+      }
+    ]
+  },
+  "误会": {
+    "ru": "недоразумение / неправильно понять",
+    "es": "malentendido / malinterpretar",
+    "pt-BR": "mal-entendido / entender mal",
+    "examples": [
+      {
+        "ru": "Извините, это всё недоразумение.",
+        "es": "Perdón, todo esto es un malentendido.",
+        "pt-BR": "Desculpe, isso é só um mal-entendido."
+      },
+      {
+        "ru": "Ясное объяснение устраняет недоразумения.",
+        "es": "Explicar con claridad elimina malentendidos.",
+        "pt-BR": "Explicar com clareza elimina mal-entendidos."
+      }
+    ]
+  },
+  "西红柿": {
+    "ru": "помидор",
+    "es": "tomate",
+    "pt-BR": "tomate",
+    "examples": [
+      {
+        "ru": "Яичница с помидорами — известное китайское блюдо.",
+        "es": "Huevos revueltos con tomate es un plato chino famoso.",
+        "pt-BR": "Ovos mexidos com tomate é um prato chinês famoso."
+      },
+      {
+        "ru": "Свежие помидоры богаты витаминами.",
+        "es": "Los tomates frescos son ricos en vitaminas.",
+        "pt-BR": "Tomates frescos são ricos em vitaminas."
+      }
+    ]
+  },
+  "吸引": {
+    "ru": "привлекать",
+    "es": "atraer",
+    "pt-BR": "atrair",
+    "examples": [
+      {
+        "ru": "Красивые виды привлекли много туристов.",
+        "es": "El paisaje hermoso atrajo a muchos turistas.",
+        "pt-BR": "A paisagem bonita atraiu muitos turistas."
+      },
+      {
+        "ru": "Сюжет этой истории очень увлекательный.",
+        "es": "La trama de esta historia es muy atractiva.",
+        "pt-BR": "O enredo desta história é muito atraente."
+      }
+    ]
+  },
+  "咸": {
+    "ru": "солёный",
+    "es": "salado",
+    "pt-BR": "salgado",
+    "examples": [
+      {
+        "ru": "Положили слишком много соли — блюдо пересолено.",
+        "es": "Pusieron mucha sal, el plato está demasiado salado.",
+        "pt-BR": "Colocaram sal demais, o prato ficou muito salgado."
+      },
+      {
+        "ru": "Я не люблю слишком солёное.",
+        "es": "No me gusta la comida demasiado salada.",
+        "pt-BR": "Não gosto de comida muito salgada."
+      }
+    ]
+  },
+  "现金": {
+    "ru": "наличные",
+    "es": "efectivo",
+    "pt-BR": "dinheiro vivo",
+    "examples": [
+      {
+        "ru": "Вы платите наличными или картой?",
+        "es": "¿Paga en efectivo o con tarjeta?",
+        "pt-BR": "O pagamento é em dinheiro ou no cartão?"
+      },
+      {
+        "ru": "В кармане только немного наличных.",
+        "es": "Solo llevo un poco de efectivo.",
+        "pt-BR": "Só tenho um pouco de dinheiro no bolso."
+      }
+    ]
+  },
+  "羡慕": {
+    "ru": "завидовать / восхищаться",
+    "es": "envidiar / admirar",
+    "pt-BR": "invejar / admirar",
+    "examples": [
+      {
+        "ru": "Я очень завидую, что он может учиться за границей.",
+        "es": "Envidio que pueda estudiar en el extranjero.",
+        "pt-BR": "Tenho inveja de ele poder estudar no exterior."
+      },
+      {
+        "ru": "Их счастливая жизнь вызывает восхищение.",
+        "es": "Su vida feliz despierta admiración.",
+        "pt-BR": "A vida feliz deles causa admiração."
+      }
+    ]
+  },
+  "相反": {
+    "ru": "наоборот / противоположный",
+    "es": "al contrario / opuesto",
+    "pt-BR": "ao contrário / oposto",
+    "examples": [
+      {
+        "ru": "События пошли в прямо противоположную сторону.",
+        "es": "El rumbo de los hechos fue exactamente el opuesto.",
+        "pt-BR": "O rumo dos acontecimentos foi exatamente o oposto."
+      },
+      {
+        "ru": "Я не устал, наоборот, полон сил.",
+        "es": "No solo no estoy cansado, al contrario, tengo mucha energía.",
+        "pt-BR": "Não estou cansado; ao contrário, estou cheio de energia."
+      }
+    ]
+  },
+  "详细": {
+    "ru": "подробный / подробно",
+    "es": "detallado / en detalle",
+    "pt-BR": "detalhado / em detalhe",
+    "examples": [
+      {
+        "ru": "Пожалуйста, подробно объясните причины.",
+        "es": "Explique las razones en detalle.",
+        "pt-BR": "Explique os motivos em detalhe."
+      },
+      {
+        "ru": "Это очень подробный рабочий план.",
+        "es": "Este es un plan de trabajo muy detallado.",
+        "pt-BR": "Este é um plano de trabalho bem detalhado."
+      }
+    ]
+  },
+  "效果": {
+    "ru": "эффект / результат",
+    "es": "efecto / resultado",
+    "pt-BR": "efeito / resultado",
+    "examples": [
+      {
+        "ru": "Это новое лекарство хорошо помогает от простуды.",
+        "es": "Este medicamento nuevo funciona muy bien contra el resfriado.",
+        "pt-BR": "Este remédio novo funciona muito bem para resfriado."
+      },
+      {
+        "ru": "После практики результат выступления сильно улучшился.",
+        "es": "Tras practicar, el resultado del discurso mejoró mucho.",
+        "pt-BR": "Depois de treinar, o resultado da fala melhorou muito."
+      }
+    ]
+  },
+  "心情": {
+    "ru": "настроение",
+    "es": "ánimo / estado de ánimo",
+    "pt-BR": "humor / estado de espírito",
+    "examples": [
+      {
+        "ru": "Сегодня солнечно, настроение отличное.",
+        "es": "Hoy hace sol y tengo muy buen ánimo.",
+        "pt-BR": "Hoje está ensolarado e meu humor está ótimo."
+      },
+      {
+        "ru": "Музыка помогает расслабить настроение.",
+        "es": "Escuchar música relaja el ánimo.",
+        "pt-BR": "Ouvir música relaxa o humor."
+      }
+    ]
+  },
+  "辛苦": {
+    "ru": "тяжёлый труд / уставать на работе",
+    "es": "esforzado / pasar fatigas",
+    "pt-BR": "trabalhoso / dar duro",
+    "examples": [
+      {
+        "ru": "Папа очень много работает.",
+        "es": "Papá trabaja muy duro.",
+        "pt-BR": "O papai trabalha muito duro."
+      },
+      {
+        "ru": "Спасибо всем за труд, сегодня отдыхайте пораньше.",
+        "es": "Gracias a todos por el esfuerzo, descansen pronto.",
+        "pt-BR": "Obrigado a todos pelo esforço; descansem cedo hoje."
+      }
+    ]
+  },
+  "信任": {
+    "ru": "доверие / доверять",
+    "es": "confianza / confiar",
+    "pt-BR": "confiança / confiar",
+    "examples": [
+      {
+        "ru": "Взаимное доверие — основа сотрудничества.",
+        "es": "La confianza mutua es la base de la cooperación.",
+        "pt-BR": "A confiança mútua é a base da cooperação."
+      },
+      {
+        "ru": "Я очень доверяю его профессионализму.",
+        "es": "Confío mucho en su capacidad de trabajo.",
+        "pt-BR": "Confio muito na capacidade de trabalho dele."
+      }
+    ]
+  },
+  "信心": {
+    "ru": "уверенность",
+    "es": "confianza / fe",
+    "pt-BR": "confiança / convicção",
+    "examples": [
+      {
+        "ru": "Мы должны быть уверены в будущем.",
+        "es": "Debemos estar llenos de confianza en el futuro.",
+        "pt-BR": "Precisamos ter confiança no futuro."
+      },
+      {
+        "ru": "После практики у него прибавилось уверенности перед экзаменом.",
+        "es": "Tras practicar, ganó confianza para el examen.",
+        "pt-BR": "Depois de treinar, ele ganhou confiança para a prova."
+      }
+    ]
+  },
+  "兴奋": {
+    "ru": "возбуждённый / радостное волнение",
+    "es": "emocionado / emoción",
+    "pt-BR": "empolgado / empolgação",
+    "examples": [
+      {
+        "ru": "Услышав новость о победе, все очень обрадовались.",
+        "es": "Al oír la noticia de la victoria, todos se emocionaron.",
+        "pt-BR": "Ao ouvir a notícia da vitória, todos ficaram empolgados."
+      },
+      {
+        "ru": "Ребёнок так возбудился, что не мог уснуть.",
+        "es": "El niño estaba demasiado emocionado para dormir.",
+        "pt-BR": "A criança estava empolgada demais para dormir."
+      }
+    ]
+  },
+  "修理": {
+    "ru": "чинить / ремонтировать",
+    "es": "reparar / arreglar",
+    "pt-BR": "consertar / reparar",
+    "examples": [
+      {
+        "ru": "Велосипед сломался, его нужно починить.",
+        "es": "Mi bicicleta está rota y hay que repararla.",
+        "pt-BR": "Minha bicicleta quebrou e precisa de conserto."
+      },
+      {
+        "ru": "Мастер сейчас чинит компьютер.",
+        "es": "El técnico está reparando el ordenador.",
+        "pt-BR": "O técnico está consertando o computador."
+      }
+    ]
+  },
+  "压力": {
+    "ru": "давление / стресс",
+    "es": "presión / estrés",
+    "pt-BR": "pressão / estresse",
+    "examples": [
+      {
+        "ru": "Перед экзаменами студенты испытывают большой стресс.",
+        "es": "Ante los exámenes, los estudiantes sienten mucho estrés.",
+        "pt-BR": "Perto das provas, os alunos sentem muito estresse."
+      },
+      {
+        "ru": "Нужно учиться снимать рабочее давление.",
+        "es": "Aprenda a aliviar la presión laboral.",
+        "pt-BR": "É preciso aprender a aliviar a pressão do trabalho."
+      }
+    ]
+  },
+  "牙膏": {
+    "ru": "зубная паста",
+    "es": "pasta de dientes",
+    "pt-BR": "creme dental",
+    "examples": [
+      {
+        "ru": "Паста закончилась, куплю новую.",
+        "es": "Se acabó la pasta, iré a comprar una caja nueva.",
+        "pt-BR": "O creme dental acabou; vou comprar outro."
+      },
+      {
+        "ru": "При чистке зубов выдавите немного пасты.",
+        "es": "Al cepillarse, ponga un poco de pasta.",
+        "pt-BR": "Na hora de escovar, coloque um pouco de creme."
+      }
+    ]
+  },
+  "严格": {
+    "ru": "строгий",
+    "es": "estricto / riguroso",
+    "pt-BR": "rígido / rigoroso",
+    "examples": [
+      {
+        "ru": "Тренер очень строго нас тренирует.",
+        "es": "El entrenador es extremadamente estricto con nosotros.",
+        "pt-BR": "O técnico é extremamente rigoroso no treino."
+      },
+      {
+        "ru": "Нужно строго соблюдать правила безопасности.",
+        "es": "Debemos cumplir estrictamente las normas de seguridad.",
+        "pt-BR": "Precisamos cumprir rigorosamente as normas de segurança."
+      }
+    ]
+  },
+  "严重": {
+    "ru": "серьёзный / тяжёлый",
+    "es": "grave / serio",
+    "pt-BR": "grave / sério",
+    "examples": [
+      {
+        "ru": "У него сильная простуда, нужна госпитализация.",
+        "es": "Su resfriado es grave, necesita hospitalización.",
+        "pt-BR": "O resfriado dele está grave; precisa internar."
+      },
+      {
+        "ru": "Это дело вызвало серьёзные последствия.",
+        "es": "Este asunto provocó consecuencias graves.",
+        "pt-BR": "Esse assunto causou consequências graves."
+      }
+    ]
+  },
+  "研究": {
+    "ru": "исследование / исследовать",
+    "es": "investigación / investigar",
+    "pt-BR": "pesquisa / pesquisar",
+    "examples": [
+      {
+        "ru": "Учёные исследуют новые технологии.",
+        "es": "Los científicos investigan nuevas tecnologías.",
+        "pt-BR": "Os cientistas estão pesquisando novas tecnologias."
+      },
+      {
+        "ru": "Этот вопрос стоит глубоко изучить.",
+        "es": "Este tema merece un estudio a fondo.",
+        "pt-BR": "Esse tema merece um estudo aprofundado."
+      }
+    ]
+  },
+  "阳光": {
+    "ru": "солнечный свет",
+    "es": "luz del sol / sol",
+    "pt-BR": "luz do sol / sol",
+    "examples": [
+      {
+        "ru": "Тёплое утреннее солнце вошло в комнату.",
+        "es": "La cálida luz de la mañana entró en la habitación.",
+        "pt-BR": "A luz quente da manhã entrou no quarto."
+      },
+      {
+        "ru": "Больше бывать на солнце полезно для здоровья.",
+        "es": "Tomar más sol es muy bueno para la salud.",
+        "pt-BR": "Pegar mais sol faz bem à saúde."
+      }
+    ]
+  },
+  "邀请": {
+    "ru": "приглашать / приглашение",
+    "es": "invitar / invitación",
+    "pt-BR": "convidar / convite",
+    "examples": [
+      {
+        "ru": "Хочу пригласить вас на день рождения.",
+        "es": "Quiero invitarte a mi fiesta de cumpleaños.",
+        "pt-BR": "Quero convidar você para a minha festa de aniversário."
+      },
+      {
+        "ru": "Большое спасибо за тёплое приглашение.",
+        "es": "Muchas gracias por su cálida invitación.",
+        "pt-BR": "Muito obrigado pelo convite caloroso."
+      }
+    ]
+  },
+  "钥匙": {
+    "ru": "ключ",
+    "es": "llave",
+    "pt-BR": "chave",
+    "examples": [
+      {
+        "ru": "Не забудьте ключи от дома.",
+        "es": "Recuerde llevar las llaves de casa.",
+        "pt-BR": "Lembre-se de levar as chaves de casa."
+      },
+      {
+        "ru": "Не могу найти ключ от машины.",
+        "es": "No encuentro la llave del coche.",
+        "pt-BR": "Não acho a chave do carro."
+      }
+    ]
+  },
+  "页": {
+    "ru": "страница",
+    "es": "página",
+    "pt-BR": "página",
+    "examples": [
+      {
+        "ru": "Откройте, пожалуйста, десятую страницу.",
+        "es": "Abran la página diez del libro.",
+        "pt-BR": "Abram a página dez do livro."
+      },
+      {
+        "ru": "В этой статье всего три страницы.",
+        "es": "Este artículo tiene tres páginas en total.",
+        "pt-BR": "Este artigo tem três páginas no total."
+      }
+    ]
+  },
+  "也许": {
+    "ru": "возможно / может быть",
+    "es": "quizá / tal vez",
+    "pt-BR": "talvez / quem sabe",
+    "examples": [
+      {
+        "ru": "Он сегодня не пришёл, возможно, заболел.",
+        "es": "Hoy no vino; quizá se enfermó.",
+        "pt-BR": "Ele não veio hoje; talvez esteja doente."
+      },
+      {
+        "ru": "Продолжайте, завтра, возможно, получится.",
+        "es": "Sigue adelante; tal vez mañana lo logres.",
+        "pt-BR": "Continue; talvez amanhã você consiga."
+      }
+    ]
+  },
+  "意见": {
+    "ru": "мнение / предложение",
+    "es": "opinión / sugerencia",
+    "pt-BR": "opinião / sugestão",
+    "examples": [
+      {
+        "ru": "Какие у всех мнения по этому плану?",
+        "es": "¿Qué opiniones tienen sobre este plan?",
+        "pt-BR": "Que opiniões vocês têm sobre este plano?"
+      },
+      {
+        "ru": "Важно смиренно слушать чужие мнения.",
+        "es": "Escuchar con humildad las opiniones ajenas es importante.",
+        "pt-BR": "Ouvir com humildade as opiniões dos outros é importante."
+      }
+    ]
+  },
+  "艺术": {
+    "ru": "искусство",
+    "es": "arte",
+    "pt-BR": "arte",
+    "examples": [
+      {
+        "ru": "Живопись — великое искусство.",
+        "es": "La pintura es un gran arte.",
+        "pt-BR": "A pintura é uma grande arte."
+      },
+      {
+        "ru": "Его очень интересует современное искусство.",
+        "es": "Le interesa mucho el arte moderno.",
+        "pt-BR": "Ele se interessa muito por arte moderna."
+      }
+    ]
+  },
+  "愉快": {
+    "ru": "приятный / радостный",
+    "es": "agradable / feliz",
+    "pt-BR": "agradável / feliz",
+    "examples": [
+      {
+        "ru": "Желаю приятных выходных!",
+        "es": "¡Que tengas un fin de semana agradable!",
+        "pt-BR": "Tenha um fim de semana agradável!"
+      },
+      {
+        "ru": "Мы очень приятно поболтали.",
+        "es": "Conversamos de forma muy agradable.",
+        "pt-BR": "Conversamos de um jeito muito agradável."
+      }
+    ]
+  },
+  "圆": {
+    "ru": "круглый / круг",
+    "es": "redondo / círculo",
+    "pt-BR": "redondo / círculo",
+    "examples": [
+      {
+        "ru": "На Праздник середины осени луна большая и круглая.",
+        "es": "En el Festival del Medio Otoño la luna es grande y redonda.",
+        "pt-BR": "No Festival da Lua a lua fica grande e redonda."
+      },
+      {
+        "ru": "Все сели в круг.",
+        "es": "Todos se sentaron en círculo.",
+        "pt-BR": "Todos se sentaram em círculo."
+      }
+    ]
+  },
+  "杂志": {
+    "ru": "журнал",
+    "es": "revista",
+    "pt-BR": "revista",
+    "examples": [
+      {
+        "ru": "На столе свежий модный журнал.",
+        "es": "Hay una revista de moda reciente sobre la mesa.",
+        "pt-BR": "Há uma revista de moda recente sobre a mesa."
+      },
+      {
+        "ru": "В свободное время он любит читать журналы.",
+        "es": "Le gusta leer revistas en su tiempo libre.",
+        "pt-BR": "No tempo livre ele gosta de ler revistas."
+      }
+    ]
+  },
+  "招聘": {
+    "ru": "набор персонала / нанимать",
+    "es": "contratación / contratar",
+    "pt-BR": "contratação / contratar",
+    "examples": [
+      {
+        "ru": "Наша компания набирает новых сотрудников.",
+        "es": "Nuestra empresa está contratando personal nuevo.",
+        "pt-BR": "Nossa empresa está contratando novos funcionários."
+      },
+      {
+        "ru": "Следите за объявлениями о вакансиях на сайте.",
+        "es": "Preste atención a la información de empleo en la web.",
+        "pt-BR": "Acompanhe as vagas no site."
+      }
+    ]
+  },
+  "整理": {
+    "ru": "приводить в порядок / организовывать",
+    "es": "ordenar / organizar",
+    "pt-BR": "organizar / arrumar",
+    "examples": [
+      {
+        "ru": "Пожалуйста, разберите книги в комнате.",
+        "es": "Ordene los libros de la habitación.",
+        "pt-BR": "Organize os livros do quarto."
+      },
+      {
+        "ru": "Он готовит материалы к собранию.",
+        "es": "Está organizando los materiales de la reunión.",
+        "pt-BR": "Ele está organizando os materiais da reunião."
+      }
+    ]
+  },
+  "正常": {
+    "ru": "нормальный / обычный",
+    "es": "normal / regular",
+    "pt-BR": "normal / regular",
+    "examples": [
+      {
+        "ru": "После проверки все показатели в норме.",
+        "es": "Tras la revisión, todos los indicadores son normales.",
+        "pt-BR": "Após o exame, todos os indicadores estão normais."
+      },
+      {
+        "ru": "Встречать трудности — это нормально.",
+        "es": "Encontrar dificultades es un fenómeno normal.",
+        "pt-BR": "Enfrentar dificuldades é um fenômeno normal."
+      }
+    ]
+  },
+  "正式": {
+    "ru": "официальный / формальный",
+    "es": "formal / oficial",
+    "pt-BR": "formal / oficial",
+    "examples": [
+      {
+        "ru": "На собеседование наденьте официальную одежду.",
+        "es": "Póngase ropa formal para la entrevista.",
+        "pt-BR": "Use roupa formal na entrevista."
+      },
+      {
+        "ru": "Стороны официально подписали контракт.",
+        "es": "Ambas partes firmaron el contrato oficialmente.",
+        "pt-BR": "As partes assinaram o contrato oficialmente."
+      }
+    ]
+  },
+  "知识": {
+    "ru": "знания",
+    "es": "conocimiento",
+    "pt-BR": "conhecimento",
+    "examples": [
+      {
+        "ru": "Чтение расширяет знания.",
+        "es": "Leer amplía el conocimiento.",
+        "pt-BR": "A leitura amplia o conhecimento."
+      },
+      {
+        "ru": "Нужно постоянно учиться новому.",
+        "es": "Debemos aprender conocimientos nuevos sin parar.",
+        "pt-BR": "Precisamos aprender conhecimentos novos o tempo todo."
+      }
+    ]
+  },
+  "祝贺": {
+    "ru": "поздравлять",
+    "es": "felicitar",
+    "pt-BR": "parabenizar",
+    "examples": [
+      {
+        "ru": "Поздравляем с успешным выпуском!",
+        "es": "¡Felicitaciones por graduarte sin problemas!",
+        "pt-BR": "Parabéns pela formatura!"
+      },
+      {
+        "ru": "Мы собрались, чтобы поздравить его с успехом.",
+        "es": "Nos reunimos para felicitar su éxito.",
+        "pt-BR": "Nos reunimos para parabenizar o sucesso dele."
+      }
+    ]
+  },
+  "著名": {
+    "ru": "известный",
+    "es": "famoso / conocido",
+    "pt-BR": "famoso / conhecido",
+    "examples": [
+      {
+        "ru": "Он известный художник.",
+        "es": "Es un artista famoso.",
+        "pt-BR": "Ele é um artista famoso."
+      },
+      {
+        "ru": "Запретный город — известная достопримечательность Пекина.",
+        "es": "El Palacio Imperial es un atractivo famoso de Pekín.",
+        "pt-BR": "A Cidade Proibida é um ponto turístico famoso de Pequim."
+      }
+    ]
+  },
+  "专门": {
+    "ru": "специально / специально предназначенный",
+    "es": "especialmente / especializado",
+    "pt-BR": "especialmente / especializado",
+    "examples": [
+      {
+        "ru": "Я специально пришёл вас увидеть.",
+        "es": "Vine especialmente a verte.",
+        "pt-BR": "Vim especialmente para te ver."
+      },
+      {
+        "ru": "Это магазин, который специализируется на книгах.",
+        "es": "Esta es una tienda especializada en libros.",
+        "pt-BR": "Esta é uma loja especializada em livros."
+      }
+    ]
+  },
+  "专业": {
+    "ru": "специальность / профессиональный",
+    "es": "carrera / profesional",
+    "pt-BR": "curso / profissional",
+    "examples": [
+      {
+        "ru": "Какую специальность вы изучаете в университете?",
+        "es": "¿Qué carrera estudias en la universidad?",
+        "pt-BR": "Qual curso você faz na universidade?"
+      },
+      {
+        "ru": "Его ответ был очень профессиональным.",
+        "es": "Su respuesta fue extremadamente profesional.",
+        "pt-BR": "A resposta dele foi extremamente profissional."
+      }
+    ]
+  },
+  "自然": {
+    "ru": "природа / естественный",
+    "es": "naturaleza / natural",
+    "pt-BR": "natureza / natural",
+    "examples": [
+      {
+        "ru": "Нужно уважать природу и жить с ней в гармонии.",
+        "es": "Debemos respetar la naturaleza y convivir en armonía.",
+        "pt-BR": "Precisamos respeitar a natureza e conviver em harmonia."
+      },
+      {
+        "ru": "Улыбка — самый естественный язык.",
+        "es": "Una sonrisa es el lenguaje más natural.",
+        "pt-BR": "O sorriso é a linguagem mais natural."
+      }
+    ]
+  },
+  "总结": {
+    "ru": "итог / подводить итоги",
+    "es": "resumen / resumir",
+    "pt-BR": "resumo / resumir",
+    "examples": [
+      {
+        "ru": "На собрании менеджер подвёл итоги работы.",
+        "es": "En la reunión el gerente hizo un resumen del trabajo.",
+        "pt-BR": "Na reunião o gerente fez um resumo do trabalho."
+      },
+      {
+        "ru": "Стоит уметь обобщать опыт и уроки.",
+        "es": "Debemos saber resumir experiencias y lecciones.",
+        "pt-BR": "É preciso saber resumir experiências e lições."
+      }
+    ]
+  },
+  "尊重": {
+    "ru": "уважать",
+    "es": "respetar",
+    "pt-BR": "respeitar",
+    "examples": [
+      {
+        "ru": "Каждый должен уважать чужой выбор.",
+        "es": "Todos deben respetar las decisiones ajenas.",
+        "pt-BR": "Todos devem respeitar as escolhas dos outros."
+      },
+      {
+        "ru": "Нужно уважать мнение старших.",
+        "es": "Debemos respetar las opiniones de los mayores.",
+        "pt-BR": "Devemos respeitar as opiniões dos mais velhos."
+      }
+    ]
+  },
+  "座位": {
+    "ru": "место / сиденье",
+    "es": "asiento",
+    "pt-BR": "assento",
+    "examples": [
+      {
+        "ru": "Найдите своё место и садитесь.",
+        "es": "Busque su asiento y siéntese.",
+        "pt-BR": "Encontre o seu assento e sente-se."
+      },
+      {
+        "ru": "Это место занято?",
+        "es": "¿Está ocupado este asiento?",
+        "pt-BR": "Este assento está ocupado?"
+      }
+    ]
+  },
+  "女儿": {
+    "ru": "дочь",
+    "es": "hija",
+    "pt-BR": "filha",
+    "examples": [
+      {
+        "ru": "У меня есть дочь.",
+        "es": "Tengo una hija.",
+        "pt-BR": "Eu tenho uma filha."
+      },
+      {
+        "ru": "Её дочь очень милая.",
+        "es": "Su hija es muy linda.",
+        "pt-BR": "A filha dela é muito fofa."
+      }
+    ]
+  },
+  "朋友": {
+    "ru": "друг",
+    "es": "amigo",
+    "pt-BR": "amigo",
+    "examples": [
+      {
+        "ru": "Он мой хороший друг.",
+        "es": "Es mi buen amigo.",
+        "pt-BR": "Ele é meu bom amigo."
+      },
+      {
+        "ru": "У меня много друзей.",
+        "es": "Tengo muchos amigos.",
+        "pt-BR": "Tenho muitos amigos."
+      }
+    ]
+  },
+  "漂亮": {
+    "ru": "красивый",
+    "es": "bonito / hermoso",
+    "pt-BR": "bonito / lindo",
+    "examples": [
+      {
+        "ru": "Эта одежда очень красивая.",
+        "es": "Esta prenda es muy bonita.",
+        "pt-BR": "Esta roupa é muito bonita."
+      },
+      {
+        "ru": "Она очень красивая.",
+        "es": "Se ve muy bonita.",
+        "pt-BR": "Ela é muito bonita."
+      }
+    ]
+  },
+  "苹果": {
+    "ru": "яблоко",
+    "es": "manzana",
+    "pt-BR": "maçã",
+    "examples": [
+      {
+        "ru": "Хочу съесть яблоко.",
+        "es": "Quiero comer una manzana.",
+        "pt-BR": "Quero comer uma maçã."
+      },
+      {
+        "ru": "Это яблоко очень большое.",
+        "es": "Esta manzana es muy grande.",
+        "pt-BR": "Esta maçã é muito grande."
+      }
+    ]
+  },
+  "七": {
+    "ru": "семь",
+    "es": "siete",
+    "pt-BR": "sete",
+    "examples": [
+      {
+        "ru": "Сейчас семь часов.",
+        "es": "Son las siete.",
+        "pt-BR": "São sete horas."
+      },
+      {
+        "ru": "Нас семеро идём.",
+        "es": "Vamos los siete.",
+        "pt-BR": "Nós sete vamos."
+      }
+    ]
+  },
+  "钱": {
+    "ru": "деньги",
+    "es": "dinero",
+    "pt-BR": "dinheiro",
+    "examples": [
+      {
+        "ru": "Сколько это стоит?",
+        "es": "¿Cuánto cuesta esto?",
+        "pt-BR": "Quanto custa isto?"
+      },
+      {
+        "ru": "У меня нет денег.",
+        "es": "No tengo dinero.",
+        "pt-BR": "Não tenho dinheiro."
+      }
+    ]
+  },
+  "前面": {
+    "ru": "впереди / перед",
+    "es": "delante / frente",
+    "pt-BR": "na frente / adiante",
+    "examples": [
+      {
+        "ru": "Он передо мной.",
+        "es": "Está delante de mí.",
+        "pt-BR": "Ele está na minha frente."
+      },
+      {
+        "ru": "Впереди есть магазин.",
+        "es": "Hay una tienda más adelante.",
+        "pt-BR": "Tem uma loja mais à frente."
+      }
+    ]
+  },
+  "请": {
+    "ru": "пожалуйста / приглашать",
+    "es": "por favor / invitar",
+    "pt-BR": "por favor / convidar",
+    "examples": [
+      {
+        "ru": "Садитесь, пожалуйста.",
+        "es": "Siéntese, por favor.",
+        "pt-BR": "Sente-se, por favor."
+      },
+      {
+        "ru": "Пожалуйста, выпейте воды.",
+        "es": "Beba agua, por favor.",
+        "pt-BR": "Beba água, por favor."
+      }
+    ]
+  },
+  "去": {
+    "ru": "идти",
+    "es": "ir",
+    "pt-BR": "ir",
+    "examples": [
+      {
+        "ru": "Мы идём в школу.",
+        "es": "Vamos a la escuela.",
+        "pt-BR": "Estamos indo para a escola."
+      },
+      {
+        "ru": "Куда вы идёте?",
+        "es": "¿Adónde vas?",
+        "pt-BR": "Aonde você vai?"
+      }
+    ]
+  },
+  "热": {
+    "ru": "горячий",
+    "es": "caliente / calor",
+    "pt-BR": "quente",
+    "examples": [
+      {
+        "ru": "Сегодня очень жарко.",
+        "es": "Hoy hace mucho calor.",
+        "pt-BR": "Hoje está muito quente."
+      },
+      {
+        "ru": "Вода слишком горячая.",
+        "es": "El agua está demasiado caliente.",
+        "pt-BR": "A água está quente demais."
+      }
+    ]
+  },
+  "人": {
+    "ru": "человек / люди",
+    "es": "persona / gente",
+    "pt-BR": "pessoa / gente",
+    "examples": [
+      {
+        "ru": "Он китаец.",
+        "es": "Es chino.",
+        "pt-BR": "Ele é chinês."
+      },
+      {
+        "ru": "Здесь много людей.",
+        "es": "Hay mucha gente aquí.",
+        "pt-BR": "Tem muita gente aqui."
+      }
+    ]
+  },
+  "认识": {
+    "ru": "знать / быть знакомым",
+    "es": "conocer / reconocer",
+    "pt-BR": "conhecer / reconhecer",
+    "examples": [
+      {
+        "ru": "Приятно познакомиться.",
+        "es": "Encantado de conocerle.",
+        "pt-BR": "Prazer em conhecer você."
+      },
+      {
+        "ru": "Вы знаете этого человека?",
+        "es": "¿Conoce a esta persona?",
+        "pt-BR": "Você conhece esta pessoa?"
+      }
+    ]
+  },
+  "三": {
+    "ru": "три",
+    "es": "tres",
+    "pt-BR": "três",
+    "examples": [
+      {
+        "ru": "В моей семье трое.",
+        "es": "Somos tres en mi familia.",
+        "pt-BR": "Somos três na minha família."
+      },
+      {
+        "ru": "Сейчас три часа.",
+        "es": "Son las tres.",
+        "pt-BR": "São três horas."
+      }
+    ]
+  },
+  "商店": {
+    "ru": "магазин",
+    "es": "tienda",
+    "pt-BR": "loja",
+    "examples": [
+      {
+        "ru": "Я иду в магазин за покупками.",
+        "es": "Voy a la tienda a comprar cosas.",
+        "pt-BR": "Vou à loja comprar coisas."
+      },
+      {
+        "ru": "Магазин впереди.",
+        "es": "La tienda está más adelante.",
+        "pt-BR": "A loja fica mais à frente."
+      }
+    ]
+  },
+  "上": {
+    "ru": "на / сверху / подниматься",
+    "es": "sobre / arriba / subir",
+    "pt-BR": "em cima / acima / subir",
+    "examples": [
+      {
+        "ru": "Книга на столе.",
+        "es": "El libro está sobre la mesa.",
+        "pt-BR": "O livro está sobre a mesa."
+      },
+      {
+        "ru": "Давайте сядем в машину.",
+        "es": "Subamos al coche.",
+        "pt-BR": "Vamos entrar no carro."
+      }
+    ]
+  },
+  "上午": {
+    "ru": "утро (до полудня)",
+    "es": "mañana",
+    "pt-BR": "manhã",
+    "examples": [
+      {
+        "ru": "Утром у меня занятия.",
+        "es": "Tengo clase por la mañana.",
+        "pt-BR": "De manhã eu tenho aula."
+      },
+      {
+        "ru": "Сегодня утром была хорошая погода.",
+        "es": "Esta mañana el tiempo estuvo muy bueno.",
+        "pt-BR": "Nesta manhã o tempo estava ótimo."
+      }
+    ]
+  },
+  "少": {
+    "ru": "мало / немного",
+    "es": "poco / faltar",
+    "pt-BR": "pouco / faltar",
+    "examples": [
+      {
+        "ru": "Здесь очень мало людей.",
+        "es": "Hay muy poca gente aquí.",
+        "pt-BR": "Tem pouquíssima gente aqui."
+      },
+      {
+        "ru": "Положите меньше соли.",
+        "es": "Ponga menos sal, por favor.",
+        "pt-BR": "Coloque menos sal, por favor."
+      }
+    ]
+  },
+  "谁": {
+    "ru": "кто",
+    "es": "quién",
+    "pt-BR": "quem",
+    "examples": [
+      {
+        "ru": "Кто он?",
+        "es": "¿Quién es él?",
+        "pt-BR": "Quem é ele?"
+      },
+      {
+        "ru": "Кто в комнате?",
+        "es": "¿Quién está en la habitación?",
+        "pt-BR": "Quem está no quarto?"
+      }
+    ]
+  },
+  "什么": {
+    "ru": "что",
+    "es": "qué",
+    "pt-BR": "o que / que",
+    "examples": [
+      {
+        "ru": "Что это?",
+        "es": "¿Qué es esto?",
+        "pt-BR": "O que é isto?"
+      },
+      {
+        "ru": "Что вы делаете?",
+        "es": "¿Qué estás haciendo?",
+        "pt-BR": "O que você está fazendo?"
+      }
+    ]
+  },
+  "十": {
+    "ru": "десять",
+    "es": "diez",
+    "pt-BR": "dez",
+    "examples": [
+      {
+        "ru": "У меня десять книг.",
+        "es": "Tengo diez libros.",
+        "pt-BR": "Eu tenho dez livros."
+      },
+      {
+        "ru": "Сейчас десять часов.",
+        "es": "Son las diez.",
+        "pt-BR": "São dez horas."
+      }
+    ]
+  },
+  "时候": {
+    "ru": "время / момент",
+    "es": "momento / cuando",
+    "pt-BR": "hora / momento",
+    "examples": [
+      {
+        "ru": "Когда вы придёте?",
+        "es": "¿Cuándo vienes?",
+        "pt-BR": "Quando você vem?"
+      },
+      {
+        "ru": "В детстве я любил кошек.",
+        "es": "De pequeño me gustaban los gatos.",
+        "pt-BR": "Quando eu era criança, gostava de gatos."
+      }
+    ]
+  },
+  "是": {
+    "ru": "быть / являться",
+    "es": "ser / estar",
+    "pt-BR": "ser / estar",
+    "examples": [
+      {
+        "ru": "Я студент.",
+        "es": "Soy estudiante.",
+        "pt-BR": "Eu sou estudante."
+      },
+      {
+        "ru": "Он мой учитель.",
+        "es": "Es mi profesor.",
+        "pt-BR": "Ele é meu professor."
+      }
+    ]
+  },
+  "书": {
+    "ru": "книга",
+    "es": "libro",
+    "pt-BR": "livro",
+    "examples": [
+      {
+        "ru": "Я читаю книгу.",
+        "es": "Estoy leyendo un libro.",
+        "pt-BR": "Estou lendo um livro."
+      },
+      {
+        "ru": "Эта книга отличная.",
+        "es": "Este libro es genial.",
+        "pt-BR": "Este livro é ótimo."
+      }
+    ]
+  },
+  "水": {
+    "ru": "вода",
+    "es": "agua",
+    "pt-BR": "água",
+    "examples": [
+      {
+        "ru": "Хочу воды.",
+        "es": "Quiero beber agua.",
+        "pt-BR": "Quero beber água."
+      },
+      {
+        "ru": "В стакане нет воды.",
+        "es": "No hay agua en el vaso.",
+        "pt-BR": "Não tem água no copo."
+      }
+    ]
+  },
+  "水果": {
+    "ru": "фрукты",
+    "es": "fruta",
+    "pt-BR": "fruta",
+    "examples": [
+      {
+        "ru": "Я очень люблю фрукты.",
+        "es": "Me gusta mucho comer fruta.",
+        "pt-BR": "Gosto muito de comer fruta."
+      },
+      {
+        "ru": "На столе фрукты.",
+        "es": "Hay fruta sobre la mesa.",
+        "pt-BR": "Tem fruta sobre a mesa."
+      }
+    ]
+  },
+  "睡觉": {
+    "ru": "спать",
+    "es": "dormir",
+    "pt-BR": "dormir",
+    "examples": [
+      {
+        "ru": "Я сейчас иду спать.",
+        "es": "Me voy a dormir ahora.",
+        "pt-BR": "Vou dormir agora."
+      },
+      {
+        "ru": "Он спит.",
+        "es": "Está durmiendo.",
+        "pt-BR": "Ele está dormindo."
+      }
+    ]
+  },
+  "说话": {
+    "ru": "говорить / разговаривать",
+    "es": "hablar",
+    "pt-BR": "falar / conversar",
+    "examples": [
+      {
+        "ru": "Пожалуйста, не разговаривайте.",
+        "es": "Por favor, no hablen.",
+        "pt-BR": "Por favor, não conversem."
+      },
+      {
+        "ru": "Они разговаривают.",
+        "es": "Están hablando.",
+        "pt-BR": "Eles estão conversando."
+      }
+    ]
+  },
+  "四": {
+    "ru": "четыре",
+    "es": "cuatro",
+    "pt-BR": "quatro",
+    "examples": [
+      {
+        "ru": "У меня четыре яблока.",
+        "es": "Tengo cuatro manzanas.",
+        "pt-BR": "Eu tenho quatro maçãs."
+      },
+      {
+        "ru": "Сейчас четыре часа.",
+        "es": "Son las cuatro.",
+        "pt-BR": "São quatro horas."
+      }
+    ]
+  },
+  "岁": {
+    "ru": "лет (возраст)",
+    "es": "años (edad)",
+    "pt-BR": "anos (idade)",
+    "examples": [
+      {
+        "ru": "Мне в этом году двадцать лет.",
+        "es": "Tengo veinte años este año.",
+        "pt-BR": "Tenho vinte anos este ano."
+      },
+      {
+        "ru": "Его ребёнку пять лет.",
+        "es": "Su hijo tiene cinco años.",
+        "pt-BR": "O filho dele tem cinco anos."
+      }
+    ]
+  },
+  "他": {
+    "ru": "он",
+    "es": "él",
+    "pt-BR": "ele",
+    "examples": [
+      {
+        "ru": "Он мой друг.",
+        "es": "Él es mi amigo.",
+        "pt-BR": "Ele é meu amigo."
+      },
+      {
+        "ru": "Он дома читает.",
+        "es": "Está en casa leyendo.",
+        "pt-BR": "Ele está em casa lendo."
+      }
+    ]
+  },
+  "她": {
+    "ru": "она",
+    "es": "ella",
+    "pt-BR": "ela",
+    "examples": [
+      {
+        "ru": "Она моя учительница.",
+        "es": "Ella es mi profesora.",
+        "pt-BR": "Ela é minha professora."
+      },
+      {
+        "ru": "Она очень красивая.",
+        "es": "Es muy bonita.",
+        "pt-BR": "Ela é muito bonita."
+      }
+    ]
+  },
+  "太": {
+    "ru": "слишком / чересчур",
+    "es": "demasiado / muy",
+    "pt-BR": "demais / muito",
+    "examples": [
+      {
+        "ru": "Это слишком дорого.",
+        "es": "Esto es demasiado caro.",
+        "pt-BR": "Isto é caro demais."
+      },
+      {
+        "ru": "Отлично!",
+        "es": "¡Qué bien!",
+        "pt-BR": "Que ótimo!"
+      }
+    ]
+  },
+  "天气": {
+    "ru": "погода",
+    "es": "tiempo / clima",
+    "pt-BR": "tempo / clima",
+    "examples": [
+      {
+        "ru": "Сегодня отличная погода.",
+        "es": "Hoy hace muy buen tiempo.",
+        "pt-BR": "Hoje o tempo está ótimo."
+      },
+      {
+        "ru": "Какая завтра погода?",
+        "es": "¿Qué tiempo hará mañana?",
+        "pt-BR": "Como está o tempo amanhã?"
+      }
+    ]
+  },
+  "听": {
+    "ru": "слушать / слышать",
+    "es": "escuchar / oír",
+    "pt-BR": "ouvir / escutar",
+    "examples": [
+      {
+        "ru": "Я люблю слушать музыку.",
+        "es": "Me gusta escuchar música.",
+        "pt-BR": "Gosto de ouvir música."
+      },
+      {
+        "ru": "Пожалуйста, послушайте меня.",
+        "es": "Escúcheme, por favor.",
+        "pt-BR": "Por favor, me escute."
+      }
+    ]
+  },
+  "同学": {
+    "ru": "одноклассник / однокурсник",
+    "es": "compañero de clase",
+    "pt-BR": "colega de classe",
+    "examples": [
+      {
+        "ru": "Он мой одноклассник.",
+        "es": "Es mi compañero de clase.",
+        "pt-BR": "Ele é meu colega de classe."
+      },
+      {
+        "ru": "Здравствуйте, однокурсники!",
+        "es": "¡Hola, compañeros!",
+        "pt-BR": "Olá, colegas!"
+      }
+    ]
+  },
+  "喂": {
+    "ru": "аллё (по телефону) / эй",
+    "es": "¿aló? / oye",
+    "pt-BR": "alô / oi",
+    "examples": [
+      {
+        "ru": "Аллё, кого вы ищете?",
+        "es": "¿Aló, a quién busca?",
+        "pt-BR": "Alô, com quem você quer falar?"
+      },
+      {
+        "ru": "Эй, ты где?",
+        "es": "Oye, ¿dónde estás?",
+        "pt-BR": "Oi, onde você está?"
+      }
+    ]
+  },
+  "我": {
+    "ru": "я",
+    "es": "yo",
+    "pt-BR": "eu",
+    "examples": [
+      {
+        "ru": "Я студент.",
+        "es": "Soy estudiante.",
+        "pt-BR": "Eu sou estudante."
+      },
+      {
+        "ru": "Дайте мне, пожалуйста, стакан воды.",
+        "es": "Por favor, deme un vaso de agua.",
+        "pt-BR": "Por favor, me dê um copo d’água."
+      }
+    ]
+  },
+  "我们": {
+    "ru": "мы",
+    "es": "nosotros",
+    "pt-BR": "nós",
+    "examples": [
+      {
+        "ru": "Мы все студенты.",
+        "es": "Todos somos estudiantes.",
+        "pt-BR": "Nós todos somos estudantes."
+      },
+      {
+        "ru": "Пойдём вместе.",
+        "es": "Vamos juntos.",
+        "pt-BR": "Vamos juntos."
+      }
+    ]
+  },
+  "五": {
+    "ru": "пять",
+    "es": "cinco",
+    "pt-BR": "cinco",
+    "examples": [
+      {
+        "ru": "У меня пять яблок.",
+        "es": "Tengo cinco manzanas.",
+        "pt-BR": "Eu tenho cinco maçãs."
+      },
+      {
+        "ru": "Сейчас пять часов.",
+        "es": "Son las cinco.",
+        "pt-BR": "São cinco horas."
+      }
+    ]
+  },
+  "喜欢": {
+    "ru": "нравиться",
+    "es": "gustar",
+    "pt-BR": "gostar",
+    "examples": [
+      {
+        "ru": "Я люблю чай.",
+        "es": "Me gusta beber té.",
+        "pt-BR": "Gosto de beber chá."
+      },
+      {
+        "ru": "Ей нравится учить китайский.",
+        "es": "A ella le gusta aprender chino.",
+        "pt-BR": "Ela gosta de aprender chinês."
+      }
+    ]
+  },
+  "下": {
+    "ru": "под / вниз / следующий / спускаться",
+    "es": "debajo / abajo / siguiente / bajar",
+    "pt-BR": "embaixo / abaixo / próximo / descer",
+    "examples": [
+      {
+        "ru": "Кот под столом.",
+        "es": "El gato está debajo de la mesa.",
+        "pt-BR": "O gato está embaixo da mesa."
+      },
+      {
+        "ru": "Увидимся на следующей неделе.",
+        "es": "Nos vemos la semana que viene.",
+        "pt-BR": "Até a semana que vem."
+      }
+    ]
+  },
+  "下午": {
+    "ru": "после полудня",
+    "es": "tarde",
+    "pt-BR": "tarde",
+    "examples": [
+      {
+        "ru": "Днём я иду в магазин.",
+        "es": "Por la tarde voy a la tienda.",
+        "pt-BR": "À tarde vou à loja."
+      },
+      {
+        "ru": "Сегодня днём дождя не будет.",
+        "es": "Esta tarde no lloverá.",
+        "pt-BR": "Nesta tarde não vai chover."
+      }
+    ]
+  },
+  "下雨": {
+    "ru": "идти дождь",
+    "es": "llover",
+    "pt-BR": "chover",
+    "examples": [
+      {
+        "ru": "На улице идёт дождь.",
+        "es": "Está lloviendo fuera.",
+        "pt-BR": "Está chovendo lá fora."
+      },
+      {
+        "ru": "Завтра будет дождь?",
+        "es": "¿Lloverá mañana?",
+        "pt-BR": "Vai chover amanhã?"
+      }
+    ]
+  },
+  "先生": {
+    "ru": "господин / муж",
+    "es": "señor / esposo",
+    "pt-BR": "senhor / marido",
+    "examples": [
+      {
+        "ru": "Здравствуйте, господин Ван!",
+        "es": "¡Hola, señor Wang!",
+        "pt-BR": "Olá, senhor Wang!"
+      },
+      {
+        "ru": "Это господин Ли.",
+        "es": "Este es el señor Li.",
+        "pt-BR": "Este é o senhor Li."
+      }
+    ]
+  },
+  "现在": {
+    "ru": "сейчас",
+    "es": "ahora",
+    "pt-BR": "agora",
+    "examples": [
+      {
+        "ru": "Который сейчас час?",
+        "es": "¿Qué hora es ahora?",
+        "pt-BR": "Que horas são agora?"
+      },
+      {
+        "ru": "Я сейчас иду домой.",
+        "es": "Ahora me voy a casa.",
+        "pt-BR": "Agora estou indo para casa."
+      }
+    ]
+  },
+  "想": {
+    "ru": "хотеть / думать / скучать",
+    "es": "querer / pensar / echar de menos",
+    "pt-BR": "querer / pensar / sentir falta",
+    "examples": [
+      {
+        "ru": "Хочу воды.",
+        "es": "Quiero beber agua.",
+        "pt-BR": "Quero beber água."
+      },
+      {
+        "ru": "О чём вы думаете?",
+        "es": "¿En qué estás pensando?",
+        "pt-BR": "No que você está pensando?"
+      }
+    ]
+  },
+  "小": {
+    "ru": "маленький",
+    "es": "pequeño",
+    "pt-BR": "pequeno",
+    "examples": [
+      {
+        "ru": "Это яблоко очень маленькое.",
+        "es": "Esta manzana es muy pequeña.",
+        "pt-BR": "Esta maçã é bem pequena."
+      },
+      {
+        "ru": "Это маленький котёнок.",
+        "es": "Este es un gatito pequeño.",
+        "pt-BR": "Este é um gatinho pequeno."
+      }
+    ]
+  },
+  "小姐": {
+    "ru": "девушка / барышня",
+    "es": "señorita",
+    "pt-BR": "senhorita",
+    "examples": [
+      {
+        "ru": "Госпожа Чжан работает.",
+        "es": "La señorita Zhang está trabajando.",
+        "pt-BR": "A senhorita Zhang está trabalhando."
+      },
+      {
+        "ru": "Что бы вы хотели, мисс?",
+        "es": "¿Qué desea, señorita?",
+        "pt-BR": "O que a senhorita deseja?"
+      }
+    ]
+  },
+  "些": {
+    "ru": "некоторые / несколько",
+    "es": "algunos / unos",
+    "pt-BR": "alguns / uns",
+    "examples": [
+      {
+        "ru": "Эти книги мои.",
+        "es": "Estos libros son míos.",
+        "pt-BR": "Estes livros são meus."
+      },
+      {
+        "ru": "Я купил немного фруктов.",
+        "es": "Compré algo de fruta.",
+        "pt-BR": "Comprei umas frutas."
+      }
+    ]
+  },
+  "写": {
+    "ru": "писать",
+    "es": "escribir",
+    "pt-BR": "escrever",
+    "examples": [
+      {
+        "ru": "Он пишет иероглифы.",
+        "es": "Está escribiendo caracteres.",
+        "pt-BR": "Ele está escrevendo caracteres."
+      },
+      {
+        "ru": "Пожалуйста, напишите своё имя.",
+        "es": "Escriba su nombre, por favor.",
+        "pt-BR": "Por favor, escreva o seu nome."
+      }
+    ]
+  },
+  "谢谢": {
+    "ru": "спасибо",
+    "es": "gracias",
+    "pt-BR": "obrigado",
+    "examples": [
+      {
+        "ru": "Спасибо за помощь.",
+        "es": "Gracias por su ayuda.",
+        "pt-BR": "Obrigado pela ajuda."
+      },
+      {
+        "ru": "Спасибо, до свидания.",
+        "es": "Gracias, adiós.",
+        "pt-BR": "Obrigado, tchau."
+      }
+    ]
+  },
+  "星期": {
+    "ru": "неделя",
+    "es": "semana",
+    "pt-BR": "semana",
+    "examples": [
+      {
+        "ru": "Какой сегодня день недели?",
+        "es": "¿Qué día de la semana es hoy?",
+        "pt-BR": "Que dia da semana é hoje?"
+      },
+      {
+        "ru": "На следующей неделе я еду в Пекин.",
+        "es": "La semana que viene voy a Pekín.",
+        "pt-BR": "Na semana que vem vou a Pequim."
+      }
+    ]
+  },
+  "学生": {
+    "ru": "студент / ученик",
+    "es": "estudiante",
+    "pt-BR": "estudante",
+    "examples": [
+      {
+        "ru": "Я студент.",
+        "es": "Soy estudiante.",
+        "pt-BR": "Eu sou estudante."
+      },
+      {
+        "ru": "В школе много учеников.",
+        "es": "Hay muchos estudiantes en la escuela.",
+        "pt-BR": "Há muitos alunos na escola."
+      }
+    ]
+  },
+  "学习": {
+    "ru": "учиться / изучать",
+    "es": "estudiar / aprender",
+    "pt-BR": "estudar / aprender",
+    "examples": [
+      {
+        "ru": "Я изучаю китайский.",
+        "es": "Estoy estudiando chino.",
+        "pt-BR": "Estou estudando chinês."
+      },
+      {
+        "ru": "Ей очень нравится учиться.",
+        "es": "Le gusta mucho estudiar.",
+        "pt-BR": "Ela gosta muito de estudar."
+      }
+    ]
+  },
+  "学校": {
+    "ru": "школа",
+    "es": "escuela / colegio",
+    "pt-BR": "escola",
+    "examples": [
+      {
+        "ru": "Наша школа очень большая.",
+        "es": "Nuestra escuela es muy grande.",
+        "pt-BR": "Nossa escola é muito grande."
+      },
+      {
+        "ru": "Он работает в школе.",
+        "es": "Trabaja en una escuela.",
+        "pt-BR": "Ele trabalha numa escola."
+      }
+    ]
+  },
+  "一": {
+    "ru": "один",
+    "es": "uno / un",
+    "pt-BR": "um",
+    "examples": [
+      {
+        "ru": "У меня одна книга.",
+        "es": "Tengo un libro.",
+        "pt-BR": "Eu tenho um livro."
+      },
+      {
+        "ru": "Дайте мне стакан воды.",
+        "es": "Por favor, deme un vaso de agua.",
+        "pt-BR": "Por favor, me dê um copo d’água."
+      }
+    ]
+  },
+  "衣服": {
+    "ru": "одежда",
+    "es": "ropa",
+    "pt-BR": "roupa",
+    "examples": [
+      {
+        "ru": "Эта одежда очень красивая.",
+        "es": "Esta ropa es muy bonita.",
+        "pt-BR": "Esta roupa é muito bonita."
+      },
+      {
+        "ru": "Я иду покупать одежду.",
+        "es": "Voy a comprar ropa.",
+        "pt-BR": "Vou comprar roupa."
+      }
+    ]
+  },
+  "医生": {
+    "ru": "врач",
+    "es": "médico",
+    "pt-BR": "médico",
+    "examples": [
+      {
+        "ru": "Мой папа — врач.",
+        "es": "Mi papá es médico.",
+        "pt-BR": "Meu pai é médico."
+      },
+      {
+        "ru": "Он на приёме в больнице.",
+        "es": "Está viendo al médico en el hospital.",
+        "pt-BR": "Ele está no médico no hospital."
+      }
+    ]
+  },
+  "医院": {
+    "ru": "больница",
+    "es": "hospital",
+    "pt-BR": "hospital",
+    "examples": [
+      {
+        "ru": "Эта больница очень большая.",
+        "es": "Este hospital es muy grande.",
+        "pt-BR": "Este hospital é muito grande."
+      },
+      {
+        "ru": "Он работает в больнице.",
+        "es": "Trabaja en un hospital.",
+        "pt-BR": "Ele trabalha num hospital."
+      }
+    ]
+  },
+  "椅子": {
+    "ru": "стул",
+    "es": "silla",
+    "pt-BR": "cadeira",
+    "examples": [
+      {
+        "ru": "Садитесь на стул, пожалуйста.",
+        "es": "Siéntese en la silla, por favor.",
+        "pt-BR": "Sente-se na cadeira, por favor."
+      },
+      {
+        "ru": "В комнате есть стул.",
+        "es": "Hay una silla en la habitación.",
+        "pt-BR": "Tem uma cadeira no quarto."
+      }
+    ]
+  },
+  "有": {
+    "ru": "иметь / есть (имеется)",
+    "es": "tener / haber",
+    "pt-BR": "ter / haver",
+    "examples": [
+      {
+        "ru": "У меня есть кот.",
+        "es": "Tengo un gato.",
+        "pt-BR": "Eu tenho um gato."
+      },
+      {
+        "ru": "На столе книги.",
+        "es": "Hay libros sobre la mesa.",
+        "pt-BR": "Tem livros sobre a mesa."
+      }
+    ]
+  },
+  "月": {
+    "ru": "месяц / луна",
+    "es": "mes / luna",
+    "pt-BR": "mês / lua",
+    "examples": [
+      {
+        "ru": "Какой сейчас месяц?",
+        "es": "¿En qué mes estamos?",
+        "pt-BR": "Que mês é agora?"
+      },
+      {
+        "ru": "В январе я еду в Китай.",
+        "es": "En enero voy a China.",
+        "pt-BR": "Em janeiro vou à China."
+      }
+    ]
+  },
+  "再见": {
+    "ru": "до свидания",
+    "es": "adiós / hasta luego",
+    "pt-BR": "tchau / até logo",
+    "examples": [
+      {
+        "ru": "До свидания, до завтра!",
+        "es": "¡Adiós, hasta mañana!",
+        "pt-BR": "Tchau, até amanhã!"
+      },
+      {
+        "ru": "До свидания, учитель.",
+        "es": "Adiós, profesor.",
+        "pt-BR": "Tchau, professor."
+      }
+    ]
+  },
+  "在": {
+    "ru": "в / на / находиться",
+    "es": "en / estar en",
+    "pt-BR": "em / estar em",
+    "examples": [
+      {
+        "ru": "Часы на столе.",
+        "es": "El reloj está sobre la mesa.",
+        "pt-BR": "O relógio está sobre a mesa."
+      },
+      {
+        "ru": "Я дома смотрю телевизор.",
+        "es": "Estoy en casa viendo la tele.",
+        "pt-BR": "Estou em casa assistindo TV."
+      }
+    ]
+  },
+  "怎么": {
+    "ru": "как / почему",
+    "es": "cómo / por qué",
+    "pt-BR": "como / por quê",
+    "examples": [
+      {
+        "ru": "Как читается этот иероглиф?",
+        "es": "¿Cómo se lee este carácter?",
+        "pt-BR": "Como se lê este caractere?"
+      },
+      {
+        "ru": "Что с вами?",
+        "es": "¿Qué te pasa?",
+        "pt-BR": "O que houve com você?"
+      }
+    ]
+  },
+  "怎么样": {
+    "ru": "как / каково",
+    "es": "qué tal / cómo está",
+    "pt-BR": "que tal / como está",
+    "examples": [
+      {
+        "ru": "Какая сегодня погода?",
+        "es": "¿Qué tal el tiempo hoy?",
+        "pt-BR": "Como está o tempo hoje?"
+      },
+      {
+        "ru": "Как это блюдо?",
+        "es": "¿Qué tal está este plato?",
+        "pt-BR": "Que tal este prato?"
+      }
+    ]
+  },
+  "这": {
+    "ru": "это / этот",
+    "es": "este / esto",
+    "pt-BR": "este / isto",
+    "examples": [
+      {
+        "ru": "Это моя книга.",
+        "es": "Este es mi libro.",
+        "pt-BR": "Este é o meu livro."
+      },
+      {
+        "ru": "Этот человек — мой учитель.",
+        "es": "Esta persona es mi profesor.",
+        "pt-BR": "Esta pessoa é o meu professor."
+      }
+    ]
+  },
+  "中国": {
+    "ru": "Китай",
+    "es": "China",
+    "pt-BR": "China",
+    "examples": [
+      {
+        "ru": "Я люблю Китай.",
+        "es": "Amo China.",
+        "pt-BR": "Eu amo a China."
+      },
+      {
+        "ru": "Он едет в Китай учить китайский.",
+        "es": "Va a China a estudiar chino.",
+        "pt-BR": "Ele vai à China estudar chinês."
+      }
+    ]
+  },
+  "中午": {
+    "ru": "полдень",
+    "es": "mediodía",
+    "pt-BR": "meio-dia",
+    "examples": [
+      {
+        "ru": "В полдень мы едим рис.",
+        "es": "Al mediodía comemos arroz.",
+        "pt-BR": "Ao meio-dia comemos arroz."
+      },
+      {
+        "ru": "Сейчас полдень, двенадцать часов.",
+        "es": "Son las doce del mediodía.",
+        "pt-BR": "Agora é meio-dia, meio-dia em ponto."
+      }
+    ]
+  },
+  "住": {
+    "ru": "жить / проживать",
+    "es": "vivir / alojarse",
+    "pt-BR": "morar / ficar",
+    "examples": [
+      {
+        "ru": "Я живу в Пекине.",
+        "es": "Vivo en Pekín.",
+        "pt-BR": "Moro em Pequim."
+      },
+      {
+        "ru": "Где вы живёте?",
+        "es": "¿Dónde vives?",
+        "pt-BR": "Onde você mora?"
+      }
+    ]
+  },
+  "桌子": {
+    "ru": "стол",
+    "es": "mesa / escritorio",
+    "pt-BR": "mesa / escrivaninha",
+    "examples": [
+      {
+        "ru": "Книга на столе.",
+        "es": "El libro está sobre la mesa.",
+        "pt-BR": "O livro está sobre a mesa."
+      },
+      {
+        "ru": "Этот стол очень большой.",
+        "es": "Esta mesa es muy grande.",
+        "pt-BR": "Esta mesa é muito grande."
+      }
+    ]
+  },
+  "字": {
+    "ru": "иероглиф / слово",
+    "es": "carácter / palabra",
+    "pt-BR": "caractere / palavra",
+    "examples": [
+      {
+        "ru": "Как пишется этот иероглиф?",
+        "es": "¿Cómo se escribe este carácter?",
+        "pt-BR": "Como se escreve este caractere?"
+      },
+      {
+        "ru": "Он знает много китайских иероглифов.",
+        "es": "Conoce muchos caracteres chinos.",
+        "pt-BR": "Ele conhece muitos caracteres chineses."
+      }
+    ]
+  },
+  "昨天": {
+    "ru": "вчера",
+    "es": "ayer",
+    "pt-BR": "ontem",
+    "examples": [
+      {
+        "ru": "Вчера я ходил в магазин.",
+        "es": "Ayer fui a la tienda.",
+        "pt-BR": "Ontem eu fui à loja."
+      },
+      {
+        "ru": "Вчера была хорошая погода.",
+        "es": "Ayer hizo muy buen tiempo.",
+        "pt-BR": "Ontem o tempo estava ótimo."
+      }
+    ]
+  },
+  "坐": {
+    "ru": "сидеть / ехать (на транспорте)",
+    "es": "sentarse / tomar (transporte)",
+    "pt-BR": "sentar / pegar (transporte)",
+    "examples": [
+      {
+        "ru": "Садитесь, пожалуйста.",
+        "es": "Siéntese, por favor.",
+        "pt-BR": "Sente-se, por favor."
+      },
+      {
+        "ru": "Я еду в школу на такси.",
+        "es": "Voy a la escuela en taxi.",
+        "pt-BR": "Vou de táxi para a escola."
+      }
+    ]
+  },
+  "做": {
+    "ru": "делать / готовить",
+    "es": "hacer / preparar",
+    "pt-BR": "fazer / preparar",
+    "examples": [
+      {
+        "ru": "Что вы делаете?",
+        "es": "¿Qué estás haciendo?",
+        "pt-BR": "O que você está fazendo?"
+      },
+      {
+        "ru": "Мама готовит еду.",
+        "es": "Mamá está cocinando.",
+        "pt-BR": "A mamãe está cozinhando."
+      }
+    ]
+  }
+}
