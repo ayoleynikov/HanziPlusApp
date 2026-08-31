@@ -63,7 +63,7 @@ struct TypingChallengeView: View {
 
             if let word = viewModel.currentWord {
                 VStack(spacing: 8) {
-                    Text("games.typing.prompt")
+                    Text(l10n: "games.typing.prompt")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
 
@@ -127,12 +127,12 @@ struct TypingChallengeView: View {
     @ViewBuilder
     private var resultFeedback: some View {
         if viewModel.wasCorrect {
-            Label(String(localized: "games.typing.perfect"), systemImage: "checkmark.circle.fill")
+            Label(L10n.string( "games.typing.perfect"), systemImage: "checkmark.circle.fill")
                 .foregroundStyle(.green)
                 .font(.headline.weight(.semibold))
         } else if let word = viewModel.currentWord {
             VStack(spacing: 4) {
-                Label(String(localized: "games.typing.correct_answer"), systemImage: "xmark.circle.fill")
+                Label(L10n.string( "games.typing.correct_answer"), systemImage: "xmark.circle.fill")
                     .foregroundStyle(.red)
                     .font(.subheadline.weight(.semibold))
 
@@ -143,7 +143,15 @@ struct TypingChallengeView: View {
     }
 
     private func submit() {
+        let word = viewModel.currentWord
         viewModel.submit()
+        if let word {
+            smartReviewStore.recordAttempt(
+                fileName: studySet.fileName,
+                hanzi: word.hanzi,
+                correct: viewModel.wasCorrect
+            )
+        }
 
         if viewModel.wasCorrect {
             HapticService.success()
@@ -151,9 +159,6 @@ struct TypingChallengeView: View {
         } else {
             HapticService.rigid()
             SoundService.error()
-            if let word = viewModel.currentWord {
-                smartReviewStore.recordWrong(word: word, studySet: studySet)
-            }
         }
     }
 

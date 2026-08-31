@@ -12,8 +12,9 @@ final class SmartReviewViewModel: GameSession {
     let studySet: StudySet
     let gameKind: GameKind = .smartReview
 
-    private let wordPool: [Word]
+    private let vocabularyPool: [Word]
     private(set) var words: [Word]
+    private(set) var currentOptions: [String] = []
     private(set) var currentIndex = 0
     private(set) var selectedAnswer: String?
     private(set) var showResult = false
@@ -29,12 +30,13 @@ final class SmartReviewViewModel: GameSession {
 
     init(studySet: StudySet, learnedStore: LearnedWordsStore, smartReviewStore: SmartReviewStore) {
         self.studySet = studySet
+        self.vocabularyPool = WordLoader.load(fileName: studySet.fileName)
         let reviewWords = smartReviewStore.reviewWords(for: studySet, learnedStore: learnedStore)
-        self.wordPool = reviewWords
         let sessionWords = Array(reviewWords.prefix(min(15, reviewWords.count)))
         self.words = sessionWords
         self.dueCount = reviewWords.count
         self.estimatedMinutes = smartReviewStore.estimatedMinutes(for: sessionWords.count)
+        loadCurrentOptions()
     }
 
     var currentWord: Word? {
@@ -52,15 +54,7 @@ final class SmartReviewViewModel: GameSession {
         return Int(Double(currentIndex + 1) / Double(words.count) * 100)
     }
 
-    var options: [String] {
-        guard let currentWord else { return [] }
-        let fullPool = GameWordProvider.words(for: studySet)
-        return MultipleChoiceHelper.englishOptions(
-            correct: currentWord.localizedMeaning,
-            pool: fullPool,
-            excluding: currentWord.id
-        )
-    }
+    var options: [String] { currentOptions }
 
     func select(_ answer: String) {
         guard let currentWord, selectedAnswer == nil else { return }
@@ -80,6 +74,7 @@ final class SmartReviewViewModel: GameSession {
             currentIndex += 1
             selectedAnswer = nil
             showResult = false
+            loadCurrentOptions()
         }
     }
 
@@ -114,5 +109,23 @@ final class SmartReviewViewModel: GameSession {
         wrongCount = 0
         isFinished = false
         result = nil
+        loadCurrentOptions()
+    }
+
+    private func loadCurrentOptions() {
+        guard let currentWord else {
+            currentOptions = []
+            return
+        }
+        currentOptions = MultipleChoiceHelper.englishOptions(
+            correct: currentWord.localizedMeaning,
+            pool: vocabularyPool,
+            excluding: currentWord.id,
+            seed: optionSeed(for: currentWord)
+        )
+    }
+
+    private func optionSeed(for word: Word) -> UInt64 {
+        DailyLessonPlanner.stableSeed("\(studySet.fileName)|review|\(word.id)")
     }
 }

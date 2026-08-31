@@ -61,20 +61,20 @@ struct OnboardingView: View {
 
     private var progressHeader: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("HanziPlus")
+            Text(verbatim: "Hanzi+")
                 .font(.title2.weight(.bold))
 
             ProgressView(value: Double(step + 1), total: Double(totalSteps))
                 .tint(tint)
-                .accessibilityLabel("Onboarding progress")
-                .accessibilityValue("Step \(step + 1) of \(totalSteps)")
+                .accessibilityLabel(L10n.string("Onboarding progress"))
+                .accessibilityValue(L10n.string("Step \(step + 1) of \(totalSteps)"))
         }
     }
 
     private var goalStep: some View {
         stepContainer(
-            title: String(localized: "onboarding.goal.title"),
-            subtitle: String(localized: "onboarding.goal.subtitle")
+            title: L10n.string( "onboarding.goal.title"),
+            subtitle: L10n.string( "onboarding.goal.subtitle")
         ) {
             ForEach(PrimaryGoal.allCases) { option in
                 OnboardingOptionCard(
@@ -97,8 +97,8 @@ struct OnboardingView: View {
 
     private var levelStep: some View {
         stepContainer(
-            title: String(localized: "onboarding.level.title"),
-            subtitle: String(localized: "onboarding.level.subtitle")
+            title: L10n.string( "onboarding.level.title"),
+            subtitle: L10n.string( "onboarding.level.subtitle")
         ) {
             ForEach(ChineseLevel.allCases) { option in
                 OnboardingOptionCard(
@@ -118,8 +118,8 @@ struct OnboardingView: View {
 
     private var minutesStep: some View {
         stepContainer(
-            title: String(localized: "onboarding.time.title"),
-            subtitle: String(localized: "onboarding.time.subtitle")
+            title: L10n.string( "onboarding.time.title"),
+            subtitle: L10n.string( "onboarding.time.subtitle")
         ) {
             ForEach(DailyMinutes.allCases) { option in
                 OnboardingOptionCard(
@@ -139,12 +139,12 @@ struct OnboardingView: View {
 
     private var travelDateStep: some View {
         stepContainer(
-            title: String(localized: "onboarding.trip.title"),
-            subtitle: String(localized: "onboarding.trip.subtitle")
+            title: L10n.string( "onboarding.trip.title"),
+            subtitle: L10n.string( "onboarding.trip.subtitle")
         ) {
             OnboardingOptionCard(
-                title: String(localized: "onboarding.trip.no_date_title"),
-                subtitle: String(localized: "onboarding.trip.no_date_subtitle"),
+                title: L10n.string( "onboarding.trip.no_date_title"),
+                subtitle: L10n.string( "onboarding.trip.no_date_subtitle"),
                 icon: "calendar.badge.minus",
                 isSelected: !hasTravelDate,
                 tint: tint
@@ -155,8 +155,8 @@ struct OnboardingView: View {
             }
 
             OnboardingOptionCard(
-                title: String(localized: "onboarding.trip.has_date_title"),
-                subtitle: String(localized: "onboarding.trip.has_date_subtitle"),
+                title: L10n.string( "onboarding.trip.has_date_title"),
+                subtitle: L10n.string( "onboarding.trip.has_date_subtitle"),
                 icon: "calendar",
                 isSelected: hasTravelDate,
                 tint: tint
@@ -168,7 +168,7 @@ struct OnboardingView: View {
 
             if hasTravelDate {
                 DatePicker(
-                    String(localized: "onboarding.trip.date_label"),
+                    L10n.string( "onboarding.trip.date_label"),
                     selection: $travelDate,
                     in: Date()...,
                     displayedComponents: .date
@@ -179,15 +179,15 @@ struct OnboardingView: View {
                     RoundedRectangle(cornerRadius: AppRadius.medium, style: .continuous)
                         .fill(Color(.secondarySystemGroupedBackground))
                 }
-                .accessibilityLabel(String(localized: "onboarding.a11y.date_picker"))
+                .accessibilityLabel(L10n.string( "onboarding.a11y.date_picker"))
             }
         }
     }
 
     private var planStep: some View {
         stepContainer(
-            title: String(localized: "onboarding.plan.ready_title"),
-            subtitle: String(localized: "onboarding.plan.ready_subtitle")
+            title: L10n.string( "onboarding.plan.ready_title"),
+            subtitle: L10n.string( "onboarding.plan.ready_subtitle")
         ) {
             planSummaryCard
         }
@@ -195,16 +195,31 @@ struct OnboardingView: View {
 
     private var planSummaryCard: some View {
         VStack(alignment: .leading, spacing: 16) {
-            planRow(icon: goal.icon, title: String(localized: "onboarding.plan.row_goal"), value: goal.title)
-            planRow(icon: level.icon, title: String(localized: "onboarding.plan.row_level"), value: level.title)
-            planRow(icon: minutes.icon, title: String(localized: "onboarding.plan.row_daily_time"), value: minutes.title)
+            planRow(icon: goal.icon, title: L10n.string( "onboarding.plan.row_goal"), value: goal.title)
+            planRow(icon: level.icon, title: L10n.string( "onboarding.plan.row_level"), value: level.title)
+            planRow(icon: minutes.icon, title: L10n.string( "onboarding.plan.row_daily_time"), value: minutes.title)
 
             if goal.includesTravel {
                 planRow(
                     icon: "airplane",
-                    title: String(localized: "onboarding.plan.row_travel"),
+                    title: L10n.string( "onboarding.plan.row_travel"),
                     value: travelPlanValue
                 )
+            }
+
+            Divider()
+
+            Text(l10n: "onboarding.plan.row_tabs")
+                .font(.subheadline.weight(.semibold))
+
+            LazyVGrid(
+                columns: [GridItem(.flexible()), GridItem(.flexible())],
+                spacing: 10
+            ) {
+                tabChip(title: L10n.string("tab.today"), icon: "sun.max.fill")
+                tabChip(title: L10n.string("tab.learn"), icon: "book.fill")
+                tabChip(title: L10n.string("tab.travel"), icon: "airplane")
+                tabChip(title: L10n.string("tab.games"), icon: "gamecontroller.fill")
             }
 
             Divider()
@@ -226,21 +241,21 @@ struct OnboardingView: View {
     private var travelPlanValue: String {
         if hasTravelDate {
             let formatter = DateFormatter()
-            formatter.locale = Locale.current
+            formatter.locale = LocalizedUI.currentLocale
             formatter.dateStyle = .medium
             return formatter.string(from: travelDate)
         }
-        return String(localized: "onboarding.plan.no_date")
+        return L10n.string( "onboarding.plan.no_date")
     }
 
     private var planBlurb: String {
         switch goal {
         case .learnChinese:
-            return String(localized: "onboarding.plan.blurb_learn")
+            return L10n.string( "onboarding.plan.blurb_learn")
         case .travelToChina:
-            return String(localized: "onboarding.plan.blurb_travel")
+            return L10n.string( "onboarding.plan.blurb_travel")
         case .both:
-            return String(localized: "onboarding.plan.blurb_both")
+            return L10n.string( "onboarding.plan.blurb_both")
         }
     }
 
@@ -262,6 +277,25 @@ struct OnboardingView: View {
                 .multilineTextAlignment(.trailing)
         }
         .accessibilityElement(children: .combine)
+    }
+
+    private func tabChip(title: String, icon: String) -> some View {
+        HStack(spacing: 8) {
+            Image(systemName: icon)
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(tint)
+            Text(title)
+                .font(.caption.weight(.semibold))
+                .lineLimit(1)
+                .minimumScaleFactor(0.8)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 10)
+        .padding(.horizontal, 8)
+        .background {
+            RoundedRectangle(cornerRadius: AppRadius.large, style: .continuous)
+                .fill(Color(.tertiarySystemGroupedBackground))
+        }
     }
 
     private func stepContainer<Content: View>(
@@ -294,16 +328,16 @@ struct OnboardingView: View {
     private var bottomBar: some View {
         HStack(spacing: 12) {
             if step > 0 {
-                Button(String(localized: "common.back")) {
+                Button(L10n.string( "common.back")) {
                     withAnimation(.spring(response: 0.4, dampingFraction: 0.88)) {
                         step -= 1
                     }
                 }
                 .buttonStyle(.bordered)
-                .accessibilityLabel(String(localized: "onboarding.a11y.back"))
+                .accessibilityLabel(L10n.string( "onboarding.a11y.back"))
             }
 
-            Button(step == planStepIndex ? String(localized: "onboarding.button.start_journey") : String(localized: "common.continue")) {
+            Button(step == planStepIndex ? L10n.string( "onboarding.button.start_journey") : L10n.string( "common.continue")) {
                 if step == planStepIndex {
                     finish()
                 } else {
@@ -315,7 +349,7 @@ struct OnboardingView: View {
             .buttonStyle(.borderedProminent)
             .tint(tint)
             .frame(maxWidth: .infinity)
-            .accessibilityLabel(step == planStepIndex ? String(localized: "onboarding.a11y.start_journey") : String(localized: "common.continue"))
+            .accessibilityLabel(step == planStepIndex ? L10n.string( "onboarding.a11y.start_journey") : L10n.string( "common.continue"))
         }
     }
 

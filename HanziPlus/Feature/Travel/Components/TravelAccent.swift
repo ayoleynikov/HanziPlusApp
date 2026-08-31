@@ -14,6 +14,7 @@ enum TravelAccent {
         case "red": .red
         case "indigo": .indigo
         case "teal": .teal
+        case "cyan": .cyan
         case "pink": .pink
         default: .orange
         }

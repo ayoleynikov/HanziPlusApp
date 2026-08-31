@@ -106,7 +106,7 @@ private struct GameHeroSlide: View {
                     HStack(spacing: 8) {
                         Image(systemName: "play.fill")
                             .font(.body.weight(.bold))
-                        Text("games.play_now")
+                        Text(l10n: "games.play_now")
                             .font(.headline.weight(.semibold))
                     }
                     .foregroundStyle(.white)

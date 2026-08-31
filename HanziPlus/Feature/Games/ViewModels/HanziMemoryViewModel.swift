@@ -15,7 +15,7 @@ enum MemoryMatchMode: String, CaseIterable, Identifiable, Codable {
     var id: String { rawValue }
 
     var label: String {
-        String(localized: String.LocalizationValue("games.memory.mode.\(rawValue)"))
+        L10n.dynamic("games.memory.mode.\(rawValue)")
     }
 
     var isAvailable: Bool {
@@ -64,6 +64,8 @@ final class HanziMemoryViewModel: GameSession {
     private(set) var moves = 0
     private(set) var matchedPairs = 0
     private(set) var wrongCount = 0
+    private(set) var evaluationSerial = 0
+    private(set) var lastEvaluation: (word: Word, correct: Bool)?
     private(set) var isBusy = false
     private(set) var isFinished = false
     private(set) var result: GameResult?
@@ -122,6 +124,8 @@ final class HanziMemoryViewModel: GameSession {
         matchedPairs = 0
         wrongCount = 0
         flippedIndices = []
+        evaluationSerial = 0
+        lastEvaluation = nil
         isBusy = false
         isFinished = false
         result = nil
@@ -156,6 +160,7 @@ final class HanziMemoryViewModel: GameSession {
         let first = cards[flippedIndices[0]]
         let second = cards[flippedIndices[1]]
         let isMatch = first.pairID == second.pairID
+        lastEvaluation = (first.word, isMatch)
 
         if isMatch {
             matchedPairs += 1
@@ -175,5 +180,6 @@ final class HanziMemoryViewModel: GameSession {
                 isBusy = false
             }
         }
+        evaluationSerial += 1
     }
 }

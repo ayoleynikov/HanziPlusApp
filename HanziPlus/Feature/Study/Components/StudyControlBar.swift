@@ -21,14 +21,14 @@ struct StudyControlBar: View {
         HStack(spacing: 20) {
             StudyControlButton(
                 systemImage: "chevron.left",
-                accessibilityLabel: "Previous card",
+                accessibilityLabel: L10n.string("a11y.previous_card"),
                 isEnabled: canGoPrevious,
                 action: onPrevious
             )
 
             StudyControlButton(
                 systemImage: "speaker.wave.2.fill",
-                accessibilityLabel: "Play pronunciation",
+                accessibilityLabel: L10n.string("a11y.play_pronunciation"),
                 action: onAudio
             )
 
@@ -42,7 +42,7 @@ struct StudyControlBar: View {
 
             StudyControlButton(
                 systemImage: "chevron.right",
-                accessibilityLabel: "Next card",
+                accessibilityLabel: L10n.string("a11y.next_card"),
                 isEnabled: canGoNext,
                 action: onNext
             )

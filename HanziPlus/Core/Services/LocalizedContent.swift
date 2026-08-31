@@ -11,8 +11,12 @@ enum LocalizedContent {
     static let supportedCodes = ["en", "ru", "es", "pt-BR"]
 
     /// Updated by `LanguageSettingsStore` so models/view-models can resolve meanings
-    /// without threading Environment through every call site.
-    static var currentLanguage: ContentLanguageCode = .en
+    /// without threading Environment through every call site. The backing state is
+    /// observable, which makes visible content refresh immediately in SwiftUI.
+    static var currentLanguage: ContentLanguageCode {
+        get { LocalizationRuntime.shared.contentLanguage }
+        set { LocalizationRuntime.shared.contentLanguage = newValue }
+    }
 
     /// Pick translation for `code`, falling back to English then first non-empty value.
     static func pick(

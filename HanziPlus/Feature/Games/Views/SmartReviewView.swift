@@ -12,6 +12,7 @@ struct SmartReviewView: View {
     @State private var viewModel: SmartReviewViewModel?
     @State private var hasStarted = false
     @State private var flashColor: Color = .clear
+    @State private var showMistakeFeedback = false
 
     @Environment(\.dismiss) private var dismiss
     @Environment(LearnedWordsStore.self) private var learnedStore
@@ -44,7 +45,7 @@ struct SmartReviewView: View {
                 overview
             }
         }
-        .navigationTitle("Smart Review")
+        .navigationTitle(L10n.string("Smart Review"))
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             if viewModel == nil {
@@ -65,14 +66,14 @@ struct SmartReviewView: View {
                 .font(.system(size: 56, weight: .semibold))
                 .foregroundStyle(game.color)
 
-            Text("games.review.todays")
+            Text(l10n: "games.review.todays")
                 .font(.largeTitle.weight(.bold))
 
             if let viewModel {
                 VStack(spacing: AppSpacing.small) {
-                    overviewStat(title: "Words Due", value: "\(viewModel.dueCount)")
-                    overviewStat(title: "Estimated Time", value: "~\(viewModel.estimatedMinutes) min")
-                    overviewStat(title: "Session Size", value: "\(viewModel.words.count) words")
+                    overviewStat(title: L10n.string("games.review.words_due"), value: "\(viewModel.dueCount)")
+                    overviewStat(title: L10n.string("games.review.estimated_time"), value: L10n.string("games.review.approx_minutes \(viewModel.estimatedMinutes)"))
+                    overviewStat(title: L10n.string("games.review.session_size"), value: L10n.words(viewModel.words.count))
                 }
                 .padding(AppSpacing.medium)
                 .background {
@@ -82,7 +83,7 @@ struct SmartReviewView: View {
                 .studyCardShadow()
             }
 
-            Button(String(localized: "games.review.start")) {
+            Button(L10n.string( "games.review.start")) {
                 hasStarted = true
             }
             .buttonStyle(.borderedProminent)
@@ -108,7 +109,7 @@ struct SmartReviewView: View {
     private func reviewSession(_ viewModel: SmartReviewViewModel) -> some View {
         VStack(spacing: AppSpacing.medium) {
             HStack {
-                Text(String(localized: "games.review.completion \(viewModel.completionPercent)"))
+                Text("\(L10n.string("games.review.completion")) \(L10n.percent(viewModel.completionPercent))")
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(game.color)
                 Spacer()
@@ -132,7 +133,8 @@ struct SmartReviewView: View {
             }
 
             VStack(spacing: AppSpacing.small) {
-                ForEach(viewModel.options, id: \.self) { option in
+                ForEach(viewModel.options.indices, id: \.self) { index in
+                    let option = viewModel.options[index]
                     GameOptionButton(
                         text: option,
                         isSelected: viewModel.selectedAnswer == option,
@@ -148,31 +150,65 @@ struct SmartReviewView: View {
         .padding(.horizontal, AppSpacing.medium)
         .padding(.bottom, AppSpacing.medium)
         .background(flashColor.opacity(0.14).ignoresSafeArea())
+        .overlay(alignment: .bottom) {
+            if showMistakeFeedback, let word = viewModel.currentWord {
+                QuizMistakeFeedbackCard(
+                    word: word,
+                    correctAnswer: word.localizedMeaning,
+                    onContinue: { dismissMistakeAndAdvance(viewModel) }
+                )
+                .transition(.move(edge: .bottom).combined(with: .opacity))
+            }
+        }
+        .animation(.spring(response: 0.4, dampingFraction: 0.86), value: showMistakeFeedback)
         .gameRestartToolbar {
             self.viewModel?.restart()
         }
         .onChange(of: viewModel.showResult) { _, show in
             guard show else { return }
-            advance(viewModel)
+            handleResult(viewModel)
         }
     }
 
     private func select(_ option: String, viewModel: SmartReviewViewModel) {
         guard !viewModel.showResult else { return }
+        let word = viewModel.currentWord
         viewModel.select(option)
+        if let word {
+            smartReviewStore.recordAttempt(
+                fileName: studySet.fileName,
+                hanzi: word.hanzi,
+                correct: option == word.localizedMeaning
+            )
+        }
 
-        if option == viewModel.currentWord?.localizedMeaning {
+        if option == word?.localizedMeaning {
             HapticService.success()
         } else {
             HapticService.rigid()
-            if let word = viewModel.currentWord {
-                smartReviewStore.recordWrong(word: word, studySet: studySet)
-            }
         }
 
         withAnimation(.easeIn(duration: 0.15)) {
-            flashColor = option == viewModel.currentWord?.localizedMeaning ? .green : .red
+            flashColor = option == word?.localizedMeaning ? .green : .red
         }
+    }
+
+    private func handleResult(_ viewModel: SmartReviewViewModel) {
+        let isCorrect = viewModel.selectedAnswer == viewModel.currentWord?.localizedMeaning
+        if isCorrect {
+            Task {
+                try? await Task.sleep(for: .seconds(0.65))
+                await MainActor.run { advance(viewModel) }
+            }
+        } else {
+            showMistakeFeedback = true
+        }
+    }
+
+    private func dismissMistakeAndAdvance(_ viewModel: SmartReviewViewModel) {
+        showMistakeFeedback = false
+        withAnimation(.easeOut(duration: 0.2)) { flashColor = .clear }
+        advance(viewModel)
     }
 
     private func advance(_ viewModel: SmartReviewViewModel) {

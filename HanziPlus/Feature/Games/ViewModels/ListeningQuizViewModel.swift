@@ -15,6 +15,7 @@ final class ListeningQuizViewModel: GameSession {
 
     private let wordPool: [Word]
     private(set) var words: [Word]
+    private(set) var currentOptions: [String] = []
     private(set) var currentIndex = 0
     private(set) var selectedAnswer: String?
     private(set) var showResult = false
@@ -31,8 +32,9 @@ final class ListeningQuizViewModel: GameSession {
     init(studySet: StudySet, difficulty: GameDifficulty = .medium) {
         self.studySet = studySet
         self.difficulty = difficulty
-        self.wordPool = GameWordProvider.words(for: studySet)
+        self.wordPool = WordLoader.load(fileName: studySet.fileName)
         self.words = Array(wordPool.shuffled().prefix(difficulty.questionCount))
+        loadCurrentOptions()
     }
 
     var currentWord: Word? {
@@ -45,15 +47,7 @@ final class ListeningQuizViewModel: GameSession {
         return Double(currentIndex + 1) / Double(words.count)
     }
 
-    var options: [String] {
-        guard let currentWord else { return [] }
-        return MultipleChoiceHelper.hanziOptions(
-            correct: currentWord.hanzi,
-            pool: wordPool,
-            excluding: currentWord.id,
-            count: difficulty.optionCount
-        )
-    }
+    var options: [String] { currentOptions }
 
     func markAudioPlayed() {
         hasPlayedCurrentAudio = true
@@ -81,6 +75,7 @@ final class ListeningQuizViewModel: GameSession {
             selectedAnswer = nil
             showResult = false
             hasPlayedCurrentAudio = false
+            loadCurrentOptions()
         }
     }
 
@@ -90,10 +85,6 @@ final class ListeningQuizViewModel: GameSession {
         achievementStore: AchievementStore,
         smartReviewStore: SmartReviewStore
     ) {
-        if let word = currentWord, selectedAnswer != word.hanzi {
-            smartReviewStore.recordWrong(word: word, studySet: studySet)
-        }
-
         result = GameSessionRecorder.finish(
             gameKind: gameKind,
             studySetFileName: studySet.fileName,
@@ -123,5 +114,24 @@ final class ListeningQuizViewModel: GameSession {
         isFinished = false
         result = nil
         hasPlayedCurrentAudio = false
+        loadCurrentOptions()
+    }
+
+    private func loadCurrentOptions() {
+        guard let currentWord else {
+            currentOptions = []
+            return
+        }
+        currentOptions = MultipleChoiceHelper.hanziOptions(
+            correct: currentWord.hanzi,
+            pool: wordPool,
+            excluding: currentWord.id,
+            count: difficulty.optionCount,
+            seed: optionSeed(for: currentWord)
+        )
+    }
+
+    private func optionSeed(for word: Word) -> UInt64 {
+        DailyLessonPlanner.stableSeed("\(studySet.fileName)|listen|\(word.id)|\(difficulty.rawValue)")
     }
 }

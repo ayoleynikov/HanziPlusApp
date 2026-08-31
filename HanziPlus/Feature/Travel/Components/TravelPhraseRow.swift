@@ -35,7 +35,7 @@ struct TravelPhraseRow: View {
             }
             .buttonStyle(.plain)
             .accessibilityLabel("\(phrase.simplifiedChinese). \(phrase.pinyin). \(phrase.localizedTranslation())")
-            .accessibilityHint("Opens phrase details")
+            .accessibilityHint(L10n.string("Opens phrase details"))
 
             VStack(spacing: 8) {
                 Button {
@@ -60,7 +60,7 @@ struct TravelPhraseRow: View {
                         .contentShape(Rectangle())
                 }
                 .buttonStyle(.borderless)
-                .accessibilityLabel("Play pronunciation")
+                .accessibilityLabel(L10n.string("a11y.play_pronunciation"))
             }
         }
         .padding(.vertical, 8)

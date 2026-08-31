@@ -1,0 +1,1157 @@
+{
+  "я": {
+    "en": "I / me",
+    "es": "yo",
+    "pt-BR": "eu"
+  },
+  "Вы": {
+    "en": "you (formal)",
+    "es": "usted",
+    "pt-BR": "o senhor / a senhora"
+  },
+  "не": {
+    "en": "not",
+    "es": "no",
+    "pt-BR": "não"
+  },
+  "он": {
+    "en": "he",
+    "es": "él",
+    "pt-BR": "ele"
+  },
+  "те": {
+    "en": "those",
+    "es": "esos / esas",
+    "pt-BR": "aqueles / aquelas"
+  },
+  "ты": {
+    "en": "you",
+    "es": "tú",
+    "pt-BR": "você"
+  },
+  "Дни": {
+    "en": "Days",
+    "es": "Días",
+    "pt-BR": "Dias"
+  },
+  "Еда": {
+    "en": "Food",
+    "es": "Comida",
+    "pt-BR": "Comida"
+  },
+  "США": {
+    "en": "USA",
+    "es": "EE. UU.",
+    "pt-BR": "EUA"
+  },
+  "где": {
+    "en": "where",
+    "es": "dónde",
+    "pt-BR": "onde"
+  },
+  "два": {
+    "en": "two",
+    "es": "dos",
+    "pt-BR": "dois"
+  },
+  "еда": {
+    "en": "food",
+    "es": "comida",
+    "pt-BR": "comida"
+  },
+  "ещё": {
+    "en": "still / more",
+    "es": "todavía / más",
+    "pt-BR": "ainda / mais"
+  },
+  "имя": {
+    "en": "name",
+    "es": "nombre",
+    "pt-BR": "nome"
+  },
+  "как": {
+    "en": "how / like",
+    "es": "cómo / como",
+    "pt-BR": "como"
+  },
+  "кто": {
+    "en": "who",
+    "es": "quién",
+    "pt-BR": "quem"
+  },
+  "она": {
+    "en": "she",
+    "es": "ella",
+    "pt-BR": "ela"
+  },
+  "рис": {
+    "en": "rice",
+    "es": "arroz",
+    "pt-BR": "arroz"
+  },
+  "рот": {
+    "en": "mouth",
+    "es": "boca",
+    "pt-BR": "boca"
+  },
+  "сто": {
+    "en": "hundred",
+    "es": "cien",
+    "pt-BR": "cem"
+  },
+  "суп": {
+    "en": "soup",
+    "es": "sopa",
+    "pt-BR": "sopa"
+  },
+  "там": {
+    "en": "there",
+    "es": "allí",
+    "pt-BR": "lá"
+  },
+  "тот": {
+    "en": "that",
+    "es": "aquel / esa",
+    "pt-BR": "aquele / aquela"
+  },
+  "три": {
+    "en": "three",
+    "es": "tres",
+    "pt-BR": "três"
+  },
+  "чай": {
+    "en": "tea",
+    "es": "té",
+    "pt-BR": "chá"
+  },
+  "что": {
+    "en": "what",
+    "es": "qué",
+    "pt-BR": "o quê"
+  },
+  "эти": {
+    "en": "these",
+    "es": "estos / estas",
+    "pt-BR": "estes / estas"
+  },
+  "это": {
+    "en": "this / it",
+    "es": "esto / eso",
+    "pt-BR": "isto / isso"
+  },
+  "Банк": {
+    "en": "Bank",
+    "es": "Banco",
+    "pt-BR": "Banco"
+  },
+  "Саша": {
+    "en": "Sasha",
+    "es": "Sasha",
+    "pt-BR": "Sasha"
+  },
+  "банк": {
+    "en": "bank",
+    "es": "banco",
+    "pt-BR": "banco"
+  },
+  "быть": {
+    "en": "to be",
+    "es": "ser / estar",
+    "pt-BR": "ser / estar"
+  },
+  "дать": {
+    "en": "to give",
+    "es": "dar",
+    "pt-BR": "dar"
+  },
+  "день": {
+    "en": "day",
+    "es": "día",
+    "pt-BR": "dia"
+  },
+  "друг": {
+    "en": "friend",
+    "es": "amigo",
+    "pt-BR": "amigo"
+  },
+  "евро": {
+    "en": "euro",
+    "es": "euro",
+    "pt-BR": "euro"
+  },
+  "жить": {
+    "en": "to live",
+    "es": "vivir",
+    "pt-BR": "viver"
+  },
+  "мало": {
+    "en": "few / little",
+    "es": "poco",
+    "pt-BR": "pouco"
+  },
+  "мама": {
+    "en": "mom",
+    "es": "mamá",
+    "pt-BR": "mãe"
+  },
+  "мисс": {
+    "en": "Miss",
+    "es": "señorita",
+    "pt-BR": "senhorita"
+  },
+  "ноль": {
+    "en": "zero",
+    "es": "cero",
+    "pt-BR": "zero"
+  },
+  "один": {
+    "en": "one",
+    "es": "uno",
+    "pt-BR": "um"
+  },
+  "папа": {
+    "en": "dad",
+    "es": "papá",
+    "pt-BR": "pai"
+  },
+  "пиво": {
+    "en": "beer",
+    "es": "cerveza",
+    "pt-BR": "cerveja"
+  },
+  "пить": {
+    "en": "to drink",
+    "es": "beber",
+    "pt-BR": "beber"
+  },
+  "пять": {
+    "en": "five",
+    "es": "cinco",
+    "pt-BR": "cinco"
+  },
+  "рука": {
+    "en": "hand / arm",
+    "es": "mano / brazo",
+    "pt-BR": "mão / braço"
+  },
+  "семь": {
+    "en": "seven",
+    "es": "siete",
+    "pt-BR": "sete"
+  },
+  "чаша": {
+    "en": "bowl / cup",
+    "es": "tazón / taza",
+    "pt-BR": "tigela / xícara"
+  },
+  "юань": {
+    "en": "yuan",
+    "es": "yuan",
+    "pt-BR": "yuan"
+  },
+  "яйцо": {
+    "en": "egg",
+    "es": "huevo",
+    "pt-BR": "ovo"
+  },
+  "Адрес": {
+    "en": "Address",
+    "es": "Dirección",
+    "pt-BR": "Endereço"
+  },
+  "Китай": {
+    "en": "China",
+    "es": "China",
+    "pt-BR": "China"
+  },
+  "Числа": {
+    "en": "Numbers",
+    "es": "Números",
+    "pt-BR": "Números"
+  },
+  "Языки": {
+    "en": "Languages",
+    "es": "Idiomas",
+    "pt-BR": "Idiomas"
+  },
+  "белый": {
+    "en": "white",
+    "es": "blanco",
+    "pt-BR": "branco"
+  },
+  "войти": {
+    "en": "to enter",
+    "es": "entrar",
+    "pt-BR": "entrar"
+  },
+  "всего": {
+    "en": "total / altogether",
+    "es": "en total",
+    "pt-BR": "no total"
+  },
+  "вчера": {
+    "en": "yesterday",
+    "es": "ayer",
+    "pt-BR": "ontem"
+  },
+  "ждать": {
+    "en": "to wait",
+    "es": "esperar",
+    "pt-BR": "esperar"
+  },
+  "звать": {
+    "en": "to call / to be called",
+    "es": "llamar / llamarse",
+    "pt-BR": "chamar / chamar-se"
+  },
+  "знать": {
+    "en": "to know",
+    "es": "saber / conocer",
+    "pt-BR": "saber / conhecer"
+  },
+  "книга": {
+    "en": "book",
+    "es": "libro",
+    "pt-BR": "livro"
+  },
+  "лапша": {
+    "en": "noodles",
+    "es": "fideos",
+    "pt-BR": "macarrão"
+  },
+  "много": {
+    "en": "many / much",
+    "es": "mucho / muchos",
+    "pt-BR": "muito / muitos"
+  },
+  "народ": {
+    "en": "people / nation",
+    "es": "pueblo / nación",
+    "pt-BR": "povo / nação"
+  },
+  "номер": {
+    "en": "number",
+    "es": "número",
+    "pt-BR": "número"
+  },
+  "очень": {
+    "en": "very",
+    "es": "muy",
+    "pt-BR": "muito"
+  },
+  "почта": {
+    "en": "mail / post office",
+    "es": "correo",
+    "pt-BR": "correio"
+  },
+  "среда": {
+    "en": "Wednesday",
+    "es": "miércoles",
+    "pt-BR": "quarta-feira"
+  },
+  "цзинь": {
+    "en": "jin (500 g)",
+    "es": "jin (500 g)",
+    "pt-BR": "jin (500 g)"
+  },
+  "шесть": {
+    "en": "six",
+    "es": "seis",
+    "pt-BR": "seis"
+  },
+  "школа": {
+    "en": "school",
+    "es": "escuela",
+    "pt-BR": "escola"
+  },
+  "Англия": {
+    "en": "England",
+    "es": "Inglaterra",
+    "pt-BR": "Inglaterra"
+  },
+  "Валюта": {
+    "en": "Currency",
+    "es": "Moneda",
+    "pt-BR": "Moeda"
+  },
+  "Деньги": {
+    "en": "Money",
+    "es": "Dinero",
+    "pt-BR": "Dinheiro"
+  },
+  "Россия": {
+    "en": "Russia",
+    "es": "Rusia",
+    "pt-BR": "Rússia"
+  },
+  "Страны": {
+    "en": "Countries",
+    "es": "Países",
+    "pt-BR": "Países"
+  },
+  "Япония": {
+    "en": "Japan",
+    "es": "Japón",
+    "pt-BR": "Japão"
+  },
+  "восемь": {
+    "en": "eight",
+    "es": "ocho",
+    "pt-BR": "oito"
+  },
+  "девять": {
+    "en": "nine",
+    "es": "nueve",
+    "pt-BR": "nove"
+  },
+  "деньги": {
+    "en": "money",
+    "es": "dinero",
+    "pt-BR": "dinheiro"
+  },
+  "десять": {
+    "en": "ten",
+    "es": "diez",
+    "pt-BR": "dez"
+  },
+  "другой": {
+    "en": "other / another",
+    "es": "otro",
+    "pt-BR": "outro"
+  },
+  "журнал": {
+    "en": "magazine",
+    "es": "revista",
+    "pt-BR": "revista"
+  },
+  "завтра": {
+    "en": "tomorrow",
+    "es": "mañana",
+    "pt-BR": "amanhã"
+  },
+  "искать": {
+    "en": "to search / to look for",
+    "es": "buscar",
+    "pt-BR": "procurar"
+  },
+  "лошадь": {
+    "en": "horse",
+    "es": "caballo",
+    "pt-BR": "cavalo"
+  },
+  "неделя": {
+    "en": "week",
+    "es": "semana",
+    "pt-BR": "semana"
+  },
+  "письмо": {
+    "en": "letter",
+    "es": "carta",
+    "pt-BR": "carta"
+  },
+  "тысяча": {
+    "en": "thousand",
+    "es": "mil",
+    "pt-BR": "mil"
+  },
+  "фрукты": {
+    "en": "fruit",
+    "es": "frutas",
+    "pt-BR": "frutas"
+  },
+  "четыре": {
+    "en": "four",
+    "es": "cuatro",
+    "pt-BR": "quatro"
+  },
+  "яблоко": {
+    "en": "apple",
+    "es": "manzana",
+    "pt-BR": "maçã"
+  },
+  "Напитки": {
+    "en": "Drinks",
+    "es": "Bebidas",
+    "pt-BR": "Bebidas"
+  },
+  "Общение": {
+    "en": "Communication",
+    "es": "Comunicación",
+    "pt-BR": "Comunicação"
+  },
+  "Покупки": {
+    "en": "Shopping",
+    "es": "Compras",
+    "pt-BR": "Compras"
+  },
+  "Привет!": {
+    "en": "Hello!",
+    "es": "¡Hola!",
+    "pt-BR": "Olá!"
+  },
+  "Телефон": {
+    "en": "Phone",
+    "es": "Teléfono",
+    "pt-BR": "Telefone"
+  },
+  "Франция": {
+    "en": "France",
+    "es": "Francia",
+    "pt-BR": "França"
+  },
+  "большой": {
+    "en": "big / large",
+    "es": "grande",
+    "pt-BR": "grande"
+  },
+  "вторник": {
+    "en": "Tuesday",
+    "es": "martes",
+    "pt-BR": "terça-feira"
+  },
+  "дорогой": {
+    "en": "expensive / dear",
+    "es": "caro / querido",
+    "pt-BR": "caro / querido"
+  },
+  "женщина": {
+    "en": "woman",
+    "es": "mujer",
+    "pt-BR": "mulher"
+  },
+  "занятый": {
+    "en": "busy",
+    "es": "ocupado",
+    "pt-BR": "ocupado"
+  },
+  "кабинет": {
+    "en": "office / room",
+    "es": "oficina / despacho",
+    "pt-BR": "escritório / sala"
+  },
+  "комната": {
+    "en": "room",
+    "es": "habitación",
+    "pt-BR": "quarto"
+  },
+  "маньтоу": {
+    "en": "mantou (steamed bun)",
+    "es": "mantou (bollo al vapor)",
+    "pt-BR": "mantou (pão cozido no vapor)"
+  },
+  "мужской": {
+    "en": "male / masculine",
+    "es": "masculino",
+    "pt-BR": "masculino"
+  },
+  "полдень": {
+    "en": "noon",
+    "es": "mediodía",
+    "pt-BR": "meio-dia"
+  },
+  "пятница": {
+    "en": "Friday",
+    "es": "viernes",
+    "pt-BR": "sexta-feira"
+  },
+  "сегодня": {
+    "en": "today",
+    "es": "hoy",
+    "pt-BR": "hoje"
+  },
+  "сколько": {
+    "en": "how much / how many",
+    "es": "cuánto / cuántos",
+    "pt-BR": "quanto / quantos"
+  },
+  "спасибо": {
+    "en": "thank you",
+    "es": "gracias",
+    "pt-BR": "obrigado"
+  },
+  "суббота": {
+    "en": "Saturday",
+    "es": "sábado",
+    "pt-BR": "sábado"
+  },
+  "считать": {
+    "en": "to count",
+    "es": "contar",
+    "pt-BR": "contar"
+  },
+  "телефон": {
+    "en": "telephone",
+    "es": "teléfono",
+    "pt-BR": "telefone"
+  },
+  "трудный": {
+    "en": "difficult",
+    "es": "difícil",
+    "pt-BR": "difícil"
+  },
+  "учиться": {
+    "en": "to study / to learn",
+    "es": "estudiar / aprender",
+    "pt-BR": "estudar / aprender"
+  },
+  "фамилия": {
+    "en": "surname / family name",
+    "es": "apellido",
+    "pt-BR": "sobrenome"
+  },
+  "частица": {
+    "en": "particle",
+    "es": "partícula",
+    "pt-BR": "partícula"
+  },
+  "человек": {
+    "en": "person / people",
+    "es": "persona / gente",
+    "pt-BR": "pessoa / pessoas"
+  },
+  "четверг": {
+    "en": "Thursday",
+    "es": "jueves",
+    "pt-BR": "quinta-feira"
+  },
+  "0,1 юаня": {
+    "en": "0.1 yuan",
+    "es": "0,1 yuan",
+    "pt-BR": "0,1 yuan"
+  },
+  "Германия": {
+    "en": "Germany",
+    "es": "Alemania",
+    "pt-BR": "Alemanha"
+  },
+  "Ли Чанхо": {
+    "en": "Li Changho",
+    "es": "Li Changho",
+    "pt-BR": "Li Changho"
+  },
+  "Чжан Дун": {
+    "en": "Zhang Dong",
+    "es": "Zhang Dong",
+    "pt-BR": "Zhang Dong"
+  },
+  "вежливый": {
+    "en": "polite",
+    "es": "cortés",
+    "pt-BR": "educado"
+  },
+  "господин": {
+    "en": "Mr. / sir",
+    "es": "señor",
+    "pt-BR": "senhor"
+  },
+  "извините": {
+    "en": "excuse me / sorry",
+    "es": "disculpe / perdón",
+    "pt-BR": "com licença / desculpe"
+  },
+  "мандарин": {
+    "en": "mandarin (fruit)",
+    "es": "mandarina",
+    "pt-BR": "mandarina"
+  },
+  "пельмени": {
+    "en": "dumplings",
+    "es": "empanadillas / dumplings",
+    "pt-BR": "bolinhos / dumplings"
+  },
+  "садиться": {
+    "en": "to sit down",
+    "es": "sentarse",
+    "pt-BR": "sentar-se"
+  },
+  "служащий": {
+    "en": "clerk / employee",
+    "es": "empleado",
+    "pt-BR": "funcionário"
+  },
+  "спросить": {
+    "en": "to ask",
+    "es": "preguntar",
+    "pt-BR": "perguntar"
+  },
+  "столовая": {
+    "en": "cafeteria / dining hall",
+    "es": "comedor",
+    "pt-BR": "refeitório"
+  },
+  "0,01 юаня": {
+    "en": "0.01 yuan",
+    "es": "0,01 yuan",
+    "pt-BR": "0,01 yuan"
+  },
+  "Остальное": {
+    "en": "The rest",
+    "es": "Lo demás",
+    "pt-BR": "O restante"
+  },
+  "Ты занят?": {
+    "en": "Are you busy?",
+    "es": "¿Estás ocupado?",
+    "pt-BR": "Você está ocupado?"
+  },
+  "вернуться": {
+    "en": "to return",
+    "es": "volver",
+    "pt-BR": "voltar"
+  },
+  "килограмм": {
+    "en": "kilogram",
+    "es": "kilogramo",
+    "pt-BR": "quilograma"
+  },
+  "несколько": {
+    "en": "several / a few",
+    "es": "varios / unos",
+    "pt-BR": "vários / alguns"
+  },
+  "продавать": {
+    "en": "to sell",
+    "es": "vender",
+    "pt-BR": "vender"
+  },
+  "Количество": {
+    "en": "Quantity",
+    "es": "Cantidad",
+    "pt-BR": "Quantidade"
+  },
+  "библиотека": {
+    "en": "library",
+    "es": "biblioteca",
+    "pt-BR": "biblioteca"
+  },
+  "дать сдачу": {
+    "en": "to give change",
+    "es": "dar cambio",
+    "pt-BR": "dar troco"
+  },
+  "доллар США": {
+    "en": "US dollar",
+    "es": "dólar estadounidense",
+    "pt-BR": "dólar americano"
+  },
+  "отправлять": {
+    "en": "to send",
+    "es": "enviar",
+    "pt-BR": "enviar"
+  },
+  "пожалуйста": {
+    "en": "please / you're welcome",
+    "es": "por favor / de nada",
+    "pt-BR": "por favor / de nada"
+  },
+  "Здравствуй!": {
+    "en": "Hello!",
+    "es": "¡Hola!",
+    "pt-BR": "Olá!"
+  },
+  "Новые слова": {
+    "en": "New words",
+    "es": "Palabras nuevas",
+    "pt-BR": "Palavras novas"
+  },
+  "Тяньаньмэнь": {
+    "en": "Tiananmen",
+    "es": "Tiananmen",
+    "pt-BR": "Tiananmen"
+  },
+  "варёный рис": {
+    "en": "boiled rice",
+    "es": "arroz hervido",
+    "pt-BR": "arroz cozido"
+  },
+  "воскресенье": {
+    "en": "Sunday",
+    "es": "domingo",
+    "pt-BR": "domingo"
+  },
+  "до свидания": {
+    "en": "goodbye",
+    "es": "adiós",
+    "pt-BR": "adeus"
+  },
+  "дом / семья": {
+    "en": "home / family",
+    "es": "casa / familia",
+    "pt-BR": "casa / família"
+  },
+  "понедельник": {
+    "en": "Monday",
+    "es": "lunes",
+    "pt-BR": "segunda-feira"
+  },
+  "Другие слова": {
+    "en": "Other words",
+    "es": "Otras palabras",
+    "pt-BR": "Outras palavras"
+  },
+  "Очень занят.": {
+    "en": "Very busy.",
+    "es": "Muy ocupado.",
+    "pt-BR": "Muito ocupado."
+  },
+  "Первые слова": {
+    "en": "First words",
+    "es": "Primeras palabras",
+    "pt-BR": "Primeiras palavras"
+  },
+  "десять тысяч": {
+    "en": "ten thousand",
+    "es": "diez mil",
+    "pt-BR": "dez mil"
+  },
+  "идти / ехать": {
+    "en": "to go / to travel (by vehicle)",
+    "es": "ir / viajar (en vehículo)",
+    "pt-BR": "ir / viajar (de veículo)"
+  },
+  "младший брат": {
+    "en": "younger brother",
+    "es": "hermano menor",
+    "pt-BR": "irmão mais novo"
+  },
+  "произношение": {
+    "en": "pronunciation",
+    "es": "pronunciación",
+    "pt-BR": "pronúncia"
+  },
+  "русский язык": {
+    "en": "Russian language",
+    "es": "idioma ruso",
+    "pt-BR": "língua russa"
+  },
+  "слово / речь": {
+    "en": "word / speech",
+    "es": "palabra / habla",
+    "pt-BR": "palavra / fala"
+  },
+  "старший брат": {
+    "en": "older brother",
+    "es": "hermano mayor",
+    "pt-BR": "irmão mais velho"
+  },
+  "Базовые слова": {
+    "en": "Basic words",
+    "es": "Palabras básicas",
+    "pt-BR": "Palavras básicas"
+  },
+  "арабский язык": {
+    "en": "Arabic language",
+    "es": "idioma árabe",
+    "pt-BR": "língua árabe"
+  },
+  "есть / кушать": {
+    "en": "to eat",
+    "es": "comer",
+    "pt-BR": "comer"
+  },
+  "здание / этаж": {
+    "en": "building / floor",
+    "es": "edificio / piso",
+    "pt-BR": "edifício / andar"
+  },
+  "немецкий язык": {
+    "en": "German language",
+    "es": "idioma alemán",
+    "pt-BR": "língua alemã"
+  },
+  "преподаватель": {
+    "en": "teacher / instructor",
+    "es": "profesor",
+    "pt-BR": "professor"
+  },
+  "солнце / день": {
+    "en": "sun / day",
+    "es": "sol / día",
+    "pt-BR": "sol / dia"
+  },
+  "электричество": {
+    "en": "electricity",
+    "es": "electricidad",
+    "pt-BR": "eletricidade"
+  },
+  "японская иена": {
+    "en": "Japanese yen",
+    "es": "yen japonés",
+    "pt-BR": "iene japonês"
+  },
+  "японский язык": {
+    "en": "Japanese language",
+    "es": "idioma japonés",
+    "pt-BR": "língua japonesa"
+  },
+  "Основные слова": {
+    "en": "Core words",
+    "es": "Palabras principales",
+    "pt-BR": "Palavras principais"
+  },
+  "дверь / ворота": {
+    "en": "door / gate",
+    "es": "puerta / portón",
+    "pt-BR": "porta / portão"
+  },
+  "испанский язык": {
+    "en": "Spanish language",
+    "es": "idioma español",
+    "pt-BR": "língua espanhola"
+  },
+  "китайский язык": {
+    "en": "Chinese language",
+    "es": "idioma chino",
+    "pt-BR": "língua chinesa"
+  },
+  "корейский язык": {
+    "en": "Korean language",
+    "es": "idioma coreano",
+    "pt-BR": "língua coreana"
+  },
+  "курица / петух": {
+    "en": "chicken / rooster",
+    "es": "pollo / gallo",
+    "pt-BR": "frango / galo"
+  },
+  "младшая сестра": {
+    "en": "younger sister",
+    "es": "hermana menor",
+    "pt-BR": "irmã mais nova"
+  },
+  "хотеть / нужно": {
+    "en": "to want / need",
+    "es": "querer / necesitar",
+    "pt-BR": "querer / precisar"
+  },
+  "английский язык": {
+    "en": "English language",
+    "es": "idioma inglés",
+    "pt-BR": "língua inglesa"
+  },
+  "здоровье / тело": {
+    "en": "health / body",
+    "es": "salud / cuerpo",
+    "pt-BR": "saúde / corpo"
+  },
+  "который / какой": {
+    "en": "which / what kind of",
+    "es": "cuál / qué tipo de",
+    "pt-BR": "qual / que tipo de"
+  },
+  "хороший; добрый": {
+    "en": "good; kind",
+    "es": "bueno; amable",
+    "pt-BR": "bom; gentil"
+  },
+  "хотеть / желать": {
+    "en": "to want / to wish",
+    "es": "querer / desear",
+    "pt-BR": "querer / desejar"
+  },
+  "Республика Корея": {
+    "en": "Republic of Korea",
+    "es": "República de Corea",
+    "pt-BR": "República da Coreia"
+  },
+  "баоцзы / пирожок": {
+    "en": "baozi / steamed bun",
+    "es": "baozi / bollo al vapor",
+    "pt-BR": "baozi / pão cozido no vapor"
+  },
+  "брать / получать": {
+    "en": "to take / to receive",
+    "es": "tomar / recibir",
+    "pt-BR": "pegar / receber"
+  },
+  "французский язык": {
+    "en": "French language",
+    "es": "idioma francés",
+    "pt-BR": "língua francesa"
+  },
+  "купить / покупать": {
+    "en": "to buy",
+    "es": "comprar",
+    "pt-BR": "comprar"
+  },
+  "мобильный телефон": {
+    "en": "mobile phone",
+    "es": "teléfono móvil",
+    "pt-BR": "celular"
+  },
+  "модальная частица": {
+    "en": "modal particle",
+    "es": "partícula modal",
+    "pt-BR": "partícula modal"
+  },
+  "работа / работать": {
+    "en": "work / to work",
+    "es": "trabajo / trabajar",
+    "pt-BR": "trabalho / trabalhar"
+  },
+  "учиться / изучать": {
+    "en": "to study / to learn",
+    "es": "estudiar / aprender",
+    "pt-BR": "estudar / aprender"
+  },
+  "юань / жэньминьби": {
+    "en": "yuan / renminbi",
+    "es": "yuan / renminbi",
+    "pt-BR": "yuan / renminbi"
+  },
+  "гонконгский доллар": {
+    "en": "Hong Kong dollar",
+    "es": "dólar de Hong Kong",
+    "pt-BR": "dólar de Hong Kong"
+  },
+  "китайский иероглиф": {
+    "en": "Chinese character",
+    "es": "carácter chino",
+    "pt-BR": "caractere chinês"
+  },
+  "позвольте спросить": {
+    "en": "May I ask",
+    "es": "Permítame preguntar",
+    "pt-BR": "Com licença, posso perguntar"
+  },
+  "правильный / верно": {
+    "en": "correct / right",
+    "es": "correcto",
+    "pt-BR": "correto"
+  },
+  "слишком; чрезмерно": {
+    "en": "too; excessively",
+    "es": "demasiado",
+    "pt-BR": "demais"
+  },
+  "Не слишком трудный.": {
+    "en": "Not too difficult.",
+    "es": "No es demasiado difícil.",
+    "pt-BR": "Não é muito difícil."
+  },
+  "алкогольный напиток": {
+    "en": "alcoholic drink",
+    "es": "bebida alcohólica",
+    "pt-BR": "bebida alcoólica"
+  },
+  "вторая половина дня": {
+    "en": "afternoon",
+    "es": "tarde",
+    "pt-BR": "tarde"
+  },
+  "менять / обменивать": {
+    "en": "to change / to exchange",
+    "es": "cambiar / intercambiar",
+    "pt-BR": "trocar / cambiar"
+  },
+  "находиться / быть в": {
+    "en": "to be located / to be in",
+    "es": "encontrarse / estar en",
+    "pt-BR": "encontrar-se / estar em"
+  },
+  "немного / несколько": {
+    "en": "a little / several",
+    "es": "un poco / varios",
+    "pt-BR": "um pouco / vários"
+  },
+  "первая половина дня": {
+    "en": "morning",
+    "es": "mañana",
+    "pt-BR": "manhã"
+  },
+  "служащий / продавец": {
+    "en": "clerk / salesperson",
+    "es": "empleado / vendedor",
+    "pt-BR": "funcionário / vendedor"
+  },
+  "увидеться / увидеть": {
+    "en": "to see each other / to see",
+    "es": "verse / ver",
+    "pt-BR": "ver-se / ver"
+  },
+  "Пекин, столица Китая": {
+    "en": "Beijing, capital of China",
+    "es": "Pekín, capital de China",
+    "pt-BR": "Pequim, capital da China"
+  },
+  "страна / государство": {
+    "en": "country / state",
+    "es": "país / estado",
+    "pt-BR": "país / estado"
+  },
+  "вопросительная частица": {
+    "en": "question particle",
+    "es": "partícula interrogativa",
+    "pt-BR": "partícula interrogativa"
+  },
+  "язык / письменный язык": {
+    "en": "language / written language",
+    "es": "idioma / lengua escrita",
+    "pt-BR": "língua / língua escrita"
+  },
+  "Ван — китайская фамилия": {
+    "en": "Wang — a Chinese surname",
+    "es": "Wang — apellido chino",
+    "pt-BR": "Wang — sobrenome chinês"
+  },
+  "Китайский язык трудный?": {
+    "en": "Is Chinese difficult?",
+    "es": "¿Es difícil el chino?",
+    "pt-BR": "O chinês é difícil?"
+  },
+  "немного времени / минутку": {
+    "en": "a moment / just a minute",
+    "es": "un momento",
+    "pt-BR": "um momento"
+  },
+  "ничего / ничего страшного": {
+    "en": "nothing / it's nothing / no problem",
+    "es": "nada / no pasa nada",
+    "pt-BR": "nada / não tem problema"
+  },
+  "универсальное счётное слово": {
+    "en": "universal measure word",
+    "es": "clasificador universal",
+    "pt-BR": "classificador universal"
+  },
+  "работать / заниматься делами": {
+    "en": "to work / to be busy",
+    "es": "trabajar / ocuparse",
+    "pt-BR": "trabalhar / ocupar-se"
+  },
+  "русский язык / русский текст": {
+    "en": "Russian language / Russian text",
+    "es": "idioma ruso / texto ruso",
+    "pt-BR": "língua russa / texto russo"
+  },
+  "ваша фамилия / как ваша фамилия": {
+    "en": "your surname / what's your surname",
+    "es": "su apellido / ¿cuál es su apellido?",
+    "pt-BR": "seu sobrenome / qual é o seu sobrenome?"
+  },
+  "структурная частица принадлежности": {
+    "en": "possessive particle",
+    "es": "partícula posesiva",
+    "pt-BR": "partícula possessiva"
+  },
+  "пожалуйста / не стоит благодарности": {
+    "en": "please / you're welcome",
+    "es": "por favor / de nada",
+    "pt-BR": "por favor / de nada"
+  },
+  "сколько / который / какой / несколько": {
+    "en": "how much / which / what / several",
+    "es": "cuánto / cuál / qué / varios",
+    "pt-BR": "quanto / qual / que / vários"
+  },
+  "Ты занят?\nКитайский не слишком сложный": {
+    "en": "Are you busy?\nChinese isn't too difficult",
+    "es": "¿Estás ocupado?\nEl chino no es demasiado difícil",
+    "pt-BR": "Você está ocupado?\nO chinês não é muito difícil"
+  },
+  "Ты занят? · Китайский не слишком сложный": {
+    "en": "Are you busy? · Chinese isn't too difficult",
+    "es": "¿Estás ocupado? · El chino no es demasiado difícil",
+    "pt-BR": "Você está ocupado? · O chinês não é muito difícil"
+  }
+}

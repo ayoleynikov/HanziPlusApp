@@ -6,12 +6,17 @@
 import SwiftUI
 
 struct TravelPhraseStrip: View {
+    enum ListSource {
+        case favorites
+        case recent
+    }
+
     let title: String
     let phrases: [TravelPhrase]
     let emptyTitle: String
     let emptySystemImage: String
     let emptyDescription: String
-    var seeAllRoute: TravelToolkitRoute? = nil
+    var listSource: ListSource?
 
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
@@ -21,12 +26,14 @@ struct TravelPhraseStrip: View {
 
                 Spacer()
 
-                if let seeAllRoute, !phrases.isEmpty {
-                    NavigationLink(value: seeAllRoute) {
-                        Text("travel.see_all")
+                if let listSource, !phrases.isEmpty {
+                    NavigationLink {
+                        listView(for: listSource)
+                    } label: {
+                        Text(l10n: "travel.see_all")
                             .font(.subheadline.weight(.semibold))
                     }
-                    .accessibilityLabel(String(localized: "travel.a11y.see_all \(title)"))
+                    .accessibilityLabel(L10n.string( "travel.a11y.see_all \(title)"))
                 }
             }
             .padding(.horizontal, AppSpacing.medium)
@@ -48,7 +55,9 @@ struct TravelPhraseStrip: View {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 12) {
                         ForEach(phrases) { phrase in
-                            NavigationLink(value: TravelToolkitRoute.phrase(phrase.id)) {
+                            NavigationLink {
+                                TravelPhraseDetailView(phrase: phrase)
+                            } label: {
                                 VStack(alignment: .leading, spacing: 6) {
                                     Text(phrase.simplifiedChinese)
                                         .font(.headline)
@@ -73,6 +82,28 @@ struct TravelPhraseStrip: View {
                     .padding(.horizontal, AppSpacing.medium)
                 }
             }
+        }
+    }
+
+    @ViewBuilder
+    private func listView(for source: ListSource) -> some View {
+        switch source {
+        case .favorites:
+            TravelPhraseListView(
+                title: L10n.string("travel.favorites"),
+                source: .favorites,
+                emptyTitle: L10n.string("travel.favorites.empty_title"),
+                emptySystemImage: "heart",
+                emptyDescription: L10n.string("travel.favorites.empty_desc")
+            )
+        case .recent:
+            TravelPhraseListView(
+                title: L10n.string("travel.recent"),
+                source: .recent,
+                emptyTitle: L10n.string("travel.recent.empty_title"),
+                emptySystemImage: "clock",
+                emptyDescription: L10n.string("travel.recent.empty_desc")
+            )
         }
     }
 }

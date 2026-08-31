@@ -113,4 +113,11 @@ final class GamesDailyProgressStore {
         guard let data = try? JSONEncoder().encode(progress) else { return }
         defaults.set(data, forKey: progressKey)
     }
+
+    func resetAll() {
+        progress = GamesDailyProgress(dateKey: Self.dateKey(for: .now))
+        weeklyXPLog.removeAll()
+        defaults.removeObject(forKey: weeklyXPKey)
+        persist()
+    }
 }

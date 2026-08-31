@@ -7,7 +7,8 @@ import SwiftUI
 
 enum JourneyCityCatalog {
     static let all: [JourneyCity] = [
-        beijing, xian, chengdu, guilin, shanghai, hangzhou, suzhou, harbin, hongkong
+        beijing, xian, chengdu, guiyang, guilin, shanghai, hangzhou, suzhou,
+        harbin, guangzhou, shenzhen, hongkong
     ]
 
     // MARK: - Beijing
@@ -44,7 +45,8 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "bj-a1", name: "Forbidden City", emoji: "🏯", description: "Imperial palace of the Ming and Qing dynasties."),
             JourneyAttraction(id: "bj-a2", name: "Great Wall", emoji: "🧱", description: "Ancient fortification winding through mountains."),
             JourneyAttraction(id: "bj-a3", name: "Temple of Heaven", emoji: "⛩", description: "Sacred site where emperors prayed for harvests."),
-            JourneyAttraction(id: "bj-a4", name: "Peking Duck", emoji: "🦆", description: "Crispy-skinned duck, Beijing's signature dish.")
+            JourneyAttraction(id: "bj-a4", name: "Peking Duck", emoji: "🦆", description: "Crispy-skinned duck, Beijing's signature dish."),
+            JourneyAttraction(id: "bj-a5", name: "798 Art District", emoji: "🎨", description: "Former factory zone turned into galleries, cafés, and street art.")
         ],
         vocabulary: vocab(
             ("北京", "Běijīng", "Beijing", "Пекин", "Pekín", "Pequim"),
@@ -98,7 +100,8 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "xa-a1", name: "Terracotta Army", emoji: "🏺", description: "Life-size clay soldiers buried with China's first emperor."),
             JourneyAttraction(id: "xa-a2", name: "City Wall", emoji: "🧱", description: "Cycle atop Ming-era fortifications."),
             JourneyAttraction(id: "xa-a3", name: "Muslim Quarter", emoji: "🕌", description: "Vibrant lanes of street food and culture."),
-            JourneyAttraction(id: "xa-a4", name: "Big Wild Goose Pagoda", emoji: "🛕", description: "Buddhist pagoda from the Tang dynasty.")
+            JourneyAttraction(id: "xa-a4", name: "Big Wild Goose Pagoda", emoji: "🛕", description: "Buddhist pagoda from the Tang dynasty."),
+            JourneyAttraction(id: "xa-a5", name: "Tang Paradise", emoji: "✨", description: "Immersive Tang-dynasty theme park with dazzling night lights.")
         ],
         vocabulary: vocab(
             ("西安", "Xī'ān", "Xi'an", "Сиань", "Xi'an", "Xi'an"),
@@ -152,7 +155,8 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "cd-a1", name: "Panda Base", emoji: "🐼", description: "Meet giant pandas up close."),
             JourneyAttraction(id: "cd-a2", name: "Jinli Street", emoji: "🏮", description: "Ancient-style pedestrian lane at night."),
             JourneyAttraction(id: "cd-a3", name: "Hot Pot", emoji: "🍲", description: "Simmering spicy broth, Chengdu style."),
-            JourneyAttraction(id: "cd-a4", name: "Wuhou Shrine", emoji: "⛩", description: "Temple honoring Three Kingdoms heroes.")
+            JourneyAttraction(id: "cd-a4", name: "Wuhou Shrine", emoji: "⛩", description: "Temple honoring Three Kingdoms heroes."),
+            JourneyAttraction(id: "cd-a5", name: "Taikoo Li", emoji: "🛍", description: "Trendy open-air mall blending heritage courtyards with global brands.")
         ],
         vocabulary: vocab(
             ("成都", "Chéngdū", "Chengdu", "Чэнду", "Chengdú", "Chengdu"),
@@ -170,6 +174,61 @@ enum JourneyCityCatalog {
             xpReward: 25
         ),
         requirements: CityRequirements(items: [.learnedWords(80), .xp(1500), .gamesPlayed(10)])
+    )
+
+    // MARK: - Guiyang
+
+    private static let guiyang = JourneyCity.make(
+        id: "guiyang",
+        name: "Guiyang",
+        emoji: "🌿",
+        province: "Guizhou",
+        population: "About 6 million",
+        introduction: "Discover Guiyang — a cool highland capital surrounded by forests, waterfalls, and dramatic karst scenery.",
+        famousFor: "Cool summers, mountain landscapes, and Guizhou's ethnic cultures",
+        bestSeason: "March – October",
+        localFood: "Sour soup fish, siwawa, changwang noodles",
+        culturalFact: "Guiyang is known as a forest city and a gateway to Guizhou's spectacular landscapes and diverse cultures.",
+        localAchievement: "Highland Explorer",
+        souvenirEmoji: "💧",
+        souvenirName: "Waterfall Crystal",
+        travelCollectible: "🌿",
+        theme: JourneyColorTheme(
+            primary: Color(red: 0.16, green: 0.62, blue: 0.48),
+            secondary: Color(red: 0.42, green: 0.78, blue: 0.62),
+            heroGradient: [
+                Color(red: 0.08, green: 0.42, blue: 0.36),
+                Color(red: 0.35, green: 0.72, blue: 0.56)
+            ]
+        ),
+        facts: [
+            JourneyFact(id: "gy1", icon: "leaf.fill", text: "Forests and parks cover a remarkable share of Guiyang's urban landscape."),
+            JourneyFact(id: "gy2", icon: "water.waves", text: "Guizhou's famous Huangguoshu Waterfall is one of Asia's largest waterfalls."),
+            JourneyFact(id: "gy3", icon: "person.3.fill", text: "Guiyang is a gateway to villages of the Miao, Dong, and other ethnic groups.")
+        ],
+        attractions: [
+            JourneyAttraction(id: "gy-a1", name: "Jiaxiu Pavilion", emoji: "🏯", description: "Guiyang's riverside landmark glowing beautifully at night."),
+            JourneyAttraction(id: "gy-a2", name: "Qianling Hill Park", emoji: "🐒", description: "Forested hills, temples, lake views, and playful macaques."),
+            JourneyAttraction(id: "gy-a3", name: "Qingyan Ancient Town", emoji: "🏘", description: "Stone lanes and historic architecture from the Ming era."),
+            JourneyAttraction(id: "gy-a4", name: "Huaxi Wetland", emoji: "🌾", description: "A peaceful green corridor of rivers, fields, and walking paths."),
+            JourneyAttraction(id: "gy-a5", name: "Guizhou Provincial Museum", emoji: "🏛", description: "Striking modern museum showcasing Miao, Dong, and local heritage.")
+        ],
+        vocabulary: vocab(
+            ("贵阳", "Guìyáng", "Guiyang", "Гуйян", "Guiyang", "Guiyang"),
+            ("瀑布", "pùbù", "waterfall", "водопад", "cascada", "cachoeira"),
+            ("森林", "sēnlín", "forest", "лес", "bosque", "floresta"),
+            ("凉快", "liángkuai", "cool", "прохладный", "fresco", "fresco"),
+            ("酸汤", "suāntāng", "sour soup", "кислый суп", "sopa agria", "sopa azeda"),
+            ("少数民族", "shǎoshù mínzú", "ethnic minority", "национальное меньшинство", "minoría étnica", "minoria étnica")
+        ),
+        miniActivity: JourneyMiniActivity(
+            title: "Find the Waterfall",
+            instruction: "Follow the river and tap the hidden waterfall!",
+            icon: "water.waves",
+            targetEmoji: "💧",
+            xpReward: 25
+        ),
+        requirements: CityRequirements(items: [.learnedWords(110), .xp(2200), .gamesPlayed(14)])
     )
 
     // MARK: - Guilin
@@ -206,7 +265,8 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "gl-a1", name: "Li River", emoji: "🚣", description: "Bamboo raft through iconic karst scenery."),
             JourneyAttraction(id: "gl-a2", name: "Yangshuo", emoji: "🌄", description: "Countryside town surrounded by peaks."),
             JourneyAttraction(id: "gl-a3", name: "Reed Flute Cave", emoji: "🪨", description: "Illuminated limestone cavern."),
-            JourneyAttraction(id: "gl-a4", name: "Longji Terraces", emoji: "🌾", description: "Dragon's Backbone rice terraces.")
+            JourneyAttraction(id: "gl-a4", name: "Longji Terraces", emoji: "🌾", description: "Dragon's Backbone rice terraces."),
+            JourneyAttraction(id: "gl-a5", name: "Two Rivers & Four Lakes", emoji: "🌉", description: "Lit-up waterways and bridges threading through downtown Guilin.")
         ],
         vocabulary: vocab(
             ("桂林", "Guìlín", "Guilin", "Гуйлинь", "Guilin", "Guilin"),
@@ -260,7 +320,8 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "sh-a1", name: "The Bund", emoji: "🌃", description: "Colonial waterfront facing Pudong's towers."),
             JourneyAttraction(id: "sh-a2", name: "Oriental Pearl", emoji: "🗼", description: "Iconic TV tower on the Pudong skyline."),
             JourneyAttraction(id: "sh-a3", name: "Yu Garden", emoji: "🏯", description: "Classical Ming-era garden in Old City."),
-            JourneyAttraction(id: "sh-a4", name: "Nanjing Road", emoji: "🛍", description: "Premier shopping street, dazzling at night.")
+            JourneyAttraction(id: "sh-a4", name: "Nanjing Road", emoji: "🛍", description: "Premier shopping street, dazzling at night."),
+            JourneyAttraction(id: "sh-a5", name: "West Bund", emoji: "🖼", description: "Riverside art museums, design fairs, and creative waterfront walks.")
         ],
         vocabulary: vocab(
             ("上海", "Shànghǎi", "Shanghai", "Шанхай", "Shanghái", "Xangai"),
@@ -314,7 +375,8 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "hz-a1", name: "West Lake", emoji: "🌊", description: "Willow-lined shores and misty pagodas."),
             JourneyAttraction(id: "hz-a2", name: "Leifeng Pagoda", emoji: "🛕", description: "Legendary tower overlooking the lake."),
             JourneyAttraction(id: "hz-a3", name: "Tea Plantations", emoji: "🍵", description: "Rolling hills of Longjing tea bushes."),
-            JourneyAttraction(id: "hz-a4", name: "Lingyin Temple", emoji: "⛩", description: "Ancient Buddhist temple in forested hills.")
+            JourneyAttraction(id: "hz-a4", name: "Lingyin Temple", emoji: "⛩", description: "Ancient Buddhist temple in forested hills."),
+            JourneyAttraction(id: "hz-a5", name: "Qianjiang CBD", emoji: "🏙", description: "Hangzhou's futuristic skyline beside the Qiantang River.")
         ],
         vocabulary: vocab(
             ("杭州", "Hángzhōu", "Hangzhou", "Ханчжоу", "Hangzhou", "Hangzhou"),
@@ -368,7 +430,8 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "sz-a1", name: "Humble Garden", emoji: "🏡", description: "Ming-era garden of ponds and pavilions."),
             JourneyAttraction(id: "sz-a2", name: "Tiger Hill", emoji: "🐯", description: "Leaning pagoda atop a legendary hill."),
             JourneyAttraction(id: "sz-a3", name: "Pingjiang Road", emoji: "🛶", description: "Canalside lane of teahouses and shops."),
-            JourneyAttraction(id: "sz-a4", name: "Silk Museum", emoji: "🧵", description: "Centuries of silk weaving tradition.")
+            JourneyAttraction(id: "sz-a4", name: "Silk Museum", emoji: "🧵", description: "Centuries of silk weaving tradition."),
+            JourneyAttraction(id: "sz-a5", name: "Jinji Lake", emoji: "🌃", description: "Modern lakeside district with the iconic Suzhou Center skyline.")
         ],
         vocabulary: vocab(
             ("苏州", "Sūzhōu", "Suzhou", "Сучжоу", "Suzhou", "Suzhou"),
@@ -422,7 +485,8 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "hb-a1", name: "Ice Festival", emoji: "🧊", description: "Massive illuminated ice sculptures at night."),
             JourneyAttraction(id: "hb-a2", name: "Central Street", emoji: "🏛", description: "Historic cobblestone boulevard."),
             JourneyAttraction(id: "hb-a3", name: "Saint Sophia", emoji: "⛪", description: "Byzantine-style cathedral turned museum."),
-            JourneyAttraction(id: "hb-a4", name: "Snow World", emoji: "❄️", description: "Fantasy snow castles and slides.")
+            JourneyAttraction(id: "hb-a4", name: "Snow World", emoji: "❄️", description: "Fantasy snow castles and slides."),
+            JourneyAttraction(id: "hb-a5", name: "Harbin Opera House", emoji: "🎭", description: "Sweeping contemporary architecture on the Songhua River.")
         ],
         vocabulary: vocab(
             ("哈尔滨", "Hā'ěrbīn", "Harbin", "Харбин", "Harbin", "Harbin"),
@@ -440,6 +504,116 @@ enum JourneyCityCatalog {
             xpReward: 25
         ),
         requirements: CityRequirements(items: [.learnedWords(310), .xp(9500), .gamesPlayed(45), .accuracy(74)])
+    )
+
+    // MARK: - Guangzhou
+
+    private static let guangzhou = JourneyCity.make(
+        id: "guangzhou",
+        name: "Guangzhou",
+        emoji: "🥢",
+        province: "Guangdong",
+        population: "About 19 million",
+        introduction: "Welcome to Guangzhou — a dynamic Pearl River metropolis and the heartland of Cantonese culture.",
+        famousFor: "Dim sum, Canton Tower, historic trade, and Cantonese culture",
+        bestSeason: "October – December",
+        localFood: "Dim sum, char siu, wonton noodles",
+        culturalFact: "Guangzhou has connected China with global traders for more than two thousand years.",
+        localAchievement: "Cantonese Gourmet",
+        souvenirEmoji: "🫖",
+        souvenirName: "Dim Sum Teapot",
+        travelCollectible: "🥢",
+        theme: JourneyColorTheme(
+            primary: Color(red: 0.92, green: 0.36, blue: 0.18),
+            secondary: Color(red: 0.98, green: 0.66, blue: 0.24),
+            heroGradient: [
+                Color(red: 0.78, green: 0.20, blue: 0.16),
+                Color(red: 0.98, green: 0.56, blue: 0.20)
+            ]
+        ),
+        facts: [
+            JourneyFact(id: "gz1", icon: "fork.knife", text: "The Cantonese tradition of yum cha pairs tea with baskets of dim sum."),
+            JourneyFact(id: "gz2", icon: "building.2.fill", text: "Canton Tower rises 600 meters above the Pearl River skyline."),
+            JourneyFact(id: "gz3", icon: "shippingbox.fill", text: "Guangzhou has been a major trading port since the ancient Maritime Silk Road.")
+        ],
+        attractions: [
+            JourneyAttraction(id: "gz-a1", name: "Canton Tower", emoji: "🗼", description: "A colorful landmark with panoramic views over the Pearl River."),
+            JourneyAttraction(id: "gz-a2", name: "Chen Clan Ancestral Hall", emoji: "🏯", description: "An ornate masterpiece of traditional Lingnan craftsmanship."),
+            JourneyAttraction(id: "gz-a3", name: "Shamian Island", emoji: "🌳", description: "Leafy streets lined with historic European-style buildings."),
+            JourneyAttraction(id: "gz-a4", name: "Baiyun Mountain", emoji: "⛰", description: "Green trails and sweeping views above the city."),
+            JourneyAttraction(id: "gz-a5", name: "Zhujiang New Town", emoji: "🌆", description: "Guangzhou's sleek CBD of towers, malls, and riverside light shows.")
+        ],
+        vocabulary: vocab(
+            ("广州", "Guǎngzhōu", "Guangzhou", "Гуанчжоу", "Cantón", "Guangzhou"),
+            ("早茶", "zǎochá", "morning tea", "утренний чай", "té matutino", "chá da manhã"),
+            ("点心", "diǎnxin", "dim sum", "димсам", "dim sum", "dim sum"),
+            ("珠江", "Zhū Jiāng", "Pearl River", "Жемчужная река", "río de las Perlas", "Rio das Pérolas"),
+            ("好吃", "hǎochī", "delicious", "вкусный", "delicioso", "delicioso"),
+            ("喝茶", "hē chá", "drink tea", "пить чай", "tomar té", "tomar chá")
+        ),
+        miniActivity: JourneyMiniActivity(
+            title: "Serve the Dim Sum",
+            instruction: "Tap the matching bamboo baskets to complete the tea table!",
+            icon: "takeoutbag.and.cup.and.straw.fill",
+            targetEmoji: "🥟",
+            xpReward: 30
+        ),
+        requirements: CityRequirements(items: [.learnedWords(325), .xp(10250), .gamesPlayed(47), .accuracy(74)])
+    )
+
+    // MARK: - Shenzhen
+
+    private static let shenzhen = JourneyCity.make(
+        id: "shenzhen",
+        name: "Shenzhen",
+        emoji: "🚀",
+        province: "Guangdong",
+        population: "About 18 million",
+        introduction: "Explore Shenzhen — China's bold innovation city, where futuristic towers meet a green subtropical coast.",
+        famousFor: "Technology, modern architecture, creative districts, and Shenzhen Bay",
+        bestSeason: "October – April",
+        localFood: "Coconut chicken, Cantonese seafood, rice rolls",
+        culturalFact: "Shenzhen grew from a small border town into a global technology hub in just a few decades.",
+        localAchievement: "Future Builder",
+        souvenirEmoji: "🤖",
+        souvenirName: "Innovation Robot",
+        travelCollectible: "🚀",
+        theme: JourneyColorTheme(
+            primary: Color(red: 0.16, green: 0.50, blue: 0.92),
+            secondary: Color(red: 0.32, green: 0.82, blue: 0.88),
+            heroGradient: [
+                Color(red: 0.10, green: 0.28, blue: 0.72),
+                Color(red: 0.18, green: 0.72, blue: 0.82)
+            ]
+        ),
+        facts: [
+            JourneyFact(id: "szh1", icon: "cpu.fill", text: "Shenzhen is one of the world's leading centers for hardware and technology innovation."),
+            JourneyFact(id: "szh2", icon: "leaf.fill", text: "Nearly half of Shenzhen's urban area is covered by parks and ecological spaces."),
+            JourneyFact(id: "szh3", icon: "tram.fill", text: "The city has grown from a small town into a megacity since 1980.")
+        ],
+        attractions: [
+            JourneyAttraction(id: "szh-a1", name: "Ping An Finance Centre", emoji: "🏙", description: "One of the world's tallest skyscrapers and a symbol of modern Shenzhen."),
+            JourneyAttraction(id: "szh-a2", name: "Shenzhen Bay", emoji: "🌊", description: "A waterfront promenade with skyline and sunset views."),
+            JourneyAttraction(id: "szh-a3", name: "Dafen Oil Painting Village", emoji: "🎨", description: "A creative neighborhood filled with artists and galleries."),
+            JourneyAttraction(id: "szh-a4", name: "OCT Loft", emoji: "🎭", description: "A former industrial area transformed into a lively arts district."),
+            JourneyAttraction(id: "szh-a5", name: "Design Society", emoji: "🖼", description: "Cutting-edge design museum in Shekou by the sea.")
+        ],
+        vocabulary: vocab(
+            ("深圳", "Shēnzhèn", "Shenzhen", "Шэньчжэнь", "Shenzhen", "Shenzhen"),
+            ("科技", "kējì", "technology", "технологии", "tecnología", "tecnologia"),
+            ("创新", "chuàngxīn", "innovation", "инновации", "innovación", "inovação"),
+            ("高楼", "gāolóu", "skyscraper", "небоскрёб", "rascacielos", "arranha-céu"),
+            ("公园", "gōngyuán", "park", "парк", "parque", "parque"),
+            ("未来", "wèilái", "future", "будущее", "futuro", "futuro")
+        ),
+        miniActivity: JourneyMiniActivity(
+            title: "Build the Skyline",
+            instruction: "Stack the glowing towers to complete Shenzhen's skyline!",
+            icon: "building.2.fill",
+            targetEmoji: "🏙",
+            xpReward: 30
+        ),
+        requirements: CityRequirements(items: [.learnedWords(340), .xp(11000), .gamesPlayed(49), .accuracy(75)])
     )
 
     // MARK: - Hong Kong
@@ -476,7 +650,8 @@ enum JourneyCityCatalog {
             JourneyAttraction(id: "hk-a1", name: "Victoria Peak", emoji: "🏔", description: "Panoramic views over the harbor."),
             JourneyAttraction(id: "hk-a2", name: "Star Ferry", emoji: "⛴", description: "Historic harbor crossing at sunset."),
             JourneyAttraction(id: "hk-a3", name: "Temple Street", emoji: "🏮", description: "Night market of food and fortune tellers."),
-            JourneyAttraction(id: "hk-a4", name: "Dim Sum", emoji: "🥟", description: "Steamed baskets of Cantonese delights.")
+            JourneyAttraction(id: "hk-a4", name: "Dim Sum", emoji: "🥟", description: "Steamed baskets of Cantonese delights."),
+            JourneyAttraction(id: "hk-a5", name: "M+ Museum", emoji: "🖼", description: "Asia's flagship museum of visual culture in West Kowloon.")
         ],
         vocabulary: vocab(
             ("香港", "Xiānggǎng", "Hong Kong", "Гонконг", "Hong Kong", "Hong Kong"),

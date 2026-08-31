@@ -15,14 +15,14 @@ struct GamesCompletedView: View {
         List {
             Section {
                 HStack {
-                    Text("games.hub.total_sessions")
+                    Text(l10n: "games.hub.total_sessions")
                     Spacer()
                     Text("\(gamesCompleted)")
                         .foregroundStyle(.secondary)
                 }
             }
 
-            Section("By Game") {
+            Section(L10n.string("By Game")) {
                 ForEach(GameDefinition.libraryGames) { game in
                     let stats = scoreStore.statistics(for: game.kind)
                     HStack {
@@ -34,7 +34,7 @@ struct GamesCompletedView: View {
                 }
             }
         }
-        .navigationTitle("Games Completed")
+        .navigationTitle(L10n.string("Games Completed"))
         .navigationBarTitleDisplayMode(.inline)
     }
 }
@@ -74,58 +74,7 @@ struct GamesAchievementsView: View {
             }
             .opacity(achievement.isUnlocked ? 1 : 0.65)
         }
-        .navigationTitle("Achievements")
-        .navigationBarTitleDisplayMode(.inline)
-    }
-}
-
-struct GamesPerfectScoresView: View {
-
-    @Environment(GameScoreStore.self) private var scoreStore
-    @Environment(AchievementStore.self) private var achievementStore
-
-    private var perfectScoreGames: [GameDefinition] {
-        GameDefinition.libraryGames.filter { game in
-            let stats = scoreStore.statistics(for: game.kind)
-            return stats.averageAccuracy == 100 && stats.gamesPlayed > 0
-        }
-    }
-
-    var body: some View {
-        List {
-            if perfectScoreGames.isEmpty {
-                ContentUnavailableView(
-                    "No Perfect Scores Yet",
-                    systemImage: "star.circle",
-                    description: Text("games.perfect_scores.empty")
-                )
-            } else {
-                ForEach(perfectScoreGames) { game in
-                    HStack {
-                        Text("\(game.emoji) \(game.localizedTitle)")
-                        Spacer()
-                        Image(systemName: "star.fill")
-                            .foregroundStyle(.yellow)
-                    }
-                }
-            }
-
-            Section("Related Badges") {
-                ForEach(achievementStore.achievements.filter {
-                    $0.id.contains("perfect") || $0.id.contains("master") || $0.id.contains("expert") || $0.id.contains("champion")
-                }) { achievement in
-                    HStack {
-                        Text(achievement.title)
-                        Spacer()
-                        if achievement.isUnlocked {
-                            Image(systemName: "checkmark.circle.fill")
-                                .foregroundStyle(.green)
-                        }
-                    }
-                }
-            }
-        }
-        .navigationTitle(String(localized: "games.perfect_scores.title"))
+        .navigationTitle(L10n.string("Achievements"))
         .navigationBarTitleDisplayMode(.inline)
     }
 }

@@ -19,8 +19,28 @@ enum JourneyRequirementKind: String, Equatable, Codable {
 struct JourneyRequirement: Identifiable, Equatable {
     let id: String
     let kind: JourneyRequirementKind
-    let title: String
     let target: Int
+
+    var title: String {
+        switch kind {
+        case .learnedWords:
+            L10n.string("journey.req.learn_words \(target)")
+        case .xp:
+            L10n.string("journey.req.earn_xp")
+        case .gamesPlayed:
+            L10n.string("journey.req.play_games")
+        case .accuracy:
+            L10n.placeholder("journey.req.accuracy", L10n.percent(target))
+        case .hsk1Complete:
+            L10n.string("journey.req.hsk1")
+        case .hsk2Complete:
+            L10n.string("journey.req.hsk2")
+        case .dailyChallengeStreak:
+            L10n.string("journey.req.daily_streak \(target)")
+        case .achievement:
+            L10n.string("journey.req.achievement")
+        }
+    }
 
     func evaluate(with progress: JourneyProgress, dailyStreak: Int = 0) -> RequirementEvaluation {
         switch kind {
@@ -165,7 +185,6 @@ enum JourneyRequirementFactory {
         JourneyRequirement(
             id: "learned-\(count)",
             kind: .learnedWords,
-            title: String(localized: "journey.req.learn_words \(count)"),
             target: count
         )
     }
@@ -174,7 +193,6 @@ enum JourneyRequirementFactory {
         JourneyRequirement(
             id: "xp-\(amount)",
             kind: .xp,
-            title: String(localized: "journey.req.earn_xp"),
             target: amount
         )
     }
@@ -183,7 +201,6 @@ enum JourneyRequirementFactory {
         JourneyRequirement(
             id: "games-\(count)",
             kind: .gamesPlayed,
-            title: String(localized: "journey.req.play_games"),
             target: count
         )
     }
@@ -192,7 +209,6 @@ enum JourneyRequirementFactory {
         JourneyRequirement(
             id: "accuracy-\(percent)",
             kind: .accuracy,
-            title: String(localized: "journey.req.accuracy \(percent)"),
             target: percent
         )
     }
@@ -201,7 +217,6 @@ enum JourneyRequirementFactory {
         JourneyRequirement(
             id: "hsk1-complete",
             kind: .hsk1Complete,
-            title: String(localized: "journey.req.hsk1"),
             target: 1
         )
     }
@@ -210,7 +225,6 @@ enum JourneyRequirementFactory {
         JourneyRequirement(
             id: "hsk2-complete",
             kind: .hsk2Complete,
-            title: String(localized: "journey.req.hsk2"),
             target: 1
         )
     }
@@ -219,7 +233,6 @@ enum JourneyRequirementFactory {
         JourneyRequirement(
             id: "streak-\(days)",
             kind: .dailyChallengeStreak,
-            title: "\(days)-day daily challenge streak",
             target: days
         )
     }

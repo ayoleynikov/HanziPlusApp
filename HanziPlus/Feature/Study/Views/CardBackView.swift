@@ -15,7 +15,7 @@ struct CardBackView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
-                Text("study.card_back.examples")
+                Text(l10n: "study.card_back.examples")
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(.tertiary)
                     .tracking(1.2)

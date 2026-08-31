@@ -81,8 +81,6 @@ final class DailyChallengeViewModel {
             achievementStore: achievementStore
         )
 
-        achievementStore.unlockDailyStreak(dailyStore.streakDays)
-
         if var finalResult = result {
             finalResult = GameResult(
                 gameKind: finalResult.gameKind,

@@ -139,11 +139,11 @@ struct TravelPhraseCategory: Identifiable, Hashable {
     let accentName: String
 
     var title: String {
-        String(localized: String.LocalizationValue(titleKey))
+        L10n.string( String.LocalizationValue(titleKey))
     }
 
     var subtitle: String {
-        String(localized: String.LocalizationValue(subtitleKey))
+        L10n.string( String.LocalizationValue(subtitleKey))
     }
 }
 
@@ -164,10 +164,24 @@ enum TravelPhraseCategories {
             accentName: "blue"
         ),
         TravelPhraseCategory(
+            id: "taxi",
+            titleKey: "travel.cat.taxi",
+            subtitleKey: "travel.cat.taxi.sub",
+            icon: "car.fill",
+            accentName: "indigo"
+        ),
+        TravelPhraseCategory(
+            id: "metro",
+            titleKey: "travel.cat.metro",
+            subtitleKey: "travel.cat.metro.sub",
+            icon: "tram.fill",
+            accentName: "cyan"
+        ),
+        TravelPhraseCategory(
             id: "transport",
             titleKey: "travel.cat.transport",
             subtitleKey: "travel.cat.transport.sub",
-            icon: "tram.fill",
+            icon: "train.side.front.car",
             accentName: "indigo"
         ),
         TravelPhraseCategory(
@@ -185,9 +199,9 @@ enum TravelPhraseCategories {
             accentName: "pink"
         ),
         TravelPhraseCategory(
-            id: "shopping",
-            titleKey: "travel.cat.shopping",
-            subtitleKey: "travel.cat.shopping.sub",
+            id: "shopping_mall",
+            titleKey: "travel.cat.shopping_mall",
+            subtitleKey: "travel.cat.shopping_mall.sub",
             icon: "bag.fill",
             accentName: "teal"
         ),
@@ -208,6 +222,13 @@ enum TravelPhraseCategories {
     ]
 
     static func category(id: String) -> TravelPhraseCategory? {
-        all.first { $0.id == id }
+        if id == "shopping" {
+            return all.first { $0.id == "shopping_mall" }
+        }
+        return all.first { $0.id == id }
+    }
+
+    static var touristSituations: [TravelPhraseCategory] {
+        TravelTouristSituations.featuredCategoryIDs.compactMap { category(id: $0) }
     }
 }

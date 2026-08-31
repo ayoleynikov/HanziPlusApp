@@ -3,753 +3,680 @@
     "count": 150,
     "identity": [
       {
-        "hanzi": "出差",
-        "pinyin": "chūchāi",
+        "hanzi": "爱",
+        "pinyin": "ài",
         "section": null,
-        "english": "to go on a business trip",
+        "english": "to love",
         "example_hanzi": [
-          "经理下周要出差去上海。",
-          "他经常因工作需要而出差。"
+          "我爱我的家。"
         ]
       },
       {
-        "hanzi": "出发",
-        "pinyin": "chūfā",
+        "hanzi": "八",
+        "pinyin": "bā",
         "section": null,
-        "english": "to set off / to depart",
+        "english": "eight",
         "example_hanzi": [
-          "我们准备明天清晨出发。",
-          "火车马上就要出发了。"
+          "我们八点看电视。"
         ]
       },
       {
-        "hanzi": "出生",
-        "pinyin": "chūshēng",
+        "hanzi": "爸爸",
+        "pinyin": "bàba",
         "section": null,
-        "english": "to be born",
+        "english": "dad / father",
         "example_hanzi": [
-          "他出生在一个美丽的南方城市。",
-          "请写下你的出生年月日。"
+          "我爸爸是医生。",
+          "爸爸今天加班。"
         ]
       },
       {
-        "hanzi": "厨房",
-        "pinyin": "chúfáng",
+        "hanzi": "杯子",
+        "pinyin": "bēizi",
         "section": null,
-        "english": "kitchen",
+        "english": "cup",
         "example_hanzi": [
-          "妈妈正在厨房里做晚餐。",
-          "请把厨房打扫干净。"
+          "这个杯子很漂亮。"
         ]
       },
       {
-        "hanzi": "词语",
-        "pinyin": "cíyǔ",
+        "hanzi": "北京",
+        "pinyin": "Běijīng",
         "section": null,
-        "english": "words / phrases",
+        "english": "Beijing",
         "example_hanzi": [
-          "请用这些词语造句。",
-          "积累词语对学习语言很有利。"
+          "我住在北京。"
         ]
       },
       {
-        "hanzi": "打扰",
-        "pinyin": "dǎrǎo",
+        "hanzi": "本",
+        "pinyin": "běn",
         "section": null,
-        "english": "to disturb / to bother",
+        "english": "measure word for books",
         "example_hanzi": [
-          "不好意思，打扰你一下。",
-          "他正在工作，请不要打扰他。"
+          "这本书很好。"
         ]
       },
       {
-        "hanzi": "打印",
-        "pinyin": "dǎyìn",
+        "hanzi": "不客气",
+        "pinyin": "bú kèqi",
         "section": null,
-        "english": "to print",
+        "english": "you're welcome",
         "example_hanzi": [
-          "请帮我打印一份这份文件。",
-          "打印机没有纸了。"
+          "不客气！"
         ]
       },
       {
-        "hanzi": "打折",
-        "pinyin": "dǎzhé",
+        "hanzi": "不",
+        "pinyin": "bù",
         "section": null,
-        "english": "to give a discount",
+        "english": "no",
         "example_hanzi": [
-          "这家商场正在打折。",
-          "这件衣服打八折卖。"
+          "我不是老师。"
         ]
       },
       {
-        "hanzi": "打针",
-        "pinyin": "dǎzhēn",
+        "hanzi": "菜",
+        "pinyin": "cài",
         "section": null,
-        "english": "to give or receive an injection",
+        "english": "dish",
         "example_hanzi": [
-          "护士正在给病人打针。",
-          "我不害怕吃药，但是害怕打针。"
+          "这个菜很好吃。"
         ]
       },
       {
-        "hanzi": "大使馆",
-        "pinyin": "dàshǐguǎn",
+        "hanzi": "茶",
+        "pinyin": "chá",
         "section": null,
-        "english": "embassy",
+        "english": "tea",
         "example_hanzi": [
-          "我们需要去大使馆办理签证。",
-          "中国大使馆就在前面。"
+          "请来一壶热茶。",
+          "这里免费供应茶。"
         ]
       },
       {
-        "hanzi": "大约",
-        "pinyin": "dàyuē",
+        "hanzi": "吃",
+        "pinyin": "chī",
         "section": null,
-        "english": "about / approximately",
+        "english": "to eat",
         "example_hanzi": [
-          "从这里到机场大约需要一个小时。",
-          "今天大约有一百人参加活动。"
+          "你想吃什么？"
         ]
       },
       {
-        "hanzi": "戴",
-        "pinyin": "dài",
+        "hanzi": "出租车",
+        "pinyin": "chūzūchē",
         "section": null,
-        "english": "to put on / wear (accessories, glasses, hat)",
+        "english": "taxi",
         "example_hanzi": [
-          "他戴着一副黑框眼镜。",
-          "冬天出门要戴帽子。"
+          "请帮我叫一辆出租车。",
+          "出租车站在出口外面。"
         ]
       },
       {
-        "hanzi": "代表",
-        "pinyin": "dàibiǎo",
+        "hanzi": "打电话",
+        "pinyin": "dǎ diànhuà",
         "section": null,
-        "english": "representative / to represent",
+        "english": "to make a phone call",
         "example_hanzi": [
-          "他代表公司发言。",
-          "他是我们的学生代表。"
+          "我明天给你打电话。"
         ]
       },
       {
-        "hanzi": "代替",
-        "pinyin": "dàitì",
+        "hanzi": "大",
+        "pinyin": "dà",
         "section": null,
-        "english": "to replace / instead of",
+        "english": "big",
         "example_hanzi": [
-          "没有人能代替你在我心中的位置。",
-          "今天小李代替我开会。"
+          "我家的狗很大。"
         ]
       },
       {
-        "hanzi": "导游",
-        "pinyin": "dǎoyóu",
+        "hanzi": "的",
+        "pinyin": "de",
         "section": null,
-        "english": "tour guide",
+        "english": "possessive particle",
         "example_hanzi": [
-          "导游详细地给我们介绍了景点的历史。",
-          "她是一名非常热情的导游。"
+          "这是我的书。"
         ]
       },
       {
-        "hanzi": "得意",
-        "pinyin": "déyì",
+        "hanzi": "点",
+        "pinyin": "diǎn",
         "section": null,
-        "english": "proud of oneself / complacent",
+        "english": "o'clock",
         "example_hanzi": [
-          "考了满分，他得意地笑了。",
-          "取得成绩也不要太得意。"
+          "现在几点？"
         ]
       },
       {
-        "hanzi": "底",
-        "pinyin": "dǐ",
+        "hanzi": "电脑",
+        "pinyin": "diànnǎo",
         "section": null,
-        "english": "bottom / end of (month/year)",
+        "english": "computer",
         "example_hanzi": [
-          "月底我们要进行一次考试。",
-          "杯子底上有水迹。"
+          "我的电脑运行很慢。",
+          "请重启电脑试试。"
         ]
       },
       {
-        "hanzi": "地球",
-        "pinyin": "dìqiú",
+        "hanzi": "电视",
+        "pinyin": "diànshì",
         "section": null,
-        "english": "the Earth",
+        "english": "television",
         "example_hanzi": [
-          "地球是我们的共同家园。",
-          "我们要共同保护地球环境。"
+          "他在看电视。"
         ]
       },
       {
-        "hanzi": "地址",
-        "pinyin": "dìzhǐ",
+        "hanzi": "电影",
+        "pinyin": "diànyǐng",
         "section": null,
-        "english": "address",
+        "english": "movie",
         "example_hanzi": [
-          "请把你的家庭地址发给我。",
-          "信封上的地址写错了。"
+          "我喜欢看电影。"
         ]
       },
       {
-        "hanzi": "调查",
-        "pinyin": "diàochá",
+        "hanzi": "东西",
+        "pinyin": "dōngxi",
         "section": null,
-        "english": "investigation / survey / to investigate",
+        "english": "thing",
         "example_hanzi": [
-          "我们需要进行一次市场调查。",
-          "警察正在调查这件事。"
+          "你想买什么东西？"
         ]
       },
       {
-        "hanzi": "丢",
-        "pinyin": "diū",
+        "hanzi": "都",
+        "pinyin": "dōu",
         "section": null,
-        "english": "to lose / to throw away",
+        "english": "all",
         "example_hanzi": [
-          "糟糕，我的钱包丢了！",
-          "请不要乱丢垃圾。"
+          "我们都爱吃米饭。"
         ]
       },
       {
-        "hanzi": "动作",
-        "pinyin": "dòngzuò",
+        "hanzi": "读",
+        "pinyin": "dú",
         "section": null,
-        "english": "action / movement",
+        "english": "to read",
         "example_hanzi": [
-          "舞蹈演员的动作非常优美。",
-          "请把动作放慢一点。"
+          "他在读书。"
         ]
       },
       {
-        "hanzi": "堵车",
-        "pinyin": "dǔchē",
+        "hanzi": "对不起",
+        "pinyin": "duìbuqǐ",
         "section": null,
-        "english": "traffic jam",
+        "english": "sorry / excuse me",
         "example_hanzi": [
-          "路上堵车非常严重，我迟到了。",
-          "早高峰时期经常堵车。"
+          "对不起，我迟到了。",
+          "对不起，打扰一下。"
         ]
       },
       {
-        "hanzi": "肚子",
-        "pinyin": "dùzi",
+        "hanzi": "多",
+        "pinyin": "duō",
         "section": null,
-        "english": "belly / stomach",
+        "english": "many",
         "example_hanzi": [
-          "我饿了，肚子一直在叫。",
-          "吃了不干净的东西容易肚子疼。"
+          "学校里人很多。"
         ]
       },
       {
-        "hanzi": "同情",
-        "pinyin": "tóngqíng",
+        "hanzi": "多少",
+        "pinyin": "duōshao",
         "section": null,
-        "english": "sympathy / to sympathize",
+        "english": "how many",
         "example_hanzi": [
-          "大家都非常同情他的遭遇。",
-          "同情心是美好品德。"
+          "这个多少钱？"
         ]
       },
       {
-        "hanzi": "推迟",
-        "pinyin": "tuīchí",
+        "hanzi": "儿子",
+        "pinyin": "érzi",
         "section": null,
-        "english": "to postpone / to put off",
+        "english": "son",
         "example_hanzi": [
-          "因为天气原因，会议推迟到了明天。",
-          "不能再推迟这个决定了。"
+          "他的儿子是医生。"
         ]
       },
       {
-        "hanzi": "脱",
-        "pinyin": "tuō",
+        "hanzi": "二",
+        "pinyin": "èr",
         "section": null,
-        "english": "to take off (clothes, shoes)",
+        "english": "two",
         "example_hanzi": [
-          "房间里很热，把外套脱了吧。",
-          "进门前请脱鞋。"
+          "现在是二月。"
         ]
       },
       {
-        "hanzi": "危险",
-        "pinyin": "wēixiǎn",
+        "hanzi": "饭店",
+        "pinyin": "fàndiàn",
         "section": null,
-        "english": "danger / dangerous",
+        "english": "restaurant",
         "example_hanzi": [
-          "这里水深，请勿游泳，非常危险！",
-          "遇到危险时要保持冷静。"
+          "我们在饭店吃饭。"
         ]
       },
       {
-        "hanzi": "温度",
-        "pinyin": "wēndù",
+        "hanzi": "飞机",
+        "pinyin": "fēijī",
         "section": null,
-        "english": "temperature",
+        "english": "airplane",
         "example_hanzi": [
-          "今天的温度比昨天低了三度。",
-          "请测量一下室内的温度。"
+          "我坐飞机去北京。"
         ]
       },
       {
-        "hanzi": "文章",
-        "pinyin": "wénzhāng",
+        "hanzi": "分钟",
+        "pinyin": "fēnzhōng",
         "section": null,
-        "english": "article / essay",
+        "english": "minute",
         "example_hanzi": [
-          "这篇文章写得非常生动精彩。",
-          "请仔细阅读这篇文章。"
+          "请等我五分钟。",
+          "还有十分钟开始。"
         ]
       },
       {
-        "hanzi": "污染",
-        "pinyin": "wūrǎn",
+        "hanzi": "高兴",
+        "pinyin": "gāoxìng",
         "section": null,
-        "english": "pollution / to pollute",
+        "english": "happy / glad",
         "example_hanzi": [
-          "汽车尾气会对空气造成污染。",
-          "我们要减少水资源的污染。"
+          "听到这个消息我很高兴。",
+          "今天心情很高兴。"
         ]
       },
       {
-        "hanzi": "无聊",
-        "pinyin": "wúliáo",
+        "hanzi": "个",
+        "pinyin": "gè",
         "section": null,
-        "english": "bored / boring",
+        "english": "general measure word",
         "example_hanzi": [
-          "在家待了一整天，我觉得很无聊。",
-          "这部电影情节太无聊了。"
+          "我有一个儿子。"
         ]
       },
       {
-        "hanzi": "误会",
-        "pinyin": "wùhuì",
+        "hanzi": "工作",
+        "pinyin": "gōngzuò",
         "section": null,
-        "english": "misunderstanding / to misunderstand",
+        "english": "to work",
         "example_hanzi": [
-          "对不起，这全是一场误会。",
-          "解释清楚就能消除误会。"
+          "我爸爸在医院工作。"
         ]
       },
       {
-        "hanzi": "西红柿",
-        "pinyin": "xīhóngshì",
+        "hanzi": "狗",
+        "pinyin": "gǒu",
         "section": null,
-        "english": "tomato",
+        "english": "dog",
         "example_hanzi": [
-          "西红柿炒鸡蛋是一道中国名菜。",
-          "新鲜的西红柿富含维生素。"
+          "我很喜欢狗。"
         ]
       },
       {
-        "hanzi": "吸引",
-        "pinyin": "xīyǐn",
+        "hanzi": "汉语",
+        "pinyin": "Hànyǔ",
         "section": null,
-        "english": "to attract / to fascinate",
+        "english": "Chinese language",
         "example_hanzi": [
-          "美丽的风景吸引了许多游客。",
-          "这个故事的情节很吸引人。"
+          "我会说一点儿汉语。"
         ]
       },
       {
-        "hanzi": "咸",
-        "pinyin": "xián",
+        "hanzi": "好",
+        "pinyin": "hǎo",
         "section": null,
-        "english": "salty",
+        "english": "good",
         "example_hanzi": [
-          "盐放多了，这道菜太咸了。",
-          "我不喜欢吃太咸的食物。"
+          "你好吗？"
         ]
       },
       {
-        "hanzi": "现金",
-        "pinyin": "xiànjīn",
+        "hanzi": "号",
+        "pinyin": "hào",
         "section": null,
-        "english": "cash",
+        "english": "date of the month",
         "example_hanzi": [
-          "请问您是用现金还是刷卡？",
-          "我口袋里只有少量现金。"
+          "今天是六月八号。"
         ]
       },
       {
-        "hanzi": "羡慕",
-        "pinyin": "xiànmù",
+        "hanzi": "喝",
+        "pinyin": "hē",
         "section": null,
-        "english": "to envy / to admire",
+        "english": "to drink",
         "example_hanzi": [
-          "我很羡慕他能去国外留学。",
-          "他们幸福的生活令人羡慕。"
+          "你想喝什么？"
         ]
       },
       {
-        "hanzi": "相反",
-        "pinyin": "xiāngfǎn",
+        "hanzi": "和",
+        "pinyin": "hé",
         "section": null,
-        "english": "opposite / contrary",
+        "english": "and",
         "example_hanzi": [
-          "事情的发展方向恰恰相反。",
-          "我不仅不累，相反我觉得很有精神。"
+          "我和他是同学。"
         ]
       },
       {
-        "hanzi": "详细",
-        "pinyin": "xiángxì",
+        "hanzi": "很",
+        "pinyin": "hěn",
         "section": null,
-        "english": "detailed / in detail",
+        "english": "very",
         "example_hanzi": [
-          "请你详细地解释一下原因。",
-          "这是一份非常详细的工作计划。"
+          "她很高兴。"
         ]
       },
       {
-        "hanzi": "效果",
-        "pinyin": "xiàoguǒ",
+        "hanzi": "后面",
+        "pinyin": "hòumiàn",
         "section": null,
-        "english": "effect / result",
+        "english": "behind",
         "example_hanzi": [
-          "这种新药治疗感冒的效果很好。",
-          "经过练习，演讲效果有了很大提升。"
+          "他在我后面。"
         ]
       },
       {
-        "hanzi": "心情",
-        "pinyin": "xīnqíng",
+        "hanzi": "回",
+        "pinyin": "huí",
         "section": null,
-        "english": "mood / state of mind",
+        "english": "to return",
         "example_hanzi": [
-          "今天天气晴朗，我的心情很好。",
-          "听音乐能放松心情。"
+          "我下午回家。"
         ]
       },
       {
-        "hanzi": "辛苦",
-        "pinyin": "xīnkǔ",
+        "hanzi": "会",
+        "pinyin": "huì",
         "section": null,
-        "english": "hardworking / to go through hardships",
+        "english": "can",
         "example_hanzi": [
-          "爸爸工作很辛苦。",
-          "大家辛苦了，今天早点休息吧。"
+          "我会说汉语。"
         ]
       },
       {
-        "hanzi": "信任",
-        "pinyin": "xìnrèn",
+        "hanzi": "几",
+        "pinyin": "jǐ",
         "section": null,
-        "english": "trust / to trust",
+        "english": "how many",
         "example_hanzi": [
-          "互相信任是合作的基础。",
-          "我很信任他的工作能力。"
+          "你几岁？"
         ]
       },
       {
-        "hanzi": "信心",
-        "pinyin": "xìnxīn",
+        "hanzi": "家",
+        "pinyin": "jiā",
         "section": null,
-        "english": "confidence / faith",
+        "english": "home",
         "example_hanzi": [
-          "我们要对未来充满信心。",
-          "经过练习，他增加了考试的信心。"
+          "这是我的家。"
         ]
       },
       {
-        "hanzi": "兴奋",
-        "pinyin": "xīngfèn",
+        "hanzi": "叫",
+        "pinyin": "jiào",
         "section": null,
-        "english": "excited / excitement",
+        "english": "to be called",
         "example_hanzi": [
-          "听到获胜的消息，大家都很兴奋。",
-          "孩子兴奋得睡不着觉。"
+          "你叫什么名字？"
         ]
       },
       {
-        "hanzi": "修理",
-        "pinyin": "xiūlǐ",
+        "hanzi": "今天",
+        "pinyin": "jīntiān",
         "section": null,
-        "english": "to repair / to fix",
+        "english": "today",
         "example_hanzi": [
-          "我的自行车坏了，需要修理。",
-          "师傅正在修理电脑。"
+          "今天是星期一。",
+          "今天我有空。"
         ]
       },
       {
-        "hanzi": "压力",
-        "pinyin": "yālì",
+        "hanzi": "九",
+        "pinyin": "jiǔ",
         "section": null,
-        "english": "pressure / stress",
+        "english": "nine",
         "example_hanzi": [
-          "面对考试，学生们感到很大的压力。",
-          "要学会适当地缓解工作压力。"
+          "他九岁。"
         ]
       },
       {
-        "hanzi": "牙膏",
-        "pinyin": "yágāo",
+        "hanzi": "开",
+        "pinyin": "kāi",
         "section": null,
-        "english": "toothpaste",
+        "english": "to open",
         "example_hanzi": [
-          "牙膏用完了，我去买盒新的。",
-          "刷牙时挤一点牙膏就可以了。"
+          "他会开车。"
         ]
       },
       {
-        "hanzi": "严格",
-        "pinyin": "yángé",
+        "hanzi": "看",
+        "pinyin": "kàn",
         "section": null,
-        "english": "strict / rigorous",
+        "english": "to look",
         "example_hanzi": [
-          "教练对我们的训练要求非常严格。",
-          "我们必须严格遵守安全规定。"
+          "你看，那是我的猫！"
         ]
       },
       {
-        "hanzi": "严重",
-        "pinyin": "yánzhòng",
+        "hanzi": "看见",
+        "pinyin": "kànjiàn",
         "section": null,
-        "english": "serious / severe",
+        "english": "to see",
         "example_hanzi": [
-          "他的感冒很严重，需要住院。",
-          "这件事情造成了严重的后果。"
+          "我看见你的猫了。"
         ]
       },
       {
-        "hanzi": "研究",
-        "pinyin": "yánjiū",
+        "hanzi": "块",
+        "pinyin": "kuài",
         "section": null,
-        "english": "research / to study",
+        "english": "yuan (money)",
         "example_hanzi": [
-          "科学家们正在研究新的技术。",
-          "这个问题值得我们深入研究。"
+          "苹果三块钱。"
         ]
       },
       {
-        "hanzi": "阳光",
-        "pinyin": "yángguāng",
+        "hanzi": "来",
+        "pinyin": "lái",
         "section": null,
-        "english": "sunlight / sunshine",
+        "english": "to come",
         "example_hanzi": [
-          "清晨温暖的阳光照进了房间。",
-          "多晒阳光对健康很有益。"
+          "你什么时候来？"
         ]
       },
       {
-        "hanzi": "邀请",
-        "pinyin": "yāoqǐng",
+        "hanzi": "老师",
+        "pinyin": "lǎoshī",
         "section": null,
-        "english": "to invite / invitation",
+        "english": "teacher",
         "example_hanzi": [
-          "我想邀请你参加我的生日聚会。",
-          "非常感谢您的盛情邀请。"
+          "她是我们的老师。"
         ]
       },
       {
-        "hanzi": "钥匙",
-        "pinyin": "yàoshi",
+        "hanzi": "了",
+        "pinyin": "le",
         "section": null,
-        "english": "key",
+        "english": "completed action particle",
         "example_hanzi": [
-          "出门记得带上家门钥匙。",
-          "我找不到汽车钥匙了。"
+          "他去学校了。"
         ]
       },
       {
-        "hanzi": "页",
-        "pinyin": "yè",
+        "hanzi": "冷",
+        "pinyin": "lěng",
         "section": null,
-        "english": "page (measure word)",
+        "english": "cold",
         "example_hanzi": [
-          "请大家翻到书的第十页。",
-          "这篇文章一共有三页。"
+          "今天很冷。"
         ]
       },
       {
-        "hanzi": "也许",
-        "pinyin": "yěxǔ",
+        "hanzi": "里",
+        "pinyin": "lǐ",
         "section": null,
-        "english": "maybe / perhaps",
+        "english": "inside",
         "example_hanzi": [
-          "他今天没来，也许是生病了。",
-          "坚持下去，也许明天就会成功。"
+          "猫在家里。"
         ]
       },
       {
-        "hanzi": "意见",
-        "pinyin": "yìjiàn",
+        "hanzi": "六",
+        "pinyin": "liù",
         "section": null,
-        "english": "opinion / suggestion",
+        "english": "six",
         "example_hanzi": [
-          "大家对这个方案有什么意见？",
-          "虚心听取别人的意见很重要。"
+          "我们六点吃饭。"
         ]
       },
       {
-        "hanzi": "艺术",
-        "pinyin": "yìshù",
+        "hanzi": "妈妈",
+        "pinyin": "māma",
         "section": null,
-        "english": "art",
+        "english": "mom / mother",
         "example_hanzi": [
-          "绘画是一门伟大的艺术。",
-          "他对现代艺术很感兴趣。"
+          "妈妈做的饭最好吃。",
+          "我给妈妈买了礼物。"
         ]
       },
       {
-        "hanzi": "愉快",
-        "pinyin": "yúkuài",
+        "hanzi": "吗",
+        "pinyin": "ma",
         "section": null,
-        "english": "happy / pleasant",
+        "english": "yes/no question particle",
         "example_hanzi": [
-          "祝你度过一个愉快的周末！",
-          "我们聊得很愉快。"
+          "你是学生吗？"
         ]
       },
       {
-        "hanzi": "圆",
-        "pinyin": "yuán",
+        "hanzi": "买",
+        "pinyin": "mǎi",
         "section": null,
-        "english": "round / circle",
+        "english": "to buy",
         "example_hanzi": [
-          "中秋节的月亮又大又圆。",
-          "大家围成一个圆圈坐下。"
+          "我想买一个杯子。"
         ]
       },
       {
-        "hanzi": "杂志",
-        "pinyin": "zázhì",
+        "hanzi": "猫",
+        "pinyin": "māo",
         "section": null,
-        "english": "magazine",
+        "english": "cat",
         "example_hanzi": [
-          "桌子上有一本最新的时尚杂志。",
-          "他喜欢在休闲时看杂志。"
+          "她的猫很小。"
         ]
       },
       {
-        "hanzi": "招聘",
-        "pinyin": "zhāopìn",
+        "hanzi": "没关系",
+        "pinyin": "méi guānxi",
         "section": null,
-        "english": "recruitment / to hire",
+        "english": "it doesn't matter",
         "example_hanzi": [
-          "我们公司正在招聘新员工。",
-          "请关注网站上的招聘信息。"
+          "没关系。"
         ]
       },
       {
-        "hanzi": "整理",
-        "pinyin": "zhěnglǐ",
+        "hanzi": "没有",
+        "pinyin": "méiyǒu",
         "section": null,
-        "english": "to put in order / to organize",
+        "english": "to not have",
         "example_hanzi": [
-          "请把房间里的书整理好。",
-          "他在整理开会要用的资料。"
+          "我没有钱。"
         ]
       },
       {
-        "hanzi": "正常",
-        "pinyin": "zhèngcháng",
+        "hanzi": "米饭",
+        "pinyin": "mǐfàn",
         "section": null,
-        "english": "normal / regular",
+        "english": "rice",
         "example_hanzi": [
-          "经过检查，指标一切正常。",
-          "遇到困难是正常现象。"
+          "再来一碗米饭。",
+          "这个菜配米饭很好吃。"
         ]
       },
       {
-        "hanzi": "正式",
-        "pinyin": "zhèngshì",
+        "hanzi": "名字",
+        "pinyin": "míngzi",
         "section": null,
-        "english": "formal / official",
+        "english": "name",
         "example_hanzi": [
-          "参加面试要穿正式的服装。",
-          "双方正式签署了合同。"
+          "她的名字很漂亮。"
         ]
       },
       {
-        "hanzi": "知识",
-        "pinyin": "zhīshi",
+        "hanzi": "明天",
+        "pinyin": "míngtiān",
         "section": null,
-        "english": "knowledge",
+        "english": "tomorrow",
         "example_hanzi": [
-          "阅读能增长知识。",
-          "我们要不断学习新知识。"
+          "明天见。",
+          "明天要早起。"
         ]
       },
       {
-        "hanzi": "祝贺",
-        "pinyin": "zhùhè",
+        "hanzi": "哪",
+        "pinyin": "nǎ",
         "section": null,
-        "english": "to congratulate",
+        "english": "which",
         "example_hanzi": [
-          "热烈祝贺你顺利毕业！",
-          "我们聚在一起祝贺他的成功。"
+          "你是哪国人？"
         ]
       },
       {
-        "hanzi": "著名",
-        "pinyin": "zhùmíng",
+        "hanzi": "哪儿",
+        "pinyin": "nǎr",
         "section": null,
-        "english": "famous / well-known",
+        "english": "where",
         "example_hanzi": [
-          "他是一位著名的艺术家。",
-          "故宫是北京著名的旅游景点。"
+          "你去哪儿？"
         ]
       },
       {
-        "hanzi": "专门",
-        "pinyin": "zhuānmén",
+        "hanzi": "那",
+        "pinyin": "nà",
         "section": null,
-        "english": "specially / specialized",
+        "english": "that",
         "example_hanzi": [
-          "我是专门来看你的。",
-          "这是一家专门卖书的商店。"
+          "那是我的学校。"
         ]
       },
       {
-        "hanzi": "专业",
-        "pinyin": "zhuānyè",
+        "hanzi": "呢",
+        "pinyin": "ne",
         "section": null,
-        "english": "major (field of study) / professional",
+        "english": "question particle",
         "example_hanzi": [
-          "你在大学学什么专业？",
-          "他的解答非常专业。"
+          "我很好，你呢？"
         ]
       },
       {
-        "hanzi": "自然",
-        "pinyin": "zìrán",
+        "hanzi": "能",
+        "pinyin": "néng",
         "section": null,
-        "english": "nature / natural",
+        "english": "can",
         "example_hanzi": [
-          "我们要尊重和大自然和谐相处。",
-          "微笑是最自然的语言。"
+          "你能来我家吗？"
         ]
       },
       {
-        "hanzi": "总结",
-        "pinyin": "zǒngjié",
+        "hanzi": "你",
+        "pinyin": "nǐ",
         "section": null,
-        "english": "summary / to summarize",
+        "english": "you",
         "example_hanzi": [
-          "开会时经理做了工作总结。",
-          "我们要善于总结经验教训。"
+          "你好！"
         ]
       },
       {
-        "hanzi": "尊重",
-        "pinyin": "zūnzhòng",
+        "hanzi": "年",
+        "pinyin": "nián",
         "section": null,
-        "english": "to respect / honor",
+        "english": "year",
         "example_hanzi": [
-          "每个人都应该尊重他人的选择。",
-          "我们要尊重老人的意见。"
-        ]
-      },
-      {
-        "hanzi": "座位",
-        "pinyin": "zuòwèi",
-        "section": null,
-        "english": "seat",
-        "example_hanzi": [
-          "请找到自己的座位坐下。",
-          "这个座位有人吗？"
+          "我学了一年汉语。"
         ]
       },
       {
@@ -803,16 +730,6 @@
         ]
       },
       {
-        "hanzi": "钱",
-        "pinyin": "qián",
-        "section": null,
-        "english": "money",
-        "example_hanzi": [
-          "这个多少钱？",
-          "我没有钱。"
-        ]
-      },
-      {
         "hanzi": "前面",
         "pinyin": "qiánmiàn",
         "section": null,
@@ -820,6 +737,16 @@
         "example_hanzi": [
           "他在我前面。",
           "前面有一个商店。"
+        ]
+      },
+      {
+        "hanzi": "钱",
+        "pinyin": "qián",
+        "section": null,
+        "english": "money",
+        "example_hanzi": [
+          "这个多少钱？",
+          "我没有钱。"
         ]
       },
       {
@@ -1013,13 +940,12 @@
         ]
       },
       {
-        "hanzi": "说话",
-        "pinyin": "shuōhuà",
+        "hanzi": "说",
+        "pinyin": "shuō",
         "section": null,
-        "english": "to speak / to talk",
+        "english": "to speak",
         "example_hanzi": [
-          "请不要说话。",
-          "他们在说话。"
+          "他说他很好。"
         ]
       },
       {
@@ -1313,13 +1239,12 @@
         ]
       },
       {
-        "hanzi": "衣服",
-        "pinyin": "yīfu",
+        "hanzi": "一点儿",
+        "pinyin": "yìdiǎnr",
         "section": null,
-        "english": "clothes / clothing",
+        "english": "a little",
         "example_hanzi": [
-          "这件衣服很漂亮。",
-          "我要去买衣服。"
+          "我想喝一点儿茶。"
         ]
       },
       {
@@ -1340,6 +1265,16 @@
         "example_hanzi": [
           "这间医院很大。",
           "他在医院工作。"
+        ]
+      },
+      {
+        "hanzi": "衣服",
+        "pinyin": "yīfu",
+        "section": null,
+        "english": "clothes / clothing",
+        "example_hanzi": [
+          "这件衣服很漂亮。",
+          "我要去买衣服。"
         ]
       },
       {
@@ -1483,16 +1418,6 @@
         ]
       },
       {
-        "hanzi": "坐",
-        "pinyin": "zuò",
-        "section": null,
-        "english": "to sit / to take (a vehicle)",
-        "example_hanzi": [
-          "请坐。",
-          "我坐出租车去学校。"
-        ]
-      },
-      {
         "hanzi": "做",
         "pinyin": "zuò",
         "section": null,
@@ -1500,6 +1425,16 @@
         "example_hanzi": [
           "你在做什么？",
           "妈妈在做饭。"
+        ]
+      },
+      {
+        "hanzi": "坐",
+        "pinyin": "zuò",
+        "section": null,
+        "english": "to sit / to take (a vehicle)",
+        "example_hanzi": [
+          "请坐。",
+          "我坐出租车去学校。"
         ]
       }
     ]

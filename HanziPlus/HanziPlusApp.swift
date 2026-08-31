@@ -28,6 +28,7 @@ struct HanziPlusApp: App {
     @State private var userProfileStore = UserProfileStore()
     @State private var travelPhraseStore = TravelPhraseStore()
     @State private var dailyLessonStore = DailyLessonStore()
+    @State private var pathCourseStore = PathCourseStore()
     @State private var languageSettingsStore = LanguageSettingsStore()
 
     var body: some Scene {
@@ -51,10 +52,8 @@ struct HanziPlusApp: App {
                 .environment(userProfileStore)
                 .environment(travelPhraseStore)
                 .environment(dailyLessonStore)
+                .environment(pathCourseStore)
                 .environment(languageSettingsStore)
-                .environment(\.locale, languageSettingsStore.locale)
-                .environment(\.contentLanguage, languageSettingsStore.contentLanguage)
-                .id(languageSettingsStore.refreshToken)
         }
     }
 }

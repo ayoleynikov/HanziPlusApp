@@ -13,10 +13,12 @@ struct SpeedChallengeView: View {
     @State private var viewModel: SpeedChallengeViewModel
     @State private var flashColor: Color = .clear
     @State private var timerTask: Task<Void, Never>?
+    @State private var showMistakeFeedback = false
 
     @Environment(\.dismiss) private var dismiss
     @Environment(GameScoreStore.self) private var scoreStore
     @Environment(StatisticsStore.self) private var statisticsStore
+    @Environment(SmartReviewStore.self) private var smartReviewStore
 
     private let game = GameDefinition.definition(for: .speedChallenge)
 
@@ -70,7 +72,8 @@ struct SpeedChallengeView: View {
             }
 
             VStack(spacing: AppSpacing.small) {
-                ForEach(viewModel.options, id: \.self) { option in
+                ForEach(viewModel.options.indices, id: \.self) { index in
+                    let option = viewModel.options[index]
                     GameOptionButton(
                         text: option,
                         isSelected: viewModel.selectedAnswer == option,
@@ -78,8 +81,16 @@ struct SpeedChallengeView: View {
                         showResult: viewModel.showResult,
                         action: {
                             guard !viewModel.showResult, viewModel.remainingSeconds > 0 else { return }
+                            let word = viewModel.currentWord
                             viewModel.select(option)
-                            if option == viewModel.currentWord?.localizedMeaning {
+                            if let word {
+                                smartReviewStore.recordAttempt(
+                                    fileName: studySet.fileName,
+                                    hanzi: word.hanzi,
+                                    correct: option == word.localizedMeaning
+                                )
+                            }
+                            if option == word?.localizedMeaning {
                                 HapticService.light()
                             } else {
                                 HapticService.rigid()
@@ -101,6 +112,17 @@ struct SpeedChallengeView: View {
         .padding(.horizontal, AppSpacing.medium)
         .padding(.bottom, AppSpacing.medium)
         .background(flashColor.opacity(0.14).ignoresSafeArea())
+        .overlay(alignment: .bottom) {
+            if showMistakeFeedback, let word = viewModel.currentWord {
+                QuizMistakeFeedbackCard(
+                    word: word,
+                    correctAnswer: word.localizedMeaning,
+                    onContinue: dismissMistakeAndAdvance
+                )
+                .transition(.move(edge: .bottom).combined(with: .opacity))
+            }
+        }
+        .animation(.spring(response: 0.4, dampingFraction: 0.86), value: showMistakeFeedback)
         .onChange(of: viewModel.showResult) { _, showResult in
             guard showResult else { return }
             handleResultFeedback()
@@ -118,7 +140,7 @@ struct SpeedChallengeView: View {
                 Image(systemName: "timer")
                     .foregroundStyle(game.color)
 
-                Text("\(viewModel.remainingSeconds)s")
+                Text(L10n.string("\(viewModel.remainingSeconds)s"))
                     .font(.title2.weight(.bold))
                     .monospacedDigit()
                     .contentTransition(.numericText())
@@ -126,7 +148,7 @@ struct SpeedChallengeView: View {
 
                 Spacer()
 
-                Text("\(viewModel.correctCount) pts")
+                Text(L10n.string("\(viewModel.correctCount) pts"))
                     .font(.headline.weight(.semibold))
                     .foregroundStyle(game.color)
             }
@@ -155,7 +177,7 @@ struct SpeedChallengeView: View {
         let total = viewModel.correctCount + viewModel.wrongCount
         let accuracy = total > 0 ? Int(Double(viewModel.correctCount) / Double(total) * 100) : 100
 
-        return Text("\(accuracy)%")
+        return Text(L10n.percent(accuracy))
             .font(.caption.weight(.semibold))
             .foregroundStyle(.secondary)
             .padding(.horizontal, 12)
@@ -192,18 +214,26 @@ struct SpeedChallengeView: View {
             flashColor = isCorrect ? .green : .red
         }
 
-        Task {
-            try? await Task.sleep(for: .seconds(0.45))
-
-            await MainActor.run {
-                withAnimation(.easeOut(duration: 0.2)) {
-                    flashColor = .clear
-                }
-
-                if viewModel.remainingSeconds > 0 {
-                    viewModel.nextQuestion()
+        if isCorrect {
+            Task {
+                try? await Task.sleep(for: .seconds(0.45))
+                await MainActor.run {
+                    withAnimation(.easeOut(duration: 0.2)) { flashColor = .clear }
+                    if viewModel.remainingSeconds > 0 {
+                        viewModel.nextQuestion()
+                    }
                 }
             }
+        } else {
+            showMistakeFeedback = true
+        }
+    }
+
+    private func dismissMistakeAndAdvance() {
+        showMistakeFeedback = false
+        withAnimation(.easeOut(duration: 0.2)) { flashColor = .clear }
+        if viewModel.remainingSeconds > 0 {
+            viewModel.nextQuestion()
         }
     }
 
@@ -225,4 +255,5 @@ struct SpeedChallengeView: View {
     }
     .environment(GameScoreStore())
     .environment(StatisticsStore())
+    .environment(SmartReviewStore())
 }

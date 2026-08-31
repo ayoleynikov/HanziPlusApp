@@ -1,0 +1,246 @@
+{
+  "id": "lesson_01",
+  "number": 1,
+  "sourceLessonNumbers": [
+    1
+  ],
+  "chineseTitle": "你好！",
+  "chineseSubtitle": null,
+  "pinyinTitle": null,
+  "translationTitle": {
+    "ru": "Привет!",
+    "en": "Hello!",
+    "es": "¡Hola!",
+    "pt-BR": "Olá!"
+  },
+  "sections": [
+    {
+      "kind": "dialogue",
+      "continueButtonTitle": "Изучить первые слова",
+      "showLessonHeader": true,
+      "dialogue": {
+        "id": "dialogue_mini",
+        "title": null,
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "你好！",
+            "pinyin": "Nǐ hǎo!",
+            "translation": {
+              "ru": "Здравствуй!",
+              "en": "Hello!",
+              "es": "¡Hola!",
+              "pt-BR": "Olá!"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "你好！",
+            "pinyin": "Nǐ hǎo!",
+            "translation": {
+              "ru": "Здравствуй!",
+              "en": "Hello!",
+              "es": "¡Hola!",
+              "pt-BR": "Olá!"
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "vocabulary": {
+        "id": "vocab_starter",
+        "title": {
+          "ru": "Первые слова",
+          "en": "First words",
+          "es": "Primeras palabras",
+          "pt-BR": "Primeiras palavras"
+        },
+        "items": [
+          {
+            "id": "ni",
+            "hanzi": "你",
+            "pinyin": "nǐ",
+            "translation": {
+              "ru": "ты",
+              "en": "you",
+              "es": "tú",
+              "pt-BR": "você"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "hao",
+            "hanzi": "好",
+            "pinyin": "hǎo",
+            "translation": {
+              "ru": "хороший; добрый",
+              "en": "good; kind",
+              "es": "bueno; amable",
+              "pt-BR": "bom; gentil"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "yi",
+            "hanzi": "一",
+            "pinyin": "yī",
+            "translation": {
+              "ru": "один",
+              "en": "one",
+              "es": "uno",
+              "pt-BR": "um"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "wu",
+            "hanzi": "五",
+            "pinyin": "wǔ",
+            "translation": {
+              "ru": "пять",
+              "en": "five",
+              "es": "cinco",
+              "pt-BR": "cinco"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "ba",
+            "hanzi": "八",
+            "pinyin": "bā",
+            "translation": {
+              "ru": "восемь",
+              "en": "eight",
+              "es": "ocho",
+              "pt-BR": "oito"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "da",
+            "hanzi": "大",
+            "pinyin": "dà",
+            "translation": {
+              "ru": "большой",
+              "en": "big / large",
+              "es": "grande",
+              "pt-BR": "grande"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "bu",
+            "hanzi": "不",
+            "pinyin": "bù",
+            "translation": {
+              "ru": "не",
+              "en": "not",
+              "es": "no",
+              "pt-BR": "não"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "dialogueRepeat",
+      "title": "Прочитай диалог ещё раз",
+      "dialogue": {
+        "id": "dialogue_mini",
+        "title": null,
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "你好！",
+            "pinyin": "Nǐ hǎo!",
+            "translation": {
+              "ru": "Здравствуй!",
+              "en": "Hello!",
+              "es": "¡Hola!",
+              "pt-BR": "Olá!"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "你好！",
+            "pinyin": "Nǐ hǎo!",
+            "translation": {
+              "ru": "Здравствуй!",
+              "en": "Hello!",
+              "es": "¡Hola!",
+              "pt-BR": "Olá!"
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "quizChineseToTranslation"
+    },
+    {
+      "kind": "quizTranslationToChinese"
+    },
+    {
+      "kind": "examples",
+      "items": [
+        {
+          "id": "ex_nihao",
+          "hanzi": "你好！",
+          "pinyin": "Nǐ hǎo!",
+          "translation": {
+            "ru": "Здравствуй!",
+            "en": "Hello!",
+            "es": "¡Hola!",
+            "pt-BR": "Olá!"
+          }
+        },
+        {
+          "id": "ex_nihao_ma",
+          "hanzi": "你好吗？",
+          "pinyin": "Nǐ hǎo ma?",
+          "translation": {
+            "ru": "Как ты?",
+            "en": "How are you?",
+            "es": "¿Cómo estás?",
+            "pt-BR": "Como você está?"
+          }
+        },
+        {
+          "id": "ex_hen_hao",
+          "hanzi": "很好！",
+          "pinyin": "Hěn hǎo!",
+          "translation": {
+            "ru": "Очень хороший!",
+            "en": "Very good!",
+            "es": "¡Muy bien!",
+            "pt-BR": "Muito bom!"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "completion"
+    }
+  ]
+}

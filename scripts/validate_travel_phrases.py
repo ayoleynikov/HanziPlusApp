@@ -13,18 +13,12 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts" / "i18n"))
+from travel_categories import KNOWN_TRAVEL_CATEGORIES
+
 JSON_PATH = ROOT / "HanziPlus" / "Resources" / "Data" / "travel_phrases.json"
 
-KNOWN_CATEGORIES = {
-    "essentials",
-    "airport",
-    "transport",
-    "hotel",
-    "food",
-    "shopping",
-    "internet",
-    "emergency",
-}
+KNOWN_CATEGORIES = KNOWN_TRAVEL_CATEGORIES
 
 REQUIRED_FIELDS = (
     "id",

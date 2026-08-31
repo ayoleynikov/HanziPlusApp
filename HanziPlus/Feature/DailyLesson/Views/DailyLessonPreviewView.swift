@@ -20,12 +20,12 @@ struct DailyLessonPreviewView: View {
                 Text(word.hanzi)
                     .font(.system(size: 56, weight: .bold))
                     .minimumScaleFactor(0.5)
-                    .accessibilityLabel("Chinese character \(word.hanzi)")
+                    .accessibilityLabel(L10n.string("Chinese character \(word.hanzi)"))
 
                 Text(word.pinyin)
                     .font(.title3)
                     .foregroundStyle(.secondary)
-                    .accessibilityLabel("Pinyin \(word.pinyin)")
+                    .accessibilityLabel(L10n.string("Pinyin \(word.pinyin)"))
 
                 Text(word.localizedMeaning)
                     .font(.title2.weight(.semibold))
@@ -33,20 +33,10 @@ struct DailyLessonPreviewView: View {
                     .accessibilityLabel("\(word.hanzi) · \(word.localizedMeaning)")
 
                 if let example = word.examples.first {
-                    VStack(spacing: 6) {
-                        Text(example.hanzi)
-                            .font(.body.weight(.medium))
-                            .multilineTextAlignment(.center)
-                        if let translation = example.localizedMeaning {
-                            Text(translation)
-                                .font(.subheadline)
-                                .foregroundStyle(.secondary)
-                                .multilineTextAlignment(.center)
-                        }
-                    }
-                    .padding(.top, 4)
-                    .accessibilityElement(children: .combine)
-                    .accessibilityLabel("Example \(example.hanzi)\(example.localizedMeaning.map { ". \($0)" } ?? "")")
+                    ExampleRowView(example: example, style: .compact)
+                        .padding(.top, 4)
+                        .accessibilityElement(children: .combine)
+                        .accessibilityLabel(L10n.string("Example \(example.hanzi)\(example.localizedMeaning.map { ". \($0)" } ?? "")"))
                 }
 
                 DailyLessonSpeakButton(text: word.hanzi)
@@ -63,7 +53,7 @@ struct DailyLessonPreviewView: View {
             Spacer(minLength: AppSpacing.small)
 
             Button(action: onContinue) {
-                Text(index + 1 < total ? String(localized: "lesson.preview.next_word") : String(localized: "lesson.preview.start_practice"))
+                Text(index + 1 < total ? L10n.string( "lesson.preview.next_word") : L10n.string( "lesson.preview.start_practice"))
                     .font(.body.weight(.semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
@@ -72,7 +62,7 @@ struct DailyLessonPreviewView: View {
                     .foregroundStyle(.white)
             }
             .buttonStyle(.plain)
-            .accessibilityHint(String(localized: "lesson.preview.a11y_hint"))
+            .accessibilityHint(L10n.string( "lesson.preview.a11y_hint"))
         }
     }
 }

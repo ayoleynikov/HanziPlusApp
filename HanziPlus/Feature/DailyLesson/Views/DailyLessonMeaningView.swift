@@ -11,6 +11,7 @@ struct DailyLessonMeaningView: View {
     let options: [String]
     let selectedAnswer: String?
     let showFeedback: Bool
+    let wasCorrect: Bool
     let onSelect: (String) -> Void
     let onContinue: () -> Void
 
@@ -20,16 +21,16 @@ struct DailyLessonMeaningView: View {
                 Text(word.hanzi)
                     .font(.system(size: 52, weight: .bold))
                     .minimumScaleFactor(0.5)
-                    .accessibilityLabel("Chinese character \(word.hanzi)")
+                    .accessibilityLabel(L10n.string("Chinese character \(word.hanzi)"))
 
-                if showFeedback {
+                if showFeedback && wasCorrect {
                     Text(word.pinyin)
                         .font(.title3)
                         .foregroundStyle(.secondary)
                         .transition(.opacity)
-                        .accessibilityLabel("Pinyin \(word.pinyin)")
-                } else {
-                    Text("lesson.meaning.prompt")
+                        .accessibilityLabel(L10n.string("Pinyin \(word.pinyin)"))
+                } else if !showFeedback {
+                    Text(l10n: "lesson.meaning.prompt")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }
@@ -43,7 +44,8 @@ struct DailyLessonMeaningView: View {
             .studyCardShadow()
 
             VStack(spacing: AppSpacing.small) {
-                ForEach(options, id: \.self) { option in
+                ForEach(options.indices, id: \.self) { index in
+                    let option = options[index]
                     DailyLessonOptionButton(
                         text: option,
                         emphasizesHanzi: false,
@@ -57,9 +59,9 @@ struct DailyLessonMeaningView: View {
 
             Spacer(minLength: 0)
 
-            if showFeedback {
+            if showFeedback && wasCorrect {
                 Button(action: onContinue) {
-                    Text("common.continue")
+                    Text(l10n: "common.continue")
                         .font(.body.weight(.semibold))
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 16)
@@ -70,5 +72,16 @@ struct DailyLessonMeaningView: View {
                 .buttonStyle(.plain)
             }
         }
+        .overlay(alignment: .bottom) {
+            if showFeedback && !wasCorrect {
+                QuizMistakeFeedbackCard(
+                    word: word,
+                    correctAnswer: word.localizedMeaning,
+                    onContinue: onContinue
+                )
+                .transition(.move(edge: .bottom).combined(with: .opacity))
+            }
+        }
+        .animation(.spring(response: 0.4, dampingFraction: 0.86), value: showFeedback)
     }
 }

@@ -24,9 +24,9 @@ struct StudyCompletionView: View {
 
     private var completionSubtitle: String {
         if let sectionTitle {
-            return String(localized: "study.complete.subtitle_section \(sectionTitle) \(studySet.localizedTitle)")
+            return L10n.string( "study.complete.subtitle_section \(sectionTitle) \(studySet.localizedTitle)")
         }
-        return String(localized: "study.complete.subtitle_set \(studySet.localizedTitle)")
+        return L10n.string( "study.complete.subtitle_set \(studySet.localizedTitle)")
     }
 
     var body: some View {
@@ -43,7 +43,7 @@ struct StudyCompletionView: View {
                 successIcon
 
                 VStack(spacing: AppSpacing.small) {
-                    Text("study.complete.congrats")
+                    Text(l10n: "study.complete.congrats")
                         .font(.largeTitle.weight(.bold))
                         .multilineTextAlignment(.center)
 
@@ -52,7 +52,7 @@ struct StudyCompletionView: View {
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
 
-                    Text(String(localized: "study.complete.words_learned \(totalWords) \(totalWords)"))
+                    Text(L10n.string( "study.complete.words_learned \(totalWords) \(totalWords)"))
                         .font(.headline.weight(.semibold))
                         .foregroundStyle(studySet.color)
                         .padding(.top, 4)
@@ -64,21 +64,21 @@ struct StudyCompletionView: View {
 
                 VStack(spacing: AppSpacing.small) {
                     completionButton(
-                        title: String(localized: "study.complete.review_learned"),
+                        title: L10n.string( "study.complete.review_learned"),
                         style: .primary,
                         color: studySet.color,
                         action: onReviewLearned
                     )
 
                     completionButton(
-                        title: String(localized: "study.complete.start_again"),
+                        title: L10n.string( "study.complete.start_again"),
                         style: .secondary,
                         color: studySet.color,
                         action: onStartAgain
                     )
 
                     completionButton(
-                        title: String(localized: "study.complete.back_to_sets"),
+                        title: L10n.string( "study.complete.back_to_sets"),
                         style: .tertiary,
                         color: studySet.color,
                         action: onBackToSets

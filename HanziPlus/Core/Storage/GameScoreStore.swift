@@ -80,6 +80,14 @@ final class GameScoreStore {
         persist(stats, for: game)
     }
 
+    func resetAll() {
+        for game in GameKind.allCases {
+            defaults.removeObject(forKey: statsKey(for: game))
+            defaults.removeObject(forKey: legacyKey(for: game))
+            defaults.removeObject(forKey: legacyXPKey(for: game))
+        }
+    }
+
     private func persist(_ stats: GameStatistics, for game: GameKind) {
         guard let data = try? JSONEncoder().encode(stats) else { return }
         defaults.set(data, forKey: statsKey(for: game))

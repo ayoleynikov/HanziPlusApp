@@ -51,6 +51,13 @@ final class TravelPhraseStore {
         recentIDs.compactMap { TravelPhraseCatalog.phrase(id: $0) }
     }
 
+    func resetAll() {
+        favoriteIDs = []
+        recentIDs = []
+        persistFavorites()
+        persistRecent()
+    }
+
     private func load() {
         favoriteIDs = defaults.stringArray(forKey: favoritesKey) ?? []
         recentIDs = defaults.stringArray(forKey: recentKey) ?? []

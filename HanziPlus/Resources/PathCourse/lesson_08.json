@@ -1,0 +1,1196 @@
+{
+  "id": "lesson_08",
+  "number": 8,
+  "sourceLessonNumbers": [
+    8
+  ],
+  "chineseTitle": "苹果一斤多少钱",
+  "chineseSubtitle": null,
+  "pinyinTitle": "Píngguǒ yì jīn duōshao qián",
+  "translationTitle": {
+    "ru": "Сколько стоит цзинь яблок?",
+    "en": "How much is a jin of apples?",
+    "es": "¿Cuánto cuesta un jin de manzanas?",
+    "pt-BR": "Quanto custa um jin de maçãs?"
+  },
+  "sections": [
+    {
+      "kind": "dialogue",
+      "continueButtonTitle": "Изучить новые слова",
+      "showLessonHeader": true,
+      "dialogue": {
+        "id": "dialogue_main",
+        "title": null,
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "你买什么？",
+            "pinyin": "Nǐ mǎi shénme?",
+            "translation": {
+              "ru": "Что ты покупаешь?",
+              "en": "What are you buying?",
+              "es": "¿Qué compras?",
+              "pt-BR": "O que você compra?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "我买水果。苹果一斤多少钱？",
+            "pinyin": "Wǒ mǎi shuǐguǒ. Píngguǒ yì jīn duōshao qián?",
+            "translation": {
+              "ru": "Я покупаю фрукты. Сколько стоит цзинь яблок?",
+              "en": "I'm buying fruit. How much is a jin of apples?",
+              "es": "Compro fruta. ¿Cuánto cuesta un jin de manzanas?",
+              "pt-BR": "Estou comprando frutas. Quanto custa um jin de maçãs?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "三块。",
+            "pinyin": "Sān kuài.",
+            "translation": {
+              "ru": "Три юаня.",
+              "en": "Three yuan.",
+              "es": "Tres yuanes.",
+              "pt-BR": "Três yuan."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "三块？太贵了。两块五吧。",
+            "pinyin": "Sān kuài? Tài guì le. Liǎng kuài wǔ ba.",
+            "translation": {
+              "ru": "Три юаня? Слишком дорого. Давай два с половиной.",
+              "en": "Three yuan? Too expensive. Let's say two and a half.",
+              "es": "¿Tres yuanes? Muy caro. Dos con cinco, ¿vale?",
+              "pt-BR": "Três yuan? Muito caro. Dois e meio, então."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "你要几斤？",
+            "pinyin": "Nǐ yào jǐ jīn?",
+            "translation": {
+              "ru": "Сколько цзиней тебе?",
+              "en": "How many jin do you want?",
+              "es": "¿Cuántos jin quieres?",
+              "pt-BR": "Quantos jin você quer?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "我要五斤。",
+            "pinyin": "Wǒ yào wǔ jīn.",
+            "translation": {
+              "ru": "Мне пять цзиней.",
+              "en": "I want five jin.",
+              "es": "Quiero cinco jin.",
+              "pt-BR": "Quero cinco jin."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "还要别的吗？",
+            "pinyin": "Hái yào biéde ma?",
+            "translation": {
+              "ru": "Ещё что-нибудь?",
+              "en": "Anything else?",
+              "es": "¿Algo más?",
+              "pt-BR": "Mais alguma coisa?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "橘子怎么卖？",
+            "pinyin": "Júzi zěnme mài?",
+            "translation": {
+              "ru": "Как продаются мандарины?",
+              "en": "How much are the mandarins?",
+              "es": "¿A cómo venden las mandarinas?",
+              "pt-BR": "Quanto custam as tangerinas?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "两块。",
+            "pinyin": "Liǎng kuài.",
+            "translation": {
+              "ru": "Два юаня.",
+              "en": "Two yuan.",
+              "es": "Dos yuanes.",
+              "pt-BR": "Dois yuan."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "要两斤。一共多少钱？",
+            "pinyin": "Yào liǎng jīn. Yígòng duōshao qián?",
+            "translation": {
+              "ru": "Два цзиня. Сколько всего?",
+              "en": "Two jin. How much in total?",
+              "es": "Dos jin. ¿Cuánto en total?",
+              "pt-BR": "Dois jin. Quanto no total?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "一共十六块五（毛）。你给十六块吧。",
+            "pinyin": "Yígòng shíliù kuài wǔ (máo). Nǐ gěi shíliù kuài ba.",
+            "translation": {
+              "ru": "Всего шестнадцать юаней пять фэней. Дай шестнадцать юаней.",
+              "en": "Sixteen yuan and five fen in total. Give sixteen yuan.",
+              "es": "En total dieciséis yuanes y cinco fens. Dame dieciséis yuanes.",
+              "pt-BR": "No total dezesseis yuan e cinco fens. Dê dezesseis yuan."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "给你钱。",
+            "pinyin": "Gěi nǐ qián.",
+            "translation": {
+              "ru": "Вот деньги.",
+              "en": "Here's the money.",
+              "es": "Aquí está el dinero.",
+              "pt-BR": "Aqui está o dinheiro."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "这是五十，我找您三十四块。",
+            "pinyin": "Zhè shì wǔshí, zhǎo nín sānshísì kuài.",
+            "translation": {
+              "ru": "Вот пятьдесят, сдача — тридцать четыре юаня.",
+              "en": "Here's fifty; your change is thirty-four yuan.",
+              "es": "Aquí hay cincuenta; le devuelvo treinta y cuatro yuanes.",
+              "pt-BR": "Aqui estão cinquenta; o troco é trinta e quatro yuan."
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "vocabulary": {
+        "id": "vocab_shopping",
+        "title": {
+          "ru": "Покупки",
+          "en": "Shopping",
+          "es": "Compras",
+          "pt-BR": "Compras"
+        },
+        "items": [
+          {
+            "id": "买",
+            "hanzi": "买",
+            "pinyin": "mǎi",
+            "translation": {
+              "ru": "купить / покупать",
+              "en": "to buy",
+              "es": "comprar",
+              "pt-BR": "comprar"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "水果",
+            "hanzi": "水果",
+            "pinyin": "shuǐguǒ",
+            "translation": {
+              "ru": "фрукты",
+              "en": "fruit",
+              "es": "frutas",
+              "pt-BR": "frutas"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "苹果",
+            "hanzi": "苹果",
+            "pinyin": "píngguǒ",
+            "translation": {
+              "ru": "яблоко",
+              "en": "apple",
+              "es": "manzana",
+              "pt-BR": "maçã"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "橘子",
+            "hanzi": "橘子",
+            "pinyin": "júzi",
+            "translation": {
+              "ru": "мандарин",
+              "en": "mandarin (fruit)",
+              "es": "mandarina",
+              "pt-BR": "mandarina"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "怎么",
+            "hanzi": "怎么",
+            "pinyin": "zěnme",
+            "translation": {
+              "ru": "как",
+              "en": "how / like",
+              "es": "cómo / como",
+              "pt-BR": "como"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "卖",
+            "hanzi": "卖",
+            "pinyin": "mài",
+            "translation": {
+              "ru": "продавать",
+              "en": "to sell",
+              "es": "vender",
+              "pt-BR": "vender"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "还",
+            "hanzi": "还",
+            "pinyin": "hái",
+            "translation": {
+              "ru": "ещё",
+              "en": "still / more",
+              "es": "todavía / más",
+              "pt-BR": "ainda / mais"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "别的",
+            "hanzi": "别的",
+            "pinyin": "biéde",
+            "translation": {
+              "ru": "другой",
+              "en": "other / another",
+              "es": "otro",
+              "pt-BR": "outro"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "vocabulary": {
+        "id": "vocab_money",
+        "title": {
+          "ru": "Деньги",
+          "en": "Money",
+          "es": "Dinero",
+          "pt-BR": "Dinheiro"
+        },
+        "items": [
+          {
+            "id": "贵",
+            "hanzi": "贵",
+            "pinyin": "guì",
+            "translation": {
+              "ru": "дорогой",
+              "en": "expensive / dear",
+              "es": "caro / querido",
+              "pt-BR": "caro / querido"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "了",
+            "hanzi": "了",
+            "pinyin": "le",
+            "translation": {
+              "ru": "частица",
+              "en": "particle",
+              "es": "partícula",
+              "pt-BR": "partícula"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "吧",
+            "hanzi": "吧",
+            "pinyin": "ba",
+            "translation": {
+              "ru": "модальная частица",
+              "en": "modal particle",
+              "es": "partícula modal",
+              "pt-BR": "partícula modal"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "多少",
+            "hanzi": "多少",
+            "pinyin": "duōshao",
+            "translation": {
+              "ru": "сколько",
+              "en": "how much / how many",
+              "es": "cuánto / cuántos",
+              "pt-BR": "quanto / quantos"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "多",
+            "hanzi": "多",
+            "pinyin": "duō",
+            "translation": {
+              "ru": "много",
+              "en": "many / much",
+              "es": "mucho / muchos",
+              "pt-BR": "muito / muitos"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "少",
+            "hanzi": "少",
+            "pinyin": "shǎo",
+            "translation": {
+              "ru": "мало",
+              "en": "few / little",
+              "es": "poco",
+              "pt-BR": "pouco"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "kuai_yuan",
+            "hanzi": "块 / 元",
+            "pinyin": "kuài / yuán",
+            "translation": {
+              "ru": "юань",
+              "en": "yuan",
+              "es": "yuan",
+              "pt-BR": "yuan"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "jiao_mao",
+            "hanzi": "角 / 毛",
+            "pinyin": "jiǎo / máo",
+            "translation": {
+              "ru": "0,1 юаня",
+              "en": "0.1 yuan",
+              "es": "0,1 yuan",
+              "pt-BR": "0,1 yuan"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "分",
+            "hanzi": "分",
+            "pinyin": "fēn",
+            "translation": {
+              "ru": "0,01 юаня",
+              "en": "0.01 yuan",
+              "es": "0,01 yuan",
+              "pt-BR": "0,01 yuan"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "给",
+            "hanzi": "给",
+            "pinyin": "gěi",
+            "translation": {
+              "ru": "дать",
+              "en": "to give",
+              "es": "dar",
+              "pt-BR": "dar"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "找",
+            "hanzi": "找",
+            "pinyin": "zhǎo",
+            "translation": {
+              "ru": "дать сдачу",
+              "en": "to give change",
+              "es": "dar cambio",
+              "pt-BR": "dar troco"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "vocabulary": {
+        "id": "vocab_quantity",
+        "title": {
+          "ru": "Количество",
+          "en": "Quantity",
+          "es": "Cantidad",
+          "pt-BR": "Quantidade"
+        },
+        "items": [
+          {
+            "id": "斤",
+            "hanzi": "斤",
+            "pinyin": "jīn",
+            "translation": {
+              "ru": "цзинь",
+              "en": "jin (500 g)",
+              "es": "jin (500 g)",
+              "pt-BR": "jin (500 g)"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "公斤",
+            "hanzi": "公斤",
+            "pinyin": "gōngjīn",
+            "translation": {
+              "ru": "килограмм",
+              "en": "kilogram",
+              "es": "kilogramo",
+              "pt-BR": "quilograma"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "两",
+            "hanzi": "两",
+            "pinyin": "liǎng",
+            "translation": {
+              "ru": "два",
+              "en": "two",
+              "es": "dos",
+              "pt-BR": "dois"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "一共",
+            "hanzi": "一共",
+            "pinyin": "yígòng",
+            "translation": {
+              "ru": "всего",
+              "en": "total / altogether",
+              "es": "en total",
+              "pt-BR": "no total"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabularySummary",
+      "groups": [
+        {
+          "id": "vocab_shopping",
+          "title": {
+            "ru": "Покупки",
+            "en": "Shopping",
+            "es": "Compras",
+            "pt-BR": "Compras"
+          },
+          "items": []
+        },
+        {
+          "id": "vocab_money",
+          "title": {
+            "ru": "Деньги",
+            "en": "Money",
+            "es": "Dinero",
+            "pt-BR": "Dinheiro"
+          },
+          "items": []
+        },
+        {
+          "id": "vocab_quantity",
+          "title": {
+            "ru": "Количество",
+            "en": "Quantity",
+            "es": "Cantidad",
+            "pt-BR": "Quantidade"
+          },
+          "items": []
+        }
+      ]
+    },
+    {
+      "kind": "dialogueRepeat",
+      "title": "Прочитай диалог ещё раз",
+      "dialogue": {
+        "id": "dialogue_main",
+        "title": null,
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "你买什么？",
+            "pinyin": "Nǐ mǎi shénme?",
+            "translation": {
+              "ru": "Что ты покупаешь?",
+              "en": "What are you buying?",
+              "es": "¿Qué compras?",
+              "pt-BR": "O que você compra?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "我买水果。苹果一斤多少钱？",
+            "pinyin": "Wǒ mǎi shuǐguǒ. Píngguǒ yì jīn duōshao qián?",
+            "translation": {
+              "ru": "Я покупаю фрукты. Сколько стоит цзинь яблок?",
+              "en": "I'm buying fruit. How much is a jin of apples?",
+              "es": "Compro fruta. ¿Cuánto cuesta un jin de manzanas?",
+              "pt-BR": "Estou comprando frutas. Quanto custa um jin de maçãs?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "三块。",
+            "pinyin": "Sān kuài.",
+            "translation": {
+              "ru": "Три юаня.",
+              "en": "Three yuan.",
+              "es": "Tres yuanes.",
+              "pt-BR": "Três yuan."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "三块？太贵了。两块五吧。",
+            "pinyin": "Sān kuài? Tài guì le. Liǎng kuài wǔ ba.",
+            "translation": {
+              "ru": "Три юаня? Слишком дорого. Давай два с половиной.",
+              "en": "Three yuan? Too expensive. Let's say two and a half.",
+              "es": "¿Tres yuanes? Muy caro. Dos con cinco, ¿vale?",
+              "pt-BR": "Três yuan? Muito caro. Dois e meio, então."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "你要几斤？",
+            "pinyin": "Nǐ yào jǐ jīn?",
+            "translation": {
+              "ru": "Сколько цзиней тебе?",
+              "en": "How many jin do you want?",
+              "es": "¿Cuántos jin quieres?",
+              "pt-BR": "Quantos jin você quer?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "我要五斤。",
+            "pinyin": "Wǒ yào wǔ jīn.",
+            "translation": {
+              "ru": "Мне пять цзиней.",
+              "en": "I want five jin.",
+              "es": "Quiero cinco jin.",
+              "pt-BR": "Quero cinco jin."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "还要别的吗？",
+            "pinyin": "Hái yào biéde ma?",
+            "translation": {
+              "ru": "Ещё что-нибудь?",
+              "en": "Anything else?",
+              "es": "¿Algo más?",
+              "pt-BR": "Mais alguma coisa?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "橘子怎么卖？",
+            "pinyin": "Júzi zěnme mài?",
+            "translation": {
+              "ru": "Как продаются мандарины?",
+              "en": "How much are the mandarins?",
+              "es": "¿A cómo venden las mandarinas?",
+              "pt-BR": "Quanto custam as tangerinas?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "两块。",
+            "pinyin": "Liǎng kuài.",
+            "translation": {
+              "ru": "Два юаня.",
+              "en": "Two yuan.",
+              "es": "Dos yuanes.",
+              "pt-BR": "Dois yuan."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "要两斤。一共多少钱？",
+            "pinyin": "Yào liǎng jīn. Yígòng duōshao qián?",
+            "translation": {
+              "ru": "Два цзиня. Сколько всего?",
+              "en": "Two jin. How much in total?",
+              "es": "Dos jin. ¿Cuánto en total?",
+              "pt-BR": "Dois jin. Quanto no total?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "一共十六块五（毛）。你给十六块吧。",
+            "pinyin": "Yígòng shíliù kuài wǔ (máo). Nǐ gěi shíliù kuài ba.",
+            "translation": {
+              "ru": "Всего шестнадцать юаней пять фэней. Дай шестнадцать юаней.",
+              "en": "Sixteen yuan and five fen in total. Give sixteen yuan.",
+              "es": "En total dieciséis yuanes y cinco fens. Dame dieciséis yuanes.",
+              "pt-BR": "No total dezesseis yuan e cinco fens. Dê dezesseis yuan."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "给你钱。",
+            "pinyin": "Gěi nǐ qián.",
+            "translation": {
+              "ru": "Вот деньги.",
+              "en": "Here's the money.",
+              "es": "Aquí está el dinero.",
+              "pt-BR": "Aqui está o dinheiro."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "这是五十，我找您三十四块。",
+            "pinyin": "Zhè shì wǔshí, zhǎo nín sānshísì kuài.",
+            "translation": {
+              "ru": "Вот пятьдесят, сдача — тридцать четыре юаня.",
+              "en": "Here's fifty; your change is thirty-four yuan.",
+              "es": "Aquí hay cincuenta; le devuelvo treinta y cuatro yuanes.",
+              "pt-BR": "Aqui estão cinquenta; o troco é trinta e quatro yuan."
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "quizChineseToTranslation"
+    },
+    {
+      "kind": "quizTranslationToChinese"
+    },
+    {
+      "kind": "examples",
+      "items": [
+        {
+          "id": "ex_你买什么",
+          "hanzi": "你买什么？",
+          "pinyin": "Nǐ mǎi shénme?",
+          "translation": {
+            "ru": "Что ты покупаешь?",
+            "en": "What are you buying?",
+            "es": "¿Qué compras?",
+            "pt-BR": "O que você compra?"
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_我买水果",
+          "hanzi": "我买水果。",
+          "pinyin": "Wǒ mǎi shuǐguǒ.",
+          "translation": {
+            "ru": "Я покупаю фрукты.",
+            "en": "I'm buying fruit.",
+            "es": "Compro frutas.",
+            "pt-BR": "Compro frutas."
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_苹果一斤多少钱",
+          "hanzi": "苹果一斤多少钱？",
+          "pinyin": "Píngguǒ yì jīn duōshao qián?",
+          "translation": {
+            "ru": "Сколько стоит цзинь яблок?",
+            "en": "How much is a jin of apples?",
+            "es": "¿Cuánto cuesta un jin de manzanas?",
+            "pt-BR": "Quanto custa um jin de maçãs?"
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_三块",
+          "hanzi": "三块。",
+          "pinyin": "Sān kuài.",
+          "translation": {
+            "ru": "Три юаня.",
+            "en": "Three yuan.",
+            "es": "Tres yuanes.",
+            "pt-BR": "Três yuan."
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_三块_太贵了_两块五吧",
+          "hanzi": "三块？太贵了。两块五吧。",
+          "pinyin": "Sān kuài? Tài guì le. Liǎng kuài wǔ ba.",
+          "translation": {
+            "ru": "Три юаня? Слишком дорого. Давай два с половиной.",
+            "en": "Three yuan? Too expensive. Let's say two and a half.",
+            "es": "¿Tres yuanes? Muy caro. Dos con cinco, ¿vale?",
+            "pt-BR": "Três yuan? Muito caro. Dois e meio, então."
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_你要几斤",
+          "hanzi": "你要几斤？",
+          "pinyin": "Nǐ yào jǐ jīn?",
+          "translation": {
+            "ru": "Сколько цзиней тебе?",
+            "en": "How many jin do you want?",
+            "es": "¿Cuántos jin quieres?",
+            "pt-BR": "Quantos jin você quer?"
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_我要五斤",
+          "hanzi": "我要五斤。",
+          "pinyin": "Wǒ yào wǔ jīn.",
+          "translation": {
+            "ru": "Мне пять цзиней.",
+            "en": "I want five jin.",
+            "es": "Quiero cinco jin.",
+            "pt-BR": "Quero cinco jin."
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_还要别的吗",
+          "hanzi": "还要别的吗？",
+          "pinyin": "Hái yào biéde ma?",
+          "translation": {
+            "ru": "Ещё что-нибудь?",
+            "en": "Anything else?",
+            "es": "¿Algo más?",
+            "pt-BR": "Mais alguma coisa?"
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_橘子怎么卖",
+          "hanzi": "橘子怎么卖？",
+          "pinyin": "Júzi zěnme mài?",
+          "translation": {
+            "ru": "Как продаются мандарины?",
+            "en": "How much are the mandarins?",
+            "es": "¿A cómo venden las mandarinas?",
+            "pt-BR": "Quanto custam as tangerinas?"
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_两块",
+          "hanzi": "两块。",
+          "pinyin": "Liǎng kuài.",
+          "translation": {
+            "ru": "Два юаня.",
+            "en": "Two yuan.",
+            "es": "Dos yuanes.",
+            "pt-BR": "Dois yuan."
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_要两斤",
+          "hanzi": "要两斤。",
+          "pinyin": "Yào liǎng jīn.",
+          "translation": {
+            "ru": "Два цзиня.",
+            "en": "Two jin, please.",
+            "es": "Dos jin.",
+            "pt-BR": "Dois jin."
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_一共多少钱",
+          "hanzi": "一共多少钱？",
+          "pinyin": "Yígòng duōshao qián?",
+          "translation": {
+            "ru": "Сколько всего?",
+            "en": "How much in total?",
+            "es": "¿Cuánto es en total?",
+            "pt-BR": "Quanto dá no total?"
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_一共十六块五_毛",
+          "hanzi": "一共十六块五（毛）。",
+          "pinyin": "Yígòng shíliù kuài wǔ (máo).",
+          "translation": {
+            "ru": "Всего шестнадцать юаней пять фэней.",
+            "en": "Sixteen yuan and five fen in total.",
+            "es": "En total dieciséis yuanes y cinco fens.",
+            "pt-BR": "No total dezesseis yuan e cinco fens."
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_你给十六块吧",
+          "hanzi": "你给十六块吧。",
+          "pinyin": "Nǐ gěi shíliù kuài ba.",
+          "translation": {
+            "ru": "Дай шестнадцать юаней.",
+            "en": "Give sixteen yuan.",
+            "es": "Dame dieciséis yuanes.",
+            "pt-BR": "Dê dezesseis yuan."
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_给你钱",
+          "hanzi": "给你钱。",
+          "pinyin": "Gěi nǐ qián.",
+          "translation": {
+            "ru": "Вот деньги.",
+            "en": "Here's the money.",
+            "es": "Aquí está el dinero.",
+            "pt-BR": "Aqui está o dinheiro."
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_这是五十_我找您三十四块",
+          "hanzi": "这是五十，我找您三十四块。",
+          "pinyin": "Zhè shì wǔshí, zhǎo nín sānshísì kuài.",
+          "translation": {
+            "ru": "Вот пятьдесят, сдача — тридцать четыре юаня.",
+            "en": "Here's fifty; your change is thirty-four yuan.",
+            "es": "Aquí hay cincuenta; le devuelvo treinta y cuatro yuanes.",
+            "pt-BR": "Aqui estão cinquenta; o troco é trinta e quatro yuan."
+          },
+          "group": "dialogue"
+        },
+        {
+          "id": "ex_买苹果",
+          "hanzi": "买苹果",
+          "pinyin": "mǎi píngguǒ",
+          "translation": {
+            "ru": "покупать яблоки",
+            "en": "buy apples",
+            "es": "comprar manzanas",
+            "pt-BR": "comprar maçãs"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_买馒头",
+          "hanzi": "买馒头",
+          "pinyin": "mǎi mántou",
+          "translation": {
+            "ru": "покупать маньтоу",
+            "en": "buy mantou",
+            "es": "comprar mantou",
+            "pt-BR": "comprar mantou"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_买饺子",
+          "hanzi": "买饺子",
+          "pinyin": "mǎi jiǎozi",
+          "translation": {
+            "ru": "покупать цзяоцзы",
+            "en": "buy jiaozi",
+            "es": "comprar jiaozi",
+            "pt-BR": "comprar jiaozi"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_买米饭",
+          "hanzi": "买米饭",
+          "pinyin": "mǎi mǐfàn",
+          "translation": {
+            "ru": "покупать рис",
+            "en": "buy rice",
+            "es": "comprar arroz",
+            "pt-BR": "comprar arroz"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_买包子",
+          "hanzi": "买包子",
+          "pinyin": "mǎi bāozi",
+          "translation": {
+            "ru": "покупать баоцзы",
+            "en": "buy baozi",
+            "es": "comprar baozi",
+            "pt-BR": "comprar baozi"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_多少钱",
+          "hanzi": "多少钱",
+          "pinyin": "duōshao qián",
+          "translation": {
+            "ru": "сколько стоит",
+            "en": "how much money",
+            "es": "cuánto cuesta",
+            "pt-BR": "quanto custa"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_多少斤",
+          "hanzi": "多少斤",
+          "pinyin": "duōshao jīn",
+          "translation": {
+            "ru": "сколько цзиней",
+            "en": "how many jin",
+            "es": "cuántos jin",
+            "pt-BR": "quantos jin"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_多少人",
+          "hanzi": "多少人",
+          "pinyin": "duōshao rén",
+          "translation": {
+            "ru": "сколько человек",
+            "en": "how many people",
+            "es": "cuántas personas",
+            "pt-BR": "quantas pessoas"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_多少学生",
+          "hanzi": "多少学生",
+          "pinyin": "duōshao xuésheng",
+          "translation": {
+            "ru": "сколько студентов",
+            "en": "how many students",
+            "es": "cuántos estudiantes",
+            "pt-BR": "quantos estudantes"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_多少老师",
+          "hanzi": "多少老师",
+          "pinyin": "duōshao lǎoshī",
+          "translation": {
+            "ru": "сколько учителей",
+            "en": "how many teachers",
+            "es": "cuántos profesores",
+            "pt-BR": "quantos professores"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_还买吗",
+          "hanzi": "还买吗",
+          "pinyin": "hái mǎi ma",
+          "translation": {
+            "ru": "ещё покупаешь?",
+            "en": "still buying?",
+            "es": "¿aún compras?",
+            "pt-BR": "ainda compra?"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_还买马",
+          "hanzi": "还买马",
+          "pinyin": "hái mǎi mǎ",
+          "translation": {
+            "ru": "ещё покупаешь коня?",
+            "en": "still buy a horse?",
+            "es": "¿aún compras caballo?",
+            "pt-BR": "ainda compra cavalo?"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_还去吗",
+          "hanzi": "还去吗",
+          "pinyin": "hái qù ma",
+          "translation": {
+            "ru": "ещё идёшь?",
+            "en": "still going?",
+            "es": "¿aún vas?",
+            "pt-BR": "ainda vai?"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_还吃吗",
+          "hanzi": "还吃吗",
+          "pinyin": "hái chī ma",
+          "translation": {
+            "ru": "ещё ешь?",
+            "en": "still eating?",
+            "es": "¿aún comes?",
+            "pt-BR": "ainda come?"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_还喝吗",
+          "hanzi": "还喝吗",
+          "pinyin": "hái hē ma",
+          "translation": {
+            "ru": "ещё пьёшь?",
+            "en": "still drinking?",
+            "es": "¿aún bebes?",
+            "pt-BR": "ainda bebe?"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_还买",
+          "hanzi": "还买",
+          "pinyin": "hái mǎi",
+          "translation": {
+            "ru": "ещё покупать",
+            "en": "still buy",
+            "es": "aún comprar",
+            "pt-BR": "ainda comprar"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_还要",
+          "hanzi": "还要",
+          "pinyin": "hái yào",
+          "translation": {
+            "ru": "ещё хочешь",
+            "en": "still want",
+            "es": "aún querer",
+            "pt-BR": "ainda querer"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_还去",
+          "hanzi": "还去",
+          "pinyin": "hái qù",
+          "translation": {
+            "ru": "ещё идти",
+            "en": "still go",
+            "es": "aún ir",
+            "pt-BR": "ainda ir"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_还吃",
+          "hanzi": "还吃",
+          "pinyin": "hái chī",
+          "translation": {
+            "ru": "ещё есть",
+            "en": "still eat",
+            "es": "aún comer",
+            "pt-BR": "ainda comer"
+          },
+          "group": "compounds"
+        },
+        {
+          "id": "ex_还喝",
+          "hanzi": "还喝",
+          "pinyin": "hái hē",
+          "translation": {
+            "ru": "ещё пить",
+            "en": "still drink",
+            "es": "aún beber",
+            "pt-BR": "ainda beber"
+          },
+          "group": "compounds"
+        }
+      ]
+    },
+    {
+      "kind": "completion"
+    }
+  ]
+}

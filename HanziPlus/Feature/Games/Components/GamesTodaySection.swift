@@ -10,14 +10,13 @@ struct GamesTodaySection: View {
     let recommendedGame: GameDefinition
     let tasks: [DailyChallengeTask]
     let completedTaskIDs: Set<String>
-    let xpReward: Int
     let activeSession: ActiveGameSession?
     let recentlyPlayed: [GameKind]
     let statistics: (GameKind) -> GameStatistics
 
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.large) {
-            Text("games.section.today")
+            Text(l10n: "games.section.today")
                 .font(.title2.weight(.bold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -33,8 +32,7 @@ struct GamesTodaySection: View {
 
                 GameDailyChallengeCard(
                     tasks: tasks,
-                    completedIDs: completedTaskIDs,
-                    xpReward: xpReward
+                    completedIDs: completedTaskIDs
                 )
 
                 if !recentlyPlayed.isEmpty {
@@ -47,7 +45,7 @@ struct GamesTodaySection: View {
 
     private var recentlyPlayedRow: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("games.section.recently_played")
+            Text(l10n: "games.section.recently_played")
                 .font(.headline.weight(.semibold))
 
             ScrollView(.horizontal, showsIndicators: false) {

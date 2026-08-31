@@ -64,7 +64,7 @@ struct FlashCardView<Front: View, Back: View>: View {
         .animation(flipSpring, value: isFlipped)
         .accessibilityAddTraits(.isButton)
         .accessibilityLabel(isFlipped ? "Show front of card" : "Show back of card")
-        .accessibilityHint("Double tap to flip the flashcard")
+        .accessibilityHint(L10n.string("Double tap to flip the flashcard"))
         .onTapGesture {
             guard allowsFlip else { return }
 

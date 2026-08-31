@@ -40,8 +40,9 @@ enum SentenceTokenizer {
     }
 }
 
-struct SentencePuzzle: Identifiable, Equatable {
+struct SentencePuzzle: Identifiable {
     let id = UUID()
+    let sourceWord: Word
     let example: Example
     let tokens: [String]
     let correctOrder: [String]
@@ -71,6 +72,7 @@ struct SentencePuzzle: Identifiable, Equatable {
                 else { continue }
 
                 puzzles.append(SentencePuzzle(
+                    sourceWord: word,
                     example: example,
                     tokens: tokens,
                     correctOrder: tokens

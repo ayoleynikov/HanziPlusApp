@@ -15,6 +15,7 @@ struct SentenceBuilderView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(GameScoreStore.self) private var scoreStore
     @Environment(StatisticsStore.self) private var statisticsStore
+    @Environment(SmartReviewStore.self) private var smartReviewStore
 
     private let game = GameDefinition.definition(for: .sentenceBuilder)
 
@@ -37,7 +38,7 @@ struct SentenceBuilderView: View {
                 ContentUnavailableView(
                     "No Sentences Available",
                     systemImage: "text.word.spacing",
-                    description: Text("games.sentence.empty")
+                    description: Text(l10n: "games.sentence.empty")
                 )
             } else {
                 gameplay
@@ -61,14 +62,14 @@ struct SentenceBuilderView: View {
                         return true
                     }
 
-                Text("games.sentence.prompt")
+                Text(l10n: "games.sentence.prompt")
                     .font(.caption)
                     .foregroundStyle(.tertiary)
 
                 wordBank
 
                 if viewModel.isPuzzleComplete && !viewModel.showResult {
-                    Button("Check Sentence") {
+                    Button(L10n.string("Check Sentence")) {
                         viewModel.checkAnswer()
                         if viewModel.wasCorrect {
                             HapticService.success()
@@ -90,7 +91,13 @@ struct SentenceBuilderView: View {
         .padding(.horizontal, AppSpacing.medium)
         .padding(.bottom, AppSpacing.medium)
         .onChange(of: viewModel.showResult) { _, showResult in
-            guard showResult else { return }
+            guard showResult, let puzzle = viewModel.currentPuzzle else { return }
+
+            smartReviewStore.recordAttempt(
+                fileName: studySet.fileName,
+                hanzi: puzzle.sourceWord.hanzi,
+                correct: viewModel.wasCorrect
+            )
 
             Task {
                 try? await Task.sleep(for: .seconds(1.2))
@@ -115,7 +122,7 @@ struct SentenceBuilderView: View {
 
                 Spacer()
 
-                Text("\(viewModel.correctCount) correct")
+                Text(L10n.string("\(viewModel.correctCount) correct"))
                     .font(.subheadline.weight(.semibold))
                     .foregroundStyle(game.color)
             }
@@ -155,7 +162,7 @@ struct SentenceBuilderView: View {
             }
 
             if viewModel.builtTokens.isEmpty {
-                Text("games.sentence.drop")
+                Text(l10n: "games.sentence.drop")
                     .font(.subheadline)
                     .foregroundStyle(.tertiary)
                     .frame(maxWidth: .infinity, minHeight: 56)
@@ -201,7 +208,7 @@ struct SentenceBuilderView: View {
     private func resultBanner(correct: Bool, puzzle: SentencePuzzle) -> some View {
         VStack(spacing: 6) {
             Label(
-                correct ? String(localized: "games.sentence.correct") : String(localized: "games.sentence.not_quite"),
+                correct ? L10n.string( "games.sentence.correct") : L10n.string( "games.sentence.not_quite"),
                 systemImage: correct ? "checkmark.circle.fill" : "xmark.circle.fill"
             )
             .font(.headline.weight(.semibold))
@@ -327,4 +334,5 @@ private struct FlowLayout: Layout {
     }
     .environment(GameScoreStore())
     .environment(StatisticsStore())
+    .environment(SmartReviewStore())
 }

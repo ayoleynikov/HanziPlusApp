@@ -73,18 +73,3 @@ enum GameHubBadgeResolver {
         return Array(result.prefix(2))
     }
 }
-
-enum GamesPlayerLevel {
-    static func level(totalXP: Int) -> Int {
-        max(1, totalXP / 300 + 1)
-    }
-
-    static func progress(totalXP: Int) -> Double {
-        let xpInLevel = totalXP % 300
-        return Double(xpInLevel) / 300.0
-    }
-
-    static func xpInCurrentLevel(totalXP: Int) -> Int {
-        totalXP % 300
-    }
-}

@@ -156,15 +156,6 @@ struct GameCollectionDetailView: View {
 
     @Environment(GameScoreStore.self) private var scoreStore
     @Environment(GamesPlayHistoryStore.self) private var playHistory
-    @Environment(JourneyStore.self) private var journeyStore
-
-    private var totalXP: Int {
-        scoreStore.totalXPAllGames()
-    }
-
-    private func isPlayable(_ game: GameDefinition) -> Bool {
-        GameAvailability.isPlayable(game, journeyStore: journeyStore, totalXP: totalXP)
-    }
 
     var body: some View {
         ScrollView {
@@ -187,7 +178,7 @@ struct GameCollectionDetailView: View {
 
                 LazyVStack(spacing: AppSpacing.medium) {
                     ForEach(Array(collection.games.enumerated()), id: \.element.id) { index, game in
-                        if isPlayable(game) {
+                        if GameAvailability.isPlayable(game) {
                             NavigationLink {
                                 GameDetailView(game: game)
                             } label: {
@@ -205,12 +196,6 @@ struct GameCollectionDetailView: View {
                                 )
                             }
                             .buttonStyle(GameCardButtonStyle())
-                        } else if let requirement = game.lockRequirement {
-                            GameLockedCard(
-                                game: game,
-                                unlockRequirement: requirement.label,
-                                style: index == 0 ? .featured : .list
-                            )
                         }
                     }
                 }

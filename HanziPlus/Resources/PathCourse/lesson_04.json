@@ -1,0 +1,913 @@
+{
+  "id": "lesson_04",
+  "number": 4,
+  "sourceLessonNumbers": [
+    4
+  ],
+  "chineseTitle": "你去哪儿",
+  "chineseSubtitle": null,
+  "pinyinTitle": "Nǐ qù nǎr",
+  "translationTitle": {
+    "ru": "Куда ты идёшь?",
+    "en": "Where are you going?",
+    "es": "¿A dónde vas?",
+    "pt-BR": "Para onde você vai?"
+  },
+  "sections": [
+    {
+      "kind": "dialogue",
+      "continueButtonTitle": "Изучить новые слова",
+      "showLessonHeader": true,
+      "dialogue": {
+        "id": "dialogue_where_go",
+        "title": "你去哪儿",
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "今天星期几？",
+            "pinyin": "Jīntiān xīngqī jǐ?",
+            "translation": {
+              "ru": "Какой сегодня день недели?",
+              "en": "What day of the week is it today?",
+              "es": "¿Qué día de la semana es hoy?",
+              "pt-BR": "Que dia da semana é hoje?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "今天星期二。",
+            "pinyin": "Jīntiān xīngqī'èr.",
+            "translation": {
+              "ru": "Сегодня вторник.",
+              "en": "Today is Tuesday.",
+              "es": "Hoy es martes.",
+              "pt-BR": "Hoje é terça-feira."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "你去哪儿？",
+            "pinyin": "Nǐ qù nǎr?",
+            "translation": {
+              "ru": "Куда ты идёшь?",
+              "en": "Where are you going?",
+              "es": "¿A dónde vas?",
+              "pt-BR": "Para onde você vai?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "我去天安门，你去不去？",
+            "pinyin": "Wǒ qù Tiān'ānmén, nǐ qù bu qù?",
+            "translation": {
+              "ru": "Я иду на Тяньаньмэнь, ты идёшь?",
+              "en": "I'm going to Tiananmen. Are you coming?",
+              "es": "Voy a Tiananmen. ¿Vienes?",
+              "pt-BR": "Vou à Tiananmen. Você vem?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "不去，我回学校。",
+            "pinyin": "Bù qù, wǒ huí xuéxiào.",
+            "translation": {
+              "ru": "Нет, я иду в школу.",
+              "en": "No, I'm going back to school.",
+              "es": "No, vuelvo a la escuela.",
+              "pt-BR": "Não, volto para a escola."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "再见！",
+            "pinyin": "Zàijiàn!",
+            "translation": {
+              "ru": "До свидания!",
+              "en": "Goodbye!",
+              "es": "¡Adiós!",
+              "pt-BR": "Tchau!"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "再见！",
+            "pinyin": "Zàijiàn!",
+            "translation": {
+              "ru": "До свидания!",
+              "en": "Goodbye!",
+              "es": "¡Adiós!",
+              "pt-BR": "Tchau!"
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "vocabulary": {
+        "id": "vocab_days",
+        "title": {
+          "ru": "Дни",
+          "en": "Days",
+          "es": "Días",
+          "pt-BR": "Dias"
+        },
+        "items": [
+          {
+            "id": "jintian",
+            "hanzi": "今天",
+            "pinyin": "jīntiān",
+            "translation": {
+              "ru": "сегодня",
+              "en": "today",
+              "es": "hoy",
+              "pt-BR": "hoje"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "tian",
+            "hanzi": "天",
+            "pinyin": "tiān",
+            "translation": {
+              "ru": "день",
+              "en": "day",
+              "es": "día",
+              "pt-BR": "dia"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "zuotian",
+            "hanzi": "昨天",
+            "pinyin": "zuótiān",
+            "translation": {
+              "ru": "вчера",
+              "en": "yesterday",
+              "es": "ayer",
+              "pt-BR": "ontem"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "xingqi",
+            "hanzi": "星期",
+            "pinyin": "xīngqī",
+            "translation": {
+              "ru": "неделя",
+              "en": "week",
+              "es": "semana",
+              "pt-BR": "semana"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "xingqiyi",
+            "hanzi": "星期一",
+            "pinyin": "xīngqīyī",
+            "translation": {
+              "ru": "понедельник",
+              "en": "Monday",
+              "es": "lunes",
+              "pt-BR": "segunda-feira"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "xingqier",
+            "hanzi": "星期二",
+            "pinyin": "xīngqī'èr",
+            "translation": {
+              "ru": "вторник",
+              "en": "Tuesday",
+              "es": "martes",
+              "pt-BR": "terça-feira"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "xingqisan",
+            "hanzi": "星期三",
+            "pinyin": "xīngqīsān",
+            "translation": {
+              "ru": "среда",
+              "en": "Wednesday",
+              "es": "miércoles",
+              "pt-BR": "quarta-feira"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "xingqisi",
+            "hanzi": "星期四",
+            "pinyin": "xīngqīsì",
+            "translation": {
+              "ru": "четверг",
+              "en": "Thursday",
+              "es": "jueves",
+              "pt-BR": "quinta-feira"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "xingqiwu",
+            "hanzi": "星期五",
+            "pinyin": "xīngqīwǔ",
+            "translation": {
+              "ru": "пятница",
+              "en": "Friday",
+              "es": "viernes",
+              "pt-BR": "sexta-feira"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "xingqiliu",
+            "hanzi": "星期六",
+            "pinyin": "xīngqīliù",
+            "translation": {
+              "ru": "суббота",
+              "en": "Saturday",
+              "es": "sábado",
+              "pt-BR": "sábado"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "xingqitian",
+            "hanzi": "星期天",
+            "pinyin": "xīngqītiān",
+            "translation": {
+              "ru": "воскресенье",
+              "en": "Sunday",
+              "es": "domingo",
+              "pt-BR": "domingo"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "xingqiri",
+            "hanzi": "星期日",
+            "pinyin": "xīngqīrì",
+            "translation": {
+              "ru": "воскресенье",
+              "en": "Sunday",
+              "es": "domingo",
+              "pt-BR": "domingo"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "vocabulary": {
+        "id": "vocab_other",
+        "title": {
+          "ru": "Другие слова",
+          "en": "Other words",
+          "es": "Otras palabras",
+          "pt-BR": "Outras palavras"
+        },
+        "items": [
+          {
+            "id": "ji",
+            "hanzi": "几",
+            "pinyin": "jǐ",
+            "translation": {
+              "ru": "сколько / который / какой / несколько",
+              "en": "how much / which / what / several",
+              "es": "cuánto / cuál / qué / varios",
+              "pt-BR": "quanto / qual / que / vários"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "er",
+            "hanzi": "二",
+            "pinyin": "èr",
+            "translation": {
+              "ru": "два",
+              "en": "two",
+              "es": "dos",
+              "pt-BR": "dois"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "san",
+            "hanzi": "三",
+            "pinyin": "sān",
+            "translation": {
+              "ru": "три",
+              "en": "three",
+              "es": "tres",
+              "pt-BR": "três"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "si",
+            "hanzi": "四",
+            "pinyin": "sì",
+            "translation": {
+              "ru": "четыре",
+              "en": "four",
+              "es": "cuatro",
+              "pt-BR": "quatro"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "nar",
+            "hanzi": "哪儿",
+            "pinyin": "nǎr",
+            "translation": {
+              "ru": "где",
+              "en": "where",
+              "es": "dónde",
+              "pt-BR": "onde"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "nar_there",
+            "hanzi": "那儿",
+            "pinyin": "nàr",
+            "translation": {
+              "ru": "там",
+              "en": "there",
+              "es": "allí",
+              "pt-BR": "lá"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "wo",
+            "hanzi": "我",
+            "pinyin": "wǒ",
+            "translation": {
+              "ru": "я",
+              "en": "I / me",
+              "es": "yo",
+              "pt-BR": "eu"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "hui",
+            "hanzi": "回",
+            "pinyin": "huí",
+            "translation": {
+              "ru": "вернуться",
+              "en": "to return",
+              "es": "volver",
+              "pt-BR": "voltar"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "xuexiao",
+            "hanzi": "学校",
+            "pinyin": "xuéxiào",
+            "translation": {
+              "ru": "школа",
+              "en": "school",
+              "es": "escuela",
+              "pt-BR": "escola"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "zaijian",
+            "hanzi": "再见",
+            "pinyin": "zàijiàn",
+            "translation": {
+              "ru": "до свидания",
+              "en": "goodbye",
+              "es": "adiós",
+              "pt-BR": "adeus"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "duibuqi",
+            "hanzi": "对不起",
+            "pinyin": "duìbuqǐ",
+            "translation": {
+              "ru": "извините",
+              "en": "excuse me / sorry",
+              "es": "disculpe / perdón",
+              "pt-BR": "com licença / desculpe"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "mei_guanxi",
+            "hanzi": "没关系",
+            "pinyin": "méi guānxi",
+            "translation": {
+              "ru": "ничего / ничего страшного",
+              "en": "nothing / it's nothing / no problem",
+              "es": "nada / no pasa nada",
+              "pt-BR": "nada / não tem problema"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "tiananmen",
+            "hanzi": "天安门",
+            "pinyin": "Tiān'ānmén",
+            "translation": {
+              "ru": "Тяньаньмэнь",
+              "en": "Tiananmen",
+              "es": "Tiananmen",
+              "pt-BR": "Tiananmen"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "dialogue",
+      "continueButtonTitle": "Дальше",
+      "showLessonHeader": false,
+      "dialogue": {
+        "id": "dialogue_sorry",
+        "title": "对不起",
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "对不起！",
+            "pinyin": "Duìbuqǐ!",
+            "translation": {
+              "ru": "Извините!",
+              "en": "Sorry!",
+              "es": "¡Perdón!",
+              "pt-BR": "Desculpe!"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "没关系！",
+            "pinyin": "Méi guānxi!",
+            "translation": {
+              "ru": "Ничего страшного!",
+              "en": "It's okay!",
+              "es": "¡No pasa nada!",
+              "pt-BR": "Tudo bem!"
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabularySummary",
+      "groups": [
+        {
+          "id": "vocab_days",
+          "title": {
+            "ru": "Дни",
+            "en": "Days",
+            "es": "Días",
+            "pt-BR": "Dias"
+          },
+          "items": []
+        },
+        {
+          "id": "vocab_other",
+          "title": {
+            "ru": "Другие слова",
+            "en": "Other words",
+            "es": "Otras palabras",
+            "pt-BR": "Outras palavras"
+          },
+          "items": []
+        }
+      ]
+    },
+    {
+      "kind": "dialogueRepeat",
+      "title": "你去哪儿",
+      "dialogue": {
+        "id": "dialogue_where_go",
+        "title": "你去哪儿",
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "今天星期几？",
+            "pinyin": "Jīntiān xīngqī jǐ?",
+            "translation": {
+              "ru": "Какой сегодня день недели?",
+              "en": "What day of the week is it today?",
+              "es": "¿Qué día de la semana es hoy?",
+              "pt-BR": "Que dia da semana é hoje?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "今天星期二。",
+            "pinyin": "Jīntiān xīngqī'èr.",
+            "translation": {
+              "ru": "Сегодня вторник.",
+              "en": "Today is Tuesday.",
+              "es": "Hoy es martes.",
+              "pt-BR": "Hoje é terça-feira."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "你去哪儿？",
+            "pinyin": "Nǐ qù nǎr?",
+            "translation": {
+              "ru": "Куда ты идёшь?",
+              "en": "Where are you going?",
+              "es": "¿A dónde vas?",
+              "pt-BR": "Para onde você vai?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "我去天安门，你去不去？",
+            "pinyin": "Wǒ qù Tiān'ānmén, nǐ qù bu qù?",
+            "translation": {
+              "ru": "Я иду на Тяньаньмэнь, ты идёшь?",
+              "en": "I'm going to Tiananmen. Are you coming?",
+              "es": "Voy a Tiananmen. ¿Vienes?",
+              "pt-BR": "Vou à Tiananmen. Você vem?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "不去，我回学校。",
+            "pinyin": "Bù qù, wǒ huí xuéxiào.",
+            "translation": {
+              "ru": "Нет, я иду в школу.",
+              "en": "No, I'm going back to school.",
+              "es": "No, vuelvo a la escuela.",
+              "pt-BR": "Não, volto para a escola."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "再见！",
+            "pinyin": "Zàijiàn!",
+            "translation": {
+              "ru": "До свидания!",
+              "en": "Goodbye!",
+              "es": "¡Adiós!",
+              "pt-BR": "Tchau!"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "再见！",
+            "pinyin": "Zàijiàn!",
+            "translation": {
+              "ru": "До свидания!",
+              "en": "Goodbye!",
+              "es": "¡Adiós!",
+              "pt-BR": "Tchau!"
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "dialogueRepeat",
+      "title": "对不起",
+      "dialogue": {
+        "id": "dialogue_sorry",
+        "title": "对不起",
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "对不起！",
+            "pinyin": "Duìbuqǐ!",
+            "translation": {
+              "ru": "Извините!",
+              "en": "Sorry!",
+              "es": "¡Perdón!",
+              "pt-BR": "Desculpe!"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "没关系！",
+            "pinyin": "Méi guānxi!",
+            "translation": {
+              "ru": "Ничего страшного!",
+              "en": "It's okay!",
+              "es": "¡No pasa nada!",
+              "pt-BR": "Tudo bem!"
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "quizChineseToTranslation"
+    },
+    {
+      "kind": "quizTranslationToChinese"
+    },
+    {
+      "kind": "examples",
+      "items": [
+        {
+          "id": "ex_ni_qu_nar",
+          "hanzi": "你去哪儿？",
+          "pinyin": "Nǐ qù nǎr?",
+          "translation": {
+            "ru": "Куда ты идёшь?",
+            "en": "Where are you going?",
+            "es": "¿A dónde vas?",
+            "pt-BR": "Para onde você vai?"
+          }
+        },
+        {
+          "id": "ex_hui_xuexiao",
+          "hanzi": "回学校，你回不回？",
+          "pinyin": "Huí xuéxiào, nǐ huí bu huí?",
+          "translation": {
+            "ru": "В школу, ты возвращаешься?",
+            "en": "Back to school — are you going back?",
+            "es": "A la escuela, ¿vuelves o no?",
+            "pt-BR": "Para a escola, você volta ou não?"
+          }
+        },
+        {
+          "id": "ex_bu_hui_tiananmen",
+          "hanzi": "不回。我去天安门。",
+          "pinyin": "Bù huí. Wǒ qù Tiān'ānmén.",
+          "translation": {
+            "ru": "Нет. Я иду на Тяньаньмэнь.",
+            "en": "No. I'm going to Tiananmen.",
+            "es": "No. Voy a Tiananmen.",
+            "pt-BR": "Não. Vou à Tiananmen."
+          }
+        },
+        {
+          "id": "ex_zaijian_phrase",
+          "hanzi": "再见！",
+          "pinyin": "Zàijiàn!",
+          "translation": {
+            "ru": "До свидания!",
+            "en": "Goodbye!",
+            "es": "¡Adiós!",
+            "pt-BR": "Tchau!"
+          }
+        },
+        {
+          "id": "ex_duibuqi_phrase",
+          "hanzi": "对不起！",
+          "pinyin": "Duìbuqǐ!",
+          "translation": {
+            "ru": "Извините!",
+            "en": "Sorry!",
+            "es": "¡Perdón!",
+            "pt-BR": "Desculpe!"
+          }
+        },
+        {
+          "id": "ex_mei_guanxi_phrase",
+          "hanzi": "没关系！",
+          "pinyin": "Méi guānxi!",
+          "translation": {
+            "ru": "Ничего страшного!",
+            "en": "It's okay!",
+            "es": "¡No pasa nada!",
+            "pt-BR": "Tudo bem!"
+          }
+        },
+        {
+          "id": "ex_jintian",
+          "hanzi": "今天",
+          "pinyin": "jīntiān",
+          "translation": {
+            "ru": "сегодня",
+            "en": "today",
+            "es": "hoy",
+            "pt-BR": "hoje"
+          }
+        },
+        {
+          "id": "ex_zuotian",
+          "hanzi": "昨天",
+          "pinyin": "zuótiān",
+          "translation": {
+            "ru": "вчера",
+            "en": "yesterday",
+            "es": "ayer",
+            "pt-BR": "ontem"
+          }
+        },
+        {
+          "id": "ex_zaijian_word",
+          "hanzi": "再见",
+          "pinyin": "zàijiàn",
+          "translation": {
+            "ru": "до свидания",
+            "en": "goodbye",
+            "es": "adiós",
+            "pt-BR": "adeus"
+          }
+        },
+        {
+          "id": "ex_qu_tiananmen",
+          "hanzi": "去天安门",
+          "pinyin": "qù Tiān'ānmén",
+          "translation": {
+            "ru": "идти на Тяньаньмэнь",
+            "en": "go to Tiananmen",
+            "es": "ir a Tiananmen",
+            "pt-BR": "ir à Tiananmen"
+          }
+        },
+        {
+          "id": "ex_duibuqi_word",
+          "hanzi": "对不起",
+          "pinyin": "duìbuqǐ",
+          "translation": {
+            "ru": "извините",
+            "en": "sorry / excuse me",
+            "es": "disculpe / perdón",
+            "pt-BR": "com licença / desculpe"
+          }
+        },
+        {
+          "id": "ex_mei_guanxi_word",
+          "hanzi": "没关系",
+          "pinyin": "méi guānxi",
+          "translation": {
+            "ru": "ничего страшного",
+            "en": "it's okay / no problem",
+            "es": "no pasa nada",
+            "pt-BR": "não tem problema"
+          }
+        },
+        {
+          "id": "ex_xingqiyi",
+          "hanzi": "星期一",
+          "pinyin": "xīngqīyī",
+          "translation": {
+            "ru": "понедельник",
+            "en": "Monday",
+            "es": "lunes",
+            "pt-BR": "segunda-feira"
+          }
+        },
+        {
+          "id": "ex_xingqier",
+          "hanzi": "星期二",
+          "pinyin": "xīngqī'èr",
+          "translation": {
+            "ru": "вторник",
+            "en": "Tuesday",
+            "es": "martes",
+            "pt-BR": "terça-feira"
+          }
+        },
+        {
+          "id": "ex_xingqisan",
+          "hanzi": "星期三",
+          "pinyin": "xīngqīsān",
+          "translation": {
+            "ru": "среда",
+            "en": "Wednesday",
+            "es": "miércoles",
+            "pt-BR": "quarta-feira"
+          }
+        },
+        {
+          "id": "ex_xingqisi",
+          "hanzi": "星期四",
+          "pinyin": "xīngqīsì",
+          "translation": {
+            "ru": "четверг",
+            "en": "Thursday",
+            "es": "jueves",
+            "pt-BR": "quinta-feira"
+          }
+        },
+        {
+          "id": "ex_xingqiwu",
+          "hanzi": "星期五",
+          "pinyin": "xīngqīwǔ",
+          "translation": {
+            "ru": "пятница",
+            "en": "Friday",
+            "es": "viernes",
+            "pt-BR": "sexta-feira"
+          }
+        },
+        {
+          "id": "ex_xingqiliu",
+          "hanzi": "星期六",
+          "pinyin": "xīngqīliù",
+          "translation": {
+            "ru": "суббота",
+            "en": "Saturday",
+            "es": "sábado",
+            "pt-BR": "sábado"
+          }
+        },
+        {
+          "id": "ex_xingqitian",
+          "hanzi": "星期天",
+          "pinyin": "xīngqītiān",
+          "translation": {
+            "ru": "воскресенье",
+            "en": "Sunday",
+            "es": "domingo",
+            "pt-BR": "domingo"
+          }
+        },
+        {
+          "id": "ex_xingqiri",
+          "hanzi": "星期日",
+          "pinyin": "xīngqīrì",
+          "translation": {
+            "ru": "воскресенье",
+            "en": "Sunday",
+            "es": "domingo",
+            "pt-BR": "domingo"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "completion"
+    }
+  ]
+}

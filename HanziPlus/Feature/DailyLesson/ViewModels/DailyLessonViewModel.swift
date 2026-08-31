@@ -16,27 +16,30 @@ final class DailyLessonViewModel {
     private(set) var selectedAnswer: String?
     private(set) var showFeedback = false
     private(set) var lastAnswerCorrect = false
+    private(set) var cachedMeaningOptions: [String] = []
 
     private let lessonStore: DailyLessonStore
     private let learnedStore: LearnedWordsStore
-
-    /// Words currently being reviewed in Review Mistakes.
-    private(set) var reviewQueue: [String] = []
+    private let smartReviewStore: SmartReviewStore
 
     init(
         lessonStore: DailyLessonStore,
         learnedStore: LearnedWordsStore,
+        smartReviewStore: SmartReviewStore,
         profile: UserProfile
     ) {
         self.lessonStore = lessonStore
         self.learnedStore = learnedStore
+        self.smartReviewStore = smartReviewStore
 
-        let ensured = lessonStore.ensureTodaySession(profile: profile, learnedStore: learnedStore)
+        let ensured = lessonStore.todaySession
+            ?? lessonStore.ensureTodaySession(profile: profile, learnedStore: learnedStore)
         self.session = ensured
 
         let loaded = WordLoader.load(fileName: ensured.fileName)
         self.pool = loaded
         self.wordsByHanzi = Dictionary(uniqueKeysWithValues: loaded.map { ($0.hanzi, $0) })
+        refreshMeaningOptions()
     }
 
     var studySet: StudySet {
@@ -44,45 +47,28 @@ final class DailyLessonViewModel {
     }
 
     var currentWord: Word? {
-        let list = session.phase == .reviewMistakes ? reviewQueue : session.wordHanzi
-        guard list.indices.contains(session.currentIndex) else { return nil }
-        return wordsByHanzi[list[session.currentIndex]]
+        guard session.wordHanzi.indices.contains(session.currentIndex) else { return nil }
+        return wordsByHanzi[session.wordHanzi[session.currentIndex]]
     }
 
     var phaseTitle: String {
         switch session.phase {
-        case .preview: String(localized: "lesson.phase.preview")
-        case .meaning: String(localized: "lesson.phase.meaning")
-        case .listening: String(localized: "lesson.phase.listening")
-        case .summary: String(localized: "lesson.phase.summary")
-        case .reviewMistakes: String(localized: "lesson.phase.review_mistakes")
+        case .preview: L10n.string( "lesson.phase.preview")
+        case .meaning: L10n.string( "lesson.phase.meaning")
+        case .summary: L10n.string( "lesson.phase.summary")
         }
     }
 
     var statusText: String {
-        if session.completed { return String(localized: "lesson.card.status.complete") }
+        if session.completed { return L10n.string( "lesson.card.status.complete") }
         if session.phase == .preview && session.currentIndex == 0 && session.answers.isEmpty {
-            return String(localized: "lesson.card.status.not_started")
+            return L10n.string( "lesson.card.status.not_started")
         }
-        return String(localized: "lesson.card.status.in_progress")
+        return L10n.string( "lesson.card.status.in_progress")
     }
 
     var meaningOptions: [String] {
-        guard let word = currentWord else { return [] }
-        return DailyLessonPlanner.englishOptions(
-            correct: word,
-            pool: pool,
-            dateKey: session.dateKey
-        )
-    }
-
-    var listeningOptions: [String] {
-        guard let word = currentWord else { return [] }
-        return DailyLessonPlanner.hanziOptions(
-            correct: word,
-            pool: pool,
-            dateKey: session.dateKey
-        )
+        cachedMeaningOptions
     }
 
     var mistakeWords: [Word] {
@@ -103,11 +89,12 @@ final class DailyLessonViewModel {
                 $0.phase = .meaning
                 $0.currentIndex = 0
             }
+            refreshMeaningOptions()
         }
     }
 
     func selectMeaning(_ answer: String) {
-        guard session.phase == .meaning || session.phase == .reviewMistakes,
+        guard session.phase == .meaning,
               let word = currentWord,
               selectedAnswer == nil
         else { return }
@@ -118,21 +105,18 @@ final class DailyLessonViewModel {
         lastAnswerCorrect = correct
         HapticService.light()
 
-        if session.phase == .meaning {
-            mutate { session in
-                var record = session.answers[word.hanzi] ?? DailyLessonAnswerRecord()
-                record.meaningCorrect = correct
-                session.answers[word.hanzi] = record
-            }
-        } else {
-            mutate { session in
-                var record = session.answers[word.hanzi] ?? DailyLessonAnswerRecord()
-                record.reviewMeaningCorrect = correct
-                session.answers[word.hanzi] = record
-            }
-            if correct, session.answers[word.hanzi]?.listeningCorrect == true {
-                _ = learnedStore.markLearned(fileName: session.fileName, hanzi: word.hanzi)
-            }
+        mutate { session in
+            var record = session.answers[word.hanzi] ?? DailyLessonAnswerRecord()
+            record.meaningCorrect = correct
+            session.answers[word.hanzi] = record
+        }
+        smartReviewStore.recordAttempt(
+            fileName: session.fileName,
+            hanzi: word.hanzi,
+            correct: correct
+        )
+        if correct {
+            _ = learnedStore.markLearned(fileName: session.fileName, hanzi: word.hanzi)
         }
     }
 
@@ -140,51 +124,9 @@ final class DailyLessonViewModel {
         guard showFeedback else { return }
         clearFeedback()
 
-        if session.phase == .reviewMistakes {
-            advanceReviewQueue()
-            return
-        }
-
         if session.currentIndex + 1 < session.wordHanzi.count {
             mutate { $0.currentIndex += 1 }
-        } else {
-            mutate {
-                $0.phase = .listening
-                $0.currentIndex = 0
-            }
-        }
-    }
-
-    func selectListening(_ answer: String) {
-        guard session.phase == .listening,
-              let word = currentWord,
-              selectedAnswer == nil
-        else { return }
-
-        let correct = answer == word.hanzi
-        selectedAnswer = answer
-        showFeedback = true
-        lastAnswerCorrect = correct
-        HapticService.light()
-
-        mutate { session in
-            var record = session.answers[word.hanzi] ?? DailyLessonAnswerRecord()
-            record.listeningCorrect = correct
-            session.answers[word.hanzi] = record
-        }
-
-        if correct, session.answers[word.hanzi]?.meaningCorrect == true {
-            _ = learnedStore.markLearned(fileName: session.fileName, hanzi: word.hanzi)
-            HapticService.success()
-        }
-    }
-
-    func continueAfterListening() {
-        guard showFeedback else { return }
-        clearFeedback()
-
-        if session.currentIndex + 1 < session.wordHanzi.count {
-            mutate { $0.currentIndex += 1 }
+            refreshMeaningOptions()
         } else {
             completeLesson()
         }
@@ -200,33 +142,22 @@ final class DailyLessonViewModel {
         HapticService.success()
     }
 
-    func startReviewMistakes() {
-        let mistakes = session.mistakeHanzi()
-        guard !mistakes.isEmpty else { return }
-        reviewQueue = mistakes
-        clearFeedback()
-        mutate {
-            $0.phase = .reviewMistakes
-            $0.currentIndex = 0
-        }
-    }
-
-    private func advanceReviewQueue() {
-        if session.currentIndex + 1 < reviewQueue.count {
-            mutate { $0.currentIndex += 1 }
-        } else {
-            mutate {
-                $0.phase = .summary
-                $0.currentIndex = 0
-            }
-            reviewQueue = []
-        }
-    }
-
     private func clearFeedback() {
         selectedAnswer = nil
         showFeedback = false
         lastAnswerCorrect = false
+    }
+
+    private func refreshMeaningOptions() {
+        guard let word = currentWord else {
+            cachedMeaningOptions = []
+            return
+        }
+        cachedMeaningOptions = DailyLessonPlanner.englishOptions(
+            correct: word,
+            pool: pool,
+            dateKey: session.dateKey
+        )
     }
 
     private func mutate(_ transform: (inout DailyLessonSession) -> Void) {

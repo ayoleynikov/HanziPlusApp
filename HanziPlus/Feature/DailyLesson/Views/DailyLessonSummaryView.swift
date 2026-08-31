@@ -7,51 +7,44 @@ import SwiftUI
 
 struct DailyLessonSummaryView: View {
 
+    let studySet: StudySet
     let learnedCount: Int
     let wordCount: Int
     let meaningAccuracy: Double
-    let listeningAccuracy: Double
     let mistakes: [Word]
-    let onReviewMistakes: () -> Void
     let onDone: () -> Void
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: AppSpacing.large) {
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("lesson.summary.title")
+                    Text(l10n: "lesson.summary.title")
                         .font(.largeTitle.weight(.bold))
                         .accessibilityAddTraits(.isHeader)
 
-                    Text(String(localized: "lesson.summary.worked_through \(L10n.words(wordCount))"))
+                    Text(L10n.string( "lesson.summary.worked_through \(L10n.words(wordCount))"))
                         .font(.body)
                         .foregroundStyle(.secondary)
                 }
 
                 HStack(spacing: AppSpacing.small) {
                     summaryStat(
-                        title: String(localized: "lesson.summary.stat_studied"),
+                        title: L10n.string( "lesson.summary.stat_studied"),
                         value: "\(learnedCount)",
                         icon: "checkmark.seal.fill",
                         tint: .green
                     )
                     summaryStat(
-                        title: String(localized: "lesson.summary.stat_meaning"),
+                        title: L10n.string( "lesson.summary.stat_meaning"),
                         value: percent(meaningAccuracy),
                         icon: "text.book.closed.fill",
                         tint: .blue
-                    )
-                    summaryStat(
-                        title: String(localized: "lesson.summary.stat_listening"),
-                        value: percent(listeningAccuracy),
-                        icon: "ear.fill",
-                        tint: .orange
                     )
                 }
 
                 if !mistakes.isEmpty {
                     VStack(alignment: .leading, spacing: AppSpacing.small) {
-                        Text("lesson.summary.words_to_review")
+                        Text(l10n: "lesson.summary.words_to_review")
                             .font(.headline)
 
                         ForEach(mistakes) { word in
@@ -77,15 +70,17 @@ struct DailyLessonSummaryView: View {
                         }
                     }
                 } else {
-                    Label(String(localized: "lesson.summary.no_mistakes"), systemImage: "sparkles")
+                    Label(L10n.string( "lesson.summary.no_mistakes"), systemImage: "sparkles")
                         .font(.subheadline.weight(.medium))
                         .foregroundStyle(.secondary)
                 }
 
                 VStack(spacing: AppSpacing.small) {
                     if !mistakes.isEmpty {
-                        Button(action: onReviewMistakes) {
-                            Text("lesson.summary.review_mistakes")
+                        NavigationLink {
+                            SmartReviewView(studySet: studySet)
+                        } label: {
+                            Text(l10n: "today.hero.start_smart_review")
                                 .font(.body.weight(.semibold))
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 16)
@@ -97,7 +92,7 @@ struct DailyLessonSummaryView: View {
                     }
 
                     Button(action: onDone) {
-                        Text("common.done")
+                        Text(l10n: "common.done")
                             .font(.body.weight(.semibold))
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 16)
@@ -109,7 +104,7 @@ struct DailyLessonSummaryView: View {
                             .foregroundStyle(.orange)
                     }
                     .buttonStyle(.plain)
-                    .accessibilityHint(String(localized: "lesson.summary.a11y_done_hint"))
+                    .accessibilityHint(L10n.string( "lesson.summary.a11y_done_hint"))
                 }
             }
             .padding(.horizontal, AppSpacing.medium)
@@ -138,6 +133,6 @@ struct DailyLessonSummaryView: View {
     }
 
     private func percent(_ value: Double) -> String {
-        "\(Int((value * 100).rounded()))%"
+        L10n.percent(Int((value * 100).rounded()))
     }
 }

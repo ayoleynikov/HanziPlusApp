@@ -46,7 +46,7 @@ struct TodayPlanActionRow: View {
                 Image(systemName: "checkmark.circle.fill")
                     .font(.title3)
                     .foregroundStyle(.green)
-                    .accessibilityLabel("Completed")
+                    .accessibilityLabel(L10n.string("Completed"))
             } else {
                 Image(systemName: "chevron.right")
                     .font(.subheadline.weight(.semibold))

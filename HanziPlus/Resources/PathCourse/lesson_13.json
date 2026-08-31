@@ -1,0 +1,1541 @@
+{
+  "id": "lesson_13",
+  "number": 13,
+  "sourceLessonNumbers": [
+    13
+  ],
+  "chineseTitle": "这是不是中药",
+  "chineseSubtitle": null,
+  "pinyinTitle": "Zhè shì bu shì zhōngyào",
+  "translationTitle": {
+    "ru": "Это китайское лекарство или нет",
+    "en": "Is this traditional Chinese medicine",
+    "es": "¿Es esto medicina tradicional china?",
+    "pt-BR": "Isso é medicina tradicional chinesa"
+  },
+  "sections": [
+    {
+      "kind": "dialogue",
+      "continueButtonTitle": "Дальше",
+      "showLessonHeader": true,
+      "dialogue": {
+        "id": "dialogue_suitcase",
+        "title": "这个黑箱子很重",
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "你没有箱子吗？",
+            "pinyin": "Nǐ méiyǒu xiāngzi ma?",
+            "translation": {
+              "ru": "У тебя нет чемодана?",
+              "en": "Don't you have a suitcase?",
+              "es": "¿No tienes maleta?",
+              "pt-BR": "Você não tem mala?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "有啊。我的在这儿呢。",
+            "pinyin": "Yǒu a. Wǒ de zài zhèr ne.",
+            "translation": {
+              "ru": "Есть. Мой вот здесь.",
+              "en": "Yes, I do. Mine is right here.",
+              "es": "Sí, la tengo. La mía está aquí.",
+              "pt-BR": "Tenho sim. A minha está aqui."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "我的很重，你的重不重？",
+            "pinyin": "Wǒ de hěn zhòng, nǐ de zhòng bu zhòng?",
+            "translation": {
+              "ru": "Мой очень тяжёлый, а твой тяжёлый?",
+              "en": "Mine is very heavy. Is yours heavy?",
+              "es": "La mía es muy pesada, ¿la tuya es pesada?",
+              "pt-BR": "A minha é muito pesada, a sua é pesada?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "这个黑的很重，那个红的比较轻。",
+            "pinyin": "Zhège hēi de hěn zhòng, nàge hóng de bǐjiào qīng.",
+            "translation": {
+              "ru": "Этот чёрный очень тяжёлый, а тот красный сравнительно лёгкий.",
+              "en": "This black one is very heavy; that red one is relatively light.",
+              "es": "Este negro es muy pesado; ese rojo es relativamente ligero.",
+              "pt-BR": "Este preto é muito pesado; aquele vermelho é relativamente leve."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "你的箱子很新，我的很旧。",
+            "pinyin": "Nǐ de xiāngzi hěn xīn, wǒ de hěn jiù.",
+            "translation": {
+              "ru": "Твой чемодан очень новый, а мой — старый.",
+              "en": "Your suitcase is very new; mine is old.",
+              "es": "Tu maleta es muy nueva; la mía es vieja.",
+              "pt-BR": "Sua mala é muito nova; a minha é velha."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "那个新的，是朋友的。这个旧的是我的。",
+            "pinyin": "Nàge xīn de, shì péngyou de. Zhège jiù de shì wǒ de.",
+            "translation": {
+              "ru": "Тот новый — друга. Этот старый — мой.",
+              "en": "That new one is a friend's. This old one is mine.",
+              "es": "Ese nuevo es de un amigo. Este viejo es mío.",
+              "pt-BR": "Aquele novo é de um amigo. Este velho é meu."
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "dialogue",
+      "continueButtonTitle": "Изучить новые слова",
+      "showLessonHeader": false,
+      "dialogue": {
+        "id": "dialogue_medicine",
+        "title": "这是不是中药",
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "先生，这些黑的是什么东西？",
+            "pinyin": "Xiānsheng, zhèxiē hēi de shì shénme dōngxi?",
+            "translation": {
+              "ru": "Господин, что это за чёрные вещи?",
+              "en": "Sir, what are these black things?",
+              "es": "Señor, ¿qué son estas cosas negras?",
+              "pt-BR": "Senhor, o que são essas coisas pretas?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "这是一些药。",
+            "pinyin": "Zhè shì yìxiē yào.",
+            "translation": {
+              "ru": "Это лекарства.",
+              "en": "These are some medicines.",
+              "es": "Son unos medicamentos.",
+              "pt-BR": "São alguns remédios."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "什么药？",
+            "pinyin": "Shénme yào?",
+            "translation": {
+              "ru": "Какое лекарство?",
+              "en": "What medicine?",
+              "es": "¿Qué medicamento?",
+              "pt-BR": "Que remédio?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "中药。",
+            "pinyin": "Zhōngyào.",
+            "translation": {
+              "ru": "Китайское лекарство.",
+              "en": "Traditional Chinese medicine.",
+              "es": "Medicina tradicional china.",
+              "pt-BR": "Medicina tradicional chinesa."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "这是不是药？",
+            "pinyin": "Zhè shì bu shì yào?",
+            "translation": {
+              "ru": "Это лекарство или нет?",
+              "en": "Is this medicine or not?",
+              "es": "¿Esto es medicamento o no?",
+              "pt-BR": "Isso é remédio ou não?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "这不是药，这是茶叶。",
+            "pinyin": "Zhè bú shì yào, zhè shì cháyè.",
+            "translation": {
+              "ru": "Это не лекарство, это чай.",
+              "en": "This is not medicine; this is tea leaves.",
+              "es": "Esto no es medicamento, es té.",
+              "pt-BR": "Isso não é remédio, é chá."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "那个箱子里是什么？",
+            "pinyin": "Nàge xiāngzi li shì shénme?",
+            "translation": {
+              "ru": "Что в том чемодане?",
+              "en": "What is in that suitcase?",
+              "es": "¿Qué hay en esa maleta?",
+              "pt-BR": "O que tem naquela mala?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "都是日用品。有两件衣服、一把雨伞和一瓶香水，还有一本书、一本词典、两张光盘和三支笔。",
+            "pinyin": "Dōu shì rìyòngpǐn. Yǒu liǎng jiàn yīfu, yì bǎ yǔsǎn hé yì píng xiāngshuǐ, hái yǒu yì běn shū, yì běn cídiǎn, liǎng zhāng guāngpán hé sān zhī bǐ.",
+            "translation": {
+              "ru": "Всё — предметы повседневного обихода. Две вещи, один зонт и один флакон духов, а также одна книга, один словарь, два диска и три ручки.",
+              "en": "They are all daily necessities. There are two pieces of clothing, an umbrella and a bottle of perfume, as well as a book, a dictionary, two CDs and three pens.",
+              "es": "Son artículos de uso diario. Hay dos prendas de ropa, un paraguas y un frasco de perfume, además de un libro, un diccionario, dos discos y tres bolígrafos.",
+              "pt-BR": "São artigos de uso diário. Há duas peças de roupa, um guarda-chuva e um frasco de perfume, além de um livro, um dicionário, dois discos e três canetas."
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "vocabulary": {
+        "id": "vocab_main",
+        "title": {
+          "ru": "Основные слова",
+          "en": "Core words",
+          "es": "Palabras principales",
+          "pt-BR": "Palavras principais"
+        },
+        "items": [
+          {
+            "id": "meiyou",
+            "hanzi": "没（有）",
+            "pinyin": "méi (yǒu)",
+            "translation": {
+              "ru": "нет",
+              "en": "not have; there isn't",
+              "es": "no tener; no hay",
+              "pt-BR": "não ter; não há"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "xiangzi",
+            "hanzi": "箱子",
+            "pinyin": "xiāngzi",
+            "translation": {
+              "ru": "ящик; чемодан; сундук",
+              "en": "box; suitcase; trunk",
+              "es": "caja; maleta; baúl",
+              "pt-BR": "caixa; mala; baú"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "you",
+            "hanzi": "有",
+            "pinyin": "yǒu",
+            "translation": {
+              "ru": "есть",
+              "en": "to have; there is",
+              "es": "tener; hay",
+              "pt-BR": "ter; há"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "zheer",
+            "hanzi": "这儿",
+            "pinyin": "zhèr",
+            "translation": {
+              "ru": "тут",
+              "en": "here",
+              "es": "aquí",
+              "pt-BR": "aqui"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "zhong",
+            "hanzi": "重",
+            "pinyin": "zhòng",
+            "translation": {
+              "ru": "тяжёлый",
+              "en": "heavy",
+              "es": "pesado",
+              "pt-BR": "pesado"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "hei",
+            "hanzi": "黑",
+            "pinyin": "hēi",
+            "translation": {
+              "ru": "чёрный",
+              "en": "black",
+              "es": "negro",
+              "pt-BR": "preto"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "hong",
+            "hanzi": "红",
+            "pinyin": "hóng",
+            "translation": {
+              "ru": "красный",
+              "en": "red",
+              "es": "rojo",
+              "pt-BR": "vermelho"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "qing",
+            "hanzi": "轻",
+            "pinyin": "qīng",
+            "translation": {
+              "ru": "лёгкий",
+              "en": "light (weight)",
+              "es": "ligero",
+              "pt-BR": "leve"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "jiu",
+            "hanzi": "旧",
+            "pinyin": "jiù",
+            "translation": {
+              "ru": "старый; прошлый",
+              "en": "old; used",
+              "es": "viejo; usado",
+              "pt-BR": "velho; usado"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "yao",
+            "hanzi": "药",
+            "pinyin": "yào",
+            "translation": {
+              "ru": "лекарство",
+              "en": "medicine; drug",
+              "es": "medicina",
+              "pt-BR": "remédio"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "zhongyao",
+            "hanzi": "中药",
+            "pinyin": "zhōngyào",
+            "translation": {
+              "ru": "китайское лекарство",
+              "en": "traditional Chinese medicine",
+              "es": "medicina tradicional china",
+              "pt-BR": "medicina tradicional chinesa"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "xiyao",
+            "hanzi": "西药",
+            "pinyin": "xīyào",
+            "translation": {
+              "ru": "лекарство западной медицины",
+              "en": "Western medicine",
+              "es": "medicina occidental",
+              "pt-BR": "medicina ocidental"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "chaye",
+            "hanzi": "茶叶",
+            "pinyin": "cháyè",
+            "translation": {
+              "ru": "чай",
+              "en": "tea leaves; tea",
+              "es": "té",
+              "pt-BR": "chá"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "li",
+            "hanzi": "里",
+            "pinyin": "lǐ",
+            "translation": {
+              "ru": "внутри",
+              "en": "inside",
+              "es": "dentro",
+              "pt-BR": "dentro"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "riyongpin",
+            "hanzi": "日用品",
+            "pinyin": "rìyòngpǐn",
+            "translation": {
+              "ru": "предметы обихода",
+              "en": "daily necessities",
+              "es": "artículos de uso diario",
+              "pt-BR": "artigos de uso diário"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "jian",
+            "hanzi": "件",
+            "pinyin": "jiàn",
+            "translation": {
+              "ru": "счётное слово для одежды",
+              "en": "classifier for clothing",
+              "es": "clasificador de ropa",
+              "pt-BR": "classificador de roupa"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "yifu",
+            "hanzi": "衣服",
+            "pinyin": "yīfu",
+            "translation": {
+              "ru": "одежда",
+              "en": "clothes",
+              "es": "ropa",
+              "pt-BR": "roupa"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "ba",
+            "hanzi": "把",
+            "pinyin": "bǎ",
+            "translation": {
+              "ru": "счётное слово для предметов с ручкой",
+              "en": "classifier for objects with a handle",
+              "es": "clasificador de objetos con mango",
+              "pt-BR": "classificador de objetos com cabo"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "yusan",
+            "hanzi": "雨伞",
+            "pinyin": "yǔsǎn",
+            "translation": {
+              "ru": "зонтик",
+              "en": "umbrella",
+              "es": "paraguas",
+              "pt-BR": "guarda-chuva"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "yu",
+            "hanzi": "雨",
+            "pinyin": "yǔ",
+            "translation": {
+              "ru": "дождь",
+              "en": "rain",
+              "es": "lluvia",
+              "pt-BR": "chuva"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "ping",
+            "hanzi": "瓶",
+            "pinyin": "píng",
+            "translation": {
+              "ru": "бутылка",
+              "en": "bottle",
+              "es": "botella",
+              "pt-BR": "garrafa"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "xiangshui",
+            "hanzi": "香水",
+            "pinyin": "xiāngshuǐ",
+            "translation": {
+              "ru": "духи",
+              "en": "perfume",
+              "es": "perfume",
+              "pt-BR": "perfume"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "shui",
+            "hanzi": "水",
+            "pinyin": "shuǐ",
+            "translation": {
+              "ru": "вода",
+              "en": "water",
+              "es": "agua",
+              "pt-BR": "água"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "ben",
+            "hanzi": "本",
+            "pinyin": "běn",
+            "translation": {
+              "ru": "счётное слово для книг",
+              "en": "classifier for books",
+              "es": "clasificador de libros",
+              "pt-BR": "classificador de livros"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "cidian",
+            "hanzi": "词典",
+            "pinyin": "cídiǎn",
+            "translation": {
+              "ru": "словарь",
+              "en": "dictionary",
+              "es": "diccionario",
+              "pt-BR": "dicionário"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "zhang",
+            "hanzi": "张",
+            "pinyin": "zhāng",
+            "translation": {
+              "ru": "счётное слово для листов/плоских предметов",
+              "en": "classifier for flat objects",
+              "es": "clasificador de objetos planos",
+              "pt-BR": "classificador de objetos planos"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "guangpan",
+            "hanzi": "光盘",
+            "pinyin": "guāngpán",
+            "translation": {
+              "ru": "диск",
+              "en": "CD; disc",
+              "es": "disco",
+              "pt-BR": "disco"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "zhi",
+            "hanzi": "支",
+            "pinyin": "zhī",
+            "translation": {
+              "ru": "счётное слово для ручек/карандашей",
+              "en": "classifier for pens",
+              "es": "clasificador de bolígrafos",
+              "pt-BR": "classificador de canetas"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "bi",
+            "hanzi": "笔",
+            "pinyin": "bǐ",
+            "translation": {
+              "ru": "ручка; карандаш",
+              "en": "pen; pencil",
+              "es": "bolígrafo; lápiz",
+              "pt-BR": "caneta; lápis"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabularySummary",
+      "groups": [
+        {
+          "id": "vocab_main",
+          "title": {
+            "ru": "Основные слова",
+            "en": "Core words",
+            "es": "Palabras principales",
+            "pt-BR": "Palavras principais"
+          },
+          "items": []
+        }
+      ]
+    },
+    {
+      "kind": "dialogueRepeat",
+      "title": "这个黑箱子很重",
+      "dialogue": {
+        "id": "dialogue_suitcase",
+        "title": "这个黑箱子很重",
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "你没有箱子吗？",
+            "pinyin": "Nǐ méiyǒu xiāngzi ma?",
+            "translation": {
+              "ru": "У тебя нет чемодана?",
+              "en": "Don't you have a suitcase?",
+              "es": "¿No tienes maleta?",
+              "pt-BR": "Você não tem mala?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "有啊。我的在这儿呢。",
+            "pinyin": "Yǒu a. Wǒ de zài zhèr ne.",
+            "translation": {
+              "ru": "Есть. Мой вот здесь.",
+              "en": "Yes, I do. Mine is right here.",
+              "es": "Sí, la tengo. La mía está aquí.",
+              "pt-BR": "Tenho sim. A minha está aqui."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "我的很重，你的重不重？",
+            "pinyin": "Wǒ de hěn zhòng, nǐ de zhòng bu zhòng?",
+            "translation": {
+              "ru": "Мой очень тяжёлый, а твой тяжёлый?",
+              "en": "Mine is very heavy. Is yours heavy?",
+              "es": "La mía es muy pesada, ¿la tuya es pesada?",
+              "pt-BR": "A minha é muito pesada, a sua é pesada?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "这个黑的很重，那个红的比较轻。",
+            "pinyin": "Zhège hēi de hěn zhòng, nàge hóng de bǐjiào qīng.",
+            "translation": {
+              "ru": "Этот чёрный очень тяжёлый, а тот красный сравнительно лёгкий.",
+              "en": "This black one is very heavy; that red one is relatively light.",
+              "es": "Este negro es muy pesado; ese rojo es relativamente ligero.",
+              "pt-BR": "Este preto é muito pesado; aquele vermelho é relativamente leve."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "你的箱子很新，我的很旧。",
+            "pinyin": "Nǐ de xiāngzi hěn xīn, wǒ de hěn jiù.",
+            "translation": {
+              "ru": "Твой чемодан очень новый, а мой — старый.",
+              "en": "Your suitcase is very new; mine is old.",
+              "es": "Tu maleta es muy nueva; la mía es vieja.",
+              "pt-BR": "Sua mala é muito nova; a minha é velha."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "那个新的，是朋友的。这个旧的是我的。",
+            "pinyin": "Nàge xīn de, shì péngyou de. Zhège jiù de shì wǒ de.",
+            "translation": {
+              "ru": "Тот новый — друга. Этот старый — мой.",
+              "en": "That new one is a friend's. This old one is mine.",
+              "es": "Ese nuevo es de un amigo. Este viejo es mío.",
+              "pt-BR": "Aquele novo é de um amigo. Este velho é meu."
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "dialogueRepeat",
+      "title": "这是不是中药",
+      "dialogue": {
+        "id": "dialogue_medicine",
+        "title": "这是不是中药",
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "先生，这些黑的是什么东西？",
+            "pinyin": "Xiānsheng, zhèxiē hēi de shì shénme dōngxi?",
+            "translation": {
+              "ru": "Господин, что это за чёрные вещи?",
+              "en": "Sir, what are these black things?",
+              "es": "Señor, ¿qué son estas cosas negras?",
+              "pt-BR": "Senhor, o que são essas coisas pretas?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "这是一些药。",
+            "pinyin": "Zhè shì yìxiē yào.",
+            "translation": {
+              "ru": "Это лекарства.",
+              "en": "These are some medicines.",
+              "es": "Son unos medicamentos.",
+              "pt-BR": "São alguns remédios."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "什么药？",
+            "pinyin": "Shénme yào?",
+            "translation": {
+              "ru": "Какое лекарство?",
+              "en": "What medicine?",
+              "es": "¿Qué medicamento?",
+              "pt-BR": "Que remédio?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "中药。",
+            "pinyin": "Zhōngyào.",
+            "translation": {
+              "ru": "Китайское лекарство.",
+              "en": "Traditional Chinese medicine.",
+              "es": "Medicina tradicional china.",
+              "pt-BR": "Medicina tradicional chinesa."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "这是不是药？",
+            "pinyin": "Zhè shì bu shì yào?",
+            "translation": {
+              "ru": "Это лекарство или нет?",
+              "en": "Is this medicine or not?",
+              "es": "¿Esto es medicamento o no?",
+              "pt-BR": "Isso é remédio ou não?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "这不是药，这是茶叶。",
+            "pinyin": "Zhè bú shì yào, zhè shì cháyè.",
+            "translation": {
+              "ru": "Это не лекарство, это чай.",
+              "en": "This is not medicine; this is tea leaves.",
+              "es": "Esto no es medicamento, es té.",
+              "pt-BR": "Isso não é remédio, é chá."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "那个箱子里是什么？",
+            "pinyin": "Nàge xiāngzi li shì shénme?",
+            "translation": {
+              "ru": "Что в том чемодане?",
+              "en": "What is in that suitcase?",
+              "es": "¿Qué hay en esa maleta?",
+              "pt-BR": "O que tem naquela mala?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "都是日用品。有两件衣服、一把雨伞和一瓶香水，还有一本书、一本词典、两张光盘和三支笔。",
+            "pinyin": "Dōu shì rìyòngpǐn. Yǒu liǎng jiàn yīfu, yì bǎ yǔsǎn hé yì píng xiāngshuǐ, hái yǒu yì běn shū, yì běn cídiǎn, liǎng zhāng guāngpán hé sān zhī bǐ.",
+            "translation": {
+              "ru": "Всё — предметы повседневного обихода. Две вещи, один зонт и один флакон духов, а также одна книга, один словарь, два диска и три ручки.",
+              "en": "They are all daily necessities. There are two pieces of clothing, an umbrella and a bottle of perfume, as well as a book, a dictionary, two CDs and three pens.",
+              "es": "Son artículos de uso diario. Hay dos prendas de ropa, un paraguas y un frasco de perfume, además de un libro, un diccionario, dos discos y tres bolígrafos.",
+              "pt-BR": "São artigos de uso diário. Há duas peças de roupa, um guarda-chuva e um frasco de perfume, além de um livro, um dicionário, dois discos e três canetas."
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "quizChineseToTranslation"
+    },
+    {
+      "kind": "quizTranslationToChinese"
+    },
+    {
+      "kind": "examples",
+      "items": [
+        {
+          "id": "ex_一件衣服",
+          "hanzi": "一件衣服",
+          "pinyin": "Yí jiàn yīfu",
+          "translation": {
+            "ru": "одна вещь (одежда)",
+            "en": "one piece of clothing",
+            "es": "una prenda de ropa",
+            "pt-BR": "uma peça de roupa"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_一张光盘",
+          "hanzi": "一张光盘",
+          "pinyin": "Yì zhāng guāngpán",
+          "translation": {
+            "ru": "один диск",
+            "en": "one CD",
+            "es": "un disco",
+            "pt-BR": "um disco"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_一把雨伞",
+          "hanzi": "一把雨伞",
+          "pinyin": "Yì bǎ yǔsǎn",
+          "translation": {
+            "ru": "один зонт",
+            "en": "one umbrella",
+            "es": "un paraguas",
+            "pt-BR": "um guarda-chuva"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_一个本子",
+          "hanzi": "一个本子",
+          "pinyin": "Yí ge běnzi",
+          "translation": {
+            "ru": "одна тетрадь",
+            "en": "one notebook",
+            "es": "un cuaderno",
+            "pt-BR": "um caderno"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_一瓶香水",
+          "hanzi": "一瓶香水",
+          "pinyin": "Yì píng xiāngshuǐ",
+          "translation": {
+            "ru": "один флакон духов",
+            "en": "one bottle of perfume",
+            "es": "un frasco de perfume",
+            "pt-BR": "um frasco de perfume"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_一支笔",
+          "hanzi": "一支笔",
+          "pinyin": "Yì zhī bǐ",
+          "translation": {
+            "ru": "одна ручка",
+            "en": "one pen",
+            "es": "un bolígrafo",
+            "pt-BR": "uma caneta"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_一本书",
+          "hanzi": "一本书",
+          "pinyin": "Yì běn shū",
+          "translation": {
+            "ru": "одна книга",
+            "en": "one book",
+            "es": "un libro",
+            "pt-BR": "um livro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_一本词典",
+          "hanzi": "一本词典",
+          "pinyin": "Yì běn cídiǎn",
+          "translation": {
+            "ru": "один словарь",
+            "en": "one dictionary",
+            "es": "un diccionario",
+            "pt-BR": "um dicionário"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_谁的包",
+          "hanzi": "谁的包",
+          "pinyin": "Shéi de bāo",
+          "translation": {
+            "ru": "чья сумка",
+            "en": "whose bag",
+            "es": "de quién es la bolsa",
+            "pt-BR": "de quem é a bolsa"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_谁的笔",
+          "hanzi": "谁的笔",
+          "pinyin": "Shéi de bǐ",
+          "translation": {
+            "ru": "чья ручка",
+            "en": "whose pen",
+            "es": "de quién es el bolígrafo",
+            "pt-BR": "de quem é a caneta"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_谁的报纸",
+          "hanzi": "谁的报纸",
+          "pinyin": "Shéi de bàozhǐ",
+          "translation": {
+            "ru": "чья газета",
+            "en": "whose newspaper",
+            "es": "de quién es el periódico",
+            "pt-BR": "de quem é o jornal"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_谁的光盘",
+          "hanzi": "谁的光盘",
+          "pinyin": "Shéi de guāngpán",
+          "translation": {
+            "ru": "чей диск",
+            "en": "whose CD",
+            "es": "de quién es el disco",
+            "pt-BR": "de quem é o disco"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_谁的书",
+          "hanzi": "谁的书",
+          "pinyin": "Shéi de shū",
+          "translation": {
+            "ru": "чья книга",
+            "en": "whose book",
+            "es": "de quién es el libro",
+            "pt-BR": "de quem é o livro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_谁的地图",
+          "hanzi": "谁的地图",
+          "pinyin": "Shéi de dìtú",
+          "translation": {
+            "ru": "чья карта",
+            "en": "whose map",
+            "es": "de quién es el mapa",
+            "pt-BR": "de quem é o mapa"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_什么词典",
+          "hanzi": "什么词典",
+          "pinyin": "Shénme cídiǎn",
+          "translation": {
+            "ru": "какой словарь",
+            "en": "which dictionary",
+            "es": "qué diccionario",
+            "pt-BR": "que dicionário"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_什么药",
+          "hanzi": "什么药",
+          "pinyin": "Shénme yào",
+          "translation": {
+            "ru": "какое лекарство",
+            "en": "what medicine",
+            "es": "qué medicamento",
+            "pt-BR": "que remédio"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_我的",
+          "hanzi": "我的",
+          "pinyin": "Wǒ de",
+          "translation": {
+            "ru": "мой; моя; моё",
+            "en": "mine; my",
+            "es": "mío; mía",
+            "pt-BR": "meu; minha"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_他的",
+          "hanzi": "他的",
+          "pinyin": "Tā de",
+          "translation": {
+            "ru": "его",
+            "en": "his",
+            "es": "suyo (de él)",
+            "pt-BR": "dele"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_老师的",
+          "hanzi": "老师的",
+          "pinyin": "Lǎoshī de",
+          "translation": {
+            "ru": "преподавателя",
+            "en": "the teacher's",
+            "es": "del profesor",
+            "pt-BR": "do professor"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_留学生的",
+          "hanzi": "留学生的",
+          "pinyin": "Liúxuéshēng de",
+          "translation": {
+            "ru": "иностранного студента",
+            "en": "the international student's",
+            "es": "del estudiante extranjero",
+            "pt-BR": "do estudante estrangeiro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_新的",
+          "hanzi": "新的",
+          "pinyin": "Xīn de",
+          "translation": {
+            "ru": "новый",
+            "en": "new",
+            "es": "nuevo",
+            "pt-BR": "novo"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_旧的",
+          "hanzi": "旧的",
+          "pinyin": "Jiù de",
+          "translation": {
+            "ru": "старый",
+            "en": "old",
+            "es": "viejo",
+            "pt-BR": "velho"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_黑的",
+          "hanzi": "黑的",
+          "pinyin": "Hēi de",
+          "translation": {
+            "ru": "чёрный",
+            "en": "black",
+            "es": "negro",
+            "pt-BR": "preto"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_红的",
+          "hanzi": "红的",
+          "pinyin": "Hóng de",
+          "translation": {
+            "ru": "красный",
+            "en": "red",
+            "es": "rojo",
+            "pt-BR": "vermelho"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有没有",
+          "hanzi": "有没有",
+          "pinyin": "Yǒu méiyǒu",
+          "translation": {
+            "ru": "есть или нет",
+            "en": "have or not have",
+            "es": "tener o no tener",
+            "pt-BR": "ter ou não ter"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_是不是",
+          "hanzi": "是不是",
+          "pinyin": "Shì bu shì",
+          "translation": {
+            "ru": "да или нет; является ли",
+            "en": "is or is not",
+            "es": "ser o no ser",
+            "pt-BR": "é ou não é"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_忙不忙",
+          "hanzi": "忙不忙",
+          "pinyin": "Máng bu máng",
+          "translation": {
+            "ru": "занят или нет",
+            "en": "busy or not",
+            "es": "ocupado o no",
+            "pt-BR": "ocupado ou não"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_听不听",
+          "hanzi": "听不听",
+          "pinyin": "Tīng bu tīng",
+          "translation": {
+            "ru": "слушать или нет",
+            "en": "listen or not",
+            "es": "escuchar o no",
+            "pt-BR": "ouvir ou não"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_说不说",
+          "hanzi": "说不说",
+          "pinyin": "Shuō bu shuō",
+          "translation": {
+            "ru": "говорить или нет",
+            "en": "speak or not",
+            "es": "hablar o no",
+            "pt-BR": "falar ou não"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_读不读",
+          "hanzi": "读不读",
+          "pinyin": "Dú bu dú",
+          "translation": {
+            "ru": "читать или нет",
+            "en": "read or not",
+            "es": "leer o no",
+            "pt-BR": "ler ou não"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_写不写",
+          "hanzi": "写不写",
+          "pinyin": "Xiě bu xiě",
+          "translation": {
+            "ru": "писать или нет",
+            "en": "write or not",
+            "es": "escribir o no",
+            "pt-BR": "escrever ou não"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_要不要",
+          "hanzi": "要不要",
+          "pinyin": "Yào bu yào",
+          "translation": {
+            "ru": "хотеть или нет; нужно или нет",
+            "en": "want or not",
+            "es": "querer o no",
+            "pt-BR": "querer ou não"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_多少钱人民币",
+          "hanzi": "多少钱人民币",
+          "pinyin": "Duōshao qián rénmínbì",
+          "translation": {
+            "ru": "сколько юаней",
+            "en": "how many yuan (RMB)",
+            "es": "cuántos yuanes",
+            "pt-BR": "quantos yuans"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_词典好不好",
+          "hanzi": "词典好不好",
+          "pinyin": "Cídiǎn hǎo bu hǎo",
+          "translation": {
+            "ru": "хороший ли словарь",
+            "en": "is the dictionary good",
+            "es": "¿es bueno el diccionario?",
+            "pt-BR": "o dicionário é bom"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_箱子重不重",
+          "hanzi": "箱子重不重",
+          "pinyin": "Xiāngzi zhòng bu zhòng",
+          "translation": {
+            "ru": "тяжёлый ли чемодан",
+            "en": "is the suitcase heavy",
+            "es": "¿es pesada la maleta?",
+            "pt-BR": "a mala é pesada"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_汉字难不难",
+          "hanzi": "汉字难不难",
+          "pinyin": "Hànzì nán bu nán",
+          "translation": {
+            "ru": "трудны ли иероглифы",
+            "en": "are Chinese characters difficult",
+            "es": "¿son difíciles los caracteres chinos?",
+            "pt-BR": "os caracteres chineses são difíceis"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_学习忙不忙",
+          "hanzi": "学习忙不忙",
+          "pinyin": "Xuéxí máng bu máng",
+          "translation": {
+            "ru": "занят ли учёбой",
+            "en": "are you busy with studies",
+            "es": "¿estás ocupado con los estudios?",
+            "pt-BR": "está ocupado com os estudos"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_学习不学习",
+          "hanzi": "学习不学习",
+          "pinyin": "Xuéxí bu xuéxí",
+          "translation": {
+            "ru": "учиться или нет",
+            "en": "study or not",
+            "es": "estudiar o no",
+            "pt-BR": "estudar ou não"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_欢迎不欢迎",
+          "hanzi": "欢迎不欢迎",
+          "pinyin": "Huānyíng bu huānyíng",
+          "translation": {
+            "ru": "приветствовать или нет",
+            "en": "welcome or not",
+            "es": "dar la bienvenida o no",
+            "pt-BR": "dar boas-vindas ou não"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_工作不工作",
+          "hanzi": "工作不工作",
+          "pinyin": "Gōngzuò bu gōngzuò",
+          "translation": {
+            "ru": "работать или нет",
+            "en": "work or not",
+            "es": "trabajar o no",
+            "pt-BR": "trabalhar ou não"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_这是什么",
+          "hanzi": "这是什么？",
+          "pinyin": "Zhè shì shénme?",
+          "translation": {
+            "ru": "Что это?",
+            "en": "What is this?",
+            "es": "¿Qué es esto?",
+            "pt-BR": "O que é isso?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_这是药",
+          "hanzi": "这是药。",
+          "pinyin": "Zhè shì yào.",
+          "translation": {
+            "ru": "Это лекарство.",
+            "en": "This is medicine.",
+            "es": "Esto es medicamento.",
+            "pt-BR": "Isso é remédio."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_这是什么药",
+          "hanzi": "这是什么药？",
+          "pinyin": "Zhè shì shénme yào?",
+          "translation": {
+            "ru": "Что это за лекарство?",
+            "en": "What medicine is this?",
+            "es": "¿Qué medicamento es esto?",
+            "pt-BR": "Que remédio é esse?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_中药_这是中药",
+          "hanzi": "中药。（这是中药。）",
+          "pinyin": "Zhōngyào. (Zhè shì zhōngyào.)",
+          "translation": {
+            "ru": "Китайское лекарство. (Это китайское лекарство.)",
+            "en": "Traditional Chinese medicine. (This is traditional Chinese medicine.)",
+            "es": "Medicina tradicional china. (Esto es medicina tradicional china.)",
+            "pt-BR": "Medicina tradicional chinesa. (Isso é medicina tradicional chinesa.)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你有没有箱子",
+          "hanzi": "你有没有箱子？",
+          "pinyin": "Nǐ yǒu méiyǒu xiāngzi?",
+          "translation": {
+            "ru": "У тебя есть чемодан?",
+            "en": "Do you have a suitcase?",
+            "es": "¿Tienes maleta?",
+            "pt-BR": "Você tem mala?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有",
+          "hanzi": "有。",
+          "pinyin": "Yǒu.",
+          "translation": {
+            "ru": "Есть.",
+            "en": "Yes, I do.",
+            "es": "Sí.",
+            "pt-BR": "Tenho."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你的箱子重不重",
+          "hanzi": "你的箱子重不重？",
+          "pinyin": "Nǐ de xiāngzi zhòng bu zhòng?",
+          "translation": {
+            "ru": "Твой чемодан тяжёлый?",
+            "en": "Is your suitcase heavy?",
+            "es": "¿Tu maleta es pesada?",
+            "pt-BR": "Sua mala é pesada?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_很重",
+          "hanzi": "很重。",
+          "pinyin": "Hěn zhòng.",
+          "translation": {
+            "ru": "Очень тяжёлый.",
+            "en": "Very heavy.",
+            "es": "Muy pesada.",
+            "pt-BR": "Muito pesada."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_这个箱子是谁的",
+          "hanzi": "这个箱子是谁的？",
+          "pinyin": "Zhège xiāngzi shì shéi de?",
+          "translation": {
+            "ru": "Чей это чемодан?",
+            "en": "Whose suitcase is this?",
+            "es": "¿De quién es esta maleta?",
+            "pt-BR": "De quem é esta mala?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_是我的",
+          "hanzi": "是我的。",
+          "pinyin": "Shì wǒ de.",
+          "translation": {
+            "ru": "Мой.",
+            "en": "It's mine.",
+            "es": "Es mía.",
+            "pt-BR": "É minha."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_那个是不是你的",
+          "hanzi": "那个是不是你的？",
+          "pinyin": "Nàge shì bu shì nǐ de?",
+          "translation": {
+            "ru": "Тот твой или нет?",
+            "en": "Is that one yours?",
+            "es": "¿Ese es tuyo?",
+            "pt-BR": "Aquele é seu?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_不是",
+          "hanzi": "不是。",
+          "pinyin": "Bú shì.",
+          "translation": {
+            "ru": "Нет.",
+            "en": "No.",
+            "es": "No.",
+            "pt-BR": "Não."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_这些是不是药",
+          "hanzi": "这些是不是药？",
+          "pinyin": "Zhèxiē shì bu shì yào?",
+          "translation": {
+            "ru": "Это лекарства или нет?",
+            "en": "Are these medicines or not?",
+            "es": "¿Son medicamentos o no?",
+            "pt-BR": "São remédios ou não?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_不是_这些不是药",
+          "hanzi": "不是。（这些不是药。）",
+          "pinyin": "Bú shì. (Zhèxiē bú shì yào.)",
+          "translation": {
+            "ru": "Нет. (Это не лекарства.)",
+            "en": "No. (These are not medicine.)",
+            "es": "No. (Estos no son medicamentos.)",
+            "pt-BR": "Não. (Isso não é remédio.)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你去不去银行",
+          "hanzi": "你去不去银行？",
+          "pinyin": "Nǐ qù bu qù yínháng?",
+          "translation": {
+            "ru": "Ты идёшь в банк или нет?",
+            "en": "Are you going to the bank or not?",
+            "es": "¿Vas al banco o no?",
+            "pt-BR": "Você vai ao banco ou não?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_去",
+          "hanzi": "去。",
+          "pinyin": "Qù.",
+          "translation": {
+            "ru": "Иду.",
+            "en": "Yes, I am.",
+            "es": "Sí.",
+            "pt-BR": "Vou."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你买苹果不买",
+          "hanzi": "你买苹果不买？",
+          "pinyin": "Nǐ mǎi píngguǒ bú mǎi?",
+          "translation": {
+            "ru": "Ты покупаешь яблоки или нет?",
+            "en": "Are you buying apples or not?",
+            "es": "¿Compras manzanas o no?",
+            "pt-BR": "Você compra maçãs ou não?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_不买_我买橘子",
+          "hanzi": "不买，我买橘子。",
+          "pinyin": "Bú mǎi, wǒ mǎi júzi.",
+          "translation": {
+            "ru": "Не покупаю, я покупаю апельсины.",
+            "en": "No, I'm buying oranges.",
+            "es": "No, compro naranjas.",
+            "pt-BR": "Não, compro laranjas."
+          },
+          "group": "additional"
+        }
+      ]
+    },
+    {
+      "kind": "completion"
+    }
+  ]
+}

@@ -86,6 +86,11 @@ final class LearnedWordsStore {
         persist()
     }
 
+    func resetAll() {
+        learnedIDs.removeAll()
+        persist()
+    }
+
     private func load() {
         guard let values = defaults.stringArray(forKey: storageKey) else { return }
         learnedIDs = Set(values)

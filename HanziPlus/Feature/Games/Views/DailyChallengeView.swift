@@ -36,7 +36,7 @@ struct DailyChallengeView: View {
                 challengeHub
             }
         }
-        .navigationTitle(String(localized: "games.daily_challenge"))
+        .navigationTitle(L10n.string( "games.daily_challenge"))
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             dailyStore.refreshIfNeeded()
@@ -56,7 +56,7 @@ struct DailyChallengeView: View {
                 }
 
                 VStack(alignment: .leading, spacing: AppSpacing.medium) {
-                    Text("games.daily.tasks_title")
+                    Text(l10n: "games.daily.tasks_title")
                         .font(.title2.weight(.semibold))
 
                     ForEach(dailyStore.state.tasks) { task in
@@ -72,7 +72,7 @@ struct DailyChallengeView: View {
                     NavigationLink {
                         dailyTaskDestination(for: task)
                     } label: {
-                        Text(String(localized: "games.daily.start_task \(task.localizedTitle)"))
+                        Text(L10n.string( "games.daily.start_task \(task.localizedTitle)"))
                             .font(.body.weight(.semibold))
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 16)
@@ -83,7 +83,7 @@ struct DailyChallengeView: View {
                 }
 
                 if dailyStore.state.isFullyCompleted {
-                    Button(String(localized: "games.daily.claim_rewards")) {
+                    Button(L10n.string( "games.daily.claim_rewards")) {
                         viewModel?.finish(
                             scoreStore: scoreStore,
                             statisticsStore: statisticsStore,
@@ -109,7 +109,7 @@ struct DailyChallengeView: View {
                     .foregroundStyle(game.color)
 
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("games.daily_challenge")
+                    Text(l10n: "games.daily_challenge")
                         .font(.title2.weight(.bold))
                     Text(dailyStore.state.dateKey)
                         .font(.caption)
@@ -118,22 +118,12 @@ struct DailyChallengeView: View {
 
                 Spacer()
 
-                Text("\(Int((dailyStore.state.completionProgress * 100).rounded()))%")
+                Text(L10n.percent(Int((dailyStore.state.completionProgress * 100).rounded())))
                     .font(.title3.weight(.bold))
                     .foregroundStyle(game.color)
             }
 
             AnimatedProgressBar(progress: dailyStore.state.completionProgress, tint: game.color)
-
-            HStack {
-                Label("\(dailyStore.streakDays) day streak", systemImage: "flame.fill")
-                    .font(.caption.weight(.semibold))
-                    .foregroundStyle(.orange)
-                Spacer()
-                Text("+\(dailyStore.state.xpAwarded > 0 ? dailyStore.state.xpAwarded : 150) XP")
-                    .font(.caption.weight(.semibold))
-                    .foregroundStyle(.purple)
-            }
         }
         .padding(AppSpacing.medium)
         .background {
@@ -144,7 +134,7 @@ struct DailyChallengeView: View {
     }
 
     private var completedBanner: some View {
-        Label(String(localized: "games.daily.all_done"), systemImage: "checkmark.seal.fill")
+        Label(L10n.string( "games.daily.all_done"), systemImage: "checkmark.seal.fill")
             .font(.headline.weight(.semibold))
             .foregroundStyle(.green)
             .frame(maxWidth: .infinity, alignment: .leading)
@@ -190,7 +180,7 @@ private struct DailyTaskRow: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text(task.localizedTitle)
                     .font(.headline.weight(.semibold))
-                Text("\(task.targetCount) items")
+                Text(L10n.string("\(task.targetCount) items"))
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }

@@ -16,11 +16,11 @@ enum GameCollection: String, CaseIterable, Identifiable {
     var id: String { rawValue }
 
     var title: String {
-        String(localized: String.LocalizationValue("games.collection.\(rawValue).title"))
+        L10n.dynamic("games.collection.\(rawValue).title")
     }
 
     var subtitle: String {
-        String(localized: String.LocalizationValue("games.collection.\(rawValue).subtitle"))
+        L10n.dynamic("games.collection.\(rawValue).subtitle")
     }
 
     var emoji: String {

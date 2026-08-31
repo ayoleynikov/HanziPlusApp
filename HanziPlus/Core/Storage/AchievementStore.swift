@@ -30,8 +30,8 @@ final class AchievementStore {
         catalog.map { item in
             Achievement(
                 id: item.id,
-                title: String(localized: String.LocalizationValue("achievement.\(item.id).title")),
-                description: String(localized: String.LocalizationValue("achievement.\(item.id).description")),
+                title: L10n.dynamic("achievement.\(item.id).title"),
+                description: L10n.dynamic("achievement.\(item.id).description"),
                 icon: item.icon,
                 isUnlocked: unlockedIDs.contains(item.id)
             )
@@ -53,16 +53,11 @@ final class AchievementStore {
         defaults.set(totalCorrect, forKey: "achievements.totalCorrect")
         if totalCorrect >= 100 { unlock("100_correct") }
 
-        if totalXP >= 1000 { unlock("1000_xp") }
         if learnedCount >= 100 { unlock("100_learned") }
         if result.gameKind == .listeningQuiz && result.accuracy == 100 { unlock("perfect_listening") }
         if result.gameKind == .typingChallenge && result.accuracy >= 90 { unlock("typing_expert") }
         if result.gameKind == .hanziMemory && result.accuracy >= 85 { unlock("memory_champion") }
         if result.studySetFileName == "hsk1" && result.accuracy == 100 { unlock("master_hsk1") }
-    }
-
-    func unlockDailyStreak(_ days: Int) {
-        if days >= 7 { unlock("7_day_streak") }
     }
 
     func unlockJourneyProgress(citiesCompleted: Int) {
@@ -71,6 +66,12 @@ final class AchievementStore {
 
     func unlockJourneyComplete() {
         unlock("journey_complete")
+    }
+
+    func resetAll() {
+        unlockedIDs.removeAll()
+        defaults.removeObject(forKey: unlockedKey)
+        defaults.removeObject(forKey: "achievements.totalCorrect")
     }
 
     private func unlock(_ id: String) {
@@ -83,9 +84,7 @@ final class AchievementStore {
         [
             ("first_game", "First Game", "Complete your first game.", "gamecontroller.fill"),
             ("100_correct", "100 Correct Answers", "Answer 100 questions correctly.", "checkmark.circle.fill"),
-            ("7_day_streak", "7-Day Streak", "Complete daily challenges 7 days in a row.", "flame.fill"),
             ("100_learned", "100 Learned Words", "Mark 100 words as learned.", "graduationcap.fill"),
-            ("1000_xp", "1000 XP", "Earn 1000 XP across all games.", "sparkles"),
             ("master_hsk1", "Master of HSK 1", "Perfect score on an HSK 1 game.", "1.circle.fill"),
             ("perfect_listening", "Perfect Listening", "100% accuracy in Listening Quiz.", "ear.fill"),
             ("typing_expert", "Typing Expert", "90%+ accuracy in Typing Challenge.", "keyboard.fill"),

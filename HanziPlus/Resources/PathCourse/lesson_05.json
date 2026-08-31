@@ -1,0 +1,747 @@
+{
+  "id": "lesson_05",
+  "number": 5,
+  "sourceLessonNumbers": [
+    5
+  ],
+  "chineseTitle": "这是王老师",
+  "chineseSubtitle": null,
+  "pinyinTitle": "Zhè shì Wáng lǎoshī",
+  "translationTitle": {
+    "ru": "Это учитель Ван",
+    "en": "This is Teacher Wang",
+    "es": "Este es el profesor Wang",
+    "pt-BR": "Este é o professor Wang"
+  },
+  "sections": [
+    {
+      "kind": "dialogue",
+      "continueButtonTitle": "Изучить новые слова",
+      "showLessonHeader": true,
+      "dialogue": {
+        "id": "dialogue_main",
+        "title": null,
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "这是王老师，这是我爸爸。",
+            "pinyin": "Zhè shì Wáng lǎoshī, zhè shì wǒ bàba.",
+            "translation": {
+              "ru": "Это учитель Ван, это мой папа.",
+              "en": "This is Teacher Wang. This is my dad.",
+              "es": "Este es el profesor Wang. Este es mi papá.",
+              "pt-BR": "Este é o professor Wang. Este é meu pai."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "王老师，您好！",
+            "pinyin": "Wáng lǎoshī, nín hǎo!",
+            "translation": {
+              "ru": "Здравствуйте, учитель Ван!",
+              "en": "Hello, Teacher Wang!",
+              "es": "¡Hola, profesor Wang!",
+              "pt-BR": "Olá, professor Wang!"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "C",
+            "hanzi": "您好！请进！请坐！请喝茶！",
+            "pinyin": "Nín hǎo! Qǐng jìn! Qǐng zuò! Qǐng hē chá!",
+            "translation": {
+              "ru": "Здравствуйте! Проходите! Садитесь! Пейте чай!",
+              "en": "Hello! Come in! Sit down! Have some tea!",
+              "es": "¡Hola! ¡Pase! ¡Siéntese! ¡Tome té!",
+              "pt-BR": "Olá! Entre! Sente-se! Tome chá!"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "谢谢！",
+            "pinyin": "Xièxie!",
+            "translation": {
+              "ru": "Спасибо!",
+              "en": "Thank you!",
+              "es": "¡Gracias!",
+              "pt-BR": "Obrigado!"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "C",
+            "hanzi": "不客气！",
+            "pinyin": "Bú kèqi!",
+            "translation": {
+              "ru": "Пожалуйста!",
+              "en": "You're welcome!",
+              "es": "¡De nada!",
+              "pt-BR": "De nada!"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "C",
+            "hanzi": "工作忙吗？",
+            "pinyin": "Gōngzuò máng ma?",
+            "translation": {
+              "ru": "Работа занимает много времени?",
+              "en": "Are you busy with work?",
+              "es": "¿Está ocupado con el trabajo?",
+              "pt-BR": "Está ocupado com o trabalho?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "不太忙。",
+            "pinyin": "Bù tài máng.",
+            "translation": {
+              "ru": "Не очень.",
+              "en": "Not too busy.",
+              "es": "No mucho.",
+              "pt-BR": "Não muito."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "C",
+            "hanzi": "身体好吗？",
+            "pinyin": "Shēntǐ hǎo ma?",
+            "translation": {
+              "ru": "Как здоровье?",
+              "en": "How is your health?",
+              "es": "¿Cómo está de salud?",
+              "pt-BR": "Como está a saúde?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "很好！",
+            "pinyin": "Hěn hǎo!",
+            "translation": {
+              "ru": "Очень хорошо!",
+              "en": "Very good!",
+              "es": "¡Muy bien!",
+              "pt-BR": "Muito bem!"
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "vocabulary": {
+        "id": "vocab_communication",
+        "title": {
+          "ru": "Общение",
+          "en": "Communication",
+          "es": "Comunicación",
+          "pt-BR": "Comunicação"
+        },
+        "items": [
+          {
+            "id": "laoshi",
+            "hanzi": "老师",
+            "pinyin": "lǎoshī",
+            "translation": {
+              "ru": "преподаватель",
+              "en": "teacher / instructor",
+              "es": "profesor",
+              "pt-BR": "professor"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "nin",
+            "hanzi": "您",
+            "pinyin": "nín",
+            "translation": {
+              "ru": "Вы",
+              "en": "you (formal)",
+              "es": "usted",
+              "pt-BR": "o senhor / a senhora"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "qing",
+            "hanzi": "请",
+            "pinyin": "qǐng",
+            "translation": {
+              "ru": "пожалуйста",
+              "en": "please / you're welcome",
+              "es": "por favor / de nada",
+              "pt-BR": "por favor / de nada"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "jin",
+            "hanzi": "进",
+            "pinyin": "jìn",
+            "translation": {
+              "ru": "войти",
+              "en": "to enter",
+              "es": "entrar",
+              "pt-BR": "entrar"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "zuo",
+            "hanzi": "坐",
+            "pinyin": "zuò",
+            "translation": {
+              "ru": "садиться",
+              "en": "to sit down",
+              "es": "sentarse",
+              "pt-BR": "sentar-se"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "he",
+            "hanzi": "喝",
+            "pinyin": "hē",
+            "translation": {
+              "ru": "пить",
+              "en": "to drink",
+              "es": "beber",
+              "pt-BR": "beber"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "cha",
+            "hanzi": "茶",
+            "pinyin": "chá",
+            "translation": {
+              "ru": "чай",
+              "en": "tea",
+              "es": "té",
+              "pt-BR": "chá"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "xiexie",
+            "hanzi": "谢谢",
+            "pinyin": "xièxie",
+            "translation": {
+              "ru": "спасибо",
+              "en": "thank you",
+              "es": "gracias",
+              "pt-BR": "obrigado"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "bukeqi",
+            "hanzi": "不客气",
+            "pinyin": "bú kèqi",
+            "translation": {
+              "ru": "пожалуйста / не стоит благодарности",
+              "en": "please / you're welcome",
+              "es": "por favor / de nada",
+              "pt-BR": "por favor / de nada"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "vocabulary": {
+        "id": "vocab_other",
+        "title": {
+          "ru": "Остальное",
+          "en": "The rest",
+          "es": "Lo demás",
+          "pt-BR": "O restante"
+        },
+        "items": [
+          {
+            "id": "zhe",
+            "hanzi": "这",
+            "pinyin": "zhè",
+            "translation": {
+              "ru": "это",
+              "en": "this / it",
+              "es": "esto / eso",
+              "pt-BR": "isto / isso"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "shi",
+            "hanzi": "是",
+            "pinyin": "shì",
+            "translation": {
+              "ru": "быть",
+              "en": "to be",
+              "es": "ser / estar",
+              "pt-BR": "ser / estar"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "keqi",
+            "hanzi": "客气",
+            "pinyin": "kèqi",
+            "translation": {
+              "ru": "вежливый",
+              "en": "polite",
+              "es": "cortés",
+              "pt-BR": "educado"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "gongzuo",
+            "hanzi": "工作",
+            "pinyin": "gōngzuò",
+            "translation": {
+              "ru": "работа / работать",
+              "en": "work / to work",
+              "es": "trabajo / trabajar",
+              "pt-BR": "trabalho / trabalhar"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "shenti",
+            "hanzi": "身体",
+            "pinyin": "shēntǐ",
+            "translation": {
+              "ru": "здоровье / тело",
+              "en": "health / body",
+              "es": "salud / cuerpo",
+              "pt-BR": "saúde / corpo"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "shi_ten",
+            "hanzi": "十",
+            "pinyin": "shí",
+            "translation": {
+              "ru": "десять",
+              "en": "ten",
+              "es": "diez",
+              "pt-BR": "dez"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "ri",
+            "hanzi": "日",
+            "pinyin": "rì",
+            "translation": {
+              "ru": "солнце / день",
+              "en": "sun / day",
+              "es": "sol / día",
+              "pt-BR": "sol / dia"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "wang",
+            "hanzi": "王",
+            "pinyin": "Wáng",
+            "translation": {
+              "ru": "Ван — китайская фамилия",
+              "en": "Wang — a Chinese surname",
+              "es": "Wang — apellido chino",
+              "pt-BR": "Wang — sobrenome chinês"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabularySummary",
+      "groups": [
+        {
+          "id": "vocab_communication",
+          "title": {
+            "ru": "Общение",
+            "en": "Communication",
+            "es": "Comunicación",
+            "pt-BR": "Comunicação"
+          },
+          "items": []
+        },
+        {
+          "id": "vocab_other",
+          "title": {
+            "ru": "Остальное",
+            "en": "The rest",
+            "es": "Lo demás",
+            "pt-BR": "O restante"
+          },
+          "items": []
+        }
+      ]
+    },
+    {
+      "kind": "dialogueRepeat",
+      "title": "Прочитай диалог ещё раз",
+      "dialogue": {
+        "id": "dialogue_main",
+        "title": null,
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "这是王老师，这是我爸爸。",
+            "pinyin": "Zhè shì Wáng lǎoshī, zhè shì wǒ bàba.",
+            "translation": {
+              "ru": "Это учитель Ван, это мой папа.",
+              "en": "This is Teacher Wang. This is my dad.",
+              "es": "Este es el profesor Wang. Este es mi papá.",
+              "pt-BR": "Este é o professor Wang. Este é meu pai."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "王老师，您好！",
+            "pinyin": "Wáng lǎoshī, nín hǎo!",
+            "translation": {
+              "ru": "Здравствуйте, учитель Ван!",
+              "en": "Hello, Teacher Wang!",
+              "es": "¡Hola, profesor Wang!",
+              "pt-BR": "Olá, professor Wang!"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "C",
+            "hanzi": "您好！请进！请坐！请喝茶！",
+            "pinyin": "Nín hǎo! Qǐng jìn! Qǐng zuò! Qǐng hē chá!",
+            "translation": {
+              "ru": "Здравствуйте! Проходите! Садитесь! Пейте чай!",
+              "en": "Hello! Come in! Sit down! Have some tea!",
+              "es": "¡Hola! ¡Pase! ¡Siéntese! ¡Tome té!",
+              "pt-BR": "Olá! Entre! Sente-se! Tome chá!"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "谢谢！",
+            "pinyin": "Xièxie!",
+            "translation": {
+              "ru": "Спасибо!",
+              "en": "Thank you!",
+              "es": "¡Gracias!",
+              "pt-BR": "Obrigado!"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "C",
+            "hanzi": "不客气！",
+            "pinyin": "Bú kèqi!",
+            "translation": {
+              "ru": "Пожалуйста!",
+              "en": "You're welcome!",
+              "es": "¡De nada!",
+              "pt-BR": "De nada!"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "C",
+            "hanzi": "工作忙吗？",
+            "pinyin": "Gōngzuò máng ma?",
+            "translation": {
+              "ru": "Работа занимает много времени?",
+              "en": "Are you busy with work?",
+              "es": "¿Está ocupado con el trabajo?",
+              "pt-BR": "Está ocupado com o trabalho?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "不太忙。",
+            "pinyin": "Bù tài máng.",
+            "translation": {
+              "ru": "Не очень.",
+              "en": "Not too busy.",
+              "es": "No mucho.",
+              "pt-BR": "Não muito."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "C",
+            "hanzi": "身体好吗？",
+            "pinyin": "Shēntǐ hǎo ma?",
+            "translation": {
+              "ru": "Как здоровье?",
+              "en": "How is your health?",
+              "es": "¿Cómo está de salud?",
+              "pt-BR": "Como está a saúde?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "很好！",
+            "pinyin": "Hěn hǎo!",
+            "translation": {
+              "ru": "Очень хорошо!",
+              "en": "Very good!",
+              "es": "¡Muy bien!",
+              "pt-BR": "Muito bem!"
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "quizChineseToTranslation"
+    },
+    {
+      "kind": "quizTranslationToChinese"
+    },
+    {
+      "kind": "examples",
+      "items": [
+        {
+          "id": "ex_intro",
+          "hanzi": "这是王老师，这是我爸爸。",
+          "pinyin": "Zhè shì Wáng lǎoshī, zhè shì wǒ bàba.",
+          "translation": {
+            "ru": "Это учитель Ван, это мой папа.",
+            "en": "This is Teacher Wang. This is my dad.",
+            "es": "Este es el profesor Wang. Este es mi papá.",
+            "pt-BR": "Este é o professor Wang. Este é meu pai."
+          }
+        },
+        {
+          "id": "ex_ninhao_laoshi",
+          "hanzi": "王老师，您好！",
+          "pinyin": "Wáng lǎoshī, nín hǎo!",
+          "translation": {
+            "ru": "Здравствуйте, учитель Ван!",
+            "en": "Hello, Teacher Wang!",
+            "es": "¡Hola, profesor Wang!",
+            "pt-BR": "Olá, professor Wang!"
+          }
+        },
+        {
+          "id": "ex_qing_block",
+          "hanzi": "您好！请进！请坐！请喝茶！",
+          "pinyin": "Nín hǎo! Qǐng jìn! Qǐng zuò! Qǐng hē chá!",
+          "translation": {
+            "ru": "Здравствуйте! Проходите! Садитесь! Пейте чай!",
+            "en": "Hello! Come in! Sit down! Have some tea!",
+            "es": "¡Hola! ¡Pase! ¡Siéntese! ¡Tome té!",
+            "pt-BR": "Olá! Entre! Sente-se! Tome chá!"
+          }
+        },
+        {
+          "id": "ex_xiexie",
+          "hanzi": "谢谢！",
+          "pinyin": "Xièxie!",
+          "translation": {
+            "ru": "Спасибо!",
+            "en": "Thank you!",
+            "es": "¡Gracias!",
+            "pt-BR": "Obrigado!"
+          }
+        },
+        {
+          "id": "ex_bukeqi",
+          "hanzi": "不客气！",
+          "pinyin": "Bú kèqi!",
+          "translation": {
+            "ru": "Пожалуйста!",
+            "en": "You're welcome!",
+            "es": "¡De nada!",
+            "pt-BR": "De nada!"
+          }
+        },
+        {
+          "id": "ex_gongzuo_mang",
+          "hanzi": "工作忙吗？",
+          "pinyin": "Gōngzuò máng ma?",
+          "translation": {
+            "ru": "Работа занимает много времени?",
+            "en": "Are you busy with work?",
+            "es": "¿Está ocupado con el trabajo?",
+            "pt-BR": "Está ocupado com o trabalho?"
+          }
+        },
+        {
+          "id": "ex_bu_tai_mang",
+          "hanzi": "不太忙。",
+          "pinyin": "Bù tài máng.",
+          "translation": {
+            "ru": "Не очень.",
+            "en": "Not too busy.",
+            "es": "No mucho.",
+            "pt-BR": "Não muito."
+          }
+        },
+        {
+          "id": "ex_shenti_hao",
+          "hanzi": "身体好吗？",
+          "pinyin": "Shēntǐ hǎo ma?",
+          "translation": {
+            "ru": "Как здоровье?",
+            "en": "How is your health?",
+            "es": "¿Cómo está de salud?",
+            "pt-BR": "Como está a saúde?"
+          }
+        },
+        {
+          "id": "ex_hen_hao",
+          "hanzi": "很好！",
+          "pinyin": "Hěn hǎo!",
+          "translation": {
+            "ru": "Очень хороший!",
+            "en": "Very good!",
+            "es": "¡Muy bien!",
+            "pt-BR": "Muito bom!"
+          }
+        },
+        {
+          "id": "ex_ninhao_word",
+          "hanzi": "您好",
+          "pinyin": "nín hǎo",
+          "translation": {
+            "ru": "здравствуйте",
+            "en": "hello (formal)",
+            "es": "hola (formal)",
+            "pt-BR": "olá (formal)"
+          }
+        },
+        {
+          "id": "ex_qingjin",
+          "hanzi": "请进",
+          "pinyin": "qǐng jìn",
+          "translation": {
+            "ru": "проходите",
+            "en": "please come in",
+            "es": "pase",
+            "pt-BR": "entre"
+          }
+        },
+        {
+          "id": "ex_qingzuo",
+          "hanzi": "请坐",
+          "pinyin": "qǐng zuò",
+          "translation": {
+            "ru": "садитесь",
+            "en": "please sit down",
+            "es": "siéntese",
+            "pt-BR": "sente-se"
+          }
+        },
+        {
+          "id": "ex_qinghecha",
+          "hanzi": "请喝茶",
+          "pinyin": "qǐng hē chá",
+          "translation": {
+            "ru": "пейте чай",
+            "en": "please drink tea / have some tea",
+            "es": "tome té",
+            "pt-BR": "tome chá"
+          }
+        },
+        {
+          "id": "ex_xiexie_word",
+          "hanzi": "谢谢",
+          "pinyin": "xièxie",
+          "translation": {
+            "ru": "спасибо",
+            "en": "thank you",
+            "es": "gracias",
+            "pt-BR": "obrigado"
+          }
+        },
+        {
+          "id": "ex_bukeqi_word",
+          "hanzi": "不客气",
+          "pinyin": "bú kèqi",
+          "translation": {
+            "ru": "пожалуйста",
+            "en": "you're welcome",
+            "es": "de nada",
+            "pt-BR": "de nada"
+          }
+        },
+        {
+          "id": "ex_gongzuo_mang_word",
+          "hanzi": "工作忙",
+          "pinyin": "gōngzuò máng",
+          "translation": {
+            "ru": "работа занята",
+            "en": "work is busy",
+            "es": "el trabajo está ocupado",
+            "pt-BR": "o trabalho está ocupado"
+          }
+        },
+        {
+          "id": "ex_shenti_hao_word",
+          "hanzi": "身体好",
+          "pinyin": "shēntǐ hǎo",
+          "translation": {
+            "ru": "здоровье хорошее",
+            "en": "health is good",
+            "es": "la salud está bien",
+            "pt-BR": "a saúde está boa"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "completion"
+    }
+  ]
+}

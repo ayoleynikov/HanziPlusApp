@@ -71,20 +71,20 @@ struct CityUnlockCelebrationView: View {
 
                 VStack(spacing: 10) {
                     Text(isJourneyComplete
-                         ? String(localized: "journey.celebration.complete_title")
-                         : String(localized: "journey.celebration.unlock_title"))
+                         ? L10n.string( "journey.celebration.complete_title")
+                         : L10n.string( "journey.celebration.unlock_title"))
                         .font(.title2.weight(.bold))
                         .multilineTextAlignment(.center)
 
                     Text(isJourneyComplete
-                         ? String(localized: "journey.celebration.explored_all")
-                         : String(localized: "journey.celebration.welcome \(city.localizedName)"))
+                         ? L10n.string( "journey.celebration.explored_all")
+                         : L10n.string( "journey.celebration.welcome \(city.localizedName)"))
                         .font(.title3.weight(.semibold))
                         .foregroundStyle(city.theme.primary)
                         .multilineTextAlignment(.center)
 
                     if !isJourneyComplete {
-                        Text(String(localized: "journey.celebration.collectible \(city.travelCollectible)"))
+                        Text(L10n.string( "journey.celebration.collectible \(city.travelCollectible)"))
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }
@@ -93,7 +93,7 @@ struct CityUnlockCelebrationView: View {
                 .offset(y: contentOffset)
 
                 Button(action: onDismiss) {
-                    Text(isJourneyComplete ? String(localized: "journey.celebration.continue") : String(localized: "journey.celebration.explore \(city.localizedName)"))
+                    Text(isJourneyComplete ? L10n.string( "journey.celebration.continue") : L10n.string( "journey.celebration.explore \(city.localizedName)"))
                         .font(.body.weight(.semibold))
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 16)

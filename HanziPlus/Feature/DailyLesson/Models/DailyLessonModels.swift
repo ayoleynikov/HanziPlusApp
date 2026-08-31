@@ -8,9 +8,24 @@ import Foundation
 enum DailyLessonPhase: String, Codable, CaseIterable {
     case preview
     case meaning
-    case listening
     case summary
-    case reviewMistakes
+
+    init(from decoder: Decoder) throws {
+        let container = try decoder.singleValueContainer()
+        let raw = try container.decode(String.self)
+        switch raw {
+        case "listening", "reviewMistakes":
+            self = .summary
+        default:
+            guard let phase = DailyLessonPhase(rawValue: raw) else {
+                throw DecodingError.dataCorruptedError(
+                    in: container,
+                    debugDescription: "Unknown DailyLessonPhase: \(raw)"
+                )
+            }
+            self = phase
+        }
+    }
 }
 
 enum DailyLessonStatus: Equatable {
@@ -21,8 +36,6 @@ enum DailyLessonStatus: Equatable {
 
 struct DailyLessonAnswerRecord: Codable, Equatable {
     var meaningCorrect: Bool?
-    var listeningCorrect: Bool?
-    var reviewMeaningCorrect: Bool?
 }
 
 struct DailyLessonSession: Codable, Equatable {
@@ -42,14 +55,13 @@ struct DailyLessonSession: Codable, Equatable {
 
     var progressFraction: Double {
         guard !wordHanzi.isEmpty else { return 0 }
+        let totalSteps = Double(wordHanzi.count * 2)
         switch phase {
         case .preview:
-            return Double(currentIndex) / Double(wordHanzi.count * 3 + 1)
+            return Double(currentIndex + 1) / totalSteps
         case .meaning:
-            return Double(wordHanzi.count + currentIndex) / Double(wordHanzi.count * 3 + 1)
-        case .listening:
-            return Double(wordHanzi.count * 2 + currentIndex) / Double(wordHanzi.count * 3 + 1)
-        case .summary, .reviewMistakes:
+            return Double(wordHanzi.count + currentIndex + 1) / totalSteps
+        case .summary:
             return 1
         }
     }
@@ -57,9 +69,7 @@ struct DailyLessonSession: Codable, Equatable {
     func mistakeHanzi() -> [String] {
         wordHanzi.filter { hanzi in
             let record = answers[hanzi]
-            let meaningBad = record?.meaningCorrect == false
-            let listeningBad = record?.listeningCorrect == false
-            return meaningBad || listeningBad
+            return record?.meaningCorrect == false
         }
     }
 
@@ -69,14 +79,8 @@ struct DailyLessonSession: Codable, Equatable {
         return Double(graded.filter { $0 }.count) / Double(graded.count)
     }
 
-    func listeningAccuracy() -> Double {
-        let graded = wordHanzi.compactMap { answers[$0]?.listeningCorrect }
-        guard !graded.isEmpty else { return 0 }
-        return Double(graded.filter { $0 }.count) / Double(graded.count)
-    }
-
     func isFullyCorrect(hanzi: String) -> Bool {
-        answers[hanzi]?.meaningCorrect == true && answers[hanzi]?.listeningCorrect == true
+        answers[hanzi]?.meaningCorrect == true
     }
 }
 
@@ -125,9 +129,7 @@ enum DailyLessonPlanner {
             return (Array(reviewPool.prefix(min(targetCount, reviewPool.count))), true)
         }
 
-        var selected: [String] = []
-        let fresh = seededShuffle(unlearned, seed: seed)
-        selected.append(contentsOf: fresh.prefix(targetCount))
+        var selected = Array(unlearned.prefix(targetCount))
 
         if selected.count < targetCount {
             let reviewFill = seededShuffle(learned, seed: seed &+ 17)
@@ -197,7 +199,6 @@ enum DailyLessonPlanner {
 
         var options = uniqueCandidates
         options.append(correct)
-        // Ensure uniqueness even if pool was tiny / duplicates existed.
         var final: [String] = []
         var finalSeen = Set<String>()
         for value in seededShuffle(options, seed: seed &+ 99) {

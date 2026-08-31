@@ -12,7 +12,6 @@ struct GamesHubView: View {
     @Environment(GamesDailyProgressStore.self) private var dailyProgressStore
     @Environment(DailyChallengeStore.self) private var dailyChallengeStore
     @Environment(GamesPlayHistoryStore.self) private var playHistory
-    @Environment(JourneyStore.self) private var journeyStore
 
     @State private var heroIndex = 0
     @State private var scrollOffset: CGFloat = 0
@@ -38,18 +37,8 @@ struct GamesHubView: View {
             : .indigo
     }
 
-    private var totalXP: Int {
-        scoreStore.totalXPAllGames()
-    }
-
     private var playableGames: [GameDefinition] {
-        GameDefinition.libraryGames.filter {
-            GameAvailability.isPlayable($0, journeyStore: journeyStore, totalXP: totalXP)
-        }
-    }
-
-    private var lockedGames: [(game: GameDefinition, requirement: GameLockRequirement)] {
-        GameAvailability.lockedGames(journeyStore: journeyStore, totalXP: totalXP)
+        GameDefinition.libraryGames.filter { GameAvailability.isPlayable($0) }
     }
 
     var body: some View {
@@ -71,7 +60,6 @@ struct GamesHubView: View {
                         recommendedGame: recommendedGame,
                         tasks: dailyChallengeStore.state.tasks,
                         completedTaskIDs: dailyChallengeStore.state.completedTaskIDs,
-                        xpReward: 150,
                         activeSession: sessionStore.activeSession,
                         recentlyPlayed: playHistory.recentlyPlayed,
                         statistics: { scoreStore.statistics(for: $0) }
@@ -85,10 +73,6 @@ struct GamesHubView: View {
                         .sectionReveal(appeared, delay: 0.2)
 
                     GamesPlayerProfileSection(
-                        totalXP: totalXP,
-                        todayXP: dailyProgressStore.progress.xpEarned,
-                        weeklyXP: dailyProgressStore.weeklyXP,
-                        streak: max(dailyProgressStore.progress.currentStreak, dailyChallengeStore.streakDays),
                         gamesPlayed: dailyProgressStore.progress.gamesPlayed,
                         accuracy: dailyProgressStore.progress.accuracy
                     )
@@ -118,7 +102,7 @@ struct GamesHubView: View {
     }
 
     private var header: some View {
-        Text("games.title")
+        Text(l10n: "games.title")
             .font(.largeTitle.weight(.bold))
             .padding(.horizontal, AppSpacing.medium)
             .padding(.top, AppSpacing.small)
@@ -126,7 +110,7 @@ struct GamesHubView: View {
 
     private var featuredCollectionsSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("games.section.collections")
+            Text(l10n: "games.section.collections")
                 .font(.title2.weight(.bold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -144,7 +128,7 @@ struct GamesHubView: View {
 
     private var allGamesSection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.medium) {
-            Text("games.section.play")
+            Text(l10n: "games.section.play")
                 .font(.title2.weight(.bold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -163,7 +147,7 @@ struct GamesHubView: View {
                 .padding(.horizontal, AppSpacing.medium)
             }
 
-            if playableGames.count > 1 || !lockedGames.isEmpty {
+            if playableGames.count > 1 {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: AppSpacing.medium) {
                         ForEach(Array(playableGames.dropFirst())) { game in
@@ -178,14 +162,6 @@ struct GamesHubView: View {
                                 )
                             }
                             .buttonStyle(GameCardButtonStyle())
-                        }
-
-                        ForEach(lockedGames, id: \.game.id) { item in
-                            GameLockedCard(
-                                game: item.game,
-                                unlockRequirement: item.requirement.label,
-                                style: .standard
-                            )
                         }
                     }
                     .padding(.horizontal, AppSpacing.medium)

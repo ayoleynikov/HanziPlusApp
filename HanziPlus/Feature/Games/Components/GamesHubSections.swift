@@ -37,7 +37,7 @@ struct GameContinuePlayingCard: View {
                         AnimatedProgressBar(progress: session.progressValue, tint: game.color)
                             .frame(height: 5)
 
-                        Label(String(localized: "common.continue"), systemImage: "arrow.right")
+                        Label(L10n.string( "common.continue"), systemImage: "arrow.right")
                             .font(.subheadline.weight(.semibold))
                             .foregroundStyle(game.color)
                     }
@@ -69,7 +69,7 @@ struct GameContinueDestinationView: View {
                 memoryMode: session.memoryMode
             )
         } else {
-            ContentUnavailableView("Session Expired", systemImage: "clock.arrow.circlepath")
+            ContentUnavailableView(L10n.string("Session Expired"), systemImage: "clock.arrow.circlepath")
         }
     }
 }
@@ -102,7 +102,6 @@ struct GameDailyChallengeCard: View {
 
     let tasks: [DailyChallengeTask]
     let completedIDs: Set<String>
-    let xpReward: Int
 
     private let game = GameDefinition.definition(for: .dailyChallenge)
 
@@ -111,7 +110,7 @@ struct GameDailyChallengeCard: View {
             DailyChallengeView()
         } label: {
             VStack(alignment: .leading, spacing: 16) {
-                Text("games.daily_challenge")
+                Text(l10n: "games.daily_challenge")
                     .font(.headline.weight(.bold))
                     .foregroundStyle(.primary)
 
@@ -119,16 +118,6 @@ struct GameDailyChallengeCard: View {
                     ForEach(tasks) { task in
                         missionRow(task)
                     }
-                }
-
-                HStack {
-                    Text("games.hub.reward")
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
-                    Spacer()
-                    Text("+\(xpReward) XP")
-                        .font(.headline.weight(.bold))
-                        .foregroundStyle(.purple)
                 }
             }
             .padding(20)
@@ -155,103 +144,6 @@ struct GameDailyChallengeCard: View {
                 .foregroundStyle(isDone ? .secondary : .primary)
                 .strikethrough(isDone, color: .secondary)
         }
-    }
-}
-
-// MARK: - Player Stats (Apple Fitness style)
-
-struct GamesPlayerStatsSection: View {
-
-    let todayXP: Int
-    let weeklyXP: Int
-    let streak: Int
-    let gamesPlayed: Int
-    let accuracy: Int
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("games.hub.player_stats")
-                .font(.title2.weight(.bold))
-
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: AppSpacing.small) {
-                    fitnessRingCard(
-                        title: String(localized: "games.hub.todays_xp"),
-                        value: "\(todayXP)",
-                        icon: "sparkles",
-                        tint: .purple,
-                        progress: min(Double(todayXP) / 500.0, 1.0)
-                    )
-                    fitnessRingCard(
-                        title: String(localized: "games.hub.weekly_xp"),
-                        value: "\(weeklyXP)",
-                        icon: "calendar",
-                        tint: .blue,
-                        progress: min(Double(weeklyXP) / 2000.0, 1.0)
-                    )
-                    fitnessStatCard(title: String(localized: "games.hub.current_streak"), value: "\(streak)", icon: "flame.fill", tint: .orange)
-                    fitnessStatCard(title: String(localized: "games.hub.games_played"), value: "\(gamesPlayed)", icon: "gamecontroller.fill", tint: .green)
-                    fitnessStatCard(title: String(localized: "games.stat.accuracy"), value: "\(accuracy)%", icon: "target", tint: .mint)
-                }
-                .padding(.vertical, 4)
-            }
-        }
-    }
-
-    private func fitnessRingCard(title: String, value: String, icon: String, tint: Color, progress: Double) -> some View {
-        VStack(spacing: 12) {
-            ZStack {
-                Circle()
-                    .stroke(tint.opacity(0.15), lineWidth: 6)
-                    .frame(width: 56, height: 56)
-
-                Circle()
-                    .trim(from: 0, to: progress)
-                    .stroke(tint, style: StrokeStyle(lineWidth: 6, lineCap: .round))
-                    .frame(width: 56, height: 56)
-                    .rotationEffect(.degrees(-90))
-
-                Image(systemName: icon)
-                    .font(.caption.weight(.bold))
-                    .foregroundStyle(tint)
-            }
-
-            Text(value)
-                .font(.title3.weight(.bold))
-
-            Text(title)
-                .font(.caption)
-                .foregroundStyle(.secondary)
-        }
-        .frame(width: 120)
-        .padding(.vertical, 16)
-        .background {
-            RoundedRectangle(cornerRadius: AppRadius.large, style: .continuous)
-                .fill(Color(.secondarySystemGroupedBackground))
-        }
-        .studyCardShadow()
-    }
-
-    private func fitnessStatCard(title: String, value: String, icon: String, tint: Color) -> some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Image(systemName: icon)
-                .font(.title3.weight(.semibold))
-                .foregroundStyle(tint)
-
-            Text(value)
-                .font(.title2.weight(.bold))
-
-            Text(title)
-                .font(.caption)
-                .foregroundStyle(.secondary)
-        }
-        .frame(width: 120, alignment: .leading)
-        .padding(16)
-        .background {
-            RoundedRectangle(cornerRadius: AppRadius.large, style: .continuous)
-                .fill(Color(.secondarySystemGroupedBackground))
-        }
-        .studyCardShadow()
     }
 }
 

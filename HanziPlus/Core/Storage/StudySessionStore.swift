@@ -73,6 +73,13 @@ final class StudySessionStore {
         }
     }
 
+    func resetAll() {
+        sessions.removeAll()
+        lastActiveFileName = nil
+        defaults.removeObject(forKey: lastActiveKey)
+        persistSessions()
+    }
+
     func restoreWords(from loadedWords: [Word], fileName: String) -> (words: [Word], index: Int) {
         guard !loadedWords.isEmpty else {
             return ([], 0)

@@ -38,32 +38,32 @@ struct TravelTabView: View {
             if let category = TravelPhraseCategories.category(id: id) {
                 TravelCategoryView(category: category)
             } else {
-                ContentUnavailableView("Category unavailable", systemImage: "folder")
+                ContentUnavailableView(L10n.string("Category unavailable"), systemImage: "folder")
             }
 
         case .phrase(let id):
             if let phrase = TravelPhraseCatalog.phrase(id: id) {
                 TravelPhraseDetailView(phrase: phrase)
             } else {
-                ContentUnavailableView("Phrase unavailable", systemImage: "text.bubble")
+                ContentUnavailableView(L10n.string("Phrase unavailable"), systemImage: "text.bubble")
             }
 
         case .favorites:
             TravelPhraseListView(
-                title: "Favorites",
+                title: L10n.string("travel.favorites"),
                 source: .favorites,
-                emptyTitle: "No favorites yet",
+                emptyTitle: L10n.string("travel.favorites.empty_title"),
                 emptySystemImage: "heart",
-                emptyDescription: "Heart a phrase to keep it ready offline."
+                emptyDescription: L10n.string("travel.favorites.empty_desc")
             )
 
         case .recent:
             TravelPhraseListView(
-                title: "Recently Used",
+                title: L10n.string("travel.recent"),
                 source: .recent,
-                emptyTitle: "No recent phrases",
+                emptyTitle: L10n.string("travel.recent.empty_title"),
                 emptySystemImage: "clock",
-                emptyDescription: "Opened or played phrases will appear here."
+                emptyDescription: L10n.string("travel.recent.empty_desc")
             )
 
         case .studyWords:
@@ -94,4 +94,9 @@ struct TravelTabView: View {
         .environment(StudySessionStore())
         .environmentObject(FavoritesStore())
         .environment(WordCatalog())
+        .environment(JourneyStore())
+        .environment(GameScoreStore())
+        .environment(StatisticsStore())
+        .environment(AchievementStore())
+        .environment(DailyChallengeStore())
 }

@@ -22,9 +22,9 @@ struct LearnedWordsReviewView: View {
         Group {
             if learnedWords.isEmpty {
                 ContentUnavailableView(
-                    "No Learned Words",
+                    L10n.string("study.learned_words.title"),
                     systemImage: "checkmark.circle",
-                    description: Text("study.learned_words.empty")
+                    description: Text(l10n: "study.learned_words.empty")
                 )
             } else {
                 List(learnedWords) { word in
@@ -37,7 +37,7 @@ struct LearnedWordsReviewView: View {
                 .listStyle(.insetGrouped)
             }
         }
-        .navigationTitle("Learned Words")
+        .navigationTitle(L10n.string("study.learned_words.title"))
         .navigationBarTitleDisplayMode(.inline)
     }
 }

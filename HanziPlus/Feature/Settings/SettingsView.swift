@@ -9,7 +9,6 @@ import SwiftUI
 
 struct SettingsView: View {
 
-    @Environment(UserProfileStore.self) private var profileStore
     @Environment(LanguageSettingsStore.self) private var languageStore
     @Environment(\.dismiss) private var dismiss
 
@@ -26,7 +25,7 @@ struct SettingsView: View {
                             HapticService.light()
                         } label: {
                             HStack {
-                                Text(String(localized: String.LocalizationValue(language.settingsTitleKey)))
+                                Text(L10n.dynamic(language.settingsTitleKey))
                                     .foregroundStyle(.primary)
                                 Spacer()
                                 if languageStore.preference == language {
@@ -36,65 +35,47 @@ struct SettingsView: View {
                                 }
                             }
                         }
-                        .accessibilityLabel(String(localized: String.LocalizationValue(language.settingsTitleKey)))
+                        .accessibilityLabel(L10n.dynamic(language.settingsTitleKey))
                         .accessibilityAddTraits(languageStore.preference == language ? [.isSelected] : [])
                     }
                 } header: {
-                    Text("language.section")
+                    Text(l10n: "language.section")
                 } footer: {
-                    Text("language.footer")
+                    Text(l10n: "language.footer")
                 }
 
-                Section("settings.section.learning") {
-                    NavigationLink {
-                        EditLearningGoalView(profile: profileStore.profile)
-                    } label: {
-                        Label(String(localized: "settings.edit_learning_goal"), systemImage: "target")
-                    }
-                    .accessibilityLabel(String(localized: "settings.edit_learning_goal"))
-
-                    LabeledContent(
-                        String(localized: "settings.label.goal"),
-                        value: profileStore.profile.primaryGoal.title
-                    )
-                    LabeledContent(
-                        String(localized: "settings.label.level"),
-                        value: profileStore.profile.chineseLevel.title
-                    )
-                    LabeledContent(
-                        String(localized: "settings.label.daily_time"),
-                        value: profileStore.profile.dailyMinutes.title
-                    )
-                }
-
-                Section("settings.section.progress") {
+                Section(L10n.string("settings.section.progress")) {
                     YourProgressSection()
                 }
 
-                Section("settings.section.reset") {
+                Section {
                     StudyProgressResetSection()
+                } header: {
+                    Text(L10n.string("settings.section.reset"))
+                } footer: {
+                    Text(l10n: "settings.reset.all_footer")
                 }
 
-                Section("settings.section.about") {
-                    LabeledContent(String(localized: "common.version"), value: appVersion)
+                Section(L10n.string("settings.section.about")) {
+                    LabeledContent(L10n.string( "common.version"), value: appVersion)
                 }
 
                 Section {
-                    Text("settings.privacy.body")
+                    Text(l10n: "settings.privacy.body")
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 } header: {
-                    Text("settings.section.privacy")
+                    Text(l10n: "settings.section.privacy")
                 }
 
             }
-            .navigationTitle(String(localized: "settings.title"))
+            .navigationTitle(L10n.string( "settings.title"))
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button(String(localized: "common.done")) {
+                    Button(L10n.string( "common.done")) {
                         dismiss()
                     }
-                    .accessibilityLabel(String(localized: "settings.a11y.close"))
+                    .accessibilityLabel(L10n.string( "settings.a11y.close"))
                 }
             }
 
@@ -111,11 +92,20 @@ struct SettingsView: View {
 
 #Preview {
     SettingsView()
-        .environment(StatisticsStore())
+        .environment(DailyLessonStore())
         .environment(LearnedWordsStore())
-        .environment(StudySessionStore())
         .environment(SmartReviewStore())
+        .environment(GameScoreStore())
+        .environment(GamesDailyProgressStore())
+        .environment(DailyChallengeStore())
+        .environment(JourneyStore())
+        .environment(StatisticsStore())
+        .environment(StudySessionStore())
         .environment(WordCatalog())
-        .environment(UserProfileStore())
+        .environment(PathCourseStore())
+        .environment(TravelPhraseStore())
+        .environment(AchievementStore())
+        .environment(GamesPlayHistoryStore())
         .environment(LanguageSettingsStore())
+        .environmentObject(FavoritesStore())
 }

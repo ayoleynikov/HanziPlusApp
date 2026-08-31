@@ -14,9 +14,9 @@ enum SearchWordFilter: String, CaseIterable, Identifiable {
 
     var title: String {
         switch self {
-        case .all: String(localized: "search.filter.all")
-        case .favorites: String(localized: "search.filter.favorites")
-        case .learned: String(localized: "search.filter.learned")
+        case .all: L10n.string( "search.filter.all")
+        case .favorites: L10n.string( "search.filter.favorites")
+        case .learned: L10n.string( "search.filter.learned")
         }
     }
 

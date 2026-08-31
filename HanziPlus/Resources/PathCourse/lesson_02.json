@@ -1,0 +1,503 @@
+{
+  "id": "lesson_02",
+  "number": 2,
+  "sourceLessonNumbers": [
+    1,
+    2
+  ],
+  "chineseTitle": "你忙吗？",
+  "chineseSubtitle": "汉语不太难",
+  "pinyinTitle": null,
+  "translationTitle": {
+    "ru": "Ты занят?\nКитайский не слишком сложный",
+    "en": "Are you busy?\nChinese isn't too difficult",
+    "es": "¿Estás ocupado?\nEl chino no es demasiado difícil",
+    "pt-BR": "Você está ocupado?\nO chinês não é muito difícil"
+  },
+  "sections": [
+    {
+      "kind": "vocabulary",
+      "vocabulary": {
+        "id": "vocab_starter_remainder",
+        "title": {
+          "ru": "Базовые слова",
+          "en": "Basic words",
+          "es": "Palabras básicas",
+          "pt-BR": "Palavras básicas"
+        },
+        "items": [
+          {
+            "id": "kou",
+            "hanzi": "口",
+            "pinyin": "kǒu",
+            "translation": {
+              "ru": "рот",
+              "en": "mouth",
+              "es": "boca",
+              "pt-BR": "boca"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "bai",
+            "hanzi": "白",
+            "pinyin": "bái",
+            "translation": {
+              "ru": "белый",
+              "en": "white",
+              "es": "blanco",
+              "pt-BR": "branco"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "nv",
+            "hanzi": "女",
+            "pinyin": "nǚ",
+            "translation": {
+              "ru": "женщина",
+              "en": "woman",
+              "es": "mujer",
+              "pt-BR": "mulher"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "ma_horse",
+            "hanzi": "马",
+            "pinyin": "mǎ",
+            "translation": {
+              "ru": "лошадь",
+              "en": "horse",
+              "es": "caballo",
+              "pt-BR": "cavalo"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "transition",
+      "text": "Теперь продолжим разговор."
+    },
+    {
+      "kind": "dialogue",
+      "continueButtonTitle": "Изучить новые слова",
+      "showLessonHeader": true,
+      "dialogue": {
+        "id": "dialogue_main",
+        "title": null,
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "你忙吗？",
+            "pinyin": "Nǐ máng ma?",
+            "translation": {
+              "ru": "Ты занят?",
+              "en": "Are you busy?",
+              "es": "¿Estás ocupado?",
+              "pt-BR": "Você está ocupado?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "很忙。",
+            "pinyin": "Hěn máng.",
+            "translation": {
+              "ru": "Очень занят.",
+              "en": "Very busy.",
+              "es": "Muy ocupado.",
+              "pt-BR": "Muito ocupado."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "汉语难吗？",
+            "pinyin": "Hànyǔ nán ma?",
+            "translation": {
+              "ru": "Китайский язык трудный?",
+              "en": "Is Chinese difficult?",
+              "es": "¿Es difícil el chino?",
+              "pt-BR": "O chinês é difícil?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "不太难。",
+            "pinyin": "Bù tài nán.",
+            "translation": {
+              "ru": "Не слишком трудный.",
+              "en": "Not too difficult.",
+              "es": "No es demasiado difícil.",
+              "pt-BR": "Não é muito difícil."
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "vocabulary": {
+        "id": "vocab_book_2",
+        "title": {
+          "ru": "Новые слова",
+          "en": "New words",
+          "es": "Palabras nuevas",
+          "pt-BR": "Palavras novas"
+        },
+        "items": [
+          {
+            "id": "mang",
+            "hanzi": "忙",
+            "pinyin": "máng",
+            "translation": {
+              "ru": "занятый",
+              "en": "busy",
+              "es": "ocupado",
+              "pt-BR": "ocupado"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "ma_particle",
+            "hanzi": "吗",
+            "pinyin": "ma",
+            "translation": {
+              "ru": "вопросительная частица",
+              "en": "question particle",
+              "es": "partícula interrogativa",
+              "pt-BR": "partícula interrogativa"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "hen",
+            "hanzi": "很",
+            "pinyin": "hěn",
+            "translation": {
+              "ru": "очень",
+              "en": "very",
+              "es": "muy",
+              "pt-BR": "muito"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "hanyu",
+            "hanzi": "汉语",
+            "pinyin": "Hànyǔ",
+            "translation": {
+              "ru": "китайский язык",
+              "en": "Chinese language",
+              "es": "idioma chino",
+              "pt-BR": "língua chinesa"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "nan",
+            "hanzi": "难",
+            "pinyin": "nán",
+            "translation": {
+              "ru": "трудный",
+              "en": "difficult",
+              "es": "difícil",
+              "pt-BR": "difícil"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "tai",
+            "hanzi": "太",
+            "pinyin": "tài",
+            "translation": {
+              "ru": "слишком; чрезмерно",
+              "en": "too; excessively",
+              "es": "demasiado",
+              "pt-BR": "demais"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "baba",
+            "hanzi": "爸爸",
+            "pinyin": "bàba",
+            "translation": {
+              "ru": "папа",
+              "en": "dad",
+              "es": "papá",
+              "pt-BR": "pai"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "mama",
+            "hanzi": "妈妈",
+            "pinyin": "māma",
+            "translation": {
+              "ru": "мама",
+              "en": "mom",
+              "es": "mamá",
+              "pt-BR": "mãe"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "ta_m",
+            "hanzi": "他",
+            "pinyin": "tā",
+            "translation": {
+              "ru": "он",
+              "en": "he",
+              "es": "él",
+              "pt-BR": "ele"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "ta_f",
+            "hanzi": "她",
+            "pinyin": "tā",
+            "translation": {
+              "ru": "она",
+              "en": "she",
+              "es": "ella",
+              "pt-BR": "ela"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "nan_gender",
+            "hanzi": "男",
+            "pinyin": "nán",
+            "translation": {
+              "ru": "мужской",
+              "en": "male / masculine",
+              "es": "masculino",
+              "pt-BR": "masculino"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "gege",
+            "hanzi": "哥哥",
+            "pinyin": "gēge",
+            "translation": {
+              "ru": "старший брат",
+              "en": "older brother",
+              "es": "hermano mayor",
+              "pt-BR": "irmão mais velho"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "didi",
+            "hanzi": "弟弟",
+            "pinyin": "dìdi",
+            "translation": {
+              "ru": "младший брат",
+              "en": "younger brother",
+              "es": "hermano menor",
+              "pt-BR": "irmão mais novo"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          },
+          {
+            "id": "meimei",
+            "hanzi": "妹妹",
+            "pinyin": "mèimei",
+            "translation": {
+              "ru": "младшая сестра",
+              "en": "younger sister",
+              "es": "hermana menor",
+              "pt-BR": "irmã mais nova"
+            },
+            "audioKey": null,
+            "countsInLessonTotal": true,
+            "isPhraseExample": false
+          }
+        ]
+      }
+    },
+    {
+      "kind": "vocabularySummary",
+      "groups": [
+        {
+          "id": "vocab_starter_remainder",
+          "title": {
+            "ru": "Базовые слова",
+            "en": "Basic words",
+            "es": "Palabras básicas",
+            "pt-BR": "Palavras básicas"
+          },
+          "items": []
+        },
+        {
+          "id": "vocab_book_2",
+          "title": {
+            "ru": "Новые слова",
+            "en": "New words",
+            "es": "Palabras nuevas",
+            "pt-BR": "Palavras novas"
+          },
+          "items": []
+        }
+      ]
+    },
+    {
+      "kind": "dialogueRepeat",
+      "title": "Прочитай диалог ещё раз",
+      "dialogue": {
+        "id": "dialogue_main",
+        "title": null,
+        "lines": [
+          {
+            "speaker": "A",
+            "hanzi": "你忙吗？",
+            "pinyin": "Nǐ máng ma?",
+            "translation": {
+              "ru": "Ты занят?",
+              "en": "Are you busy?",
+              "es": "¿Estás ocupado?",
+              "pt-BR": "Você está ocupado?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "很忙。",
+            "pinyin": "Hěn máng.",
+            "translation": {
+              "ru": "Очень занят.",
+              "en": "Very busy.",
+              "es": "Muy ocupado.",
+              "pt-BR": "Muito ocupado."
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "A",
+            "hanzi": "汉语难吗？",
+            "pinyin": "Hànyǔ nán ma?",
+            "translation": {
+              "ru": "Китайский язык трудный?",
+              "en": "Is Chinese difficult?",
+              "es": "¿Es difícil el chino?",
+              "pt-BR": "O chinês é difícil?"
+            },
+            "audioKey": null
+          },
+          {
+            "speaker": "B",
+            "hanzi": "不太难。",
+            "pinyin": "Bù tài nán.",
+            "translation": {
+              "ru": "Не слишком трудный.",
+              "en": "Not too difficult.",
+              "es": "No es demasiado difícil.",
+              "pt-BR": "Não é muito difícil."
+            },
+            "audioKey": null
+          }
+        ]
+      }
+    },
+    {
+      "kind": "quizChineseToTranslation"
+    },
+    {
+      "kind": "quizTranslationToChinese"
+    },
+    {
+      "kind": "examples",
+      "items": [
+        {
+          "id": "ex_ni_mang_ma",
+          "hanzi": "你忙吗？",
+          "pinyin": "Nǐ máng ma?",
+          "translation": {
+            "ru": "Ты занят?",
+            "en": "Are you busy?",
+            "es": "¿Estás ocupado?",
+            "pt-BR": "Você está ocupado?"
+          }
+        },
+        {
+          "id": "ex_hen_mang",
+          "hanzi": "很忙。",
+          "pinyin": "Hěn máng.",
+          "translation": {
+            "ru": "Очень занят.",
+            "en": "Very busy.",
+            "es": "Muy ocupado.",
+            "pt-BR": "Muito ocupado."
+          }
+        },
+        {
+          "id": "ex_hanyu_nan_ma",
+          "hanzi": "汉语难吗？",
+          "pinyin": "Hànyǔ nán ma?",
+          "translation": {
+            "ru": "Китайский язык трудный?",
+            "en": "Is Chinese difficult?",
+            "es": "¿Es difícil el chino?",
+            "pt-BR": "O chinês é difícil?"
+          }
+        },
+        {
+          "id": "ex_hanyu_bu_nan",
+          "hanzi": "汉语不难。",
+          "pinyin": "Hànyǔ bù nán.",
+          "translation": {
+            "ru": "Китайский язык нетрудный.",
+            "en": "Chinese isn't difficult.",
+            "es": "El chino no es difícil.",
+            "pt-BR": "O chinês não é difícil."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "completion"
+    }
+  ]
+}

@@ -9,39 +9,39 @@ struct CityDetailView: View {
 
     let city: JourneyCity
     let progress: JourneyProgress
+    var onDismissPresentation: (() -> Void)? = nil
 
     @Environment(JourneyStore.self) private var journeyStore
     @Environment(AppTabRouter.self) private var tabRouter
 
+    @State private var contentRevealed = false
+
     private var isCompleted: Bool { journeyStore.isCompleted(city) }
-    private var fraction: Double { journeyStore.progressFraction(for: city, progress: progress) }
 
     var body: some View {
         ScrollView {
             VStack(spacing: AppSpacing.large) {
-                JourneyCityHeroCard(city: city)
+                JourneyCityHeroCard(city: city, animateEntrance: true)
 
-                progressSection
+                Group {
+                    achievementBadge
 
-                JourneyCityInfoGrid(city: city)
+                    JourneyCityInfoGrid(city: city)
 
-                achievementBadge
+                    JourneyFactsSection(city: city)
 
-                JourneyFactsSection(city: city)
+                    JourneyMustVisitSection(city: city)
 
-                JourneyMustVisitSection(city: city)
+                    JourneyVocabularySection(city: city)
 
-                JourneyVocabularySection(city: city)
+                    JourneyMiniActivityCard(city: city)
 
-                JourneyMiniActivityCard(city: city)
+                    souvenirCard
 
-                souvenirCard
-
-                if !isCompleted {
-                    requirementsCard
+                    actionButtons
                 }
-
-                actionButtons
+                .opacity(contentRevealed ? 1 : 0)
+                .offset(y: contentRevealed ? 0 : 18)
             }
             .padding(.horizontal, AppSpacing.medium)
             .padding(.bottom, AppSpacing.extraLarge)
@@ -56,47 +56,20 @@ struct CityDetailView: View {
         )
         .navigationTitle(city.localizedName)
         .navigationBarTitleDisplayMode(.inline)
-    }
+        .onAppear {
+            let isFirstVisit = !journeyStore.isCompleted(city)
+            journeyStore.markVisited(city)
 
-    private var progressSection: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack {
-                Text("journey.detail.chapter_progress")
-                    .font(.headline.weight(.semibold))
-                Spacer()
-                if isCompleted {
-                    Label("Complete", systemImage: "checkmark.seal.fill")
-                        .font(.caption.weight(.semibold))
-                        .foregroundStyle(city.theme.primary)
-                }
+            if isFirstVisit {
+                HapticService.success()
+            } else {
+                HapticService.light()
             }
 
-            HStack(spacing: AppSpacing.medium) {
-                metric("XP", "\(progress.totalXP)")
-                metric("Words", "\(progress.learnedWords)")
-                metric("Games", "\(progress.gamesPlayed)")
-                metric(String(localized: "common.done_short"), "\(Int(fraction * 100))%")
+            withAnimation(.spring(response: 0.58, dampingFraction: 0.82)) {
+                contentRevealed = true
             }
-
-            AnimatedProgressBar(progress: fraction, tint: city.theme.primary, height: 7)
         }
-        .padding(AppSpacing.medium)
-        .background {
-            RoundedRectangle(cornerRadius: AppRadius.large, style: .continuous)
-                .fill(.ultraThinMaterial)
-        }
-        .studyCardShadow()
-    }
-
-    private func metric(_ title: String, _ value: String) -> some View {
-        VStack(spacing: 4) {
-            Text(value)
-                .font(.subheadline.weight(.bold))
-            Text(title)
-                .font(.caption2)
-                .foregroundStyle(.secondary)
-        }
-        .frame(maxWidth: .infinity)
     }
 
     private var achievementBadge: some View {
@@ -106,7 +79,7 @@ struct CityDetailView: View {
                 .foregroundStyle(city.theme.secondary)
 
             VStack(alignment: .leading, spacing: 4) {
-                Text("journey.detail.city_badge")
+                Text(l10n: "journey.detail.city_badge")
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(.secondary)
                 Text(city.localizedAchievementName)
@@ -133,18 +106,14 @@ struct CityDetailView: View {
                 .font(.system(size: 44))
 
             VStack(alignment: .leading, spacing: 4) {
-                Text("journey.detail.souvenir")
+                Text(l10n: "journey.detail.souvenir")
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(.secondary)
                 Text(city.localizedSouvenirName)
                     .font(.headline.weight(.semibold))
 
                 if isCompleted, let record = journeyStore.completion(for: city.id) {
-                    Text(String(localized: "journey.detail.collected_on \(record.completedAt.formatted(date: .abbreviated, time: .omitted))"))
-                        .font(.caption)
-                        .foregroundStyle(.tertiary)
-                } else {
-                    Text("journey.detail.complete_to_collect")
+                    Text(L10n.string("journey.detail.collected_on \(L10n.abbreviatedDate(record.completedAt))"))
                         .font(.caption)
                         .foregroundStyle(.tertiary)
                 }
@@ -164,29 +133,13 @@ struct CityDetailView: View {
         }
     }
 
-    private var requirementsCard: some View {
-        VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("journey.detail.unlock_requirements")
-                .font(.headline.weight(.semibold))
-
-            ForEach(city.requirements.evaluations(for: progress, dailyStreak: progress.dailyStreak)) { evaluation in
-                RequirementRowView(evaluation: evaluation, tint: city.theme.primary)
-            }
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .padding(AppSpacing.medium)
-        .background {
-            RoundedRectangle(cornerRadius: AppRadius.large, style: .continuous)
-                .fill(Color(.secondarySystemGroupedBackground))
-        }
-    }
-
     private var actionButtons: some View {
         VStack(spacing: 12) {
             Button {
+                onDismissPresentation?()
                 tabRouter.switchToStudy()
             } label: {
-                Text("journey.cta.continue_learning")
+                Text(l10n: "journey.cta.continue_learning")
                     .font(.body.weight(.semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
@@ -196,9 +149,10 @@ struct CityDetailView: View {
             .buttonStyle(GamePressButtonStyle())
 
             Button {
+                onDismissPresentation?()
                 tabRouter.switchToGames()
             } label: {
-                Text("journey.cta.play_games")
+                Text(l10n: "journey.cta.play_games")
                     .font(.body.weight(.semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 14)

@@ -46,9 +46,11 @@ final class SpeechService {
     }
 
     /// Speaks only when system output volume is above zero.
-    func speakIfAudible(_ text: String, rate: Rate = .normal) {
-        guard canAutoPlay else { return }
+    @discardableResult
+    func speakIfAudible(_ text: String, rate: Rate = .normal) -> Bool {
+        guard canAutoPlay else { return false }
         speak(text, rate: rate)
+        return true
     }
 
     func stop() {

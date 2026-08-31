@@ -9,17 +9,23 @@ import SwiftUI
 
 struct JourneyCityHeroCard: View {
     let city: JourneyCity
+    var animateEntrance = false
+
     @State private var parallax: CGFloat = 0
+    @State private var heroRevealed = false
+    @State private var emojiPop = false
 
     var body: some View {
         GeometryReader { geo in
             let offset = parallax * 0.08
 
             ZStack(alignment: .bottomLeading) {
+                JourneyCityHeroArtwork(city: city)
+
                 RoundedRectangle(cornerRadius: AppRadius.studyCard, style: .continuous)
                     .fill(
                         LinearGradient(
-                            colors: city.theme.heroGradient,
+                            colors: city.theme.heroGradient.map { $0.opacity(0.72) },
                             startPoint: .topLeading,
                             endPoint: .bottomTrailing
                         )
@@ -47,6 +53,8 @@ struct JourneyCityHeroCard: View {
                         Text(city.emoji)
                             .font(.system(size: 52))
                             .shadow(color: .black.opacity(0.15), radius: 8, y: 4)
+                            .scaleEffect(animateEntrance ? (emojiPop ? 1 : 0.2) : 1)
+                            .rotationEffect(.degrees(animateEntrance && emojiPop ? 0 : -12))
 
                         VStack(alignment: .leading, spacing: 4) {
                             Text("🇨🇳 \(city.localizedName)")
@@ -56,21 +64,35 @@ struct JourneyCityHeroCard: View {
                                 .font(.subheadline.weight(.medium))
                                 .foregroundStyle(.white.opacity(0.85))
                         }
+                        .opacity(animateEntrance ? (heroRevealed ? 1 : 0) : 1)
+                        .offset(x: animateEntrance ? (heroRevealed ? 0 : 16) : 0)
                     }
 
                     Text(city.localizedIntroduction)
                         .font(.subheadline)
                         .foregroundStyle(.white.opacity(0.92))
                         .fixedSize(horizontal: false, vertical: true)
+                        .opacity(animateEntrance ? (heroRevealed ? 1 : 0) : 1)
+                        .offset(y: animateEntrance ? (heroRevealed ? 0 : 10) : 0)
                 }
                 .padding(AppSpacing.medium)
             }
             .frame(height: 240)
             .clipShape(RoundedRectangle(cornerRadius: AppRadius.studyCard, style: .continuous))
             .studyCardShadow()
+            .scaleEffect(animateEntrance ? (heroRevealed ? 1 : 0.94) : 1)
+            .opacity(animateEntrance ? (heroRevealed ? 1 : 0.85) : 1)
             .onAppear {
                 withAnimation(.easeInOut(duration: 3).repeatForever(autoreverses: true)) {
                     parallax = 12
+                }
+
+                guard animateEntrance else { return }
+                withAnimation(.spring(response: 0.52, dampingFraction: 0.68)) {
+                    heroRevealed = true
+                }
+                withAnimation(.spring(response: 0.45, dampingFraction: 0.55).delay(0.08)) {
+                    emojiPop = true
                 }
             }
         }
@@ -85,13 +107,13 @@ struct JourneyCityInfoGrid: View {
 
     var body: some View {
         LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: AppSpacing.small) {
-            JourneyInfoTile(icon: "person.3.fill", title: String(localized: "journey.info.population"), value: city.localizedPopulation, tint: city.theme.primary)
-            JourneyInfoTile(icon: "mappin.and.ellipse", title: String(localized: "journey.info.province"), value: city.localizedProvince, tint: city.theme.primary)
-            JourneyInfoTile(icon: "star.fill", title: String(localized: "journey.info.famous_for"), value: city.localizedFamousFor, tint: city.theme.secondary)
-            JourneyInfoTile(icon: "sun.max.fill", title: String(localized: "journey.info.best_season"), value: city.localizedBestSeason, tint: city.theme.secondary)
+            JourneyInfoTile(icon: "person.3.fill", title: L10n.string( "journey.info.population"), value: city.localizedPopulation, tint: city.theme.primary)
+            JourneyInfoTile(icon: "mappin.and.ellipse", title: L10n.string( "journey.info.province"), value: city.localizedProvince, tint: city.theme.primary)
+            JourneyInfoTile(icon: "star.fill", title: L10n.string( "journey.info.famous_for"), value: city.localizedFamousFor, tint: city.theme.secondary)
+            JourneyInfoTile(icon: "sun.max.fill", title: L10n.string( "journey.info.best_season"), value: city.localizedBestSeason, tint: city.theme.secondary)
         }
 
-        JourneyInfoTile(icon: "fork.knife", title: String(localized: "journey.info.local_food"), value: city.localizedLocalFood, tint: city.theme.primary, fullWidth: true)
+        JourneyInfoTile(icon: "fork.knife", title: L10n.string( "journey.info.local_food"), value: city.localizedLocalFood, tint: city.theme.primary, fullWidth: true)
     }
 }
 
@@ -136,7 +158,7 @@ struct JourneyFactsSection: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            sectionHeader(String(localized: "journey.section.facts_title"), icon: "lightbulb.max.fill")
+            sectionHeader(L10n.string( "journey.section.facts_title"), icon: "lightbulb.max.fill")
 
             ForEach(city.facts) { fact in
                 HStack(alignment: .top, spacing: 12) {
@@ -145,7 +167,7 @@ struct JourneyFactsSection: View {
                         .foregroundStyle(city.theme.primary)
                         .frame(width: 28)
 
-                    Text(fact.text)
+                    Text(fact.localizedText)
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                         .fixedSize(horizontal: false, vertical: true)
@@ -166,19 +188,34 @@ struct JourneyFactsSection: View {
 struct JourneyMustVisitSection: View {
     let city: JourneyCity
 
+    @State private var selectedPlace: JourneyAttraction?
+
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            sectionHeader(String(localized: "journey.section.must_visit_title"), icon: "camera.fill")
+            sectionHeader(L10n.string("journey.section.must_visit_title"), icon: "paintpalette.fill")
+
+            Text(l10n: "journey.section.must_visit_subtitle")
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+                .fixedSize(horizontal: false, vertical: true)
 
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 14) {
                     ForEach(city.attractions) { place in
-                        JourneyAttractionCard(place: place, tint: city.theme.primary)
+                        JourneyAttractionCard(
+                            place: place,
+                            tint: city.theme.primary
+                        ) {
+                            selectedPlace = place
+                        }
                     }
                 }
                 .padding(.horizontal, 2)
                 .padding(.vertical, 4)
             }
+        }
+        .sheet(item: $selectedPlace) { place in
+            JourneyAttractionDetailView(place: place, city: city)
         }
     }
 }
@@ -186,6 +223,8 @@ struct JourneyMustVisitSection: View {
 struct JourneyAttractionCard: View {
     let place: JourneyAttraction
     let tint: Color
+    let onTap: () -> Void
+
     @State private var pressed = false
 
     var body: some View {
@@ -194,40 +233,56 @@ struct JourneyAttractionCard: View {
             withAnimation(.spring(response: 0.32, dampingFraction: 0.62)) {
                 pressed = true
             }
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
                 withAnimation(.spring(response: 0.4, dampingFraction: 0.75)) {
                     pressed = false
                 }
+                onTap()
             }
         } label: {
             VStack(alignment: .leading, spacing: 10) {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 20, style: .continuous)
-                        .fill(
-                            LinearGradient(
-                                colors: [tint.opacity(0.35), tint.opacity(0.12)],
-                                startPoint: .topLeading,
-                                endPoint: .bottomTrailing
-                            )
-                        )
-                        .frame(width: 160, height: 110)
+                ZStack(alignment: .topLeading) {
+                    JourneyAttractionArtwork(
+                        style: place.visualStyle,
+                        tint: tint,
+                        height: 130,
+                        cornerRadius: 18
+                    )
 
-                    Text(place.emoji)
-                        .font(.system(size: 44))
+                    Text(place.era.localizedLabel)
+                        .font(.caption2.weight(.bold))
+                        .foregroundStyle(place.era == .modern ? .white : tint)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .background {
+                            Capsule()
+                                .fill(
+                                    place.era == .modern
+                                        ? tint.opacity(0.9)
+                                        : Color(.systemBackground).opacity(0.88)
+                                )
+                        }
+                        .padding(8)
                 }
 
-                Text(place.name)
+                Text(place.localizedName)
                     .font(.subheadline.weight(.bold))
                     .foregroundStyle(.primary)
+                    .lineLimit(2)
+                    .multilineTextAlignment(.leading)
 
-                Text(place.description)
+                Text(place.localizedDescription)
                     .font(.caption)
                     .foregroundStyle(.secondary)
-                    .lineLimit(2)
+                    .lineLimit(3)
                     .fixedSize(horizontal: false, vertical: true)
+
+                Label(L10n.string("journey.attraction.read_more"), systemImage: "arrow.up.right")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(tint)
             }
-            .frame(width: 160)
-            .scaleEffect(pressed ? 0.94 : 1)
+            .frame(width: 220)
+            .scaleEffect(pressed ? 0.96 : 1)
         }
         .buttonStyle(.plain)
     }
@@ -240,7 +295,7 @@ struct JourneyVocabularySection: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            sectionHeader(String(localized: "journey.section.vocab_title"), icon: "character.book.closed.fill")
+            sectionHeader(L10n.string( "journey.section.vocab_title"), icon: "character.book.closed.fill")
 
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 10) {
                 ForEach(city.vocabulary) { word in
@@ -274,7 +329,7 @@ struct JourneyMiniActivityCard: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            sectionHeader(String(localized: "journey.section.mini_activity_title"), icon: "gamecontroller.fill")
+            sectionHeader(L10n.string( "journey.section.mini_activity_title"), icon: "gamecontroller.fill")
 
             Button {
                 HapticService.medium()
@@ -294,7 +349,7 @@ struct JourneyMiniActivityCard: View {
                         Text(city.localizedMiniTitle)
                             .font(.headline.weight(.semibold))
                             .foregroundStyle(.primary)
-                        Text("~25 sec · +\(city.miniActivity.xpReward) XP")
+                        Text(L10n.string("journey.mini.seconds \(25)"))
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }
@@ -350,7 +405,7 @@ struct JourneyPassportStrip: View {
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.small) {
             HStack {
-                Label(String(localized: "journey.link.travel_collection"), systemImage: "rectangle.stack.fill")
+                Label(L10n.string( "journey.link.travel_collection"), systemImage: "rectangle.stack.fill")
                     .font(.headline.weight(.bold))
                 Spacer()
                 Text("\(journeyStore.collectedSouvenirs.count)/\(JourneyCityCatalog.all.count)")

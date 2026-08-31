@@ -56,8 +56,7 @@ def select_words(
         return review[: min(target_count, len(review))], True
 
     selected: list[str] = []
-    fresh = seeded_shuffle(unlearned, seed)
-    selected.extend(fresh[:target_count])
+    selected.extend(unlearned[:target_count])
 
     if len(selected) < target_count:
         for hanzi in seeded_shuffle(learned_list, (seed + 17) & 0xFFFFFFFFFFFFFFFF):
@@ -132,9 +131,13 @@ def main() -> int:
         errors += 1
     else:
         print("  same dateKey → identical order: OK")
+    expected_fresh = all_hanzi[:8]
+    if a[: len(expected_fresh)] == expected_fresh:
+        print("  fresh lesson starts with curriculum order: OK")
+    else:
+        fail(f"expected first words {expected_fresh}, got {a}")
+        errors += 1
     if a == c:
-        fail("different days produced identical order (unlikely but weak check)")
-        # not an error — possible coincidence; warn only
         print("  WARN: adjacent days matched (rare but possible)")
     else:
         print("  different dateKey → different order: OK")

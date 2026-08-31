@@ -9,41 +9,39 @@ import SwiftUI
 struct MainTabView: View {
 
     @Environment(AppTabRouter.self) private var tabRouter
+    @Environment(LanguageSettingsStore.self) private var languageStore
 
     var body: some View {
         @Bindable var tabRouter = tabRouter
+        let _ = languageStore.refreshToken
 
         TabView(selection: $tabRouter.selectedTab) {
 
             TodayView()
                 .tag(AppTab.today)
                 .tabItem {
-                    Label(String(localized: "tab.today"), systemImage: "sun.max.fill")
+                    Label(L10n.string( "tab.today"), systemImage: "sun.max.fill")
                 }
 
             StudySetsView()
                 .tag(AppTab.learn)
                 .tabItem {
-                    Label(String(localized: "tab.learn"), systemImage: "book.fill")
+                    Label(L10n.string( "tab.learn"), systemImage: "book.fill")
                 }
+                .accessibilityIdentifier("tab_learn")
 
             TravelTabView()
                 .tag(AppTab.travel)
                 .tabItem {
-                    Label(String(localized: "tab.travel"), systemImage: "airplane")
+                    Label(L10n.string( "tab.travel"), systemImage: "airplane")
                 }
 
-            GamesView()
+            GamesHubView()
                 .tag(AppTab.games)
                 .tabItem {
-                    Label(String(localized: "tab.games"), systemImage: "gamecontroller.fill")
+                    Label(L10n.string( "tab.games"), systemImage: "gamecontroller.fill")
                 }
 
-            JourneyView()
-                .tag(AppTab.journey)
-                .tabItem {
-                    Label(String(localized: "tab.journey"), systemImage: "globe.asia.australia.fill")
-                }
         }
     }
 }

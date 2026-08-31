@@ -15,17 +15,17 @@ enum PrimaryGoal: String, Codable, CaseIterable, Identifiable {
 
     var title: String {
         switch self {
-        case .learnChinese: String(localized: "profile.goal.learn_chinese")
-        case .travelToChina: String(localized: "profile.goal.travel_to_china")
-        case .both: String(localized: "profile.goal.both")
+        case .learnChinese: L10n.string( "profile.goal.learn_chinese")
+        case .travelToChina: L10n.string( "profile.goal.travel_to_china")
+        case .both: L10n.string( "profile.goal.both")
         }
     }
 
     var subtitle: String {
         switch self {
-        case .learnChinese: String(localized: "profile.goal.learn_chinese.subtitle")
-        case .travelToChina: String(localized: "profile.goal.travel_to_china.subtitle")
-        case .both: String(localized: "profile.goal.both.subtitle")
+        case .learnChinese: L10n.string( "profile.goal.learn_chinese.subtitle")
+        case .travelToChina: L10n.string( "profile.goal.travel_to_china.subtitle")
+        case .both: L10n.string( "profile.goal.both.subtitle")
         }
     }
 
@@ -55,17 +55,17 @@ enum ChineseLevel: String, Codable, CaseIterable, Identifiable {
 
     var title: String {
         switch self {
-        case .completeBeginner: String(localized: "profile.level.complete_beginner")
-        case .beginner: String(localized: "profile.level.beginner")
-        case .intermediate: String(localized: "profile.level.intermediate")
+        case .completeBeginner: L10n.string( "profile.level.complete_beginner")
+        case .beginner: L10n.string( "profile.level.beginner")
+        case .intermediate: L10n.string( "profile.level.intermediate")
         }
     }
 
     var subtitle: String {
         switch self {
-        case .completeBeginner: String(localized: "profile.level.complete_beginner.subtitle")
-        case .beginner: String(localized: "profile.level.beginner.subtitle")
-        case .intermediate: String(localized: "profile.level.intermediate.subtitle")
+        case .completeBeginner: L10n.string( "profile.level.complete_beginner.subtitle")
+        case .beginner: L10n.string( "profile.level.beginner.subtitle")
+        case .intermediate: L10n.string( "profile.level.intermediate.subtitle")
         }
     }
 
@@ -106,9 +106,9 @@ enum DailyMinutes: Int, Codable, CaseIterable, Identifiable {
 
     var subtitle: String {
         switch self {
-        case .five: String(localized: "profile.minutes.five.subtitle")
-        case .ten: String(localized: "profile.minutes.ten.subtitle")
-        case .fifteen: String(localized: "profile.minutes.fifteen.subtitle")
+        case .five: L10n.string( "profile.minutes.five.subtitle")
+        case .ten: L10n.string( "profile.minutes.ten.subtitle")
+        case .fifteen: L10n.string( "profile.minutes.fifteen.subtitle")
         }
     }
 

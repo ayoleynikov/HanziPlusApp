@@ -7,47 +7,77 @@ import Foundation
 
 extension JourneyCity {
     var localizedName: String {
-        String(localized: String.LocalizationValue("journey.city.\(id).name"))
+        L10n.dynamic("journey.city.\(id).name")
     }
 
     var localizedProvince: String {
-        String(localized: String.LocalizationValue("journey.city.\(id).province"))
+        L10n.dynamic("journey.city.\(id).province")
     }
 
     var localizedPopulation: String {
-        String(localized: String.LocalizationValue("journey.city.\(id).population"))
+        L10n.dynamic("journey.city.\(id).population")
     }
 
     var localizedIntroduction: String {
-        String(localized: String.LocalizationValue("journey.city.\(id).introduction"))
+        L10n.dynamic("journey.city.\(id).introduction")
     }
 
     var localizedFamousFor: String {
-        String(localized: String.LocalizationValue("journey.city.\(id).famousFor"))
+        L10n.dynamic("journey.city.\(id).famousFor")
     }
 
     var localizedBestSeason: String {
-        String(localized: String.LocalizationValue("journey.city.\(id).bestSeason"))
+        L10n.dynamic("journey.city.\(id).bestSeason")
     }
 
     var localizedLocalFood: String {
-        String(localized: String.LocalizationValue("journey.city.\(id).localFood"))
+        L10n.dynamic("journey.city.\(id).localFood")
     }
 
     var localizedSouvenirName: String {
-        String(localized: String.LocalizationValue("journey.city.\(id).souvenirName"))
+        L10n.dynamic("journey.city.\(id).souvenirName")
     }
 
     var localizedAchievementName: String {
-        String(localized: String.LocalizationValue("journey.city.\(id).localAchievement"))
+        L10n.dynamic("journey.city.\(id).localAchievement")
     }
 
     var localizedMiniTitle: String {
-        String(localized: String.LocalizationValue("journey.city.\(id).mini.title"))
+        L10n.dynamic("journey.city.\(id).mini.title")
     }
 
     var localizedMiniInstruction: String {
-        String(localized: String.LocalizationValue("journey.city.\(id).mini.instruction"))
+        L10n.dynamic("journey.city.\(id).mini.instruction")
+    }
+}
+
+extension JourneyFact {
+    var localizedText: String {
+        L10n.dynamic("journey.fact.\(id)")
+    }
+}
+
+extension JourneyAttraction {
+    var localizedName: String {
+        L10n.dynamic("journey.attraction.\(id).name")
+    }
+
+    var localizedDescription: String {
+        L10n.dynamic("journey.attraction.\(id).description")
+    }
+
+    var localizedDetail: String {
+        let key = "journey.attraction.\(id).detail"
+        let detail = L10n.dynamic(key)
+        guard detail != key else { return localizedDescription }
+        return detail
+    }
+
+    var localizedTip: String {
+        let key = "journey.attraction.\(id).tip"
+        let tip = L10n.dynamic(key)
+        guard tip != key else { return L10n.string("journey.attraction.tip_fallback") }
+        return tip
     }
 }
 

@@ -26,7 +26,7 @@ struct StudyProgressHeader: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack(alignment: .firstTextBaseline) {
-                Text(String(localized: "study.progress.card_n \(currentCardIndex + 1)"))
+                Text(L10n.string( "study.progress.card_n \(currentCardIndex + 1)"))
                     .font(.subheadline.weight(.medium))
                     .foregroundStyle(.secondary)
 
@@ -44,7 +44,7 @@ struct StudyProgressHeader: View {
                             .foregroundStyle(.tertiary)
                     }
 
-                    Text("\(percentage)%")
+                    Text(L10n.percent(percentage))
                         .font(.subheadline.weight(.semibold))
                         .foregroundStyle(tint)
                         .contentTransition(.numericText())

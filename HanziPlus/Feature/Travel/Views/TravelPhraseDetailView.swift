@@ -37,7 +37,7 @@ struct TravelPhraseDetailView: View {
 
                 if let note = phrase.localizedUsageNote(), !note.isEmpty {
                     VStack(alignment: .leading, spacing: 6) {
-                        Text("travel.detail.usage")
+                        Text(l10n: "travel.detail.usage")
                             .font(.subheadline.weight(.semibold))
                         Text(note)
                             .font(.subheadline)
@@ -53,7 +53,7 @@ struct TravelPhraseDetailView: View {
 
                 if let replies = phrase.possibleReplies, !replies.isEmpty {
                     VStack(alignment: .leading, spacing: 12) {
-                        Text("travel.detail.replies")
+                        Text(l10n: "travel.detail.replies")
                             .font(.headline)
 
                         ForEach(replies) { reply in
@@ -78,20 +78,20 @@ struct TravelPhraseDetailView: View {
                 }
 
                 VStack(spacing: 12) {
-                    actionButton(title: String(localized: "common.play"), systemImage: "speaker.wave.2.fill", tint: .orange) {
+                    actionButton(title: L10n.string( "common.play"), systemImage: "speaker.wave.2.fill", tint: .orange) {
                         markUsed()
                         HapticService.light()
                         SpeechService.shared.speak(phrase.simplifiedChinese)
                     }
 
-                    actionButton(title: String(localized: "travel.detail.play_slowly"), systemImage: "tortoise.fill", tint: .blue) {
+                    actionButton(title: L10n.string( "travel.detail.play_slowly"), systemImage: "tortoise.fill", tint: .blue) {
                         markUsed()
                         HapticService.light()
                         SpeechService.shared.speakSlow(phrase.simplifiedChinese)
                     }
 
                     actionButton(
-                        title: isFavorite ? String(localized: "travel.detail.favorited") : String(localized: "travel.detail.favorite"),
+                        title: isFavorite ? L10n.string( "travel.detail.favorited") : L10n.string( "travel.detail.favorite"),
                         systemImage: isFavorite ? "heart.fill" : "heart",
                         tint: .red
                     ) {
@@ -99,14 +99,14 @@ struct TravelPhraseDetailView: View {
                         phraseStore.toggleFavorite(phrase.id)
                     }
 
-                    actionButton(title: didCopy ? String(localized: "travel.detail.copied") : String(localized: "travel.detail.copy_chinese"), systemImage: "doc.on.doc", tint: .indigo) {
+                    actionButton(title: didCopy ? L10n.string( "travel.detail.copied") : L10n.string( "travel.detail.copy_chinese"), systemImage: "doc.on.doc", tint: .indigo) {
                         UIPasteboard.general.string = phrase.simplifiedChinese
                         didCopy = true
                         HapticService.success()
                         markUsed()
                     }
 
-                    actionButton(title: String(localized: "travel.detail.show_to_local"), systemImage: "iphone", tint: .primary) {
+                    actionButton(title: L10n.string( "travel.detail.show_to_local"), systemImage: "iphone", tint: .primary) {
                         markUsed()
                         showToLocal = true
                     }
@@ -116,7 +116,7 @@ struct TravelPhraseDetailView: View {
             .padding(.bottom, AppSpacing.extraLarge)
         }
         .background(Color(.systemGroupedBackground))
-        .navigationTitle(String(localized: "travel.detail.nav"))
+        .navigationTitle(L10n.string( "travel.detail.nav"))
         .navigationBarTitleDisplayMode(.inline)
         .onAppear { markUsed() }
         .fullScreenCover(isPresented: $showToLocal) {

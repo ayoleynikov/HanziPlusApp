@@ -35,7 +35,7 @@ struct GameStudySetPickerView: View {
                     .padding(.top, AppSpacing.small)
 
                 VStack(alignment: .leading, spacing: AppSpacing.medium) {
-                    Text("games.choose_study_set")
+                    Text(l10n: "games.choose_study_set")
                         .font(.title2.weight(.semibold))
                         .padding(.horizontal, AppSpacing.medium)
 
@@ -123,7 +123,7 @@ private struct StudySetPickerRow: View {
                 Text(studySet.localizedTitle)
                     .font(.headline.weight(.semibold))
 
-                Text("\(wordCount) words · \(studySet.subtitle)")
+                Text("\(L10n.words(wordCount)) · \(studySet.localizedSubtitle)")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
             }

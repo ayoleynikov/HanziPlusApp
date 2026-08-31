@@ -10,9 +10,16 @@ import Observation
 final class DailyLessonStore {
 
     private let defaults = UserDefaults.standard
-    private let storageKey = "dailyLesson.session.v1"
+    private let storageKey = "dailyLesson.session.v2"
 
     private(set) var session: DailyLessonSession?
+
+    /// Read-only access for SwiftUI rendering. Session creation belongs in a
+    /// lifecycle task, never in a body-computed property.
+    var todaySession: DailyLessonSession? {
+        guard let session, session.dateKey == DailyLessonPlanner.dateKey() else { return nil }
+        return session
+    }
 
     init() {
         load()
@@ -29,6 +36,7 @@ final class DailyLessonStore {
         return .inProgress
     }
 
+    @discardableResult
     func ensureTodaySession(
         profile: UserProfile,
         learnedStore: LearnedWordsStore
@@ -37,9 +45,9 @@ final class DailyLessonStore {
         let fileName = DailyLessonPlanner.recommendedFileName(for: profile)
         let signature = DailyLessonPlanner.profileSignature(profile: profile, fileName: fileName)
 
-        if var existing = session, existing.dateKey == today {
+        if let existing = session, existing.dateKey == today {
             if existing.completed {
-                return existing
+                return normalizeLegacySession(existing)
             }
             if existing.profileSignature != signature {
                 let rebuilt = buildSession(profile: profile, learnedStore: learnedStore, dateKey: today)
@@ -47,13 +55,13 @@ final class DailyLessonStore {
                 persist()
                 return rebuilt
             }
-            return existing
+            return normalizeLegacySession(existing)
         }
 
         let created = buildSession(profile: profile, learnedStore: learnedStore, dateKey: today)
-        session = created
+        session = normalizeLegacySession(created)
         persist()
-        return created
+        return session!
     }
 
     func update(_ transform: (inout DailyLessonSession) -> Void) {
@@ -66,6 +74,11 @@ final class DailyLessonStore {
     func replace(_ newSession: DailyLessonSession) {
         session = newSession
         persist()
+    }
+
+    func resetProgress() {
+        session = nil
+        defaults.removeObject(forKey: storageKey)
     }
 
     private func buildSession(
@@ -108,7 +121,16 @@ final class DailyLessonStore {
         guard let data = defaults.data(forKey: storageKey),
               let decoded = try? JSONDecoder().decode(DailyLessonSession.self, from: data)
         else { return }
-        session = decoded
+        session = normalizeLegacySession(decoded)
+    }
+
+    private func normalizeLegacySession(_ session: DailyLessonSession) -> DailyLessonSession {
+        var normalized = session
+        if normalized.phase == .summary && !normalized.completed {
+            normalized.completed = true
+            normalized.completedAt = normalized.completedAt ?? Date()
+        }
+        return normalized
     }
 
     private func persist() {

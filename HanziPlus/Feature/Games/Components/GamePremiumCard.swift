@@ -14,7 +14,6 @@ struct GamePremiumCard: View {
 
     @State private var floatUp = false
     @State private var isHovered = false
-    @State private var xpBounce = false
     @State private var starTwinkle = false
     @State private var shimmerPhase: CGFloat = 0
 
@@ -88,9 +87,6 @@ struct GamePremiumCard: View {
         .animation(.spring(response: 0.45, dampingFraction: 0.78), value: isHovered)
         .onAppear {
             floatUp = true
-            withAnimation(.easeInOut(duration: 1.4).repeatForever(autoreverses: true)) {
-                xpBounce = true
-            }
             withAnimation(.easeInOut(duration: 0.9).repeatForever(autoreverses: true)) {
                 starTwinkle = true
             }
@@ -221,7 +217,7 @@ struct GamePremiumCard: View {
             Image(systemName: "sparkles")
                 .font(.caption2.weight(.bold))
                 .symbolEffect(.pulse, options: .repeating)
-            Text("games.daily.recommended")
+            Text(l10n: "games.daily.recommended")
                 .font(.caption2.weight(.bold))
         }
         .foregroundStyle(.white)
@@ -292,11 +288,10 @@ struct GamePremiumCard: View {
     private var metadataRow: some View {
         HStack(spacing: style == .compact ? 6 : 8) {
             difficultyChip
-            xpChip
             timeChip
             if style == .compact, hasProgress {
                 Spacer(minLength: 0)
-                Text("\(statistics.averageAccuracy)%")
+                Text(L10n.percent(statistics.averageAccuracy))
                     .font(.caption2.weight(.bold))
                     .foregroundStyle(.white.opacity(0.85))
             }
@@ -316,16 +311,6 @@ struct GamePremiumCard: View {
         .padding(.horizontal, 8)
         .padding(.vertical, 5)
         .background(glassChipBackground(tint: game.difficulty.color))
-    }
-
-    private var xpChip: some View {
-        Text("+\(game.xpReward) XP")
-            .font(.caption2.weight(.bold))
-            .foregroundStyle(.white)
-            .padding(.horizontal, 8)
-            .padding(.vertical, 5)
-            .offset(y: xpBounce ? -1.5 : 1.5)
-            .background(glassChipBackground(tint: .purple))
     }
 
     private var timeChip: some View {
@@ -360,9 +345,7 @@ struct GamePremiumCard: View {
 
             HStack(spacing: 12) {
                 progressStat(label: "Best", value: "\(statistics.bestScore)")
-                progressStat(label: "Combo", value: "\(statistics.longestStreak)")
-                progressStat(label: "Done", value: "\(statistics.averageAccuracy)%")
-                progressStat(label: "XP", value: "+\(statistics.xpEarned)")
+                progressStat(label: L10n.string("common.done_short"), value: L10n.percent(statistics.averageAccuracy))
             }
         }
         .padding(.top, 2)

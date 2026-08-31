@@ -25,6 +25,7 @@ struct StudyView: View {
     @Environment(WordCatalog.self) private var catalog
     @Environment(LearnedWordsStore.self) private var learnedStore
     @Environment(StudySessionStore.self) private var sessionStore
+    @Environment(SmartReviewStore.self) private var smartReviewStore
 
     var body: some View {
         Group {
@@ -79,9 +80,9 @@ struct StudyView: View {
                     .transition(.opacity)
             } else {
                 ContentUnavailableView(
-                    String(localized: "study.empty.title"),
+                    L10n.string( "study.empty.title"),
                     systemImage: "exclamationmark.triangle",
-                    description: Text("study.empty.desc")
+                    description: Text(l10n: "study.empty.desc")
                 )
             }
         }
@@ -141,7 +142,7 @@ struct StudyView: View {
                 .padding(.top, AppSpacing.medium)
                 .padding(.bottom, AppSpacing.small)
 
-                Text("study.hint.flip_swipe")
+                Text(l10n: "study.hint.flip_swipe")
                     .font(.caption)
                     .foregroundStyle(.tertiary)
                     .padding(.bottom, AppSpacing.small)
@@ -196,12 +197,22 @@ struct StudyView: View {
 
         if wasLearned {
             _ = learnedStore.toggle(word: word, in: viewModel.studySet)
+            smartReviewStore.recordAttempt(
+                fileName: viewModel.studySet.fileName,
+                hanzi: word.hanzi,
+                correct: false
+            )
             HapticService.light()
             return
         }
 
         isLearnFlowActive = true
         _ = learnedStore.toggle(word: word, in: viewModel.studySet)
+        smartReviewStore.recordAttempt(
+            fileName: viewModel.studySet.fileName,
+            hanzi: word.hanzi,
+            correct: true
+        )
         HapticService.success()
 
         let total = totalWords(for: viewModel)
@@ -246,7 +257,7 @@ struct StudyView: View {
     }
 
     private func navigationTitle(for viewModel: StudyViewModel) -> String {
-        studySection?.title ?? viewModel.studySet.title
+        studySection?.localizedTitle ?? viewModel.studySet.localizedTitle
     }
 
     private func learnedCount(for viewModel: StudyViewModel) -> Int {
@@ -274,4 +285,5 @@ struct StudyView: View {
         .environment(WordCatalog())
         .environment(LearnedWordsStore())
         .environment(StudySessionStore())
+        .environment(SmartReviewStore())
 }

@@ -392,17 +392,6 @@ struct CinematicGameArtwork: View {
     }
 }
 
-// Backward-compatible wrapper
-struct GameArtworkView: View {
-    let game: GameDefinition
-    var height: CGFloat = 220
-    var cornerRadius: CGFloat = AppRadius.large
-
-    var body: some View {
-        CinematicGameArtwork(game: game, height: height, cornerRadius: cornerRadius)
-    }
-}
-
 #Preview {
     ScrollView {
         LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {

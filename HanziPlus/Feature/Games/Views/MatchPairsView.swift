@@ -12,10 +12,12 @@ struct MatchPairsView: View {
 
     @State private var viewModel: MatchPairsViewModel
     @State private var flashColor: Color = .clear
+    @State private var showMistakeFeedback = false
 
     @Environment(\.dismiss) private var dismiss
     @Environment(GameScoreStore.self) private var scoreStore
     @Environment(StatisticsStore.self) private var statisticsStore
+    @Environment(SmartReviewStore.self) private var smartReviewStore
 
     private let game = GameDefinition.definition(for: .matchPairs)
 
@@ -57,12 +59,13 @@ struct MatchPairsView: View {
                 .font(.caption.weight(.bold))
                 .foregroundStyle(.tertiary)
 
-            Text("games.match.prompt")
+            Text(l10n: "games.match.prompt")
                 .font(.subheadline.weight(.medium))
                 .foregroundStyle(.secondary)
 
             VStack(spacing: AppSpacing.small) {
-                ForEach(viewModel.options, id: \.self) { option in
+                ForEach(viewModel.options.indices, id: \.self) { index in
+                    let option = viewModel.options[index]
                     GameOptionButton(
                         text: option,
                         isSelected: viewModel.selectedAnswer == option,
@@ -70,8 +73,16 @@ struct MatchPairsView: View {
                         showResult: viewModel.showResult,
                         action: {
                             guard !viewModel.showResult else { return }
+                            let word = viewModel.currentWord
                             viewModel.select(option)
-                            if option == viewModel.currentWord?.localizedMeaning {
+                            if let word {
+                                smartReviewStore.recordAttempt(
+                                    fileName: studySet.fileName,
+                                    hanzi: word.hanzi,
+                                    correct: option == word.localizedMeaning
+                                )
+                            }
+                            if option == word?.localizedMeaning {
                                 HapticService.success()
                             } else {
                                 HapticService.rigid()
@@ -93,6 +104,17 @@ struct MatchPairsView: View {
         .padding(.horizontal, AppSpacing.medium)
         .padding(.bottom, AppSpacing.medium)
         .background(flashColor.opacity(0.14).ignoresSafeArea())
+        .overlay(alignment: .bottom) {
+            if showMistakeFeedback, let word = viewModel.currentWord {
+                QuizMistakeFeedbackCard(
+                    word: word,
+                    correctAnswer: word.localizedMeaning,
+                    onContinue: dismissMistakeAndAdvance
+                )
+                .transition(.move(edge: .bottom).combined(with: .opacity))
+            }
+        }
+        .animation(.spring(response: 0.4, dampingFraction: 0.86), value: showMistakeFeedback)
         .onChange(of: viewModel.showResult) { _, showResult in
             guard showResult else { return }
             handleResultFeedback()
@@ -108,7 +130,7 @@ struct MatchPairsView: View {
 
                 Spacer()
 
-                Text("\(viewModel.correctCount) correct")
+                Text(L10n.string("\(viewModel.correctCount) correct"))
                     .font(.subheadline.weight(.semibold))
                     .foregroundStyle(game.color)
             }
@@ -155,20 +177,30 @@ struct MatchPairsView: View {
             flashColor = isCorrect ? .green : .red
         }
 
-        Task {
-            try? await Task.sleep(for: .seconds(0.75))
-
-            await MainActor.run {
-                withAnimation(.easeOut(duration: 0.25)) {
-                    flashColor = .clear
-                }
-
-                if viewModel.currentIndex >= viewModel.words.count - 1 {
-                    viewModel.finish(scoreStore: scoreStore, statisticsStore: statisticsStore)
-                } else {
-                    viewModel.nextQuestion()
+        if isCorrect {
+            Task {
+                try? await Task.sleep(for: .seconds(0.75))
+                await MainActor.run {
+                    withAnimation(.easeOut(duration: 0.25)) { flashColor = .clear }
+                    advance()
                 }
             }
+        } else {
+            showMistakeFeedback = true
+        }
+    }
+
+    private func dismissMistakeAndAdvance() {
+        showMistakeFeedback = false
+        withAnimation(.easeOut(duration: 0.25)) { flashColor = .clear }
+        advance()
+    }
+
+    private func advance() {
+        if viewModel.currentIndex >= viewModel.words.count - 1 {
+            viewModel.finish(scoreStore: scoreStore, statisticsStore: statisticsStore)
+        } else {
+            viewModel.nextQuestion()
         }
     }
 }
@@ -179,4 +211,5 @@ struct MatchPairsView: View {
     }
     .environment(GameScoreStore())
     .environment(StatisticsStore())
+    .environment(SmartReviewStore())
 }

@@ -31,6 +31,11 @@ final class FavoritesStore: ObservableObject {
         save()
     }
 
+    func resetAll() {
+        favorites.removeAll()
+        save()
+    }
+
     private func save() {
         defaults.set(Array(favorites), forKey: favoritesKey)
     }

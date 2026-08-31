@@ -27,7 +27,7 @@ struct JourneyMiniActivityView: View {
                     successView
                 } else {
                     gameGrid
-                    Text("\(timeRemaining)s")
+                    Text(L10n.string("journey.mini.seconds \(timeRemaining)"))
                         .font(.caption.weight(.semibold))
                         .foregroundStyle(.secondary)
                         .monospacedDigit()
@@ -38,7 +38,7 @@ struct JourneyMiniActivityView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button(String(localized: "common.close")) { dismiss() }
+                    Button(L10n.string( "common.close")) { dismiss() }
                 }
             }
             .onAppear { setupTiles(); startTimer() }
@@ -75,14 +75,10 @@ struct JourneyMiniActivityView: View {
                 .scaleEffect(found ? 1 : 0.5)
                 .animation(.spring(response: 0.5, dampingFraction: 0.65), value: found)
 
-            Text("journey.mini.great_find")
+            Text(l10n: "journey.mini.great_find")
                 .font(.title2.weight(.bold))
 
-            Label("+\(city.miniActivity.xpReward) XP", systemImage: "sparkles")
-                .font(.headline)
-                .foregroundStyle(city.theme.primary)
-
-            Button(String(localized: "common.done")) { dismiss() }
+            Button(L10n.string( "common.done")) { dismiss() }
                 .buttonStyle(.borderedProminent)
                 .tint(city.theme.primary)
                 .padding(.top, 8)

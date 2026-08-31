@@ -25,30 +25,30 @@ extension StudySet {
 
     var localizedTitle: String {
         switch fileName {
-        case "hsk1": String(localized: "catalog.set.hsk1")
-        case "hsk2": String(localized: "catalog.set.hsk2")
-        case "hsk3": String(localized: "catalog.set.hsk3")
-        case "travel": String(localized: "catalog.set.travel")
-        case "business": String(localized: "catalog.set.business")
-        case "daily_life": String(localized: "catalog.set.daily_life")
-        case "food": String(localized: "catalog.set.food")
-        case "culture": String(localized: "catalog.set.culture")
-        case "technology": String(localized: "catalog.set.technology")
+        case "hsk1": L10n.string( "catalog.set.hsk1")
+        case "hsk2": L10n.string( "catalog.set.hsk2")
+        case "hsk3": L10n.string( "catalog.set.hsk3")
+        case "travel": L10n.string( "catalog.set.travel")
+        case "business": L10n.string( "catalog.set.business")
+        case "daily_life": L10n.string( "catalog.set.daily_life")
+        case "food": L10n.string( "catalog.set.food")
+        case "culture": L10n.string( "catalog.set.culture")
+        case "technology": L10n.string( "catalog.set.technology")
         default: title
         }
     }
 
     var localizedSubtitle: String {
         switch fileName {
-        case "hsk1": String(localized: "catalog.set.hsk1.subtitle")
-        case "hsk2": String(localized: "catalog.set.hsk2.subtitle")
-        case "hsk3": String(localized: "catalog.set.hsk3.subtitle")
-        case "travel": String(localized: "catalog.set.travel.subtitle")
-        case "business": String(localized: "catalog.set.business.subtitle")
-        case "daily_life": String(localized: "catalog.set.daily_life.subtitle")
-        case "food": String(localized: "catalog.set.food.subtitle")
-        case "culture": String(localized: "catalog.set.culture.subtitle")
-        case "technology": String(localized: "catalog.set.technology.subtitle")
+        case "hsk1": L10n.string( "catalog.set.hsk1.subtitle")
+        case "hsk2": L10n.string( "catalog.set.hsk2.subtitle")
+        case "hsk3": L10n.string( "catalog.set.hsk3.subtitle")
+        case "travel": L10n.string( "catalog.set.travel.subtitle")
+        case "business": L10n.string( "catalog.set.business.subtitle")
+        case "daily_life": L10n.string( "catalog.set.daily_life.subtitle")
+        case "food": L10n.string( "catalog.set.food.subtitle")
+        case "culture": L10n.string( "catalog.set.culture.subtitle")
+        case "technology": L10n.string( "catalog.set.technology.subtitle")
         default: subtitle
         }
     }

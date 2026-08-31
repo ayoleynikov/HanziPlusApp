@@ -1,0 +1,2672 @@
+{
+  "你好吗？": {
+    "ru": "Как ты?",
+    "en": "How are you?",
+    "es": "¿Cómo estás?",
+    "pt-BR": "Como você está?"
+  },
+  "汉语不难。": {
+    "ru": "Китайский язык нетрудный.",
+    "en": "Chinese isn't difficult.",
+    "es": "El chino no es difícil.",
+    "pt-BR": "O chinês não é difícil."
+  },
+  "你学俄语吗？": {
+    "ru": "Ты учишь русский?",
+    "en": "Do you study Russian?",
+    "es": "¿Estudias ruso?",
+    "pt-BR": "Você estuda russo?"
+  },
+  "不，学汉语。": {
+    "ru": "Нет, учу китайский.",
+    "en": "No, I study Chinese.",
+    "es": "No, estudio chino.",
+    "pt-BR": "Não, estudo chinês."
+  },
+  "去北京吗？": {
+    "ru": "Едешь в Пекин?",
+    "en": "Are you going to Beijing?",
+    "es": "¿Vas a Pekín?",
+    "pt-BR": "Você vai para Pequim?"
+  },
+  "对！": {
+    "ru": "Верно!",
+    "en": "That's right!",
+    "es": "¡Correcto!",
+    "pt-BR": "Isso mesmo!"
+  },
+  "不去，去银行取钱。": {
+    "ru": "Нет, иду в банк снять деньги.",
+    "en": "No, I'm going to the bank to withdraw money.",
+    "es": "No, voy al banco a sacar dinero.",
+    "pt-BR": "Não, vou ao banco sacar dinheiro."
+  },
+  "明天见！": {
+    "ru": "До завтра!",
+    "en": "See you tomorrow!",
+    "es": "¡Hasta mañana!",
+    "pt-BR": "Até amanhã!"
+  },
+  "今天星期几？": {
+    "ru": "Какой сегодня день недели?",
+    "en": "What day of the week is it today?",
+    "es": "¿Qué día de la semana es hoy?",
+    "pt-BR": "Que dia da semana é hoje?"
+  },
+  "今天星期二。": {
+    "ru": "Сегодня вторник.",
+    "en": "Today is Tuesday.",
+    "es": "Hoy es martes.",
+    "pt-BR": "Hoje é terça-feira."
+  },
+  "你去哪儿？": {
+    "ru": "Куда ты идёшь?",
+    "en": "Where are you going?",
+    "es": "¿A dónde vas?",
+    "pt-BR": "Para onde você vai?"
+  },
+  "我去天安门，你去不去？": {
+    "ru": "Я иду на Тяньаньмэнь, ты идёшь?",
+    "en": "I'm going to Tiananmen. Are you coming?",
+    "es": "Voy a Tiananmen. ¿Vienes?",
+    "pt-BR": "Vou à Tiananmen. Você vem?"
+  },
+  "不去，我回学校。": {
+    "ru": "Нет, я иду в школу.",
+    "en": "No, I'm going back to school.",
+    "es": "No, vuelvo a la escuela.",
+    "pt-BR": "Não, volto para a escola."
+  },
+  "再见！": {
+    "ru": "До свидания!",
+    "en": "Goodbye!",
+    "es": "¡Adiós!",
+    "pt-BR": "Tchau!"
+  },
+  "对不起！": {
+    "ru": "Извините!",
+    "en": "Sorry!",
+    "es": "¡Perdón!",
+    "pt-BR": "Desculpe!"
+  },
+  "没关系！": {
+    "ru": "Ничего страшного!",
+    "en": "It's okay!",
+    "es": "¡No pasa nada!",
+    "pt-BR": "Tudo bem!"
+  },
+  "这是王老师，这是我爸爸。": {
+    "ru": "Это учитель Ван, это мой папа.",
+    "en": "This is Teacher Wang. This is my dad.",
+    "es": "Este es el profesor Wang. Este es mi papá.",
+    "pt-BR": "Este é o professor Wang. Este é meu pai."
+  },
+  "王老师，您好！": {
+    "ru": "Здравствуйте, учитель Ван!",
+    "en": "Hello, Teacher Wang!",
+    "es": "¡Hola, profesor Wang!",
+    "pt-BR": "Olá, professor Wang!"
+  },
+  "您好！请进！请坐！请喝茶！": {
+    "ru": "Здравствуйте! Проходите! Садитесь! Пейте чай!",
+    "en": "Hello! Come in! Sit down! Have some tea!",
+    "es": "¡Hola! ¡Pase! ¡Siéntese! ¡Tome té!",
+    "pt-BR": "Olá! Entre! Sente-se! Tome chá!"
+  },
+  "谢谢！": {
+    "ru": "Спасибо!",
+    "en": "Thank you!",
+    "es": "¡Gracias!",
+    "pt-BR": "Obrigado!"
+  },
+  "不客气！": {
+    "ru": "Пожалуйста!",
+    "en": "You're welcome!",
+    "es": "¡De nada!",
+    "pt-BR": "De nada!"
+  },
+  "工作忙吗？": {
+    "ru": "Работа занимает много времени?",
+    "en": "Are you busy with work?",
+    "es": "¿Está ocupado con el trabajo?",
+    "pt-BR": "Está ocupado com o trabalho?"
+  },
+  "不太忙。": {
+    "ru": "Не очень.",
+    "en": "Not too busy.",
+    "es": "No mucho.",
+    "pt-BR": "Não muito."
+  },
+  "身体好吗？": {
+    "ru": "Как здоровье?",
+    "en": "How is your health?",
+    "es": "¿Cómo está de salud?",
+    "pt-BR": "Como está a saúde?"
+  },
+  "很好！": {
+    "ru": "Очень хороший!",
+    "en": "Very good!",
+    "es": "¡Muy bien!",
+    "pt-BR": "Muito bom!"
+  },
+  "请问，你贵姓？": {
+    "ru": "Скажите, пожалуйста, как ваша фамилия?",
+    "en": "Excuse me, what is your surname?",
+    "es": "Disculpe, ¿cuál es su apellido?",
+    "pt-BR": "Com licença, qual é o seu sobrenome?"
+  },
+  "我姓张。": {
+    "ru": "Моя фамилия Чжан.",
+    "en": "My surname is Zhang.",
+    "es": "Mi apellido es Zhang.",
+    "pt-BR": "Meu sobrenome é Zhang."
+  },
+  "你叫什么名字？": {
+    "ru": "Как тебя зовут?",
+    "en": "What is your name?",
+    "es": "¿Cómo te llamas?",
+    "pt-BR": "Qual é o seu nome?"
+  },
+  "我叫张东。": {
+    "ru": "Меня зовут Чжан Дун.",
+    "en": "My name is Zhang Dong.",
+    "es": "Me llamo Zhang Dong.",
+    "pt-BR": "Me chamo Zhang Dong."
+  },
+  "你是哪国人？": {
+    "ru": "Ты из какой страны?",
+    "en": "What country are you from?",
+    "es": "¿De qué país eres?",
+    "pt-BR": "De que país você é?"
+  },
+  "我是中国人。": {
+    "ru": "Я китаец.",
+    "en": "I'm Chinese.",
+    "es": "Soy chino.",
+    "pt-BR": "Sou chinês."
+  },
+  "我是中国人。你是哪国人？": {
+    "ru": "Я китаец. А ты из какой страны?",
+    "en": "I'm Chinese. What country are you from?",
+    "es": "Soy chino. ¿De qué país eres?",
+    "pt-BR": "Sou chinês. De que país você é?"
+  },
+  "我是俄国人。": {
+    "ru": "Я русский.",
+    "en": "I'm Russian.",
+    "es": "Soy ruso.",
+    "pt-BR": "Sou russo."
+  },
+  "你学习什么？": {
+    "ru": "Что ты изучаешь?",
+    "en": "What do you study?",
+    "es": "¿Qué estudias?",
+    "pt-BR": "O que você estuda?"
+  },
+  "我学习汉语。": {
+    "ru": "Я изучаю китайский язык.",
+    "en": "I study Chinese.",
+    "es": "Estudio chino.",
+    "pt-BR": "Estudo chinês."
+  },
+  "汉语难吗？": {
+    "ru": "Китайский язык трудный?",
+    "en": "Is Chinese difficult?",
+    "es": "¿Es difícil el chino?",
+    "pt-BR": "O chinês é difícil?"
+  },
+  "汉字很难，发音不太难。": {
+    "ru": "Иероглифы очень трудные, произношение не очень трудное.",
+    "en": "Chinese characters are very difficult; pronunciation isn't too difficult.",
+    "es": "Los caracteres chinos son muy difíciles; la pronunciación no es muy difícil.",
+    "pt-BR": "Os caracteres chineses são muito difíceis; a pronúncia não é muito difícil."
+  },
+  "这是什么？": {
+    "ru": "Что это?",
+    "en": "What is this?",
+    "es": "¿Qué es esto?",
+    "pt-BR": "O que é isso?"
+  },
+  "这是书。": {
+    "ru": "Это книга.",
+    "en": "This is a book.",
+    "es": "Es un libro.",
+    "pt-BR": "É um livro."
+  },
+  "这是什么书？": {
+    "ru": "Что это за книга?",
+    "en": "What book is this?",
+    "es": "¿Qué libro es este?",
+    "pt-BR": "Que livro é este?"
+  },
+  "这是中文书。": {
+    "ru": "Это книга на китайском.",
+    "en": "This is a Chinese book.",
+    "es": "Es un libro en chino.",
+    "pt-BR": "É um livro em chinês."
+  },
+  "这是谁的书？": {
+    "ru": "Чья это книга?",
+    "en": "Whose book is this?",
+    "es": "¿De quién es este libro?",
+    "pt-BR": "De quem é este livro?"
+  },
+  "这是老师的书。": {
+    "ru": "Это книга учителя.",
+    "en": "This is the teacher's book.",
+    "es": "Es el libro del profesor.",
+    "pt-BR": "É o livro do professor."
+  },
+  "那是什么？": {
+    "ru": "Что там?",
+    "en": "What is that?",
+    "es": "¿Qué es eso?",
+    "pt-BR": "O que é aquilo?"
+  },
+  "那是杂志。": {
+    "ru": "Там журнал.",
+    "en": "That is a magazine.",
+    "es": "Eso es una revista.",
+    "pt-BR": "Aquilo é uma revista."
+  },
+  "那是什么杂志？": {
+    "ru": "Что это за журнал?",
+    "en": "What magazine is that?",
+    "es": "¿Qué revista es esa?",
+    "pt-BR": "Que revista é aquela?"
+  },
+  "那是俄文杂志。": {
+    "ru": "Это журнал на русском.",
+    "en": "That is a Russian magazine.",
+    "es": "Es una revista en ruso.",
+    "pt-BR": "É uma revista em russo."
+  },
+  "那是谁的杂志？": {
+    "ru": "Чей это журнал?",
+    "en": "Whose magazine is that?",
+    "es": "¿De quién es esa revista?",
+    "pt-BR": "De quem é aquela revista?"
+  },
+  "那是谁的书？": {
+    "ru": "Чья там книга?",
+    "en": "Whose book is that?",
+    "es": "¿De quién es ese libro?",
+    "pt-BR": "De quem é aquele livro?"
+  },
+  "那是我朋友的杂志。": {
+    "ru": "Это журнал моего друга.",
+    "en": "That is my friend's magazine.",
+    "es": "Es la revista de mi amigo.",
+    "pt-BR": "É a revista do meu amigo."
+  },
+  "那是王老师的书。": {
+    "ru": "Это книга учителя Вана.",
+    "en": "That is Teacher Wang's book.",
+    "es": "Es el libro del profesor Wang.",
+    "pt-BR": "É o livro do professor Wang."
+  },
+  "中午你去哪儿吃饭？": {
+    "ru": "Где ты обедаешь в полдень?",
+    "en": "Where do you eat lunch at noon?",
+    "es": "¿Dónde almuerzas al mediodía?",
+    "pt-BR": "Onde você almoça ao meio-dia?"
+  },
+  "我去食堂。": {
+    "ru": "Я иду в столовую.",
+    "en": "I'm going to the cafeteria.",
+    "es": "Voy al comedor.",
+    "pt-BR": "Vou ao refeitório."
+  },
+  "你吃什么？": {
+    "ru": "Что ты ешь?",
+    "en": "What are you eating?",
+    "es": "¿Qué comes?",
+    "pt-BR": "O que você come?"
+  },
+  "我吃馒头。": {
+    "ru": "Я ем маньтоу.",
+    "en": "I'm eating mantou.",
+    "es": "Como mantou.",
+    "pt-BR": "Como mantou."
+  },
+  "你要几个？": {
+    "ru": "Сколько тебе?",
+    "en": "How many do you want?",
+    "es": "¿Cuántos quieres?",
+    "pt-BR": "Quantos você quer?"
+  },
+  "一个。你吃吗？": {
+    "ru": "Один. Ты будешь?",
+    "en": "One. Will you eat some?",
+    "es": "Uno. ¿Comes?",
+    "pt-BR": "Um. Você come?"
+  },
+  "不吃，我吃米饭。你喝什么？": {
+    "ru": "Нет, я ем рис. Что ты пьёшь?",
+    "en": "No, I'm eating rice. What are you drinking?",
+    "es": "No, como arroz. ¿Qué bebes?",
+    "pt-BR": "Não, como arroz. O que você bebe?"
+  },
+  "我要一碗鸡蛋汤。你喝吗？": {
+    "ru": "Я хочу миску яичного супа. Ты будешь?",
+    "en": "I want a bowl of egg soup. Will you have some?",
+    "es": "Quiero un bol de sopa de huevo. ¿Bebes?",
+    "pt-BR": "Quero uma tigela de sopa de ovo. Você bebe?"
+  },
+  "不喝，我喝啤酒。": {
+    "ru": "Нет, я пью пиво.",
+    "en": "No, I'm drinking beer.",
+    "es": "No, bebo cerveza.",
+    "pt-BR": "Não, bebo cerveja."
+  },
+  "这些是什么？": {
+    "ru": "Что это?",
+    "en": "What are these?",
+    "es": "¿Qué son estos?",
+    "pt-BR": "O que são estes?"
+  },
+  "这是饺子，这是包子，那是面条儿。": {
+    "ru": "Это цзяоцзы, это баоцзы, там лапша.",
+    "en": "These are jiaozi, these are baozi, that is noodles.",
+    "es": "Estos son jiaozi, estos son baozi, aquello son fideos.",
+    "pt-BR": "Estes são jiaozi, estes são baozi, aquilo são macarrão."
+  },
+  "吃馒头": {
+    "ru": "есть маньтоу",
+    "en": "eat mantou",
+    "es": "comer mantou",
+    "pt-BR": "comer mantou"
+  },
+  "吃包子": {
+    "ru": "есть баоцзы",
+    "en": "eat baozi",
+    "es": "comer baozi",
+    "pt-BR": "comer baozi"
+  },
+  "吃米饭": {
+    "ru": "есть рис",
+    "en": "eat rice",
+    "es": "comer arroz",
+    "pt-BR": "comer arroz"
+  },
+  "吃面条儿": {
+    "ru": "есть лапшу",
+    "en": "eat noodles",
+    "es": "comer fideos",
+    "pt-BR": "comer macarrão"
+  },
+  "吃饺子": {
+    "ru": "есть цзяоцзы",
+    "en": "eat jiaozi",
+    "es": "comer jiaozi",
+    "pt-BR": "comer jiaozi"
+  },
+  "喝什么": {
+    "ru": "что пить",
+    "en": "what to drink",
+    "es": "qué beber",
+    "pt-BR": "o que beber"
+  },
+  "喝汤": {
+    "ru": "пить суп",
+    "en": "drink soup",
+    "es": "beber sopa",
+    "pt-BR": "beber sopa"
+  },
+  "喝茶": {
+    "ru": "пить чай",
+    "en": "drink tea",
+    "es": "beber té",
+    "pt-BR": "beber chá"
+  },
+  "喝啤酒": {
+    "ru": "пить пиво",
+    "en": "drink beer",
+    "es": "beber cerveza",
+    "pt-BR": "beber cerveja"
+  },
+  "什么汤": {
+    "ru": "какой суп",
+    "en": "what soup",
+    "es": "qué sopa",
+    "pt-BR": "que sopa"
+  },
+  "什么书": {
+    "ru": "какая книга",
+    "en": "what book",
+    "es": "qué libro",
+    "pt-BR": "que livro"
+  },
+  "什么人": {
+    "ru": "какой человек / кто",
+    "en": "what person / who",
+    "es": "qué persona / quién",
+    "pt-BR": "que pessoa / quem"
+  },
+  "什么酒": {
+    "ru": "какой алкоголь / какое вино",
+    "en": "what alcohol / what wine",
+    "es": "qué alcohol / qué vino",
+    "pt-BR": "que álcool / que vinho"
+  },
+  "什么名字": {
+    "ru": "какое имя",
+    "en": "what name",
+    "es": "qué nombre",
+    "pt-BR": "que nome"
+  },
+  "你中午吃什么？": {
+    "ru": "Что ты ешь в полдень?",
+    "en": "What do you eat at noon?",
+    "es": "¿Qué comes al mediodía?",
+    "pt-BR": "O que você come ao meio-dia?"
+  },
+  "你吃几个馒头？": {
+    "ru": "Сколько маньтоу ты ешь?",
+    "en": "How many mantou are you eating?",
+    "es": "¿Cuántos mantou comes?",
+    "pt-BR": "Quantos mantou você come?"
+  },
+  "你喝什么汤？": {
+    "ru": "Какой суп ты пьёшь?",
+    "en": "What soup are you drinking?",
+    "es": "¿Qué sopa bebes?",
+    "pt-BR": "Que sopa você bebe?"
+  },
+  "你喝什么啤酒？": {
+    "ru": "Какое пиво ты пьёшь?",
+    "en": "What beer are you drinking?",
+    "es": "¿Qué cerveza bebes?",
+    "pt-BR": "Que cerveja você bebe?"
+  },
+  "你买什么？": {
+    "ru": "Что ты покупаешь?",
+    "en": "What are you buying?",
+    "es": "¿Qué compras?",
+    "pt-BR": "O que você compra?"
+  },
+  "我买水果。": {
+    "ru": "Я покупаю фрукты.",
+    "en": "I'm buying fruit.",
+    "es": "Compro frutas.",
+    "pt-BR": "Compro frutas."
+  },
+  "苹果一斤多少钱？": {
+    "ru": "Сколько стоит цзинь яблок?",
+    "en": "How much is a jin of apples?",
+    "es": "¿Cuánto cuesta un jin de manzanas?",
+    "pt-BR": "Quanto custa um jin de maçãs?"
+  },
+  "三块。": {
+    "ru": "Три юаня.",
+    "en": "Three yuan.",
+    "es": "Tres yuanes.",
+    "pt-BR": "Três yuan."
+  },
+  "三块？太贵了。两块五吧。": {
+    "ru": "Три юаня? Слишком дорого. Давай два с половиной.",
+    "en": "Three yuan? Too expensive. Let's say two and a half.",
+    "es": "¿Tres yuanes? Muy caro. Dos con cinco, ¿vale?",
+    "pt-BR": "Três yuan? Muito caro. Dois e meio, então."
+  },
+  "你要几斤？": {
+    "ru": "Сколько цзиней тебе?",
+    "en": "How many jin do you want?",
+    "es": "¿Cuántos jin quieres?",
+    "pt-BR": "Quantos jin você quer?"
+  },
+  "我要五斤。": {
+    "ru": "Мне пять цзиней.",
+    "en": "I want five jin.",
+    "es": "Quiero cinco jin.",
+    "pt-BR": "Quero cinco jin."
+  },
+  "还要别的吗？": {
+    "ru": "Ещё что-нибудь?",
+    "en": "Anything else?",
+    "es": "¿Algo más?",
+    "pt-BR": "Mais alguma coisa?"
+  },
+  "橘子怎么卖？": {
+    "ru": "Как продаются мандарины?",
+    "en": "How much are the mandarins?",
+    "es": "¿A cómo venden las mandarinas?",
+    "pt-BR": "Quanto custam as tangerinas?"
+  },
+  "两块。": {
+    "ru": "Два юаня.",
+    "en": "Two yuan.",
+    "es": "Dos yuanes.",
+    "pt-BR": "Dois yuan."
+  },
+  "要两斤。": {
+    "ru": "Два цзиня.",
+    "en": "Two jin, please.",
+    "es": "Dos jin.",
+    "pt-BR": "Dois jin."
+  },
+  "一共多少钱？": {
+    "ru": "Сколько всего?",
+    "en": "How much in total?",
+    "es": "¿Cuánto es en total?",
+    "pt-BR": "Quanto dá no total?"
+  },
+  "一共十六块五（毛）。": {
+    "ru": "Всего шестнадцать юаней пять фэней.",
+    "en": "Sixteen yuan and five fen in total.",
+    "es": "En total dieciséis yuanes y cinco fens.",
+    "pt-BR": "No total dezesseis yuan e cinco fens."
+  },
+  "你给十六块吧。": {
+    "ru": "Дай шестнадцать юаней.",
+    "en": "Give sixteen yuan.",
+    "es": "Dame dieciséis yuanes.",
+    "pt-BR": "Dê dezesseis yuan."
+  },
+  "给你钱。": {
+    "ru": "Вот деньги.",
+    "en": "Here's the money.",
+    "es": "Aquí está el dinero.",
+    "pt-BR": "Aqui está o dinheiro."
+  },
+  "这是五十，我找您三十四块。": {
+    "ru": "Вот пятьдесят, сдача — тридцать четыре юаня.",
+    "en": "Here's fifty; your change is thirty-four yuan.",
+    "es": "Aquí hay cincuenta; le devuelvo treinta y cuatro yuanes.",
+    "pt-BR": "Aqui estão cinquenta; o troco é trinta e quatro yuan."
+  },
+  "买苹果": {
+    "ru": "покупать яблоки",
+    "en": "buy apples",
+    "es": "comprar manzanas",
+    "pt-BR": "comprar maçãs"
+  },
+  "买米饭": {
+    "ru": "покупать рис",
+    "en": "buy rice",
+    "es": "comprar arroz",
+    "pt-BR": "comprar arroz"
+  },
+  "买饺子": {
+    "ru": "покупать цзяоцзы",
+    "en": "buy jiaozi",
+    "es": "comprar jiaozi",
+    "pt-BR": "comprar jiaozi"
+  },
+  "买馒头": {
+    "ru": "покупать маньтоу",
+    "en": "buy mantou",
+    "es": "comprar mantou",
+    "pt-BR": "comprar mantou"
+  },
+  "买包子": {
+    "ru": "покупать баоцзы",
+    "en": "buy baozi",
+    "es": "comprar baozi",
+    "pt-BR": "comprar baozi"
+  },
+  "多少钱": {
+    "ru": "сколько стоит",
+    "en": "how much money",
+    "es": "cuánto cuesta",
+    "pt-BR": "quanto custa"
+  },
+  "多少斤": {
+    "ru": "сколько цзиней",
+    "en": "how many jin",
+    "es": "cuántos jin",
+    "pt-BR": "quantos jin"
+  },
+  "多少人": {
+    "ru": "сколько человек",
+    "en": "how many people",
+    "es": "cuántas personas",
+    "pt-BR": "quantas pessoas"
+  },
+  "多少学生": {
+    "ru": "сколько студентов",
+    "en": "how many students",
+    "es": "cuántos estudiantes",
+    "pt-BR": "quantos estudantes"
+  },
+  "多少老师": {
+    "ru": "сколько учителей",
+    "en": "how many teachers",
+    "es": "cuántos profesores",
+    "pt-BR": "quantos professores"
+  },
+  "还买吗": {
+    "ru": "ещё покупаешь?",
+    "en": "still buying?",
+    "es": "¿aún compras?",
+    "pt-BR": "ainda compra?"
+  },
+  "还买马": {
+    "ru": "ещё покупаешь коня?",
+    "en": "still buy a horse?",
+    "es": "¿aún compras caballo?",
+    "pt-BR": "ainda compra cavalo?"
+  },
+  "还去吗": {
+    "ru": "ещё идёшь?",
+    "en": "still going?",
+    "es": "¿aún vas?",
+    "pt-BR": "ainda vai?"
+  },
+  "还吃吗": {
+    "ru": "ещё ешь?",
+    "en": "still eating?",
+    "es": "¿aún comes?",
+    "pt-BR": "ainda come?"
+  },
+  "还喝吗": {
+    "ru": "ещё пьёшь?",
+    "en": "still drinking?",
+    "es": "¿aún bebes?",
+    "pt-BR": "ainda bebe?"
+  },
+  "还买": {
+    "ru": "ещё покупать",
+    "en": "still buy",
+    "es": "aún comprar",
+    "pt-BR": "ainda comprar"
+  },
+  "还要": {
+    "ru": "ещё хочешь",
+    "en": "still want",
+    "es": "aún querer",
+    "pt-BR": "ainda querer"
+  },
+  "还去": {
+    "ru": "ещё идти",
+    "en": "still go",
+    "es": "aún ir",
+    "pt-BR": "ainda ir"
+  },
+  "还吃": {
+    "ru": "ещё есть",
+    "en": "still eat",
+    "es": "aún comer",
+    "pt-BR": "ainda comer"
+  },
+  "还喝": {
+    "ru": "ещё пить",
+    "en": "still drink",
+    "es": "aún beber",
+    "pt-BR": "ainda beber"
+  },
+  "一共十六块五（毛）。你给十六块吧。": {
+    "ru": "Всего шестнадцать юаней пять фэней. Дай шестнадцать юаней.",
+    "en": "Sixteen yuan and five fen in total. Give sixteen yuan.",
+    "es": "En total dieciséis yuanes y cinco fens. Dame dieciséis yuanes.",
+    "pt-BR": "No total dezesseis yuan e cinco fens. Dê dezesseis yuan."
+  },
+  "昨天": {
+    "ru": "вчера",
+    "en": "yesterday",
+    "es": "ayer",
+    "pt-BR": "ontem"
+  },
+  "今天": {
+    "ru": "сегодня",
+    "en": "today",
+    "es": "hoy",
+    "pt-BR": "hoje"
+  },
+  "明天": {
+    "ru": "завтра",
+    "en": "tomorrow",
+    "es": "mañana",
+    "pt-BR": "amanhã"
+  },
+  "星期一": {
+    "ru": "понедельник",
+    "en": "Monday",
+    "es": "lunes",
+    "pt-BR": "segunda-feira"
+  },
+  "星期二": {
+    "ru": "вторник",
+    "en": "Tuesday",
+    "es": "martes",
+    "pt-BR": "terça-feira"
+  },
+  "星期三": {
+    "ru": "среда",
+    "en": "Wednesday",
+    "es": "miércoles",
+    "pt-BR": "quarta-feira"
+  },
+  "星期四": {
+    "ru": "четверг",
+    "en": "Thursday",
+    "es": "jueves",
+    "pt-BR": "quinta-feira"
+  },
+  "星期五": {
+    "ru": "пятница",
+    "en": "Friday",
+    "es": "viernes",
+    "pt-BR": "sexta-feira"
+  },
+  "星期六": {
+    "ru": "суббота",
+    "en": "Saturday",
+    "es": "sábado",
+    "pt-BR": "sábado"
+  },
+  "星期日": {
+    "ru": "воскресенье",
+    "en": "Sunday",
+    "es": "domingo",
+    "pt-BR": "domingo"
+  },
+  "星期天": {
+    "ru": "воскресенье",
+    "en": "Sunday",
+    "es": "domingo",
+    "pt-BR": "domingo"
+  },
+  "对不起": {
+    "ru": "извините",
+    "en": "sorry / excuse me",
+    "es": "disculpe / perdón",
+    "pt-BR": "com licença / desculpe"
+  },
+  "没关系": {
+    "ru": "ничего страшного",
+    "en": "it's okay / no problem",
+    "es": "no pasa nada",
+    "pt-BR": "não tem problema"
+  },
+  "再见": {
+    "ru": "до свидания",
+    "en": "goodbye",
+    "es": "adiós",
+    "pt-BR": "adeus"
+  },
+  "你去邮局吗？": {
+    "ru": "Ты идёшь на почту?",
+    "en": "Are you going to the post office?",
+    "es": "¿Vas a la oficina de correos?",
+    "pt-BR": "Você vai aos correios?"
+  },
+  "不回。我去天安门。": {
+    "ru": "Нет. Я иду на Тяньаньмэнь.",
+    "en": "No. I'm going to Tiananmen.",
+    "es": "No. Voy a Tiananmen.",
+    "pt-BR": "Não. Vou à Tiananmen."
+  },
+  "回学校，你回不回？": {
+    "ru": "В школу, ты возвращаешься?",
+    "en": "Back to school — are you going back?",
+    "es": "A la escuela, ¿vuelves o no?",
+    "pt-BR": "Para a escola, você volta ou não?"
+  },
+  "去天安门": {
+    "ru": "идти на Тяньаньмэнь",
+    "en": "go to Tiananmen",
+    "es": "ir a Tiananmen",
+    "pt-BR": "ir à Tiananmen"
+  },
+  "谢谢": {
+    "ru": "спасибо",
+    "en": "thank you",
+    "es": "gracias",
+    "pt-BR": "obrigado"
+  },
+  "请进": {
+    "ru": "проходите",
+    "en": "please come in",
+    "es": "pase",
+    "pt-BR": "entre"
+  },
+  "请坐": {
+    "ru": "садитесь",
+    "en": "please sit down",
+    "es": "siéntese",
+    "pt-BR": "sente-se"
+  },
+  "请喝茶": {
+    "ru": "пейте чай",
+    "en": "please drink tea / have some tea",
+    "es": "tome té",
+    "pt-BR": "tome chá"
+  },
+  "您好": {
+    "ru": "здравствуйте",
+    "en": "hello (formal)",
+    "es": "hola (formal)",
+    "pt-BR": "olá (formal)"
+  },
+  "工作忙": {
+    "ru": "работа занята",
+    "en": "work is busy",
+    "es": "el trabajo está ocupado",
+    "pt-BR": "o trabalho está ocupado"
+  },
+  "身体好": {
+    "ru": "здоровье хорошее",
+    "en": "health is good",
+    "es": "la salud está bien",
+    "pt-BR": "a saúde está boa"
+  },
+  "不客气": {
+    "ru": "пожалуйста",
+    "en": "you're welcome",
+    "es": "de nada",
+    "pt-BR": "de nada"
+  },
+  "下午我去图书馆，你去不去？": {
+    "ru": "После обеда я иду в библиотеку. Ты идёшь?",
+    "en": "This afternoon I'm going to the library. Are you coming?",
+    "es": "Por la tarde voy a la biblioteca. ¿Vienes?",
+    "pt-BR": "À tarde eu vou à biblioteca. Você vai?"
+  },
+  "我不去。我要去银行换钱。": {
+    "ru": "Я не иду. Я иду в банк менять деньги.",
+    "en": "I'm not going. I'm going to the bank to exchange money.",
+    "es": "No voy. Voy al banco a cambiar dinero.",
+    "pt-BR": "Não vou. Vou ao banco trocar dinheiro."
+  },
+  "小姐，我换钱。": {
+    "ru": "Девушка, я хочу поменять деньги.",
+    "en": "Miss, I'd like to exchange money.",
+    "es": "Señorita, quiero cambiar dinero.",
+    "pt-BR": "Senhorita, quero trocar dinheiro."
+  },
+  "您换什么钱？": {
+    "ru": "Какие деньги вы хотите поменять?",
+    "en": "What currency would you like to exchange?",
+    "es": "¿Qué dinero quiere cambiar?",
+    "pt-BR": "Que moeda o senhor quer trocar?"
+  },
+  "我换人民币。": {
+    "ru": "Я хочу поменять на юани.",
+    "en": "I'd like to exchange for yuan.",
+    "es": "Quiero cambiar a yuanes.",
+    "pt-BR": "Quero trocar por yuan."
+  },
+  "换多少？": {
+    "ru": "Сколько менять?",
+    "en": "How much would you like to exchange?",
+    "es": "¿Cuánto?",
+    "pt-BR": "Quanto?"
+  },
+  "二百美元。": {
+    "ru": "Двести долларов.",
+    "en": "Two hundred US dollars.",
+    "es": "Doscientos dólares.",
+    "pt-BR": "Duzentos dólares."
+  },
+  "请等一会儿……": {
+    "ru": "Подождите немного…",
+    "en": "Please wait a moment…",
+    "es": "Espere un momento…",
+    "pt-BR": "Por favor, aguarde um momento…"
+  },
+  "先生，给您钱。": {
+    "ru": "Господин, вот ваши деньги.",
+    "en": "Sir, here's your money.",
+    "es": "Señor, aquí tiene el dinero.",
+    "pt-BR": "Senhor, aqui está o dinheiro."
+  },
+  "请数数。": {
+    "ru": "Пожалуйста, пересчитайте.",
+    "en": "Please count it.",
+    "es": "Por favor, cuente.",
+    "pt-BR": "Por favor, conte."
+  },
+  "对了。谢谢！": {
+    "ru": "Всё верно. Спасибо!",
+    "en": "That's right. Thank you!",
+    "es": "Correcto. ¡Gracias!",
+    "pt-BR": "Está certo. Obrigado!"
+  },
+  "先生，我要换钱。": {
+    "ru": "Господин, я хочу поменять деньги.",
+    "en": "Sir, I'd like to exchange money.",
+    "es": "Señor, quiero cambiar dinero.",
+    "pt-BR": "Senhor, quero trocar dinheiro."
+  },
+  "我换五万日元的人民币。": {
+    "ru": "Я хочу поменять пятьдесят тысяч японских иен на юани.",
+    "en": "I'd like to exchange 50,000 yen for yuan.",
+    "es": "Quiero cambiar cincuenta mil yenes a yuanes.",
+    "pt-BR": "Quero trocar cinquenta mil ienes por yuan."
+  },
+  "请等一会儿……先生，给您钱。": {
+    "ru": "Подождите немного… Господин, вот ваши деньги.",
+    "en": "Please wait a moment… Sir, here's your money.",
+    "es": "Espere un momento… Señor, aquí tiene el dinero.",
+    "pt-BR": "Por favor, aguarde um momento… Senhor, aqui está o dinheiro."
+  },
+  "小姐，给您钱，您数数。": {
+    "ru": "Девушка, вот ваши деньги, пересчитайте, пожалуйста.",
+    "en": "Miss, here's your money, please count it.",
+    "es": "Señorita, aquí tiene el dinero, cuente, por favor.",
+    "pt-BR": "Senhorita, aqui está o dinheiro, por favor conte."
+  },
+  "给你": {
+    "ru": "(дать) тебе",
+    "en": "(give) you",
+    "es": "(dar) a ti",
+    "pt-BR": "(dar) a você"
+  },
+  "给我": {
+    "ru": "(дать) мне",
+    "en": "(give) me",
+    "es": "(dar) a mí",
+    "pt-BR": "(dar) a mim"
+  },
+  "给他": {
+    "ru": "(дать) ему",
+    "en": "(give) him",
+    "es": "(dar) a él",
+    "pt-BR": "(dar) a ele"
+  },
+  "给你们": {
+    "ru": "(дать) вам",
+    "en": "(give) you (plural)",
+    "es": "(dar) a ustedes",
+    "pt-BR": "(dar) a vocês"
+  },
+  "给他们": {
+    "ru": "(дать) им",
+    "en": "(give) them",
+    "es": "(dar) a ellos",
+    "pt-BR": "(dar) a eles"
+  },
+  "给老师": {
+    "ru": "(дать) учителю",
+    "en": "(give) the teacher",
+    "es": "(dar) al profesor",
+    "pt-BR": "(dar) ao professor"
+  },
+  "一百": {
+    "ru": "сто",
+    "en": "one hundred",
+    "es": "cien",
+    "pt-BR": "cem"
+  },
+  "二百": {
+    "ru": "двести",
+    "en": "two hundred",
+    "es": "doscientos",
+    "pt-BR": "duzentos"
+  },
+  "三百": {
+    "ru": "триста",
+    "en": "three hundred",
+    "es": "trescientos",
+    "pt-BR": "trezentos"
+  },
+  "五百": {
+    "ru": "пятьсот",
+    "en": "five hundred",
+    "es": "quinientos",
+    "pt-BR": "quinhentos"
+  },
+  "六百": {
+    "ru": "шестьсот",
+    "en": "six hundred",
+    "es": "seiscientos",
+    "pt-BR": "seiscentos"
+  },
+  "今天下午": {
+    "ru": "сегодня после обеда",
+    "en": "this afternoon",
+    "es": "esta tarde",
+    "pt-BR": "hoje à tarde"
+  },
+  "明天下午": {
+    "ru": "завтра после обеда",
+    "en": "tomorrow afternoon",
+    "es": "mañana por la tarde",
+    "pt-BR": "amanhã à tarde"
+  },
+  "星期三下午": {
+    "ru": "в среду после обеда",
+    "en": "Wednesday afternoon",
+    "es": "el miércoles por la tarde",
+    "pt-BR": "na quarta-feira à tarde"
+  },
+  "请问，这是办公室吗？": {
+    "ru": "Скажите, пожалуйста, это офис?",
+    "en": "Excuse me, is this the office?",
+    "es": "Disculpe, ¿es esta la oficina?",
+    "pt-BR": "Com licença, este é o escritório?"
+  },
+  "是。你找谁？": {
+    "ru": "Да. Кого вы ищете?",
+    "en": "Yes. Who are you looking for?",
+    "es": "Sí. ¿A quién busca?",
+    "pt-BR": "Sim. Quem você procura?"
+  },
+  "王老师在哪儿？": {
+    "ru": "Где учитель Ван?",
+    "en": "Where is Teacher Wang?",
+    "es": "¿Dónde está el profesor Wang?",
+    "pt-BR": "Onde está o professor Wang?"
+  },
+  "我是他的学生。": {
+    "ru": "Я его студент.",
+    "en": "I'm his student.",
+    "es": "Soy su alumno.",
+    "pt-BR": "Sou aluno dele."
+  },
+  "他不在。": {
+    "ru": "Его нет.",
+    "en": "He's not here.",
+    "es": "No está.",
+    "pt-BR": "Ele não está."
+  },
+  "他在家呢。": {
+    "ru": "Он дома.",
+    "en": "He's at home.",
+    "es": "Está en casa.",
+    "pt-BR": "Ele está em casa."
+  },
+  "他住哪儿？": {
+    "ru": "Где он живёт?",
+    "en": "Where does he live?",
+    "es": "¿Dónde vive?",
+    "pt-BR": "Onde ele mora?"
+  },
+  "他住十八楼一门，房间号是601。": {
+    "ru": "Он живёт на 18-м этаже, 1-й подъезд, комната 601.",
+    "en": "He lives on the 18th floor, entrance 1, room 601.",
+    "es": "Vive en el piso 18, entrada 1, habitación 601.",
+    "pt-BR": "Ele mora no 18º andar, entrada 1, sala 601."
+  },
+  "您知道他的电话号码吗？": {
+    "ru": "Вы знаете его номер телефона?",
+    "en": "Do you know his phone number?",
+    "es": "¿Sabe su número de teléfono?",
+    "pt-BR": "O senhor sabe o número de telefone dele?"
+  },
+  "知道，62931074。": {
+    "ru": "Знаю, 62931074.",
+    "en": "Yes, 62931074.",
+    "es": "Sí, 62931074.",
+    "pt-BR": "Sei, 62931074."
+  },
+  "他的手机号码是多少？": {
+    "ru": "Какой у него номер мобильного телефона?",
+    "en": "What's his mobile phone number?",
+    "es": "¿Cuál es su número de móvil?",
+    "pt-BR": "Qual é o número do celular dele?"
+  },
+  "不知道。": {
+    "ru": "Не знаю.",
+    "en": "I don't know.",
+    "es": "No lo sé.",
+    "pt-BR": "Não sei."
+  },
+  "谢谢您。": {
+    "ru": "Спасибо вам.",
+    "en": "Thank you.",
+    "es": "Gracias.",
+    "pt-BR": "Obrigado."
+  },
+  "不客气。": {
+    "ru": "Пожалуйста.",
+    "en": "You're welcome.",
+    "es": "De nada.",
+    "pt-BR": "De nada."
+  },
+  "找老师": {
+    "ru": "искать учителя",
+    "en": "look for the teacher",
+    "es": "buscar al profesor",
+    "pt-BR": "procurar o professor"
+  },
+  "找同学": {
+    "ru": "искать одноклассника",
+    "en": "look for a classmate",
+    "es": "buscar a un compañero de clase",
+    "pt-BR": "procurar um colega de classe"
+  },
+  "找朋友": {
+    "ru": "искать друга",
+    "en": "look for a friend",
+    "es": "buscar a un amigo",
+    "pt-BR": "procurar um amigo"
+  },
+  "找书": {
+    "ru": "искать книгу",
+    "en": "look for a book",
+    "es": "buscar un libro",
+    "pt-BR": "procurar um livro"
+  },
+  "找食堂": {
+    "ru": "искать столовую",
+    "en": "look for the cafeteria",
+    "es": "buscar el comedor",
+    "pt-BR": "procurar o refeitório"
+  },
+  "在家": {
+    "ru": "дома",
+    "en": "at home",
+    "es": "en casa",
+    "pt-BR": "em casa"
+  },
+  "在学校": {
+    "ru": "в школе; в университете",
+    "en": "at school",
+    "es": "en la escuela",
+    "pt-BR": "na escola"
+  },
+  "在宿舍": {
+    "ru": "в общежитии",
+    "en": "in the dorm",
+    "es": "en el dormitorio",
+    "pt-BR": "no dormitório"
+  },
+  "在大楼": {
+    "ru": "в здании",
+    "en": "in the building",
+    "es": "en el edificio",
+    "pt-BR": "no prédio"
+  },
+  "在办公室": {
+    "ru": "в офисе",
+    "en": "in the office",
+    "es": "en la oficina",
+    "pt-BR": "no escritório"
+  },
+  "我知道": {
+    "ru": "Я знаю",
+    "en": "I know",
+    "es": "Yo sé",
+    "pt-BR": "Eu sei"
+  },
+  "你知道": {
+    "ru": "Ты знаешь",
+    "en": "You know",
+    "es": "Tú sabes",
+    "pt-BR": "Você sabe"
+  },
+  "他知道": {
+    "ru": "Он знает",
+    "en": "He knows",
+    "es": "Él sabe",
+    "pt-BR": "Ele sabe"
+  },
+  "不知道": {
+    "ru": "не знаю",
+    "en": "don't know",
+    "es": "no sé",
+    "pt-BR": "não sei"
+  },
+  "知道吗": {
+    "ru": "Знаешь?",
+    "en": "Do you know?",
+    "es": "¿Sabes?",
+    "pt-BR": "Sabe?"
+  },
+  "你是留学生吗？": {
+    "ru": "Ты иностранный студент?",
+    "en": "Are you an international student?",
+    "es": "¿Eres estudiante extranjero?",
+    "pt-BR": "Você é estudante estrangeiro?"
+  },
+  "你住哪儿？": {
+    "ru": "Где ты живёшь?",
+    "en": "Where do you live?",
+    "es": "¿Dónde vives?",
+    "pt-BR": "Onde você mora?"
+  },
+  "你住多少号？": {
+    "ru": "В какой комнате ты живёшь?",
+    "en": "What room number do you live in?",
+    "es": "¿En qué número vives?",
+    "pt-BR": "Em qual número você mora?"
+  },
+  "你的手机号码是多少号？": {
+    "ru": "Какой у тебя номер мобильного телефона?",
+    "en": "What's your mobile phone number?",
+    "es": "¿Cuál es tu número de móvil?",
+    "pt-BR": "Qual é o seu número de celular?"
+  },
+  "我去办公室找王老师，办公室的老师说，王老师不在，他在家呢。王老师住18楼1门601号，他家的电话是62931074。": {
+    "ru": "Я пошёл в офис искать учителя Вана. Учитель в офисе сказал, что учителя Вана нет, он дома. Учитель Ван живёт на 18-м этаже, 1-й подъезд, квартира 601. Его домашний телефон — 62931074.",
+    "en": "I went to the office to look for Teacher Wang. The teacher in the office said Teacher Wang wasn't there; he's at home. Teacher Wang lives on the 18th floor, entrance 1, room 601. His home phone number is 62931074.",
+    "es": "Fui a la oficina a buscar al profesor Wang. El profesor de la oficina dijo que el profesor Wang no estaba, está en casa. El profesor Wang vive en el piso 18, entrada 1, habitación 601. Su teléfono de casa es 62931074.",
+    "pt-BR": "Fui ao escritório procurar o professor Wang. O professor do escritório disse que o professor Wang não estava, ele está em casa. O professor Wang mora no 18º andar, entrada 1, sala 601. O telefone de casa dele é 62931074."
+  },
+  "他不在。他在家呢。": {
+    "ru": "Его нет. Он дома.",
+    "en": "He's not here. He's at home.",
+    "es": "No está. Está en casa.",
+    "pt-BR": "Ele não está. Ele está em casa."
+  },
+  "王老师在哪儿？我是他的学生。": {
+    "ru": "Где учитель Ван? Я его студент.",
+    "en": "Where is Teacher Wang? I'm his student.",
+    "es": "¿Dónde está el profesor Wang? Soy su alumno.",
+    "pt-BR": "Onde está o professor Wang? Sou aluno dele."
+  },
+  "我先介绍一下儿，这位是王教授。这是马校长。": {
+    "ru": "Сначала позвольте представить: это профессор Ван. Это директор Ма.",
+    "en": "Let me introduce them first: this is Professor Wang. This is Principal Ma.",
+    "es": "Primero permítanme presentar: este es el profesor Wang. Este es el director Ma.",
+    "pt-BR": "Primeiro deixe-me apresentar: este é o professor Wang. Este é o diretor Ma."
+  },
+  "欢迎您，王教授。": {
+    "ru": "Добро пожаловать, профессор Ван!",
+    "en": "Welcome, Professor Wang!",
+    "es": "¡Bienvenido, profesor Wang!",
+    "pt-BR": "Bem-vindo, professor Wang!"
+  },
+  "是。": {
+    "ru": "Да.",
+    "en": "Yes.",
+    "es": "Sí.",
+    "pt-BR": "Sim."
+  },
+  "她也是留学生吗？": {
+    "ru": "Она тоже иностранная студентка?",
+    "en": "Is she also an international student?",
+    "es": "¿Ella también es estudiante extranjera?",
+    "pt-BR": "Ela também é estudante estrangeira?"
+  },
+  "她也是留学生。我们都是留学生。": {
+    "ru": "Она тоже иностранная студентка. Мы все — иностранные студенты.",
+    "en": "She is also an international student. We are all international students.",
+    "es": "Ella también es estudiante extranjera. Todos somos estudiantes extranjeros.",
+    "pt-BR": "Ela também é estudante estrangeira. Todos somos estudantes estrangeiros."
+  },
+  "他们俩也都是留学生吗？": {
+    "ru": "Они оба тоже иностранные студенты?",
+    "en": "Are they both international students too?",
+    "es": "¿Los dos también son estudiantes extranjeros?",
+    "pt-BR": "Os dois também são estudantes estrangeiros?"
+  },
+  "不，他们俩不是留学生。他们都是中国学生。": {
+    "ru": "Нет, они оба не иностранные студенты. Они оба — китайские студенты.",
+    "en": "No, they are not international students. They are both Chinese students.",
+    "es": "No, los dos no son estudiantes extranjeros. Los dos son estudiantes chinos.",
+    "pt-BR": "Não, os dois não são estudantes estrangeiros. Os dois são estudantes chineses."
+  },
+  "他是中国人吗？": {
+    "ru": "Он китаец?",
+    "en": "Is he Chinese?",
+    "es": "¿Él es chino?",
+    "pt-BR": "Ele é chinês?"
+  },
+  "你也是中国人吗？": {
+    "ru": "Ты тоже китаец?",
+    "en": "Are you Chinese too?",
+    "es": "¿Tú también eres chino?",
+    "pt-BR": "Você também é chinês?"
+  },
+  "不是。我是韩国人。": {
+    "ru": "Нет. Я кореец.",
+    "en": "No. I am Korean.",
+    "es": "No. Soy coreano.",
+    "pt-BR": "Não. Sou coreano."
+  },
+  "对不起。": {
+    "ru": "Извините.",
+    "en": "I'm sorry.",
+    "es": "Lo siento.",
+    "pt-BR": "Desculpe."
+  },
+  "没什么。": {
+    "ru": "Ничего страшного.",
+    "en": "It's nothing.",
+    "es": "No pasa nada.",
+    "pt-BR": "Não tem problema."
+  },
+  "你是中国人吗？": {
+    "ru": "Ты китаец?",
+    "en": "Are you Chinese?",
+    "es": "¿Eres chino?",
+    "pt-BR": "Você é chinês?"
+  },
+  "是。（我是中国人。）": {
+    "ru": "Да. (Я китаец.)",
+    "en": "Yes. (I am Chinese.)",
+    "es": "Sí. (Soy chino.)",
+    "pt-BR": "Sim. (Sou chinês.)"
+  },
+  "你是老师吗？": {
+    "ru": "Ты преподаватель?",
+    "en": "Are you a teacher?",
+    "es": "¿Eres profesor?",
+    "pt-BR": "Você é professor?"
+  },
+  "不是。我是学生。": {
+    "ru": "Нет. Я студент.",
+    "en": "No. I am a student.",
+    "es": "No. Soy estudiante.",
+    "pt-BR": "Não. Sou estudante."
+  },
+  "他们都是留学生吗？": {
+    "ru": "Они все иностранные студенты?",
+    "en": "Are they all international students?",
+    "es": "¿Todos son estudiantes extranjeros?",
+    "pt-BR": "Todos são estudantes estrangeiros?"
+  },
+  "他们都是留学生。": {
+    "ru": "Они все — иностранные студенты.",
+    "en": "They are all international students.",
+    "es": "Todos son estudiantes extranjeros.",
+    "pt-BR": "Todos são estudantes estrangeiros."
+  },
+  "他们都是学生。": {
+    "ru": "Они все — студенты.",
+    "en": "They are all students.",
+    "es": "Todos son estudiantes.",
+    "pt-BR": "Todos são estudantes."
+  },
+  "他也是留学生。": {
+    "ru": "Он тоже иностранный студент.",
+    "en": "He is also an international student.",
+    "es": "Él también es estudiante extranjero.",
+    "pt-BR": "Ele também é estudante estrangeiro."
+  },
+  "她也是留学生。": {
+    "ru": "Она тоже иностранная студентка.",
+    "en": "She is also an international student.",
+    "es": "Ella también es estudiante extranjera.",
+    "pt-BR": "Ela também é estudante estrangeira."
+  },
+  "他也是中国人吗？": {
+    "ru": "Он тоже китаец?",
+    "en": "Is he Chinese too?",
+    "es": "¿Él también es chino?",
+    "pt-BR": "Ele também é chinês?"
+  },
+  "不是。（我不是中国人。）": {
+    "ru": "Нет. (Я не китаец.)",
+    "en": "No. (I am not Chinese.)",
+    "es": "No. (No soy chino.)",
+    "pt-BR": "Não. (Não sou chinês.)"
+  },
+  "不是。（他不是老师。）": {
+    "ru": "Нет. (Он не преподаватель.)",
+    "en": "No. (He is not a teacher.)",
+    "es": "No. (Él no es profesor.)",
+    "pt-BR": "Não. (Ele não é professor.)"
+  },
+  "不是": {
+    "ru": "нет",
+    "en": "no; is not",
+    "es": "no",
+    "pt-BR": "não"
+  },
+  "也是": {
+    "ru": "тоже",
+    "en": "also; too",
+    "es": "también",
+    "pt-BR": "também"
+  },
+  "都是": {
+    "ru": "все",
+    "en": "all are",
+    "es": "todos son",
+    "pt-BR": "todos são"
+  },
+  "先去": {
+    "ru": "сначала пойти",
+    "en": "go first",
+    "es": "ir primero",
+    "pt-BR": "ir primeiro"
+  },
+  "先吃": {
+    "ru": "сначала поесть",
+    "en": "eat first",
+    "es": "comer primero",
+    "pt-BR": "comer primeiro"
+  },
+  "也是留学生": {
+    "ru": "тоже иностранный студент",
+    "en": "also an international student",
+    "es": "también estudiante extranjero",
+    "pt-BR": "também estudante estrangeiro"
+  },
+  "都是老师": {
+    "ru": "все преподаватели",
+    "en": "all teachers",
+    "es": "todos profesores",
+    "pt-BR": "todos professores"
+  },
+  "都是朋友": {
+    "ru": "все друзья",
+    "en": "all friends",
+    "es": "todos amigos",
+    "pt-BR": "todos amigos"
+  },
+  "不好": {
+    "ru": "плохо; нехорошо",
+    "en": "not good",
+    "es": "no bueno",
+    "pt-BR": "não é bom"
+  },
+  "不难": {
+    "ru": "не трудно",
+    "en": "not difficult",
+    "es": "no difícil",
+    "pt-BR": "não é difícil"
+  },
+  "也买": {
+    "ru": "тоже купить",
+    "en": "also buy",
+    "es": "también comprar",
+    "pt-BR": "também comprar"
+  },
+  "也要": {
+    "ru": "тоже хотеть; тоже нужно",
+    "en": "also want; also need",
+    "es": "también querer; también necesitar",
+    "pt-BR": "também querer; também precisar"
+  },
+  "都去": {
+    "ru": "все идут",
+    "en": "all go",
+    "es": "todos van",
+    "pt-BR": "todos vão"
+  },
+  "都吃": {
+    "ru": "все едят",
+    "en": "all eat",
+    "es": "todos comen",
+    "pt-BR": "todos comem"
+  },
+  "你在哪儿学习汉语？": {
+    "ru": "Где ты изучаешь китайский язык?",
+    "en": "Where do you study Chinese?",
+    "es": "¿Dónde estudias chino?",
+    "pt-BR": "Onde você estuda chinês?"
+  },
+  "在北京语言大学。": {
+    "ru": "В Пекинском университете языка и культуры.",
+    "en": "At Beijing Language and Culture University.",
+    "es": "En la Universidad de Lenguas y Cultura de Pekín.",
+    "pt-BR": "Na Universidade de Línguas e Cultura de Pequim."
+  },
+  "你们的老师怎么样？": {
+    "ru": "Как ваш преподаватель?",
+    "en": "How is your teacher?",
+    "es": "¿Cómo es vuestro profesor?",
+    "pt-BR": "Como é o professor de vocês?"
+  },
+  "你觉得学习汉语难吗？": {
+    "ru": "Как ты думаешь, трудно ли изучать китайский язык?",
+    "en": "Do you think studying Chinese is difficult?",
+    "es": "¿Crees que estudiar chino es difícil?",
+    "pt-BR": "Você acha que estudar chinês é difícil?"
+  },
+  "我觉得语法不太难。听和说也比较容易，但是读和写很难。": {
+    "ru": "Я думаю, грамматика не очень трудная. Слушать и говорить тоже относительно легко, но читать и писать очень трудно.",
+    "en": "I think grammar is not too difficult. Listening and speaking are also relatively easy, but reading and writing are very difficult.",
+    "es": "Creo que la gramática no es muy difícil. Escuchar y hablar también son relativamente fáciles, pero leer y escribir son muy difíciles.",
+    "pt-BR": "Acho que a gramática não é muito difícil. Ouvir e falar também são relativamente fáceis, mas ler e escrever são muito difíceis."
+  },
+  "我给你们介绍一下儿，这位是新同学，是我的同屋。": {
+    "ru": "Позвольте вам представить: это новый однокурсник, мой сосед по комнате.",
+    "en": "Let me introduce you: this is a new classmate, my roommate.",
+    "es": "Permítanme presentarles: este es un nuevo compañero de clase, mi compañero de cuarto.",
+    "pt-BR": "Deixe-me apresentar: este é um novo colega de classe, meu colega de quarto."
+  },
+  "你在哪个班学习？": {
+    "ru": "В каком классе ты учишься?",
+    "en": "Which class do you study in?",
+    "es": "¿En qué clase estudias?",
+    "pt-BR": "Em qual turma você estuda?"
+  },
+  "在103班。": {
+    "ru": "В 103-м классе.",
+    "en": "In Class 103.",
+    "es": "En la clase 103.",
+    "pt-BR": "Na turma 103."
+  },
+  "你们的老师是谁？": {
+    "ru": "Кто ваш преподаватель?",
+    "en": "Who is your teacher?",
+    "es": "¿Quién es vuestro profesor?",
+    "pt-BR": "Quem é o professor de vocês?"
+  },
+  "我们的老师是林老师。": {
+    "ru": "Наш преподаватель — преподаватель Линь.",
+    "en": "Our teacher is Teacher Lin.",
+    "es": "Nuestro profesor es el profesor Lin.",
+    "pt-BR": "Nosso professor é o professor Lin."
+  },
+  "什么老师": {
+    "ru": "какой преподаватель",
+    "en": "which teacher",
+    "es": "qué profesor",
+    "pt-BR": "que professor"
+  },
+  "吃什么": {
+    "ru": "что есть",
+    "en": "what to eat",
+    "es": "qué comer",
+    "pt-BR": "o que comer"
+  },
+  "身体怎么样": {
+    "ru": "как здоровье",
+    "en": "how is your health",
+    "es": "cómo está la salud",
+    "pt-BR": "como está a saúde"
+  },
+  "学习怎么样": {
+    "ru": "как учёба",
+    "en": "how are your studies",
+    "es": "cómo van los estudios",
+    "pt-BR": "como estão os estudos"
+  },
+  "爸爸怎么样": {
+    "ru": "как папа",
+    "en": "how is dad",
+    "es": "cómo está papá",
+    "pt-BR": "como está o pai"
+  },
+  "妈妈怎么样": {
+    "ru": "как мама",
+    "en": "how is mom",
+    "es": "cómo está mamá",
+    "pt-BR": "como está a mãe"
+  },
+  "谁的书": {
+    "ru": "чья книга",
+    "en": "whose book",
+    "es": "de quién es el libro",
+    "pt-BR": "de quem é o livro"
+  },
+  "谁的老师": {
+    "ru": "чей преподаватель",
+    "en": "whose teacher",
+    "es": "de quién es el profesor",
+    "pt-BR": "de quem é o professor"
+  },
+  "谁的词典": {
+    "ru": "чей словарь",
+    "en": "whose dictionary",
+    "es": "de quién es el diccionario",
+    "pt-BR": "de quem é o dicionário"
+  },
+  "谁的英文杂志": {
+    "ru": "чей английский журнал",
+    "en": "whose English magazine",
+    "es": "de quién es la revista en inglés",
+    "pt-BR": "de quem é a revista em inglês"
+  },
+  "谁的杯": {
+    "ru": "чья чашка",
+    "en": "whose cup",
+    "es": "de quién es la taza",
+    "pt-BR": "de quem é a xícara"
+  },
+  "我的英文杂志": {
+    "ru": "мой английский журнал",
+    "en": "my English magazine",
+    "es": "mi revista en inglés",
+    "pt-BR": "minha revista em inglês"
+  },
+  "学习什么": {
+    "ru": "что изучать",
+    "en": "what to study",
+    "es": "qué estudiar",
+    "pt-BR": "o que estudar"
+  },
+  "学习语言": {
+    "ru": "изучать язык",
+    "en": "study a language",
+    "es": "estudiar un idioma",
+    "pt-BR": "estudar uma língua"
+  },
+  "学习英语": {
+    "ru": "изучать английский язык",
+    "en": "study English",
+    "es": "estudiar inglés",
+    "pt-BR": "estudar inglês"
+  },
+  "在中国": {
+    "ru": "в Китае",
+    "en": "in China",
+    "es": "en China",
+    "pt-BR": "na China"
+  },
+  "在北京": {
+    "ru": "в Пекине",
+    "en": "in Beijing",
+    "es": "en Pekín",
+    "pt-BR": "em Pequim"
+  },
+  "在语言大学": {
+    "ru": "в университете языков",
+    "en": "at the language university",
+    "es": "en la universidad de idiomas",
+    "pt-BR": "na universidade de línguas"
+  },
+  "男同学": {
+    "ru": "однокурсник",
+    "en": "male classmate",
+    "es": "compañero de clase",
+    "pt-BR": "colega de classe (homem)"
+  },
+  "女同学": {
+    "ru": "однокурсница",
+    "en": "female classmate",
+    "es": "compañera de clase",
+    "pt-BR": "colega de classe (mulher)"
+  },
+  "男老师": {
+    "ru": "преподаватель",
+    "en": "male teacher",
+    "es": "profesor",
+    "pt-BR": "professor (homem)"
+  },
+  "女老师": {
+    "ru": "преподавательница",
+    "en": "female teacher",
+    "es": "profesora",
+    "pt-BR": "professora"
+  },
+  "中文书": {
+    "ru": "книга на китайском",
+    "en": "Chinese book",
+    "es": "libro en chino",
+    "pt-BR": "livro em chinês"
+  },
+  "法文书": {
+    "ru": "книга на французском",
+    "en": "French book",
+    "es": "libro en francés",
+    "pt-BR": "livro em francês"
+  },
+  "日文杂志": {
+    "ru": "журнал на японском",
+    "en": "Japanese magazine",
+    "es": "revista en japonés",
+    "pt-BR": "revista em japonês"
+  },
+  "韩文杂志": {
+    "ru": "журнал на корейском",
+    "en": "Korean magazine",
+    "es": "revista en coreano",
+    "pt-BR": "revista em coreano"
+  },
+  "新同学": {
+    "ru": "новый однокурсник",
+    "en": "new classmate",
+    "es": "nuevo compañero de clase",
+    "pt-BR": "novo colega de classe"
+  },
+  "老同学": {
+    "ru": "старый однокурсник",
+    "en": "old classmate",
+    "es": "viejo compañero de clase",
+    "pt-BR": "antigo colega de classe"
+  },
+  "新杂志": {
+    "ru": "новый журнал",
+    "en": "new magazine",
+    "es": "revista nueva",
+    "pt-BR": "revista nova"
+  },
+  "旧杂志": {
+    "ru": "старый журнал",
+    "en": "old magazine",
+    "es": "revista vieja",
+    "pt-BR": "revista velha"
+  },
+  "很多人": {
+    "ru": "много людей",
+    "en": "many people",
+    "es": "mucha gente",
+    "pt-BR": "muitas pessoas"
+  },
+  "很多同学": {
+    "ru": "много однокурсников",
+    "en": "many classmates",
+    "es": "muchos compañeros de clase",
+    "pt-BR": "muitos colegas de classe"
+  },
+  "很多老师": {
+    "ru": "много преподавателей",
+    "en": "many teachers",
+    "es": "muchos profesores",
+    "pt-BR": "muitos professores"
+  },
+  "很多钱": {
+    "ru": "много денег",
+    "en": "a lot of money",
+    "es": "mucho dinero",
+    "pt-BR": "muito dinheiro"
+  },
+  "我妈妈": {
+    "ru": "моя мама",
+    "en": "my mom",
+    "es": "mi mamá",
+    "pt-BR": "minha mãe"
+  },
+  "他哥哥": {
+    "ru": "его старший брат",
+    "en": "his older brother",
+    "es": "su hermano mayor",
+    "pt-BR": "o irmão mais velho dele"
+  },
+  "你弟弟": {
+    "ru": "твой младший брат",
+    "en": "your younger brother",
+    "es": "tu hermano menor",
+    "pt-BR": "seu irmão mais novo"
+  },
+  "我们学校": {
+    "ru": "наша школа; наш университет",
+    "en": "our school",
+    "es": "nuestra escuela",
+    "pt-BR": "nossa escola"
+  },
+  "我们的老师是王老师。": {
+    "ru": "Наш преподаватель — преподаватель Ван.",
+    "en": "Our teacher is Teacher Wang.",
+    "es": "Nuestro profesor es el profesor Wang.",
+    "pt-BR": "Nosso professor é o professor Wang."
+  },
+  "你在哪儿学习？": {
+    "ru": "Где ты учишься?",
+    "en": "Where do you study?",
+    "es": "¿Dónde estudias?",
+    "pt-BR": "Onde você estuda?"
+  },
+  "语言大学。": {
+    "ru": "Университет языков.",
+    "en": "Language University.",
+    "es": "Universidad de idiomas.",
+    "pt-BR": "Universidade de línguas."
+  },
+  "她也在语言大学学习。": {
+    "ru": "Она тоже учится в университете языков.",
+    "en": "She also studies at the language university.",
+    "es": "Ella también estudia en la universidad de idiomas.",
+    "pt-BR": "Ela também estuda na universidade de línguas."
+  },
+  "语言大学怎么样？": {
+    "ru": "Как университет языков?",
+    "en": "How is the language university?",
+    "es": "¿Cómo es la universidad de idiomas?",
+    "pt-BR": "Como é a universidade de línguas?"
+  },
+  "很好。": {
+    "ru": "Очень хороший.",
+    "en": "Very good.",
+    "es": "Muy bien.",
+    "pt-BR": "Muito bom."
+  },
+  "我觉得不太难。": {
+    "ru": "Я думаю, не очень трудно.",
+    "en": "I don't think it's very difficult.",
+    "es": "Creo que no es muy difícil.",
+    "pt-BR": "Acho que não é muito difícil."
+  },
+  "你没有箱子吗？": {
+    "ru": "У тебя нет чемодана?",
+    "en": "Don't you have a suitcase?",
+    "es": "¿No tienes maleta?",
+    "pt-BR": "Você não tem mala?"
+  },
+  "有啊。我的在这儿呢。": {
+    "ru": "Есть. Мой вот здесь.",
+    "en": "Yes, I do. Mine is right here.",
+    "es": "Sí, la tengo. La mía está aquí.",
+    "pt-BR": "Tenho sim. A minha está aqui."
+  },
+  "我的很重，你的重不重？": {
+    "ru": "Мой очень тяжёлый, а твой тяжёлый?",
+    "en": "Mine is very heavy. Is yours heavy?",
+    "es": "La mía es muy pesada, ¿la tuya es pesada?",
+    "pt-BR": "A minha é muito pesada, a sua é pesada?"
+  },
+  "这个黑的很重，那个红的比较轻。": {
+    "ru": "Этот чёрный очень тяжёлый, а тот красный сравнительно лёгкий.",
+    "en": "This black one is very heavy; that red one is relatively light.",
+    "es": "Este negro es muy pesado; ese rojo es relativamente ligero.",
+    "pt-BR": "Este preto é muito pesado; aquele vermelho é relativamente leve."
+  },
+  "你的箱子很新，我的很旧。": {
+    "ru": "Твой чемодан очень новый, а мой — старый.",
+    "en": "Your suitcase is very new; mine is old.",
+    "es": "Tu maleta es muy nueva; la mía es vieja.",
+    "pt-BR": "Sua mala é muito nova; a minha é velha."
+  },
+  "那个新的，是朋友的。这个旧的是我的。": {
+    "ru": "Тот новый — друга. Этот старый — мой.",
+    "en": "That new one is a friend's. This old one is mine.",
+    "es": "Ese nuevo es de un amigo. Este viejo es mío.",
+    "pt-BR": "Aquele novo é de um amigo. Este velho é meu."
+  },
+  "先生，这些黑的是什么东西？": {
+    "ru": "Господин, что это за чёрные вещи?",
+    "en": "Sir, what are these black things?",
+    "es": "Señor, ¿qué son estas cosas negras?",
+    "pt-BR": "Senhor, o que são essas coisas pretas?"
+  },
+  "这是一些药。": {
+    "ru": "Это лекарства.",
+    "en": "These are some medicines.",
+    "es": "Son unos medicamentos.",
+    "pt-BR": "São alguns remédios."
+  },
+  "什么药？": {
+    "ru": "Какое лекарство?",
+    "en": "What medicine?",
+    "es": "¿Qué medicamento?",
+    "pt-BR": "Que remédio?"
+  },
+  "中药。": {
+    "ru": "Китайское лекарство.",
+    "en": "Traditional Chinese medicine.",
+    "es": "Medicina tradicional china.",
+    "pt-BR": "Medicina tradicional chinesa."
+  },
+  "这是不是药？": {
+    "ru": "Это лекарство или нет?",
+    "en": "Is this medicine or not?",
+    "es": "¿Esto es medicamento o no?",
+    "pt-BR": "Isso é remédio ou não?"
+  },
+  "这不是药，这是茶叶。": {
+    "ru": "Это не лекарство, это чай.",
+    "en": "This is not medicine; this is tea leaves.",
+    "es": "Esto no es medicamento, es té.",
+    "pt-BR": "Isso não é remédio, é chá."
+  },
+  "那个箱子里是什么？": {
+    "ru": "Что в том чемодане?",
+    "en": "What is in that suitcase?",
+    "es": "¿Qué hay en esa maleta?",
+    "pt-BR": "O que tem naquela mala?"
+  },
+  "都是日用品。有两件衣服、一把雨伞和一瓶香水，还有一本书、一本词典、两张光盘和三支笔。": {
+    "ru": "Всё — предметы повседневного обихода. Две вещи, один зонт и один флакон духов, а также одна книга, один словарь, два диска и три ручки.",
+    "en": "They are all daily necessities. There are two pieces of clothing, an umbrella and a bottle of perfume, as well as a book, a dictionary, two CDs and three pens.",
+    "es": "Son artículos de uso diario. Hay dos prendas de ropa, un paraguas y un frasco de perfume, además de un libro, un diccionario, dos discos y tres bolígrafos.",
+    "pt-BR": "São artigos de uso diário. Há duas peças de roupa, um guarda-chuva e um frasco de perfume, além de um livro, um dicionário, dois discos e três canetas."
+  },
+  "一件衣服": {
+    "ru": "одна вещь (одежда)",
+    "en": "one piece of clothing",
+    "es": "una prenda de ropa",
+    "pt-BR": "uma peça de roupa"
+  },
+  "一张光盘": {
+    "ru": "один диск",
+    "en": "one CD",
+    "es": "un disco",
+    "pt-BR": "um disco"
+  },
+  "一把雨伞": {
+    "ru": "один зонт",
+    "en": "one umbrella",
+    "es": "un paraguas",
+    "pt-BR": "um guarda-chuva"
+  },
+  "一个本子": {
+    "ru": "одна тетрадь",
+    "en": "one notebook",
+    "es": "un cuaderno",
+    "pt-BR": "um caderno"
+  },
+  "一瓶香水": {
+    "ru": "один флакон духов",
+    "en": "one bottle of perfume",
+    "es": "un frasco de perfume",
+    "pt-BR": "um frasco de perfume"
+  },
+  "一支笔": {
+    "ru": "одна ручка",
+    "en": "one pen",
+    "es": "un bolígrafo",
+    "pt-BR": "uma caneta"
+  },
+  "一本书": {
+    "ru": "одна книга",
+    "en": "one book",
+    "es": "un libro",
+    "pt-BR": "um livro"
+  },
+  "一本词典": {
+    "ru": "один словарь",
+    "en": "one dictionary",
+    "es": "un diccionario",
+    "pt-BR": "um dicionário"
+  },
+  "谁的包": {
+    "ru": "чья сумка",
+    "en": "whose bag",
+    "es": "de quién es la bolsa",
+    "pt-BR": "de quem é a bolsa"
+  },
+  "谁的笔": {
+    "ru": "чья ручка",
+    "en": "whose pen",
+    "es": "de quién es el bolígrafo",
+    "pt-BR": "de quem é a caneta"
+  },
+  "谁的报纸": {
+    "ru": "чья газета",
+    "en": "whose newspaper",
+    "es": "de quién es el periódico",
+    "pt-BR": "de quem é o jornal"
+  },
+  "谁的光盘": {
+    "ru": "чей диск",
+    "en": "whose CD",
+    "es": "de quién es el disco",
+    "pt-BR": "de quem é o disco"
+  },
+  "谁的地图": {
+    "ru": "чья карта",
+    "en": "whose map",
+    "es": "de quién es el mapa",
+    "pt-BR": "de quem é o mapa"
+  },
+  "什么词典": {
+    "ru": "какой словарь",
+    "en": "which dictionary",
+    "es": "qué diccionario",
+    "pt-BR": "que dicionário"
+  },
+  "什么药": {
+    "ru": "какое лекарство",
+    "en": "what medicine",
+    "es": "qué medicamento",
+    "pt-BR": "que remédio"
+  },
+  "我的": {
+    "ru": "мой; моя; моё",
+    "en": "mine; my",
+    "es": "mío; mía",
+    "pt-BR": "meu; minha"
+  },
+  "他的": {
+    "ru": "его",
+    "en": "his",
+    "es": "suyo (de él)",
+    "pt-BR": "dele"
+  },
+  "老师的": {
+    "ru": "преподавателя",
+    "en": "the teacher's",
+    "es": "del profesor",
+    "pt-BR": "do professor"
+  },
+  "留学生的": {
+    "ru": "иностранного студента",
+    "en": "the international student's",
+    "es": "del estudiante extranjero",
+    "pt-BR": "do estudante estrangeiro"
+  },
+  "新的": {
+    "ru": "новый",
+    "en": "new",
+    "es": "nuevo",
+    "pt-BR": "novo"
+  },
+  "旧的": {
+    "ru": "старый",
+    "en": "old",
+    "es": "viejo",
+    "pt-BR": "velho"
+  },
+  "黑的": {
+    "ru": "чёрный",
+    "en": "black",
+    "es": "negro",
+    "pt-BR": "preto"
+  },
+  "红的": {
+    "ru": "красный",
+    "en": "red",
+    "es": "rojo",
+    "pt-BR": "vermelho"
+  },
+  "有没有": {
+    "ru": "есть или нет",
+    "en": "have or not have",
+    "es": "tener o no tener",
+    "pt-BR": "ter ou não ter"
+  },
+  "是不是": {
+    "ru": "да или нет; является ли",
+    "en": "is or is not",
+    "es": "ser o no ser",
+    "pt-BR": "é ou não é"
+  },
+  "忙不忙": {
+    "ru": "занят или нет",
+    "en": "busy or not",
+    "es": "ocupado o no",
+    "pt-BR": "ocupado ou não"
+  },
+  "听不听": {
+    "ru": "слушать или нет",
+    "en": "listen or not",
+    "es": "escuchar o no",
+    "pt-BR": "ouvir ou não"
+  },
+  "说不说": {
+    "ru": "говорить или нет",
+    "en": "speak or not",
+    "es": "hablar o no",
+    "pt-BR": "falar ou não"
+  },
+  "读不读": {
+    "ru": "читать или нет",
+    "en": "read or not",
+    "es": "leer o no",
+    "pt-BR": "ler ou não"
+  },
+  "写不写": {
+    "ru": "писать или нет",
+    "en": "write or not",
+    "es": "escribir o no",
+    "pt-BR": "escrever ou não"
+  },
+  "要不要": {
+    "ru": "хотеть или нет; нужно или нет",
+    "en": "want or not",
+    "es": "querer o no",
+    "pt-BR": "querer ou não"
+  },
+  "多少钱人民币": {
+    "ru": "сколько юаней",
+    "en": "how many yuan (RMB)",
+    "es": "cuántos yuanes",
+    "pt-BR": "quantos yuans"
+  },
+  "词典好不好": {
+    "ru": "хороший ли словарь",
+    "en": "is the dictionary good",
+    "es": "¿es bueno el diccionario?",
+    "pt-BR": "o dicionário é bom"
+  },
+  "箱子重不重": {
+    "ru": "тяжёлый ли чемодан",
+    "en": "is the suitcase heavy",
+    "es": "¿es pesada la maleta?",
+    "pt-BR": "a mala é pesada"
+  },
+  "汉字难不难": {
+    "ru": "трудны ли иероглифы",
+    "en": "are Chinese characters difficult",
+    "es": "¿son difíciles los caracteres chinos?",
+    "pt-BR": "os caracteres chineses são difíceis"
+  },
+  "学习忙不忙": {
+    "ru": "занят ли учёбой",
+    "en": "are you busy with studies",
+    "es": "¿estás ocupado con los estudios?",
+    "pt-BR": "está ocupado com os estudos"
+  },
+  "学习不学习": {
+    "ru": "учиться или нет",
+    "en": "study or not",
+    "es": "estudiar o no",
+    "pt-BR": "estudar ou não"
+  },
+  "欢迎不欢迎": {
+    "ru": "приветствовать или нет",
+    "en": "welcome or not",
+    "es": "dar la bienvenida o no",
+    "pt-BR": "dar boas-vindas ou não"
+  },
+  "工作不工作": {
+    "ru": "работать или нет",
+    "en": "work or not",
+    "es": "trabajar o no",
+    "pt-BR": "trabalhar ou não"
+  },
+  "这是药。": {
+    "ru": "Это лекарство.",
+    "en": "This is medicine.",
+    "es": "Esto es medicamento.",
+    "pt-BR": "Isso é remédio."
+  },
+  "这是什么药？": {
+    "ru": "Что это за лекарство?",
+    "en": "What medicine is this?",
+    "es": "¿Qué medicamento es esto?",
+    "pt-BR": "Que remédio é esse?"
+  },
+  "中药。（这是中药。）": {
+    "ru": "Китайское лекарство. (Это китайское лекарство.)",
+    "en": "Traditional Chinese medicine. (This is traditional Chinese medicine.)",
+    "es": "Medicina tradicional china. (Esto es medicina tradicional china.)",
+    "pt-BR": "Medicina tradicional chinesa. (Isso é medicina tradicional chinesa.)"
+  },
+  "你有没有箱子？": {
+    "ru": "У тебя есть чемодан?",
+    "en": "Do you have a suitcase?",
+    "es": "¿Tienes maleta?",
+    "pt-BR": "Você tem mala?"
+  },
+  "有。": {
+    "ru": "Есть.",
+    "en": "Yes, I do.",
+    "es": "Sí.",
+    "pt-BR": "Tenho."
+  },
+  "你的箱子重不重？": {
+    "ru": "Твой чемодан тяжёлый?",
+    "en": "Is your suitcase heavy?",
+    "es": "¿Tu maleta es pesada?",
+    "pt-BR": "Sua mala é pesada?"
+  },
+  "很重。": {
+    "ru": "Очень тяжёлый.",
+    "en": "Very heavy.",
+    "es": "Muy pesada.",
+    "pt-BR": "Muito pesada."
+  },
+  "这个箱子是谁的？": {
+    "ru": "Чей это чемодан?",
+    "en": "Whose suitcase is this?",
+    "es": "¿De quién es esta maleta?",
+    "pt-BR": "De quem é esta mala?"
+  },
+  "是我的。": {
+    "ru": "Мой.",
+    "en": "It's mine.",
+    "es": "Es mía.",
+    "pt-BR": "É minha."
+  },
+  "那个是不是你的？": {
+    "ru": "Тот твой или нет?",
+    "en": "Is that one yours?",
+    "es": "¿Ese es tuyo?",
+    "pt-BR": "Aquele é seu?"
+  },
+  "不是。": {
+    "ru": "Нет.",
+    "en": "No.",
+    "es": "No.",
+    "pt-BR": "Não."
+  },
+  "这些是不是药？": {
+    "ru": "Это лекарства или нет?",
+    "en": "Are these medicines or not?",
+    "es": "¿Son medicamentos o no?",
+    "pt-BR": "São remédios ou não?"
+  },
+  "不是。（这些不是药。）": {
+    "ru": "Нет. (Это не лекарства.)",
+    "en": "No. (These are not medicine.)",
+    "es": "No. (Estos no son medicamentos.)",
+    "pt-BR": "Não. (Isso não é remédio.)"
+  },
+  "你去不去银行？": {
+    "ru": "Ты идёшь в банк или нет?",
+    "en": "Are you going to the bank or not?",
+    "es": "¿Vas al banco o no?",
+    "pt-BR": "Você vai ao banco ou não?"
+  },
+  "去。": {
+    "ru": "Иду.",
+    "en": "Yes, I am.",
+    "es": "Sí.",
+    "pt-BR": "Vou."
+  },
+  "你买苹果不买？": {
+    "ru": "Ты покупаешь яблоки или нет?",
+    "en": "Are you buying apples or not?",
+    "es": "¿Compras manzanas o no?",
+    "pt-BR": "Você compra maçãs ou não?"
+  },
+  "不买，我买橘子。": {
+    "ru": "Не покупаю, я покупаю апельсины.",
+    "en": "No, I'm buying oranges.",
+    "es": "No, compro naranjas.",
+    "pt-BR": "Não, compro laranjas."
+  },
+  "王老师，好久不见了。": {
+    "ru": "Учитель Ван, давно не виделись.",
+    "en": "Teacher Wang, long time no see.",
+    "es": "Profesor Wang, ¡cuánto tiempo sin vernos!",
+    "pt-BR": "Professor Wang, há quanto tempo!"
+  },
+  "啊！关经理，欢迎，欢迎！": {
+    "ru": "А! Директор Гуань, добро пожаловать, добро пожаловать!",
+    "en": "Ah! Manager Guan, welcome, welcome!",
+    "es": "¡Ah! Director Guan, ¡bienvenido, bienvenido!",
+    "pt-BR": "Ah! Diretor Guan, bem-vindo, bem-vindo!"
+  },
+  "您身体好吗？": {
+    "ru": "Как Ваше здоровье?",
+    "en": "How is your health?",
+    "es": "¿Cómo está de salud?",
+    "pt-BR": "Como está a sua saúde?"
+  },
+  "很好。您身体怎么样？": {
+    "ru": "Очень хорошо. А как Ваше здоровье?",
+    "en": "Very well. How is your health?",
+    "es": "Muy bien. ¿Y cómo está de salud?",
+    "pt-BR": "Muito bem. E como está a sua saúde?"
+  },
+  "马马虎虎。": {
+    "ru": "Так себе.",
+    "en": "So-so.",
+    "es": "Más o menos.",
+    "pt-BR": "Mais ou menos."
+  },
+  "最近工作忙不忙？": {
+    "ru": "В последнее время много работы?",
+    "en": "Have you been busy with work lately?",
+    "es": "¿Está ocupado con el trabajo últimamente?",
+    "pt-BR": "Está ocupado com o trabalho ultimamente?"
+  },
+  "不太忙，您呢？": {
+    "ru": "Не очень занят, а Вы?",
+    "en": "Not too busy. And you?",
+    "es": "No muy ocupado. ¿Y usted?",
+    "pt-BR": "Não muito ocupado. E o senhor?"
+  },
+  "刚开学，有点儿忙。喝点儿什么？茶还是咖啡？": {
+    "ru": "Только что начался учебный год, немного занят. Что будете пить? Чай или кофе?",
+    "en": "School just started, I'm a bit busy. What would you like to drink? Tea or coffee?",
+    "es": "Acaba de empezar el curso, estoy un poco ocupado. ¿Qué quiere beber? ¿Té o café?",
+    "pt-BR": "As aulas acabaram de começar, estou um pouco ocupado. O que gostaria de beber? Chá ou café?"
+  },
+  "喝杯茶吧！": {
+    "ru": "Выпейте чаю!",
+    "en": "Have a cup of tea!",
+    "es": "¡Tome una taza de té!",
+    "pt-BR": "Tome uma xícara de chá!"
+  },
+  "我的车呢？": {
+    "ru": "А где моя машина?",
+    "en": "Where is my vehicle?",
+    "es": "¿Y mi vehículo?",
+    "pt-BR": "E o meu veículo?"
+  },
+  "你的车是什么颜色的？": {
+    "ru": "Какого цвета твоя машина?",
+    "en": "What color is your vehicle?",
+    "es": "¿De qué color es tu vehículo?",
+    "pt-BR": "De que cor é o seu veículo?"
+  },
+  "蓝的。": {
+    "ru": "Синяя.",
+    "en": "Blue.",
+    "es": "Azul.",
+    "pt-BR": "Azul."
+  },
+  "是新的还是旧的？": {
+    "ru": "Новая или старая?",
+    "en": "Is it new or old?",
+    "es": "¿Es nueva o vieja?",
+    "pt-BR": "É nova ou velha?"
+  },
+  "新的。": {
+    "ru": "Новая.",
+    "en": "New.",
+    "es": "Nueva.",
+    "pt-BR": "Nova."
+  },
+  "那辆蓝的是不是你的？": {
+    "ru": "Та синяя — твоя?",
+    "en": "Is that blue one yours?",
+    "es": "¿Esa azul es tuya?",
+    "pt-BR": "Aquela azul é sua?"
+  },
+  "哪辆？": {
+    "ru": "Какая?",
+    "en": "Which one?",
+    "es": "¿Cuál?",
+    "pt-BR": "Qual?"
+  },
+  "那辆。": {
+    "ru": "Вот та.",
+    "en": "That one.",
+    "es": "Esa.",
+    "pt-BR": "Aquela."
+  },
+  "不是……啊，我的车在那儿呢。": {
+    "ru": "Нет... А, вот моя машина!",
+    "en": "No... Ah, my vehicle is over there!",
+    "es": "No... ¡Ah, mi vehículo está allí!",
+    "pt-BR": "Não... Ah, meu veículo está ali!"
+  },
+  "你的身体怎么样？": {
+    "ru": "Как твоё здоровье?",
+    "en": "How is your health?",
+    "es": "¿Cómo está tu salud?",
+    "pt-BR": "Como está a sua saúde?"
+  },
+  "很好。（我身体很好。）": {
+    "ru": "Очень хорошо. (У меня всё в порядке со здоровьем.)",
+    "en": "Very well. (I'm in good health.)",
+    "es": "Muy bien. (Estoy muy bien de salud.)",
+    "pt-BR": "Muito bem. (Estou com a saúde boa.)"
+  },
+  "忙不忙？": {
+    "ru": "Занят?",
+    "en": "Are you busy?",
+    "es": "¿Estás ocupado?",
+    "pt-BR": "Está ocupado?"
+  },
+  "很忙。（我很忙。）": {
+    "ru": "Очень занят. (Я очень занят.)",
+    "en": "Very busy. (I'm very busy.)",
+    "es": "Muy ocupado. (Estoy muy ocupado.)",
+    "pt-BR": "Muito ocupado. (Estou muito ocupado.)"
+  },
+  "你的自行车是什么颜色的？": {
+    "ru": "Какого цвета твой велосипед?",
+    "en": "What color is your bicycle?",
+    "es": "¿De qué color es tu bicicleta?",
+    "pt-BR": "De que cor é a sua bicicleta?"
+  },
+  "蓝的。（我的自行车是蓝的。）": {
+    "ru": "Синий. (Мой велосипед синий.)",
+    "en": "Blue. (My bicycle is blue.)",
+    "es": "Azul. (Mi bicicleta es azul.)",
+    "pt-BR": "Azul. (Minha bicicleta é azul.)"
+  },
+  "你的车是新的还是旧的？": {
+    "ru": "Твоя машина новая или старая?",
+    "en": "Is your vehicle new or old?",
+    "es": "¿Tu vehículo es nuevo o viejo?",
+    "pt-BR": "Seu veículo é novo ou velho?"
+  },
+  "新的。（我的车是新的。）": {
+    "ru": "Новая. (Моя машина новая.)",
+    "en": "New. (My vehicle is new.)",
+    "es": "Nueva. (Mi vehículo es nuevo.)",
+    "pt-BR": "Nova. (Meu veículo é novo.)"
+  },
+  "你喝茶还是咖啡？": {
+    "ru": "Ты пьёшь чай или кофе?",
+    "en": "Do you drink tea or coffee?",
+    "es": "¿Bebes té o café?",
+    "pt-BR": "Você bebe chá ou café?"
+  },
+  "喝咖啡。": {
+    "ru": "Пью кофе.",
+    "en": "I drink coffee.",
+    "es": "Bebo café.",
+    "pt-BR": "Bebo café."
+  },
+  "有点儿大": {
+    "ru": "немного большой",
+    "en": "a bit big",
+    "es": "un poco grande",
+    "pt-BR": "um pouco grande"
+  },
+  "有点儿小": {
+    "ru": "немного маленький",
+    "en": "a bit small",
+    "es": "un poco pequeño",
+    "pt-BR": "um pouco pequeno"
+  },
+  "有点儿重": {
+    "ru": "немного тяжёлый",
+    "en": "a bit heavy",
+    "es": "un poco pesado",
+    "pt-BR": "um pouco pesado"
+  },
+  "有点儿轻": {
+    "ru": "немного лёгкий",
+    "en": "a bit light",
+    "es": "un poco ligero",
+    "pt-BR": "um pouco leve"
+  },
+  "有点儿贵": {
+    "ru": "немного дорогой",
+    "en": "a bit expensive",
+    "es": "un poco caro",
+    "pt-BR": "um pouco caro"
+  },
+  "有点儿难": {
+    "ru": "немного трудный",
+    "en": "a bit difficult",
+    "es": "un poco difícil",
+    "pt-BR": "um pouco difícil"
+  },
+  "有点儿多": {
+    "ru": "немного много",
+    "en": "a bit much",
+    "es": "un poco mucho",
+    "pt-BR": "um pouco demais"
+  },
+  "有点儿少": {
+    "ru": "немного мало",
+    "en": "a bit little",
+    "es": "un poco poco",
+    "pt-BR": "um pouco pouco"
+  },
+  "去银行还是去邮局": {
+    "ru": "идти в банк или на почту",
+    "en": "go to the bank or the post office",
+    "es": "ir al banco o a la oficina de correos",
+    "pt-BR": "ir ao banco ou aos correios"
+  },
+  "蓝自行车": {
+    "ru": "синий велосипед",
+    "en": "blue bicycle",
+    "es": "bicicleta azul",
+    "pt-BR": "bicicleta azul"
+  },
+  "黑自行车": {
+    "ru": "чёрный велосипед",
+    "en": "black bicycle",
+    "es": "bicicleta negra",
+    "pt-BR": "bicicleta preta"
+  },
+  "喝水": {
+    "ru": "пить воду",
+    "en": "drink water",
+    "es": "beber agua",
+    "pt-BR": "beber água"
+  },
+  "学习法语": {
+    "ru": "изучать французский язык",
+    "en": "study French",
+    "es": "estudiar francés",
+    "pt-BR": "estudar francês"
+  },
+  "是学生": {
+    "ru": "быть студентом",
+    "en": "be a student",
+    "es": "ser estudiante",
+    "pt-BR": "ser estudante"
+  },
+  "是老师": {
+    "ru": "быть учителем",
+    "en": "be a teacher",
+    "es": "ser profesor",
+    "pt-BR": "ser professor"
+  },
+  "新照相机": {
+    "ru": "новый фотоаппарат",
+    "en": "new camera",
+    "es": "cámara nueva",
+    "pt-BR": "câmera nova"
+  },
+  "旧照相机": {
+    "ru": "старый фотоаппарат",
+    "en": "old camera",
+    "es": "cámara vieja",
+    "pt-BR": "câmera velha"
+  },
+  "你家有几口人？": {
+    "ru": "Сколько человек в твоей семье?",
+    "en": "How many people are in your family?",
+    "es": "¿Cuántas personas hay en tu familia?",
+    "pt-BR": "Quantas pessoas há na sua família?"
+  },
+  "有一张。": {
+    "ru": "Есть одна.",
+    "en": "There is one.",
+    "es": "Hay una.",
+    "pt-BR": "Tem uma."
+  },
+  "有一张。你看，这是我们全家的照片。你有哥哥姐姐吗？": {
+    "ru": "Есть одна. Смотри, это фотография всей нашей семьи. У тебя есть старший брат или старшая сестра?",
+    "en": "There is one. Look, this is a photo of our whole family. Do you have an older brother or sister?",
+    "es": "Hay una. Mira, esta es una foto de toda nuestra familia. ¿Tienes hermano o hermana mayor?",
+    "pt-BR": "Tem uma. Olha, esta é uma foto de toda a nossa família. Você tem irmão ou irmã mais velhos?"
+  },
+  "你看，这是我们全家的照片。": {
+    "ru": "Смотри, это фотография всей нашей семьи.",
+    "en": "Look, this is a photo of our whole family.",
+    "es": "Mira, esta es una foto de toda nuestra familia.",
+    "pt-BR": "Olha, esta é uma foto de toda a nossa família."
+  },
+  "你有哥哥姐姐吗？": {
+    "ru": "У тебя есть старший брат или старшая сестра?",
+    "en": "Do you have an older brother or sister?",
+    "es": "¿Tienes hermano o hermana mayor?",
+    "pt-BR": "Você tem irmão ou irmã mais velhos?"
+  },
+  "你有没有全家的照片？": {
+    "ru": "У тебя есть фотография всей семьи?",
+    "en": "Do you have a photo of your whole family?",
+    "es": "¿Tienes una foto de toda la familia?",
+    "pt-BR": "Você tem uma foto de toda a família?"
+  },
+  "我妈妈在商店工作，爸爸是律师。": {
+    "ru": "Моя мама работает в магазине, а папа — юрист.",
+    "en": "My mother works in a shop, and my father is a lawyer.",
+    "es": "Mi madre trabaja en una tienda y mi padre es abogado.",
+    "pt-BR": "Minha mãe trabalha numa loja e meu pai é advogado."
+  },
+  "我妈妈是大夫，在医院工作，爸爸是一家公司的经理。": {
+    "ru": "Моя мама — врач, работает в больнице, а папа — директор компании.",
+    "en": "My mother is a doctor and works in a hospital; my father is a company manager.",
+    "es": "Mi madre es médica y trabaja en un hospital; mi padre es director de una empresa.",
+    "pt-BR": "Minha mãe é médica e trabalha num hospital; meu pai é diretor de uma empresa."
+  },
+  "我家有五口人，爸爸、妈妈、哥哥、姐姐和我。": {
+    "ru": "В нашей семье пять человек: папа, мама, старший брат, старшая сестра и я.",
+    "en": "There are five people in my family: father, mother, older brother, older sister, and me.",
+    "es": "En mi familia somos cinco: papá, mamá, hermano mayor, hermana mayor y yo.",
+    "pt-BR": "Na minha família somos cinco: pai, mãe, irmão mais velho, irmã mais velha e eu."
+  },
+  "我没有哥哥，也没有姐姐，只有两个弟弟。": {
+    "ru": "У меня нет старшего брата и старшей сестры, есть только два младших брата.",
+    "en": "I don't have an older brother or sister, only two younger brothers.",
+    "es": "No tengo hermano ni hermana mayor, solo dos hermanos menores.",
+    "pt-BR": "Não tenho irmão nem irmã mais velhos, só dois irmãos mais novos."
+  },
+  "你爸爸、妈妈做什么工作？": {
+    "ru": "Кем работают твой папа и мама?",
+    "en": "What do your father and mother do for work?",
+    "es": "¿A qué se dedican tu padre y tu madre?",
+    "pt-BR": "O que seu pai e sua mãe fazem?"
+  },
+  "你们是一家什么公司？": {
+    "ru": "Какая у вас компания?",
+    "en": "What kind of company is yours?",
+    "es": "¿Qué tipo de empresa es la suya?",
+    "pt-BR": "Que tipo de empresa é a de vocês?"
+  },
+  "是一家外贸公司。": {
+    "ru": "Это внешнеторговая компания.",
+    "en": "It's a foreign trade company.",
+    "es": "Es una empresa de comercio exterior.",
+    "pt-BR": "É uma empresa de comércio exterior."
+  },
+  "是一家大公司吗？": {
+    "ru": "Это большая компания?",
+    "en": "Is it a big company?",
+    "es": "¿Es una empresa grande?",
+    "pt-BR": "É uma empresa grande?"
+  },
+  "不大，是一家比较小的公司。": {
+    "ru": "Нет, это довольно небольшая компания.",
+    "en": "No, it's a relatively small company.",
+    "es": "No, es una empresa bastante pequeña.",
+    "pt-BR": "Não, é uma empresa relativamente pequena."
+  },
+  "有多少职员？": {
+    "ru": "Сколько сотрудников?",
+    "en": "How many employees are there?",
+    "es": "¿Cuántos empleados hay?",
+    "pt-BR": "Quantos funcionários há?"
+  },
+  "大概有一百多个职员。": {
+    "ru": "Примерно больше ста сотрудников.",
+    "en": "There are roughly a little over a hundred employees.",
+    "es": "Hay más o menos un poco más de cien empleados.",
+    "pt-BR": "Há mais ou menos um pouco mais de cem funcionários."
+  },
+  "不都是中国职员，也有外国职员。": {
+    "ru": "Не все сотрудники китайцы, есть и иностранцы.",
+    "en": "Not all the employees are Chinese; there are foreign employees too.",
+    "es": "No todos los empleados son chinos; también hay empleados extranjeros.",
+    "pt-BR": "Nem todos os funcionários são chineses; há funcionários estrangeiros também."
+  },
+  "都是中国职员吗？": {
+    "ru": "Все сотрудники — китайцы?",
+    "en": "Are all the employees Chinese?",
+    "es": "¿Todos los empleados son chinos?",
+    "pt-BR": "Todos os funcionários são chineses?"
+  },
+  "你们公司有多少职员": {
+    "ru": "Сколько сотрудников в вашей компании",
+    "en": "How many employees does your company have",
+    "es": "Cuántos empleados tiene su empresa",
+    "pt-BR": "Quantos funcionários tem a sua empresa"
+  },
+  "对。": {
+    "ru": "Да.",
+    "en": "Yes.",
+    "es": "Sí.",
+    "pt-BR": "Sim."
+  },
+  "你去邮局寄信吗？": {
+    "ru": "Ты идёшь на почту отправить письмо?",
+    "en": "Are you going to the post office to mail a letter?",
+    "es": "¿Vas a la oficina de correos a enviar una carta?",
+    "pt-BR": "Você vai aos correios enviar uma carta?"
+  },
+  "不去。去银行取钱。": {
+    "ru": "Нет. Иду в банк снять деньги.",
+    "en": "No. I'm going to the bank to withdraw money.",
+    "es": "No. Voy al banco a sacar dinero.",
+    "pt-BR": "Não. Vou ao banco sacar dinheiro."
+  },
+  "他是老师吗？": {
+    "ru": "Он учитель?",
+    "en": "Is he a teacher?",
+    "es": "¿Es profesor?",
+    "pt-BR": "Ele é professor?"
+  },
+  "你喝什么？": {
+    "ru": "Что ты пьёшь?",
+    "en": "What are you drinking?",
+    "es": "¿Qué bebes?",
+    "pt-BR": "O que você bebe?"
+  },
+  "我买水果。苹果一斤多少钱？": {
+    "ru": "Я покупаю фрукты. Сколько стоит цзинь яблок?",
+    "en": "I'm buying fruit. How much is a jin of apples?",
+    "es": "Compro fruta. ¿Cuánto cuesta un jin de manzanas?",
+    "pt-BR": "Estou comprando frutas. Quanto custa um jin de maçãs?"
+  },
+  "是。（我是留学生。）": {
+    "ru": "Да. (Я иностранный студент.)",
+    "en": "Yes. (I am an international student.)",
+    "es": "Sí. (Soy estudiante extranjero.)",
+    "pt-BR": "Sim. (Sou estudante estrangeiro.)"
+  },
+  "要两斤。一共多少钱？": {
+    "ru": "Два цзиня. Сколько всего?",
+    "en": "Two jin. How much in total?",
+    "es": "Dos jin. ¿Cuánto en total?",
+    "pt-BR": "Dois jin. Quanto no total?"
+  },
+  "这是俄文杂志。": {
+    "ru": "Это журнал на русском языке.",
+    "en": "This is a Russian-language magazine.",
+    "es": "Esta es una revista en ruso.",
+    "pt-BR": "Esta é uma revista em russo."
+  }
+}

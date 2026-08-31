@@ -48,7 +48,7 @@ struct GameUnavailableView: View {
         ContentUnavailableView {
             Label(game.localizedTitle, systemImage: "lock.fill")
         } description: {
-            Text("games.locked.message")
+            Text(l10n: "games.locked.message")
         }
         .navigationTitle(game.localizedTitle)
         .navigationBarTitleDisplayMode(.inline)

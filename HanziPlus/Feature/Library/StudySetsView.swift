@@ -14,78 +14,93 @@ struct StudySetsView: View {
     @Environment(WordCatalog.self) private var catalog
     @Environment(LearnedWordsStore.self) private var learnedStore
     @Environment(StudySessionStore.self) private var sessionStore
-    @Environment(DailyLessonStore.self) private var lessonStore
-    @Environment(UserProfileStore.self) private var profileStore
+    @Environment(TravelPhraseStore.self) private var phraseStore
+    @Environment(PathCourseStore.self) private var pathStore
 
     var body: some View {
         NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: AppSpacing.large) {
-                    todayLessonSection
-
-                    if let continueTarget = continueStudyTarget {
-                        VStack(alignment: .leading, spacing: AppSpacing.small) {
-                            Text("learn.continue")
-                                .font(.title2.weight(.semibold))
-                                .padding(.horizontal, AppSpacing.medium)
-
-                            continueLink(for: continueTarget)
-                                .buttonStyle(StudySetCardButtonStyle())
-                                .padding(.horizontal, AppSpacing.medium)
-                        }
-                    }
-
-                    ForEach(groups) { group in
-                        studySetGroup(group)
-                    }
-                }
-                .padding(.bottom, AppSpacing.extraLarge)
-            }
-            .background(Color(.systemGroupedBackground))
-            .navigationTitle(String(localized: "learn.nav_title"))
-            .navigationBarTitleDisplayMode(.large)
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    NavigationLink {
-                        SearchView()
-                    } label: {
-                        Image(systemName: "magnifyingglass")
-                    }
-                    .accessibilityLabel(String(localized: "learn.a11y.search"))
-                }
-            }
+            content
         }
     }
 
-    @ViewBuilder
-    private var todayLessonSection: some View {
-        let session = lessonStore.ensureTodaySession(
-            profile: profileStore.profile,
-            learnedStore: learnedStore
-        )
-        let setTitle = SampleStudySets.studySet(fileName: session.fileName)?.localizedTitle ?? session.fileName
+    private var content: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: AppSpacing.large) {
+                if let continueTarget = continueStudyTarget {
+                    VStack(alignment: .leading, spacing: AppSpacing.small) {
+                        Text(l10n: "learn.continue")
+                            .font(.title2.weight(.semibold))
+                            .padding(.horizontal, AppSpacing.medium)
 
-        VStack(alignment: .leading, spacing: AppSpacing.small) {
-            NavigationLink {
-                DailyLessonFlowView()
-            } label: {
-                TodayLessonCard(
-                    setTitle: setTitle,
-                    wordCount: session.wordCount,
-                    status: lessonStore.status,
-                    isReviewLesson: session.isReviewLesson
+                        continueLink(for: continueTarget)
+                            .buttonStyle(StudySetCardButtonStyle())
+                            .padding(.horizontal, AppSpacing.medium)
+                    }
+                }
+
+                TravelPhraseStrip(
+                    title: L10n.string("travel.favorites"),
+                    phrases: Array(phraseStore.favoritePhrases.prefix(12)),
+                    emptyTitle: L10n.string("travel.favorites.empty_title"),
+                    emptySystemImage: "heart",
+                    emptyDescription: L10n.string("travel.favorites.empty_desc"),
+                    listSource: .favorites
                 )
+
+                TravelPhraseStrip(
+                    title: L10n.string("travel.recent"),
+                    phrases: Array(phraseStore.recentPhrases.prefix(12)),
+                    emptyTitle: L10n.string("travel.recent.empty_title"),
+                    emptySystemImage: "clock",
+                    emptyDescription: L10n.string("travel.recent.empty_desc"),
+                    listSource: .recent
+                )
+
+                VStack(alignment: .leading, spacing: AppSpacing.medium) {
+                    Text("🇨🇳 \(L10n.string("learn.chinese_courses"))")
+                        .font(.title2.weight(.semibold))
+                        .padding(.horizontal, AppSpacing.medium)
+
+                    NavigationLink {
+                        PathCourseView()
+                    } label: {
+                        TodayPathCard(
+                            hasStarted: pathStore.hasStartedCourse,
+                            currentLessonNumber: pathStore.currentLessonNumber,
+                            totalLessons: pathStore.course?.totalLessons ?? 15,
+                            progressFraction: pathStore.courseCompletionPercent,
+                            tint: .teal
+                        )
+                    }
+                    .buttonStyle(.plain)
+                    .padding(.horizontal, AppSpacing.medium)
+                }
+
+                ForEach(groups) { group in
+                    studySetGroup(group)
+                }
             }
-            .buttonStyle(.plain)
-            .padding(.horizontal, AppSpacing.medium)
+            .padding(.bottom, AppSpacing.extraLarge)
         }
-        .padding(.top, AppSpacing.small)
+        .background(Color(.systemGroupedBackground))
+        .navigationTitle(L10n.string("learn.nav_title"))
+        .navigationBarTitleDisplayMode(.large)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                NavigationLink {
+                    SearchView()
+                } label: {
+                    Image(systemName: "magnifyingglass")
+                }
+                .accessibilityLabel(L10n.string("learn.a11y.search"))
+            }
+        }
     }
 
     @ViewBuilder
     private func studySetGroup(_ group: StudySetGroup) -> some View {
         VStack(alignment: .leading, spacing: AppSpacing.medium) {
-            Text("\(group.emoji) \(group.title)")
+            Text("\(group.emoji) \(group.localizedTitle)")
                 .font(.title2.weight(.semibold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -196,6 +211,6 @@ struct StudySetsView: View {
         .environment(WordCatalog())
         .environment(LearnedWordsStore())
         .environment(StudySessionStore())
-        .environment(DailyLessonStore())
-        .environment(UserProfileStore())
+        .environment(TravelPhraseStore())
+        .environment(PathCourseStore())
 }

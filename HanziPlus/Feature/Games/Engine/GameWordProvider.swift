@@ -24,14 +24,16 @@ enum MultipleChoiceHelper {
         correct: String,
         pool: [Word],
         excluding wordID: String,
-        count: Int = 4
+        count: Int = 4,
+        seed: UInt64? = nil
     ) -> [String] {
         meaningOptions(
             correctMeaning: correct,
             pool: pool,
             excluding: wordID,
             language: LocalizedContent.currentLanguage,
-            count: count
+            count: count,
+            seed: seed
         )
     }
 
@@ -39,14 +41,16 @@ enum MultipleChoiceHelper {
         correct: Word,
         pool: [Word],
         language: ContentLanguageCode = LocalizedContent.currentLanguage,
-        count: Int = 4
+        count: Int = 4,
+        seed: UInt64? = nil
     ) -> [String] {
         meaningOptions(
             correctMeaning: correct.localizedTranslation(for: language),
             pool: pool,
             excluding: correct.id,
             language: language,
-            count: count
+            count: count,
+            seed: seed
         )
     }
 
@@ -55,38 +59,42 @@ enum MultipleChoiceHelper {
         pool: [Word],
         excluding wordID: String,
         language: ContentLanguageCode,
-        count: Int
+        count: Int,
+        seed: UInt64? = nil
     ) -> [String] {
-        var unique: [String] = []
-        var seen = Set<String>()
-        for word in pool.shuffled() where word.id != wordID {
-            let value = word.localizedTranslation(for: language)
-            guard !value.isEmpty, value != correctMeaning else { continue }
-            if seen.insert(value).inserted {
-                unique.append(value)
-            }
-            if unique.count >= max(0, count - 1) { break }
-        }
-        unique.append(correctMeaning)
-        return unique.shuffled()
+        let candidates = pool
+            .filter { $0.id != wordID }
+            .map { $0.localizedTranslation(for: language) }
+            .filter { !$0.isEmpty && $0 != correctMeaning }
+
+        return buildOptions(correct: correctMeaning, candidates: candidates, count: count, seed: seed)
     }
 
     static func hanziOptions(
         correct: String,
         pool: [Word],
         excluding wordID: String,
-        count: Int = 4
+        count: Int = 4,
+        seed: UInt64? = nil
     ) -> [String] {
-        valueOptions(values: \.hanzi, correct: correct, pool: pool, excluding: wordID, count: count)
+        valueOptions(
+            values: \.hanzi,
+            correct: correct,
+            pool: pool,
+            excluding: wordID,
+            count: count,
+            seed: seed
+        )
     }
 
     static func options(
         correct: String,
         pool: [Word],
         excluding wordID: String,
-        count: Int = 4
+        count: Int = 4,
+        seed: UInt64? = nil
     ) -> [String] {
-        englishOptions(correct: correct, pool: pool, excluding: wordID, count: count)
+        englishOptions(correct: correct, pool: pool, excluding: wordID, count: count, seed: seed)
     }
 
     private static func valueOptions(
@@ -94,18 +102,49 @@ enum MultipleChoiceHelper {
         correct: String,
         pool: [Word],
         excluding wordID: String,
-        count: Int
+        count: Int,
+        seed: UInt64?
     ) -> [String] {
-        var answers = pool
+        let candidates = pool
             .filter { $0.id != wordID }
             .map { $0[keyPath: values] }
             .filter { $0 != correct }
-            .uniquedPreservingOrder()
-            .shuffled()
 
-        answers = Array(answers.prefix(max(1, count - 1)))
-        answers.append(correct)
-        return answers.shuffled()
+        return buildOptions(correct: correct, candidates: candidates, count: count, seed: seed)
+    }
+
+    private static func buildOptions(
+        correct: String,
+        candidates: [String],
+        count: Int,
+        seed: UInt64?
+    ) -> [String] {
+        let uniqueCandidates = candidates.uniquedPreservingOrder()
+        let optionSeed = seed ?? UInt64.random(in: 1...UInt64.max)
+
+        var distractors: [String] = []
+        var seen = Set<String>()
+        for value in DailyLessonPlanner.seededShuffle(uniqueCandidates, seed: optionSeed) {
+            if seen.insert(value).inserted {
+                distractors.append(value)
+            }
+            if distractors.count >= max(0, count - 1) { break }
+        }
+
+        var options = distractors
+        options.append(correct)
+
+        var final: [String] = []
+        var finalSeen = Set<String>()
+        for value in DailyLessonPlanner.seededShuffle(options, seed: optionSeed &+ 99) {
+            if finalSeen.insert(value).inserted {
+                final.append(value)
+            }
+        }
+        if !final.contains(correct) {
+            final.append(correct)
+        }
+        return Array(final.prefix(count))
     }
 }
 
@@ -117,19 +156,5 @@ private extension Array where Element == String {
             result.append(value)
         }
         return result
-    }
-
-    func ensuringContains(_ value: String, count: Int) -> [String] {
-        var result = uniquedPreservingOrder()
-        if !result.contains(value) {
-            result.append(value)
-        }
-        if result.count > count {
-            result = Array(result.prefix(count))
-            if !result.contains(value) {
-                result[result.count - 1] = value
-            }
-        }
-        return result.shuffled()
     }
 }

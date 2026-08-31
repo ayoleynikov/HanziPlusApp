@@ -91,6 +91,6 @@ struct TravelPhraseListView: View {
         }
         .listStyle(.insetGrouped)
         .navigationTitle(title)
-        .searchable(text: $query, prompt: String(localized: "travel.search.phrases"))
+        .searchable(text: $query, prompt: L10n.string( "travel.search.phrases"))
     }
 }

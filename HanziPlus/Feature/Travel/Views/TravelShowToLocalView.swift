@@ -28,7 +28,7 @@ struct TravelShowToLocalView: View {
                                 .symbolRenderingMode(.hierarchical)
                                 .foregroundStyle(.white.opacity(0.85))
                         }
-                        .accessibilityLabel(String(localized: "common.close"))
+                        .accessibilityLabel(L10n.string( "common.close"))
                     }
                     .padding(.horizontal, 20)
                     .padding(.top, 8)
@@ -56,14 +56,14 @@ struct TravelShowToLocalView: View {
                         HapticService.light()
                         SpeechService.shared.speak(phrase.simplifiedChinese)
                     } label: {
-                        Label(String(localized: "common.play"), systemImage: "speaker.wave.2.fill")
+                        Label(L10n.string( "common.play"), systemImage: "speaker.wave.2.fill")
                             .font(.headline)
                             .foregroundStyle(.black)
                             .padding(.horizontal, 28)
                             .padding(.vertical, 14)
                             .background(Capsule().fill(Color.white))
                     }
-                    .accessibilityLabel(String(localized: "lesson.a11y.play_pronunciation"))
+                    .accessibilityLabel(L10n.string( "lesson.a11y.play_pronunciation"))
                     .padding(.bottom, 28)
                 }
             }

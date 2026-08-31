@@ -28,8 +28,8 @@ struct DailyLessonProgressHeader: View {
 
             ProgressView(value: min(max(progress, 0), 1))
                 .tint(.orange)
-                .accessibilityLabel("Lesson progress")
-                .accessibilityValue("\(Int((min(max(progress, 0), 1)) * 100)) percent")
+                .accessibilityLabel(L10n.string("a11y.lesson_progress"))
+                .accessibilityValue(L10n.percent(Int((min(max(progress, 0), 1)) * 100)))
         }
         .padding(.top, AppSpacing.small)
     }

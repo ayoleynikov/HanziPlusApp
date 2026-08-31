@@ -54,5 +54,6 @@ final class LanguageSettingsStore {
 
     private func syncContentLanguage() {
         LocalizedContent.currentLanguage = contentLanguage
+        LocalizedUI.currentLocale = locale
     }
 }

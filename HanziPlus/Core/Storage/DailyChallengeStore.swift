@@ -13,7 +13,7 @@ struct DailyChallengeTask: Identifiable, Codable, Equatable {
     let targetCount: Int
 
     var localizedTitle: String {
-        String(localized: String.LocalizationValue("games.daily.task.\(id)"))
+        L10n.dynamic("games.daily.task.\(id)")
     }
 }
 
@@ -105,6 +105,13 @@ final class DailyChallengeStore {
         }
 
         return streak
+    }
+
+    func resetAll() {
+        state = Self.generate(for: Self.todayKey())
+        completionHistory = []
+        defaults.removeObject(forKey: historyKey)
+        persist()
     }
 
     private func persist() {

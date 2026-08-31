@@ -10,6 +10,9 @@ import SwiftUI
 struct RootView: View {
 
     @Environment(UserProfileStore.self) private var profileStore
+    @Environment(LanguageSettingsStore.self) private var languageStore
+    @Environment(DailyLessonStore.self) private var lessonStore
+    @Environment(LearnedWordsStore.self) private var learnedStore
 
     var body: some View {
         Group {
@@ -22,6 +25,21 @@ struct RootView: View {
             }
         }
         .animation(.easeInOut(duration: 0.28), value: profileStore.needsOnboarding)
+        .environment(\.locale, languageStore.locale)
+        .environment(\.contentLanguage, languageStore.contentLanguage)
+        .task(id: dailyLessonTaskID) {
+            guard !profileStore.needsOnboarding else { return }
+            lessonStore.ensureTodaySession(
+                profile: profileStore.profile,
+                learnedStore: learnedStore
+            )
+        }
+    }
+
+    private var dailyLessonTaskID: String {
+        let profile = profileStore.profile
+        let fileName = DailyLessonPlanner.recommendedFileName(for: profile)
+        return "\(DailyLessonPlanner.dateKey())|\(DailyLessonPlanner.profileSignature(profile: profile, fileName: fileName))"
     }
 }
 
@@ -43,4 +61,6 @@ struct RootView: View {
         .environment(GamesDailyProgressStore())
         .environment(GamesPlayHistoryStore())
         .environment(UserProfileStore())
+        .environment(LanguageSettingsStore())
+        .environment(DailyLessonStore())
 }

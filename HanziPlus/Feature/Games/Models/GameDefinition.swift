@@ -26,25 +26,25 @@ struct GameDefinition: Identifiable {
     var isAvailable: Bool { kind.isAvailable }
 
     var localizedTitle: String {
-        String(localized: String.LocalizationValue("games.def.\(kind.rawValue).title"))
+        L10n.dynamic("games.def.\(kind.rawValue).title")
     }
 
     var localizedDescription: String {
-        String(localized: String.LocalizationValue("games.def.\(kind.rawValue).description"))
+        L10n.dynamic("games.def.\(kind.rawValue).description")
     }
 
     var localizedTagline: String {
-        String(localized: String.LocalizationValue("games.def.\(kind.rawValue).tagline"))
+        L10n.dynamic("games.def.\(kind.rawValue).tagline")
     }
 
     var localizedBenefits: [String] {
         (0..<benefits.count).map { index in
-            String(localized: String.LocalizationValue("games.def.\(kind.rawValue).benefit.\(index)"))
+            L10n.dynamic("games.def.\(kind.rawValue).benefit.\(index)")
         }
     }
 
-    var xpRewardLabel: String { String(localized: "games.xp_up_to \(xpReward)") }
-    var estimatedTimeLabel: String { String(localized: "games.est_minutes \(estimatedMinutes)") }
+    var xpRewardLabel: String { L10n.string( "games.xp_up_to \(xpReward)") }
+    var estimatedTimeLabel: String { L10n.string( "games.est_minutes \(estimatedMinutes)") }
 
     static let catalog: [GameDefinition] = [
         GameDefinition(
@@ -75,7 +75,7 @@ struct GameDefinition: Identifiable {
             color: .orange,
             difficulty: .medium,
             collection: .speed,
-            benefits: ["Improve recall speed", "Sharpen under pressure", "Boost daily XP"],
+            benefits: ["Improve recall speed", "Sharpen under pressure", "Build reflexes"],
             artworkColors: [Color(red: 0.15, green: 0.05, blue: 0.3), .indigo, .orange],
             xpReward: 200,
             estimatedMinutes: 3,
@@ -177,7 +177,7 @@ struct GameDefinition: Identifiable {
             color: .yellow,
             difficulty: .medium,
             collection: .speed,
-            benefits: ["Stay consistent", "Earn bonus XP", "Build a daily habit"],
+            benefits: ["Stay consistent", "Try new challenges", "Build a daily habit"],
             artworkColors: [.yellow, .orange, .red],
             xpReward: 300,
             estimatedMinutes: 10,
@@ -206,7 +206,7 @@ struct GameDefinition: Identifiable {
         catalog.filter { game in
             switch game.kind {
             case .hanziMemory, .speedChallenge, .listeningQuiz, .matchPairs,
-                 .typingChallenge, .findTheHanzi, .sentenceBuilder, .smartReview:
+                 .typingChallenge, .findTheHanzi, .sentenceBuilder:
                 true
             default:
                 false

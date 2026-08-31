@@ -12,76 +12,74 @@ struct StudyProgressResetSection: View {
     @Environment(LearnedWordsStore.self) private var learnedStore
     @Environment(StudySessionStore.self) private var sessionStore
     @Environment(SmartReviewStore.self) private var smartReviewStore
-    @Environment(WordCatalog.self) private var catalog
+    @Environment(StatisticsStore.self) private var statisticsStore
+    @Environment(PathCourseStore.self) private var pathStore
+    @Environment(JourneyStore.self) private var journeyStore
+    @Environment(GameScoreStore.self) private var scoreStore
+    @Environment(GamesDailyProgressStore.self) private var dailyProgressStore
+    @Environment(DailyChallengeStore.self) private var dailyChallengeStore
+    @Environment(DailyLessonStore.self) private var lessonStore
+    @Environment(TravelPhraseStore.self) private var phraseStore
+    @Environment(AchievementStore.self) private var achievementStore
+    @Environment(GamesPlayHistoryStore.self) private var playHistoryStore
+    @EnvironmentObject private var favoritesStore: FavoritesStore
 
-    @State private var studySetPendingReset: StudySet?
+    @State private var showsResetConfirmation = false
 
     var body: some View {
-        Group {
-            ForEach(SampleStudySets.all) { studySet in
-                let learned = catalog.learnedCount(for: studySet.fileName, store: learnedStore)
-                let total = catalog.wordCount(for: studySet.fileName)
-                let hasSession = hasActiveSession(for: studySet)
-
-                Button(role: .destructive) {
-                    studySetPendingReset = studySet
-                } label: {
-                    HStack {
-                        Text(String(localized: "settings.reset.set_progress \(studySet.localizedTitle)"))
-                        Spacer()
-                        Text("\(learned)/\(total)")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                    }
-                }
-                .disabled(learned == 0 && !hasSession)
-            }
+        Button(role: .destructive) {
+            showsResetConfirmation = true
+        } label: {
+            Text(l10n: "settings.reset.all_progress")
         }
         .alert(
-            String(localized: "settings.reset.set_alert_title \(studySetPendingReset?.localizedTitle ?? "")"),
-            isPresented: Binding(
-                get: { studySetPendingReset != nil },
-                set: { if !$0 { studySetPendingReset = nil } }
-            )
+            L10n.string("settings.reset.all_alert_title"),
+            isPresented: $showsResetConfirmation
         ) {
-            Button(String(localized: "common.cancel"), role: .cancel) {
-                studySetPendingReset = nil
-            }
-            Button(String(localized: "common.reset"), role: .destructive) {
-                if let studySet = studySetPendingReset {
-                    learnedStore.reset(fileName: studySet.fileName)
-                    smartReviewStore.reset(fileName: studySet.fileName)
-                    if studySet.hasSections {
-                        sessionStore.reset(matchingPrefix: "\(studySet.fileName):")
-                        sessionStore.reset(fileName: studySet.fileName)
-                    } else {
-                        sessionStore.reset(fileName: studySet.fileName)
-                    }
-                }
-                studySetPendingReset = nil
+            Button(L10n.string("common.cancel"), role: .cancel) {}
+            Button(L10n.string("common.reset"), role: .destructive) {
+                AppProgressReset.resetEverything(
+                    learnedStore: learnedStore,
+                    sessionStore: sessionStore,
+                    smartReviewStore: smartReviewStore,
+                    statisticsStore: statisticsStore,
+                    pathStore: pathStore,
+                    journeyStore: journeyStore,
+                    scoreStore: scoreStore,
+                    dailyProgressStore: dailyProgressStore,
+                    dailyChallengeStore: dailyChallengeStore,
+                    lessonStore: lessonStore,
+                    phraseStore: phraseStore,
+                    achievementStore: achievementStore,
+                    playHistoryStore: playHistoryStore,
+                    favoritesStore: favoritesStore
+                )
+                HapticService.light()
             }
         } message: {
-            Text("settings.reset.set_alert_body")
+            Text(l10n: "settings.reset.all_alert_body")
         }
-    }
-
-    private func hasActiveSession(for studySet: StudySet) -> Bool {
-        if studySet.hasSections {
-            return sessionStore.hasSession(matchingPrefix: "\(studySet.fileName):")
-                || sessionStore.session(for: studySet.fileName) != nil
-        }
-        return sessionStore.session(for: studySet.fileName) != nil
     }
 }
 
 #Preview {
     List {
-        Section("Reset Study Progress") {
+        Section("Reset") {
             StudyProgressResetSection()
         }
     }
     .environment(LearnedWordsStore())
     .environment(StudySessionStore())
     .environment(SmartReviewStore())
-    .environment(WordCatalog())
+    .environment(StatisticsStore())
+    .environment(PathCourseStore())
+    .environment(JourneyStore())
+    .environment(GameScoreStore())
+    .environment(GamesDailyProgressStore())
+    .environment(DailyChallengeStore())
+    .environment(DailyLessonStore())
+    .environment(TravelPhraseStore())
+    .environment(AchievementStore())
+    .environment(GamesPlayHistoryStore())
+    .environmentObject(FavoritesStore())
 }

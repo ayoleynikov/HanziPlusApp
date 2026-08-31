@@ -28,9 +28,9 @@ enum GameDifficulty: String, Codable, CaseIterable, Hashable {
 
     var label: String {
         switch self {
-        case .easy: String(localized: "games.difficulty.easy")
-        case .medium: String(localized: "games.difficulty.medium")
-        case .hard: String(localized: "games.difficulty.hard")
+        case .easy: L10n.string( "games.difficulty.easy")
+        case .medium: L10n.string( "games.difficulty.medium")
+        case .hard: L10n.string( "games.difficulty.hard")
         }
     }
 

@@ -16,6 +16,7 @@ final class MatchPairsViewModel: GameSession {
     private let wordPool: [Word]
     private let questionCount: Int
     private(set) var words: [Word]
+    private(set) var currentOptions: [String] = []
     private(set) var currentIndex = 0
     private(set) var selectedAnswer: String?
     private(set) var showResult = false
@@ -31,8 +32,9 @@ final class MatchPairsViewModel: GameSession {
         self.difficulty = difficulty
         let count = questionCount ?? difficulty.questionCount
         self.questionCount = count
-        self.wordPool = GameWordProvider.words(for: studySet)
+        self.wordPool = WordLoader.load(fileName: studySet.fileName)
         self.words = Array(wordPool.shuffled().prefix(count))
+        loadCurrentOptions()
     }
 
     var currentWord: Word? {
@@ -45,15 +47,7 @@ final class MatchPairsViewModel: GameSession {
         return Double(currentIndex + 1) / Double(words.count)
     }
 
-    var options: [String] {
-        guard let currentWord else { return [] }
-        return MultipleChoiceHelper.englishOptions(
-            correct: currentWord.localizedMeaning,
-            pool: wordPool,
-            excluding: currentWord.id,
-            count: difficulty.optionCount
-        )
-    }
+    var options: [String] { currentOptions }
 
     func select(_ answer: String) {
         guard let currentWord, selectedAnswer == nil else { return }
@@ -73,6 +67,7 @@ final class MatchPairsViewModel: GameSession {
             currentIndex += 1
             selectedAnswer = nil
             showResult = false
+            loadCurrentOptions()
         }
     }
 
@@ -116,5 +111,24 @@ final class MatchPairsViewModel: GameSession {
         wrongCount = 0
         isFinished = false
         result = nil
+        loadCurrentOptions()
+    }
+
+    private func loadCurrentOptions() {
+        guard let currentWord else {
+            currentOptions = []
+            return
+        }
+        currentOptions = MultipleChoiceHelper.englishOptions(
+            correct: currentWord.localizedMeaning,
+            pool: wordPool,
+            excluding: currentWord.id,
+            count: difficulty.optionCount,
+            seed: optionSeed(for: currentWord)
+        )
+    }
+
+    private func optionSeed(for word: Word) -> UInt64 {
+        DailyLessonPlanner.stableSeed("\(studySet.fileName)|match|\(word.id)|\(difficulty.rawValue)")
     }
 }

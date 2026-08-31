@@ -1,0 +1,282 @@
+{
+  "id": "hanzi-plus-path",
+  "title": "Hanzi+ Path",
+  "subtitle": "Китайский с нуля — шаг за шагом",
+  "summary": "Живые диалоги, новые слова и проверка в каждом уроке. Курс выстроен по нарастающей: от приветствий и простых фраз к повседневным ситуациям и более сложным конструкциям.",
+  "description": "Hanzi+ Path — твой маршрут в китайский с нуля.\n\nТы начинаешь с простых диалогов и базовых слов, а затем постепенно переходишь к более длинным фразам, новым конструкциям и повседневным ситуациям.\n\nВ каждом уроке:\n• диалог с иероглифами, pinyin и переводом\n• изучение новых слов\n• повторный диалог с пониманием контекста\n• проверка знаний\n\nНовый материал появляется только после того, как ты освоил предыдущий — так знания закрепляются естественно и без перегруза.",
+  "volumeCount": 1,
+  "totalLessons": 15,
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "number": 1,
+      "sourceLessonNumbers": [
+        1
+      ],
+      "chineseTitle": "你好！",
+      "pinyinTitle": null,
+      "translationTitle": {
+        "ru": "Привет!",
+        "en": "Hello!",
+        "es": "¡Hola!",
+        "pt-BR": "Olá!"
+      },
+      "vocabularyCount": 7,
+      "contentFile": "lesson_01",
+      "isAvailable": true
+    },
+    {
+      "id": "lesson_02",
+      "number": 2,
+      "sourceLessonNumbers": [
+        1,
+        2
+      ],
+      "chineseTitle": "你忙吗？",
+      "pinyinTitle": null,
+      "translationTitle": {
+        "ru": "Ты занят? · Китайский не слишком сложный",
+        "en": "Are you busy? · Chinese isn't too difficult",
+        "es": "¿Estás ocupado? · El chino no es demasiado difícil",
+        "pt-BR": "Você está ocupado? · O chinês não é muito difícil"
+      },
+      "vocabularyCount": 18,
+      "contentFile": "lesson_02",
+      "isAvailable": true
+    },
+    {
+      "id": "lesson_03",
+      "number": 3,
+      "sourceLessonNumbers": [
+        3
+      ],
+      "chineseTitle": "明天见",
+      "pinyinTitle": "Míngtiān jiàn",
+      "translationTitle": {
+        "ru": "До завтра",
+        "en": "See you tomorrow",
+        "es": "Hasta mañana",
+        "pt-BR": "Até amanhã"
+      },
+      "vocabularyCount": 23,
+      "contentFile": "lesson_03",
+      "isAvailable": true
+    },
+    {
+      "id": "lesson_04",
+      "number": 4,
+      "sourceLessonNumbers": [
+        4
+      ],
+      "chineseTitle": "你去哪儿",
+      "pinyinTitle": "Nǐ qù nǎr",
+      "translationTitle": {
+        "ru": "Куда ты идёшь?",
+        "en": "Where are you going?",
+        "es": "¿A dónde vas?",
+        "pt-BR": "Para onde você vai?"
+      },
+      "vocabularyCount": 25,
+      "contentFile": "lesson_04",
+      "isAvailable": true
+    },
+    {
+      "id": "lesson_05",
+      "number": 5,
+      "sourceLessonNumbers": [
+        5
+      ],
+      "chineseTitle": "这是王老师",
+      "pinyinTitle": "Zhè shì Wáng lǎoshī",
+      "translationTitle": {
+        "ru": "Это учитель Ван",
+        "en": "This is Teacher Wang",
+        "es": "Este es el profesor Wang",
+        "pt-BR": "Este é o professor Wang"
+      },
+      "vocabularyCount": 17,
+      "contentFile": "lesson_05",
+      "isAvailable": true
+    },
+    {
+      "id": "lesson_06",
+      "number": 6,
+      "sourceLessonNumbers": [
+        6
+      ],
+      "chineseTitle": "我学习汉语",
+      "pinyinTitle": "Wǒ xuéxí Hànyǔ",
+      "translationTitle": {
+        "ru": "Я учу китайский",
+        "en": "I study Chinese",
+        "es": "Estudio chino",
+        "pt-BR": "Eu estudo chinês"
+      },
+      "vocabularyCount": 39,
+      "contentFile": "lesson_06",
+      "isAvailable": true
+    },
+    {
+      "id": "lesson_07",
+      "number": 7,
+      "sourceLessonNumbers": [
+        7
+      ],
+      "chineseTitle": "你吃什么",
+      "pinyinTitle": "Nǐ chī shénme",
+      "translationTitle": {
+        "ru": "Что ты ешь?",
+        "en": "What are you eating?",
+        "es": "¿Qué comes?",
+        "pt-BR": "O que você come?"
+      },
+      "vocabularyCount": 23,
+      "contentFile": "lesson_07",
+      "isAvailable": true
+    },
+    {
+      "id": "lesson_08",
+      "number": 8,
+      "sourceLessonNumbers": [
+        8
+      ],
+      "chineseTitle": "苹果一斤多少钱",
+      "pinyinTitle": "Píngguǒ yì jīn duōshao qián",
+      "translationTitle": {
+        "ru": "Сколько стоит цзинь яблок?",
+        "en": "How much is a jin of apples?",
+        "es": "¿Cuánto cuesta un jin de manzanas?",
+        "pt-BR": "Quanto custa um jin de maçãs?"
+      },
+      "vocabularyCount": 23,
+      "contentFile": "lesson_08",
+      "isAvailable": true
+    },
+    {
+      "id": "lesson_09",
+      "number": 9,
+      "sourceLessonNumbers": [
+        9
+      ],
+      "chineseTitle": "我换人民币",
+      "pinyinTitle": "Wǒ huàn rénmínbì",
+      "translationTitle": {
+        "ru": "Я меняю юани",
+        "en": "I'm exchanging RMB",
+        "es": "Cambio yuanes",
+        "pt-BR": "Estou trocando yuan"
+      },
+      "vocabularyCount": 20,
+      "contentFile": "lesson_09",
+      "isAvailable": true
+    },
+    {
+      "id": "lesson_10",
+      "number": 10,
+      "sourceLessonNumbers": [
+        10
+      ],
+      "chineseTitle": "他住哪儿",
+      "pinyinTitle": "Tā zhù nǎr",
+      "translationTitle": {
+        "ru": "Где он живёт?",
+        "en": "Where does he live?",
+        "es": "¿Dónde vive?",
+        "pt-BR": "Onde ele mora?"
+      },
+      "vocabularyCount": 21,
+      "contentFile": "lesson_10",
+      "isAvailable": true
+    },
+    {
+      "id": "lesson_11",
+      "number": 11,
+      "sourceLessonNumbers": [
+        11
+      ],
+      "chineseTitle": "我们都是留学生",
+      "pinyinTitle": "Wǒmen dōu shì liúxuéshēng",
+      "translationTitle": {
+        "ru": "Мы все — иностранные студенты",
+        "en": "We are all international students",
+        "es": "Todos somos estudiantes extranjeros",
+        "pt-BR": "Todos somos estudantes estrangeiros"
+      },
+      "vocabularyCount": 22,
+      "contentFile": "lesson_11",
+      "isAvailable": true
+    },
+    {
+      "id": "lesson_12",
+      "number": 12,
+      "sourceLessonNumbers": [
+        12
+      ],
+      "chineseTitle": "你在哪儿学习",
+      "pinyinTitle": "Nǐ zài nǎr xuéxí",
+      "translationTitle": {
+        "ru": "Где ты учишься",
+        "en": "Where do you study",
+        "es": "¿Dónde estudias?",
+        "pt-BR": "Onde você estuda"
+      },
+      "vocabularyCount": 20,
+      "contentFile": "lesson_12",
+      "isAvailable": true
+    },
+    {
+      "id": "lesson_13",
+      "number": 13,
+      "sourceLessonNumbers": [
+        13
+      ],
+      "chineseTitle": "这是不是中药",
+      "pinyinTitle": "Zhè shì bu shì zhōngyào",
+      "translationTitle": {
+        "ru": "Это китайское лекарство или нет",
+        "en": "Is this traditional Chinese medicine",
+        "es": "¿Es esto medicina tradicional china?",
+        "pt-BR": "Isso é medicina tradicional chinesa"
+      },
+      "vocabularyCount": 29,
+      "contentFile": "lesson_13",
+      "isAvailable": true
+    },
+    {
+      "id": "lesson_14",
+      "number": 14,
+      "sourceLessonNumbers": [
+        14
+      ],
+      "chineseTitle": "你的车是新的还是旧的",
+      "pinyinTitle": "Nǐ de chē shì xīn de háishi jiù de",
+      "translationTitle": {
+        "ru": "Твоя машина новая или старая",
+        "en": "Is your vehicle new or old",
+        "es": "¿Tu vehículo es nuevo o viejo?",
+        "pt-BR": "Seu veículo é novo ou velho"
+      },
+      "vocabularyCount": 22,
+      "contentFile": "lesson_14",
+      "isAvailable": true
+    },
+    {
+      "id": "lesson_15",
+      "number": 15,
+      "sourceLessonNumbers": [
+        15
+      ],
+      "chineseTitle": "你们公司有多少职员",
+      "pinyinTitle": "Nǐmen gōngsī yǒu duōshao zhíyuán",
+      "translationTitle": {
+        "ru": "Сколько сотрудников в вашей компании",
+        "en": "How many employees does your company have",
+        "es": "¿Cuántos empleados tiene su empresa?",
+        "pt-BR": "Quantos funcionários tem a sua empresa"
+      },
+      "vocabularyCount": 16,
+      "contentFile": "lesson_15",
+      "isAvailable": true
+    }
+  ]
+}

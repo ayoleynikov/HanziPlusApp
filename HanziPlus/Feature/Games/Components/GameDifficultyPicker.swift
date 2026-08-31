@@ -10,10 +10,10 @@ struct GameDifficultyPicker: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text("games.difficulty")
+            Text(l10n: "games.difficulty")
                 .font(.headline)
 
-            Picker("Difficulty", selection: $difficulty) {
+            Picker(L10n.string("games.difficulty"), selection: $difficulty) {
                 ForEach(GameDifficulty.allCases, id: \.self) { level in
                     Text(level.label).tag(level)
                 }
@@ -30,7 +30,7 @@ struct GameRestartToolbar: ViewModifier {
         content
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button("Restart", action: action)
+                    Button(L10n.string("Restart"), action: action)
                         .font(.subheadline.weight(.semibold))
                 }
             }

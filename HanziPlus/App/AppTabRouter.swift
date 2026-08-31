@@ -11,7 +11,6 @@ enum AppTab: Int, Hashable, CaseIterable {
     case learn = 1
     case travel = 2
     case games = 3
-    case journey = 4
 }
 
 enum TravelDeepLink: Equatable {
@@ -52,7 +51,4 @@ final class AppTabRouter {
         selectedTab = .games
     }
 
-    func switchToJourney() {
-        selectedTab = .journey
-    }
 }

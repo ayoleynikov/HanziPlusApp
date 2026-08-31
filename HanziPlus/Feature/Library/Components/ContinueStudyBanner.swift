@@ -27,7 +27,7 @@ struct ContinueStudyBanner: View {
             }
 
             VStack(alignment: .leading, spacing: 4) {
-                Text(String(localized: "learn.continue_set \(studySet.localizedTitle)"))
+                Text(L10n.string( "learn.continue_set \(studySet.localizedTitle)"))
                     .font(.headline)
 
                 if let subtitle {
@@ -36,7 +36,7 @@ struct ContinueStudyBanner: View {
                         .foregroundStyle(.secondary)
                 }
 
-                Text(String(localized: "study.card_of \(cardNumber) \(totalWords)"))
+                Text(L10n.string( "study.card_of \(cardNumber) \(totalWords)"))
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
             }

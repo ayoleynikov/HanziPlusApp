@@ -35,7 +35,7 @@ struct MarkAsLearnedButton: View {
                         .symbolEffect(.bounce, value: checkBounce)
                         .contentTransition(.symbolEffect(.replace))
 
-                    Text(isLearned ? "Learned ✓" : "Mark as Learned")
+                    Text(isLearned ? L10n.string("study.learned_check") : L10n.string("study.mark_learned"))
                         .font(.subheadline.weight(.semibold))
                 }
                 .foregroundStyle(isLearned ? Color.green : Color.primary)

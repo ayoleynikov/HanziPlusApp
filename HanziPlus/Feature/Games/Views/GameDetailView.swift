@@ -109,7 +109,7 @@ struct GameDetailView: View {
 
     private var benefitsSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("games.detail.benefits")
+            Text(l10n: "games.detail.benefits")
                 .font(.title3.weight(.semibold))
 
             ForEach(Array(game.localizedBenefits.enumerated()), id: \.offset) { _, benefit in
@@ -129,16 +129,15 @@ struct GameDetailView: View {
 
     private var statsSection: some View {
         LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: AppSpacing.small) {
-            detailChip(title: String(localized: "games.difficulty"), value: game.difficulty.label, tint: game.difficulty.color)
-            detailChip(title: String(localized: "games.detail.est_time"), value: game.estimatedTimeLabel, tint: .blue)
-            detailChip(title: String(localized: "games.detail.xp_reward"), value: game.xpRewardLabel, tint: .purple)
-            detailChip(title: String(localized: "games.detail.best_score"), value: stats.bestScore > 0 ? "\(stats.bestScore)" : "—", tint: .orange)
+            detailChip(title: L10n.string( "games.difficulty"), value: game.difficulty.label, tint: game.difficulty.color)
+            detailChip(title: L10n.string( "games.detail.est_time"), value: game.estimatedTimeLabel, tint: .blue)
+            detailChip(title: L10n.string( "games.detail.best_score"), value: stats.bestScore > 0 ? "\(stats.bestScore)" : "—", tint: .orange)
         }
     }
 
     private var achievementsSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("games.detail.achievements")
+            Text(l10n: "games.detail.achievements")
                 .font(.title3.weight(.semibold))
 
             ForEach(relatedAchievements.prefix(4)) { achievement in
@@ -172,7 +171,7 @@ struct GameDetailView: View {
 
     private var modeSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("games.detail.mode_selection")
+            Text(l10n: "games.detail.mode_selection")
                 .font(.title3.weight(.semibold))
 
             VStack(spacing: 8) {
@@ -215,7 +214,7 @@ struct GameDetailView: View {
 
     private var difficultySection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("games.detail.difficulty_selection")
+            Text(l10n: "games.detail.difficulty_selection")
                 .font(.title3.weight(.semibold))
 
             GameDifficultyPicker(difficulty: $difficulty)
@@ -227,14 +226,12 @@ struct GameDetailView: View {
 
     private var personalStatsSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("games.detail.your_statistics")
+            Text(l10n: "games.detail.your_statistics")
                 .font(.title3.weight(.semibold))
 
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 10) {
-                statTile(String(localized: "games.stat.played"), "\(stats.gamesPlayed)")
-                statTile(String(localized: "games.stat.accuracy"), stats.gamesPlayed > 0 ? "\(stats.averageAccuracy)%" : "—")
-                statTile(String(localized: "games.stat.best_streak"), "\(stats.longestStreak)")
-                statTile(String(localized: "games.stat.total_xp"), "\(stats.xpEarned)")
+                statTile(L10n.string( "games.stat.played"), "\(stats.gamesPlayed)")
+                statTile(L10n.string( "games.stat.accuracy"), stats.gamesPlayed > 0 ? L10n.percent(stats.averageAccuracy) : "—")
             }
         }
         .padding(20)
@@ -250,7 +247,7 @@ struct GameDetailView: View {
             HStack(spacing: 10) {
                 Image(systemName: "play.fill")
                     .font(.headline.weight(.bold))
-                Text("games.start_game")
+                Text(l10n: "games.start_game")
                     .font(.headline.weight(.semibold))
             }
             .foregroundStyle(.white)

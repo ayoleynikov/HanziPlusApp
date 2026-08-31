@@ -21,10 +21,14 @@ final class UserProfileStore {
         } else {
             profile = .default
         }
+        if ProcessInfo.processInfo.arguments.contains("-ui-testing") {
+            profile.onboardingCompleted = true
+        }
     }
 
     var needsOnboarding: Bool {
-        !profile.onboardingCompleted
+        if ProcessInfo.processInfo.arguments.contains("-ui-testing") { return false }
+        return !profile.onboardingCompleted
     }
 
     func update(_ transform: (inout UserProfile) -> Void) {

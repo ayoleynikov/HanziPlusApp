@@ -44,7 +44,7 @@ struct StudySetSectionCard: View {
                         .foregroundStyle(.primary)
                         .lineLimit(2)
 
-                    Text("\(wordCount) words")
+                    Text(L10n.words(wordCount))
                         .font(.caption.weight(.medium))
                         .foregroundStyle(.tertiary)
                 }
@@ -65,13 +65,13 @@ struct StudySetSectionCard: View {
 
             VStack(alignment: .leading, spacing: 8) {
                 HStack {
-                    Text("\(learnedWords) / \(wordCount) learned")
+                    Text(L10n.string("\(learnedWords) / \(wordCount) learned"))
                         .font(.caption.weight(.medium))
                         .foregroundStyle(.secondary)
 
                     Spacer()
 
-                    Text(isComplete ? "Complete" : "\(percentage)%")
+                    Text(isComplete ? L10n.string("common.done") : L10n.percent(percentage))
                         .font(.caption.weight(.semibold))
                         .foregroundStyle(isComplete ? .green : .primary)
                 }

@@ -12,6 +12,7 @@ struct FindTheHanziView: View {
 
     @State private var viewModel: FindTheHanziViewModel
     @State private var flashColor: Color = .clear
+    @State private var showMistakeFeedback = false
 
     @Environment(\.dismiss) private var dismiss
     @Environment(GameScoreStore.self) private var scoreStore
@@ -52,7 +53,7 @@ struct FindTheHanziView: View {
 
             if let word = viewModel.currentWord {
                 VStack(spacing: 8) {
-                    Text("games.find.prompt")
+                    Text(l10n: "games.find.prompt")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
 
@@ -72,7 +73,8 @@ struct FindTheHanziView: View {
             let columns = Array(repeating: GridItem(.flexible(), spacing: 10), count: difficulty.gridDimension)
 
             LazyVGrid(columns: columns, spacing: 10) {
-                ForEach(viewModel.gridOptions, id: \.self) { hanzi in
+                ForEach(viewModel.gridOptions.indices, id: \.self) { index in
+                    let hanzi = viewModel.gridOptions[index]
                     GameHanziOptionButton(
                         hanzi: hanzi,
                         isSelected: viewModel.selectedAnswer == hanzi,
@@ -88,48 +90,76 @@ struct FindTheHanziView: View {
         .padding(.horizontal, AppSpacing.medium)
         .padding(.bottom, AppSpacing.medium)
         .background(flashColor.opacity(0.14).ignoresSafeArea())
+        .overlay(alignment: .bottom) {
+            if showMistakeFeedback, let word = viewModel.currentWord {
+                QuizMistakeFeedbackCard(
+                    word: word,
+                    correctAnswer: word.hanzi,
+                    onContinue: dismissMistakeAndAdvance
+                )
+                .transition(.move(edge: .bottom).combined(with: .opacity))
+            }
+        }
+        .animation(.spring(response: 0.4, dampingFraction: 0.86), value: showMistakeFeedback)
         .onChange(of: viewModel.showResult) { _, show in
             guard show else { return }
-            advance()
+            handleResult()
         }
     }
 
     private func select(_ hanzi: String) {
         guard !viewModel.showResult else { return }
+        let word = viewModel.currentWord
         viewModel.select(hanzi)
+        if let word {
+            smartReviewStore.recordAttempt(
+                fileName: studySet.fileName,
+                hanzi: word.hanzi,
+                correct: hanzi == word.hanzi
+            )
+        }
 
-        if hanzi == viewModel.currentWord?.hanzi {
+        if hanzi == word?.hanzi {
             HapticService.success()
             SoundService.success()
         } else {
             HapticService.rigid()
             SoundService.error()
-            if let word = viewModel.currentWord {
-                smartReviewStore.recordWrong(word: word, studySet: studySet)
-            }
         }
 
         withAnimation(.easeIn(duration: 0.15)) {
-            flashColor = hanzi == viewModel.currentWord?.hanzi ? .green : .red
+            flashColor = hanzi == word?.hanzi ? .green : .red
         }
     }
 
-    private func advance() {
-        Task {
-            try? await Task.sleep(for: .seconds(0.65))
-            await MainActor.run {
-                withAnimation(.easeOut(duration: 0.2)) { flashColor = .clear }
-                if viewModel.currentIndex >= viewModel.words.count - 1 {
-                    viewModel.finish(
-                        scoreStore: scoreStore,
-                        statisticsStore: statisticsStore,
-                        achievementStore: achievementStore,
-                        smartReviewStore: smartReviewStore
-                    )
-                } else {
-                    viewModel.nextQuestion()
-                }
+    private func handleResult() {
+        let isCorrect = viewModel.selectedAnswer == viewModel.currentWord?.hanzi
+        if isCorrect {
+            Task {
+                try? await Task.sleep(for: .seconds(0.65))
+                await MainActor.run { advance() }
             }
+        } else {
+            showMistakeFeedback = true
+        }
+    }
+
+    private func dismissMistakeAndAdvance() {
+        showMistakeFeedback = false
+        withAnimation(.easeOut(duration: 0.2)) { flashColor = .clear }
+        advance()
+    }
+
+    private func advance() {
+        if viewModel.currentIndex >= viewModel.words.count - 1 {
+            viewModel.finish(
+                scoreStore: scoreStore,
+                statisticsStore: statisticsStore,
+                achievementStore: achievementStore,
+                smartReviewStore: smartReviewStore
+            )
+        } else {
+            viewModel.nextQuestion()
         }
     }
 }

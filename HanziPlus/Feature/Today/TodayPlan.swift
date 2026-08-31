@@ -9,6 +9,7 @@ enum TodayDestination: Hashable {
     case study(fileName: String, sectionID: String?)
     case smartReview(fileName: String)
     case dailyLesson
+    case pathCourse
     case travelHub
     case travelEssentials
     case journey
@@ -52,7 +53,6 @@ enum TodayPlanBuilder {
               sessionStore.session(for: key) != nil
         else { return nil }
 
-        // Travel goal: only continue travel study sessions as the Learn task.
         if profile.primaryGoal == .travelToChina {
             let isTravelSession = key == SampleStudySets.travel.fileName
                 || key.hasPrefix("\(SampleStudySets.travel.fileName):")
@@ -64,12 +64,12 @@ enum TodayPlanBuilder {
            let section = StudySetCatalog.section(fileName: parsed.fileName, id: parsed.sectionID) {
             return (
                 .study(fileName: set.fileName, sectionID: section.id),
-                "Continue \(section.title)"
+                L10n.string("today.continue.named \(section.localizedTitle)")
             )
         }
 
         if let set = SampleStudySets.studySet(fileName: key) {
-            return (.study(fileName: set.fileName, sectionID: nil), "Continue \(set.title)")
+            return (.study(fileName: set.fileName, sectionID: nil), L10n.string("today.continue.named \(set.localizedTitle)"))
         }
 
         return nil
@@ -90,69 +90,68 @@ enum TodayPlanBuilder {
            let section = StudySetCatalog.section(fileName: parsed.fileName, id: parsed.sectionID) {
             return (
                 .study(fileName: SampleStudySets.travel.fileName, sectionID: section.id),
-                "Continue \(section.title)"
+                L10n.string("today.continue.named \(section.localizedTitle)")
             )
         }
 
-        return (.study(fileName: SampleStudySets.travel.fileName, sectionID: nil), String(localized: "today.continue.travel_words"))
+        return (.study(fileName: SampleStudySets.travel.fileName, sectionID: nil), L10n.string( "today.continue.travel_words"))
     }
 
     static func hero(
         profile: UserProfile,
         sessionStore: StudySessionStore,
-        lessonStore: DailyLessonStore,
-        learnedStore: LearnedWordsStore
+        lessonSession: DailyLessonSession?,
+        lessonStatus: DailyLessonStatus
     ) -> TodayHeroContent {
         switch profile.primaryGoal {
         case .travelToChina:
             let countdown: String = {
                 if let days = profile.daysUntilTravel {
-                    if days < 0 { return String(localized: "today.hero.trip_passed") }
-                    if days == 0 { return String(localized: "today.hero.trip_today") }
+                    if days < 0 { return L10n.string( "today.hero.trip_passed") }
+                    if days == 0 { return L10n.string( "today.hero.trip_today") }
                     return L10n.daysUntilTrip(days)
                 }
-                return String(localized: "today.hero.offline_phrases")
+                return L10n.string( "today.hero.offline_phrases")
             }()
             return TodayHeroContent(
-                title: String(localized: "today.hero.travel_toolkit"),
+                title: L10n.string( "today.hero.travel_toolkit"),
                 subtitle: countdown,
-                buttonTitle: String(localized: "today.hero.open_travel"),
+                buttonTitle: L10n.string( "today.hero.open_travel"),
                 icon: "airplane",
                 destination: .travelHub
             )
 
         case .learnChinese, .both:
-            let session = lessonStore.ensureTodaySession(profile: profile, learnedStore: learnedStore)
-            let set = SampleStudySets.studySet(fileName: session.fileName)
-                ?? recommendedStudySet(for: profile)
-            let countLabel = L10n.words(session.wordCount)
-            let setTitle = set.localizedTitle
+            let context = lessonContext(profile: profile, lessonSession: lessonSession)
+            let countLabel = lessonSession == nil
+                ? L10n.string("lesson.preparing")
+                : L10n.words(context.wordCount)
 
-            switch lessonStore.status {
+            switch lessonSession == nil ? .notStarted : lessonStatus {
             case .complete:
                 return TodayHeroContent(
-                    title: String(localized: "today.hero.lesson_complete"),
-                    subtitle: String(localized: "today.hero.lesson_complete.subtitle"),
-                    buttonTitle: String(localized: "today.hero.start_smart_review"),
+                    title: L10n.string( "today.hero.lesson_complete"),
+                    subtitle: L10n.string( "today.hero.lesson_complete.subtitle"),
+                    buttonTitle: L10n.string( "today.hero.start_smart_review"),
                     icon: "checkmark.circle.fill",
-                    destination: .smartReview(fileName: session.fileName)
+                    destination: .smartReview(fileName: context.fileName)
                 )
             case .inProgress:
                 return TodayHeroContent(
-                    title: String(localized: "today.hero.continue_lesson"),
-                    subtitle: "\(setTitle) · \(countLabel)",
-                    buttonTitle: String(localized: "today.hero.continue_lesson_cta"),
+                    title: L10n.string( "today.hero.continue_lesson"),
+                    subtitle: "\(context.set.localizedTitle) · \(countLabel)",
+                    buttonTitle: L10n.string( "today.hero.continue_lesson_cta"),
                     icon: "play.fill",
                     destination: .dailyLesson
                 )
             case .notStarted:
                 let subtitle = profile.primaryGoal == .both
-                    ? "\(setTitle) · \(countLabel) · \(String(localized: "today.hero.subtitle_both_suffix"))"
-                    : "\(setTitle) · \(countLabel)"
+                    ? "\(context.set.localizedTitle) · \(countLabel) · \(L10n.string( "today.hero.subtitle_both_suffix"))"
+                    : "\(context.set.localizedTitle) · \(countLabel)"
                 return TodayHeroContent(
-                    title: String(localized: "today.hero.start_lesson"),
+                    title: L10n.string( "today.hero.start_lesson"),
                     subtitle: subtitle,
-                    buttonTitle: String(localized: "today.hero.start_lesson"),
+                    buttonTitle: L10n.string( "today.hero.start_lesson"),
                     icon: "sun.max.fill",
                     destination: .dailyLesson
                 )
@@ -163,24 +162,29 @@ enum TodayPlanBuilder {
     static func planActions(
         profile: UserProfile,
         sessionStore: StudySessionStore,
-        lessonStore: DailyLessonStore,
-        learnedStore: LearnedWordsStore
+        lessonSession: DailyLessonSession?,
+        lessonStatus: DailyLessonStatus,
+        weakWordsCount: Int = 0,
+        journeyCitiesCompleted: Int = 0,
+        journeyCitiesTotal: Int = JourneyCityCatalog.all.count
     ) -> [TodayPlanAction] {
-        let lessonSession = lessonStore.ensureTodaySession(profile: profile, learnedStore: learnedStore)
-        let lessonSet = SampleStudySets.studySet(fileName: lessonSession.fileName)
-            ?? recommendedStudySet(for: profile)
-        let lessonComplete = lessonStore.status == .complete
+        let context = lessonContext(profile: profile, lessonSession: lessonSession)
+        let effectiveStatus: DailyLessonStatus = lessonSession?.completed == true ? .complete : lessonStatus
+        let lessonComplete = effectiveStatus == .complete
         let lessonDetail: String = {
-            let size = L10n.words(lessonSession.wordCount)
-            let setTitle = lessonSet.localizedTitle
-            switch lessonStore.status {
+            let size = lessonSession == nil
+                ? L10n.string("lesson.preparing")
+                : L10n.words(context.wordCount)
+            let setTitle = context.set.localizedTitle
+            switch effectiveStatus {
             case .notStarted:
                 return "\(setTitle) · \(size)"
             case .inProgress:
-                let phase = String(localized: String.LocalizationValue("lesson.phase.\(lessonSession.phase.rawValue == "reviewMistakes" ? "review_mistakes" : lessonSession.phase.rawValue)"))
+                guard let lessonSession else { return "\(setTitle) · \(size)" }
+                let phase = L10n.dynamic("lesson.phase.\(lessonSession.phase.rawValue)")
                 return "\(setTitle) · \(size) · \(phase)"
             case .complete:
-                return "\(setTitle) · \(size) · \(String(localized: "common.done"))"
+                return "\(setTitle) · \(size) · \(L10n.string( "common.done"))"
             }
         }()
 
@@ -191,7 +195,7 @@ enum TodayPlanBuilder {
             actions.append(
                 TodayPlanAction(
                     id: "learn",
-                    title: String(localized: "today.action.learn"),
+                    title: L10n.string( "today.action.learn"),
                     detail: lessonDetail,
                     icon: "text.book.closed.fill",
                     tintName: "blue",
@@ -204,7 +208,7 @@ enum TodayPlanBuilder {
             actions.append(
                 TodayPlanAction(
                     id: "learn",
-                    title: String(localized: "today.action.learn"),
+                    title: L10n.string( "today.action.learn"),
                     detail: lessonDetail,
                     icon: "text.book.closed.fill",
                     tintName: "blue",
@@ -215,8 +219,8 @@ enum TodayPlanBuilder {
             actions.append(
                 TodayPlanAction(
                     id: "travel",
-                    title: String(localized: "today.action.travel_toolkit"),
-                    detail: String(localized: "today.action.travel_detail_both"),
+                    title: L10n.string( "today.action.travel_toolkit"),
+                    detail: L10n.string( "today.action.travel_detail_both"),
                     icon: "airplane",
                     tintName: "orange",
                     destination: .travelHub
@@ -228,7 +232,7 @@ enum TodayPlanBuilder {
                 actions.append(
                     TodayPlanAction(
                         id: "learn",
-                        title: String(localized: "today.action.learn"),
+                        title: L10n.string( "today.action.learn"),
                         detail: travelContinue.label,
                         icon: "text.book.closed.fill",
                         tintName: "blue",
@@ -239,8 +243,8 @@ enum TodayPlanBuilder {
                 actions.append(
                     TodayPlanAction(
                         id: "learn",
-                        title: String(localized: "today.action.learn"),
-                        detail: "Travel words · \(lessonSession.wordCount) words · guided lesson",
+                        title: L10n.string( "today.action.learn"),
+                        detail: L10n.string("today.plan.travel_lesson_detail \(context.wordCount)"),
                         icon: "text.book.closed.fill",
                         tintName: "blue",
                         destination: .dailyLesson,
@@ -251,8 +255,8 @@ enum TodayPlanBuilder {
             actions.append(
                 TodayPlanAction(
                     id: "travel",
-                    title: String(localized: "today.action.travel_toolkit"),
-                    detail: String(localized: "today.action.travel_detail_travel"),
+                    title: L10n.string( "today.action.travel_toolkit"),
+                    detail: L10n.string( "today.action.travel_detail_travel"),
                     icon: "airplane",
                     tintName: "orange",
                     destination: .travelHub
@@ -264,26 +268,35 @@ enum TodayPlanBuilder {
             if profile.primaryGoal == .travelToChina {
                 return SampleStudySets.travel.fileName
             }
-            return lessonSession.fileName
+            return context.fileName
+        }()
+
+        let reviewDetail: String = {
+            if weakWordsCount > 0 {
+                return "\(L10n.string("today.action.review")) · \(L10n.words(weakWordsCount))"
+            }
+            return L10n.string("today.action.review_detail")
         }()
 
         actions.append(
             TodayPlanAction(
                 id: "review",
-                title: String(localized: "today.action.review"),
-                detail: String(localized: "today.action.review_detail"),
+                title: L10n.string( "today.action.review"),
+                detail: reviewDetail,
                 icon: "arrow.triangle.2.circlepath",
                 tintName: "purple",
                 destination: .smartReview(fileName: reviewSetFileName)
             )
         )
+
+        let exploreDetail = L10n.string(
+            "journey.cities_explored \(journeyCitiesCompleted) \(journeyCitiesTotal)"
+        )
         actions.append(
             TodayPlanAction(
                 id: "explore",
-                title: String(localized: "today.action.explore"),
-                detail: profile.primaryGoal.includesTravel
-                    ? String(localized: "today.action.explore_travel")
-                    : String(localized: "today.action.explore_learn"),
+                title: L10n.string( "today.action.explore"),
+                detail: exploreDetail,
                 icon: "globe.asia.australia.fill",
                 tintName: "orange",
                 destination: .journey
@@ -291,5 +304,15 @@ enum TodayPlanBuilder {
         )
 
         return actions
+    }
+
+    private static func lessonContext(
+        profile: UserProfile,
+        lessonSession: DailyLessonSession?
+    ) -> (fileName: String, wordCount: Int, set: StudySet) {
+        let fileName = lessonSession?.fileName ?? DailyLessonPlanner.recommendedFileName(for: profile)
+        let set = SampleStudySets.studySet(fileName: fileName) ?? recommendedStudySet(for: profile)
+        let wordCount = lessonSession?.wordCount ?? DailyLessonPlanner.targetWordCount(for: profile)
+        return (fileName, wordCount, set)
     }
 }

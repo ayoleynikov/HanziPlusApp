@@ -18,6 +18,7 @@ final class SpeedChallengeViewModel: GameSession {
     private var timerStart = Date()
 
     private(set) var words: [Word] = []
+    private(set) var currentOptions: [String] = []
     private(set) var currentIndex = 0
     private(set) var selectedAnswer: String?
     private(set) var showResult = false
@@ -32,7 +33,7 @@ final class SpeedChallengeViewModel: GameSession {
 
     init(studySet: StudySet) {
         self.studySet = studySet
-        self.wordPool = GameWordProvider.words(for: studySet)
+        self.wordPool = WordLoader.load(fileName: studySet.fileName)
         self.remainingSeconds = durationSeconds
         loadNextBatch()
     }
@@ -46,14 +47,7 @@ final class SpeedChallengeViewModel: GameSession {
         Double(remainingSeconds) / Double(durationSeconds)
     }
 
-    var options: [String] {
-        guard let currentWord else { return [] }
-        return MultipleChoiceHelper.options(
-            correct: currentWord.localizedMeaning,
-            pool: wordPool,
-            excluding: currentWord.id
-        )
-    }
+    var options: [String] { currentOptions }
 
     func startTimer() {
         guard !isTimerRunning else { return }
@@ -101,6 +95,7 @@ final class SpeedChallengeViewModel: GameSession {
 
         selectedAnswer = nil
         showResult = false
+        loadCurrentOptions()
     }
 
     func finish(scoreStore: GameScoreStore, statisticsStore: StatisticsStore) {
@@ -155,5 +150,23 @@ final class SpeedChallengeViewModel: GameSession {
 
     private func loadNextBatch() {
         words = wordPool.shuffled()
+        loadCurrentOptions()
+    }
+
+    private func loadCurrentOptions() {
+        guard let currentWord else {
+            currentOptions = []
+            return
+        }
+        currentOptions = MultipleChoiceHelper.options(
+            correct: currentWord.localizedMeaning,
+            pool: wordPool,
+            excluding: currentWord.id,
+            seed: optionSeed(for: currentWord)
+        )
+    }
+
+    private func optionSeed(for word: Word) -> UInt64 {
+        DailyLessonPlanner.stableSeed("\(studySet.fileName)|speed|\(word.id)")
     }
 }

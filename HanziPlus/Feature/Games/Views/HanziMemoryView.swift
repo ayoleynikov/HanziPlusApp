@@ -18,6 +18,7 @@ struct HanziMemoryView: View {
     @Environment(StatisticsStore.self) private var statisticsStore
     @Environment(AchievementStore.self) private var achievementStore
     @Environment(GameSessionStore.self) private var sessionStore
+    @Environment(SmartReviewStore.self) private var smartReviewStore
 
     private let game = GameDefinition.definition(for: .hanziMemory)
     private let columns = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
@@ -50,6 +51,15 @@ struct HanziMemoryView: View {
         .navigationBarTitleDisplayMode(.inline)
         .gameRestartToolbar { viewModel.restart() }
         .onAppear { persistActiveSession() }
+        .onChange(of: viewModel.evaluationSerial) { _, _ in
+            if let evaluation = viewModel.lastEvaluation {
+                smartReviewStore.recordAttempt(
+                    fileName: studySet.fileName,
+                    hanzi: evaluation.word.hanzi,
+                    correct: evaluation.correct
+                )
+            }
+        }
         .onChange(of: viewModel.matchedPairs) { _, matched in
             persistActiveSession()
             if matched == viewModel.totalPairs {
@@ -92,7 +102,7 @@ struct HanziMemoryView: View {
     private var gameplay: some View {
         VStack(spacing: AppSpacing.medium) {
             HStack {
-                Text("games.memory.pairs_found")
+                Text(l10n: "games.memory.pairs_found")
                     .font(.subheadline.weight(.medium))
                     .foregroundStyle(.secondary)
                 Text("\(viewModel.matchedPairs) / \(viewModel.totalPairs)")
@@ -101,7 +111,7 @@ struct HanziMemoryView: View {
 
                 Spacer()
 
-                Text("games.memory.moves")
+                Text(l10n: "games.memory.moves")
                     .font(.subheadline.weight(.medium))
                     .foregroundStyle(.secondary)
                 Text("\(viewModel.moves)")

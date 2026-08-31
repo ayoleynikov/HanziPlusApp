@@ -13,6 +13,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from travel_categories import KNOWN_TRAVEL_CATEGORIES
 DATA = ROOT / "HanziPlus" / "Resources" / "Data"
 SNAPSHOT = ROOT / "scripts" / "i18n" / "content_snapshot.json"
 XCSTRINGS = ROOT / "HanziPlus" / "Localizable.xcstrings"
@@ -29,16 +31,7 @@ WORD_FILES = (
     "culture",
     "technology",
 )
-KNOWN_CATEGORIES = {
-    "essentials",
-    "airport",
-    "transport",
-    "hotel",
-    "food",
-    "shopping",
-    "internet",
-    "emergency",
-}
+KNOWN_CATEGORIES = KNOWN_TRAVEL_CATEGORIES
 PLACEHOLDERS = re.compile(
     r"(?i)(?<![\w])(TODO:|TBD:|FIXME:|\bTBD\b|\bFIXME\b|xxx{2,}|\[translation\]|null translation)"
 )
@@ -151,7 +144,13 @@ def snapshot_words() -> dict:
     return snap
 
 
-def write_snapshot_if_missing() -> dict:
+def load_or_update_snapshot(update: bool = False) -> dict:
+    if update:
+        snap = snapshot_words()
+        SNAPSHOT.parent.mkdir(parents=True, exist_ok=True)
+        SNAPSHOT.write_text(json.dumps(snap, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"updated baseline snapshot {SNAPSHOT}")
+        return snap
     if SNAPSHOT.exists():
         return json.loads(SNAPSHOT.read_text(encoding="utf-8"))
     snap = snapshot_words()
@@ -245,6 +244,12 @@ def validate_xcstrings() -> int:
     strings = data.get("strings") or {}
     missing_lang = 0
     for key, entry in strings.items():
+        # Decorative punctuation / single CJK glyphs don't need per-locale variants.
+        if len(key) <= 1:
+            continue
+        # Auto-extracted format-only keys (e.g. "%@ %lld") are not user-facing copy.
+        if "%" in key and "." not in key:
+            continue
         locs = (entry or {}).get("localizations") or {}
         # Skip plural-only inspection of empty keys
         for lang in LANGS:
@@ -256,15 +261,17 @@ def validate_xcstrings() -> int:
 
 def main() -> int:
     only = None
-    if len(sys.argv) > 1:
-        if sys.argv[1] in {"--only", "-o"} and len(sys.argv) > 2:
-            only = sys.argv[2]
-        elif sys.argv[1] == "--ui":
+    update_snapshot = "--update-snapshot" in sys.argv[1:]
+    args = [arg for arg in sys.argv[1:] if arg != "--update-snapshot"]
+    if args:
+        if args[0] in {"--only", "-o"} and len(args) > 1:
+            only = args[1]
+        elif args[0] == "--ui":
             only = "ui"
         else:
-            only = sys.argv[1]
+            only = args[0]
 
-    snap = write_snapshot_if_missing()
+    snap = load_or_update_snapshot(update=update_snapshot)
     words_n, examples_n, phrases_n, ui_n = 0, 0, 0, 0
     if only in (None, "words") or (only in WORD_FILES):
         target = None if only in (None, "words") else only

@@ -39,7 +39,7 @@ struct SectionedStudySetView: View {
                 }
 
                 VStack(alignment: .leading, spacing: AppSpacing.medium) {
-                    Text("learn.sections")
+                    Text(l10n: "learn.sections")
                         .font(.title3.weight(.semibold))
                         .padding(.horizontal, AppSpacing.medium)
 
@@ -71,7 +71,7 @@ struct SectionedStudySetView: View {
             .padding(.bottom, AppSpacing.extraLarge)
         }
         .background(Color(.systemGroupedBackground))
-        .navigationTitle(studySet.title)
+        .navigationTitle(studySet.localizedTitle)
         .navigationBarTitleDisplayMode(.large)
     }
 
@@ -89,11 +89,11 @@ struct SectionedStudySetView: View {
                 }
 
                 VStack(alignment: .leading, spacing: 4) {
-                    Text(studySet.subtitle)
+                    Text(studySet.localizedSubtitle)
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
 
-                    Text("\(totalWords) words · \(sections.count) sections")
+                    Text(L10n.string("\(totalWords) words · \(sections.count) sections"))
                         .font(.caption.weight(.medium))
                         .foregroundStyle(.tertiary)
                 }
@@ -101,11 +101,11 @@ struct SectionedStudySetView: View {
 
             VStack(alignment: .leading, spacing: 8) {
                 HStack {
-                    Text("\(totalLearned) / \(totalWords) learned")
+                    Text(L10n.string("\(totalLearned) / \(totalWords) learned"))
                         .font(.caption.weight(.medium))
                         .foregroundStyle(.secondary)
                     Spacer()
-                    Text("\(Int(overallProgress * 100))%")
+                    Text(L10n.percent(Int(overallProgress * 100)))
                         .font(.caption.weight(.semibold))
                 }
 
@@ -141,7 +141,7 @@ struct SectionedStudySetView: View {
         let wordCount = SectionedVocabulary.wordCount(in: section, fileName: studySet.fileName)
 
         VStack(alignment: .leading, spacing: AppSpacing.small) {
-            Text("common.continue")
+            Text(l10n: "common.continue")
                 .font(.title3.weight(.semibold))
                 .padding(.horizontal, AppSpacing.medium)
 
@@ -164,7 +164,7 @@ struct SectionedStudySetView: View {
                             .font(.headline)
 
                         if let session {
-                            Text(String(localized: "study.card_of \(session.currentIndex + 1) \(wordCount)"))
+                            Text(L10n.string( "study.card_of \(session.currentIndex + 1) \(wordCount)"))
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)
                         }

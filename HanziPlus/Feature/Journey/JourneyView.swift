@@ -7,6 +7,8 @@ import SwiftUI
 
 struct JourneyView: View {
 
+    var showsDismissButton = false
+
     @Environment(JourneyStore.self) private var journeyStore
     @Environment(WordCatalog.self) private var catalog
     @Environment(LearnedWordsStore.self) private var learnedStore
@@ -14,6 +16,8 @@ struct JourneyView: View {
     @Environment(StatisticsStore.self) private var statisticsStore
     @Environment(AchievementStore.self) private var achievementStore
     @Environment(DailyChallengeStore.self) private var dailyChallengeStore
+    @Environment(AppTabRouter.self) private var tabRouter
+    @Environment(\.dismiss) private var dismiss
 
     private var progress: JourneyProgress {
         JourneyProgress.current(
@@ -36,19 +40,24 @@ struct JourneyView: View {
                     heroHeader
                         .padding(.horizontal, AppSpacing.medium)
 
-                    statsRow
-                        .padding(.horizontal, AppSpacing.medium)
-
                     JourneyPassportStrip(progress: progress)
                         .padding(.horizontal, AppSpacing.medium)
 
-                    quickLinks
-                        .padding(.horizontal, AppSpacing.medium)
+                    TravelTouristWordsPanel(
+                        categoryIDs: TravelTouristSituations.featuredCategoryIDs
+                    ) { categoryID in
+                        if showsDismissButton {
+                            dismiss()
+                        }
+                        tabRouter.switchToTravel(deepLink: .category(categoryID))
+                    }
+                    .padding(.horizontal, AppSpacing.medium)
 
                     JourneyMapView(
                         cities: JourneyCityCatalog.all,
                         progress: progress,
-                        journeyStore: journeyStore
+                        journeyStore: journeyStore,
+                        onDismissPresentation: showsDismissButton ? { dismiss() } : nil
                     )
                     .padding(.horizontal, AppSpacing.medium)
 
@@ -61,7 +70,14 @@ struct JourneyView: View {
                 .padding(.bottom, AppSpacing.extraLarge)
             }
             .background(journeyBackground.ignoresSafeArea())
-            .toolbar(.hidden, for: .navigationBar)
+            .toolbar(showsDismissButton ? .visible : .hidden, for: .navigationBar)
+            .toolbar {
+                if showsDismissButton {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button(L10n.string("common.close")) { dismiss() }
+                    }
+                }
+            }
             .onAppear {
                 journeyStore.sync(progress: progress, achievementStore: achievementStore)
             }
@@ -96,10 +112,10 @@ struct JourneyView: View {
         VStack(alignment: .leading, spacing: 10) {
             HStack {
                 VStack(alignment: .leading, spacing: 6) {
-                    Text("journey.title")
+                    Text(l10n: "journey.title")
                         .font(.system(size: 34, weight: .bold, design: .rounded))
 
-                    Text("journey.subtitle")
+                    Text(l10n: "journey.subtitle")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }
@@ -111,7 +127,9 @@ struct JourneyView: View {
             HStack(spacing: 8) {
                 Image(systemName: "airplane.departure")
                     .foregroundStyle(.blue)
-                Text("\(journeyStore.collectedSouvenirs.count) of \(JourneyCityCatalog.all.count) cities explored")
+                Text(L10n.string(
+                    "journey.cities_explored \(journeyStore.collectedSouvenirs.count) \(JourneyCityCatalog.all.count)"
+                ))
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(.secondary)
             }
@@ -121,39 +139,13 @@ struct JourneyView: View {
         }
     }
 
-    private var statsRow: some View {
-        HStack(spacing: AppSpacing.small) {
-            JourneyStatChip(title: "XP", value: "\(progress.totalXP)", icon: "sparkles", tint: .purple)
-            JourneyStatChip(title: "Learned", value: "\(progress.learnedWords)", icon: "checkmark.circle.fill", tint: .green)
-            JourneyStatChip(title: "Games", value: "\(progress.gamesPlayed)", icon: "gamecontroller.fill", tint: .orange)
-        }
-    }
-
-    private var quickLinks: some View {
-        HStack(spacing: AppSpacing.small) {
-            NavigationLink {
-                JourneyPassportView(progress: progress)
-            } label: {
-                JourneyQuickLink(title: "Travel Collection", icon: "rectangle.stack.fill", tint: .blue)
-            }
-            .buttonStyle(.plain)
-
-            NavigationLink {
-                JourneySouvenirsView()
-            } label: {
-                JourneyQuickLink(title: "Souvenirs", icon: "gift.fill", tint: .orange)
-            }
-            .buttonStyle(.plain)
-        }
-    }
-
     private var journeyCompleteBanner: some View {
         VStack(spacing: 12) {
             Text("🎉")
                 .font(.system(size: 48))
-            Text("journey.complete.title")
+            Text(l10n: "journey.complete.title")
                 .font(.title3.weight(.bold))
-            Text("journey.complete.subtitle")
+            Text(l10n: "journey.complete.subtitle")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
@@ -169,58 +161,6 @@ struct JourneyView: View {
                         endPoint: .bottomTrailing
                     )
                 )
-        }
-        .studyCardShadow()
-    }
-}
-
-private struct JourneyStatChip: View {
-    let title: String
-    let value: String
-    let icon: String
-    let tint: Color
-
-    var body: some View {
-        VStack(spacing: 6) {
-            Image(systemName: icon)
-                .font(.caption.weight(.bold))
-                .foregroundStyle(tint)
-            Text(value)
-                .font(.headline.weight(.bold))
-            Text(title)
-                .font(.caption2)
-                .foregroundStyle(.secondary)
-        }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, 12)
-        .background {
-            RoundedRectangle(cornerRadius: 16, style: .continuous)
-                .fill(.ultraThinMaterial)
-        }
-    }
-}
-
-private struct JourneyQuickLink: View {
-    let title: String
-    let icon: String
-    let tint: Color
-
-    var body: some View {
-        HStack(spacing: 10) {
-            Image(systemName: icon)
-                .foregroundStyle(tint)
-            Text(title)
-                .font(.subheadline.weight(.semibold))
-            Spacer()
-            Image(systemName: "chevron.right")
-                .font(.caption.weight(.bold))
-                .foregroundStyle(.tertiary)
-        }
-        .padding(16)
-        .frame(maxWidth: .infinity)
-        .background {
-            RoundedRectangle(cornerRadius: AppRadius.medium, style: .continuous)
-                .fill(.ultraThinMaterial)
         }
         .studyCardShadow()
     }

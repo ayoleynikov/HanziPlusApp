@@ -9,6 +9,7 @@ struct DailyLessonFlowView: View {
 
     @Environment(DailyLessonStore.self) private var lessonStore
     @Environment(LearnedWordsStore.self) private var learnedStore
+    @Environment(SmartReviewStore.self) private var smartReviewStore
     @Environment(UserProfileStore.self) private var profileStore
     @Environment(\.dismiss) private var dismiss
 
@@ -19,16 +20,17 @@ struct DailyLessonFlowView: View {
             if let viewModel {
                 content(viewModel)
             } else {
-                ProgressView(String(localized: "lesson.preparing"))
+                ProgressView(L10n.string( "lesson.preparing"))
             }
         }
-        .navigationTitle(String(localized: "lesson.nav_title"))
+        .navigationTitle(L10n.string( "lesson.nav_title"))
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             if viewModel == nil {
                 viewModel = DailyLessonViewModel(
                     lessonStore: lessonStore,
                     learnedStore: learnedStore,
+                    smartReviewStore: smartReviewStore,
                     profile: profileStore.profile
                 )
             }
@@ -68,52 +70,16 @@ struct DailyLessonFlowView: View {
                             options: vm.meaningOptions,
                             selectedAnswer: vm.selectedAnswer,
                             showFeedback: vm.showFeedback,
+                            wasCorrect: vm.lastAnswerCorrect,
                             onSelect: { vm.selectMeaning($0) },
                             onContinue: { vm.continueAfterMeaning() }
                         )
-                    } else {
-                        emptyLesson
-                    }
-
-                case .listening:
-                    if let word = vm.currentWord {
-                        DailyLessonListeningView(
-                            word: word,
-                            options: vm.listeningOptions,
-                            selectedAnswer: vm.selectedAnswer,
-                            showFeedback: vm.showFeedback,
-                            onSelect: { vm.selectListening($0) },
-                            onContinue: { vm.continueAfterListening() }
-                        )
-                        .id(word.hanzi)
                     } else {
                         emptyLesson
                     }
 
                 case .summary:
-                    DailyLessonSummaryView(
-                        learnedCount: vm.newlyLearnedCount,
-                        wordCount: vm.session.wordCount,
-                        meaningAccuracy: vm.session.meaningAccuracy(),
-                        listeningAccuracy: vm.session.listeningAccuracy(),
-                        mistakes: vm.mistakeWords,
-                        onReviewMistakes: { vm.startReviewMistakes() },
-                        onDone: { dismiss() }
-                    )
-
-                case .reviewMistakes:
-                    if let word = vm.currentWord {
-                        DailyLessonReviewMistakesView(
-                            word: word,
-                            options: vm.meaningOptions,
-                            selectedAnswer: vm.selectedAnswer,
-                            showFeedback: vm.showFeedback,
-                            onSelect: { vm.selectMeaning($0) },
-                            onContinue: { vm.continueAfterMeaning() }
-                        )
-                    } else {
-                        emptyLesson
-                    }
+                    summary(vm)
                 }
             }
             .padding(.horizontal, AppSpacing.medium)
@@ -123,8 +89,8 @@ struct DailyLessonFlowView: View {
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 if vm.session.phase != .summary {
-                    Button(String(localized: "common.close")) { dismiss() }
-                        .accessibilityLabel(String(localized: "lesson.a11y.close"))
+                    Button(L10n.string( "common.close")) { dismiss() }
+                        .accessibilityLabel(L10n.string( "lesson.a11y.close"))
                 }
             }
         }
@@ -132,25 +98,29 @@ struct DailyLessonFlowView: View {
 
     private var emptyLesson: some View {
         ContentUnavailableView(
-            String(localized: "lesson.empty.title"),
+            L10n.string( "lesson.empty.title"),
             systemImage: "text.book.closed",
-            description: Text("lesson.empty.desc")
+            description: Text(l10n: "lesson.empty.desc")
+        )
+    }
+
+    private func summary(_ vm: DailyLessonViewModel) -> some View {
+        DailyLessonSummaryView(
+            studySet: vm.studySet,
+            learnedCount: vm.newlyLearnedCount,
+            wordCount: vm.session.wordCount,
+            meaningAccuracy: vm.session.meaningAccuracy(),
+            mistakes: vm.mistakeWords,
+            onDone: { dismiss() }
         )
     }
 
     private func stepLabel(for vm: DailyLessonViewModel) -> String {
-        let total: Int
-        let index: Int
         switch vm.session.phase {
-        case .preview, .meaning, .listening:
-            total = vm.session.wordCount
-            index = vm.session.currentIndex + 1
-        case .reviewMistakes:
-            total = max(vm.reviewQueue.count, 1)
-            index = vm.session.currentIndex + 1
+        case .preview, .meaning:
+            return "\(vm.session.currentIndex + 1) / \(vm.session.wordCount)"
         case .summary:
-            return String(localized: "common.done")
+            return L10n.string( "common.done")
         }
-        return "\(index) / \(total)"
     }
 }

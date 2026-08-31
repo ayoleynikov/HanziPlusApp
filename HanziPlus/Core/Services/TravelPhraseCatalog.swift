@@ -31,7 +31,12 @@ enum TravelPhraseCatalog {
     }
 
     static func phrases(in categoryID: String) -> [TravelPhrase] {
-        allPhrases().filter { $0.categoryID == categoryID }
+        let resolvedID = resolvedCategoryID(categoryID)
+        return allPhrases().filter { $0.categoryID == resolvedID }
+    }
+
+    private static func resolvedCategoryID(_ categoryID: String) -> String {
+        categoryID == "shopping" ? "shopping_mall" : categoryID
     }
 
     static func phrase(id: String) -> TravelPhrase? {
@@ -64,5 +69,9 @@ enum TravelPhraseCatalog {
 
     static func count(in categoryID: String) -> Int {
         phrases(in: categoryID).count
+    }
+
+    static func previewPhrase(in categoryID: String) -> TravelPhrase? {
+        phrases(in: categoryID).first
     }
 }

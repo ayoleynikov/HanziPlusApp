@@ -12,8 +12,12 @@ struct StudySetSection: Identifiable, Equatable {
     let icon: String
     let emoji: String
 
+    var localizedTitle: String {
+        L10n.dynamic(title)
+    }
+
     var displayTitle: String {
-        "\(emoji) \(title)"
+        "\(emoji) \(localizedTitle)"
     }
 }
 
@@ -23,6 +27,10 @@ struct StudySetGroup: Identifiable {
     let title: String
     let emoji: String
     let sets: [StudySet]
+
+    var localizedTitle: String {
+        L10n.dynamic(title)
+    }
 }
 
 enum StudySetCatalog {

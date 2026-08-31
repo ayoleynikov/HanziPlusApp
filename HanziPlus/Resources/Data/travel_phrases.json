@@ -791,7 +791,7 @@
   },
   {
     "id": "tr-taxi-address",
-    "categoryID": "transport",
+    "categoryID": "taxi",
     "simplifiedChinese": "师傅，请送我去这个地址",
     "pinyin": "shīfu, qǐng sòng wǒ qù zhège dìzhǐ",
     "english": "Driver, please take me to this address",
@@ -840,7 +840,7 @@
   },
   {
     "id": "tr-stop-here",
-    "categoryID": "transport",
+    "categoryID": "taxi",
     "simplifiedChinese": "请在这儿停",
     "pinyin": "qǐng zài zhèr tíng",
     "english": "Please stop here",
@@ -878,7 +878,7 @@
   },
   {
     "id": "tr-how-much",
-    "categoryID": "transport",
+    "categoryID": "taxi",
     "simplifiedChinese": "到那儿大概多少钱？",
     "pinyin": "dào nàr dàgài duōshao qián?",
     "english": "About how much to get there?",
@@ -921,7 +921,7 @@
   },
   {
     "id": "tr-metro",
-    "categoryID": "transport",
+    "categoryID": "metro",
     "simplifiedChinese": "最近的地铁站在哪儿？",
     "pinyin": "zuìjìn de dìtiě zhàn zài nǎr?",
     "english": "Where is the nearest subway station?",
@@ -971,7 +971,7 @@
   },
   {
     "id": "tr-which-line",
-    "categoryID": "transport",
+    "categoryID": "metro",
     "simplifiedChinese": "请问坐几号线？",
     "pinyin": "qǐngwèn zuò jǐ hào xiàn?",
     "english": "Which metro line should I take?",
@@ -1958,7 +1958,7 @@
   },
   {
     "id": "shop-how-much",
-    "categoryID": "shopping",
+    "categoryID": "shopping_mall",
     "simplifiedChinese": "这个多少钱？",
     "pinyin": "zhège duōshao qián?",
     "english": "How much is this?",
@@ -1996,7 +1996,7 @@
   },
   {
     "id": "shop-too-expensive",
-    "categoryID": "shopping",
+    "categoryID": "shopping_mall",
     "simplifiedChinese": "太贵了，便宜一点可以吗？",
     "pinyin": "tài guì le, piányi yīdiǎn kěyǐ ma?",
     "english": "That’s expensive. Can it be a bit cheaper?",
@@ -2040,7 +2040,7 @@
   },
   {
     "id": "shop-cash",
-    "categoryID": "shopping",
+    "categoryID": "shopping_mall",
     "simplifiedChinese": "可以付现金吗？",
     "pinyin": "kěyǐ fù xiànjīn ma?",
     "english": "Can I pay cash?",
@@ -2101,7 +2101,7 @@
   },
   {
     "id": "shop-alipay",
-    "categoryID": "shopping",
+    "categoryID": "shopping_mall",
     "simplifiedChinese": "可以用支付宝吗？",
     "pinyin": "kěyǐ yòng Zhīfùbǎo ma?",
     "english": "Can I pay with Alipay?",
@@ -2139,7 +2139,7 @@
   },
   {
     "id": "shop-wechat-pay",
-    "categoryID": "shopping",
+    "categoryID": "shopping_mall",
     "simplifiedChinese": "可以用微信支付吗？",
     "pinyin": "kěyǐ yòng Wēixìn zhīfù ma?",
     "english": "Can I pay with WeChat Pay?",
@@ -2177,7 +2177,7 @@
   },
   {
     "id": "shop-receipt",
-    "categoryID": "shopping",
+    "categoryID": "shopping_mall",
     "simplifiedChinese": "请给我发票",
     "pinyin": "qǐng gěi wǒ fāpiào",
     "english": "Please give me a receipt / fapiao",
@@ -2215,7 +2215,7 @@
   },
   {
     "id": "shop-try-on",
-    "categoryID": "shopping",
+    "categoryID": "shopping_mall",
     "simplifiedChinese": "可以试穿吗？",
     "pinyin": "kěyǐ shìchuān ma?",
     "english": "Can I try this on?",
@@ -2253,7 +2253,7 @@
   },
   {
     "id": "shop-smaller",
-    "categoryID": "shopping",
+    "categoryID": "shopping_mall",
     "simplifiedChinese": "有小一点的吗？",
     "pinyin": "yǒu xiǎo yīdiǎn de ma?",
     "english": "Do you have a smaller size?",

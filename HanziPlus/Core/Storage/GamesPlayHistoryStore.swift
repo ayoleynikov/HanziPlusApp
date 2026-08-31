@@ -32,4 +32,9 @@ final class GamesPlayHistoryStore {
         let raw = defaults.stringArray(forKey: historyKey) ?? []
         recentlyPlayed = raw.compactMap(GameKind.init(rawValue:))
     }
+
+    func resetAll() {
+        recentlyPlayed.removeAll()
+        defaults.removeObject(forKey: historyKey)
+    }
 }

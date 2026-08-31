@@ -1,0 +1,782 @@
+{
+  "爱": {
+    "ru": "любить",
+    "es": "amar / querer",
+    "pt-BR": "amar",
+    "examples": [
+      {
+        "ru": "Я люблю свою семью.",
+        "es": "Amo a mi familia.",
+        "pt-BR": "Eu amo minha família."
+      }
+    ]
+  },
+  "八": {
+    "ru": "восемь",
+    "es": "ocho",
+    "pt-BR": "oito",
+    "examples": [
+      {
+        "ru": "Мы смотрим телевизор в восемь часов.",
+        "es": "Vemos la tele a las ocho.",
+        "pt-BR": "Assistimos TV às oito horas."
+      }
+    ]
+  },
+  "杯子": {
+    "ru": "чашка / стакан",
+    "es": "taza / vaso",
+    "pt-BR": "copo / xícara",
+    "examples": [
+      {
+        "ru": "Эта чашка очень красивая.",
+        "es": "Esta taza es muy bonita.",
+        "pt-BR": "Este copo é muito bonito."
+      }
+    ]
+  },
+  "北京": {
+    "ru": "Пекин",
+    "es": "Pekín / Beijing",
+    "pt-BR": "Pequim",
+    "examples": [
+      {
+        "ru": "Я живу в Пекине.",
+        "es": "Vivo en Pekín.",
+        "pt-BR": "Moro em Pequim."
+      }
+    ]
+  },
+  "本": {
+    "ru": "счётное слово для книг",
+    "es": "clasificador de libros",
+    "pt-BR": "classificador de livros",
+    "examples": [
+      {
+        "ru": "Эта книга очень хорошая.",
+        "es": "Este libro es muy bueno.",
+        "pt-BR": "Este livro é muito bom."
+      }
+    ]
+  },
+  "不客气": {
+    "ru": "не за что / пожалуйста",
+    "es": "de nada / no hay de qué",
+    "pt-BR": "de nada",
+    "examples": [
+      {
+        "ru": "Спасибо! — Не за что!",
+        "es": "¡Gracias! — ¡De nada!",
+        "pt-BR": "Obrigado! — De nada!"
+      }
+    ]
+  },
+  "不": {
+    "ru": "не / нет",
+    "es": "no",
+    "pt-BR": "não",
+    "examples": [
+      {
+        "ru": "Я не учитель.",
+        "es": "No soy profesor.",
+        "pt-BR": "Eu não sou professor."
+      }
+    ]
+  },
+  "菜": {
+    "ru": "блюдо",
+    "es": "plato / comida",
+    "pt-BR": "prato / comida",
+    "examples": [
+      {
+        "ru": "Это блюдо очень вкусное.",
+        "es": "Este plato está muy rico.",
+        "pt-BR": "Este prato é muito gostoso."
+      }
+    ]
+  },
+  "吃": {
+    "ru": "есть / кушать",
+    "es": "comer",
+    "pt-BR": "comer",
+    "examples": [
+      {
+        "ru": "Что ты хочешь есть?",
+        "es": "¿Qué quieres comer?",
+        "pt-BR": "O que você quer comer?"
+      }
+    ]
+  },
+  "打电话": {
+    "ru": "звонить / позвонить",
+    "es": "llamar (por teléfono)",
+    "pt-BR": "ligar / telefonar",
+    "examples": [
+      {
+        "ru": "Я завтра тебе позвоню.",
+        "es": "Te llamo mañana.",
+        "pt-BR": "Te ligo amanhã."
+      }
+    ]
+  },
+  "大": {
+    "ru": "большой",
+    "es": "grande",
+    "pt-BR": "grande",
+    "examples": [
+      {
+        "ru": "Наша семейная собака очень большая.",
+        "es": "El perro de mi familia es muy grande.",
+        "pt-BR": "O cachorro da minha família é muito grande."
+      }
+    ]
+  },
+  "的": {
+    "ru": "притяжательная частица",
+    "es": "partícula posesiva",
+    "pt-BR": "partícula possessiva",
+    "examples": [
+      {
+        "ru": "Это моя книга.",
+        "es": "Este es mi libro.",
+        "pt-BR": "Este é o meu livro."
+      }
+    ]
+  },
+  "点": {
+    "ru": "час (время)",
+    "es": "hora",
+    "pt-BR": "hora",
+    "examples": [
+      {
+        "ru": "Сколько сейчас времени?",
+        "es": "¿Qué hora es ahora?",
+        "pt-BR": "Que horas são agora?"
+      }
+    ]
+  },
+  "电视": {
+    "ru": "телевизор / телевидение",
+    "es": "televisión",
+    "pt-BR": "televisão / TV",
+    "examples": [
+      {
+        "ru": "Он смотрит телевизор.",
+        "es": "Está viendo la tele.",
+        "pt-BR": "Ele está assistindo TV."
+      }
+    ]
+  },
+  "电影": {
+    "ru": "фильм / кино",
+    "es": "película / cine",
+    "pt-BR": "filme",
+    "examples": [
+      {
+        "ru": "Я люблю смотреть фильмы.",
+        "es": "Me gusta ver películas.",
+        "pt-BR": "Gosto de assistir filmes."
+      }
+    ]
+  },
+  "东西": {
+    "ru": "вещь / предмет",
+    "es": "cosa",
+    "pt-BR": "coisa",
+    "examples": [
+      {
+        "ru": "Что ты хочешь купить?",
+        "es": "¿Qué cosas quieres comprar?",
+        "pt-BR": "Que coisas você quer comprar?"
+      }
+    ]
+  },
+  "都": {
+    "ru": "все",
+    "es": "todos / todo",
+    "pt-BR": "todos / tudo",
+    "examples": [
+      {
+        "ru": "Мы все любим есть рис.",
+        "es": "A todos nos gusta comer arroz.",
+        "pt-BR": "Nós todos gostamos de comer arroz."
+      }
+    ]
+  },
+  "读": {
+    "ru": "читать",
+    "es": "leer",
+    "pt-BR": "ler",
+    "examples": [
+      {
+        "ru": "Он читает.",
+        "es": "Está leyendo.",
+        "pt-BR": "Ele está lendo."
+      }
+    ]
+  },
+  "多": {
+    "ru": "много",
+    "es": "mucho / muchos",
+    "pt-BR": "muito / muitos",
+    "examples": [
+      {
+        "ru": "В школе много людей.",
+        "es": "Hay mucha gente en la escuela.",
+        "pt-BR": "Há muita gente na escola."
+      }
+    ]
+  },
+  "多少": {
+    "ru": "сколько",
+    "es": "cuánto / cuántos",
+    "pt-BR": "quanto / quantos",
+    "examples": [
+      {
+        "ru": "Сколько это стоит?",
+        "es": "¿Cuánto cuesta esto?",
+        "pt-BR": "Quanto custa isto?"
+      }
+    ]
+  },
+  "儿子": {
+    "ru": "сын",
+    "es": "hijo",
+    "pt-BR": "filho",
+    "examples": [
+      {
+        "ru": "Его сын — врач.",
+        "es": "Su hijo es médico.",
+        "pt-BR": "O filho dele é médico."
+      }
+    ]
+  },
+  "二": {
+    "ru": "два",
+    "es": "dos",
+    "pt-BR": "dois",
+    "examples": [
+      {
+        "ru": "Сейчас февраль.",
+        "es": "Ahora es febrero.",
+        "pt-BR": "Agora é fevereiro."
+      }
+    ]
+  },
+  "饭店": {
+    "ru": "ресторан / кафе",
+    "es": "restaurante",
+    "pt-BR": "restaurante",
+    "examples": [
+      {
+        "ru": "Мы едим в ресторане.",
+        "es": "Comemos en un restaurante.",
+        "pt-BR": "Comemos num restaurante."
+      }
+    ]
+  },
+  "飞机": {
+    "ru": "самолёт",
+    "es": "avión",
+    "pt-BR": "avião",
+    "examples": [
+      {
+        "ru": "Я лечу в Пекин на самолёте.",
+        "es": "Voy a Pekín en avión.",
+        "pt-BR": "Vou a Pequim de avião."
+      }
+    ]
+  },
+  "个": {
+    "ru": "общее счётное слово",
+    "es": "clasificador general",
+    "pt-BR": "classificador geral",
+    "examples": [
+      {
+        "ru": "У меня есть сын.",
+        "es": "Tengo un hijo.",
+        "pt-BR": "Eu tenho um filho."
+      }
+    ]
+  },
+  "工作": {
+    "ru": "работать",
+    "es": "trabajar",
+    "pt-BR": "trabalhar",
+    "examples": [
+      {
+        "ru": "Мой папа работает в больнице.",
+        "es": "Mi papá trabaja en un hospital.",
+        "pt-BR": "Meu pai trabalha num hospital."
+      }
+    ]
+  },
+  "狗": {
+    "ru": "собака",
+    "es": "perro",
+    "pt-BR": "cachorro / cão",
+    "examples": [
+      {
+        "ru": "Я очень люблю собак.",
+        "es": "Me gustan mucho los perros.",
+        "pt-BR": "Gosto muito de cachorros."
+      }
+    ]
+  },
+  "汉语": {
+    "ru": "китайский язык",
+    "es": "idioma chino / chino",
+    "pt-BR": "chinês (idioma)",
+    "examples": [
+      {
+        "ru": "Я умею говорить немного по-китайски.",
+        "es": "Puedo hablar un poco de chino.",
+        "pt-BR": "Eu posso falar um pouco de chinês."
+      }
+    ]
+  },
+  "好": {
+    "ru": "хороший",
+    "es": "bueno",
+    "pt-BR": "bom",
+    "examples": [
+      {
+        "ru": "Как у тебя? / Как дела?",
+        "es": "¿Cómo estás?",
+        "pt-BR": "Como você está?"
+      }
+    ]
+  },
+  "号": {
+    "ru": "число (месяца)",
+    "es": "día (del mes)",
+    "pt-BR": "dia (do mês)",
+    "examples": [
+      {
+        "ru": "Сегодня 8 июня.",
+        "es": "Hoy es 8 de junio.",
+        "pt-BR": "Hoje é dia 8 de junho."
+      }
+    ]
+  },
+  "喝": {
+    "ru": "пить",
+    "es": "beber",
+    "pt-BR": "beber",
+    "examples": [
+      {
+        "ru": "Что ты хочешь пить?",
+        "es": "¿Qué quieres beber?",
+        "pt-BR": "O que você quer beber?"
+      }
+    ]
+  },
+  "和": {
+    "ru": "и / с",
+    "es": "y / con",
+    "pt-BR": "e / com",
+    "examples": [
+      {
+        "ru": "Он и я — одноклассники.",
+        "es": "Él y yo somos compañeros de clase.",
+        "pt-BR": "Ele e eu somos colegas de classe."
+      }
+    ]
+  },
+  "很": {
+    "ru": "очень",
+    "es": "muy",
+    "pt-BR": "muito",
+    "examples": [
+      {
+        "ru": "Она очень счастливая.",
+        "es": "Ella está muy contenta.",
+        "pt-BR": "Ela está muito feliz."
+      }
+    ]
+  },
+  "后面": {
+    "ru": "позади / сзади",
+    "es": "detrás",
+    "pt-BR": "atrás",
+    "examples": [
+      {
+        "ru": "Он позади меня.",
+        "es": "Está detrás de mí.",
+        "pt-BR": "Ele está atrás de mim."
+      }
+    ]
+  },
+  "回": {
+    "ru": "возвращаться / идти домой",
+    "es": "volver / regresar",
+    "pt-BR": "voltar",
+    "examples": [
+      {
+        "ru": "Я после обеда иду домой.",
+        "es": "Vuelvo a casa por la tarde.",
+        "pt-BR": "Vou voltar para casa à tarde."
+      }
+    ]
+  },
+  "会": {
+    "ru": "уметь / можно",
+    "es": "saber / poder",
+    "pt-BR": "saber / conseguir",
+    "examples": [
+      {
+        "ru": "Я умею говорить по-китайски.",
+        "es": "Puedo hablar chino.",
+        "pt-BR": "Eu posso falar chinês."
+      }
+    ]
+  },
+  "几": {
+    "ru": "сколько (о малом количестве)",
+    "es": "cuántos",
+    "pt-BR": "quantos",
+    "examples": [
+      {
+        "ru": "Сколько тебе лет?",
+        "es": "¿Cuántos años tienes?",
+        "pt-BR": "Quantos anos você tem?"
+      }
+    ]
+  },
+  "家": {
+    "ru": "дом / семья",
+    "es": "casa / hogar",
+    "pt-BR": "casa / lar",
+    "examples": [
+      {
+        "ru": "Это мой дом.",
+        "es": "Esta es mi casa.",
+        "pt-BR": "Esta é a minha casa."
+      }
+    ]
+  },
+  "叫": {
+    "ru": "называться / звать",
+    "es": "llamarse",
+    "pt-BR": "chamar-se",
+    "examples": [
+      {
+        "ru": "Как тебя зовут?",
+        "es": "¿Cómo te llamas?",
+        "pt-BR": "Qual é o seu nome?"
+      }
+    ]
+  },
+  "九": {
+    "ru": "девять",
+    "es": "nueve",
+    "pt-BR": "nove",
+    "examples": [
+      {
+        "ru": "Ему девять лет.",
+        "es": "Tiene nueve años.",
+        "pt-BR": "Ele tem nove anos."
+      }
+    ]
+  },
+  "开": {
+    "ru": "открывать / водить",
+    "es": "abrir / conducir",
+    "pt-BR": "abrir / dirigir",
+    "examples": [
+      {
+        "ru": "Он умеет водить машину.",
+        "es": "Sabe conducir.",
+        "pt-BR": "Ele sabe dirigir."
+      }
+    ]
+  },
+  "看": {
+    "ru": "смотреть / видеть",
+    "es": "mirar / ver",
+    "pt-BR": "olhar / ver",
+    "examples": [
+      {
+        "ru": "Смотри, это мой кот!",
+        "es": "¡Mira, esa es mi gata!",
+        "pt-BR": "Olha, aquele é o meu gato!"
+      }
+    ]
+  },
+  "看见": {
+    "ru": "видеть / увидеть",
+    "es": "ver",
+    "pt-BR": "ver / enxergar",
+    "examples": [
+      {
+        "ru": "Я видел твоего кота.",
+        "es": "Vi tu gato.",
+        "pt-BR": "Eu vi o seu gato."
+      }
+    ]
+  },
+  "块": {
+    "ru": "юань (денежная единица)",
+    "es": "yuan (moneda)",
+    "pt-BR": "yuan (moeda)",
+    "examples": [
+      {
+        "ru": "Яблоки — три юаня.",
+        "es": "Las manzanas cuestan tres yuanes.",
+        "pt-BR": "As maçãs custam três yuanes."
+      }
+    ]
+  },
+  "来": {
+    "ru": "приходить / идти (сюда)",
+    "es": "venir",
+    "pt-BR": "vir",
+    "examples": [
+      {
+        "ru": "Когда ты придёшь?",
+        "es": "¿Cuándo vienes?",
+        "pt-BR": "Quando você vem?"
+      }
+    ]
+  },
+  "老师": {
+    "ru": "учитель",
+    "es": "profesor / maestro",
+    "pt-BR": "professor / professora",
+    "examples": [
+      {
+        "ru": "Она наша учительница.",
+        "es": "Ella es nuestra profesora.",
+        "pt-BR": "Ela é a nossa professora."
+      }
+    ]
+  },
+  "了": {
+    "ru": "частица завершённого действия",
+    "es": "partícula de acción completada",
+    "pt-BR": "partícula de ação completada",
+    "examples": [
+      {
+        "ru": "Он пошёл в школу.",
+        "es": "Fue a la escuela.",
+        "pt-BR": "Ele foi à escola."
+      }
+    ]
+  },
+  "冷": {
+    "ru": "холодный / холодно",
+    "es": "frío",
+    "pt-BR": "frio",
+    "examples": [
+      {
+        "ru": "Сегодня очень холодно.",
+        "es": "Hoy hace mucho frío.",
+        "pt-BR": "Hoje está muito frio."
+      }
+    ]
+  },
+  "里": {
+    "ru": "внутри / в",
+    "es": "dentro / en",
+    "pt-BR": "dentro / em",
+    "examples": [
+      {
+        "ru": "Кот в доме.",
+        "es": "El gato está en la casa.",
+        "pt-BR": "O gato está na casa."
+      }
+    ]
+  },
+  "六": {
+    "ru": "шесть",
+    "es": "seis",
+    "pt-BR": "seis",
+    "examples": [
+      {
+        "ru": "Мы едим в шесть часов.",
+        "es": "Comemos a las seis.",
+        "pt-BR": "Comemos às seis horas."
+      }
+    ]
+  },
+  "吗": {
+    "ru": "вопросительная частица «ма»",
+    "es": "partícula interrogativa «ma»",
+    "pt-BR": "partícula interrogativa «ma»",
+    "examples": [
+      {
+        "ru": "Ты студент?",
+        "es": "¿Eres estudiante?",
+        "pt-BR": "Você é estudante?"
+      }
+    ]
+  },
+  "买": {
+    "ru": "покупать / купить",
+    "es": "comprar",
+    "pt-BR": "comprar",
+    "examples": [
+      {
+        "ru": "Я хочу купить стакан.",
+        "es": "Quiero comprar una taza.",
+        "pt-BR": "Quero comprar um copo."
+      }
+    ]
+  },
+  "猫": {
+    "ru": "кот / кошка",
+    "es": "gato",
+    "pt-BR": "gato",
+    "examples": [
+      {
+        "ru": "Её кот очень маленький.",
+        "es": "Su gato es muy pequeño.",
+        "pt-BR": "O gato dela é muito pequeno."
+      }
+    ]
+  },
+  "没关系": {
+    "ru": "ничего страшного / неважно",
+    "es": "no pasa nada / no importa",
+    "pt-BR": "não tem problema / tudo bem",
+    "examples": [
+      {
+        "ru": "Извините! — Ничего страшного.",
+        "es": "¡Perdón! — No pasa nada.",
+        "pt-BR": "Desculpe! — Não tem problema."
+      }
+    ]
+  },
+  "没有": {
+    "ru": "не иметь / нет",
+    "es": "no tener / no hay",
+    "pt-BR": "não ter",
+    "examples": [
+      {
+        "ru": "У меня нет денег.",
+        "es": "No tengo dinero.",
+        "pt-BR": "Não tenho dinheiro."
+      }
+    ]
+  },
+  "名字": {
+    "ru": "имя",
+    "es": "nombre",
+    "pt-BR": "nome",
+    "examples": [
+      {
+        "ru": "Её имя очень красивое.",
+        "es": "Su nombre es muy bonito.",
+        "pt-BR": "O nome dela é muito bonito."
+      }
+    ]
+  },
+  "哪": {
+    "ru": "который / какой",
+    "es": "cuál",
+    "pt-BR": "qual",
+    "examples": [
+      {
+        "ru": "Ты из какой страны?",
+        "es": "¿De qué país eres?",
+        "pt-BR": "De qual país você é?"
+      }
+    ]
+  },
+  "哪儿": {
+    "ru": "где / куда",
+    "es": "dónde",
+    "pt-BR": "onde",
+    "examples": [
+      {
+        "ru": "Куда ты идёшь?",
+        "es": "¿Adónde vas?",
+        "pt-BR": "Aonde você vai?"
+      }
+    ]
+  },
+  "那": {
+    "ru": "тот / та",
+    "es": "ese / esa / aquello",
+    "pt-BR": "esse / essa / aquele",
+    "examples": [
+      {
+        "ru": "Вон моя школа.",
+        "es": "Esa es mi escuela.",
+        "pt-BR": "Aquela é a minha escola."
+      }
+    ]
+  },
+  "呢": {
+    "ru": "вопросительная частица «не»",
+    "es": "partícula interrogativa «ne»",
+    "pt-BR": "partícula interrogativa «ne»",
+    "examples": [
+      {
+        "ru": "У меня всё хорошо, а ты?",
+        "es": "Estoy bien, ¿y tú?",
+        "pt-BR": "Estou bem, e você?"
+      }
+    ]
+  },
+  "能": {
+    "ru": "могу / можно",
+    "es": "poder / ser capaz de",
+    "pt-BR": "poder / conseguir",
+    "examples": [
+      {
+        "ru": "Ты можешь прийти ко мне домой?",
+        "es": "¿Puedes venir a mi casa?",
+        "pt-BR": "Você pode vir à minha casa?"
+      }
+    ]
+  },
+  "你": {
+    "ru": "ты / вы",
+    "es": "tú / usted",
+    "pt-BR": "você",
+    "examples": [
+      {
+        "ru": "Привет! / Здравствуй!",
+        "es": "¡Hola!",
+        "pt-BR": "Olá!"
+      }
+    ]
+  },
+  "年": {
+    "ru": "год",
+    "es": "año",
+    "pt-BR": "ano",
+    "examples": [
+      {
+        "ru": "Я изучал китайский один год.",
+        "es": "Estudié chino por un año.",
+        "pt-BR": "Estudei chinês por um ano."
+      }
+    ]
+  },
+  "说": {
+    "ru": "говорить / сказать",
+    "es": "hablar / decir",
+    "pt-BR": "falar / dizer",
+    "examples": [
+      {
+        "ru": "Он говорит, что у него всё хорошо.",
+        "es": "Dice que está bien.",
+        "pt-BR": "Ele diz que está bem."
+      }
+    ]
+  },
+  "一点儿": {
+    "ru": "немного / чуть-чуть",
+    "es": "un poco",
+    "pt-BR": "um pouco",
+    "examples": [
+      {
+        "ru": "Я хотел бы немного чая.",
+        "es": "Quisiera un poco de té.",
+        "pt-BR": "Eu gostaria de um pouco de chá."
+      }
+    ]
+  }
+}

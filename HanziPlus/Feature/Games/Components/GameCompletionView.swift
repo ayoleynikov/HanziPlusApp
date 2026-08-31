@@ -36,11 +36,11 @@ struct GameCompletionView: View {
                     successIcon
 
                     VStack(spacing: 8) {
-                        Text("games.complete.title")
+                        Text(l10n: "games.complete.title")
                             .font(.largeTitle.weight(.bold))
 
                         if result.isNewRecord {
-                            Text("games.complete.new_record")
+                            Text(l10n: "games.complete.new_record")
                                 .font(.title3.weight(.bold))
                                 .foregroundStyle(.green)
                                 .transition(.scale.combined(with: .opacity))
@@ -53,13 +53,13 @@ struct GameCompletionView: View {
 
                     VStack(spacing: AppSpacing.small) {
                         completionButton(
-                            title: String(localized: "games.complete.play_again"),
+                            title: L10n.string( "games.complete.play_again"),
                             style: .primary,
                             action: onPlayAgain
                         )
 
                         completionButton(
-                            title: String(localized: "games.complete.back"),
+                            title: L10n.string( "games.complete.back"),
                             style: .secondary,
                             action: onBackToGames
                         )
@@ -122,13 +122,12 @@ struct GameCompletionView: View {
 
     private var statsGrid: some View {
         VStack(spacing: AppSpacing.small) {
-            statRow(title: String(localized: "games.complete.score"), value: "\(result.score)", icon: "star.fill", tint: .orange)
-            statRow(title: String(localized: "games.complete.accuracy"), value: "\(result.accuracy)%", icon: "target", tint: game.color)
-            statRow(title: String(localized: "games.complete.time"), value: formattedTime, icon: "clock.fill", tint: .secondary)
-            statRow(title: String(localized: "games.complete.xp_earned"), value: "+\(result.xpEarned)", icon: "sparkles", tint: .purple)
+            statRow(title: L10n.string( "games.complete.score"), value: "\(result.score)", icon: "star.fill", tint: .orange)
+            statRow(title: L10n.string( "games.complete.accuracy"), value: L10n.percent(result.accuracy), icon: "target", tint: game.color)
+            statRow(title: L10n.string( "games.complete.time"), value: formattedTime, icon: "clock.fill", tint: .secondary)
 
             if result.comboPeak > 1 {
-                statRow(title: String(localized: "games.complete.best_combo"), value: "×\(result.comboPeak)", icon: "flame.fill", tint: .orange)
+                statRow(title: L10n.string( "games.complete.best_combo"), value: "×\(result.comboPeak)", icon: "flame.fill", tint: .orange)
             }
         }
         .padding(AppSpacing.medium)
