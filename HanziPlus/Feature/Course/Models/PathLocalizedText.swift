@@ -64,7 +64,7 @@ struct PathLocalizedText: Codable, Equatable, Hashable {
         return raw
     }
 
-    private static func isPlaceholderMarker(_ value: String) -> Bool {
+    nonisolated private static func isPlaceholderMarker(_ value: String) -> Bool {
         let trimmed = value.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmed.isEmpty else { return false }
         let upper = trimmed.uppercased()

@@ -21,7 +21,7 @@ struct StudyView: View {
     var studySection: StudySetSection? = nil
 
     @Environment(\.dismiss) private var dismiss
-    @EnvironmentObject private var favorites: FavoritesStore
+    @Environment(FavoritesStore.self) private var favorites
     @Environment(WordCatalog.self) private var catalog
     @Environment(LearnedWordsStore.self) private var learnedStore
     @Environment(StudySessionStore.self) private var sessionStore
@@ -281,7 +281,7 @@ struct StudyView: View {
 
 #Preview {
     StudyView(studySet: SampleStudySets.all[0])
-        .environmentObject(FavoritesStore())
+        .environment(FavoritesStore())
         .environment(WordCatalog())
         .environment(LearnedWordsStore())
         .environment(StudySessionStore())

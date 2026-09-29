@@ -92,7 +92,7 @@ struct TravelTabView: View {
         .environment(AppTabRouter())
         .environment(LearnedWordsStore())
         .environment(StudySessionStore())
-        .environmentObject(FavoritesStore())
+        .environment(FavoritesStore())
         .environment(WordCatalog())
         .environment(JourneyStore())
         .environment(GameScoreStore())

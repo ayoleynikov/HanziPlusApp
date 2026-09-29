@@ -6,13 +6,14 @@
 //
 
 import Foundation
-import Combine
+import Observation
 
-final class FavoritesStore: ObservableObject {
+@Observable
+final class FavoritesStore {
     private let defaults = UserDefaults.standard
     private let favoritesKey = "favoriteWords"
 
-    @Published private(set) var favorites: Set<String> = []
+    private(set) var favorites: Set<String> = []
     
     init() {
         load()

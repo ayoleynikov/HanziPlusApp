@@ -59,9 +59,10 @@ final class DailyLessonStore {
         }
 
         let created = buildSession(profile: profile, learnedStore: learnedStore, dateKey: today)
-        session = normalizeLegacySession(created)
+        let normalized = normalizeLegacySession(created)
+        session = normalized
         persist()
-        return session!
+        return normalized
     }
 
     func update(_ transform: (inout DailyLessonSession) -> Void) {

@@ -187,7 +187,7 @@ struct TodayView: View {
         .environment(DailyChallengeStore())
         .environment(DailyLessonStore())
         .environment(AppTabRouter())
-        .environmentObject(FavoritesStore())
+        .environment(FavoritesStore())
         .environment(WordCatalog())
         .environment(LearnedWordsStore())
         .environment(SmartReviewStore())

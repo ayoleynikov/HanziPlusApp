@@ -3,6 +3,22 @@ import XCTest
 
 final class HanziPlusCoreTests: XCTestCase {
 
+    // The hosted app syncs the global content language from the device locale
+    // (LanguageSettingsStore -> LocalizationRuntime), so tests expecting
+    // English content fail on a non-English simulator. Pin it for hermeticity.
+    private var previousLanguage: ContentLanguageCode?
+
+    override func setUpWithError() throws {
+        previousLanguage = LocalizedContent.currentLanguage
+        LocalizedContent.currentLanguage = .en
+    }
+
+    override func tearDownWithError() throws {
+        if let previousLanguage {
+            LocalizedContent.currentLanguage = previousLanguage
+        }
+    }
+
     func testAllStudySetsDecodeAndContainUniqueHanzi() {
         for studySet in SampleStudySets.all {
             let words = WordLoader.load(fileName: studySet.fileName)

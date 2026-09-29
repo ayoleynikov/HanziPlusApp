@@ -228,7 +228,7 @@ TECHNOLOGY = {
         ("扫地机器人", "sǎodì jīqìrén", "robot vacuum", ("扫地机器人每天自动打扫。", "Sǎodì jīqìrén měitiān zìdòng dǎsǎo.", "The robot vacuum cleans automatically daily."), ("请清空扫地机器人的尘盒。", "Qǐng qīngkōng sǎodì jīqìrén de chénhé.", "Please empty the robot vacuum's dust bin.")),
         ("智能门锁", "zhìnéng ménsuǒ", "smart lock", ("智能门锁用密码开。", "Zhìnéng ménsuǒ yòng mìmǎ kāi.", "The smart lock opens with a code."), ("我设置了智能门锁。", "Wǒ shèzhì le zhìnéng ménsuǒ.", "I set up a smart lock.")),
         ("监控", "jiānkòng", "surveillance / monitor", ("门口装了监控摄像头。", "Ménkǒu zhuāng le jiānkòng shèxiàngtóu.", "A security camera is installed at the door."), ("可以通过手机看监控。", "Kěyǐ tōngguò shǒujī kàn jiānkòng.", "You can view surveillance on your phone.")),
-        ("传感器", "chuángǎnqì", "sensor", ("传感器检测到有人。", "Chuángǎnqì jiǯcè dào yǒu rén.", "The sensor detected someone."), ("温度传感器很准确。", "Wēndù chuángǎnqì hěn zhǔnquè.", "The temperature sensor is accurate.")),
+        ("传感器", "chuángǎnqì", "sensor", ("传感器检测到有人。", "Chuángǎnqì jiǎncè dào yǒu rén.", "The sensor detected someone."), ("温度传感器很准确。", "Wēndù chuángǎnqì hěn zhǔnquè.", "The temperature sensor is accurate.")),
         ("远程控制", "yuǎnchéng kòngzhì", "remote control", ("可以远程控制空调。", "Kěyǐ yuǎnchéng kòngzhì kōngtiáo.", "You can control the AC remotely."), ("远程控制很方便。", "Yuǎnchéng kòngzhì hěn fāngbiàn.", "Remote control is convenient.")),
         ("连接", "liánjiē", "to connect", ("设备连接成功了。", "Shèbèi liánjiē chénggōng le.", "Device connected successfully."), ("请连接同一个WiFi。", "Qǐng liánjiē tóng yī gè WiFi.", "Please connect to the same WiFi.")),
     ],

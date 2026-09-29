@@ -31,7 +31,7 @@ final class PathCourseUITests: XCTestCase {
         XCTAssertTrue(
             waitForAny([
                 app.otherElements["path_lesson_flow"],
-                app.otherElements["path_chapter_map"]
+                chapterMap
             ], timeout: 8)
         )
         XCTAssertTrue(
@@ -80,7 +80,7 @@ final class PathCourseUITests: XCTestCase {
             tapBackToChapterMap()
         }
 
-        XCTAssertTrue(app.otherElements["path_chapter_map"].waitForExistence(timeout: 8))
+        XCTAssertTrue(chapterMap.waitForExistence(timeout: 8))
 
         openChapter(1)
         XCTAssertFalse(app.otherElements["path_tone_guide"].waitForExistence(timeout: 2))
@@ -124,6 +124,12 @@ final class PathCourseUITests: XCTestCase {
 
     // MARK: - Navigation
 
+    private var chapterMap: XCUIElement {
+        // `path_chapter_map` resolves to a ScrollView/Button in the hierarchy,
+        // so `otherElements` never matches it — query any element type.
+        app.descendants(matching: .any)["path_chapter_map"].firstMatch
+    }
+
     private func openLearnTab() {
         let learnTab = app.tabBars.buttons["tab_learn"]
         if learnTab.waitForExistence(timeout: 4) {
@@ -161,7 +167,7 @@ final class PathCourseUITests: XCTestCase {
         XCTAssertTrue(
             waitForAny([
                 app.otherElements["path_lesson_flow"],
-                app.otherElements["path_chapter_map"],
+                chapterMap,
                 app.navigationBars.staticTexts.containing(NSPredicate(format: "label CONTAINS '1'")).firstMatch
             ], timeout: 10)
         )
@@ -198,7 +204,7 @@ final class PathCourseUITests: XCTestCase {
                 return
             }
 
-            if app.otherElements["path_chapter_map"].exists {
+            if chapterMap.exists {
                 let back = app.navigationBars.buttons.element(boundBy: 0)
                 if back.waitForExistence(timeout: 1) {
                     back.tap()

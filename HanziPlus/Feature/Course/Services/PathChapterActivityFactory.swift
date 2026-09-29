@@ -98,7 +98,7 @@ enum PathChapterActivityFactory {
 
     // MARK: - Sentence builder
 
-    private static func isSentenceBuilderCandidate(_ line: PathDialogueLine) -> Bool {
+    nonisolated private static func isSentenceBuilderCandidate(_ line: PathDialogueLine) -> Bool {
         let stripped = line.hanzi.trimmingCharacters(in: CharacterSet(charactersIn: "！？。，、"))
         return (2 ... 12).contains(stripped.count)
     }
@@ -354,7 +354,7 @@ enum PathChapterActivityFactory {
         UInt64(bitPattern: Int64(lesson &* 10_000 + chapter &* 100 + (salt & 0x7FFF)))
     }
 
-    private static func isFillBlank(_ activity: PathChapterActivity) -> Bool {
+    nonisolated private static func isFillBlank(_ activity: PathChapterActivity) -> Bool {
         if case .fillBlank = activity { return true }
         return false
     }

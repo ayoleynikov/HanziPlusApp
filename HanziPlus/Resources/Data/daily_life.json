@@ -2702,12 +2702,12 @@
   {
     "section": "clothing",
     "hanzi": "试穿",
-    "pinyin": "shíchuān",
+    "pinyin": "shìchuān",
     "english": "to try on",
     "examples": [
       {
         "hanzi": "我可以试穿吗？",
-        "pinyin": "Wǒ kěyǐ shíchuān ma?",
+        "pinyin": "Wǒ kěyǐ shìchuān ma?",
         "english": "Can I try this on?",
         "translations": {
           "en": "Can I try this on?",
@@ -2718,7 +2718,7 @@
       },
       {
         "hanzi": "请去试衣间试穿。",
-        "pinyin": "Qǐng qù shìyījiān shíchuān.",
+        "pinyin": "Qǐng qù shìyījiān shìchuān.",
         "english": "Please try it on in the fitting room.",
         "translations": {
           "en": "Please try it on in the fitting room.",

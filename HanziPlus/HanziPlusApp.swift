@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct HanziPlusApp: App {
 
-    @StateObject private var favoritesStore = FavoritesStore()
+    @State private var favoritesStore = FavoritesStore()
     @State private var statisticsStore = StatisticsStore()
     @State private var wordCatalog = WordCatalog()
     @State private var historyStore = HistoryStore()
@@ -34,7 +34,7 @@ struct HanziPlusApp: App {
     var body: some Scene {
         WindowGroup {
             RootView()
-                .environmentObject(favoritesStore)
+                .environment(favoritesStore)
                 .environment(statisticsStore)
                 .environment(wordCatalog)
                 .environment(historyStore)

@@ -12,7 +12,7 @@ struct SearchView: View {
     @Environment(WordCatalog.self) private var catalog
     @Environment(HistoryStore.self) private var history
     @Environment(LearnedWordsStore.self) private var learnedStore
-    @EnvironmentObject private var favoritesStore: FavoritesStore
+    @Environment(FavoritesStore.self) private var favoritesStore
     @State private var viewModel: SearchViewModel?
     @State private var showAllRecentSearches = false
 
@@ -251,5 +251,5 @@ struct SearchView: View {
     .environment(WordCatalog())
     .environment(HistoryStore())
     .environment(LearnedWordsStore())
-    .environmentObject(FavoritesStore())
+    .environment(FavoritesStore())
 }

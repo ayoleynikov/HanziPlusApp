@@ -45,7 +45,7 @@ struct RootView: View {
 
 #Preview {
     RootView()
-        .environmentObject(FavoritesStore())
+        .environment(FavoritesStore())
         .environment(StatisticsStore())
         .environment(WordCatalog())
         .environment(HistoryStore())

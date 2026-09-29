@@ -22,7 +22,7 @@ struct StudyProgressResetSection: View {
     @Environment(TravelPhraseStore.self) private var phraseStore
     @Environment(AchievementStore.self) private var achievementStore
     @Environment(GamesPlayHistoryStore.self) private var playHistoryStore
-    @EnvironmentObject private var favoritesStore: FavoritesStore
+    @Environment(FavoritesStore.self) private var favoritesStore
 
     @State private var showsResetConfirmation = false
 
@@ -81,5 +81,5 @@ struct StudyProgressResetSection: View {
     .environment(TravelPhraseStore())
     .environment(AchievementStore())
     .environment(GamesPlayHistoryStore())
-    .environmentObject(FavoritesStore())
+    .environment(FavoritesStore())
 }

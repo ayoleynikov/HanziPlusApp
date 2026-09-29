@@ -48,7 +48,7 @@ struct MainTabView: View {
 
 #Preview {
     MainTabView()
-        .environmentObject(FavoritesStore())
+        .environment(FavoritesStore())
         .environment(StatisticsStore())
         .environment(WordCatalog())
         .environment(HistoryStore())

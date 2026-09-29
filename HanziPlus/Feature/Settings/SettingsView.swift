@@ -137,5 +137,5 @@ private enum AppLinks {
         .environment(AchievementStore())
         .environment(GamesPlayHistoryStore())
         .environment(LanguageSettingsStore())
-        .environmentObject(FavoritesStore())
+        .environment(FavoritesStore())
 }

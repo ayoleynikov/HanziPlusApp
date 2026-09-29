@@ -6,7 +6,7 @@ struct WordDetailView: View {
     var entryID: String?
     var searchQuery: String?
 
-    @EnvironmentObject private var favorites: FavoritesStore
+    @Environment(FavoritesStore.self) private var favorites
     @Environment(HistoryStore.self) private var history
     @Environment(WordCatalog.self) private var catalog
 
@@ -111,7 +111,7 @@ struct WordDetailView: View {
             word: WordLoader.load(fileName: "hsk1").first!
         )
     }
-    .environmentObject(FavoritesStore())
+    .environment(FavoritesStore())
     .environment(HistoryStore())
     .environment(WordCatalog())
 }
