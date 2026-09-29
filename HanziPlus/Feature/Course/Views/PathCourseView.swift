@@ -8,6 +8,7 @@ import SwiftUI
 struct PathCourseView: View {
 
     @Environment(PathCourseStore.self) private var pathStore
+    @Environment(DailyChallengeStore.self) private var dailyChallengeStore
     @Environment(LanguageSettingsStore.self) private var languageStore
     @State private var showsCourseDescription = false
 
@@ -15,9 +16,15 @@ struct PathCourseView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: AppSpacing.large) {
                 if let course = pathStore.course {
-                    PathCourseOverviewCard(course: course) {
-                        showsCourseDescription = true
-                    }
+                    PathCourseProgressHero(
+                        course: course,
+                        completedLessons: pathStore.completedLessonCount,
+                        progressFraction: pathStore.courseCompletionPercent,
+                        streakDays: dailyChallengeStore.streakDays,
+                        showContinueCTA: pathStore.hasStartedCourse,
+                        continueLesson: pathStore.currentLessonSummary,
+                        onShowDetails: { showsCourseDescription = true }
+                    )
                     .padding(.horizontal, AppSpacing.medium)
                     .padding(.top, AppSpacing.small)
                 }
@@ -36,6 +43,15 @@ struct PathCourseView: View {
             }
         }
         .id(languageStore.refreshToken)
+    }
+
+    @ViewBuilder
+    private func lessonDestination(for lessonID: String, autoResumeChapter: Bool) -> some View {
+        if let summary = pathStore.course?.lessons.first(where: { $0.id == lessonID }),
+           let contentFile = summary.contentFile,
+           let lesson = PathCourseLoader.loadLesson(fileName: contentFile) {
+            PathLessonFlowView(lesson: lesson, autoResumeChapter: autoResumeChapter)
+        }
     }
 
     @ViewBuilder
@@ -60,17 +76,31 @@ struct PathCourseView: View {
     private func lessonLink(for lesson: PathLessonSummary) -> some View {
         let status = pathStore.status(for: lesson)
         let unlocked = pathStore.isLessonUnlocked(lesson)
+        let progress = pathStore.lessonChapterProgressFraction(lessonID: lesson.id, contentFile: lesson.contentFile)
 
-        if unlocked, let contentFile = lesson.contentFile,
-           let loadedLesson = PathCourseLoader.loadLesson(fileName: contentFile) {
+        if unlocked {
             NavigationLink {
-                PathLessonFlowView(lesson: loadedLesson)
+                lessonDestination(for: lesson.id, autoResumeChapter: false)
             } label: {
-                PathLessonRow(lesson: lesson, status: status, isUnlocked: true)
+                PathLessonRow(
+                    lesson: lesson,
+                    status: status,
+                    isUnlocked: true,
+                    chapterProgress: progress
+                )
+                .accessibilityHidden(true)
             }
             .buttonStyle(.plain)
+            .accessibilityIdentifier("path_lesson_\(lesson.id)")
+            .accessibilityLabel(lesson.chineseTitle)
+            .accessibilityAddTraits(.isButton)
         } else {
-            PathLessonRow(lesson: lesson, status: status, isUnlocked: false)
+            PathLessonRow(
+                lesson: lesson,
+                status: status,
+                isUnlocked: false,
+                chapterProgress: progress
+            )
         }
     }
 }
@@ -79,5 +109,6 @@ struct PathCourseView: View {
     NavigationStack {
         PathCourseView()
             .environment(PathCourseStore())
+            .environment(DailyChallengeStore())
     }
 }

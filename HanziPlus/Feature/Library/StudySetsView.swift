@@ -72,6 +72,7 @@ struct StudySetsView: View {
                             tint: .teal
                         )
                     }
+                    .accessibilityIdentifier("path_course_link")
                     .buttonStyle(.plain)
                     .padding(.horizontal, AppSpacing.medium)
                 }

@@ -13,58 +13,52 @@ struct PathVocabularyStudyView: View {
     let total: Int
     let onContinue: () -> Void
 
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
     var body: some View {
         VStack(spacing: AppSpacing.medium) {
             Text(sectionTitle)
                 .font(.headline.weight(.semibold))
                 .frame(maxWidth: .infinity, alignment: .leading)
+                .accessibilityAddTraits(.isHeader)
 
-            VStack(spacing: 16) {
-                Text(item.hanzi)
-                    .font(.system(size: 72, weight: .bold))
-                    .minimumScaleFactor(0.5)
-                    .contentTransition(.numericText())
+            PathStudyCard {
+                VStack(spacing: 16) {
+                    Text(item.hanzi)
+                        .font(.system(size: 72, weight: .bold))
+                        .minimumScaleFactor(0.5)
+                        .accessibilityLabel(item.hanzi)
 
-                Text(item.pinyin)
-                    .font(.title2)
-                    .foregroundStyle(.secondary)
-                    .contentTransition(.numericText())
+                    Text(item.pinyin)
+                        .font(.title2)
+                        .foregroundStyle(.secondary)
+                        .accessibilityLabel(item.pinyin)
 
-                Text(item.localizedTranslation)
-                    .font(.title3.weight(.medium))
-                    .multilineTextAlignment(.center)
-                    .contentTransition(.numericText())
+                    Text(item.localizedTranslation)
+                        .font(.title3.weight(.medium))
+                        .multilineTextAlignment(.center)
+                        .accessibilityLabel(item.localizedTranslation)
 
-                DailyLessonSpeakButton(text: item.speechText, large: true)
+                    DailyLessonSpeakButton(
+                        text: item.hanzi,
+                        iconOnly: true,
+                        accessibilityIdentifier: "path_vocab_speak_button"
+                    )
+                }
             }
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, AppSpacing.large)
-            .padding(.horizontal, AppSpacing.medium)
-            .background {
-                RoundedRectangle(cornerRadius: AppRadius.large, style: .continuous)
-                    .fill(Color(.secondarySystemGroupedBackground))
-            }
-            .studyCardShadow()
-            .animation(.easeInOut(duration: 0.25), value: item.id)
+            .animation(PathMotion.stepAnimation(reduceMotion: reduceMotion, value: item.id), value: item.id)
 
-            Text("\(index + 1) / \(total)")
-                .font(.subheadline.weight(.semibold))
-                .foregroundStyle(.secondary)
+            PathWordProgressBadge(index: index, total: total)
 
             Spacer(minLength: 0)
 
-            Button(action: onContinue) {
-                Text(index + 1 == total ? PathStrings.allWordsLearned : PathStrings.next)
-                    .font(.body.weight(.semibold))
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 16)
-                    .frame(minHeight: 44)
-                    .background(Capsule(style: .continuous).fill(Color.teal))
-                    .foregroundStyle(.white)
-            }
-            .buttonStyle(.plain)
-            .accessibilityIdentifier("path_continue_button")
+            PathContinueButton(
+                title: index + 1 == total ? PathStrings.allWordsLearned : PathStrings.next,
+                action: onContinue
+            )
         }
+        .accessibilityElement(children: .contain)
+        .accessibilityIdentifier("path_vocabulary_study")
     }
 }
 

@@ -1628,6 +1628,1712 @@
     },
     {
       "kind": "completion"
+    },
+    {
+      "kind": "examples",
+      "id": "reference_additional",
+      "items": [
+        {
+          "id": "ex_add_mingzi",
+          "hanzi": "你叫什么名字？",
+          "pinyin": "Nǐ jiào shénme míngzi?",
+          "translation": {
+            "ru": "Как тебя зовут?",
+            "en": "What is your name?",
+            "es": "¿Cómo te llamas?",
+            "pt-BR": "Qual é o seu nome?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_add_guoren",
+          "hanzi": "你是哪国人？",
+          "pinyin": "Nǐ shì nǎ guó rén?",
+          "translation": {
+            "ru": "Ты из какой страны?",
+            "en": "What country are you from?",
+            "es": "¿De qué país eres?",
+            "pt-BR": "De que país você é?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_add_xuexi",
+          "hanzi": "你学习什么？",
+          "pinyin": "Nǐ xuéxí shénme?",
+          "translation": {
+            "ru": "Что ты изучаешь?",
+            "en": "What do you study?",
+            "es": "¿Qué estudias?",
+            "pt-BR": "O que você estuda?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_add_nama",
+          "hanzi": "汉语难吗？",
+          "pinyin": "Hànyǔ nán ma?",
+          "translation": {
+            "ru": "Китайский язык трудный?",
+            "en": "Is Chinese difficult?",
+            "es": "¿Es difícil el chino?",
+            "pt-BR": "O chinês é difícil?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_add_zhongguo",
+          "hanzi": "我是中国人。",
+          "pinyin": "Wǒ shì Zhōngguó rén.",
+          "translation": {
+            "ru": "Я китаец.",
+            "en": "I'm Chinese.",
+            "es": "Soy chino.",
+            "pt-BR": "Sou chinês."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_add_hanyu",
+          "hanzi": "我学习汉语。",
+          "pinyin": "Wǒ xuéxí Hànyǔ.",
+          "translation": {
+            "ru": "Я изучаю китайский язык.",
+            "en": "I study Chinese.",
+            "es": "Estudio chino.",
+            "pt-BR": "Estudo chinês."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_add_shenmeshu",
+          "hanzi": "这是什么书？",
+          "pinyin": "Zhè shì shénme shū?",
+          "translation": {
+            "ru": "Что это за книга?",
+            "en": "What book is this?",
+            "es": "¿Qué libro es este?",
+            "pt-BR": "Que livro é este?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_这是俄文杂志",
+          "hanzi": "这是俄文杂志。",
+          "pinyin": "Zhè shì Éwén zázhì.",
+          "translation": {
+            "ru": "Это журнал на русском языке.",
+            "en": "This is a Russian-language magazine.",
+            "es": "Esta es una revista en ruso.",
+            "pt-BR": "Esta é uma revista em russo."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_add_shuide",
+          "hanzi": "那是谁的书？",
+          "pinyin": "Nà shì shéi de shū?",
+          "translation": {
+            "ru": "Чья там книга?",
+            "en": "Whose book is that?",
+            "es": "¿De quién es ese libro?",
+            "pt-BR": "De quem é aquele livro?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_那是王老师的书",
+          "hanzi": "那是王老师的书。",
+          "pinyin": "Nà shì Wáng lǎoshī de shū.",
+          "translation": {
+            "ru": "Это книга учителя Вана.",
+            "en": "That is Teacher Wang's book.",
+            "es": "Es el libro del profesor Wang.",
+            "pt-BR": "É o livro do professor Wang."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_汉语难吗",
+          "hanzi": "汉语难吗？",
+          "pinyin": "Hànyǔ nán ma?",
+          "translation": {
+            "ru": "Китайский язык трудный?",
+            "en": "Is Chinese difficult?",
+            "es": "¿Es difícil el chino?",
+            "pt-BR": "O chinês é difícil?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_汉字很难_发音不太难",
+          "hanzi": "汉字很难，发音不太难。",
+          "pinyin": "Hànzì hěn nán, fāyīn bú tài nán.",
+          "translation": {
+            "ru": "Иероглифы очень трудные, произношение не очень трудное.",
+            "en": "Chinese characters are very difficult; pronunciation isn't too difficult.",
+            "es": "Los caracteres chinos son muy difíciles; la pronunciación no es muy difícil.",
+            "pt-BR": "Os caracteres chineses são muito difíceis; a pronúncia não é muito difícil."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_这是什么",
+          "hanzi": "这是什么？",
+          "pinyin": "Zhè shì shénme?",
+          "translation": {
+            "ru": "Что это?",
+            "en": "What is this?",
+            "es": "¿Qué es esto?",
+            "pt-BR": "O que é isso?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_这是书",
+          "hanzi": "这是书。",
+          "pinyin": "Zhè shì shū.",
+          "translation": {
+            "ru": "Это книга.",
+            "en": "This is a book.",
+            "es": "Es un libro.",
+            "pt-BR": "É um livro."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_这是什么书",
+          "hanzi": "这是什么书？",
+          "pinyin": "Zhè shì shénme shū?",
+          "translation": {
+            "ru": "Что это за книга?",
+            "en": "What book is this?",
+            "es": "¿Qué libro es este?",
+            "pt-BR": "Que livro é este?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_这是中文书",
+          "hanzi": "这是中文书。",
+          "pinyin": "Zhè shì Zhōngwén shū.",
+          "translation": {
+            "ru": "Это книга на китайском.",
+            "en": "This is a Chinese book.",
+            "es": "Es un libro en chino.",
+            "pt-BR": "É um livro em chinês."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_这是谁的书",
+          "hanzi": "这是谁的书？",
+          "pinyin": "Zhè shì shéi de shū?",
+          "translation": {
+            "ru": "Чья это книга?",
+            "en": "Whose book is this?",
+            "es": "¿De quién es este libro?",
+            "pt-BR": "De quem é este livro?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_这是老师的书",
+          "hanzi": "这是老师的书。",
+          "pinyin": "Zhè shì lǎoshī de shū.",
+          "translation": {
+            "ru": "Это книга учителя.",
+            "en": "This is the teacher's book.",
+            "es": "Es el libro del profesor.",
+            "pt-BR": "É o livro do professor."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_那是什么",
+          "hanzi": "那是什么？",
+          "pinyin": "Nà shì shénme?",
+          "translation": {
+            "ru": "Что там?",
+            "en": "What is that?",
+            "es": "¿Qué es eso?",
+            "pt-BR": "O que é aquilo?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_那是杂志",
+          "hanzi": "那是杂志。",
+          "pinyin": "Nà shì zázhì.",
+          "translation": {
+            "ru": "Там журнал.",
+            "en": "That is a magazine.",
+            "es": "Eso es una revista.",
+            "pt-BR": "Aquilo é uma revista."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_那是什么杂志",
+          "hanzi": "那是什么杂志？",
+          "pinyin": "Nà shì shénme zázhì?",
+          "translation": {
+            "ru": "Что это за журнал?",
+            "en": "What magazine is that?",
+            "es": "¿Qué revista es esa?",
+            "pt-BR": "Que revista é aquela?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_那是俄文杂志",
+          "hanzi": "那是俄文杂志。",
+          "pinyin": "Nà shì Éwén zázhì.",
+          "translation": {
+            "ru": "Это журнал на русском.",
+            "en": "That is a Russian magazine.",
+            "es": "Es una revista en ruso.",
+            "pt-BR": "É uma revista em russo."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_那是谁的杂志",
+          "hanzi": "那是谁的杂志？",
+          "pinyin": "Nà shì shéi de zázhì?",
+          "translation": {
+            "ru": "Чей это журнал?",
+            "en": "Whose magazine is that?",
+            "es": "¿De quién es esa revista?",
+            "pt-BR": "De quem é aquela revista?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_那是我朋友的杂志",
+          "hanzi": "那是我朋友的杂志。",
+          "pinyin": "Nà shì wǒ péngyou de zázhì.",
+          "translation": {
+            "ru": "Это журнал моего друга.",
+            "en": "That is my friend's magazine.",
+            "es": "Es la revista de mi amigo.",
+            "pt-BR": "É a revista do meu amigo."
+          },
+          "group": "additional"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "lesson_06_ch01",
+      "number": 1,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Изучить новые слова",
+          "showLessonHeader": true,
+          "dialogue": {
+            "id": "dialogue_intro",
+            "title": null,
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "请问，你贵姓？",
+                "pinyin": "Qǐngwèn, nǐ guìxìng?",
+                "translation": {
+                  "ru": "Скажите, пожалуйста, как ваша фамилия?",
+                  "en": "Excuse me, what is your surname?",
+                  "es": "Disculpe, ¿cuál es su apellido?",
+                  "pt-BR": "Com licença, qual é o seu sobrenome?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我姓张。",
+                "pinyin": "Wǒ xìng Zhāng.",
+                "translation": {
+                  "ru": "Моя фамилия Чжан.",
+                  "en": "My surname is Zhang.",
+                  "es": "Mi apellido es Zhang.",
+                  "pt-BR": "Meu sobrenome é Zhang."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "你叫什么名字？",
+                "pinyin": "Nǐ jiào shénme míngzi?",
+                "translation": {
+                  "ru": "Как тебя зовут?",
+                  "en": "What is your name?",
+                  "es": "¿Cómo te llamas?",
+                  "pt-BR": "Qual é o seu nome?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我叫张东。",
+                "pinyin": "Wǒ jiào Zhāng Dōng.",
+                "translation": {
+                  "ru": "Меня зовут Чжан Дун.",
+                  "en": "My name is Zhang Dong.",
+                  "es": "Me llamo Zhang Dong.",
+                  "pt-BR": "Me chamo Zhang Dong."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "你是哪国人？",
+                "pinyin": "Nǐ shì nǎ guó rén?",
+                "translation": {
+                  "ru": "Ты из какой страны?",
+                  "en": "What country are you from?",
+                  "es": "¿De qué país eres?",
+                  "pt-BR": "De que país você é?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我是中国人。你是哪国人？",
+                "pinyin": "Wǒ shì Zhōngguó rén. Nǐ shì nǎ guó rén?",
+                "translation": {
+                  "ru": "Я китаец. А ты из какой страны?",
+                  "en": "I'm Chinese. What country are you from?",
+                  "es": "Soy chino. ¿De qué país eres?",
+                  "pt-BR": "Sou chinês. De que país você é?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "我是俄国人。",
+                "pinyin": "Wǒ shì Éguó rén.",
+                "translation": {
+                  "ru": "Я русский.",
+                  "en": "I'm Russian.",
+                  "es": "Soy ruso.",
+                  "pt-BR": "Sou russo."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "你学习什么？",
+                "pinyin": "Nǐ xuéxí shénme?",
+                "translation": {
+                  "ru": "Что ты изучаешь?",
+                  "en": "What do you study?",
+                  "es": "¿Qué estudias?",
+                  "pt-BR": "O que você estuda?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "我学习汉语。",
+                "pinyin": "Wǒ xuéxí Hànyǔ.",
+                "translation": {
+                  "ru": "Я изучаю китайский язык.",
+                  "en": "I study Chinese.",
+                  "es": "Estudio chino.",
+                  "pt-BR": "Estudo chinês."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "汉语难吗？",
+                "pinyin": "Hànyǔ nán ma?",
+                "translation": {
+                  "ru": "Китайский язык трудный?",
+                  "en": "Is Chinese difficult?",
+                  "es": "¿Es difícil el chino?",
+                  "pt-BR": "O chinês é difícil?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "汉字很难，发音不太难。",
+                "pinyin": "Hànzì hěn nán, fāyīn bú tài nán.",
+                "translation": {
+                  "ru": "Иероглифы очень трудные, произношение не очень трудное.",
+                  "en": "Chinese characters are very difficult; pronunciation isn't too difficult.",
+                  "es": "Los caracteres chinos son muy difíciles; la pronunciación no es muy difícil.",
+                  "pt-BR": "Os caracteres chineses são muito difíceis; a pronúncia não é muito difícil."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Дальше",
+          "showLessonHeader": false,
+          "dialogue": {
+            "id": "dialogue_books",
+            "title": null,
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "这是什么？",
+                "pinyin": "Zhè shì shénme?",
+                "translation": {
+                  "ru": "Что это?",
+                  "en": "What is this?",
+                  "es": "¿Qué es esto?",
+                  "pt-BR": "O que é isso?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "这是书。",
+                "pinyin": "Zhè shì shū.",
+                "translation": {
+                  "ru": "Это книга.",
+                  "en": "This is a book.",
+                  "es": "Es un libro.",
+                  "pt-BR": "É um livro."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "这是什么书？",
+                "pinyin": "Zhè shì shénme shū?",
+                "translation": {
+                  "ru": "Что это за книга?",
+                  "en": "What book is this?",
+                  "es": "¿Qué libro es este?",
+                  "pt-BR": "Que livro é este?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "这是中文书。",
+                "pinyin": "Zhè shì Zhōngwén shū.",
+                "translation": {
+                  "ru": "Это книга на китайском.",
+                  "en": "This is a Chinese book.",
+                  "es": "Es un libro en chino.",
+                  "pt-BR": "É um livro em chinês."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "这是谁的书？",
+                "pinyin": "Zhè shì shéi de shū?",
+                "translation": {
+                  "ru": "Чья это книга?",
+                  "en": "Whose book is this?",
+                  "es": "¿De quién es este libro?",
+                  "pt-BR": "De quem é este livro?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "这是老师的书。",
+                "pinyin": "Zhè shì lǎoshī de shū.",
+                "translation": {
+                  "ru": "Это книга учителя.",
+                  "en": "This is the teacher's book.",
+                  "es": "Es el libro del profesor.",
+                  "pt-BR": "É o livro do professor."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "那是什么？",
+                "pinyin": "Nà shì shénme?",
+                "translation": {
+                  "ru": "Что там?",
+                  "en": "What is that?",
+                  "es": "¿Qué es eso?",
+                  "pt-BR": "O que é aquilo?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "那是杂志。",
+                "pinyin": "Nà shì zázhì.",
+                "translation": {
+                  "ru": "Там журнал.",
+                  "en": "That is a magazine.",
+                  "es": "Eso es una revista.",
+                  "pt-BR": "Aquilo é uma revista."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "那是什么杂志？",
+                "pinyin": "Nà shì shénme zázhì?",
+                "translation": {
+                  "ru": "Что это за журнал?",
+                  "en": "What magazine is that?",
+                  "es": "¿Qué revista es esa?",
+                  "pt-BR": "Que revista é aquela?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "那是俄文杂志。",
+                "pinyin": "Nà shì Éwén zázhì.",
+                "translation": {
+                  "ru": "Это журнал на русском.",
+                  "en": "That is a Russian magazine.",
+                  "es": "Es una revista en ruso.",
+                  "pt-BR": "É uma revista em russo."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "那是谁的杂志？",
+                "pinyin": "Nà shì shéi de zázhì?",
+                "translation": {
+                  "ru": "Чей это журнал?",
+                  "en": "Whose magazine is that?",
+                  "es": "¿De quién es esa revista?",
+                  "pt-BR": "De quem é aquela revista?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "那是我朋友的杂志。",
+                "pinyin": "Nà shì wǒ péngyou de zázhì.",
+                "translation": {
+                  "ru": "Это журнал моего друга.",
+                  "en": "That is my friend's magazine.",
+                  "es": "Es la revista de mi amigo.",
+                  "pt-BR": "É a revista do meu amigo."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_countries",
+            "title": {
+              "ru": "Страны",
+              "en": "Countries",
+              "es": "Países",
+              "pt-BR": "Países"
+            },
+            "items": [
+              {
+                "id": "中国",
+                "hanzi": "中国",
+                "pinyin": "Zhōngguó",
+                "translation": {
+                  "ru": "Китай",
+                  "en": "China",
+                  "es": "China",
+                  "pt-BR": "China"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "德国",
+                "hanzi": "德国",
+                "pinyin": "Déguó",
+                "translation": {
+                  "ru": "Германия",
+                  "en": "Germany",
+                  "es": "Alemania",
+                  "pt-BR": "Alemanha"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "俄国",
+                "hanzi": "俄国",
+                "pinyin": "Éguó",
+                "translation": {
+                  "ru": "Россия",
+                  "en": "Russia",
+                  "es": "Rusia",
+                  "pt-BR": "Rússia"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "法国",
+                "hanzi": "法国",
+                "pinyin": "Fǎguó",
+                "translation": {
+                  "ru": "Франция",
+                  "en": "France",
+                  "es": "Francia",
+                  "pt-BR": "França"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "韩国",
+                "hanzi": "韩国",
+                "pinyin": "Hánguó",
+                "translation": {
+                  "ru": "Республика Корея",
+                  "en": "Republic of Korea",
+                  "es": "República de Corea",
+                  "pt-BR": "República da Coreia"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "美国",
+                "hanzi": "美国",
+                "pinyin": "Měiguó",
+                "translation": {
+                  "ru": "США",
+                  "en": "USA",
+                  "es": "EE. UU.",
+                  "pt-BR": "EUA"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "日本",
+                "hanzi": "日本",
+                "pinyin": "Rìběn",
+                "translation": {
+                  "ru": "Япония",
+                  "en": "Japan",
+                  "es": "Japón",
+                  "pt-BR": "Japão"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "英国",
+                "hanzi": "英国",
+                "pinyin": "Yīngguó",
+                "translation": {
+                  "ru": "Англия",
+                  "en": "England",
+                  "es": "Inglaterra",
+                  "pt-BR": "Inglaterra"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "国",
+                "hanzi": "国",
+                "pinyin": "guó",
+                "translation": {
+                  "ru": "страна / государство",
+                  "en": "country / state",
+                  "es": "país / estado",
+                  "pt-BR": "país / estado"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "人",
+                "hanzi": "人",
+                "pinyin": "rén",
+                "translation": {
+                  "ru": "человек",
+                  "en": "person / people",
+                  "es": "persona / gente",
+                  "pt-BR": "pessoa / pessoas"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_06_ch02",
+      "number": 2,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_languages",
+            "title": {
+              "ru": "Языки",
+              "en": "Languages",
+              "es": "Idiomas",
+              "pt-BR": "Idiomas"
+            },
+            "items": [
+              {
+                "id": "俄文",
+                "hanzi": "俄文",
+                "pinyin": "Éwén",
+                "translation": {
+                  "ru": "русский язык / русский текст",
+                  "en": "Russian language / Russian text",
+                  "es": "idioma ruso / texto ruso",
+                  "pt-BR": "língua russa / texto russo"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "中文",
+                "hanzi": "中文",
+                "pinyin": "Zhōngwén",
+                "translation": {
+                  "ru": "китайский язык",
+                  "en": "Chinese language",
+                  "es": "idioma chino",
+                  "pt-BR": "língua chinesa"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "阿拉伯文",
+                "hanzi": "阿拉伯文",
+                "pinyin": "Ālābówén",
+                "translation": {
+                  "ru": "арабский язык",
+                  "en": "Arabic language",
+                  "es": "idioma árabe",
+                  "pt-BR": "língua árabe"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "德文",
+                "hanzi": "德文",
+                "pinyin": "Déwén",
+                "translation": {
+                  "ru": "немецкий язык",
+                  "en": "German language",
+                  "es": "idioma alemán",
+                  "pt-BR": "língua alemã"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "法文",
+                "hanzi": "法文",
+                "pinyin": "Fǎwén",
+                "translation": {
+                  "ru": "французский язык",
+                  "en": "French language",
+                  "es": "idioma francés",
+                  "pt-BR": "língua francesa"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "韩文",
+                "hanzi": "韩文",
+                "pinyin": "Hánwén",
+                "translation": {
+                  "ru": "корейский язык",
+                  "en": "Korean language",
+                  "es": "idioma coreano",
+                  "pt-BR": "língua coreana"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "日文",
+                "hanzi": "日文",
+                "pinyin": "Rìwén",
+                "translation": {
+                  "ru": "японский язык",
+                  "en": "Japanese language",
+                  "es": "idioma japonés",
+                  "pt-BR": "língua japonesa"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "西班牙文",
+                "hanzi": "西班牙文",
+                "pinyin": "Xībānyáwén",
+                "translation": {
+                  "ru": "испанский язык",
+                  "en": "Spanish language",
+                  "es": "idioma español",
+                  "pt-BR": "língua espanhola"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "英文",
+                "hanzi": "英文",
+                "pinyin": "Yīngwén",
+                "translation": {
+                  "ru": "английский язык",
+                  "en": "English language",
+                  "es": "idioma inglés",
+                  "pt-BR": "língua inglesa"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "wen_suffix",
+                "hanzi": "……文",
+                "pinyin": "…wén",
+                "translation": {
+                  "ru": "язык / письменный язык",
+                  "en": "language / written language",
+                  "es": "idioma / lengua escrita",
+                  "pt-BR": "língua / língua escrita"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_06_ch03",
+      "number": 3,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_main",
+            "title": {
+              "ru": "Основные слова",
+              "en": "Core words",
+              "es": "Palabras principales",
+              "pt-BR": "Palavras principais"
+            },
+            "items": [
+              {
+                "id": "请问",
+                "hanzi": "请问",
+                "pinyin": "qǐngwèn",
+                "translation": {
+                  "ru": "позвольте спросить",
+                  "en": "May I ask",
+                  "es": "Permítame preguntar",
+                  "pt-BR": "Com licença, posso perguntar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "问",
+                "hanzi": "问",
+                "pinyin": "wèn",
+                "translation": {
+                  "ru": "спросить",
+                  "en": "to ask",
+                  "es": "preguntar",
+                  "pt-BR": "perguntar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "贵姓",
+                "hanzi": "贵姓",
+                "pinyin": "guìxìng",
+                "translation": {
+                  "ru": "ваша фамилия / как ваша фамилия",
+                  "en": "your surname / what's your surname",
+                  "es": "su apellido / ¿cuál es su apellido?",
+                  "pt-BR": "seu sobrenome / qual é o seu sobrenome?"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "姓",
+                "hanzi": "姓",
+                "pinyin": "xìng",
+                "translation": {
+                  "ru": "фамилия",
+                  "en": "surname / family name",
+                  "es": "apellido",
+                  "pt-BR": "sobrenome"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "叫",
+                "hanzi": "叫",
+                "pinyin": "jiào",
+                "translation": {
+                  "ru": "звать",
+                  "en": "to call / to be called",
+                  "es": "llamar / llamarse",
+                  "pt-BR": "chamar / chamar-se"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "名字",
+                "hanzi": "名字",
+                "pinyin": "míngzi",
+                "translation": {
+                  "ru": "имя",
+                  "en": "name",
+                  "es": "nombre",
+                  "pt-BR": "nome"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "哪",
+                "hanzi": "哪",
+                "pinyin": "nǎ",
+                "translation": {
+                  "ru": "который / какой",
+                  "en": "which / what kind of",
+                  "es": "cuál / qué tipo de",
+                  "pt-BR": "qual / que tipo de"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "学习",
+                "hanzi": "学习",
+                "pinyin": "xuéxí",
+                "translation": {
+                  "ru": "учиться / изучать",
+                  "en": "to study / to learn",
+                  "es": "estudiar / aprender",
+                  "pt-BR": "estudar / aprender"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "汉字",
+                "hanzi": "汉字",
+                "pinyin": "Hànzì",
+                "translation": {
+                  "ru": "китайский иероглиф",
+                  "en": "Chinese character",
+                  "es": "carácter chino",
+                  "pt-BR": "caractere chinês"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "发音",
+                "hanzi": "发音",
+                "pinyin": "fāyīn",
+                "translation": {
+                  "ru": "произношение",
+                  "en": "pronunciation",
+                  "es": "pronunciación",
+                  "pt-BR": "pronúncia"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "什么",
+                "hanzi": "什么",
+                "pinyin": "shénme",
+                "translation": {
+                  "ru": "что",
+                  "en": "what",
+                  "es": "qué",
+                  "pt-BR": "o quê"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "书",
+                "hanzi": "书",
+                "pinyin": "shū",
+                "translation": {
+                  "ru": "книга",
+                  "en": "book",
+                  "es": "libro",
+                  "pt-BR": "livro"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_06_ch04",
+      "number": 4,
+      "title": {
+        "ru": "Итог",
+        "en": "Wrap-up",
+        "es": "Resumen",
+        "pt-BR": "Encerramento"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_main_part2",
+            "title": {
+              "ru": "Основные слова",
+              "en": "Core words",
+              "es": "Palabras principales",
+              "pt-BR": "Palavras principais"
+            },
+            "items": [
+              {
+                "id": "shei",
+                "hanzi": "谁",
+                "pinyin": "shéi",
+                "translation": {
+                  "ru": "кто",
+                  "en": "who",
+                  "es": "quién",
+                  "pt-BR": "quem"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "的",
+                "hanzi": "的",
+                "pinyin": "de",
+                "translation": {
+                  "ru": "структурная частица принадлежности",
+                  "en": "possessive particle",
+                  "es": "partícula posesiva",
+                  "pt-BR": "partícula possessiva"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "那",
+                "hanzi": "那",
+                "pinyin": "nà",
+                "translation": {
+                  "ru": "тот",
+                  "en": "that",
+                  "es": "aquel / esa",
+                  "pt-BR": "aquele / aquela"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "杂志",
+                "hanzi": "杂志",
+                "pinyin": "zázhì",
+                "translation": {
+                  "ru": "журнал",
+                  "en": "magazine",
+                  "es": "revista",
+                  "pt-BR": "revista"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "朋友",
+                "hanzi": "朋友",
+                "pinyin": "péngyou",
+                "translation": {
+                  "ru": "друг",
+                  "en": "friend",
+                  "es": "amigo",
+                  "pt-BR": "amigo"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "萨沙",
+                "hanzi": "萨沙",
+                "pinyin": "Sàshā",
+                "translation": {
+                  "ru": "Саша",
+                  "en": "Sasha",
+                  "es": "Sasha",
+                  "pt-BR": "Sasha"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "张东",
+                "hanzi": "张东",
+                "pinyin": "Zhāng Dōng",
+                "translation": {
+                  "ru": "Чжан Дун",
+                  "en": "Zhang Dong",
+                  "es": "Zhang Dong",
+                  "pt-BR": "Zhang Dong"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabularySummary",
+          "groups": [
+            {
+              "id": "vocab_countries",
+              "title": {
+                "ru": "Страны",
+                "en": "Countries",
+                "es": "Países",
+                "pt-BR": "Países"
+              },
+              "items": []
+            },
+            {
+              "id": "vocab_languages",
+              "title": {
+                "ru": "Языки",
+                "en": "Languages",
+                "es": "Idiomas",
+                "pt-BR": "Idiomas"
+              },
+              "items": []
+            },
+            {
+              "id": "vocab_main",
+              "title": {
+                "ru": "Основные слова",
+                "en": "Core words",
+                "es": "Palabras principales",
+                "pt-BR": "Palavras principais"
+              },
+              "items": []
+            }
+          ]
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "Прочитай диалог ещё раз",
+          "dialogue": {
+            "id": "dialogue_intro",
+            "title": null,
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "请问，你贵姓？",
+                "pinyin": "Qǐngwèn, nǐ guìxìng?",
+                "translation": {
+                  "ru": "Скажите, пожалуйста, как ваша фамилия?",
+                  "en": "Excuse me, what is your surname?",
+                  "es": "Disculpe, ¿cuál es su apellido?",
+                  "pt-BR": "Com licença, qual é o seu sobrenome?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我姓张。",
+                "pinyin": "Wǒ xìng Zhāng.",
+                "translation": {
+                  "ru": "Моя фамилия Чжан.",
+                  "en": "My surname is Zhang.",
+                  "es": "Mi apellido es Zhang.",
+                  "pt-BR": "Meu sobrenome é Zhang."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "你叫什么名字？",
+                "pinyin": "Nǐ jiào shénme míngzi?",
+                "translation": {
+                  "ru": "Как тебя зовут?",
+                  "en": "What is your name?",
+                  "es": "¿Cómo te llamas?",
+                  "pt-BR": "Qual é o seu nome?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我叫张东。",
+                "pinyin": "Wǒ jiào Zhāng Dōng.",
+                "translation": {
+                  "ru": "Меня зовут Чжан Дун.",
+                  "en": "My name is Zhang Dong.",
+                  "es": "Me llamo Zhang Dong.",
+                  "pt-BR": "Me chamo Zhang Dong."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "你是哪国人？",
+                "pinyin": "Nǐ shì nǎ guó rén?",
+                "translation": {
+                  "ru": "Ты из какой страны?",
+                  "en": "What country are you from?",
+                  "es": "¿De qué país eres?",
+                  "pt-BR": "De que país você é?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我是中国人。你是哪国人？",
+                "pinyin": "Wǒ shì Zhōngguó rén. Nǐ shì nǎ guó rén?",
+                "translation": {
+                  "ru": "Я китаец. А ты из какой страны?",
+                  "en": "I'm Chinese. What country are you from?",
+                  "es": "Soy chino. ¿De qué país eres?",
+                  "pt-BR": "Sou chinês. De que país você é?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "我是俄国人。",
+                "pinyin": "Wǒ shì Éguó rén.",
+                "translation": {
+                  "ru": "Я русский.",
+                  "en": "I'm Russian.",
+                  "es": "Soy ruso.",
+                  "pt-BR": "Sou russo."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "你学习什么？",
+                "pinyin": "Nǐ xuéxí shénme?",
+                "translation": {
+                  "ru": "Что ты изучаешь?",
+                  "en": "What do you study?",
+                  "es": "¿Qué estudias?",
+                  "pt-BR": "O que você estuda?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "我学习汉语。",
+                "pinyin": "Wǒ xuéxí Hànyǔ.",
+                "translation": {
+                  "ru": "Я изучаю китайский язык.",
+                  "en": "I study Chinese.",
+                  "es": "Estudio chino.",
+                  "pt-BR": "Estudo chinês."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "汉语难吗？",
+                "pinyin": "Hànyǔ nán ma?",
+                "translation": {
+                  "ru": "Китайский язык трудный?",
+                  "en": "Is Chinese difficult?",
+                  "es": "¿Es difícil el chino?",
+                  "pt-BR": "O chinês é difícil?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "汉字很难，发音不太难。",
+                "pinyin": "Hànzì hěn nán, fāyīn bú tài nán.",
+                "translation": {
+                  "ru": "Иероглифы очень трудные, произношение не очень трудное.",
+                  "en": "Chinese characters are very difficult; pronunciation isn't too difficult.",
+                  "es": "Los caracteres chinos son muy difíciles; la pronunciación no es muy difícil.",
+                  "pt-BR": "Os caracteres chineses são muito difíceis; a pronúncia não é muito difícil."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "Дальше",
+          "dialogue": {
+            "id": "dialogue_books",
+            "title": null,
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "这是什么？",
+                "pinyin": "Zhè shì shénme?",
+                "translation": {
+                  "ru": "Что это?",
+                  "en": "What is this?",
+                  "es": "¿Qué es esto?",
+                  "pt-BR": "O que é isso?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "这是书。",
+                "pinyin": "Zhè shì shū.",
+                "translation": {
+                  "ru": "Это книга.",
+                  "en": "This is a book.",
+                  "es": "Es un libro.",
+                  "pt-BR": "É um livro."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "这是什么书？",
+                "pinyin": "Zhè shì shénme shū?",
+                "translation": {
+                  "ru": "Что это за книга?",
+                  "en": "What book is this?",
+                  "es": "¿Qué libro es este?",
+                  "pt-BR": "Que livro é este?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "这是中文书。",
+                "pinyin": "Zhè shì Zhōngwén shū.",
+                "translation": {
+                  "ru": "Это книга на китайском.",
+                  "en": "This is a Chinese book.",
+                  "es": "Es un libro en chino.",
+                  "pt-BR": "É um livro em chinês."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "这是谁的书？",
+                "pinyin": "Zhè shì shéi de shū?",
+                "translation": {
+                  "ru": "Чья это книга?",
+                  "en": "Whose book is this?",
+                  "es": "¿De quién es este libro?",
+                  "pt-BR": "De quem é este livro?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "这是老师的书。",
+                "pinyin": "Zhè shì lǎoshī de shū.",
+                "translation": {
+                  "ru": "Это книга учителя.",
+                  "en": "This is the teacher's book.",
+                  "es": "Es el libro del profesor.",
+                  "pt-BR": "É o livro do professor."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "那是什么？",
+                "pinyin": "Nà shì shénme?",
+                "translation": {
+                  "ru": "Что там?",
+                  "en": "What is that?",
+                  "es": "¿Qué es eso?",
+                  "pt-BR": "O que é aquilo?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "那是杂志。",
+                "pinyin": "Nà shì zázhì.",
+                "translation": {
+                  "ru": "Там журнал.",
+                  "en": "That is a magazine.",
+                  "es": "Eso es una revista.",
+                  "pt-BR": "Aquilo é uma revista."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "那是什么杂志？",
+                "pinyin": "Nà shì shénme zázhì?",
+                "translation": {
+                  "ru": "Что это за журнал?",
+                  "en": "What magazine is that?",
+                  "es": "¿Qué revista es esa?",
+                  "pt-BR": "Que revista é aquela?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "那是俄文杂志。",
+                "pinyin": "Nà shì Éwén zázhì.",
+                "translation": {
+                  "ru": "Это журнал на русском.",
+                  "en": "That is a Russian magazine.",
+                  "es": "Es una revista en ruso.",
+                  "pt-BR": "É uma revista em russo."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "那是谁的杂志？",
+                "pinyin": "Nà shì shéi de zázhì?",
+                "translation": {
+                  "ru": "Чей это журнал?",
+                  "en": "Whose magazine is that?",
+                  "es": "¿De quién es esa revista?",
+                  "pt-BR": "De quem é aquela revista?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "那是我朋友的杂志。",
+                "pinyin": "Nà shì wǒ péngyou de zázhì.",
+                "translation": {
+                  "ru": "Это журнал моего друга.",
+                  "en": "That is my friend's magazine.",
+                  "es": "Es la revista de mi amigo.",
+                  "pt-BR": "É a revista do meu amigo."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "quizChineseToTranslation"
+        },
+        {
+          "kind": "quizTranslationToChinese"
+        },
+        {
+          "kind": "examples",
+          "items": [
+            {
+              "id": "ex_请问_你贵姓",
+              "hanzi": "请问，你贵姓？",
+              "pinyin": "Qǐngwèn, nǐ guìxìng?",
+              "translation": {
+                "ru": "Скажите, пожалуйста, как ваша фамилия?",
+                "en": "Excuse me, what is your surname?",
+                "es": "Disculpe, ¿cuál es su apellido?",
+                "pt-BR": "Com licença, qual é o seu sobrenome?"
+              }
+            },
+            {
+              "id": "ex_我姓张",
+              "hanzi": "我姓张。",
+              "pinyin": "Wǒ xìng Zhāng.",
+              "translation": {
+                "ru": "Моя фамилия Чжан.",
+                "en": "My surname is Zhang.",
+                "es": "Mi apellido es Zhang.",
+                "pt-BR": "Meu sobrenome é Zhang."
+              }
+            },
+            {
+              "id": "ex_你叫什么名字",
+              "hanzi": "你叫什么名字？",
+              "pinyin": "Nǐ jiào shénme míngzi?",
+              "translation": {
+                "ru": "Как тебя зовут?",
+                "en": "What is your name?",
+                "es": "¿Cómo te llamas?",
+                "pt-BR": "Qual é o seu nome?"
+              }
+            },
+            {
+              "id": "ex_我叫张东",
+              "hanzi": "我叫张东。",
+              "pinyin": "Wǒ jiào Zhāng Dōng.",
+              "translation": {
+                "ru": "Меня зовут Чжан Дун.",
+                "en": "My name is Zhang Dong.",
+                "es": "Me llamo Zhang Dong.",
+                "pt-BR": "Me chamo Zhang Dong."
+              }
+            },
+            {
+              "id": "ex_你是哪国人",
+              "hanzi": "你是哪国人？",
+              "pinyin": "Nǐ shì nǎ guó rén?",
+              "translation": {
+                "ru": "Ты из какой страны?",
+                "en": "What country are you from?",
+                "es": "¿De qué país eres?",
+                "pt-BR": "De que país você é?"
+              }
+            },
+            {
+              "id": "ex_我是中国人",
+              "hanzi": "我是中国人。",
+              "pinyin": "Wǒ shì Zhōngguó rén.",
+              "translation": {
+                "ru": "Я китаец.",
+                "en": "I'm Chinese.",
+                "es": "Soy chino.",
+                "pt-BR": "Sou chinês."
+              }
+            },
+            {
+              "id": "ex_你学习什么",
+              "hanzi": "你学习什么？",
+              "pinyin": "Nǐ xuéxí shénme?",
+              "translation": {
+                "ru": "Что ты изучаешь?",
+                "en": "What do you study?",
+                "es": "¿Qué estudias?",
+                "pt-BR": "O que você estuda?"
+              }
+            },
+            {
+              "id": "ex_我学习汉语",
+              "hanzi": "我学习汉语。",
+              "pinyin": "Wǒ xuéxí Hànyǔ.",
+              "translation": {
+                "ru": "Я изучаю китайский язык.",
+                "en": "I study Chinese.",
+                "es": "Estudio chino.",
+                "pt-BR": "Estudo chinês."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
     }
   ]
 }

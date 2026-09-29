@@ -49,11 +49,14 @@ enum PathStrings {
     static var backToDialogue: String { L10n.string("path.back_to_dialogue") }
     static var readDialogueAgain: String { L10n.string("path.read_dialogue_again") }
     static var wordsInDialogue: String { L10n.string("path.words_in_dialogue") }
+    static var dialogueTapToListenHint: String { L10n.string("path.dialogue.tap_to_listen") }
     static var otherLessonWordsNote: String { L10n.string("path.other_lesson_words_note") }
     static var whatDoesWordMean: String { L10n.string("path.what_does_word_mean") }
     static var lessonComplete: String { L10n.string("path.lesson_complete") }
     static var nextLesson: String { L10n.string("path.next_lesson") }
     static var retryLesson: String { L10n.string("path.retry_lesson") }
+    static var retryLessonConfirmTitle: String { L10n.string("path.retry_lesson.confirm_title") }
+    static var retryLessonConfirmMessage: String { L10n.string("path.retry_lesson.confirm_message") }
 
     static var statusStart: String { L10n.string("path.status.start") }
     static var statusInProgress: String { L10n.string("path.status.in_progress") }
@@ -100,5 +103,52 @@ enum PathStrings {
         L10n.string("path.course_lessons_label \(total) \(available)")
     }
 
+    static func completedLessonsLabel(_ completed: Int, _ total: Int) -> String {
+        L10n.string("path.completed_lessons_label \(completed) \(total)")
+    }
+
+    static func chaptersCountLabel(_ count: Int) -> String {
+        L10n.string("path.chapters_count_label \(count)")
+    }
+
+    static func estimatedMinutesLabel(_ minutes: Int) -> String {
+        L10n.string("path.estimated_minutes_label \(minutes)")
+    }
+
+    static func chapterWordsLearned(_ count: Int) -> String {
+        L10n.string("path.chapter.words_learned \(count)")
+    }
+
+    static func mistakesFixedLabel(_ count: Int) -> String {
+        L10n.string("path.chapter.mistakes_fixed \(count)")
+    }
+
+    static var backToChapterMap: String { L10n.string("path.back_to_chapter_map") }
+    static func streakDaysLabel(_ days: Int) -> String {
+        L10n.string("path.streak_days_label \(days)")
+    }
+
     static var courseInDevelopment: String { L10n.string("path.course_in_development") }
+
+    static var continueChapter: String { L10n.string("path.continue_chapter") }
+    static var chapterLocked: String { L10n.string("path.chapter.locked") }
+    static var chapterAvailable: String { L10n.string("path.chapter.available") }
+    static var chapterInProgress: String { L10n.string("path.chapter.in_progress") }
+    static var chapterCompleted: String { L10n.string("path.chapter.completed") }
+    static var chapterCompleteTitle: String { L10n.string("path.chapter.complete_title") }
+    static var mistakeReviewTitle: String { L10n.string("path.mistake_review.title") }
+    static func mistakesRemaining(_ count: Int) -> String {
+        L10n.string("path.mistake_review.remaining \(count)")
+    }
+    static var checkAnswer: String { L10n.string("path.check_answer") }
+    static var correctAnswer: String { L10n.string("path.correct_answer") }
+    static var feedbackCorrectAnswerTitle: String { L10n.string("path.feedback.correct_answer_title") }
+    static var sentenceBuilderTitle: String { L10n.string("path.sentence_builder.title") }
+    static var fillBlankTitle: String { L10n.string("path.fill_blank.title") }
+    static var dialogueOrderTitle: String { L10n.string("path.dialogue_order.title") }
+    static var grammarTitle: String { L10n.string("path.grammar.title") }
+    static var grammarExamplesTitle: String { L10n.string("path.grammar.examples_title") }
+    static var grammarExamplesHint: String { L10n.string("path.grammar.examples_hint") }
+    static var toneGuideTitle: String { L10n.string("path.tone_guide.title") }
+    static var backToChapters: String { L10n.string("path.back_to_chapters") }
 }

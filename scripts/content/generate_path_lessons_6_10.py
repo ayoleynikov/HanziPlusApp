@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 from typing import Any
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2] / "HanziPlus"  # app source folder
 OUTPUT_DIR = ROOT / "Resources" / "PathCourse"
 COURSE_JSON = OUTPUT_DIR / "course.json"
 

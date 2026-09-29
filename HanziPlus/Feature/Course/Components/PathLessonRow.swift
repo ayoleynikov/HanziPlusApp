@@ -10,8 +10,16 @@ struct PathLessonRow: View {
     let lesson: PathLessonSummary
     let status: PathLessonStatus
     let isUnlocked: Bool
+    let chapterProgress: Double
 
     private var isComingSoon: Bool { !lesson.isAvailable }
+
+    private var lessonMeta: (chapters: Int, minutes: Int)? {
+        guard let contentFile = lesson.contentFile,
+              let loaded = PathCourseLoader.loadLesson(fileName: contentFile) else { return nil }
+        let minutes = loaded.chapters.reduce(0) { $0 + $1.estimatedMinutes }
+        return (loaded.chapters.count, minutes)
+    }
 
     private var statusLabel: String {
         switch status {
@@ -35,12 +43,9 @@ struct PathLessonRow: View {
 
     var body: some View {
         HStack(alignment: .top, spacing: 14) {
-            Text(PathStrings.lessonNumber(lesson.number))
-                .font(.title3.weight(.bold))
-                .foregroundStyle(isUnlocked ? .primary : .secondary)
-                .frame(width: 36, alignment: .leading)
+            lessonNumberBadge
 
-            VStack(alignment: .leading, spacing: 6) {
+            VStack(alignment: .leading, spacing: 8) {
                 Text(lesson.chineseTitle)
                     .font(.headline.weight(.semibold))
                     .foregroundStyle(isUnlocked ? .primary : .secondary)
@@ -49,12 +54,21 @@ struct PathLessonRow: View {
                     Text(translation)
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
+                        .lineLimit(2)
                 }
 
-                if lesson.vocabularyCount > 0 {
-                    Text(PathStrings.wordCountLabel(lesson.vocabularyCount))
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+                if let meta = lessonMeta {
+                    HStack(spacing: 10) {
+                        Label(PathStrings.chaptersCountLabel(meta.chapters), systemImage: "map")
+                        Label(PathStrings.estimatedMinutesLabel(meta.minutes), systemImage: "clock")
+                    }
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                }
+
+                if isUnlocked, chapterProgress > 0, status != .completed {
+                    ProgressView(value: chapterProgress)
+                        .tint(PathCourseAccent.primary)
                 }
 
                 Text(isUnlocked ? statusLabel : lockLabel)
@@ -66,6 +80,7 @@ struct PathLessonRow: View {
                         Capsule(style: .continuous)
                             .fill(statusTint.opacity(isUnlocked ? 0.12 : 0.08))
                     }
+                    .accessibilityLabel(isUnlocked ? statusLabel : lockLabel)
             }
 
             Spacer(minLength: 0)
@@ -86,9 +101,28 @@ struct PathLessonRow: View {
         .background {
             RoundedRectangle(cornerRadius: AppRadius.medium, style: .continuous)
                 .fill(Color(.secondarySystemGroupedBackground))
+                .overlay {
+                    if isUnlocked && status == .inProgress {
+                        RoundedRectangle(cornerRadius: AppRadius.medium, style: .continuous)
+                            .strokeBorder(PathCourseAccent.primary.opacity(0.35), lineWidth: 1.5)
+                    }
+                }
         }
-        .opacity(isUnlocked ? 1 : 0.72)
+        .opacity(isUnlocked ? 1 : 0.82)
+        .accessibilityElement(children: .combine)
         .accessibilityIdentifier("path_lesson_\(lesson.id)")
+        .accessibilityAddTraits(isUnlocked ? .isButton : [])
+    }
+
+    private var lessonNumberBadge: some View {
+        Text(PathStrings.lessonNumber(lesson.number))
+            .font(.caption.weight(.bold))
+            .foregroundStyle(isUnlocked ? PathCourseAccent.primary : .secondary)
+            .frame(width: 40, height: 40)
+            .background {
+                Circle()
+                    .fill(PathCourseAccent.primary.opacity(isUnlocked ? 0.14 : 0.08))
+            }
     }
 }
 
@@ -107,7 +141,8 @@ struct PathLessonRow: View {
                 isAvailable: true
             ),
             status: .inProgress,
-            isUnlocked: true
+            isUnlocked: true,
+            chapterProgress: 0.5
         )
     }
     .padding()

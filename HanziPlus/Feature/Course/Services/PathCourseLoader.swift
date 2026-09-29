@@ -40,7 +40,7 @@ enum PathCourseLoader {
             chineseSubtitle: nil,
             pinyinTitle: nil,
             translationTitle: nil,
-            sections: []
+            chapters: []
         )
     }
 

@@ -1,0 +1,3830 @@
+[
+  {
+    "hanzi": "……文",
+    "pinyin": "…wén",
+    "english": "language / written language",
+    "translations": {
+      "en": "language / written language",
+      "ru": "язык / письменный язык",
+      "es": "idioma / lengua escrita",
+      "pt-BR": "língua / língua escrita"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "一下儿",
+    "pinyin": "yíxiàr",
+    "english": "a bit; once",
+    "translations": {
+      "en": "a bit; once",
+      "ru": "немного; один раз",
+      "es": "un poco; una vez",
+      "pt-BR": "um pouco; uma vez"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "一些",
+    "pinyin": "yìxiē",
+    "english": "a little / several",
+    "translations": {
+      "en": "a little / several",
+      "ru": "немного / несколько",
+      "es": "un poco / varios",
+      "pt-BR": "um pouco / vários"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "一会儿",
+    "pinyin": "yíhuìr",
+    "english": "a moment / just a minute",
+    "translations": {
+      "en": "a moment / just a minute",
+      "ru": "немного времени / минутку",
+      "es": "un momento",
+      "pt-BR": "um momento"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "一共",
+    "pinyin": "yígòng",
+    "english": "total / altogether",
+    "translations": {
+      "en": "total / altogether",
+      "ru": "всего",
+      "es": "en total",
+      "pt-BR": "no total"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "七",
+    "pinyin": "qī",
+    "english": "seven",
+    "translations": {
+      "en": "seven",
+      "ru": "семь",
+      "es": "siete",
+      "pt-BR": "sete"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "万",
+    "pinyin": "wàn",
+    "english": "ten thousand",
+    "translations": {
+      "en": "ten thousand",
+      "ru": "десять тысяч",
+      "es": "diez mil",
+      "pt-BR": "dez mil"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "三",
+    "pinyin": "sān",
+    "english": "three",
+    "translations": {
+      "en": "three",
+      "ru": "три",
+      "es": "tres",
+      "pt-BR": "três"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "上午",
+    "pinyin": "shàngwǔ",
+    "english": "morning",
+    "translations": {
+      "en": "morning",
+      "ru": "первая половина дня",
+      "es": "mañana",
+      "pt-BR": "manhã"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "下午",
+    "pinyin": "xiàwǔ",
+    "english": "afternoon",
+    "translations": {
+      "en": "afternoon",
+      "ru": "вторая половина дня",
+      "es": "tarde",
+      "pt-BR": "tarde"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "不",
+    "pinyin": "bù",
+    "english": "not",
+    "translations": {
+      "en": "not",
+      "ru": "не",
+      "es": "no",
+      "pt-BR": "não"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "不客气",
+    "pinyin": "bú kèqi",
+    "english": "please / you're welcome",
+    "translations": {
+      "en": "please / you're welcome",
+      "ru": "пожалуйста / не стоит благодарности",
+      "es": "por favor / de nada",
+      "pt-BR": "por favor / de nada"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "两",
+    "pinyin": "liǎng",
+    "english": "two",
+    "translations": {
+      "en": "two",
+      "ru": "два",
+      "es": "dos",
+      "pt-BR": "dois"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "个",
+    "pinyin": "ge",
+    "english": "universal measure word",
+    "translations": {
+      "en": "universal measure word",
+      "ru": "универсальное счётное слово",
+      "es": "clasificador universal",
+      "pt-BR": "classificador universal"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "中午",
+    "pinyin": "zhōngwǔ",
+    "english": "noon",
+    "translations": {
+      "en": "noon",
+      "ru": "полдень",
+      "es": "mediodía",
+      "pt-BR": "meio-dia"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "中国",
+    "pinyin": "Zhōngguó",
+    "english": "China",
+    "translations": {
+      "en": "China",
+      "ru": "Китай",
+      "es": "China",
+      "pt-BR": "China"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "中文",
+    "pinyin": "Zhōngwén",
+    "english": "Chinese language",
+    "translations": {
+      "en": "Chinese language",
+      "ru": "китайский язык",
+      "es": "idioma chino",
+      "pt-BR": "língua chinesa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "中药",
+    "pinyin": "zhōngyào",
+    "english": "traditional Chinese medicine",
+    "translations": {
+      "en": "traditional Chinese medicine",
+      "ru": "китайское лекарство",
+      "es": "medicina tradicional china",
+      "pt-BR": "medicina tradicional chinesa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "九",
+    "pinyin": "jiǔ",
+    "english": "nine",
+    "translations": {
+      "en": "nine",
+      "ru": "девять",
+      "es": "nueve",
+      "pt-BR": "nove"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "也",
+    "pinyin": "yě",
+    "english": "also; too",
+    "translations": {
+      "en": "also; too",
+      "ru": "тоже; также",
+      "es": "también",
+      "pt-BR": "também"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "书",
+    "pinyin": "shū",
+    "english": "book",
+    "translations": {
+      "en": "book",
+      "ru": "книга",
+      "es": "libro",
+      "pt-BR": "livro"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "english": "to buy",
+    "translations": {
+      "en": "to buy",
+      "ru": "купить / покупать",
+      "es": "comprar",
+      "pt-BR": "comprar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "了",
+    "pinyin": "le",
+    "english": "particle",
+    "translations": {
+      "en": "particle",
+      "ru": "частица",
+      "es": "partícula",
+      "pt-BR": "partícula"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "二",
+    "pinyin": "èr",
+    "english": "two",
+    "translations": {
+      "en": "two",
+      "ru": "два",
+      "es": "dos",
+      "pt-BR": "dois"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "些",
+    "pinyin": "xiē",
+    "english": "several / a few",
+    "translations": {
+      "en": "several / a few",
+      "ru": "несколько",
+      "es": "varios / unos",
+      "pt-BR": "vários / alguns"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "人",
+    "pinyin": "rén",
+    "english": "person / people",
+    "translations": {
+      "en": "person / people",
+      "ru": "человек",
+      "es": "persona / gente",
+      "pt-BR": "pessoa / pessoas"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "人民",
+    "pinyin": "rénmín",
+    "english": "people / nation",
+    "translations": {
+      "en": "people / nation",
+      "ru": "народ",
+      "es": "pueblo / nación",
+      "pt-BR": "povo / nação"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "人民币",
+    "pinyin": "rénmínbì",
+    "english": "yuan / renminbi",
+    "translations": {
+      "en": "yuan / renminbi",
+      "ru": "юань / жэньминьби",
+      "es": "yuan / renminbi",
+      "pt-BR": "yuan / renminbi"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "什么",
+    "pinyin": "shénme",
+    "english": "what",
+    "translations": {
+      "en": "what",
+      "ru": "что",
+      "es": "qué",
+      "pt-BR": "o quê"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "english": "today",
+    "translations": {
+      "en": "today",
+      "ru": "сегодня",
+      "es": "hoy",
+      "pt-BR": "hoje"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "介绍",
+    "pinyin": "jièshao",
+    "english": "to introduce; to recommend",
+    "translations": {
+      "en": "to introduce; to recommend",
+      "ru": "познакомить; представить; рекомендовать",
+      "es": "presentar; recomendar",
+      "pt-BR": "apresentar; recomendar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "他",
+    "pinyin": "tā",
+    "english": "he",
+    "translations": {
+      "en": "he",
+      "ru": "он",
+      "es": "él",
+      "pt-BR": "ele"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "他们",
+    "pinyin": "tāmen",
+    "english": "they; them",
+    "translations": {
+      "en": "they; them",
+      "ru": "они",
+      "es": "ellos; ellas",
+      "pt-BR": "eles; elas"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "件",
+    "pinyin": "jiàn",
+    "english": "classifier for clothing",
+    "translations": {
+      "en": "classifier for clothing",
+      "ru": "счётное слово для одежды",
+      "es": "clasificador de ropa",
+      "pt-BR": "classificador de roupa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "但是",
+    "pinyin": "dànshì",
+    "english": "but",
+    "translations": {
+      "en": "but",
+      "ru": "но",
+      "es": "pero",
+      "pt-BR": "mas"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "位",
+    "pinyin": "wèi",
+    "english": "classifier for people (polite)",
+    "translations": {
+      "en": "classifier for people (polite)",
+      "ru": "счётное слово для уважаемых людей",
+      "es": "clasificador de personas (cortés)",
+      "pt-BR": "classificador de pessoas (cortês)"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "住",
+    "pinyin": "zhù",
+    "english": "to live",
+    "translations": {
+      "en": "to live",
+      "ru": "жить",
+      "es": "vivir",
+      "pt-BR": "viver"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "english": "you",
+    "translations": {
+      "en": "you",
+      "ru": "ты",
+      "es": "tú",
+      "pt-BR": "você"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "你们",
+    "pinyin": "nǐmen",
+    "english": "you (plural)",
+    "translations": {
+      "en": "you (plural)",
+      "ru": "вы",
+      "es": "ustedes; vosotros",
+      "pt-BR": "vocês"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "english": "hello",
+    "translations": {
+      "en": "hello",
+      "ru": "привет; здравствуй",
+      "es": "hola",
+      "pt-BR": "olá"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "你好吗？",
+    "pinyin": "Nǐ hǎo ma?",
+    "english": "How are you?",
+    "translations": {
+      "en": "How are you?",
+      "ru": "Как ты?",
+      "es": "¿Cómo estás?",
+      "pt-BR": "Como você está?"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "俄国",
+    "pinyin": "Éguó",
+    "english": "Russia",
+    "translations": {
+      "en": "Russia",
+      "ru": "Россия",
+      "es": "Rusia",
+      "pt-BR": "Rússia"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "俄文",
+    "pinyin": "Éwén",
+    "english": "Russian language / Russian text",
+    "translations": {
+      "en": "Russian language / Russian text",
+      "ru": "русский язык / русский текст",
+      "es": "idioma ruso / texto ruso",
+      "pt-BR": "língua russa / texto russo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "俄语",
+    "pinyin": "Éyǔ",
+    "english": "Russian language",
+    "translations": {
+      "en": "Russian language",
+      "ru": "русский язык",
+      "es": "idioma ruso",
+      "pt-BR": "língua russa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "信",
+    "pinyin": "xìn",
+    "english": "letter",
+    "translations": {
+      "en": "letter",
+      "ru": "письмо",
+      "es": "carta",
+      "pt-BR": "carta"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "俩",
+    "pinyin": "liǎ",
+    "english": "two; both (colloquial)",
+    "translations": {
+      "en": "two; both (colloquial)",
+      "ru": "оба; двое",
+      "es": "dos; ambos (coloquial)",
+      "pt-BR": "dois; ambos (coloquial)"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "做",
+    "pinyin": "zuò",
+    "english": "to do; to make",
+    "translations": {
+      "en": "to do; to make",
+      "ru": "делать",
+      "es": "hacer",
+      "pt-BR": "fazer"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "先",
+    "pinyin": "xiān",
+    "english": "first; beforehand",
+    "translations": {
+      "en": "first; beforehand",
+      "ru": "прежде всего",
+      "es": "primero; antes",
+      "pt-BR": "primeiro; antes"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "先生",
+    "pinyin": "xiānsheng",
+    "english": "Mr. / sir",
+    "translations": {
+      "en": "Mr. / sir",
+      "ru": "господин",
+      "es": "señor",
+      "pt-BR": "senhor"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "光盘",
+    "pinyin": "guāngpán",
+    "english": "CD; disc",
+    "translations": {
+      "en": "CD; disc",
+      "ru": "диск",
+      "es": "disco",
+      "pt-BR": "disco"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "全",
+    "pinyin": "quán",
+    "english": "whole; entire; full",
+    "translations": {
+      "en": "whole; entire; full",
+      "ru": "весь; полный; целый",
+      "es": "todo; entero; completo",
+      "pt-BR": "todo; inteiro; completo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "公司",
+    "pinyin": "gōngsī",
+    "english": "company",
+    "translations": {
+      "en": "company",
+      "ru": "компания",
+      "es": "empresa",
+      "pt-BR": "empresa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "公斤",
+    "pinyin": "gōngjīn",
+    "english": "kilogram",
+    "translations": {
+      "en": "kilogram",
+      "ru": "килограмм",
+      "es": "kilogramo",
+      "pt-BR": "quilograma"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "六",
+    "pinyin": "liù",
+    "english": "six",
+    "translations": {
+      "en": "six",
+      "ru": "шесть",
+      "es": "seis",
+      "pt-BR": "seis"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "关",
+    "pinyin": "Guān",
+    "english": "Guan (surname)",
+    "translations": {
+      "en": "Guan (surname)",
+      "ru": "Гуань",
+      "es": "Guan (apellido)",
+      "pt-BR": "Guan (sobrenome)"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "再见",
+    "pinyin": "zàijiàn",
+    "english": "goodbye",
+    "translations": {
+      "en": "goodbye",
+      "ru": "до свидания",
+      "es": "adiós",
+      "pt-BR": "adeus"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "english": "to write",
+    "translations": {
+      "en": "to write",
+      "ru": "писать",
+      "es": "escribir",
+      "pt-BR": "escrever"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "几",
+    "pinyin": "jǐ",
+    "english": "how much / which / what / several",
+    "translations": {
+      "en": "how much / which / what / several",
+      "ru": "сколько / который / какой / несколько",
+      "es": "cuánto / cuál / qué / varios",
+      "pt-BR": "quanto / qual / que / vários"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "出租车",
+    "pinyin": "chūzūchē",
+    "english": "taxi",
+    "translations": {
+      "en": "taxi",
+      "ru": "такси",
+      "es": "taxi",
+      "pt-BR": "táxi"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "分",
+    "pinyin": "fēn",
+    "english": "0.01 yuan",
+    "translations": {
+      "en": "0.01 yuan",
+      "ru": "0,01 юаня",
+      "es": "0,01 yuan",
+      "pt-BR": "0,01 yuan"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "刚",
+    "pinyin": "gāng",
+    "english": "just; just now",
+    "translations": {
+      "en": "just; just now",
+      "ru": "только что",
+      "es": "acabar de",
+      "pt-BR": "acabar de"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "别的",
+    "pinyin": "biéde",
+    "english": "other / another",
+    "translations": {
+      "en": "other / another",
+      "ru": "другой",
+      "es": "otro",
+      "pt-BR": "outro"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "办公",
+    "pinyin": "bàngōng",
+    "english": "to work / to be busy",
+    "translations": {
+      "en": "to work / to be busy",
+      "ru": "работать / заниматься делами",
+      "es": "trabajar / ocuparse",
+      "pt-BR": "trabalhar / ocupar-se"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "办公室",
+    "pinyin": "bàngōngshì",
+    "english": "office / room",
+    "translations": {
+      "en": "office / room",
+      "ru": "кабинет",
+      "es": "oficina / despacho",
+      "pt-BR": "escritório / sala"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "包子",
+    "pinyin": "bāozi",
+    "english": "baozi / steamed bun",
+    "translations": {
+      "en": "baozi / steamed bun",
+      "ru": "баоцзы / пирожок",
+      "es": "baozi / bollo al vapor",
+      "pt-BR": "baozi / pão cozido no vapor"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "北京",
+    "pinyin": "Běijīng",
+    "english": "Beijing, capital of China",
+    "translations": {
+      "en": "Beijing, capital of China",
+      "ru": "Пекин, столица Китая",
+      "es": "Pekín, capital de China",
+      "pt-BR": "Pequim, capital da China"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "北京语言大学",
+    "pinyin": "Běijīng Yǔyán Dàxué",
+    "english": "Beijing Language and Culture University",
+    "translations": {
+      "en": "Beijing Language and Culture University",
+      "ru": "Пекинский университет языка и культуры",
+      "es": "Universidad de Lenguas y Cultura de Pekín",
+      "pt-BR": "Universidade de Línguas e Cultura de Pequim"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "医院",
+    "pinyin": "yīyuàn",
+    "english": "hospital",
+    "translations": {
+      "en": "hospital",
+      "ru": "больница",
+      "es": "hospital",
+      "pt-BR": "hospital"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "十",
+    "pinyin": "shí",
+    "english": "ten",
+    "translations": {
+      "en": "ten",
+      "ru": "десять",
+      "es": "diez",
+      "pt-BR": "dez"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "千",
+    "pinyin": "qiān",
+    "english": "thousand",
+    "translations": {
+      "en": "thousand",
+      "ru": "тысяча",
+      "es": "mil",
+      "pt-BR": "mil"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "卖",
+    "pinyin": "mài",
+    "english": "to sell",
+    "translations": {
+      "en": "to sell",
+      "ru": "продавать",
+      "es": "vender",
+      "pt-BR": "vender"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "去",
+    "pinyin": "qù",
+    "english": "to go / to travel (by vehicle)",
+    "translations": {
+      "en": "to go / to travel (by vehicle)",
+      "ru": "идти / ехать",
+      "es": "ir / viajar (en vehículo)",
+      "pt-BR": "ir / viajar (de veículo)"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "发音",
+    "pinyin": "fāyīn",
+    "english": "pronunciation",
+    "translations": {
+      "en": "pronunciation",
+      "ru": "произношение",
+      "es": "pronunciación",
+      "pt-BR": "pronúncia"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "取",
+    "pinyin": "qǔ",
+    "english": "to take / to receive",
+    "translations": {
+      "en": "to take / to receive",
+      "ru": "брать / получать",
+      "es": "tomar / recibir",
+      "pt-BR": "pegar / receber"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "口",
+    "pinyin": "kǒu",
+    "english": "mouth",
+    "translations": {
+      "en": "mouth",
+      "ru": "рот",
+      "es": "boca",
+      "pt-BR": "boca"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "只",
+    "pinyin": "zhǐ",
+    "english": "only",
+    "translations": {
+      "en": "only",
+      "ru": "только",
+      "es": "solo; solamente",
+      "pt-BR": "só; apenas"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "叫",
+    "pinyin": "jiào",
+    "english": "to call / to be called",
+    "translations": {
+      "en": "to call / to be called",
+      "ru": "звать",
+      "es": "llamar / llamarse",
+      "pt-BR": "chamar / chamar-se"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "号",
+    "pinyin": "hào",
+    "english": "number",
+    "translations": {
+      "en": "number",
+      "ru": "номер",
+      "es": "número",
+      "pt-BR": "número"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "号码",
+    "pinyin": "hàomǎ",
+    "english": "number",
+    "translations": {
+      "en": "number",
+      "ru": "номер",
+      "es": "número",
+      "pt-BR": "número"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "english": "to eat",
+    "translations": {
+      "en": "to eat",
+      "ru": "есть / кушать",
+      "es": "comer",
+      "pt-BR": "comer"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "同学",
+    "pinyin": "tóngxué",
+    "english": "classmate",
+    "translations": {
+      "en": "classmate",
+      "ru": "однокурсник",
+      "es": "compañero de clase",
+      "pt-BR": "colega de classe"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "同屋",
+    "pinyin": "tóngwū",
+    "english": "roommate",
+    "translations": {
+      "en": "roommate",
+      "ru": "сосед по комнате",
+      "es": "compañero de cuarto",
+      "pt-BR": "colega de quarto"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "名字",
+    "pinyin": "míngzi",
+    "english": "name",
+    "translations": {
+      "en": "name",
+      "ru": "имя",
+      "es": "nombre",
+      "pt-BR": "nome"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "吗",
+    "pinyin": "ma",
+    "english": "question particle",
+    "translations": {
+      "en": "question particle",
+      "ru": "вопросительная частица",
+      "es": "partícula interrogativa",
+      "pt-BR": "partícula interrogativa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "吧",
+    "pinyin": "ba",
+    "english": "modal particle",
+    "translations": {
+      "en": "modal particle",
+      "ru": "модальная частица",
+      "es": "partícula modal",
+      "pt-BR": "partícula modal"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "听",
+    "pinyin": "tīng",
+    "english": "to listen",
+    "translations": {
+      "en": "to listen",
+      "ru": "слушать",
+      "es": "escuchar",
+      "pt-BR": "ouvir"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "呢",
+    "pinyin": "ne",
+    "english": "modal particle",
+    "translations": {
+      "en": "modal particle",
+      "ru": "модальная частица",
+      "es": "partícula modal",
+      "pt-BR": "partícula modal"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "和",
+    "pinyin": "hé",
+    "english": "and",
+    "translations": {
+      "en": "and",
+      "ru": "и",
+      "es": "y",
+      "pt-BR": "e"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "咖啡",
+    "pinyin": "kāfēi",
+    "english": "coffee",
+    "translations": {
+      "en": "coffee",
+      "ru": "кофе",
+      "es": "café",
+      "pt-BR": "café"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "哥哥",
+    "pinyin": "gēge",
+    "english": "older brother",
+    "translations": {
+      "en": "older brother",
+      "ru": "старший брат",
+      "es": "hermano mayor",
+      "pt-BR": "irmão mais velho"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "哪",
+    "pinyin": "nǎ",
+    "english": "which / what kind of",
+    "translations": {
+      "en": "which / what kind of",
+      "ru": "который / какой",
+      "es": "cuál / qué tipo de",
+      "pt-BR": "qual / que tipo de"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "哪儿",
+    "pinyin": "nǎr",
+    "english": "where",
+    "translations": {
+      "en": "where",
+      "ru": "где",
+      "es": "dónde",
+      "pt-BR": "onde"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "商店",
+    "pinyin": "shāngdiàn",
+    "english": "shop; store",
+    "translations": {
+      "en": "shop; store",
+      "ru": "магазин",
+      "es": "tienda",
+      "pt-BR": "loja"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "啊",
+    "pinyin": "a",
+    "english": "modal particle",
+    "translations": {
+      "en": "modal particle",
+      "ru": "модальная частица",
+      "es": "partícula modal",
+      "pt-BR": "partícula modal"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "啤酒",
+    "pinyin": "píjiǔ",
+    "english": "beer",
+    "translations": {
+      "en": "beer",
+      "ru": "пиво",
+      "es": "cerveza",
+      "pt-BR": "cerveja"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "english": "to drink",
+    "translations": {
+      "en": "to drink",
+      "ru": "пить",
+      "es": "beber",
+      "pt-BR": "beber"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "四",
+    "pinyin": "sì",
+    "english": "four",
+    "translations": {
+      "en": "four",
+      "ru": "четыре",
+      "es": "cuatro",
+      "pt-BR": "quatro"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "回",
+    "pinyin": "huí",
+    "english": "to return",
+    "translations": {
+      "en": "to return",
+      "ru": "вернуться",
+      "es": "volver",
+      "pt-BR": "voltar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "国",
+    "pinyin": "guó",
+    "english": "country / state",
+    "translations": {
+      "en": "country / state",
+      "ru": "страна / государство",
+      "es": "país / estado",
+      "pt-BR": "país / estado"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "图书馆",
+    "pinyin": "túshūguǎn",
+    "english": "library",
+    "translations": {
+      "en": "library",
+      "ru": "библиотека",
+      "es": "biblioteca",
+      "pt-BR": "biblioteca"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "在",
+    "pinyin": "zài",
+    "english": "to be located / to be in",
+    "translations": {
+      "en": "to be located / to be in",
+      "ru": "находиться / быть в",
+      "es": "encontrarse / estar en",
+      "pt-BR": "encontrar-se / estar em"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "坐",
+    "pinyin": "zuò",
+    "english": "to sit down",
+    "translations": {
+      "en": "to sit down",
+      "ru": "садиться",
+      "es": "sentarse",
+      "pt-BR": "sentar-se"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "块 / 元",
+    "pinyin": "kuài / yuán",
+    "english": "yuan",
+    "translations": {
+      "en": "yuan",
+      "ru": "юань",
+      "es": "yuan",
+      "pt-BR": "yuan"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "外国",
+    "pinyin": "wàiguó",
+    "english": "foreign country",
+    "translations": {
+      "en": "foreign country",
+      "ru": "иностранное государство",
+      "es": "país extranjero",
+      "pt-BR": "país estrangeiro"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "外贸",
+    "pinyin": "wàimào",
+    "english": "foreign trade",
+    "translations": {
+      "en": "foreign trade",
+      "ru": "внешняя торговля",
+      "es": "comercio exterior",
+      "pt-BR": "comércio exterior"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "多",
+    "pinyin": "duō",
+    "english": "many / much",
+    "translations": {
+      "en": "many / much",
+      "ru": "много",
+      "es": "mucho / muchos",
+      "pt-BR": "muito / muitos"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "多少",
+    "pinyin": "duōshao",
+    "english": "how much / how many",
+    "translations": {
+      "en": "how much / how many",
+      "ru": "сколько",
+      "es": "cuánto / cuántos",
+      "pt-BR": "quanto / quantos"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "大夫",
+    "pinyin": "dàifu",
+    "english": "doctor",
+    "translations": {
+      "en": "doctor",
+      "ru": "врач; доктор",
+      "es": "médico",
+      "pt-BR": "médico"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "大学",
+    "pinyin": "dàxué",
+    "english": "university",
+    "translations": {
+      "en": "university",
+      "ru": "университет",
+      "es": "universidad",
+      "pt-BR": "universidade"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "大概",
+    "pinyin": "dàgài",
+    "english": "approximately; about",
+    "translations": {
+      "en": "approximately; about",
+      "ru": "около; приблизительно",
+      "es": "aproximadamente",
+      "pt-BR": "aproximadamente"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "天",
+    "pinyin": "tiān",
+    "english": "day",
+    "translations": {
+      "en": "day",
+      "ru": "день",
+      "es": "día",
+      "pt-BR": "dia"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "天安门",
+    "pinyin": "Tiān'ānmén",
+    "english": "Tiananmen",
+    "translations": {
+      "en": "Tiananmen",
+      "ru": "Тяньаньмэнь",
+      "es": "Tiananmen",
+      "pt-BR": "Tiananmen"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "太",
+    "pinyin": "tài",
+    "english": "too; excessively",
+    "translations": {
+      "en": "too; excessively",
+      "ru": "слишком; чрезмерно",
+      "es": "demasiado",
+      "pt-BR": "demais"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "女",
+    "pinyin": "nǚ",
+    "english": "woman",
+    "translations": {
+      "en": "woman",
+      "ru": "женщина",
+      "es": "mujer",
+      "pt-BR": "mulher"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "她",
+    "pinyin": "tā",
+    "english": "she",
+    "translations": {
+      "en": "she",
+      "ru": "она",
+      "es": "ella",
+      "pt-BR": "ela"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "english": "good; kind",
+    "translations": {
+      "en": "good; kind",
+      "ru": "хороший; добрый",
+      "es": "bueno; amable",
+      "pt-BR": "bom; gentil"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "好久",
+    "pinyin": "hǎojiǔ",
+    "english": "long time",
+    "translations": {
+      "en": "long time",
+      "ru": "долго",
+      "es": "mucho tiempo",
+      "pt-BR": "muito tempo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "妈妈",
+    "pinyin": "māma",
+    "english": "mom",
+    "translations": {
+      "en": "mom",
+      "ru": "мама",
+      "es": "mamá",
+      "pt-BR": "mãe"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "妹妹",
+    "pinyin": "mèimei",
+    "english": "younger sister",
+    "translations": {
+      "en": "younger sister",
+      "ru": "младшая сестра",
+      "es": "hermana menor",
+      "pt-BR": "irmã mais nova"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "姐姐",
+    "pinyin": "jiějie",
+    "english": "older sister",
+    "translations": {
+      "en": "older sister",
+      "ru": "старшая сестра",
+      "es": "hermana mayor",
+      "pt-BR": "irmã mais velha"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "姓",
+    "pinyin": "xìng",
+    "english": "surname / family name",
+    "translations": {
+      "en": "surname / family name",
+      "ru": "фамилия",
+      "es": "apellido",
+      "pt-BR": "sobrenome"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "学",
+    "pinyin": "xué",
+    "english": "to study / to learn",
+    "translations": {
+      "en": "to study / to learn",
+      "ru": "учиться",
+      "es": "estudiar / aprender",
+      "pt-BR": "estudar / aprender"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "学习",
+    "pinyin": "xuéxí",
+    "english": "to study / to learn",
+    "translations": {
+      "en": "to study / to learn",
+      "ru": "учиться / изучать",
+      "es": "estudiar / aprender",
+      "pt-BR": "estudar / aprender"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "学校",
+    "pinyin": "xuéxiào",
+    "english": "school",
+    "translations": {
+      "en": "school",
+      "ru": "школа",
+      "es": "escuela",
+      "pt-BR": "escola"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "学生",
+    "pinyin": "xuésheng",
+    "english": "student",
+    "translations": {
+      "en": "student",
+      "ru": "студент",
+      "es": "estudiante",
+      "pt-BR": "estudante"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "客气",
+    "pinyin": "kèqi",
+    "english": "polite",
+    "translations": {
+      "en": "polite",
+      "ru": "вежливый",
+      "es": "cortés",
+      "pt-BR": "educado"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "english": "home / family",
+    "translations": {
+      "en": "home / family",
+      "ru": "дом / семья",
+      "es": "casa / familia",
+      "pt-BR": "casa / família"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "容易",
+    "pinyin": "róngyì",
+    "english": "easy",
+    "translations": {
+      "en": "easy",
+      "ru": "лёгкий",
+      "es": "fácil",
+      "pt-BR": "fácil"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "寄",
+    "pinyin": "jì",
+    "english": "to send",
+    "translations": {
+      "en": "to send",
+      "ru": "отправлять",
+      "es": "enviar",
+      "pt-BR": "enviar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "对",
+    "pinyin": "duì",
+    "english": "correct / right",
+    "translations": {
+      "en": "correct / right",
+      "ru": "правильный / верно",
+      "es": "correcto",
+      "pt-BR": "correto"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "对不起",
+    "pinyin": "duìbuqǐ",
+    "english": "excuse me / sorry",
+    "translations": {
+      "en": "excuse me / sorry",
+      "ru": "извините",
+      "es": "disculpe / perdón",
+      "pt-BR": "com licença / desculpe"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "english": "small; little",
+    "translations": {
+      "en": "small; little",
+      "ru": "маленький",
+      "es": "pequeño",
+      "pt-BR": "pequeno"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "小姐",
+    "pinyin": "xiǎojiě",
+    "english": "Miss",
+    "translations": {
+      "en": "Miss",
+      "ru": "мисс",
+      "es": "señorita",
+      "pt-BR": "senhorita"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "少",
+    "pinyin": "shǎo",
+    "english": "few / little",
+    "translations": {
+      "en": "few / little",
+      "ru": "мало",
+      "es": "poco",
+      "pt-BR": "pouco"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "工作",
+    "pinyin": "gōngzuò",
+    "english": "work / to work",
+    "translations": {
+      "en": "work / to work",
+      "ru": "работа / работать",
+      "es": "trabajo / trabajar",
+      "pt-BR": "trabalho / trabalhar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "开",
+    "pinyin": "kāi",
+    "english": "to open; to start",
+    "translations": {
+      "en": "to open; to start",
+      "ru": "начинать",
+      "es": "abrir; empezar",
+      "pt-BR": "abrir; começar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "开学",
+    "pinyin": "kāi xué",
+    "english": "school starts; to start school",
+    "translations": {
+      "en": "school starts; to start school",
+      "ru": "начало занятий; приступить к учёбе",
+      "es": "inicio de clases",
+      "pt-BR": "início das aulas"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "弟弟",
+    "pinyin": "dìdi",
+    "english": "younger brother",
+    "translations": {
+      "en": "younger brother",
+      "ru": "младший брат",
+      "es": "hermano menor",
+      "pt-BR": "irmão mais novo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "张",
+    "pinyin": "zhāng",
+    "english": "classifier for flat objects",
+    "translations": {
+      "en": "classifier for flat objects",
+      "ru": "счётное слово для листов/плоских предметов",
+      "es": "clasificador de objetos planos",
+      "pt-BR": "classificador de objetos planos"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "张东",
+    "pinyin": "Zhāng Dōng",
+    "english": "Zhang Dong",
+    "translations": {
+      "en": "Zhang Dong",
+      "ru": "Чжан Дун",
+      "es": "Zhang Dong",
+      "pt-BR": "Zhang Dong"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "很",
+    "pinyin": "hěn",
+    "english": "very",
+    "translations": {
+      "en": "very",
+      "ru": "очень",
+      "es": "muy",
+      "pt-BR": "muito"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "很好",
+    "pinyin": "Hěn hǎo",
+    "english": "Very good!",
+    "translations": {
+      "en": "Very good!",
+      "ru": "Очень хороший!",
+      "es": "¡Muy bien!",
+      "pt-BR": "Muito bom!"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "律师",
+    "pinyin": "lǜshī",
+    "english": "lawyer",
+    "translations": {
+      "en": "lawyer",
+      "ru": "юрист",
+      "es": "abogado",
+      "pt-BR": "advogado"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "德国",
+    "pinyin": "Déguó",
+    "english": "Germany",
+    "translations": {
+      "en": "Germany",
+      "ru": "Германия",
+      "es": "Alemania",
+      "pt-BR": "Alemanha"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "德文",
+    "pinyin": "Déwén",
+    "english": "German language",
+    "translations": {
+      "en": "German language",
+      "ru": "немецкий язык",
+      "es": "idioma alemán",
+      "pt-BR": "língua alemã"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "德语",
+    "pinyin": "Déyǔ",
+    "english": "German language",
+    "translations": {
+      "en": "German language",
+      "ru": "немецкий язык",
+      "es": "idioma alemán",
+      "pt-BR": "língua alemã"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "忙",
+    "pinyin": "máng",
+    "english": "busy",
+    "translations": {
+      "en": "busy",
+      "ru": "занятый",
+      "es": "ocupado",
+      "pt-BR": "ocupado"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "怎么",
+    "pinyin": "zěnme",
+    "english": "how / like",
+    "translations": {
+      "en": "how / like",
+      "ru": "как",
+      "es": "cómo / como",
+      "pt-BR": "como"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "english": "how; how about",
+    "translations": {
+      "en": "how; how about",
+      "ru": "как",
+      "es": "cómo; qué tal",
+      "pt-BR": "como; que tal"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "您",
+    "pinyin": "nín",
+    "english": "you (formal)",
+    "translations": {
+      "en": "you (formal)",
+      "ru": "Вы",
+      "es": "usted",
+      "pt-BR": "o senhor / a senhora"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "english": "I / me",
+    "translations": {
+      "en": "I / me",
+      "ru": "я",
+      "es": "yo",
+      "pt-BR": "eu"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "我们",
+    "pinyin": "wǒmen",
+    "english": "we; us",
+    "translations": {
+      "en": "we; us",
+      "ru": "мы",
+      "es": "nosotros",
+      "pt-BR": "nós"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "房间",
+    "pinyin": "fángjiān",
+    "english": "room",
+    "translations": {
+      "en": "room",
+      "ru": "комната",
+      "es": "habitación",
+      "pt-BR": "quarto"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "手",
+    "pinyin": "shǒu",
+    "english": "hand / arm",
+    "translations": {
+      "en": "hand / arm",
+      "ru": "рука",
+      "es": "mano / brazo",
+      "pt-BR": "mão / braço"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "手机",
+    "pinyin": "shǒujī",
+    "english": "mobile phone",
+    "translations": {
+      "en": "mobile phone",
+      "ru": "мобильный телефон",
+      "es": "teléfono móvil",
+      "pt-BR": "celular"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "找",
+    "pinyin": "zhǎo",
+    "english": "to give change",
+    "translations": {
+      "en": "to give change",
+      "ru": "дать сдачу",
+      "es": "dar cambio",
+      "pt-BR": "dar troco"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "把",
+    "pinyin": "bǎ",
+    "english": "classifier for objects with a handle",
+    "translations": {
+      "en": "classifier for objects with a handle",
+      "ru": "счётное слово для предметов с ручкой",
+      "es": "clasificador de objetos con mango",
+      "pt-BR": "classificador de objetos com cabo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "换",
+    "pinyin": "huàn",
+    "english": "to change / to exchange",
+    "translations": {
+      "en": "to change / to exchange",
+      "ru": "менять / обменивать",
+      "es": "cambiar / intercambiar",
+      "pt-BR": "trocar / cambiar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "摩托车",
+    "pinyin": "mótuōchē",
+    "english": "motorcycle",
+    "translations": {
+      "en": "motorcycle",
+      "ru": "мотоцикл",
+      "es": "motocicleta",
+      "pt-BR": "motocicleta"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "支",
+    "pinyin": "zhī",
+    "english": "classifier for pens",
+    "translations": {
+      "en": "classifier for pens",
+      "ru": "счётное слово для ручек/карандашей",
+      "es": "clasificador de bolígrafos",
+      "pt-BR": "classificador de canetas"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "教授",
+    "pinyin": "jiàoshòu",
+    "english": "professor",
+    "translations": {
+      "en": "professor",
+      "ru": "профессор",
+      "es": "profesor universitario",
+      "pt-BR": "professor universitário"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "数",
+    "pinyin": "shǔ",
+    "english": "to count",
+    "translations": {
+      "en": "to count",
+      "ru": "считать",
+      "es": "contar",
+      "pt-BR": "contar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "斤",
+    "pinyin": "jīn",
+    "english": "jin (500 g)",
+    "translations": {
+      "en": "jin (500 g)",
+      "ru": "цзинь",
+      "es": "jin (500 g)",
+      "pt-BR": "jin (500 g)"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "新",
+    "pinyin": "xīn",
+    "english": "new",
+    "translations": {
+      "en": "new",
+      "ru": "новый",
+      "es": "nuevo",
+      "pt-BR": "novo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "日",
+    "pinyin": "rì",
+    "english": "sun / day",
+    "translations": {
+      "en": "sun / day",
+      "ru": "солнце / день",
+      "es": "sol / día",
+      "pt-BR": "sol / dia"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "日元",
+    "pinyin": "rìyuán",
+    "english": "Japanese yen",
+    "translations": {
+      "en": "Japanese yen",
+      "ru": "японская иена",
+      "es": "yen japonés",
+      "pt-BR": "iene japonês"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "日文",
+    "pinyin": "Rìwén",
+    "english": "Japanese language",
+    "translations": {
+      "en": "Japanese language",
+      "ru": "японский язык",
+      "es": "idioma japonés",
+      "pt-BR": "língua japonesa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "日本",
+    "pinyin": "Rìběn",
+    "english": "Japan",
+    "translations": {
+      "en": "Japan",
+      "ru": "Япония",
+      "es": "Japón",
+      "pt-BR": "Japão"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "日用品",
+    "pinyin": "rìyòngpǐn",
+    "english": "daily necessities",
+    "translations": {
+      "en": "daily necessities",
+      "ru": "предметы обихода",
+      "es": "artículos de uso diario",
+      "pt-BR": "artigos de uso diário"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "日语",
+    "pinyin": "Rìyǔ",
+    "english": "Japanese language",
+    "translations": {
+      "en": "Japanese language",
+      "ru": "японский язык",
+      "es": "idioma japonés",
+      "pt-BR": "língua japonesa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "旧",
+    "pinyin": "jiù",
+    "english": "old; used",
+    "translations": {
+      "en": "old; used",
+      "ru": "старый; прошлый",
+      "es": "viejo; usado",
+      "pt-BR": "velho; usado"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "明天",
+    "pinyin": "míngtiān",
+    "english": "tomorrow",
+    "translations": {
+      "en": "tomorrow",
+      "ru": "завтра",
+      "es": "mañana",
+      "pt-BR": "amanhã"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "星期",
+    "pinyin": "xīngqī",
+    "english": "week",
+    "translations": {
+      "en": "week",
+      "ru": "неделя",
+      "es": "semana",
+      "pt-BR": "semana"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "星期一",
+    "pinyin": "xīngqīyī",
+    "english": "Monday",
+    "translations": {
+      "en": "Monday",
+      "ru": "понедельник",
+      "es": "lunes",
+      "pt-BR": "segunda-feira"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "星期三",
+    "pinyin": "xīngqīsān",
+    "english": "Wednesday",
+    "translations": {
+      "en": "Wednesday",
+      "ru": "среда",
+      "es": "miércoles",
+      "pt-BR": "quarta-feira"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "星期二",
+    "pinyin": "xīngqī'èr",
+    "english": "Tuesday",
+    "translations": {
+      "en": "Tuesday",
+      "ru": "вторник",
+      "es": "martes",
+      "pt-BR": "terça-feira"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "星期五",
+    "pinyin": "xīngqīwǔ",
+    "english": "Friday",
+    "translations": {
+      "en": "Friday",
+      "ru": "пятница",
+      "es": "viernes",
+      "pt-BR": "sexta-feira"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "星期六",
+    "pinyin": "xīngqīliù",
+    "english": "Saturday",
+    "translations": {
+      "en": "Saturday",
+      "ru": "суббота",
+      "es": "sábado",
+      "pt-BR": "sábado"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "星期四",
+    "pinyin": "xīngqīsì",
+    "english": "Thursday",
+    "translations": {
+      "en": "Thursday",
+      "ru": "четверг",
+      "es": "jueves",
+      "pt-BR": "quinta-feira"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "星期天",
+    "pinyin": "xīngqītiān",
+    "english": "Sunday",
+    "translations": {
+      "en": "Sunday",
+      "ru": "воскресенье",
+      "es": "domingo",
+      "pt-BR": "domingo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "星期日",
+    "pinyin": "xīngqīrì",
+    "english": "Sunday",
+    "translations": {
+      "en": "Sunday",
+      "ru": "воскресенье",
+      "es": "domingo",
+      "pt-BR": "domingo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "昨天",
+    "pinyin": "zuótiān",
+    "english": "yesterday",
+    "translations": {
+      "en": "yesterday",
+      "ru": "вчера",
+      "es": "ayer",
+      "pt-BR": "ontem"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "是",
+    "pinyin": "shì",
+    "english": "to be",
+    "translations": {
+      "en": "to be",
+      "ru": "быть",
+      "es": "ser / estar",
+      "pt-BR": "ser / estar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "最近",
+    "pinyin": "zuìjìn",
+    "english": "recently",
+    "translations": {
+      "en": "recently",
+      "ru": "в последнее время",
+      "es": "recientemente",
+      "pt-BR": "recentemente"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "english": "to have; there is",
+    "translations": {
+      "en": "to have; there is",
+      "ru": "есть",
+      "es": "tener; hay",
+      "pt-BR": "ter; há"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "有（一）点儿",
+    "pinyin": "yǒu(yì)diǎnr",
+    "english": "a little; somewhat",
+    "translations": {
+      "en": "a little; somewhat",
+      "ru": "немного",
+      "es": "un poco",
+      "pt-BR": "um pouco"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "朋友",
+    "pinyin": "péngyou",
+    "english": "friend",
+    "translations": {
+      "en": "friend",
+      "ru": "друг",
+      "es": "amigo",
+      "pt-BR": "amigo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "本",
+    "pinyin": "běn",
+    "english": "classifier for books",
+    "translations": {
+      "en": "classifier for books",
+      "ru": "счётное слово для книг",
+      "es": "clasificador de libros",
+      "pt-BR": "classificador de livros"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "杂志",
+    "pinyin": "zázhì",
+    "english": "magazine",
+    "translations": {
+      "en": "magazine",
+      "ru": "журнал",
+      "es": "revista",
+      "pt-BR": "revista"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "李昌浩",
+    "pinyin": "Lǐ Chānghào",
+    "english": "Li Changho",
+    "translations": {
+      "en": "Li Changho",
+      "ru": "Ли Чанхо",
+      "es": "Li Changho",
+      "pt-BR": "Li Changho"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "杯",
+    "pinyin": "bēi",
+    "english": "cup; glass",
+    "translations": {
+      "en": "cup; glass",
+      "ru": "чашка",
+      "es": "taza; vaso",
+      "pt-BR": "xícara; copo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "林",
+    "pinyin": "Lín",
+    "english": "Lin (surname)",
+    "translations": {
+      "en": "Lin (surname)",
+      "ru": "Линь",
+      "es": "Lin (apellido)",
+      "pt-BR": "Lin (sobrenome)"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "校长",
+    "pinyin": "xiàozhǎng",
+    "english": "principal; president (of school)",
+    "translations": {
+      "en": "principal; president (of school)",
+      "ru": "директор",
+      "es": "director; rector",
+      "pt-BR": "diretor; reitor"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "楼",
+    "pinyin": "lóu",
+    "english": "building / floor",
+    "translations": {
+      "en": "building / floor",
+      "ru": "здание / этаж",
+      "es": "edificio / piso",
+      "pt-BR": "edifício / andar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "橘子",
+    "pinyin": "júzi",
+    "english": "mandarin (fruit)",
+    "translations": {
+      "en": "mandarin (fruit)",
+      "ru": "мандарин",
+      "es": "mandarina",
+      "pt-BR": "mandarina"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "欢迎",
+    "pinyin": "huānyíng",
+    "english": "to welcome",
+    "translations": {
+      "en": "to welcome",
+      "ru": "приветствовать",
+      "es": "dar la bienvenida",
+      "pt-BR": "dar boas-vindas"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "欧元",
+    "pinyin": "ōuyuán",
+    "english": "euro",
+    "translations": {
+      "en": "euro",
+      "ru": "евро",
+      "es": "euro",
+      "pt-BR": "euro"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "比较",
+    "pinyin": "bǐjiào",
+    "english": "relatively; to compare",
+    "translations": {
+      "en": "relatively; to compare",
+      "ru": "сравнительно; сравнивать",
+      "es": "relativamente; comparar",
+      "pt-BR": "relativamente; comparar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "english": "water",
+    "translations": {
+      "en": "water",
+      "ru": "вода",
+      "es": "agua",
+      "pt-BR": "água"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "水果",
+    "pinyin": "shuǐguǒ",
+    "english": "fruit",
+    "translations": {
+      "en": "fruit",
+      "ru": "фрукты",
+      "es": "frutas",
+      "pt-BR": "frutas"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "汉字",
+    "pinyin": "Hànzì",
+    "english": "Chinese character",
+    "translations": {
+      "en": "Chinese character",
+      "ru": "китайский иероглиф",
+      "es": "carácter chino",
+      "pt-BR": "caractere chinês"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "汉语",
+    "pinyin": "Hànyǔ",
+    "english": "Chinese language",
+    "translations": {
+      "en": "Chinese language",
+      "ru": "китайский язык",
+      "es": "idioma chino",
+      "pt-BR": "língua chinesa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "汤",
+    "pinyin": "tāng",
+    "english": "soup",
+    "translations": {
+      "en": "soup",
+      "ru": "суп",
+      "es": "sopa",
+      "pt-BR": "sopa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "汽车",
+    "pinyin": "qìchē",
+    "english": "car; automobile",
+    "translations": {
+      "en": "car; automobile",
+      "ru": "автомобиль",
+      "es": "automóvil",
+      "pt-BR": "automóvel"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "没什么",
+    "pinyin": "méi shénme",
+    "english": "it's nothing",
+    "translations": {
+      "en": "it's nothing",
+      "ru": "ничего",
+      "es": "no es nada",
+      "pt-BR": "não foi nada"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "没关系",
+    "pinyin": "méi guānxi",
+    "english": "nothing / it's nothing / no problem",
+    "translations": {
+      "en": "nothing / it's nothing / no problem",
+      "ru": "ничего / ничего страшного",
+      "es": "nada / no pasa nada",
+      "pt-BR": "nada / não tem problema"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "没（有）",
+    "pinyin": "méi (yǒu)",
+    "english": "not have; there isn't",
+    "translations": {
+      "en": "not have; there isn't",
+      "ru": "нет",
+      "es": "no tener; no hay",
+      "pt-BR": "não ter; não há"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "法国",
+    "pinyin": "Fǎguó",
+    "english": "France",
+    "translations": {
+      "en": "France",
+      "ru": "Франция",
+      "es": "Francia",
+      "pt-BR": "França"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "法文",
+    "pinyin": "Fǎwén",
+    "english": "French language",
+    "translations": {
+      "en": "French language",
+      "ru": "французский язык",
+      "es": "idioma francés",
+      "pt-BR": "língua francesa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "法语",
+    "pinyin": "Fǎyǔ",
+    "english": "French language",
+    "translations": {
+      "en": "French language",
+      "ru": "французский язык",
+      "es": "idioma francés",
+      "pt-BR": "língua francesa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "港币",
+    "pinyin": "gǎngbì",
+    "english": "Hong Kong dollar",
+    "translations": {
+      "en": "Hong Kong dollar",
+      "ru": "гонконгский доллар",
+      "es": "dólar de Hong Kong",
+      "pt-BR": "dólar de Hong Kong"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "点儿",
+    "pinyin": "diǎnr",
+    "english": "a bit",
+    "translations": {
+      "en": "a bit",
+      "ru": "немного",
+      "es": "un poco",
+      "pt-BR": "um pouco"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "照片",
+    "pinyin": "zhàopiàn",
+    "english": "photograph",
+    "translations": {
+      "en": "photograph",
+      "ru": "фотография",
+      "es": "fotografía",
+      "pt-BR": "fotografia"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "爱德华",
+    "pinyin": "Àidéhuá",
+    "english": "Edward",
+    "translations": {
+      "en": "Edward",
+      "ru": "Эдуард",
+      "es": "Eduardo",
+      "pt-BR": "Eduardo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "爸爸",
+    "pinyin": "bàba",
+    "english": "dad",
+    "translations": {
+      "en": "dad",
+      "ru": "папа",
+      "es": "papá",
+      "pt-BR": "pai"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "王",
+    "pinyin": "Wáng",
+    "english": "Wang — a Chinese surname",
+    "translations": {
+      "en": "Wang — a Chinese surname",
+      "ru": "Ван — китайская фамилия",
+      "es": "Wang — apellido chino",
+      "pt-BR": "Wang — sobrenome chinês"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "班",
+    "pinyin": "bān",
+    "english": "class; group",
+    "translations": {
+      "en": "class; group",
+      "ru": "класс; группа",
+      "es": "clase; grupo",
+      "pt-BR": "turma; grupo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "瓶",
+    "pinyin": "píng",
+    "english": "bottle",
+    "translations": {
+      "en": "bottle",
+      "ru": "бутылка",
+      "es": "botella",
+      "pt-BR": "garrafa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "田芳",
+    "pinyin": "Tián Fāng",
+    "english": "Tian Fang",
+    "translations": {
+      "en": "Tian Fang",
+      "ru": "Тянь Фан",
+      "es": "Tian Fang",
+      "pt-BR": "Tian Fang"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "电",
+    "pinyin": "diàn",
+    "english": "electricity",
+    "translations": {
+      "en": "electricity",
+      "ru": "электричество",
+      "es": "electricidad",
+      "pt-BR": "eletricidade"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "电话",
+    "pinyin": "diànhuà",
+    "english": "telephone",
+    "translations": {
+      "en": "telephone",
+      "ru": "телефон",
+      "es": "teléfono",
+      "pt-BR": "telefone"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "男",
+    "pinyin": "nán",
+    "english": "male / masculine",
+    "translations": {
+      "en": "male / masculine",
+      "ru": "мужской",
+      "es": "masculino",
+      "pt-BR": "masculino"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "留学",
+    "pinyin": "liúxué",
+    "english": "to study abroad",
+    "translations": {
+      "en": "to study abroad",
+      "ru": "учиться за границей",
+      "es": "estudiar en el extranjero",
+      "pt-BR": "estudar no exterior"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "留学生",
+    "pinyin": "liúxuéshēng",
+    "english": "international student",
+    "translations": {
+      "en": "international student",
+      "ru": "иностранный студент",
+      "es": "estudiante extranjero",
+      "pt-BR": "estudante estrangeiro"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "白",
+    "pinyin": "bái",
+    "english": "white",
+    "translations": {
+      "en": "white",
+      "ru": "белый",
+      "es": "blanco",
+      "pt-BR": "branco"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "百",
+    "pinyin": "bǎi",
+    "english": "hundred",
+    "translations": {
+      "en": "hundred",
+      "ru": "сто",
+      "es": "cien",
+      "pt-BR": "cem"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "的",
+    "pinyin": "de",
+    "english": "possessive particle",
+    "translations": {
+      "en": "possessive particle",
+      "ru": "структурная частица принадлежности",
+      "es": "partícula posesiva",
+      "pt-BR": "partícula possessiva"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "english": "to look; to watch",
+    "translations": {
+      "en": "to look; to watch",
+      "ru": "смотреть",
+      "es": "mirar; ver",
+      "pt-BR": "olhar; ver"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "知道",
+    "pinyin": "zhīdào",
+    "english": "to know",
+    "translations": {
+      "en": "to know",
+      "ru": "знать",
+      "es": "saber / conocer",
+      "pt-BR": "saber / conhecer"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "碗",
+    "pinyin": "wǎn",
+    "english": "bowl / cup",
+    "translations": {
+      "en": "bowl / cup",
+      "ru": "чаша",
+      "es": "tazón / taza",
+      "pt-BR": "tigela / xícara"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "秘书",
+    "pinyin": "mìshū",
+    "english": "secretary",
+    "translations": {
+      "en": "secretary",
+      "ru": "секретарь",
+      "es": "secretario/a",
+      "pt-BR": "secretário/a"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "笔",
+    "pinyin": "bǐ",
+    "english": "pen; pencil",
+    "translations": {
+      "en": "pen; pencil",
+      "ru": "ручка; карандаш",
+      "es": "bolígrafo; lápiz",
+      "pt-BR": "caneta; lápis"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "等",
+    "pinyin": "děng",
+    "english": "to wait",
+    "translations": {
+      "en": "to wait",
+      "ru": "ждать",
+      "es": "esperar",
+      "pt-BR": "esperar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "箱子",
+    "pinyin": "xiāngzi",
+    "english": "box; suitcase; trunk",
+    "translations": {
+      "en": "box; suitcase; trunk",
+      "ru": "ящик; чемодан; сундук",
+      "es": "caja; maleta; baúl",
+      "pt-BR": "caixa; mala; baú"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "米",
+    "pinyin": "mǐ",
+    "english": "rice",
+    "translations": {
+      "en": "rice",
+      "ru": "рис",
+      "es": "arroz",
+      "pt-BR": "arroz"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "米饭",
+    "pinyin": "mǐfàn",
+    "english": "boiled rice",
+    "translations": {
+      "en": "boiled rice",
+      "ru": "варёный рис",
+      "es": "arroz hervido",
+      "pt-BR": "arroz cozido"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "红",
+    "pinyin": "hóng",
+    "english": "red",
+    "translations": {
+      "en": "red",
+      "ru": "красный",
+      "es": "rojo",
+      "pt-BR": "vermelho"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "经理",
+    "pinyin": "jīnglǐ",
+    "english": "manager",
+    "translations": {
+      "en": "manager",
+      "ru": "директор",
+      "es": "gerente",
+      "pt-BR": "gerente"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "给",
+    "pinyin": "gěi",
+    "english": "to give",
+    "translations": {
+      "en": "to give",
+      "ru": "дать",
+      "es": "dar",
+      "pt-BR": "dar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "罗曼",
+    "pinyin": "Luómàn",
+    "english": "Luoman",
+    "translations": {
+      "en": "Luoman",
+      "ru": "Роман",
+      "es": "Luoman",
+      "pt-BR": "Luoman"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "美元",
+    "pinyin": "měiyuán",
+    "english": "US dollar",
+    "translations": {
+      "en": "US dollar",
+      "ru": "доллар США",
+      "es": "dólar estadounidense",
+      "pt-BR": "dólar americano"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "美国",
+    "pinyin": "Měiguó",
+    "english": "USA",
+    "translations": {
+      "en": "USA",
+      "ru": "США",
+      "es": "EE. UU.",
+      "pt-BR": "EUA"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "老师",
+    "pinyin": "lǎoshī",
+    "english": "teacher / instructor",
+    "translations": {
+      "en": "teacher / instructor",
+      "ru": "преподаватель",
+      "es": "profesor",
+      "pt-BR": "professor"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "职员",
+    "pinyin": "zhíyuán",
+    "english": "clerk / employee",
+    "translations": {
+      "en": "clerk / employee",
+      "ru": "служащий",
+      "es": "empleado",
+      "pt-BR": "funcionário"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "自行车",
+    "pinyin": "zìxíngchē",
+    "english": "bicycle",
+    "translations": {
+      "en": "bicycle",
+      "ru": "велосипед",
+      "es": "bicicleta",
+      "pt-BR": "bicicleta"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "英国",
+    "pinyin": "Yīngguó",
+    "english": "England",
+    "translations": {
+      "en": "England",
+      "ru": "Англия",
+      "es": "Inglaterra",
+      "pt-BR": "Inglaterra"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "英文",
+    "pinyin": "Yīngwén",
+    "english": "English language",
+    "translations": {
+      "en": "English language",
+      "ru": "английский язык",
+      "es": "idioma inglés",
+      "pt-BR": "língua inglesa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "英语",
+    "pinyin": "Yīngyǔ",
+    "english": "English language",
+    "translations": {
+      "en": "English language",
+      "ru": "английский язык",
+      "es": "idioma inglés",
+      "pt-BR": "língua inglesa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "苹果",
+    "pinyin": "píngguǒ",
+    "english": "apple",
+    "translations": {
+      "en": "apple",
+      "ru": "яблоко",
+      "es": "manzana",
+      "pt-BR": "maçã"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "english": "tea",
+    "translations": {
+      "en": "tea",
+      "ru": "чай",
+      "es": "té",
+      "pt-BR": "chá"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "茶叶",
+    "pinyin": "cháyè",
+    "english": "tea leaves; tea",
+    "translations": {
+      "en": "tea leaves; tea",
+      "ru": "чай",
+      "es": "té",
+      "pt-BR": "chá"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "药",
+    "pinyin": "yào",
+    "english": "medicine; drug",
+    "translations": {
+      "en": "medicine; drug",
+      "ru": "лекарство",
+      "es": "medicina",
+      "pt-BR": "remédio"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "营业员",
+    "pinyin": "yíngyèyuán",
+    "english": "clerk / salesperson",
+    "translations": {
+      "en": "clerk / salesperson",
+      "ru": "служащий / продавец",
+      "es": "empleado / vendedor",
+      "pt-BR": "funcionário / vendedor"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "萨沙",
+    "pinyin": "Sàshā",
+    "english": "Sasha",
+    "translations": {
+      "en": "Sasha",
+      "ru": "Саша",
+      "es": "Sasha",
+      "pt-BR": "Sasha"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "蓝",
+    "pinyin": "lán",
+    "english": "blue",
+    "translations": {
+      "en": "blue",
+      "ru": "синий",
+      "es": "azul",
+      "pt-BR": "azul"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "蛋",
+    "pinyin": "dàn",
+    "english": "egg",
+    "translations": {
+      "en": "egg",
+      "ru": "яйцо",
+      "es": "huevo",
+      "pt-BR": "ovo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "衣服",
+    "pinyin": "yīfu",
+    "english": "clothes",
+    "translations": {
+      "en": "clothes",
+      "ru": "одежда",
+      "es": "ropa",
+      "pt-BR": "roupa"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "西班牙文",
+    "pinyin": "Xībānyáwén",
+    "english": "Spanish language",
+    "translations": {
+      "en": "Spanish language",
+      "ru": "испанский язык",
+      "es": "idioma español",
+      "pt-BR": "língua espanhola"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "西班牙语",
+    "pinyin": "Xībānyáyǔ",
+    "english": "Spanish language",
+    "translations": {
+      "en": "Spanish language",
+      "ru": "испанский язык",
+      "es": "idioma español",
+      "pt-BR": "língua espanhola"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "西药",
+    "pinyin": "xīyào",
+    "english": "Western medicine",
+    "translations": {
+      "en": "Western medicine",
+      "ru": "лекарство западной медицины",
+      "es": "medicina occidental",
+      "pt-BR": "medicina ocidental"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "要",
+    "pinyin": "yào",
+    "english": "to want / to wish",
+    "translations": {
+      "en": "to want / to wish",
+      "ru": "хотеть / желать",
+      "es": "querer / desear",
+      "pt-BR": "querer / desejar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "见",
+    "pinyin": "jiàn",
+    "english": "to see each other / to see",
+    "translations": {
+      "en": "to see each other / to see",
+      "ru": "увидеться / увидеть",
+      "es": "verse / ver",
+      "pt-BR": "ver-se / ver"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "觉得",
+    "pinyin": "juéde",
+    "english": "to feel; to think",
+    "translations": {
+      "en": "to feel; to think",
+      "ru": "чувствовать; считать",
+      "es": "sentir; pensar",
+      "pt-BR": "sentir; achar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "角 / 毛",
+    "pinyin": "jiǎo / máo",
+    "english": "0.1 yuan",
+    "translations": {
+      "en": "0.1 yuan",
+      "ru": "0,1 юаня",
+      "es": "0,1 yuan",
+      "pt-BR": "0,1 yuan"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "词典",
+    "pinyin": "cídiǎn",
+    "english": "dictionary",
+    "translations": {
+      "en": "dictionary",
+      "ru": "словарь",
+      "es": "diccionario",
+      "pt-BR": "dicionário"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "话",
+    "pinyin": "huà",
+    "english": "word / speech",
+    "translations": {
+      "en": "word / speech",
+      "ru": "слово / речь",
+      "es": "palabra / habla",
+      "pt-BR": "palavra / fala"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "语法",
+    "pinyin": "yǔfǎ",
+    "english": "grammar",
+    "translations": {
+      "en": "grammar",
+      "ru": "грамматика",
+      "es": "gramática",
+      "pt-BR": "gramática"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "语言",
+    "pinyin": "yǔyán",
+    "english": "language",
+    "translations": {
+      "en": "language",
+      "ru": "язык",
+      "es": "idioma",
+      "pt-BR": "língua"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "说",
+    "pinyin": "shuō",
+    "english": "to speak",
+    "translations": {
+      "en": "to speak",
+      "ru": "говорить",
+      "es": "hablar",
+      "pt-BR": "falar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "请",
+    "pinyin": "qǐng",
+    "english": "please / you're welcome",
+    "translations": {
+      "en": "please / you're welcome",
+      "ru": "пожалуйста",
+      "es": "por favor / de nada",
+      "pt-BR": "por favor / de nada"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "请问",
+    "pinyin": "qǐngwèn",
+    "english": "May I ask",
+    "translations": {
+      "en": "May I ask",
+      "ru": "позвольте спросить",
+      "es": "Permítame preguntar",
+      "pt-BR": "Com licença, posso perguntar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "读",
+    "pinyin": "dú",
+    "english": "to read",
+    "translations": {
+      "en": "to read",
+      "ru": "читать",
+      "es": "leer",
+      "pt-BR": "ler"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "谁",
+    "pinyin": "shéi",
+    "english": "who",
+    "translations": {
+      "en": "who",
+      "ru": "кто",
+      "es": "quién",
+      "pt-BR": "quem"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "谢谢",
+    "pinyin": "xièxie",
+    "english": "thank you",
+    "translations": {
+      "en": "thank you",
+      "ru": "спасибо",
+      "es": "gracias",
+      "pt-BR": "obrigado"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "贵",
+    "pinyin": "guì",
+    "english": "expensive / dear",
+    "translations": {
+      "en": "expensive / dear",
+      "ru": "дорогой",
+      "es": "caro / querido",
+      "pt-BR": "caro / querido"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "贵姓",
+    "pinyin": "guìxìng",
+    "english": "your surname / what's your surname",
+    "translations": {
+      "en": "your surname / what's your surname",
+      "ru": "ваша фамилия / как ваша фамилия",
+      "es": "su apellido / ¿cuál es su apellido?",
+      "pt-BR": "seu sobrenome / qual é o seu sobrenome?"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "身体",
+    "pinyin": "shēntǐ",
+    "english": "health / body",
+    "translations": {
+      "en": "health / body",
+      "ru": "здоровье / тело",
+      "es": "salud / cuerpo",
+      "pt-BR": "saúde / corpo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "车",
+    "pinyin": "chē",
+    "english": "vehicle",
+    "translations": {
+      "en": "vehicle",
+      "ru": "транспортное средство",
+      "es": "vehículo",
+      "pt-BR": "veículo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "轻",
+    "pinyin": "qīng",
+    "english": "light (weight)",
+    "translations": {
+      "en": "light (weight)",
+      "ru": "лёгкий",
+      "es": "ligero",
+      "pt-BR": "leve"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "辆",
+    "pinyin": "liàng",
+    "english": "classifier for vehicles",
+    "translations": {
+      "en": "classifier for vehicles",
+      "ru": "счётное слово для транспорта",
+      "es": "clasificador de vehículos",
+      "pt-BR": "classificador de veículos"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "还",
+    "pinyin": "hái",
+    "english": "still / more",
+    "translations": {
+      "en": "still / more",
+      "ru": "ещё",
+      "es": "todavía / más",
+      "pt-BR": "ainda / mais"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "还是",
+    "pinyin": "háishi",
+    "english": "or",
+    "translations": {
+      "en": "or",
+      "ru": "или",
+      "es": "o",
+      "pt-BR": "ou"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "这",
+    "pinyin": "zhè",
+    "english": "this / it",
+    "translations": {
+      "en": "this / it",
+      "ru": "это",
+      "es": "esto / eso",
+      "pt-BR": "isto / isso"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "这些",
+    "pinyin": "zhèxiē",
+    "english": "these",
+    "translations": {
+      "en": "these",
+      "ru": "эти",
+      "es": "estos / estas",
+      "pt-BR": "estes / estas"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "这儿",
+    "pinyin": "zhèr",
+    "english": "here",
+    "translations": {
+      "en": "here",
+      "ru": "тут",
+      "es": "aquí",
+      "pt-BR": "aqui"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "进",
+    "pinyin": "jìn",
+    "english": "to enter",
+    "translations": {
+      "en": "to enter",
+      "ru": "войти",
+      "es": "entrar",
+      "pt-BR": "entrar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "那",
+    "pinyin": "nà",
+    "english": "that",
+    "translations": {
+      "en": "that",
+      "ru": "тот",
+      "es": "aquel / esa",
+      "pt-BR": "aquele / aquela"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "那些",
+    "pinyin": "nàxiē",
+    "english": "those",
+    "translations": {
+      "en": "those",
+      "ru": "те",
+      "es": "esos / esas",
+      "pt-BR": "aqueles / aquelas"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "那儿",
+    "pinyin": "nàr",
+    "english": "there",
+    "translations": {
+      "en": "there",
+      "ru": "там",
+      "es": "allí",
+      "pt-BR": "lá"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "邮局",
+    "pinyin": "yóujú",
+    "english": "mail / post office",
+    "translations": {
+      "en": "mail / post office",
+      "ru": "почта",
+      "es": "correo",
+      "pt-BR": "correio"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "都",
+    "pinyin": "dōu",
+    "english": "all; both",
+    "translations": {
+      "en": "all; both",
+      "ru": "все",
+      "es": "todos; ambos",
+      "pt-BR": "todos; ambos"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "酒",
+    "pinyin": "jiǔ",
+    "english": "alcoholic drink",
+    "translations": {
+      "en": "alcoholic drink",
+      "ru": "алкогольный напиток",
+      "es": "bebida alcohólica",
+      "pt-BR": "bebida alcoólica"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "里",
+    "pinyin": "lǐ",
+    "english": "inside",
+    "translations": {
+      "en": "inside",
+      "ru": "внутри",
+      "es": "dentro",
+      "pt-BR": "dentro"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "重",
+    "pinyin": "zhòng",
+    "english": "heavy",
+    "translations": {
+      "en": "heavy",
+      "ru": "тяжёлый",
+      "es": "pesado",
+      "pt-BR": "pesado"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "钱",
+    "pinyin": "qián",
+    "english": "money",
+    "translations": {
+      "en": "money",
+      "ru": "деньги",
+      "es": "dinero",
+      "pt-BR": "dinheiro"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "银行",
+    "pinyin": "yínháng",
+    "english": "bank",
+    "translations": {
+      "en": "bank",
+      "ru": "банк",
+      "es": "banco",
+      "pt-BR": "banco"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "门",
+    "pinyin": "mén",
+    "english": "door / gate",
+    "translations": {
+      "en": "door / gate",
+      "ru": "дверь / ворота",
+      "es": "puerta / portón",
+      "pt-BR": "porta / portão"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "问",
+    "pinyin": "wèn",
+    "english": "to ask",
+    "translations": {
+      "en": "to ask",
+      "ru": "спросить",
+      "es": "preguntar",
+      "pt-BR": "perguntar"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "阿拉伯文",
+    "pinyin": "Ālābówén",
+    "english": "Arabic language",
+    "translations": {
+      "en": "Arabic language",
+      "ru": "арабский язык",
+      "es": "idioma árabe",
+      "pt-BR": "língua árabe"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "阿拉伯语",
+    "pinyin": "Ālābóyǔ",
+    "english": "Arabic language",
+    "translations": {
+      "en": "Arabic language",
+      "ru": "арабский язык",
+      "es": "idioma árabe",
+      "pt-BR": "língua árabe"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "难",
+    "pinyin": "nán",
+    "english": "difficult",
+    "translations": {
+      "en": "difficult",
+      "ru": "трудный",
+      "es": "difícil",
+      "pt-BR": "difícil"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "雨",
+    "pinyin": "yǔ",
+    "english": "rain",
+    "translations": {
+      "en": "rain",
+      "ru": "дождь",
+      "es": "lluvia",
+      "pt-BR": "chuva"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "雨伞",
+    "pinyin": "yǔsǎn",
+    "english": "umbrella",
+    "translations": {
+      "en": "umbrella",
+      "ru": "зонтик",
+      "es": "paraguas",
+      "pt-BR": "guarda-chuva"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "零",
+    "pinyin": "líng",
+    "english": "zero",
+    "translations": {
+      "en": "zero",
+      "ru": "ноль",
+      "es": "cero",
+      "pt-BR": "zero"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "面条儿",
+    "pinyin": "miàntiáor",
+    "english": "noodles",
+    "translations": {
+      "en": "noodles",
+      "ru": "лапша",
+      "es": "fideos",
+      "pt-BR": "macarrão"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "韩国",
+    "pinyin": "Hánguó",
+    "english": "Republic of Korea",
+    "translations": {
+      "en": "Republic of Korea",
+      "ru": "Республика Корея",
+      "es": "República de Corea",
+      "pt-BR": "República da Coreia"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "韩国语",
+    "pinyin": "Hánguóyǔ",
+    "english": "Korean language",
+    "translations": {
+      "en": "Korean language",
+      "ru": "корейский язык",
+      "es": "idioma coreano",
+      "pt-BR": "língua coreana"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "韩文",
+    "pinyin": "Hánwén",
+    "english": "Korean language",
+    "translations": {
+      "en": "Korean language",
+      "ru": "корейский язык",
+      "es": "idioma coreano",
+      "pt-BR": "língua coreana"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "颜色",
+    "pinyin": "yánsè",
+    "english": "color",
+    "translations": {
+      "en": "color",
+      "ru": "цвет",
+      "es": "color",
+      "pt-BR": "cor"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "食堂",
+    "pinyin": "shítáng",
+    "english": "cafeteria / dining hall",
+    "translations": {
+      "en": "cafeteria / dining hall",
+      "ru": "столовая",
+      "es": "comedor",
+      "pt-BR": "refeitório"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "饭",
+    "pinyin": "fàn",
+    "english": "food",
+    "translations": {
+      "en": "food",
+      "ru": "еда",
+      "es": "comida",
+      "pt-BR": "comida"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "饺子",
+    "pinyin": "jiǎozi",
+    "english": "dumplings",
+    "translations": {
+      "en": "dumplings",
+      "ru": "пельмени",
+      "es": "empanadillas / dumplings",
+      "pt-BR": "bolinhos / dumplings"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "馒头",
+    "pinyin": "mántou",
+    "english": "mantou (steamed bun)",
+    "translations": {
+      "en": "mantou (steamed bun)",
+      "ru": "маньтоу",
+      "es": "mantou (bollo al vapor)",
+      "pt-BR": "mantou (pão cozido no vapor)"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "香水",
+    "pinyin": "xiāngshuǐ",
+    "english": "perfume",
+    "translations": {
+      "en": "perfume",
+      "ru": "духи",
+      "es": "perfume",
+      "pt-BR": "perfume"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "马",
+    "pinyin": "mǎ",
+    "english": "horse",
+    "translations": {
+      "en": "horse",
+      "ru": "лошадь",
+      "es": "caballo",
+      "pt-BR": "cavalo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "马马虎虎",
+    "pinyin": "mǎmǎhūhū",
+    "english": "so-so; not bad",
+    "translations": {
+      "en": "so-so; not bad",
+      "ru": "так себе; ещё ничего",
+      "es": "más o menos",
+      "pt-BR": "mais ou menos"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "鸡",
+    "pinyin": "jī",
+    "english": "chicken / rooster",
+    "translations": {
+      "en": "chicken / rooster",
+      "ru": "курица / петух",
+      "es": "pollo / gallo",
+      "pt-BR": "frango / galo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "鸡蛋",
+    "pinyin": "jīdàn",
+    "english": "egg",
+    "translations": {
+      "en": "egg",
+      "ru": "яйцо",
+      "es": "huevo",
+      "pt-BR": "ovo"
+    },
+    "examples": []
+  },
+  {
+    "hanzi": "黑",
+    "pinyin": "hēi",
+    "english": "black",
+    "translations": {
+      "en": "black",
+      "ru": "чёрный",
+      "es": "negro",
+      "pt-BR": "preto"
+    },
+    "examples": []
+  }
+]

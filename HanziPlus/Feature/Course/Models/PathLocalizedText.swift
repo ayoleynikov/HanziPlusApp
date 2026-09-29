@@ -58,9 +58,20 @@ struct PathLocalizedText: Codable, Equatable, Hashable {
 
     static func sanitized(_ raw: PathLocalizedText?) -> PathLocalizedText? {
         guard let raw, !raw.isEmpty else { return nil }
-        if raw.values.values.contains(where: { $0.trimmingCharacters(in: .whitespacesAndNewlines).uppercased().hasPrefix("TODO") }) {
+        if raw.values.values.contains(where: isPlaceholderMarker) {
             return nil
         }
         return raw
+    }
+
+    private static func isPlaceholderMarker(_ value: String) -> Bool {
+        let trimmed = value.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else { return false }
+        let upper = trimmed.uppercased()
+        if upper.hasPrefix("TODO") {
+            let suffix = upper.dropFirst(4)
+            return suffix.isEmpty || suffix.first == " " || suffix.first == ":" || suffix.first == ","
+        }
+        return upper.contains("TBD") || upper.contains("FIXME")
     }
 }

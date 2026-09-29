@@ -725,5 +725,809 @@
     {
       "kind": "completion"
     }
+  ],
+  "chapters": [
+    {
+      "id": "lesson_03_ch01",
+      "number": 1,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Изучить новые слова",
+          "showLessonHeader": true,
+          "dialogue": {
+            "id": "dialogue_study_chinese",
+            "title": "学习汉语",
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "你学俄语吗？",
+                "pinyin": "Nǐ xué Éyǔ ma?",
+                "translation": {
+                  "ru": "Ты учишь русский?",
+                  "en": "Do you study Russian?",
+                  "es": "¿Estudias ruso?",
+                  "pt-BR": "Você estuda russo?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "不，学汉语。",
+                "pinyin": "Bù, xué Hànyǔ.",
+                "translation": {
+                  "ru": "Нет, учу китайский.",
+                  "en": "No, I study Chinese.",
+                  "es": "No, estudio chino.",
+                  "pt-BR": "Não, estudo chinês."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "去北京吗？",
+                "pinyin": "Qù Běijīng ma?",
+                "translation": {
+                  "ru": "Едешь в Пекин?",
+                  "en": "Are you going to Beijing?",
+                  "es": "¿Vas a Pekín?",
+                  "pt-BR": "Você vai para Pequim?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "对。",
+                "pinyin": "Duì.",
+                "translation": {
+                  "ru": "Да.",
+                  "en": "Yes.",
+                  "es": "Sí.",
+                  "pt-BR": "Sim."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_languages",
+            "title": {
+              "ru": "Языки",
+              "en": "Languages",
+              "es": "Idiomas",
+              "pt-BR": "Idiomas"
+            },
+            "items": [
+              {
+                "id": "eyu",
+                "hanzi": "俄语",
+                "pinyin": "Éyǔ",
+                "translation": {
+                  "ru": "русский язык",
+                  "en": "Russian language",
+                  "es": "idioma ruso",
+                  "pt-BR": "língua russa"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "alaboyu",
+                "hanzi": "阿拉伯语",
+                "pinyin": "Ālābóyǔ",
+                "translation": {
+                  "ru": "арабский язык",
+                  "en": "Arabic language",
+                  "es": "idioma árabe",
+                  "pt-BR": "língua árabe"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "deyu",
+                "hanzi": "德语",
+                "pinyin": "Déyǔ",
+                "translation": {
+                  "ru": "немецкий язык",
+                  "en": "German language",
+                  "es": "idioma alemán",
+                  "pt-BR": "língua alemã"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "yingyu",
+                "hanzi": "英语",
+                "pinyin": "Yīngyǔ",
+                "translation": {
+                  "ru": "английский язык",
+                  "en": "English language",
+                  "es": "idioma inglés",
+                  "pt-BR": "língua inglesa"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "fayu",
+                "hanzi": "法语",
+                "pinyin": "Fǎyǔ",
+                "translation": {
+                  "ru": "французский язык",
+                  "en": "French language",
+                  "es": "idioma francés",
+                  "pt-BR": "língua francesa"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "hanguoyu",
+                "hanzi": "韩国语",
+                "pinyin": "Hánguóyǔ",
+                "translation": {
+                  "ru": "корейский язык",
+                  "en": "Korean language",
+                  "es": "idioma coreano",
+                  "pt-BR": "língua coreana"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "riyu",
+                "hanzi": "日语",
+                "pinyin": "Rìyǔ",
+                "translation": {
+                  "ru": "японский язык",
+                  "en": "Japanese language",
+                  "es": "idioma japonés",
+                  "pt-BR": "língua japonesa"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "xibanyayu",
+                "hanzi": "西班牙语",
+                "pinyin": "Xībānyáyǔ",
+                "translation": {
+                  "ru": "испанский язык",
+                  "en": "Spanish language",
+                  "es": "idioma español",
+                  "pt-BR": "língua espanhola"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_03_ch02",
+      "number": 2,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_other",
+            "title": {
+              "ru": "Другие слова",
+              "en": "Other words",
+              "es": "Otras palabras",
+              "pt-BR": "Outras palavras"
+            },
+            "items": [
+              {
+                "id": "xue",
+                "hanzi": "学",
+                "pinyin": "xué",
+                "translation": {
+                  "ru": "учиться",
+                  "en": "to study / to learn",
+                  "es": "estudiar / aprender",
+                  "pt-BR": "estudar / aprender"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "dui",
+                "hanzi": "对",
+                "pinyin": "duì",
+                "translation": {
+                  "ru": "правильный / верно",
+                  "en": "correct / right",
+                  "es": "correcto",
+                  "pt-BR": "correto"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "mingtian",
+                "hanzi": "明天",
+                "pinyin": "míngtiān",
+                "translation": {
+                  "ru": "завтра",
+                  "en": "tomorrow",
+                  "es": "mañana",
+                  "pt-BR": "amanhã"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "jian",
+                "hanzi": "见",
+                "pinyin": "jiàn",
+                "translation": {
+                  "ru": "увидеться / увидеть",
+                  "en": "to see each other / to see",
+                  "es": "verse / ver",
+                  "pt-BR": "ver-se / ver"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "qu",
+                "hanzi": "去",
+                "pinyin": "qù",
+                "translation": {
+                  "ru": "идти / ехать",
+                  "en": "to go / to travel (by vehicle)",
+                  "es": "ir / viajar (en vehículo)",
+                  "pt-BR": "ir / viajar (de veículo)"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "youju",
+                "hanzi": "邮局",
+                "pinyin": "yóujú",
+                "translation": {
+                  "ru": "почта",
+                  "en": "mail / post office",
+                  "es": "correo",
+                  "pt-BR": "correio"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "ji",
+                "hanzi": "寄",
+                "pinyin": "jì",
+                "translation": {
+                  "ru": "отправлять",
+                  "en": "to send",
+                  "es": "enviar",
+                  "pt-BR": "enviar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "xin",
+                "hanzi": "信",
+                "pinyin": "xìn",
+                "translation": {
+                  "ru": "письмо",
+                  "en": "letter",
+                  "es": "carta",
+                  "pt-BR": "carta"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "yinhang",
+                "hanzi": "银行",
+                "pinyin": "yínháng",
+                "translation": {
+                  "ru": "банк",
+                  "en": "bank",
+                  "es": "banco",
+                  "pt-BR": "banco"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "qu_money",
+                "hanzi": "取",
+                "pinyin": "qǔ",
+                "translation": {
+                  "ru": "брать / получать",
+                  "en": "to take / to receive",
+                  "es": "tomar / recibir",
+                  "pt-BR": "pegar / receber"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "qian",
+                "hanzi": "钱",
+                "pinyin": "qián",
+                "translation": {
+                  "ru": "деньги",
+                  "en": "money",
+                  "es": "dinero",
+                  "pt-BR": "dinheiro"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "liu",
+                "hanzi": "六",
+                "pinyin": "liù",
+                "translation": {
+                  "ru": "шесть",
+                  "en": "six",
+                  "es": "seis",
+                  "pt-BR": "seis"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_03_ch03",
+      "number": 3,
+      "title": {
+        "ru": "Итог",
+        "en": "Wrap-up",
+        "es": "Resumen",
+        "pt-BR": "Encerramento"
+      },
+      "goal": null,
+      "estimatedMinutes": 9,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_other_part2",
+            "title": {
+              "ru": "Другие слова",
+              "en": "Other words",
+              "es": "Otras palabras",
+              "pt-BR": "Outras palavras"
+            },
+            "items": [
+              {
+                "id": "qi",
+                "hanzi": "七",
+                "pinyin": "qī",
+                "translation": {
+                  "ru": "семь",
+                  "en": "seven",
+                  "es": "siete",
+                  "pt-BR": "sete"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "jiu",
+                "hanzi": "九",
+                "pinyin": "jiǔ",
+                "translation": {
+                  "ru": "девять",
+                  "en": "nine",
+                  "es": "nueve",
+                  "pt-BR": "nove"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "beijing",
+                "hanzi": "北京",
+                "pinyin": "Běijīng",
+                "translation": {
+                  "ru": "Пекин, столица Китая",
+                  "en": "Beijing, capital of China",
+                  "es": "Pekín, capital de China",
+                  "pt-BR": "Pequim, capital da China"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Дальше",
+          "showLessonHeader": false,
+          "dialogue": {
+            "id": "dialogue_see_tomorrow",
+            "title": "明天见",
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "你去邮局寄信吗？",
+                "pinyin": "Nǐ qù yóujú jì xìn ma?",
+                "translation": {
+                  "ru": "Ты идёшь на почту отправить письмо?",
+                  "en": "Are you going to the post office to mail a letter?",
+                  "es": "¿Vas a la oficina de correos a enviar una carta?",
+                  "pt-BR": "Você vai aos correios enviar uma carta?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "不去。去银行取钱。",
+                "pinyin": "Bù qù. Qù yínháng qǔ qián.",
+                "translation": {
+                  "ru": "Нет. Иду в банк снять деньги.",
+                  "en": "No. I'm going to the bank to withdraw money.",
+                  "es": "No. Voy al banco a sacar dinero.",
+                  "pt-BR": "Não. Vou ao banco sacar dinheiro."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "明天见！",
+                "pinyin": "Míngtiān jiàn!",
+                "translation": {
+                  "ru": "До завтра!",
+                  "en": "See you tomorrow!",
+                  "es": "¡Hasta mañana!",
+                  "pt-BR": "Até amanhã!"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "明天见！",
+                "pinyin": "Míngtiān jiàn!",
+                "translation": {
+                  "ru": "До завтра!",
+                  "en": "See you tomorrow!",
+                  "es": "¡Hasta mañana!",
+                  "pt-BR": "Até amanhã!"
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabularySummary",
+          "groups": [
+            {
+              "id": "vocab_languages",
+              "title": {
+                "ru": "Языки",
+                "en": "Languages",
+                "es": "Idiomas",
+                "pt-BR": "Idiomas"
+              },
+              "items": []
+            },
+            {
+              "id": "vocab_other",
+              "title": {
+                "ru": "Другие слова",
+                "en": "Other words",
+                "es": "Otras palabras",
+                "pt-BR": "Outras palavras"
+              },
+              "items": []
+            }
+          ]
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "学习汉语",
+          "dialogue": {
+            "id": "dialogue_study_chinese",
+            "title": "学习汉语",
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "你学俄语吗？",
+                "pinyin": "Nǐ xué Éyǔ ma?",
+                "translation": {
+                  "ru": "Ты учишь русский?",
+                  "en": "Do you study Russian?",
+                  "es": "¿Estudias ruso?",
+                  "pt-BR": "Você estuda russo?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "不，学汉语。",
+                "pinyin": "Bù, xué Hànyǔ.",
+                "translation": {
+                  "ru": "Нет, учу китайский.",
+                  "en": "No, I study Chinese.",
+                  "es": "No, estudio chino.",
+                  "pt-BR": "Não, estudo chinês."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "去北京吗？",
+                "pinyin": "Qù Běijīng ma?",
+                "translation": {
+                  "ru": "Едешь в Пекин?",
+                  "en": "Are you going to Beijing?",
+                  "es": "¿Vas a Pekín?",
+                  "pt-BR": "Você vai para Pequim?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "对。",
+                "pinyin": "Duì.",
+                "translation": {
+                  "ru": "Да.",
+                  "en": "Yes.",
+                  "es": "Sí.",
+                  "pt-BR": "Sim."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "明天见",
+          "dialogue": {
+            "id": "dialogue_see_tomorrow",
+            "title": "明天见",
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "你去邮局寄信吗？",
+                "pinyin": "Nǐ qù yóujú jì xìn ma?",
+                "translation": {
+                  "ru": "Ты идёшь на почту отправить письмо?",
+                  "en": "Are you going to the post office to mail a letter?",
+                  "es": "¿Vas a la oficina de correos a enviar una carta?",
+                  "pt-BR": "Você vai aos correios enviar uma carta?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "不去。去银行取钱。",
+                "pinyin": "Bù qù. Qù yínháng qǔ qián.",
+                "translation": {
+                  "ru": "Нет. Иду в банк снять деньги.",
+                  "en": "No. I'm going to the bank to withdraw money.",
+                  "es": "No. Voy al banco a sacar dinero.",
+                  "pt-BR": "Não. Vou ao banco sacar dinheiro."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "明天见！",
+                "pinyin": "Míngtiān jiàn!",
+                "translation": {
+                  "ru": "До завтра!",
+                  "en": "See you tomorrow!",
+                  "es": "¡Hasta mañana!",
+                  "pt-BR": "Até amanhã!"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "明天见！",
+                "pinyin": "Míngtiān jiàn!",
+                "translation": {
+                  "ru": "До завтра!",
+                  "en": "See you tomorrow!",
+                  "es": "¡Hasta mañana!",
+                  "pt-BR": "Até amanhã!"
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "quizChineseToTranslation"
+        },
+        {
+          "kind": "quizTranslationToChinese"
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_03_ch04",
+      "number": 4,
+      "title": {
+        "ru": "Продолжение",
+        "en": "Continue",
+        "es": "Continuación",
+        "pt-BR": "Continuação"
+      },
+      "goal": null,
+      "estimatedMinutes": 7,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "examples",
+          "items": [
+            {
+              "id": "ex_xue_eyu",
+              "hanzi": "你学俄语吗？",
+              "pinyin": "Nǐ xué Éyǔ ma?",
+              "translation": {
+                "ru": "Ты учишь русский?",
+                "en": "Do you study Russian?",
+                "es": "¿Estudias ruso?",
+                "pt-BR": "Você estuda russo?"
+              }
+            },
+            {
+              "id": "ex_xue_hanyu",
+              "hanzi": "不，学汉语。",
+              "pinyin": "Bù, xué Hànyǔ.",
+              "translation": {
+                "ru": "Нет, учу китайский.",
+                "en": "No, I study Chinese.",
+                "es": "No, estudio chino.",
+                "pt-BR": "Não, estudo chinês."
+              }
+            },
+            {
+              "id": "ex_qu_beijing",
+              "hanzi": "去北京吗？",
+              "pinyin": "Qù Běijīng ma?",
+              "translation": {
+                "ru": "Едешь в Пекин?",
+                "en": "Are you going to Beijing?",
+                "es": "¿Vas a Pekín?",
+                "pt-BR": "Você vai para Pequim?"
+              }
+            },
+            {
+              "id": "ex_dui",
+              "hanzi": "对！",
+              "pinyin": "Duì!",
+              "translation": {
+                "ru": "Верно!",
+                "en": "That's right!",
+                "es": "¡Correcto!",
+                "pt-BR": "Isso mesmo!"
+              }
+            },
+            {
+              "id": "ex_qu_youju",
+              "hanzi": "你去邮局吗？",
+              "pinyin": "Nǐ qù yóujú ma?",
+              "translation": {
+                "ru": "Ты идёшь на почту?",
+                "en": "Are you going to the post office?",
+                "es": "¿Vas a la oficina de correos?",
+                "pt-BR": "Você vai aos correios?"
+              }
+            },
+            {
+              "id": "ex_qu_yinhang",
+              "hanzi": "不去，去银行取钱。",
+              "pinyin": "Bù qù, qù yínháng qǔ qián.",
+              "translation": {
+                "ru": "Нет, иду в банк снять деньги.",
+                "en": "No, I'm going to the bank to withdraw money.",
+                "es": "No, voy al banco a sacar dinero.",
+                "pt-BR": "Não, vou ao banco sacar dinheiro."
+              }
+            },
+            {
+              "id": "ex_mingtian_jian_a",
+              "hanzi": "明天见！",
+              "pinyin": "Míngtiān jiàn!",
+              "translation": {
+                "ru": "До завтра!",
+                "en": "See you tomorrow!",
+                "es": "¡Hasta mañana!",
+                "pt-BR": "Até amanhã!"
+              }
+            },
+            {
+              "id": "ex_mingtian_jian_b",
+              "hanzi": "明天见！",
+              "pinyin": "Míngtiān jiàn!",
+              "translation": {
+                "ru": "До завтра!",
+                "en": "See you tomorrow!",
+                "es": "¡Hasta mañana!",
+                "pt-BR": "Até amanhã!"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    }
   ]
 }

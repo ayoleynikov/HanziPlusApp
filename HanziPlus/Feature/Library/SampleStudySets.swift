@@ -81,8 +81,17 @@ enum SampleStudySets {
         color: .cyan
     )
 
+    static let pathCourse = StudySet(
+        title: "Path Course",
+        subtitle: "Vocabulary from the learning path",
+        fileName: "path_course",
+        icon: "map.fill",
+        color: .teal
+    )
+
     static let groups: [StudySetGroup] = [
         StudySetGroup(id: "hsk", title: "HSK", emoji: "🎓", sets: [hsk1, hsk2, hsk3]),
+        StudySetGroup(id: "path", title: "Path Course", emoji: "🗺️", sets: [pathCourse]),
         StudySetGroup(id: "travel", title: "Travel", emoji: "✈️", sets: [travel]),
         StudySetGroup(id: "business", title: "Business Chinese", emoji: "💼", sets: [business]),
         StudySetGroup(id: "daily_life", title: "Daily Life", emoji: "❤️", sets: [dailyLife]),

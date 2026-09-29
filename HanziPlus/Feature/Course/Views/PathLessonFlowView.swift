@@ -8,30 +8,85 @@ import SwiftUI
 struct PathLessonFlowView: View {
 
     @Environment(PathCourseStore.self) private var pathStore
+    @Environment(SmartReviewStore.self) private var smartReviewStore
     @Environment(LanguageSettingsStore.self) private var languageStore
 
     let lesson: PathLesson
+    var autoResumeChapter: Bool = false
 
-    @State private var viewModel: PathLessonViewModel?
+    @State private var selectedChapter: PathLessonChapter?
+    @State private var chapterViewModel: PathChapterViewModel?
     @State private var nextLessonID: String?
+    @State private var replayDialogueIndex: Int?
+    @State private var showsRestartConfirmation = false
 
     var body: some View {
-        Group {
-            if let viewModel {
-                content(viewModel)
+        ZStack {
+            if let index = replayDialogueIndex, index < lesson.dialogues.count {
+                replayDialogueContent(at: index)
+            } else if let chapterViewModel {
+                chapterContent(chapterViewModel)
             } else {
-                ProgressView()
+                PathChapterMapView(
+                    lesson: lesson,
+                    onSelectChapter: { chapter in
+                        selectedChapter = chapter
+                        chapterViewModel = PathChapterViewModel(
+                            lesson: lesson,
+                            chapter: chapter,
+                            pathStore: pathStore,
+                            smartReviewStore: smartReviewStore
+                        )
+                    },
+                    onContinue: {
+                        if let chapter = pathStore.currentChapter(for: lesson) {
+                            selectedChapter = chapter
+                            chapterViewModel = PathChapterViewModel(
+                                lesson: lesson,
+                                chapter: chapter,
+                                pathStore: pathStore,
+                                smartReviewStore: smartReviewStore
+                            )
+                        }
+                    }
+                )
             }
         }
         .navigationTitle("\(PathStrings.lessonPrefix) \(lesson.number)")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar(.hidden, for: .tabBar)
-        .onAppear {
-            if viewModel == nil {
-                viewModel = PathLessonViewModel(lesson: lesson, pathStore: pathStore)
+        .toolbar {
+            if chapterViewModel == nil, hasLessonProgress {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        showsRestartConfirmation = true
+                    } label: {
+                        Image(systemName: "arrow.counterclockwise")
+                            .font(.system(size: 14, weight: .semibold))
+                            .foregroundStyle(.white)
+                            .frame(width: 32, height: 32)
+                            .background(Circle().fill(Color.red))
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel(PathStrings.retryLesson)
+                    .accessibilityIdentifier("path_restart_lesson_button")
+                }
             }
         }
+        .confirmationDialog(
+            PathStrings.retryLessonConfirmTitle,
+            isPresented: $showsRestartConfirmation,
+            titleVisibility: .visible
+        ) {
+            Button(PathStrings.retryLesson, role: .destructive) {
+                restartLesson()
+            }
+            Button(L10n.string("common.cancel"), role: .cancel) {}
+        } message: {
+            Text(PathStrings.retryLessonConfirmMessage)
+        }
         .id(languageStore.refreshToken)
+        .accessibilityElement(children: .contain)
         .accessibilityIdentifier("path_lesson_flow")
         .navigationDestination(item: $nextLessonID) { lessonID in
             if let summary = pathStore.course?.lessons.first(where: { $0.id == lessonID }),
@@ -40,17 +95,45 @@ struct PathLessonFlowView: View {
                 PathLessonFlowView(lesson: loadedLesson)
             }
         }
+        .onAppear {
+            pathStore.startLesson(lesson.id)
+            resumeChapterIfNeeded()
+        }
+    }
+
+    private func resumeChapterIfNeeded() {
+        guard autoResumeChapter, chapterViewModel == nil else { return }
+        guard let chapter = pathStore.currentChapter(for: lesson) else { return }
+        selectedChapter = chapter
+        chapterViewModel = PathChapterViewModel(
+            lesson: lesson,
+            chapter: chapter,
+            pathStore: pathStore,
+            smartReviewStore: smartReviewStore
+        )
     }
 
     @ViewBuilder
-    private func content(_ vm: PathLessonViewModel) -> some View {
+    private func chapterContent(_ vm: PathChapterViewModel) -> some View {
         VStack(spacing: AppSpacing.medium) {
-            if !isCompletionStep(vm) {
+            Button(PathStrings.backToChapters) {
+                chapterViewModel = nil
+                selectedChapter = nil
+            }
+            .font(.subheadline.weight(.semibold))
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .frame(minHeight: 44)
+            .accessibilityIdentifier("path_back_to_chapters_button")
+
+            if !isTerminalStep(vm) {
                 progressHeader(vm)
             }
 
             Group {
                 switch vm.currentStep {
+                case .toneGuide(let guide):
+                    PathToneGuideView(guide: guide, onContinue: { vm.advance() })
+
                 case .dialogue(let dialogue, let continueTitle, let showHeader):
                     PathDialogueView(
                         lesson: lesson,
@@ -58,7 +141,7 @@ struct PathLessonFlowView: View {
                         title: dialogue.title,
                         buttonTitle: continueTitle,
                         showLessonHeader: showHeader,
-                        highlightVocabulary: studiedVocabulary(before: vm),
+                        highlightVocabulary: chapterVocabulary(vm.chapter),
                         onContinue: { vm.advance() }
                     )
 
@@ -91,14 +174,46 @@ struct PathLessonFlowView: View {
                         title: title,
                         buttonTitle: PathStrings.next,
                         showLessonHeader: false,
-                        highlightVocabulary: lesson.allVocabulary,
-                        onContinue: {
-                            if vm.lessonProgress.isCompleted {
-                                vm.returnToComplete()
-                            } else {
-                                vm.advance()
-                            }
-                        }
+                        highlightVocabulary: vm.chapter.vocabularyItems,
+                        onContinue: { vm.advance() }
+                    )
+
+                case .grammar(let card):
+                    PathGrammarCardView(card: card, onContinue: { vm.advance() })
+
+                case .sentenceBuilder(let activity):
+                    PathSentenceBuilderView(
+                        activity: activity,
+                        selectedTokenIDs: vm.selectedTokenIDs,
+                        showFeedback: vm.showFeedback,
+                        wasCorrect: vm.lastAnswerCorrect,
+                        explanation: vm.feedbackExplanation,
+                        onToggleToken: { vm.toggleToken($0, activity: activity) },
+                        onSubmit: { vm.submitSentenceBuilder(activity) },
+                        onContinue: { vm.continueAfterActivity() }
+                    )
+
+                case .fillBlank(let activity):
+                    PathFillBlankView(
+                        activity: activity,
+                        selectedAnswer: vm.selectedAnswer,
+                        showFeedback: vm.showFeedback,
+                        wasCorrect: vm.lastAnswerCorrect,
+                        explanation: vm.feedbackExplanation,
+                        onSelect: { vm.submitFillBlank(activity, option: $0) },
+                        onContinue: { vm.continueAfterActivity() }
+                    )
+
+                case .dialogueOrder(let activity):
+                    PathDialogueOrderView(
+                        activity: activity,
+                        selectedOrder: vm.selectedLineOrder,
+                        showFeedback: vm.showFeedback,
+                        wasCorrect: vm.lastAnswerCorrect,
+                        explanation: vm.feedbackExplanation,
+                        onToggleLine: { vm.moveLine($0, in: activity) },
+                        onSubmit: { vm.submitDialogueOrder(activity) },
+                        onContinue: { vm.continueAfterActivity() }
                     )
 
                 case .quizChineseToTranslation:
@@ -109,9 +224,12 @@ struct PathLessonFlowView: View {
                             selectedAnswer: vm.selectedAnswer,
                             showFeedback: vm.showFeedback,
                             wasCorrect: vm.lastAnswerCorrect,
+                            explanation: vm.feedbackExplanation,
                             onSelect: { vm.selectChineseQuizAnswer($0) },
                             onContinue: { vm.continueAfterChineseQuiz() }
                         )
+                    } else {
+                        PathTransitionView(text: PathStrings.next, onContinue: { vm.advance() })
                     }
 
                 case .quizTranslationToChinese:
@@ -122,37 +240,72 @@ struct PathLessonFlowView: View {
                             selectedAnswerID: vm.selectedAnswer,
                             showFeedback: vm.showFeedback,
                             wasCorrect: vm.lastAnswerCorrect,
+                            explanation: vm.feedbackExplanation,
                             onSelect: { vm.selectTranslationQuizAnswer($0) },
                             onContinue: { vm.continueAfterTranslationQuiz() }
                         )
+                    } else {
+                        PathTransitionView(text: PathStrings.next, onContinue: { vm.advance() })
                     }
 
                 case .examples:
                     if let example = vm.currentExample {
-                        let exampleIndex = vm.lessonProgress.exampleIndex
-                        let previousGroup = exampleIndex > 0
-                            ? lesson.examples[exampleIndex - 1].group
-                            : nil
                         PathExamplesView(
                             example: example,
-                            showsGroupHeader: example.group != previousGroup,
-                            index: exampleIndex,
-                            total: lesson.examples.count,
+                            showsGroupHeader: false,
+                            index: vm.chapterProgress.exampleIndex,
+                            total: vm.chapterExamples.count,
                             onContinue: { vm.continueAfterExample() }
                         )
                     }
 
+                case .mistakeReview:
+                    if let mistake = vm.activeMistakes.first(where: { !$0.isRemediated }),
+                       let item = vm.chapter.vocabularyItems.first(where: { $0.id == mistake.vocabularyID }) {
+                        PathMistakeReviewView(
+                            mistakes: vm.activeMistakes,
+                            item: item,
+                            options: vm.mistakeQuizOptions(for: item),
+                            selectedAnswer: vm.selectedAnswer,
+                            showFeedback: vm.showFeedback,
+                            wasCorrect: vm.lastAnswerCorrect,
+                            explanation: vm.feedbackExplanation,
+                            onSelect: { vm.submitMistakeQuiz(item: item, answer: $0) },
+                            onContinue: { vm.continueAfterMistakeReview() }
+                        )
+                    } else {
+                        Color.clear
+                            .onAppear { vm.continueAfterMistakeReview() }
+                    }
+
+                case .chapterComplete:
+                    PathChapterCompleteView(
+                        chapter: vm.chapter,
+                        wordCount: vm.chapter.vocabularyItems.filter(\.countsInLessonTotal).count,
+                        mistakesReviewed: vm.activeMistakes.filter(\.isRemediated).count
+                    ) {
+                        chapterViewModel = nil
+                        selectedChapter = nil
+                    }
+                    .onAppear { vm.advance() }
+
                 case .completion:
                     PathLessonCompleteView(
                         lesson: lesson,
-                        onReplayDialogues: { vm.replayDialoguesFromComplete() },
+                        onReplayDialogues: {
+                            replayDialogueIndex = lesson.dialogues.isEmpty ? nil : 0
+                        },
                         onRetryLesson: {
-                            vm.restartLesson()
+                            pathStore.restartLesson(lesson.id, keepCompleted: false)
+                            chapterViewModel = nil
+                            selectedChapter = nil
+                            replayDialogueIndex = nil
                         },
                         onNextLesson: nextLessonSummary == nil ? nil : {
                             nextLessonID = nextLessonSummary?.id
                         }
                     )
+                    .onAppear { vm.advance() }
 
                 case .none:
                     ContentUnavailableView(
@@ -168,48 +321,76 @@ struct PathLessonFlowView: View {
         .background(Color(.systemGroupedBackground).ignoresSafeArea())
     }
 
-    private func isCompletionStep(_ vm: PathLessonViewModel) -> Bool {
-        if case .completion = vm.currentStep { return true }
-        return false
+    private func replayDialogueContent(at index: Int) -> some View {
+        let dialogue = lesson.dialogues[index]
+        return PathDialogueView(
+            lesson: lesson,
+            dialogue: dialogue,
+            title: dialogue.title,
+            buttonTitle: index < lesson.dialogues.count - 1 ? PathStrings.next : PathStrings.backToChapters,
+            showLessonHeader: false,
+            highlightVocabulary: lesson.allVocabulary,
+            onContinue: {
+                if index < lesson.dialogues.count - 1 {
+                    replayDialogueIndex = index + 1
+                } else {
+                    replayDialogueIndex = nil
+                }
+            }
+        )
     }
 
-    private func progressHeader(_ vm: PathLessonViewModel) -> some View {
-        VStack(alignment: .leading, spacing: 8) {
-            ProgressView(value: vm.progressFraction)
-                .tint(.teal)
+    private func isTerminalStep(_ vm: PathChapterViewModel) -> Bool {
+        switch vm.currentStep {
+        case .completion, .chapterComplete:
+            return true
+        default:
+            return false
         }
+    }
+
+    private func progressHeader(_ vm: PathChapterViewModel) -> some View {
+        PathFlowStepHeader(
+            chapterTitle: vm.chapter.localizedTitle,
+            progress: vm.progressFraction
+        )
         .padding(.horizontal, AppSpacing.medium)
         .padding(.top, AppSpacing.small)
+    }
+
+    private func restartLesson() {
+        pathStore.restartLesson(lesson.id, keepCompleted: false)
+        chapterViewModel = nil
+        selectedChapter = nil
+        replayDialogueIndex = nil
+    }
+
+    private var hasLessonProgress: Bool {
+        guard let progress = pathStore.progress.lessonProgress[lesson.id] else { return false }
+        return progress.isCompleted
+            || !progress.chapterProgress.isEmpty
+            || progress.currentChapterID != nil
+    }
+
+    private func chapterVocabulary(_ chapter: PathLessonChapter) -> [PathVocabularyItem] {
+        chapter.vocabularyItems
     }
 
     private var nextLessonSummary: PathLessonSummary? {
         guard let course = pathStore.course else { return nil }
         guard let index = course.lessons.firstIndex(where: { $0.id == lesson.id }) else { return nil }
-
-        return course.lessons[(index + 1)...].first(where: {
-            $0.isAvailable && $0.contentFile != nil
-        })
+        return course.lessons[(index + 1)...].first(where: { $0.isAvailable && $0.contentFile != nil })
     }
+}
 
-    private func studiedVocabulary(before vm: PathLessonViewModel) -> [PathVocabularyItem] {
-        guard let stepIndex = vm.currentStepIndex else { return [] }
-
-        var items: [PathVocabularyItem] = []
-        let steps = PathLessonFlowResolver.resolve(lesson)
-
-        for index in 0..<stepIndex {
-            if case .vocabularyItem(let item, _, _, _) = steps[index] {
-                items.append(item)
-            }
-        }
-
-        return items
-    }
+private extension PathLessonChapter {
+    var localizedTitle: String { title.localizedValue() }
 }
 
 #Preview {
     NavigationStack {
         PathLessonFlowView(lesson: PathCourseLoader.previewLesson())
             .environment(PathCourseStore())
+            .environment(SmartReviewStore())
     }
 }

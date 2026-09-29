@@ -13,210 +13,351 @@
     "es": "¡Hola!",
     "pt-BR": "Olá!"
   },
-  "sections": [
+  "chapters": [
     {
-      "kind": "dialogue",
-      "continueButtonTitle": "Изучить первые слова",
-      "showLessonHeader": true,
-      "dialogue": {
-        "id": "dialogue_mini",
-        "title": null,
-        "lines": [
-          {
-            "speaker": "A",
-            "hanzi": "你好！",
-            "pinyin": "Nǐ hǎo!",
-            "translation": {
-              "ru": "Здравствуй!",
-              "en": "Hello!",
-              "es": "¡Hola!",
-              "pt-BR": "Olá!"
-            },
-            "audioKey": null
-          },
-          {
-            "speaker": "B",
-            "hanzi": "你好！",
-            "pinyin": "Nǐ hǎo!",
-            "translation": {
-              "ru": "Здравствуй!",
-              "en": "Hello!",
-              "es": "¡Hola!",
-              "pt-BR": "Olá!"
-            },
-            "audioKey": null
-          }
-        ]
-      }
-    },
-    {
-      "kind": "vocabulary",
-      "vocabulary": {
-        "id": "vocab_starter",
+      "id": "lesson_01_ch01",
+      "number": 1,
+      "title": {
+        "ru": "Пиньинь и тоны",
+        "en": "Pinyin and tones",
+        "es": "Pinyin y tonos",
+        "pt-BR": "Pinyin e tons"
+      },
+      "goal": {
+        "ru": "Понять, как читать pinyin и различать четыре тона.",
+        "en": "Understand how to read pinyin and distinguish the four tones.",
+        "es": "Entender cómo leer pinyin y distinguir los cuatro tonos.",
+        "pt-BR": "Entender como ler pinyin e distinguir os quatro tons."
+      },
+      "estimatedMinutes": 8,
+      "toneGuide": {
+        "id": "l01_tone_guide",
         "title": {
-          "ru": "Первые слова",
-          "en": "First words",
-          "es": "Primeras palabras",
-          "pt-BR": "Primeiras palavras"
+          "ru": "Как читать pinyin",
+          "en": "How to read pinyin",
+          "es": "Cómo leer pinyin",
+          "pt-BR": "Como ler pinyin"
         },
-        "items": [
+        "introduction": {
+          "ru": "Pinyin — латинская транскрипция китайского. Один и тот же слог с разными тонами может иметь разный смысл. В курсе мы учим тоны визуально: смотри на линию тона и знак над буквой.",
+          "en": "Pinyin is the Latin transcription of Chinese. The same syllable with different tones can mean different things. In this course we learn tones visually: watch the tone contour and the mark above the vowel.",
+          "es": "Pinyin es la transcripción latina del chino. El mismo sílabo con distintos tonos puede tener distintos significados. En este curso aprendemos los tonos visualmente: observa la línea del tono y la marca sobre la vocal.",
+          "pt-BR": "Pinyin é a transcrição latina do chinês. O mesmo sílaba com tons diferentes pode ter significados diferentes. Neste curso aprendemos os tons visualmente: observe a linha do tono e a marca sobre a vocal."
+        },
+        "tones": [
           {
-            "id": "ni",
-            "hanzi": "你",
-            "pinyin": "nǐ",
-            "translation": {
-              "ru": "ты",
-              "en": "you",
-              "es": "tú",
-              "pt-BR": "você"
+            "syllable": "ma1",
+            "pinyin": "mā",
+            "toneNumber": 1,
+            "meaning": {
+              "ru": "мама (妈)",
+              "en": "mother (妈)",
+              "es": "madre (妈)",
+              "pt-BR": "mãe (妈)"
             },
-            "audioKey": null,
-            "countsInLessonTotal": true,
-            "isPhraseExample": false
+            "contourDescription": {
+              "ru": "Первый тон — высокий и ровный, как удерживаемая нота.",
+              "en": "First tone — high and level, like a held note.",
+              "es": "Primer tono — alto y plano, como una nota sostenida.",
+              "pt-BR": "Primeiro tono — alto e plano, como uma nota sustentada."
+            }
           },
           {
-            "id": "hao",
-            "hanzi": "好",
-            "pinyin": "hǎo",
-            "translation": {
-              "ru": "хороший; добрый",
-              "en": "good; kind",
-              "es": "bueno; amable",
-              "pt-BR": "bom; gentil"
+            "syllable": "ma2",
+            "pinyin": "má",
+            "toneNumber": 2,
+            "meaning": {
+              "ru": "пеньё (麻)",
+              "en": "hemp (麻)",
+              "es": "cáñamo (麻)",
+              "pt-BR": "cânhamo (麻)"
             },
-            "audioKey": null,
-            "countsInLessonTotal": true,
-            "isPhraseExample": false
+            "contourDescription": {
+              "ru": "Второй тон — от среднего к высокому, как вопрос «что?».",
+              "en": "Second tone — rises from mid to high, like asking “what?”",
+              "es": "Segundo tono — sube de medio a alto, como preguntar «¿qué?»",
+              "pt-BR": "Segundo tono — sobe do médio ao alto, como perguntar «o quê?»"
+            }
           },
           {
-            "id": "yi",
-            "hanzi": "一",
-            "pinyin": "yī",
-            "translation": {
-              "ru": "один",
-              "en": "one",
-              "es": "uno",
-              "pt-BR": "um"
+            "syllable": "ma3",
+            "pinyin": "mǎ",
+            "toneNumber": 3,
+            "meaning": {
+              "ru": "лошадь (马)",
+              "en": "horse (马)",
+              "es": "caballo (马)",
+              "pt-BR": "cavalo (马)"
             },
-            "audioKey": null,
-            "countsInLessonTotal": true,
-            "isPhraseExample": false
+            "contourDescription": {
+              "ru": "Третий тон — сначала опускается, затем поднимается (полный тон).",
+              "en": "Third tone — dips down then rises (full tone).",
+              "es": "Tercer tono — baja y luego sube (tono completo).",
+              "pt-BR": "Terceiro tono — desce e depois sobe (tono completo)."
+            }
           },
           {
-            "id": "wu",
-            "hanzi": "五",
-            "pinyin": "wǔ",
-            "translation": {
-              "ru": "пять",
-              "en": "five",
-              "es": "cinco",
-              "pt-BR": "cinco"
+            "syllable": "ma4",
+            "pinyin": "mà",
+            "toneNumber": 4,
+            "meaning": {
+              "ru": "ругать (骂)",
+              "en": "to scold (骂)",
+              "es": "regañar (骂)",
+              "pt-BR": "repreender (骂)"
             },
-            "audioKey": null,
-            "countsInLessonTotal": true,
-            "isPhraseExample": false
-          },
-          {
-            "id": "ba",
-            "hanzi": "八",
-            "pinyin": "bā",
-            "translation": {
-              "ru": "восемь",
-              "en": "eight",
-              "es": "ocho",
-              "pt-BR": "oito"
-            },
-            "audioKey": null,
-            "countsInLessonTotal": true,
-            "isPhraseExample": false
-          },
-          {
-            "id": "da",
-            "hanzi": "大",
-            "pinyin": "dà",
-            "translation": {
-              "ru": "большой",
-              "en": "big / large",
-              "es": "grande",
-              "pt-BR": "grande"
-            },
-            "audioKey": null,
-            "countsInLessonTotal": true,
-            "isPhraseExample": false
-          },
-          {
-            "id": "bu",
-            "hanzi": "不",
-            "pinyin": "bù",
-            "translation": {
-              "ru": "не",
-              "en": "not",
-              "es": "no",
-              "pt-BR": "não"
-            },
-            "audioKey": null,
-            "countsInLessonTotal": true,
-            "isPhraseExample": false
+            "contourDescription": {
+              "ru": "Четвёртый тон — резко падает с высокого к низкому.",
+              "en": "Fourth tone — falls sharply from high to low.",
+              "es": "Cuarto tono — cae bruscamente de alto a bajo.",
+              "pt-BR": "Quarto tono — cai abruptamente do alto ao baixo."
+            }
           }
-        ]
-      }
+        ],
+        "neutralToneNote": {
+          "ru": "Нейтральный тон (без знака) часто короче и мягче, например частица 吗 (ma) в конце вопроса.",
+          "en": "The neutral tone (no mark) is often shorter and softer, e.g. the particle 吗 (ma) at the end of a question.",
+          "es": "El tono neutro (sin marca) suele ser más corto y suave, por ejemplo la partícula 吗 (ma) al final de una pregunta.",
+          "pt-BR": "O tono neutro (sem marca) é frequentemente mais curto e suave, por exemplo a partícula 吗 (ma) no final de uma pergunta."
+        },
+        "toneMarkNote": {
+          "ru": "Знак тона ставится на главную гласную слога: mā, má, mǎ, mà. В 你好 третий тон в 你 часто звучит ближе к второму: nǐ hǎo → ní hǎo.",
+          "en": "The tone mark goes on the main vowel: mā, má, mǎ, mà. In 你好 the third tone in 你 often sounds closer to the second: nǐ hǎo → ní hǎo.",
+          "es": "La marca tonal va en la vocal principal: mā, má, mǎ, mà. En 你好 el tercer tono de 你 suena más cercano al segundo: nǐ hǎo → ní hǎo.",
+          "pt-BR": "A marca tonal vai na vocal principal: mā, má, mǎ, mà. Em 你好 o terceiro tono de 你 soa mais próximo do segundo: nǐ hǎo → ní hǎo."
+        }
+      },
+      "grammarCard": null,
+      "sections": [],
+      "activities": []
     },
     {
-      "kind": "dialogueRepeat",
-      "title": "Прочитай диалог ещё раз",
-      "dialogue": {
-        "id": "dialogue_mini",
-        "title": null,
-        "lines": [
-          {
-            "speaker": "A",
-            "hanzi": "你好！",
-            "pinyin": "Nǐ hǎo!",
-            "translation": {
-              "ru": "Здравствуй!",
-              "en": "Hello!",
-              "es": "¡Hola!",
-              "pt-BR": "Olá!"
-            },
-            "audioKey": null
-          },
-          {
-            "speaker": "B",
-            "hanzi": "你好！",
-            "pinyin": "Nǐ hǎo!",
-            "translation": {
-              "ru": "Здравствуй!",
-              "en": "Hello!",
-              "es": "¡Hola!",
-              "pt-BR": "Olá!"
-            },
-            "audioKey": null
-          }
-        ]
-      }
-    },
-    {
-      "kind": "quizChineseToTranslation"
-    },
-    {
-      "kind": "quizTranslationToChinese"
-    },
-    {
-      "kind": "examples",
-      "items": [
-        {
-          "id": "ex_nihao",
+      "id": "lesson_01_ch02",
+      "number": 2,
+      "title": {
+        "ru": "Первое приветствие",
+        "en": "First greeting",
+        "es": "Primer saludo",
+        "pt-BR": "Primeira saudação"
+      },
+      "goal": {
+        "ru": "Сказать «привет» и понять, как 你 и 好 образуют 你好.",
+        "en": "Say “hello” and see how 你 and 好 form 你好.",
+        "es": "Decir «hola» y ver cómo 你 y 好 forman 你好.",
+        "pt-BR": "Dizer «olá» e ver como 你 e 好 formam 你好."
+      },
+      "estimatedMinutes": 10,
+      "toneGuide": null,
+      "grammarCard": {
+        "id": "l01_greeting",
+        "title": {
+          "ru": "Приветствие 你好",
+          "en": "Greeting 你好",
+          "es": "Saludo 你好",
+          "pt-BR": "Saudação 你好"
+        },
+        "explanation": {
+          "ru": "Два слова 你 и 好 образуют приветствие. Буквально: «ты хороший».",
+          "en": "The words 你 and 好 form a greeting. Literally: “you good.”",
+          "es": "Las palabras 你 y 好 forman un saludo. Literalmente: «tú bueno».",
+          "pt-BR": "As palavras 你 e 好 formam uma saudação. Literalmente: «você bom»."
+        },
+        "formula": {
+          "ru": "你 + 好 → 你好",
+          "en": "你 + 好 → 你好",
+          "es": "你 + 好 → 你好",
+          "pt-BR": "你 + 好 → 你好"
+        },
+        "positiveExample": {
           "hanzi": "你好！",
           "pinyin": "Nǐ hǎo!",
           "translation": {
-            "ru": "Здравствуй!",
+            "ru": "Привет!",
             "en": "Hello!",
             "es": "¡Hola!",
             "pt-BR": "Olá!"
           }
         },
+        "questionExample": null,
+        "negativeExample": null
+      },
+      "sections": [
         {
-          "id": "ex_nihao_ma",
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_greeting",
+            "title": {
+              "ru": "Первое приветствие",
+              "en": "First greeting",
+              "es": "Primer saludo",
+              "pt-BR": "Primeira saudação"
+            },
+            "items": [
+              {
+                "id": "ni",
+                "hanzi": "你",
+                "pinyin": "nǐ",
+                "translation": {
+                  "ru": "ты",
+                  "en": "you",
+                  "es": "tú",
+                  "pt-BR": "você"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "hao",
+                "hanzi": "好",
+                "pinyin": "hǎo",
+                "translation": {
+                  "ru": "хороший; добрый",
+                  "en": "good; kind",
+                  "es": "bueno; amable",
+                  "pt-BR": "bom; gentil"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "nihao",
+                "hanzi": "你好",
+                "pinyin": "nǐ hǎo",
+                "translation": {
+                  "ru": "привет; здравствуй",
+                  "en": "hello",
+                  "es": "hola",
+                  "pt-BR": "olá"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": true
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Изучить первые слова",
+          "showLessonHeader": true,
+          "dialogue": {
+            "id": "dialogue_mini",
+            "title": null,
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "你好！",
+                "pinyin": "Nǐ hǎo!",
+                "translation": {
+                  "ru": "Здравствуй!",
+                  "en": "Hello!",
+                  "es": "¡Hola!",
+                  "pt-BR": "Olá!"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "你好！",
+                "pinyin": "Nǐ hǎo!",
+                "translation": {
+                  "ru": "Здравствуй!",
+                  "en": "Hello!",
+                  "es": "¡Hola!",
+                  "pt-BR": "Olá!"
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "Прочитай диалог ещё раз",
+          "dialogue": {
+            "id": "dialogue_mini",
+            "title": null,
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "你好！",
+                "pinyin": "Nǐ hǎo!",
+                "translation": {
+                  "ru": "Здравствуй!",
+                  "en": "Hello!",
+                  "es": "¡Hola!",
+                  "pt-BR": "Olá!"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "你好！",
+                "pinyin": "Nǐ hǎo!",
+                "translation": {
+                  "ru": "Здравствуй!",
+                  "en": "Hello!",
+                  "es": "¡Hola!",
+                  "pt-BR": "Olá!"
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_01_ch03",
+      "number": 3,
+      "title": {
+        "ru": "Первый вопрос",
+        "en": "First question",
+        "es": "Primera pregunta",
+        "pt-BR": "Primeira pergunta"
+      },
+      "goal": {
+        "ru": "Спросить «как ты?» с 吗 и ответить «очень хорошо».",
+        "en": "Ask “how are you?” with 吗 and answer “very good.”",
+        "es": "Preguntar «¿cómo estás?» con 吗 y responder «muy bien».",
+        "pt-BR": "Perguntar «como você está?» com 吗 e responder «muito bem»."
+      },
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": {
+        "id": "l01_ma_question",
+        "title": {
+          "ru": "Вопрос с 吗",
+          "en": "Questions with 吗",
+          "es": "Preguntas con 吗",
+          "pt-BR": "Perguntas com 吗"
+        },
+        "explanation": {
+          "ru": "Частица 吗 в конце превращает утверждение в вопрос «да/нет». Перед 吗 не ставят 不. 不 перед четвёртым тоном читается как bú.",
+          "en": "The particle 吗 at the end turns a statement into a yes/no question. 不 before a fourth-tone syllable is read bú.",
+          "es": "La partícula 吗 al final convierte una frase en pregunta de sí/no. 不 antes de un tono cuarto se lee bú.",
+          "pt-BR": "A partícula 吗 no final transforma uma frase em pergunta de sim/não. 不 antes de um quarto tono se lê bú."
+        },
+        "formula": {
+          "ru": "Утверждение + 吗",
+          "en": "Statement + 吗",
+          "es": "Oración + 吗",
+          "pt-BR": "Frase + 吗"
+        },
+        "positiveExample": {
+          "hanzi": "你好。",
+          "pinyin": "Nǐ hǎo.",
+          "translation": {
+            "ru": "Привет.",
+            "en": "Hello.",
+            "es": "Hola.",
+            "pt-BR": "Olá."
+          }
+        },
+        "questionExample": {
           "hanzi": "你好吗？",
           "pinyin": "Nǐ hǎo ma?",
           "translation": {
@@ -226,21 +367,240 @@
             "pt-BR": "Como você está?"
           }
         },
-        {
-          "id": "ex_hen_hao",
-          "hanzi": "很好！",
-          "pinyin": "Hěn hǎo!",
+        "negativeExample": {
+          "hanzi": "不好。",
+          "pinyin": "Bù hǎo.",
           "translation": {
-            "ru": "Очень хороший!",
-            "en": "Very good!",
-            "es": "¡Muy bien!",
-            "pt-BR": "Muito bom!"
+            "ru": "Не очень.",
+            "en": "Not good.",
+            "es": "No muy bien.",
+            "pt-BR": "Não muito bem."
           }
         }
-      ]
+      },
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_question",
+            "title": {
+              "ru": "Первый вопрос",
+              "en": "First question",
+              "es": "Primera pregunta",
+              "pt-BR": "Primeira pergunta"
+            },
+            "items": [
+              {
+                "id": "ma_particle",
+                "hanzi": "吗",
+                "pinyin": "ma",
+                "translation": {
+                  "ru": "вопросительная частица",
+                  "en": "question particle",
+                  "es": "partícula interrogativa",
+                  "pt-BR": "partícula interrogativa"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "nihao_ma",
+                "hanzi": "你好吗？",
+                "pinyin": "Nǐ hǎo ma?",
+                "translation": {
+                  "ru": "Как ты?",
+                  "en": "How are you?",
+                  "es": "¿Cómo estás?",
+                  "pt-BR": "Como você está?"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": true
+              },
+              {
+                "id": "hen",
+                "hanzi": "很",
+                "pinyin": "hěn",
+                "translation": {
+                  "ru": "очень",
+                  "en": "very",
+                  "es": "muy",
+                  "pt-BR": "muito"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "hen_hao",
+                "hanzi": "很好",
+                "pinyin": "Hěn hǎo",
+                "translation": {
+                  "ru": "Очень хороший!",
+                  "en": "Very good!",
+                  "es": "¡Muy bien!",
+                  "pt-BR": "Muito bom!"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": true
+              },
+              {
+                "id": "bu",
+                "hanzi": "不",
+                "pinyin": "bù",
+                "translation": {
+                  "ru": "не",
+                  "en": "not",
+                  "es": "no",
+                  "pt-BR": "não"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "quizChineseToTranslation"
+        },
+        {
+          "kind": "quizTranslationToChinese"
+        },
+        {
+          "kind": "examples",
+          "items": [
+            {
+              "id": "ex_nihao",
+              "hanzi": "你好！",
+              "pinyin": "Nǐ hǎo!",
+              "translation": {
+                "ru": "Здравствуй!",
+                "en": "Hello!",
+                "es": "¡Hola!",
+                "pt-BR": "Olá!"
+              }
+            },
+            {
+              "id": "ex_nihao_ma",
+              "hanzi": "你好吗？",
+              "pinyin": "Nǐ hǎo ma?",
+              "translation": {
+                "ru": "Как ты?",
+                "en": "How are you?",
+                "es": "¿Cómo estás?",
+                "pt-BR": "Como você está?"
+              }
+            },
+            {
+              "id": "ex_hen_hao",
+              "hanzi": "很好！",
+              "pinyin": "Hěn hǎo!",
+              "translation": {
+                "ru": "Очень хороший!",
+                "en": "Very good!",
+                "es": "¡Muy bien!",
+                "pt-BR": "Muito bom!"
+              }
+            }
+          ]
+        }
+      ],
+      "activities": []
     },
     {
-      "kind": "completion"
+      "id": "lesson_01_ch04",
+      "number": 4,
+      "title": {
+        "ru": "Знакомство с иероглифами",
+        "en": "Meet the characters",
+        "es": "Conoce los caracteres",
+        "pt-BR": "Conheça os caracteres"
+      },
+      "goal": {
+        "ru": "Познакомиться с несколькими базовыми иероглифами из урока.",
+        "en": "Meet a few basic characters from the lesson.",
+        "es": "Conocer algunos caracteres básicos del lección.",
+        "pt-BR": "Conhecer alguns caracteres básicos da lição."
+      },
+      "estimatedMinutes": 6,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_optional_hanzi",
+            "title": {
+              "ru": "Знакомство с иероглифами",
+              "en": "Meet the characters",
+              "es": "Conoce los caracteres",
+              "pt-BR": "Conheça os caracteres"
+            },
+            "items": [
+              {
+                "id": "yi",
+                "hanzi": "一",
+                "pinyin": "yī",
+                "translation": {
+                  "ru": "один",
+                  "en": "one",
+                  "es": "uno",
+                  "pt-BR": "um"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": false,
+                "isPhraseExample": false
+              },
+              {
+                "id": "wu",
+                "hanzi": "五",
+                "pinyin": "wǔ",
+                "translation": {
+                  "ru": "пять",
+                  "en": "five",
+                  "es": "cinco",
+                  "pt-BR": "cinco"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": false,
+                "isPhraseExample": false
+              },
+              {
+                "id": "ba",
+                "hanzi": "八",
+                "pinyin": "bā",
+                "translation": {
+                  "ru": "восемь",
+                  "en": "eight",
+                  "es": "ocho",
+                  "pt-BR": "oito"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": false,
+                "isPhraseExample": false
+              },
+              {
+                "id": "da",
+                "hanzi": "大",
+                "pinyin": "dà",
+                "translation": {
+                  "ru": "большой",
+                  "en": "big / large",
+                  "es": "grande",
+                  "pt-BR": "grande"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": false,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        }
+      ],
+      "activities": []
     }
   ]
 }

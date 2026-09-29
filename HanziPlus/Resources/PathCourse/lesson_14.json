@@ -1210,6 +1210,1642 @@
     },
     {
       "kind": "completion"
+    },
+    {
+      "kind": "examples",
+      "id": "reference_additional",
+      "items": [
+        {
+          "id": "ex_你的身体怎么样",
+          "hanzi": "你的身体怎么样？",
+          "pinyin": "Nǐ de shēntǐ zěnmeyàng?",
+          "translation": {
+            "ru": "Как твоё здоровье?",
+            "en": "How is your health?",
+            "es": "¿Cómo está tu salud?",
+            "pt-BR": "Como está a sua saúde?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_很好_我身体很好",
+          "hanzi": "很好。（我身体很好。）",
+          "pinyin": "Hěn hǎo. (Wǒ shēntǐ hěn hǎo.)",
+          "translation": {
+            "ru": "Очень хорошо. (У меня всё в порядке со здоровьем.)",
+            "en": "Very well. (I'm in good health.)",
+            "es": "Muy bien. (Estoy muy bien de salud.)",
+            "pt-BR": "Muito bem. (Estou com a saúde boa.)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_忙不忙",
+          "hanzi": "忙不忙？",
+          "pinyin": "Máng bu máng?",
+          "translation": {
+            "ru": "Занят?",
+            "en": "Are you busy?",
+            "es": "¿Estás ocupado?",
+            "pt-BR": "Está ocupado?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_很忙_我很忙",
+          "hanzi": "很忙。（我很忙。）",
+          "pinyin": "Hěn máng. (Wǒ hěn máng.)",
+          "translation": {
+            "ru": "Очень занят. (Я очень занят.)",
+            "en": "Very busy. (I'm very busy.)",
+            "es": "Muy ocupado. (Estoy muy ocupado.)",
+            "pt-BR": "Muito ocupado. (Estou muito ocupado.)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你的自行车是什么颜色的",
+          "hanzi": "你的自行车是什么颜色的？",
+          "pinyin": "Nǐ de zìxíngchē shì shénme yánsè de?",
+          "translation": {
+            "ru": "Какого цвета твой велосипед?",
+            "en": "What color is your bicycle?",
+            "es": "¿De qué color es tu bicicleta?",
+            "pt-BR": "De que cor é a sua bicicleta?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_蓝的_我的自行车是蓝的",
+          "hanzi": "蓝的。（我的自行车是蓝的。）",
+          "pinyin": "Lán de. (Wǒ de zìxíngchē shì lán de.)",
+          "translation": {
+            "ru": "Синий. (Мой велосипед синий.)",
+            "en": "Blue. (My bicycle is blue.)",
+            "es": "Azul. (Mi bicicleta es azul.)",
+            "pt-BR": "Azul. (Minha bicicleta é azul.)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你的车是新的还是旧的",
+          "hanzi": "你的车是新的还是旧的？",
+          "pinyin": "Nǐ de chē shì xīn de háishi jiù de?",
+          "translation": {
+            "ru": "Твоя машина новая или старая?",
+            "en": "Is your vehicle new or old?",
+            "es": "¿Tu vehículo es nuevo o viejo?",
+            "pt-BR": "Seu veículo é novo ou velho?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_新的_我的车是新的",
+          "hanzi": "新的。（我的车是新的。）",
+          "pinyin": "Xīn de. (Wǒ de chē shì xīn de.)",
+          "translation": {
+            "ru": "Новая. (Моя машина новая.)",
+            "en": "New. (My vehicle is new.)",
+            "es": "Nueva. (Mi vehículo es nuevo.)",
+            "pt-BR": "Nova. (Meu veículo é novo.)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你喝茶还是咖啡",
+          "hanzi": "你喝茶还是咖啡？",
+          "pinyin": "Nǐ hē chá háishi kāfēi?",
+          "translation": {
+            "ru": "Ты пьёшь чай или кофе?",
+            "en": "Do you drink tea or coffee?",
+            "es": "¿Bebes té o café?",
+            "pt-BR": "Você bebe chá ou café?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_喝咖啡",
+          "hanzi": "喝咖啡。",
+          "pinyin": "Hē kāfēi.",
+          "translation": {
+            "ru": "Пью кофе.",
+            "en": "I drink coffee.",
+            "es": "Bebo café.",
+            "pt-BR": "Bebo café."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿大",
+          "hanzi": "有点儿大",
+          "pinyin": "Yǒudiǎnr dà",
+          "translation": {
+            "ru": "немного большой",
+            "en": "a bit big",
+            "es": "un poco grande",
+            "pt-BR": "um pouco grande"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿小",
+          "hanzi": "有点儿小",
+          "pinyin": "Yǒudiǎnr xiǎo",
+          "translation": {
+            "ru": "немного маленький",
+            "en": "a bit small",
+            "es": "un poco pequeño",
+            "pt-BR": "um pouco pequeno"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿重",
+          "hanzi": "有点儿重",
+          "pinyin": "Yǒudiǎnr zhòng",
+          "translation": {
+            "ru": "немного тяжёлый",
+            "en": "a bit heavy",
+            "es": "un poco pesado",
+            "pt-BR": "um pouco pesado"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿轻",
+          "hanzi": "有点儿轻",
+          "pinyin": "Yǒudiǎnr qīng",
+          "translation": {
+            "ru": "немного лёгкий",
+            "en": "a bit light",
+            "es": "un poco ligero",
+            "pt-BR": "um pouco leve"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿贵",
+          "hanzi": "有点儿贵",
+          "pinyin": "Yǒudiǎnr guì",
+          "translation": {
+            "ru": "немного дорогой",
+            "en": "a bit expensive",
+            "es": "un poco caro",
+            "pt-BR": "um pouco caro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿难",
+          "hanzi": "有点儿难",
+          "pinyin": "Yǒudiǎnr nán",
+          "translation": {
+            "ru": "немного трудный",
+            "en": "a bit difficult",
+            "es": "un poco difícil",
+            "pt-BR": "um pouco difícil"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿多",
+          "hanzi": "有点儿多",
+          "pinyin": "Yǒudiǎnr duō",
+          "translation": {
+            "ru": "немного много",
+            "en": "a bit much",
+            "es": "un poco mucho",
+            "pt-BR": "um pouco demais"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿少",
+          "hanzi": "有点儿少",
+          "pinyin": "Yǒudiǎnr shǎo",
+          "translation": {
+            "ru": "немного мало",
+            "en": "a bit little",
+            "es": "un poco poco",
+            "pt-BR": "um pouco pouco"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_去银行还是去邮局",
+          "hanzi": "去银行还是去邮局",
+          "pinyin": "Qù yínháng háishi qù yóujú",
+          "translation": {
+            "ru": "идти в банк или на почту",
+            "en": "go to the bank or the post office",
+            "es": "ir al banco o a la oficina de correos",
+            "pt-BR": "ir ao banco ou aos correios"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_蓝自行车",
+          "hanzi": "蓝自行车",
+          "pinyin": "Lán zìxíngchē",
+          "translation": {
+            "ru": "синий велосипед",
+            "en": "blue bicycle",
+            "es": "bicicleta azul",
+            "pt-BR": "bicicleta azul"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_黑自行车",
+          "hanzi": "黑自行车",
+          "pinyin": "Hēi zìxíngchē",
+          "translation": {
+            "ru": "чёрный велосипед",
+            "en": "black bicycle",
+            "es": "bicicleta negra",
+            "pt-BR": "bicicleta preta"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_喝水",
+          "hanzi": "喝水",
+          "pinyin": "Hē shuǐ",
+          "translation": {
+            "ru": "пить воду",
+            "en": "drink water",
+            "es": "beber agua",
+            "pt-BR": "beber água"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_喝啤酒",
+          "hanzi": "喝啤酒",
+          "pinyin": "Hē píjiǔ",
+          "translation": {
+            "ru": "пить пиво",
+            "en": "drink beer",
+            "es": "beber cerveza",
+            "pt-BR": "beber cerveja"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_学习英语",
+          "hanzi": "学习英语",
+          "pinyin": "Xuéxí Yīngyǔ",
+          "translation": {
+            "ru": "изучать английский язык",
+            "en": "study English",
+            "es": "estudiar inglés",
+            "pt-BR": "estudar inglês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_学习法语",
+          "hanzi": "学习法语",
+          "pinyin": "Xuéxí Fǎyǔ",
+          "translation": {
+            "ru": "изучать французский язык",
+            "en": "study French",
+            "es": "estudiar francés",
+            "pt-BR": "estudar francês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_是学生",
+          "hanzi": "是学生",
+          "pinyin": "Shì xuésheng",
+          "translation": {
+            "ru": "быть студентом",
+            "en": "be a student",
+            "es": "ser estudiante",
+            "pt-BR": "ser estudante"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_是老师",
+          "hanzi": "是老师",
+          "pinyin": "Shì lǎoshī",
+          "translation": {
+            "ru": "быть учителем",
+            "en": "be a teacher",
+            "es": "ser profesor",
+            "pt-BR": "ser professor"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_新照相机",
+          "hanzi": "新照相机",
+          "pinyin": "Xīn zhàoxiàngjī",
+          "translation": {
+            "ru": "новый фотоаппарат",
+            "en": "new camera",
+            "es": "cámara nueva",
+            "pt-BR": "câmera nova"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_旧照相机",
+          "hanzi": "旧照相机",
+          "pinyin": "Jiù zhàoxiàngjī",
+          "translation": {
+            "ru": "старый фотоаппарат",
+            "en": "old camera",
+            "es": "cámara vieja",
+            "pt-BR": "câmera velha"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你喝茶还是咖啡",
+          "hanzi": "你喝茶还是咖啡？",
+          "pinyin": "Nǐ hē chá háishi kāfēi?",
+          "translation": {
+            "ru": "Ты пьёшь чай или кофе?",
+            "en": "Do you drink tea or coffee?",
+            "es": "¿Bebes té o café?",
+            "pt-BR": "Você bebe chá ou café?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_喝咖啡",
+          "hanzi": "喝咖啡。",
+          "pinyin": "Hē kāfēi.",
+          "translation": {
+            "ru": "Пью кофе.",
+            "en": "I drink coffee.",
+            "es": "Bebo café.",
+            "pt-BR": "Bebo café."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿大",
+          "hanzi": "有点儿大",
+          "pinyin": "Yǒudiǎnr dà",
+          "translation": {
+            "ru": "немного большой",
+            "en": "a bit big",
+            "es": "un poco grande",
+            "pt-BR": "um pouco grande"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿小",
+          "hanzi": "有点儿小",
+          "pinyin": "Yǒudiǎnr xiǎo",
+          "translation": {
+            "ru": "немного маленький",
+            "en": "a bit small",
+            "es": "un poco pequeño",
+            "pt-BR": "um pouco pequeno"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿重",
+          "hanzi": "有点儿重",
+          "pinyin": "Yǒudiǎnr zhòng",
+          "translation": {
+            "ru": "немного тяжёлый",
+            "en": "a bit heavy",
+            "es": "un poco pesado",
+            "pt-BR": "um pouco pesado"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿轻",
+          "hanzi": "有点儿轻",
+          "pinyin": "Yǒudiǎnr qīng",
+          "translation": {
+            "ru": "немного лёгкий",
+            "en": "a bit light",
+            "es": "un poco ligero",
+            "pt-BR": "um pouco leve"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿贵",
+          "hanzi": "有点儿贵",
+          "pinyin": "Yǒudiǎnr guì",
+          "translation": {
+            "ru": "немного дорогой",
+            "en": "a bit expensive",
+            "es": "un poco caro",
+            "pt-BR": "um pouco caro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿难",
+          "hanzi": "有点儿难",
+          "pinyin": "Yǒudiǎnr nán",
+          "translation": {
+            "ru": "немного трудный",
+            "en": "a bit difficult",
+            "es": "un poco difícil",
+            "pt-BR": "um pouco difícil"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿多",
+          "hanzi": "有点儿多",
+          "pinyin": "Yǒudiǎnr duō",
+          "translation": {
+            "ru": "немного много",
+            "en": "a bit much",
+            "es": "un poco mucho",
+            "pt-BR": "um pouco demais"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_有点儿少",
+          "hanzi": "有点儿少",
+          "pinyin": "Yǒudiǎnr shǎo",
+          "translation": {
+            "ru": "немного мало",
+            "en": "a bit little",
+            "es": "un poco poco",
+            "pt-BR": "um pouco pouco"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_去银行还是去邮局",
+          "hanzi": "去银行还是去邮局",
+          "pinyin": "Qù yínháng háishi qù yóujú",
+          "translation": {
+            "ru": "идти в банк или на почту",
+            "en": "go to the bank or the post office",
+            "es": "ir al banco o a la oficina de correos",
+            "pt-BR": "ir ao banco ou aos correios"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_蓝自行车",
+          "hanzi": "蓝自行车",
+          "pinyin": "Lán zìxíngchē",
+          "translation": {
+            "ru": "синий велосипед",
+            "en": "blue bicycle",
+            "es": "bicicleta azul",
+            "pt-BR": "bicicleta azul"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_黑自行车",
+          "hanzi": "黑自行车",
+          "pinyin": "Hēi zìxíngchē",
+          "translation": {
+            "ru": "чёрный велосипед",
+            "en": "black bicycle",
+            "es": "bicicleta negra",
+            "pt-BR": "bicicleta preta"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_喝水",
+          "hanzi": "喝水",
+          "pinyin": "Hē shuǐ",
+          "translation": {
+            "ru": "пить воду",
+            "en": "drink water",
+            "es": "beber agua",
+            "pt-BR": "beber água"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_喝啤酒",
+          "hanzi": "喝啤酒",
+          "pinyin": "Hē píjiǔ",
+          "translation": {
+            "ru": "пить пиво",
+            "en": "drink beer",
+            "es": "beber cerveza",
+            "pt-BR": "beber cerveja"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_学习英语",
+          "hanzi": "学习英语",
+          "pinyin": "Xuéxí Yīngyǔ",
+          "translation": {
+            "ru": "изучать английский язык",
+            "en": "study English",
+            "es": "estudiar inglés",
+            "pt-BR": "estudar inglês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_学习法语",
+          "hanzi": "学习法语",
+          "pinyin": "Xuéxí Fǎyǔ",
+          "translation": {
+            "ru": "изучать французский язык",
+            "en": "study French",
+            "es": "estudiar francés",
+            "pt-BR": "estudar francês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_是学生",
+          "hanzi": "是学生",
+          "pinyin": "Shì xuésheng",
+          "translation": {
+            "ru": "быть студентом",
+            "en": "be a student",
+            "es": "ser estudiante",
+            "pt-BR": "ser estudante"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_是老师",
+          "hanzi": "是老师",
+          "pinyin": "Shì lǎoshī",
+          "translation": {
+            "ru": "быть учителем",
+            "en": "be a teacher",
+            "es": "ser profesor",
+            "pt-BR": "ser professor"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_新照相机",
+          "hanzi": "新照相机",
+          "pinyin": "Xīn zhàoxiàngjī",
+          "translation": {
+            "ru": "новый фотоаппарат",
+            "en": "new camera",
+            "es": "cámara nueva",
+            "pt-BR": "câmera nova"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_旧照相机",
+          "hanzi": "旧照相机",
+          "pinyin": "Jiù zhàoxiàngjī",
+          "translation": {
+            "ru": "старый фотоаппарат",
+            "en": "old camera",
+            "es": "cámara vieja",
+            "pt-BR": "câmera velha"
+          },
+          "group": "additional"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "lesson_14_ch01",
+      "number": 1,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Дальше",
+          "showLessonHeader": true,
+          "dialogue": {
+            "id": "dialogue_health",
+            "title": "您身体好吗",
+            "lines": [
+              {
+                "speaker": "关经理",
+                "hanzi": "王老师，好久不见了。",
+                "pinyin": "Wáng lǎoshī, hǎojiǔ bú jiàn le.",
+                "translation": {
+                  "ru": "Учитель Ван, давно не виделись.",
+                  "en": "Teacher Wang, long time no see.",
+                  "es": "Profesor Wang, ¡cuánto tiempo sin vernos!",
+                  "pt-BR": "Professor Wang, há quanto tempo!"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王老师",
+                "hanzi": "啊！关经理，欢迎，欢迎！",
+                "pinyin": "A! Guān jīnglǐ, huānyíng, huānyíng!",
+                "translation": {
+                  "ru": "А! Директор Гуань, добро пожаловать, добро пожаловать!",
+                  "en": "Ah! Manager Guan, welcome, welcome!",
+                  "es": "¡Ah! Director Guan, ¡bienvenido, bienvenido!",
+                  "pt-BR": "Ah! Diretor Guan, bem-vindo, bem-vindo!"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "您身体好吗？",
+                "pinyin": "Nín shēntǐ hǎo ma?",
+                "translation": {
+                  "ru": "Как Ваше здоровье?",
+                  "en": "How is your health?",
+                  "es": "¿Cómo está de salud?",
+                  "pt-BR": "Como está a sua saúde?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王老师",
+                "hanzi": "很好。您身体怎么样？",
+                "pinyin": "Hěn hǎo. Nín shēntǐ zěnmeyàng?",
+                "translation": {
+                  "ru": "Очень хорошо. А как Ваше здоровье?",
+                  "en": "Very well. How is your health?",
+                  "es": "Muy bien. ¿Y cómo está de salud?",
+                  "pt-BR": "Muito bem. E como está a sua saúde?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "马马虎虎。",
+                "pinyin": "Mǎmǎhūhū.",
+                "translation": {
+                  "ru": "Так себе.",
+                  "en": "So-so.",
+                  "es": "Más o menos.",
+                  "pt-BR": "Mais ou menos."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王老师",
+                "hanzi": "最近工作忙不忙？",
+                "pinyin": "Zuìjìn gōngzuò máng bu máng?",
+                "translation": {
+                  "ru": "В последнее время много работы?",
+                  "en": "Have you been busy with work lately?",
+                  "es": "¿Está ocupado con el trabajo últimamente?",
+                  "pt-BR": "Está ocupado com o trabalho ultimamente?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "不太忙，您呢？",
+                "pinyin": "Bú tài máng, nín ne?",
+                "translation": {
+                  "ru": "Не очень занят, а Вы?",
+                  "en": "Not too busy. And you?",
+                  "es": "No muy ocupado. ¿Y usted?",
+                  "pt-BR": "Não muito ocupado. E o senhor?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王老师",
+                "hanzi": "刚开学，有点儿忙。喝点儿什么？茶还是咖啡？",
+                "pinyin": "Gāng kāi xué, yǒudiǎnr máng. Hē diǎnr shénme? Chá háishi kāfēi?",
+                "translation": {
+                  "ru": "Только что начался учебный год, немного занят. Что будете пить? Чай или кофе?",
+                  "en": "School just started, I'm a bit busy. What would you like to drink? Tea or coffee?",
+                  "es": "Acaba de empezar el curso, estoy un poco ocupado. ¿Qué quiere beber? ¿Té o café?",
+                  "pt-BR": "As aulas acabaram de começar, estou um pouco ocupado. O que gostaria de beber? Chá ou café?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "喝杯茶吧！",
+                "pinyin": "Hē bēi chá ba!",
+                "translation": {
+                  "ru": "Выпейте чаю!",
+                  "en": "Have a cup of tea!",
+                  "es": "¡Tome una taza de té!",
+                  "pt-BR": "Tome uma xícara de chá!"
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Изучить новые слова",
+          "showLessonHeader": false,
+          "dialogue": {
+            "id": "dialogue_bike",
+            "title": "你的自行车是新的还是旧的",
+            "lines": [
+              {
+                "speaker": "田芳",
+                "hanzi": "我的车呢？",
+                "pinyin": "Wǒ de chē ne?",
+                "translation": {
+                  "ru": "А где моя машина?",
+                  "en": "Where is my vehicle?",
+                  "es": "¿Y mi vehículo?",
+                  "pt-BR": "E o meu veículo?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "张东",
+                "hanzi": "你的车是什么颜色的？",
+                "pinyin": "Nǐ de chē shì shénme yánsè de?",
+                "translation": {
+                  "ru": "Какого цвета твоя машина?",
+                  "en": "What color is your vehicle?",
+                  "es": "¿De qué color es tu vehículo?",
+                  "pt-BR": "De que cor é o seu veículo?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "田芳",
+                "hanzi": "蓝的。",
+                "pinyin": "Lán de.",
+                "translation": {
+                  "ru": "Синяя.",
+                  "en": "Blue.",
+                  "es": "Azul.",
+                  "pt-BR": "Azul."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "张东",
+                "hanzi": "是新的还是旧的？",
+                "pinyin": "Shì xīn de háishi jiù de?",
+                "translation": {
+                  "ru": "Новая или старая?",
+                  "en": "Is it new or old?",
+                  "es": "¿Es nueva o vieja?",
+                  "pt-BR": "É nova ou velha?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "田芳",
+                "hanzi": "新的。",
+                "pinyin": "Xīn de.",
+                "translation": {
+                  "ru": "Новая.",
+                  "en": "New.",
+                  "es": "Nueva.",
+                  "pt-BR": "Nova."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "张东",
+                "hanzi": "那辆蓝的是不是你的？",
+                "pinyin": "Nà liàng lán de shì bu shì nǐ de?",
+                "translation": {
+                  "ru": "Та синяя — твоя?",
+                  "en": "Is that blue one yours?",
+                  "es": "¿Esa azul es tuya?",
+                  "pt-BR": "Aquela azul é sua?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "田芳",
+                "hanzi": "哪辆？",
+                "pinyin": "Nǎ liàng?",
+                "translation": {
+                  "ru": "Какая?",
+                  "en": "Which one?",
+                  "es": "¿Cuál?",
+                  "pt-BR": "Qual?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "张东",
+                "hanzi": "那辆。",
+                "pinyin": "Nà liàng.",
+                "translation": {
+                  "ru": "Вот та.",
+                  "en": "That one.",
+                  "es": "Esa.",
+                  "pt-BR": "Aquela."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "田芳",
+                "hanzi": "不是……啊，我的车在那儿呢。",
+                "pinyin": "Bú shì... A, wǒ de chē zài nàr ne.",
+                "translation": {
+                  "ru": "Нет... А, вот моя машина!",
+                  "en": "No... Ah, my vehicle is over there!",
+                  "es": "No... ¡Ah, mi vehículo está allí!",
+                  "pt-BR": "Não... Ah, meu veículo está ali!"
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_main",
+            "title": {
+              "ru": "Основные слова",
+              "en": "Core words",
+              "es": "Palabras principales",
+              "pt-BR": "Palavras principais"
+            },
+            "items": [
+              {
+                "id": "jingli",
+                "hanzi": "经理",
+                "pinyin": "jīnglǐ",
+                "translation": {
+                  "ru": "директор",
+                  "en": "manager",
+                  "es": "gerente",
+                  "pt-BR": "gerente"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "haojiu",
+                "hanzi": "好久",
+                "pinyin": "hǎojiǔ",
+                "translation": {
+                  "ru": "долго",
+                  "en": "long time",
+                  "es": "mucho tiempo",
+                  "pt-BR": "muito tempo"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "a",
+                "hanzi": "啊",
+                "pinyin": "a",
+                "translation": {
+                  "ru": "модальная частица",
+                  "en": "modal particle",
+                  "es": "partícula modal",
+                  "pt-BR": "partícula modal"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "mamahuhu",
+                "hanzi": "马马虎虎",
+                "pinyin": "mǎmǎhūhū",
+                "translation": {
+                  "ru": "так себе; ещё ничего",
+                  "en": "so-so; not bad",
+                  "es": "más o menos",
+                  "pt-BR": "mais ou menos"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "zuijin",
+                "hanzi": "最近",
+                "pinyin": "zuìjìn",
+                "translation": {
+                  "ru": "в последнее время",
+                  "en": "recently",
+                  "es": "recientemente",
+                  "pt-BR": "recentemente"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "gang",
+                "hanzi": "刚",
+                "pinyin": "gāng",
+                "translation": {
+                  "ru": "только что",
+                  "en": "just; just now",
+                  "es": "acabar de",
+                  "pt-BR": "acabar de"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "kaixue",
+                "hanzi": "开学",
+                "pinyin": "kāi xué",
+                "translation": {
+                  "ru": "начало занятий; приступить к учёбе",
+                  "en": "school starts; to start school",
+                  "es": "inicio de clases",
+                  "pt-BR": "início das aulas"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "kai",
+                "hanzi": "开",
+                "pinyin": "kāi",
+                "translation": {
+                  "ru": "начинать",
+                  "en": "to open; to start",
+                  "es": "abrir; empezar",
+                  "pt-BR": "abrir; começar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "youdianr",
+                "hanzi": "有（一）点儿",
+                "pinyin": "yǒu(yì)diǎnr",
+                "translation": {
+                  "ru": "немного",
+                  "en": "a little; somewhat",
+                  "es": "un poco",
+                  "pt-BR": "um pouco"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "dianr",
+                "hanzi": "点儿",
+                "pinyin": "diǎnr",
+                "translation": {
+                  "ru": "немного",
+                  "en": "a bit",
+                  "es": "un poco",
+                  "pt-BR": "um pouco"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "haishi",
+                "hanzi": "还是",
+                "pinyin": "háishi",
+                "translation": {
+                  "ru": "или",
+                  "en": "or",
+                  "es": "o",
+                  "pt-BR": "ou"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "kafei",
+                "hanzi": "咖啡",
+                "pinyin": "kāfēi",
+                "translation": {
+                  "ru": "кофе",
+                  "en": "coffee",
+                  "es": "café",
+                  "pt-BR": "café"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_14_ch02",
+      "number": 2,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_main_part2",
+            "title": {
+              "ru": "Основные слова",
+              "en": "Core words",
+              "es": "Palabras principales",
+              "pt-BR": "Palavras principais"
+            },
+            "items": [
+              {
+                "id": "bei",
+                "hanzi": "杯",
+                "pinyin": "bēi",
+                "translation": {
+                  "ru": "чашка",
+                  "en": "cup; glass",
+                  "es": "taza; vaso",
+                  "pt-BR": "xícara; copo"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "che",
+                "hanzi": "车",
+                "pinyin": "chē",
+                "translation": {
+                  "ru": "транспортное средство",
+                  "en": "vehicle",
+                  "es": "vehículo",
+                  "pt-BR": "veículo"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "zixingche",
+                "hanzi": "自行车",
+                "pinyin": "zìxíngchē",
+                "translation": {
+                  "ru": "велосипед",
+                  "en": "bicycle",
+                  "es": "bicicleta",
+                  "pt-BR": "bicicleta"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "qiche",
+                "hanzi": "汽车",
+                "pinyin": "qìchē",
+                "translation": {
+                  "ru": "автомобиль",
+                  "en": "car; automobile",
+                  "es": "automóvil",
+                  "pt-BR": "automóvel"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "motuoche",
+                "hanzi": "摩托车",
+                "pinyin": "mótuōchē",
+                "translation": {
+                  "ru": "мотоцикл",
+                  "en": "motorcycle",
+                  "es": "motocicleta",
+                  "pt-BR": "motocicleta"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "chuzuche",
+                "hanzi": "出租车",
+                "pinyin": "chūzūchē",
+                "translation": {
+                  "ru": "такси",
+                  "en": "taxi",
+                  "es": "taxi",
+                  "pt-BR": "táxi"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "yanse",
+                "hanzi": "颜色",
+                "pinyin": "yánsè",
+                "translation": {
+                  "ru": "цвет",
+                  "en": "color",
+                  "es": "color",
+                  "pt-BR": "cor"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "lan",
+                "hanzi": "蓝",
+                "pinyin": "lán",
+                "translation": {
+                  "ru": "синий",
+                  "en": "blue",
+                  "es": "azul",
+                  "pt-BR": "azul"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "liang",
+                "hanzi": "辆",
+                "pinyin": "liàng",
+                "translation": {
+                  "ru": "счётное слово для транспорта",
+                  "en": "classifier for vehicles",
+                  "es": "clasificador de vehículos",
+                  "pt-BR": "classificador de veículos"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_14_ch03",
+      "number": 3,
+      "title": {
+        "ru": "Итог",
+        "en": "Wrap-up",
+        "es": "Resumen",
+        "pt-BR": "Encerramento"
+      },
+      "goal": null,
+      "estimatedMinutes": 7,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_names",
+            "title": {
+              "ru": "Имена",
+              "en": "Names",
+              "es": "Nombres",
+              "pt-BR": "Nomes"
+            },
+            "items": [
+              {
+                "id": "guan",
+                "hanzi": "关",
+                "pinyin": "Guān",
+                "translation": {
+                  "ru": "Гуань",
+                  "en": "Guan (surname)",
+                  "es": "Guan (apellido)",
+                  "pt-BR": "Guan (sobrenome)"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabularySummary",
+          "groups": [
+            {
+              "id": "vocab_main",
+              "title": {
+                "ru": "Основные слова",
+                "en": "Core words",
+                "es": "Palabras principales",
+                "pt-BR": "Palavras principais"
+              },
+              "items": []
+            },
+            {
+              "id": "vocab_names",
+              "title": {
+                "ru": "Имена",
+                "en": "Names",
+                "es": "Nombres",
+                "pt-BR": "Nomes"
+              },
+              "items": []
+            }
+          ]
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "您身体好吗",
+          "dialogue": {
+            "id": "dialogue_health",
+            "title": "您身体好吗",
+            "lines": [
+              {
+                "speaker": "关经理",
+                "hanzi": "王老师，好久不见了。",
+                "pinyin": "Wáng lǎoshī, hǎojiǔ bú jiàn le.",
+                "translation": {
+                  "ru": "Учитель Ван, давно не виделись.",
+                  "en": "Teacher Wang, long time no see.",
+                  "es": "Profesor Wang, ¡cuánto tiempo sin vernos!",
+                  "pt-BR": "Professor Wang, há quanto tempo!"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王老师",
+                "hanzi": "啊！关经理，欢迎，欢迎！",
+                "pinyin": "A! Guān jīnglǐ, huānyíng, huānyíng!",
+                "translation": {
+                  "ru": "А! Директор Гуань, добро пожаловать, добро пожаловать!",
+                  "en": "Ah! Manager Guan, welcome, welcome!",
+                  "es": "¡Ah! Director Guan, ¡bienvenido, bienvenido!",
+                  "pt-BR": "Ah! Diretor Guan, bem-vindo, bem-vindo!"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "您身体好吗？",
+                "pinyin": "Nín shēntǐ hǎo ma?",
+                "translation": {
+                  "ru": "Как Ваше здоровье?",
+                  "en": "How is your health?",
+                  "es": "¿Cómo está de salud?",
+                  "pt-BR": "Como está a sua saúde?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王老师",
+                "hanzi": "很好。您身体怎么样？",
+                "pinyin": "Hěn hǎo. Nín shēntǐ zěnmeyàng?",
+                "translation": {
+                  "ru": "Очень хорошо. А как Ваше здоровье?",
+                  "en": "Very well. How is your health?",
+                  "es": "Muy bien. ¿Y cómo está de salud?",
+                  "pt-BR": "Muito bem. E como está a sua saúde?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "马马虎虎。",
+                "pinyin": "Mǎmǎhūhū.",
+                "translation": {
+                  "ru": "Так себе.",
+                  "en": "So-so.",
+                  "es": "Más o menos.",
+                  "pt-BR": "Mais ou menos."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王老师",
+                "hanzi": "最近工作忙不忙？",
+                "pinyin": "Zuìjìn gōngzuò máng bu máng?",
+                "translation": {
+                  "ru": "В последнее время много работы?",
+                  "en": "Have you been busy with work lately?",
+                  "es": "¿Está ocupado con el trabajo últimamente?",
+                  "pt-BR": "Está ocupado com o trabalho ultimamente?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "不太忙，您呢？",
+                "pinyin": "Bú tài máng, nín ne?",
+                "translation": {
+                  "ru": "Не очень занят, а Вы?",
+                  "en": "Not too busy. And you?",
+                  "es": "No muy ocupado. ¿Y usted?",
+                  "pt-BR": "Não muito ocupado. E o senhor?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王老师",
+                "hanzi": "刚开学，有点儿忙。喝点儿什么？茶还是咖啡？",
+                "pinyin": "Gāng kāi xué, yǒudiǎnr máng. Hē diǎnr shénme? Chá háishi kāfēi?",
+                "translation": {
+                  "ru": "Только что начался учебный год, немного занят. Что будете пить? Чай или кофе?",
+                  "en": "School just started, I'm a bit busy. What would you like to drink? Tea or coffee?",
+                  "es": "Acaba de empezar el curso, estoy un poco ocupado. ¿Qué quiere beber? ¿Té o café?",
+                  "pt-BR": "As aulas acabaram de começar, estou um pouco ocupado. O que gostaria de beber? Chá ou café?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "喝杯茶吧！",
+                "pinyin": "Hē bēi chá ba!",
+                "translation": {
+                  "ru": "Выпейте чаю!",
+                  "en": "Have a cup of tea!",
+                  "es": "¡Tome una taza de té!",
+                  "pt-BR": "Tome uma xícara de chá!"
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "你的自行车是新的还是旧的",
+          "dialogue": {
+            "id": "dialogue_bike",
+            "title": "你的自行车是新的还是旧的",
+            "lines": [
+              {
+                "speaker": "田芳",
+                "hanzi": "我的车呢？",
+                "pinyin": "Wǒ de chē ne?",
+                "translation": {
+                  "ru": "А где моя машина?",
+                  "en": "Where is my vehicle?",
+                  "es": "¿Y mi vehículo?",
+                  "pt-BR": "E o meu veículo?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "张东",
+                "hanzi": "你的车是什么颜色的？",
+                "pinyin": "Nǐ de chē shì shénme yánsè de?",
+                "translation": {
+                  "ru": "Какого цвета твоя машина?",
+                  "en": "What color is your vehicle?",
+                  "es": "¿De qué color es tu vehículo?",
+                  "pt-BR": "De que cor é o seu veículo?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "田芳",
+                "hanzi": "蓝的。",
+                "pinyin": "Lán de.",
+                "translation": {
+                  "ru": "Синяя.",
+                  "en": "Blue.",
+                  "es": "Azul.",
+                  "pt-BR": "Azul."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "张东",
+                "hanzi": "是新的还是旧的？",
+                "pinyin": "Shì xīn de háishi jiù de?",
+                "translation": {
+                  "ru": "Новая или старая?",
+                  "en": "Is it new or old?",
+                  "es": "¿Es nueva o vieja?",
+                  "pt-BR": "É nova ou velha?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "田芳",
+                "hanzi": "新的。",
+                "pinyin": "Xīn de.",
+                "translation": {
+                  "ru": "Новая.",
+                  "en": "New.",
+                  "es": "Nueva.",
+                  "pt-BR": "Nova."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "张东",
+                "hanzi": "那辆蓝的是不是你的？",
+                "pinyin": "Nà liàng lán de shì bu shì nǐ de?",
+                "translation": {
+                  "ru": "Та синяя — твоя?",
+                  "en": "Is that blue one yours?",
+                  "es": "¿Esa azul es tuya?",
+                  "pt-BR": "Aquela azul é sua?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "田芳",
+                "hanzi": "哪辆？",
+                "pinyin": "Nǎ liàng?",
+                "translation": {
+                  "ru": "Какая?",
+                  "en": "Which one?",
+                  "es": "¿Cuál?",
+                  "pt-BR": "Qual?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "张东",
+                "hanzi": "那辆。",
+                "pinyin": "Nà liàng.",
+                "translation": {
+                  "ru": "Вот та.",
+                  "en": "That one.",
+                  "es": "Esa.",
+                  "pt-BR": "Aquela."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "田芳",
+                "hanzi": "不是……啊，我的车在那儿呢。",
+                "pinyin": "Bú shì... A, wǒ de chē zài nàr ne.",
+                "translation": {
+                  "ru": "Нет... А, вот моя машина!",
+                  "en": "No... Ah, my vehicle is over there!",
+                  "es": "No... ¡Ah, mi vehículo está allí!",
+                  "pt-BR": "Não... Ah, meu veículo está ali!"
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "quizChineseToTranslation"
+        },
+        {
+          "kind": "quizTranslationToChinese"
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_14_ch04",
+      "number": 4,
+      "title": {
+        "ru": "Продолжение",
+        "en": "Continue",
+        "es": "Continuación",
+        "pt-BR": "Continuação"
+      },
+      "goal": null,
+      "estimatedMinutes": 7,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "examples",
+          "items": [
+            {
+              "id": "ex_你的身体怎么样",
+              "hanzi": "你的身体怎么样？",
+              "pinyin": "Nǐ de shēntǐ zěnmeyàng?",
+              "translation": {
+                "ru": "Как твоё здоровье?",
+                "en": "How is your health?",
+                "es": "¿Cómo está tu salud?",
+                "pt-BR": "Como está a sua saúde?"
+              }
+            },
+            {
+              "id": "ex_很好_我身体很好",
+              "hanzi": "很好。（我身体很好。）",
+              "pinyin": "Hěn hǎo. (Wǒ shēntǐ hěn hǎo.)",
+              "translation": {
+                "ru": "Очень хорошо. (У меня всё в порядке со здоровьем.)",
+                "en": "Very well. (I'm in good health.)",
+                "es": "Muy bien. (Estoy muy bien de salud.)",
+                "pt-BR": "Muito bem. (Estou com a saúde boa.)"
+              }
+            },
+            {
+              "id": "ex_忙不忙",
+              "hanzi": "忙不忙？",
+              "pinyin": "Máng bu máng?",
+              "translation": {
+                "ru": "Занят?",
+                "en": "Are you busy?",
+                "es": "¿Estás ocupado?",
+                "pt-BR": "Está ocupado?"
+              }
+            },
+            {
+              "id": "ex_很忙_我很忙",
+              "hanzi": "很忙。（我很忙。）",
+              "pinyin": "Hěn máng. (Wǒ hěn máng.)",
+              "translation": {
+                "ru": "Очень занят. (Я очень занят.)",
+                "en": "Very busy. (I'm very busy.)",
+                "es": "Muy ocupado. (Estoy muy ocupado.)",
+                "pt-BR": "Muito ocupado. (Estou muito ocupado.)"
+              }
+            },
+            {
+              "id": "ex_你的自行车是什么颜色的",
+              "hanzi": "你的自行车是什么颜色的？",
+              "pinyin": "Nǐ de zìxíngchē shì shénme yánsè de?",
+              "translation": {
+                "ru": "Какого цвета твой велосипед?",
+                "en": "What color is your bicycle?",
+                "es": "¿De qué color es tu bicicleta?",
+                "pt-BR": "De que cor é a sua bicicleta?"
+              }
+            },
+            {
+              "id": "ex_蓝的_我的自行车是蓝的",
+              "hanzi": "蓝的。（我的自行车是蓝的。）",
+              "pinyin": "Lán de. (Wǒ de zìxíngchē shì lán de.)",
+              "translation": {
+                "ru": "Синий. (Мой велосипед синий.)",
+                "en": "Blue. (My bicycle is blue.)",
+                "es": "Azul. (Mi bicicleta es azul.)",
+                "pt-BR": "Azul. (Minha bicicleta é azul.)"
+              }
+            },
+            {
+              "id": "ex_你的车是新的还是旧的",
+              "hanzi": "你的车是新的还是旧的？",
+              "pinyin": "Nǐ de chē shì xīn de háishi jiù de?",
+              "translation": {
+                "ru": "Твоя машина новая или старая?",
+                "en": "Is your vehicle new or old?",
+                "es": "¿Tu vehículo es nuevo o viejo?",
+                "pt-BR": "Seu veículo é novo ou velho?"
+              }
+            },
+            {
+              "id": "ex_新的_我的车是新的",
+              "hanzi": "新的。（我的车是新的。）",
+              "pinyin": "Xīn de. (Wǒ de chē shì xīn de.)",
+              "translation": {
+                "ru": "Новая. (Моя машина новая.)",
+                "en": "New. (My vehicle is new.)",
+                "es": "Nueva. (Mi vehículo es nuevo.)",
+                "pt-BR": "Nova. (Meu veículo é novo.)"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
     }
   ]
 }

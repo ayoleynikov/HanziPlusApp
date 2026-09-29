@@ -289,7 +289,7 @@ enum PathQuizOptionBuilder {
         count: Int = 4,
         seed: UInt64
     ) -> [String] {
-        let unique = Array(Set(candidates.filter { !$0.isEmpty && $0 != correct }))
+        let unique = Array(Set(candidates.filter { !$0.isEmpty && $0 != correct })).sorted()
         var options = [correct]
         for value in DailyLessonPlanner.seededShuffle(unique, seed: seed) {
             guard options.count < count else { break }

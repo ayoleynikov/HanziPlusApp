@@ -34,6 +34,7 @@ extension StudySet {
         case "food": L10n.string( "catalog.set.food")
         case "culture": L10n.string( "catalog.set.culture")
         case "technology": L10n.string( "catalog.set.technology")
+        case "path_course": L10n.string( "catalog.set.path_course")
         default: title
         }
     }
@@ -49,6 +50,7 @@ extension StudySet {
         case "food": L10n.string( "catalog.set.food.subtitle")
         case "culture": L10n.string( "catalog.set.culture.subtitle")
         case "technology": L10n.string( "catalog.set.technology.subtitle")
+        case "path_course": L10n.string( "catalog.set.path_course.subtitle")
         default: subtitle
         }
     }

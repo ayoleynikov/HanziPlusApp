@@ -10,6 +10,7 @@ struct DailyLessonSpeakButton: View {
     let text: String
     var large: Bool = false
     var iconOnly: Bool = false
+    var accessibilityIdentifier: String?
 
     @State private var showsVolumeHint = false
     @State private var hideHintTask: Task<Void, Never>?
@@ -53,6 +54,7 @@ struct DailyLessonSpeakButton: View {
             .buttonStyle(.plain)
             .accessibilityLabel(L10n.string("a11y.play_pronunciation"))
             .accessibilityHint(L10n.string("a11y.speaks_chinese_word"))
+            .applySpeakAccessibilityIdentifier(accessibilityIdentifier)
 
             if showsVolumeHint {
                 Label {
@@ -97,5 +99,16 @@ struct DailyLessonSpeakButton: View {
     private func hideVolumeHint() {
         hideHintTask?.cancel()
         showsVolumeHint = false
+    }
+}
+
+private extension View {
+    @ViewBuilder
+    func applySpeakAccessibilityIdentifier(_ identifier: String?) -> some View {
+        if let identifier {
+            self.accessibilityIdentifier(identifier)
+        } else {
+            self
+        }
     }
 }

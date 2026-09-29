@@ -12,6 +12,7 @@ struct PathChineseQuizView: View {
     let selectedAnswer: String?
     let showFeedback: Bool
     let wasCorrect: Bool
+    let explanation: String?
     let onSelect: (String) -> Void
     let onContinue: () -> Void
 
@@ -74,13 +75,22 @@ struct PathChineseQuizView: View {
 
     @ViewBuilder
     private var feedbackCard: some View {
-        HStack(spacing: 10) {
-            Image(systemName: wasCorrect ? "checkmark.circle.fill" : "info.circle.fill")
-                .foregroundStyle(wasCorrect ? .green : .orange)
+        VStack(alignment: .leading, spacing: 8) {
+            Label(
+                wasCorrect ? PathStrings.correctAnswer : PathStrings.feedbackCorrectAnswerTitle,
+                systemImage: wasCorrect ? "checkmark.circle.fill" : "lightbulb.fill"
+            )
+            .font(.subheadline.weight(.semibold))
+            .foregroundStyle(wasCorrect ? .green : .orange)
 
             Text(item.displayLabel)
                 .font(.subheadline.weight(.semibold))
-                .multilineTextAlignment(.leading)
+
+            if let explanation, !explanation.isEmpty {
+                Text(explanation)
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+            }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(14)
@@ -98,6 +108,7 @@ struct PathTranslationQuizView: View {
     let selectedAnswerID: String?
     let showFeedback: Bool
     let wasCorrect: Bool
+    let explanation: String?
     let onSelect: (PathVocabularyItem) -> Void
     let onContinue: () -> Void
 
@@ -154,13 +165,22 @@ struct PathTranslationQuizView: View {
 
     @ViewBuilder
     private var feedbackCard: some View {
-        HStack(spacing: 10) {
-            Image(systemName: wasCorrect ? "checkmark.circle.fill" : "info.circle.fill")
-                .foregroundStyle(wasCorrect ? .green : .orange)
+        VStack(alignment: .leading, spacing: 8) {
+            Label(
+                wasCorrect ? PathStrings.correctAnswer : PathStrings.feedbackCorrectAnswerTitle,
+                systemImage: wasCorrect ? "checkmark.circle.fill" : "lightbulb.fill"
+            )
+            .font(.subheadline.weight(.semibold))
+            .foregroundStyle(wasCorrect ? .green : .orange)
 
             Text(item.displayLabel)
                 .font(.subheadline.weight(.semibold))
-                .multilineTextAlignment(.leading)
+
+            if let explanation, !explanation.isEmpty {
+                Text(explanation)
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+            }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(14)
@@ -178,6 +198,7 @@ struct PathTranslationQuizView: View {
         selectedAnswer: nil,
         showFeedback: false,
         wasCorrect: false,
+        explanation: nil,
         onSelect: { _ in },
         onContinue: {}
     )

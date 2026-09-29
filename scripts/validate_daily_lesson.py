@@ -72,6 +72,9 @@ def select_words(
             if len(selected) == target_count:
                 break
 
+    if len(selected) > 1:
+        selected = seeded_shuffle(selected, (seed + 47) & 0xFFFFFFFFFFFFFFFF)
+
     return selected, False
 
 
@@ -132,13 +135,14 @@ def main() -> int:
     else:
         print("  same dateKey → identical order: OK")
     expected_fresh = all_hanzi[:8]
-    if a[: len(expected_fresh)] == expected_fresh:
-        print("  fresh lesson starts with curriculum order: OK")
+    if set(a) == set(expected_fresh):
+        print("  fresh lesson uses first curriculum words: OK")
     else:
         fail(f"expected first words {expected_fresh}, got {a}")
         errors += 1
     if a == c:
         print("  WARN: adjacent days matched (rare but possible)")
+        errors += 1
     else:
         print("  different dateKey → different order: OK")
 

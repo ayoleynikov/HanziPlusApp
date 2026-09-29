@@ -46,8 +46,6 @@ struct PathExamplesView: View {
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
                 }
-
-                DailyLessonSpeakButton(text: example.speechText, large: true)
             }
             .frame(maxWidth: .infinity)
             .padding(.vertical, AppSpacing.large)

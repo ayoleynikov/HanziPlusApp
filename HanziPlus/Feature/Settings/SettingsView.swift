@@ -58,12 +58,22 @@ struct SettingsView: View {
 
                 Section(L10n.string("settings.section.about")) {
                     LabeledContent(L10n.string( "common.version"), value: appVersion)
+
+                    Link(destination: AppLinks.support) {
+                        Label(L10n.string("settings.about.contact_support"), systemImage: "envelope.fill")
+                    }
+                    .accessibilityHint(L10n.string("settings.a11y.opens_mail"))
                 }
 
                 Section {
                     Text(l10n: "settings.privacy.body")
                         .font(.footnote)
                         .foregroundStyle(.secondary)
+
+                    Link(destination: AppLinks.privacyPolicy(for: LocalizedContent.currentLanguage)) {
+                        Label(L10n.string("settings.privacy.policy_link"), systemImage: "hand.raised.fill")
+                    }
+                    .accessibilityHint(L10n.string("settings.a11y.opens_browser"))
                 } header: {
                     Text(l10n: "settings.section.privacy")
                 }
@@ -87,6 +97,26 @@ struct SettingsView: View {
         let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
         let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "1"
         return "\(version) (\(build))"
+    }
+}
+
+/// External links shown in Settings (privacy policy site + support email).
+private enum AppLinks {
+
+    private static let siteBase = "https://ayoleynikov.github.io/hanziPlus/"
+
+    static let support = URL(string: "mailto:Ayoleynikov@icloud.com")!
+
+    /// Privacy policy page in the in-app language (English lives at the site root).
+    static func privacyPolicy(for language: ContentLanguageCode) -> URL {
+        let path: String
+        switch language {
+        case .en: path = "privacy.html"
+        case .ru: path = "ru/privacy.html"
+        case .es: path = "es/privacy.html"
+        case .ptBR: path = "pt-BR/privacy.html"
+        }
+        return URL(string: siteBase + path)!
     }
 }
 

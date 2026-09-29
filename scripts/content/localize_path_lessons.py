@@ -21,7 +21,7 @@ import sys
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-ROOT = SCRIPT_DIR.parent
+ROOT = SCRIPT_DIR.parents[1] / "HanziPlus"  # app source folder
 PATH_COURSE = ROOT / "Resources" / "PathCourse"
 TRANSLATIONS_FILE = SCRIPT_DIR / "path_ru_translations.json"
 

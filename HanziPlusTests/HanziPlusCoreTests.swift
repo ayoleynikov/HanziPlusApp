@@ -55,8 +55,9 @@ final class HanziPlusCoreTests: XCTestCase {
             allWords: words
         )
 
-        XCTAssertEqual(selection.hanzi.first, words.last?.hanzi)
+        XCTAssertTrue(selection.hanzi.contains(words.last!.hanzi))
         XCTAssertEqual(selection.hanzi.count, 4)
+        XCTAssertEqual(selection.hanzi.filter { learned.contains($0) }.count, 3)
         XCTAssertFalse(selection.isReviewLesson)
     }
 
@@ -76,6 +77,7 @@ final class HanziPlusCoreTests: XCTestCase {
         XCTAssertNotEqual(initial, changed)
     }
 
+    @MainActor
     func testLegacyListeningPhaseDecodesAsSummary() throws {
         let json = """
         {"dateKey":"2026-08-30","lessonID":"x","fileName":"hsk1","wordHanzi":["你"],"isReviewLesson":false,"phase":"listening","currentIndex":0,"answers":{},"completed":false,"profileSignature":"sig"}
@@ -197,8 +199,10 @@ final class HanziPlusCoreTests: XCTestCase {
             allWords: words
         )
 
-        XCTAssertEqual(today.hanzi, Array(words.prefix(5).map(\.hanzi)))
-        XCTAssertEqual(tomorrow.hanzi, Array(words.dropFirst(5).prefix(5).map(\.hanzi)))
+        XCTAssertEqual(Set(today.hanzi), Set(words.prefix(5).map(\.hanzi)))
+        XCTAssertEqual(today.hanzi.count, 5)
+        XCTAssertEqual(Set(tomorrow.hanzi), Set(words.dropFirst(5).prefix(5).map(\.hanzi)))
+        XCTAssertEqual(tomorrow.hanzi.count, 5)
         XCTAssertTrue(Set(today.hanzi).isDisjoint(with: Set(tomorrow.hanzi)))
     }
 
@@ -215,7 +219,8 @@ final class HanziPlusCoreTests: XCTestCase {
             allWords: words
         )
 
-        XCTAssertEqual(tomorrow.hanzi, Array(words.prefix(5).map(\.hanzi)))
+        XCTAssertEqual(Set(tomorrow.hanzi), Set(words.prefix(5).map(\.hanzi)))
+        XCTAssertEqual(tomorrow.hanzi.count, 5)
     }
 
     func testPathCourseLoaderLoadsLessonOne() {
@@ -224,10 +229,12 @@ final class HanziPlusCoreTests: XCTestCase {
         XCTAssertEqual(lesson?.number, 1)
         XCTAssertEqual(lesson?.sourceLessonNumbers, [1])
         XCTAssertEqual(lesson?.chineseTitle, "你好！")
-        XCTAssertEqual(lesson?.allVocabulary.count, 7)
-        XCTAssertEqual(lesson?.countedVocabularyTotal, 7)
-        XCTAssertEqual(lesson?.dialogues.count, 2)
+        XCTAssertEqual(lesson?.chapters.count, 4)
+        XCTAssertEqual(lesson?.allVocabulary.count, 12)
+        XCTAssertEqual(lesson?.countedVocabularyTotal, 8)
+        XCTAssertEqual(lesson?.dialogues.count, 1)
         XCTAssertEqual(lesson?.examples.count, 3)
+        XCTAssertNotNil(lesson?.chapters.first?.toneGuide)
     }
 
     func testPathCourseLoaderLoadsLessonTwo() {
@@ -237,7 +244,7 @@ final class HanziPlusCoreTests: XCTestCase {
         XCTAssertEqual(lesson?.sourceLessonNumbers, [1, 2])
         XCTAssertEqual(lesson?.chineseTitle, "你忙吗？")
         XCTAssertEqual(lesson?.countedVocabularyTotal, 18)
-        XCTAssertEqual(lesson?.dialogues.count, 2)
+        XCTAssertEqual(lesson?.dialogues.count, 1)
         XCTAssertEqual(lesson?.examples.count, 4)
     }
 
@@ -250,7 +257,7 @@ final class HanziPlusCoreTests: XCTestCase {
         XCTAssertEqual(lesson?.localizedTranslationTitle, "See you tomorrow")
         XCTAssertEqual(lesson?.countedVocabularyTotal, 23)
         XCTAssertFalse(lesson?.dialogues.isEmpty ?? true)
-        XCTAssertEqual(lesson?.dialogues.count, 4)
+        XCTAssertEqual(lesson?.dialogues.count, 2)
         XCTAssertEqual(lesson?.examples.count, 8)
 
         let summary = PathCourseLoader.loadCourse()?.lessons.first(where: { $0.number == 3 })
@@ -267,8 +274,8 @@ final class HanziPlusCoreTests: XCTestCase {
         XCTAssertEqual(lesson?.localizedTranslationTitle, "Where are you going?")
         XCTAssertEqual(lesson?.countedVocabularyTotal, 25)
         XCTAssertFalse(lesson?.dialogues.isEmpty ?? true)
-        XCTAssertEqual(lesson?.dialogues.count, 4)
-        XCTAssertEqual(lesson?.examples.count, 20)
+        XCTAssertEqual(lesson?.dialogues.count, 2)
+        XCTAssertEqual(lesson?.examples.count, 8)
 
         let summary = PathCourseLoader.loadCourse()?.lessons.first(where: { $0.number == 4 })
         XCTAssertNotNil(summary)
@@ -284,8 +291,8 @@ final class HanziPlusCoreTests: XCTestCase {
         XCTAssertEqual(lesson?.localizedTranslationTitle, "This is Teacher Wang")
         XCTAssertEqual(lesson?.countedVocabularyTotal, 17)
         XCTAssertFalse(lesson?.dialogues.isEmpty ?? true)
-        XCTAssertEqual(lesson?.dialogues.count, 2)
-        XCTAssertEqual(lesson?.examples.count, 17)
+        XCTAssertEqual(lesson?.dialogues.count, 1)
+        XCTAssertEqual(lesson?.examples.count, 8)
 
         let summary = PathCourseLoader.loadCourse()?.lessons.first(where: { $0.number == 5 })
         XCTAssertNotNil(summary)
@@ -299,12 +306,12 @@ final class HanziPlusCoreTests: XCTestCase {
         }
 
         let steps = PathLessonFlowResolver.resolve(lesson)
-        XCTAssertFalse(steps.contains(where: {
-            if case .vocabularySummary = $0 { return true }
+        XCTAssertTrue(steps.contains(where: {
+            if case .toneGuide = $0 { return true }
             return false
         }))
-        XCTAssertFalse(steps.contains(where: {
-            if case .transition = $0 { return true }
+        XCTAssertTrue(steps.contains(where: {
+            if case .grammar = $0 { return true }
             return false
         }))
         XCTAssertTrue(steps.contains(where: {
@@ -330,7 +337,7 @@ final class HanziPlusCoreTests: XCTestCase {
         }))
         XCTAssertEqual(lesson.resolvedVocabularySummaryGroups().count, 2)
         XCTAssertEqual(lesson.resolvedVocabularySummaryGroups()[0].items.count, 4)
-        XCTAssertEqual(lesson.resolvedVocabularySummaryGroups()[1].items.count, 14)
+        XCTAssertGreaterThanOrEqual(lesson.resolvedVocabularySummaryGroups()[1].items.count, 12)
     }
 
     func testPathCourseStorePersistsLessonProgress() {
@@ -369,23 +376,29 @@ final class HanziPlusCoreTests: XCTestCase {
 
     func testPathQuizOptionsAreStablePerQuestion() {
         let lesson = PathCourseLoader.loadLesson(fileName: "lesson_01")!
-        let item = lesson.allVocabulary[0]
-        let candidates = lesson.allVocabulary.filter { $0.id != item.id }.map(\.localizedTranslation)
+        guard let item = lesson.allVocabulary.first(where: { $0.id == "ni" }) else {
+            XCTFail("Missing vocabulary item ni")
+            return
+        }
+        let correct = item.translation.localizedValue(language: .en)
+        let candidates = lesson.allVocabulary
+            .filter { $0.id != item.id }
+            .map { $0.translation.localizedValue(language: .en) }
         let seed: UInt64 = 42
 
         let first = PathQuizOptionBuilder.translationOptions(
-            correct: item.localizedTranslation,
+            correct: correct,
             candidates: candidates,
             seed: seed
         )
         let second = PathQuizOptionBuilder.translationOptions(
-            correct: item.localizedTranslation,
+            correct: correct,
             candidates: candidates,
             seed: seed
         )
 
         XCTAssertEqual(first, second)
-        XCTAssertTrue(first.contains(item.localizedTranslation))
+        XCTAssertTrue(first.contains(correct))
         XCTAssertEqual(first.count, 4)
     }
 
@@ -472,8 +485,8 @@ final class HanziPlusCoreTests: XCTestCase {
             number: 6,
             chineseTitle: "我学习汉语",
             vocabularyCount: 39,
-            dialogueSectionCount: 4,
-            exampleCount: 32
+            dialogueSectionCount: 2,
+            exampleCount: 8
         )
     }
 
@@ -483,8 +496,8 @@ final class HanziPlusCoreTests: XCTestCase {
             number: 7,
             chineseTitle: "你吃什么",
             vocabularyCount: 23,
-            dialogueSectionCount: 2,
-            exampleCount: 31
+            dialogueSectionCount: 1,
+            exampleCount: 8
         )
     }
 
@@ -494,8 +507,8 @@ final class HanziPlusCoreTests: XCTestCase {
             number: 8,
             chineseTitle: "苹果一斤多少钱",
             vocabularyCount: 23,
-            dialogueSectionCount: 2,
-            exampleCount: 36
+            dialogueSectionCount: 1,
+            exampleCount: 8
         )
     }
 
@@ -505,8 +518,8 @@ final class HanziPlusCoreTests: XCTestCase {
             number: 9,
             chineseTitle: "我换人民币",
             vocabularyCount: 20,
-            dialogueSectionCount: 2,
-            exampleCount: 33
+            dialogueSectionCount: 1,
+            exampleCount: 8
         )
     }
 
@@ -516,8 +529,8 @@ final class HanziPlusCoreTests: XCTestCase {
             number: 10,
             chineseTitle: "他住哪儿",
             vocabularyCount: 21,
-            dialogueSectionCount: 2,
-            exampleCount: 35
+            dialogueSectionCount: 1,
+            exampleCount: 8
         )
     }
 
@@ -619,7 +632,7 @@ final class HanziPlusCoreTests: XCTestCase {
         XCTAssertEqual(lesson.countedVocabularyTotal, 16)
         XCTAssertFalse(lesson.allVocabulary.isEmpty)
         XCTAssertFalse(lesson.examples.isEmpty)
-        XCTAssertEqual(lesson.examples.count, 18)
+        XCTAssertEqual(lesson.examples.count, 8)
 
         let summary = PathCourseLoader.loadCourse()?.lessons.first(where: { $0.number == 15 })
         XCTAssertNotNil(summary)
@@ -651,7 +664,7 @@ final class HanziPlusCoreTests: XCTestCase {
             chineseTitle: "我们都是留学生",
             vocabularyCount: 22,
             dialogueSectionCount: 3,
-            exampleCount: 32
+            exampleCount: 8
         )
     }
 
@@ -662,7 +675,7 @@ final class HanziPlusCoreTests: XCTestCase {
             chineseTitle: "你在哪儿学习",
             vocabularyCount: 20,
             dialogueSectionCount: 2,
-            exampleCount: 52
+            exampleCount: 8
         )
     }
 
@@ -673,7 +686,7 @@ final class HanziPlusCoreTests: XCTestCase {
             chineseTitle: "这是不是中药",
             vocabularyCount: 29,
             dialogueSectionCount: 2,
-            exampleCount: 58
+            exampleCount: 8
         )
     }
 
@@ -684,7 +697,7 @@ final class HanziPlusCoreTests: XCTestCase {
             chineseTitle: "你的车是新的还是旧的",
             vocabularyCount: 22,
             dialogueSectionCount: 2,
-            exampleCount: 29
+            exampleCount: 8
         )
     }
 

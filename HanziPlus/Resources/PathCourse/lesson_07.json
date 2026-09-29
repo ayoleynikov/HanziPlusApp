@@ -1083,6 +1083,1153 @@
     },
     {
       "kind": "completion"
+    },
+    {
+      "kind": "examples",
+      "id": "reference_additional",
+      "items": [
+        {
+          "id": "ex_不喝_我喝啤酒",
+          "hanzi": "不喝，我喝啤酒。",
+          "pinyin": "Bù hē, wǒ hē píjiǔ.",
+          "translation": {
+            "ru": "Нет, я пью пиво.",
+            "en": "No, I'm drinking beer.",
+            "es": "No, bebo cerveza.",
+            "pt-BR": "Não, bebo cerveja."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_这些是什么",
+          "hanzi": "这些是什么？",
+          "pinyin": "Zhèxiē shì shénme?",
+          "translation": {
+            "ru": "Что это?",
+            "en": "What are these?",
+            "es": "¿Qué son estos?",
+            "pt-BR": "O que são estes?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_这是饺子_这是包子_那是面条儿",
+          "hanzi": "这是饺子，这是包子，那是面条儿。",
+          "pinyin": "Zhè shì jiǎozi, zhè shì bāozi, nà shì miàntiáor.",
+          "translation": {
+            "ru": "Это цзяоцзы, это баоцзы, там лапша.",
+            "en": "These are jiaozi, these are baozi, that is noodles.",
+            "es": "Estos son jiaozi, estos son baozi, aquello son fideos.",
+            "pt-BR": "Estes são jiaozi, estes são baozi, aquilo são macarrão."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_吃馒头",
+          "hanzi": "吃馒头",
+          "pinyin": "chī mántou",
+          "translation": {
+            "ru": "есть маньтоу",
+            "en": "eat mantou",
+            "es": "comer mantou",
+            "pt-BR": "comer mantou"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_吃包子",
+          "hanzi": "吃包子",
+          "pinyin": "chī bāozi",
+          "translation": {
+            "ru": "есть баоцзы",
+            "en": "eat baozi",
+            "es": "comer baozi",
+            "pt-BR": "comer baozi"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_吃米饭",
+          "hanzi": "吃米饭",
+          "pinyin": "chī mǐfàn",
+          "translation": {
+            "ru": "есть рис",
+            "en": "eat rice",
+            "es": "comer arroz",
+            "pt-BR": "comer arroz"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_吃面条儿",
+          "hanzi": "吃面条儿",
+          "pinyin": "chī miàntiáor",
+          "translation": {
+            "ru": "есть лапшу",
+            "en": "eat noodles",
+            "es": "comer fideos",
+            "pt-BR": "comer macarrão"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_吃饺子",
+          "hanzi": "吃饺子",
+          "pinyin": "chī jiǎozi",
+          "translation": {
+            "ru": "есть цзяоцзы",
+            "en": "eat jiaozi",
+            "es": "comer jiaozi",
+            "pt-BR": "comer jiaozi"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_喝什么",
+          "hanzi": "喝什么",
+          "pinyin": "hē shénme",
+          "translation": {
+            "ru": "что пить",
+            "en": "what to drink",
+            "es": "qué beber",
+            "pt-BR": "o que beber"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_喝汤",
+          "hanzi": "喝汤",
+          "pinyin": "hē tāng",
+          "translation": {
+            "ru": "пить суп",
+            "en": "drink soup",
+            "es": "beber sopa",
+            "pt-BR": "beber sopa"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_喝茶",
+          "hanzi": "喝茶",
+          "pinyin": "hē chá",
+          "translation": {
+            "ru": "пить чай",
+            "en": "drink tea",
+            "es": "beber té",
+            "pt-BR": "beber chá"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_喝啤酒",
+          "hanzi": "喝啤酒",
+          "pinyin": "hē píjiǔ",
+          "translation": {
+            "ru": "пить пиво",
+            "en": "drink beer",
+            "es": "beber cerveza",
+            "pt-BR": "beber cerveja"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_什么汤",
+          "hanzi": "什么汤",
+          "pinyin": "shénme tāng",
+          "translation": {
+            "ru": "какой суп",
+            "en": "what soup",
+            "es": "qué sopa",
+            "pt-BR": "que sopa"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_什么书",
+          "hanzi": "什么书",
+          "pinyin": "shénme shū",
+          "translation": {
+            "ru": "какая книга",
+            "en": "what book",
+            "es": "qué libro",
+            "pt-BR": "que livro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_什么人",
+          "hanzi": "什么人",
+          "pinyin": "shénme rén",
+          "translation": {
+            "ru": "какой человек / кто",
+            "en": "what person / who",
+            "es": "qué persona / quién",
+            "pt-BR": "que pessoa / quem"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_什么酒",
+          "hanzi": "什么酒",
+          "pinyin": "shénme jiǔ",
+          "translation": {
+            "ru": "какой алкоголь / какое вино",
+            "en": "what alcohol / what wine",
+            "es": "qué alcohol / qué vino",
+            "pt-BR": "que álcool / que vinho"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_什么名字",
+          "hanzi": "什么名字",
+          "pinyin": "shénme míngzi",
+          "translation": {
+            "ru": "какое имя",
+            "en": "what name",
+            "es": "qué nombre",
+            "pt-BR": "que nome"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你中午吃什么",
+          "hanzi": "你中午吃什么？",
+          "pinyin": "Nǐ zhōngwǔ chī shénme?",
+          "translation": {
+            "ru": "Что ты ешь в полдень?",
+            "en": "What do you eat at noon?",
+            "es": "¿Qué comes al mediodía?",
+            "pt-BR": "O que você come ao meio-dia?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_q_chi_shenme",
+          "hanzi": "你吃什么？",
+          "pinyin": "Nǐ chī shénme?",
+          "translation": {
+            "ru": "Что ты ешь?",
+            "en": "What are you eating?",
+            "es": "¿Qué comes?",
+            "pt-BR": "O que você come?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你吃几个馒头",
+          "hanzi": "你吃几个馒头？",
+          "pinyin": "Nǐ chī jǐ ge mántou?",
+          "translation": {
+            "ru": "Сколько маньтоу ты ешь?",
+            "en": "How many mantou are you eating?",
+            "es": "¿Cuántos mantou comes?",
+            "pt-BR": "Quantos mantou você come?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你喝什么",
+          "hanzi": "你喝什么？",
+          "pinyin": "Nǐ hē shénme?",
+          "translation": {
+            "ru": "Что ты пьёшь?",
+            "en": "What are you drinking?",
+            "es": "¿Qué bebes?",
+            "pt-BR": "O que você bebe?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你喝什么汤",
+          "hanzi": "你喝什么汤？",
+          "pinyin": "Nǐ hē shénme tāng?",
+          "translation": {
+            "ru": "Какой суп ты пьёшь?",
+            "en": "What soup are you drinking?",
+            "es": "¿Qué sopa bebes?",
+            "pt-BR": "Que sopa você bebe?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你喝什么啤酒",
+          "hanzi": "你喝什么啤酒？",
+          "pinyin": "Nǐ hē shénme píjiǔ?",
+          "translation": {
+            "ru": "Какое пиво ты пьёшь?",
+            "en": "What beer are you drinking?",
+            "es": "¿Qué cerveza bebes?",
+            "pt-BR": "Que cerveja você bebe?"
+          },
+          "group": "additional"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "lesson_07_ch01",
+      "number": 1,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Изучить новые слова",
+          "showLessonHeader": true,
+          "dialogue": {
+            "id": "dialogue_main",
+            "title": null,
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "中午你去哪儿吃饭？",
+                "pinyin": "Zhōngwǔ nǐ qù nǎr chī fàn?",
+                "translation": {
+                  "ru": "Где ты обедаешь в полдень?",
+                  "en": "Where do you eat lunch at noon?",
+                  "es": "¿Dónde almuerzas al mediodía?",
+                  "pt-BR": "Onde você almoça ao meio-dia?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我去食堂。",
+                "pinyin": "Wǒ qù shítáng.",
+                "translation": {
+                  "ru": "Я иду в столовую.",
+                  "en": "I'm going to the cafeteria.",
+                  "es": "Voy al comedor.",
+                  "pt-BR": "Vou ao refeitório."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "你吃什么？",
+                "pinyin": "Nǐ chī shénme?",
+                "translation": {
+                  "ru": "Что ты ешь?",
+                  "en": "What are you eating?",
+                  "es": "¿Qué comes?",
+                  "pt-BR": "O que você come?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我吃馒头。",
+                "pinyin": "Wǒ chī mántou.",
+                "translation": {
+                  "ru": "Я ем маньтоу.",
+                  "en": "I'm eating mantou.",
+                  "es": "Como mantou.",
+                  "pt-BR": "Como mantou."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "你要几个？",
+                "pinyin": "Nǐ yào jǐ ge?",
+                "translation": {
+                  "ru": "Сколько тебе?",
+                  "en": "How many do you want?",
+                  "es": "¿Cuántos quieres?",
+                  "pt-BR": "Quantos você quer?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "一个。你吃吗？",
+                "pinyin": "Yí ge. Nǐ chī ma?",
+                "translation": {
+                  "ru": "Один. Ты будешь?",
+                  "en": "One. Will you eat some?",
+                  "es": "Uno. ¿Comes?",
+                  "pt-BR": "Um. Você come?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "不吃，我吃米饭。你喝什么？",
+                "pinyin": "Bù chī, wǒ chī mǐfàn. Nǐ hē shénme?",
+                "translation": {
+                  "ru": "Нет, я ем рис. Что ты пьёшь?",
+                  "en": "No, I'm eating rice. What are you drinking?",
+                  "es": "No, como arroz. ¿Qué bebes?",
+                  "pt-BR": "Não, como arroz. O que você bebe?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我要一碗鸡蛋汤。你喝吗？",
+                "pinyin": "Wǒ yào yì wǎn jīdàn tāng. Nǐ hē ma?",
+                "translation": {
+                  "ru": "Я хочу миску яичного супа. Ты будешь?",
+                  "en": "I want a bowl of egg soup. Will you have some?",
+                  "es": "Quiero un bol de sopa de huevo. ¿Bebes?",
+                  "pt-BR": "Quero uma tigela de sopa de ovo. Você bebe?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "不喝，我喝啤酒。",
+                "pinyin": "Bù hē, wǒ hē píjiǔ.",
+                "translation": {
+                  "ru": "Нет, я пью пиво.",
+                  "en": "No, I'm drinking beer.",
+                  "es": "No, bebo cerveza.",
+                  "pt-BR": "Não, bebo cerveja."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "这些是什么？",
+                "pinyin": "Zhèxiē shì shénme?",
+                "translation": {
+                  "ru": "Что это?",
+                  "en": "What are these?",
+                  "es": "¿Qué son estos?",
+                  "pt-BR": "O que são estes?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "这是饺子，这是包子，那是面条儿。",
+                "pinyin": "Zhè shì jiǎozi, zhè shì bāozi, nà shì miàntiáor.",
+                "translation": {
+                  "ru": "Это цзяоцзы, это баоцзы, там лапша.",
+                  "en": "These are jiaozi, these are baozi, that is noodles.",
+                  "es": "Estos son jiaozi, estos son baozi, aquello son fideos.",
+                  "pt-BR": "Estes são jiaozi, estes são baozi, aquilo são macarrão."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_food",
+            "title": {
+              "ru": "Еда",
+              "en": "Food",
+              "es": "Comida",
+              "pt-BR": "Comida"
+            },
+            "items": [
+              {
+                "id": "中午",
+                "hanzi": "中午",
+                "pinyin": "zhōngwǔ",
+                "translation": {
+                  "ru": "полдень",
+                  "en": "noon",
+                  "es": "mediodía",
+                  "pt-BR": "meio-dia"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "吃",
+                "hanzi": "吃",
+                "pinyin": "chī",
+                "translation": {
+                  "ru": "есть / кушать",
+                  "en": "to eat",
+                  "es": "comer",
+                  "pt-BR": "comer"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "饭",
+                "hanzi": "饭",
+                "pinyin": "fàn",
+                "translation": {
+                  "ru": "еда",
+                  "en": "food",
+                  "es": "comida",
+                  "pt-BR": "comida"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "食堂",
+                "hanzi": "食堂",
+                "pinyin": "shítáng",
+                "translation": {
+                  "ru": "столовая",
+                  "en": "cafeteria / dining hall",
+                  "es": "comedor",
+                  "pt-BR": "refeitório"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "馒头",
+                "hanzi": "馒头",
+                "pinyin": "mántou",
+                "translation": {
+                  "ru": "маньтоу",
+                  "en": "mantou (steamed bun)",
+                  "es": "mantou (bollo al vapor)",
+                  "pt-BR": "mantou (pão cozido no vapor)"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "米饭",
+                "hanzi": "米饭",
+                "pinyin": "mǐfàn",
+                "translation": {
+                  "ru": "варёный рис",
+                  "en": "boiled rice",
+                  "es": "arroz hervido",
+                  "pt-BR": "arroz cozido"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "米",
+                "hanzi": "米",
+                "pinyin": "mǐ",
+                "translation": {
+                  "ru": "рис",
+                  "en": "rice",
+                  "es": "arroz",
+                  "pt-BR": "arroz"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "饺子",
+                "hanzi": "饺子",
+                "pinyin": "jiǎozi",
+                "translation": {
+                  "ru": "пельмени",
+                  "en": "dumplings",
+                  "es": "empanadillas / dumplings",
+                  "pt-BR": "bolinhos / dumplings"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "包子",
+                "hanzi": "包子",
+                "pinyin": "bāozi",
+                "translation": {
+                  "ru": "баоцзы / пирожок",
+                  "en": "baozi / steamed bun",
+                  "es": "baozi / bollo al vapor",
+                  "pt-BR": "baozi / pão cozido no vapor"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "面条儿",
+                "hanzi": "面条儿",
+                "pinyin": "miàntiáor",
+                "translation": {
+                  "ru": "лапша",
+                  "en": "noodles",
+                  "es": "fideos",
+                  "pt-BR": "macarrão"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_07_ch02",
+      "number": 2,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_drinks",
+            "title": {
+              "ru": "Напитки",
+              "en": "Drinks",
+              "es": "Bebidas",
+              "pt-BR": "Bebidas"
+            },
+            "items": [
+              {
+                "id": "要",
+                "hanzi": "要",
+                "pinyin": "yào",
+                "translation": {
+                  "ru": "хотеть / желать",
+                  "en": "to want / to wish",
+                  "es": "querer / desear",
+                  "pt-BR": "querer / desejar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "碗",
+                "hanzi": "碗",
+                "pinyin": "wǎn",
+                "translation": {
+                  "ru": "чаша",
+                  "en": "bowl / cup",
+                  "es": "tazón / taza",
+                  "pt-BR": "tigela / xícara"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "鸡蛋",
+                "hanzi": "鸡蛋",
+                "pinyin": "jīdàn",
+                "translation": {
+                  "ru": "яйцо",
+                  "en": "egg",
+                  "es": "huevo",
+                  "pt-BR": "ovo"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "鸡",
+                "hanzi": "鸡",
+                "pinyin": "jī",
+                "translation": {
+                  "ru": "курица / петух",
+                  "en": "chicken / rooster",
+                  "es": "pollo / gallo",
+                  "pt-BR": "frango / galo"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "蛋",
+                "hanzi": "蛋",
+                "pinyin": "dàn",
+                "translation": {
+                  "ru": "яйцо",
+                  "en": "egg",
+                  "es": "huevo",
+                  "pt-BR": "ovo"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "汤",
+                "hanzi": "汤",
+                "pinyin": "tāng",
+                "translation": {
+                  "ru": "суп",
+                  "en": "soup",
+                  "es": "sopa",
+                  "pt-BR": "sopa"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "啤酒",
+                "hanzi": "啤酒",
+                "pinyin": "píjiǔ",
+                "translation": {
+                  "ru": "пиво",
+                  "en": "beer",
+                  "es": "cerveza",
+                  "pt-BR": "cerveja"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "酒",
+                "hanzi": "酒",
+                "pinyin": "jiǔ",
+                "translation": {
+                  "ru": "алкогольный напиток",
+                  "en": "alcoholic drink",
+                  "es": "bebida alcohólica",
+                  "pt-BR": "bebida alcoólica"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_07_ch03",
+      "number": 3,
+      "title": {
+        "ru": "Итог",
+        "en": "Wrap-up",
+        "es": "Resumen",
+        "pt-BR": "Encerramento"
+      },
+      "goal": null,
+      "estimatedMinutes": 9,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_other",
+            "title": {
+              "ru": "Другие слова",
+              "en": "Other words",
+              "es": "Otras palabras",
+              "pt-BR": "Outras palavras"
+            },
+            "items": [
+              {
+                "id": "这些",
+                "hanzi": "这些",
+                "pinyin": "zhèxiē",
+                "translation": {
+                  "ru": "эти",
+                  "en": "these",
+                  "es": "estos / estas",
+                  "pt-BR": "estes / estas"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "些",
+                "hanzi": "些",
+                "pinyin": "xiē",
+                "translation": {
+                  "ru": "несколько",
+                  "en": "several / a few",
+                  "es": "varios / unos",
+                  "pt-BR": "vários / alguns"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "一些",
+                "hanzi": "一些",
+                "pinyin": "yìxiē",
+                "translation": {
+                  "ru": "немного / несколько",
+                  "en": "a little / several",
+                  "es": "un poco / varios",
+                  "pt-BR": "um pouco / vários"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "那些",
+                "hanzi": "那些",
+                "pinyin": "nàxiē",
+                "translation": {
+                  "ru": "те",
+                  "en": "those",
+                  "es": "esos / esas",
+                  "pt-BR": "aqueles / aquelas"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "个",
+                "hanzi": "个",
+                "pinyin": "ge",
+                "translation": {
+                  "ru": "универсальное счётное слово",
+                  "en": "universal measure word",
+                  "es": "clasificador universal",
+                  "pt-BR": "classificador universal"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabularySummary",
+          "groups": [
+            {
+              "id": "vocab_food",
+              "title": {
+                "ru": "Еда",
+                "en": "Food",
+                "es": "Comida",
+                "pt-BR": "Comida"
+              },
+              "items": []
+            },
+            {
+              "id": "vocab_drinks",
+              "title": {
+                "ru": "Напитки",
+                "en": "Drinks",
+                "es": "Bebidas",
+                "pt-BR": "Bebidas"
+              },
+              "items": []
+            },
+            {
+              "id": "vocab_other",
+              "title": {
+                "ru": "Другие слова",
+                "en": "Other words",
+                "es": "Otras palabras",
+                "pt-BR": "Outras palavras"
+              },
+              "items": []
+            }
+          ]
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "Прочитай диалог ещё раз",
+          "dialogue": {
+            "id": "dialogue_main",
+            "title": null,
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "中午你去哪儿吃饭？",
+                "pinyin": "Zhōngwǔ nǐ qù nǎr chī fàn?",
+                "translation": {
+                  "ru": "Где ты обедаешь в полдень?",
+                  "en": "Where do you eat lunch at noon?",
+                  "es": "¿Dónde almuerzas al mediodía?",
+                  "pt-BR": "Onde você almoça ao meio-dia?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我去食堂。",
+                "pinyin": "Wǒ qù shítáng.",
+                "translation": {
+                  "ru": "Я иду в столовую.",
+                  "en": "I'm going to the cafeteria.",
+                  "es": "Voy al comedor.",
+                  "pt-BR": "Vou ao refeitório."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "你吃什么？",
+                "pinyin": "Nǐ chī shénme?",
+                "translation": {
+                  "ru": "Что ты ешь?",
+                  "en": "What are you eating?",
+                  "es": "¿Qué comes?",
+                  "pt-BR": "O que você come?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我吃馒头。",
+                "pinyin": "Wǒ chī mántou.",
+                "translation": {
+                  "ru": "Я ем маньтоу.",
+                  "en": "I'm eating mantou.",
+                  "es": "Como mantou.",
+                  "pt-BR": "Como mantou."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "你要几个？",
+                "pinyin": "Nǐ yào jǐ ge?",
+                "translation": {
+                  "ru": "Сколько тебе?",
+                  "en": "How many do you want?",
+                  "es": "¿Cuántos quieres?",
+                  "pt-BR": "Quantos você quer?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "一个。你吃吗？",
+                "pinyin": "Yí ge. Nǐ chī ma?",
+                "translation": {
+                  "ru": "Один. Ты будешь?",
+                  "en": "One. Will you eat some?",
+                  "es": "Uno. ¿Comes?",
+                  "pt-BR": "Um. Você come?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "不吃，我吃米饭。你喝什么？",
+                "pinyin": "Bù chī, wǒ chī mǐfàn. Nǐ hē shénme?",
+                "translation": {
+                  "ru": "Нет, я ем рис. Что ты пьёшь?",
+                  "en": "No, I'm eating rice. What are you drinking?",
+                  "es": "No, como arroz. ¿Qué bebes?",
+                  "pt-BR": "Não, como arroz. O que você bebe?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我要一碗鸡蛋汤。你喝吗？",
+                "pinyin": "Wǒ yào yì wǎn jīdàn tāng. Nǐ hē ma?",
+                "translation": {
+                  "ru": "Я хочу миску яичного супа. Ты будешь?",
+                  "en": "I want a bowl of egg soup. Will you have some?",
+                  "es": "Quiero un bol de sopa de huevo. ¿Bebes?",
+                  "pt-BR": "Quero uma tigela de sopa de ovo. Você bebe?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "不喝，我喝啤酒。",
+                "pinyin": "Bù hē, wǒ hē píjiǔ.",
+                "translation": {
+                  "ru": "Нет, я пью пиво.",
+                  "en": "No, I'm drinking beer.",
+                  "es": "No, bebo cerveza.",
+                  "pt-BR": "Não, bebo cerveja."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "这些是什么？",
+                "pinyin": "Zhèxiē shì shénme?",
+                "translation": {
+                  "ru": "Что это?",
+                  "en": "What are these?",
+                  "es": "¿Qué son estos?",
+                  "pt-BR": "O que são estes?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "这是饺子，这是包子，那是面条儿。",
+                "pinyin": "Zhè shì jiǎozi, zhè shì bāozi, nà shì miàntiáor.",
+                "translation": {
+                  "ru": "Это цзяоцзы, это баоцзы, там лапша.",
+                  "en": "These are jiaozi, these are baozi, that is noodles.",
+                  "es": "Estos son jiaozi, estos son baozi, aquello son fideos.",
+                  "pt-BR": "Estes são jiaozi, estes são baozi, aquilo são macarrão."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "quizChineseToTranslation"
+        },
+        {
+          "kind": "quizTranslationToChinese"
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_07_ch04",
+      "number": 4,
+      "title": {
+        "ru": "Продолжение",
+        "en": "Continue",
+        "es": "Continuación",
+        "pt-BR": "Continuação"
+      },
+      "goal": null,
+      "estimatedMinutes": 7,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "examples",
+          "items": [
+            {
+              "id": "ex_中午你去哪儿吃饭",
+              "hanzi": "中午你去哪儿吃饭？",
+              "pinyin": "Zhōngwǔ nǐ qù nǎr chī fàn?",
+              "translation": {
+                "ru": "Где ты обедаешь в полдень?",
+                "en": "Where do you eat lunch at noon?",
+                "es": "¿Dónde almuerzas al mediodía?",
+                "pt-BR": "Onde você almoça ao meio-dia?"
+              }
+            },
+            {
+              "id": "ex_我去食堂",
+              "hanzi": "我去食堂。",
+              "pinyin": "Wǒ qù shítáng.",
+              "translation": {
+                "ru": "Я иду в столовую.",
+                "en": "I'm going to the cafeteria.",
+                "es": "Voy al comedor.",
+                "pt-BR": "Vou ao refeitório."
+              }
+            },
+            {
+              "id": "ex_你吃什么",
+              "hanzi": "你吃什么？",
+              "pinyin": "Nǐ chī shénme?",
+              "translation": {
+                "ru": "Что ты ешь?",
+                "en": "What are you eating?",
+                "es": "¿Qué comes?",
+                "pt-BR": "O que você come?"
+              }
+            },
+            {
+              "id": "ex_我吃馒头",
+              "hanzi": "我吃馒头。",
+              "pinyin": "Wǒ chī mántou.",
+              "translation": {
+                "ru": "Я ем маньтоу.",
+                "en": "I'm eating mantou.",
+                "es": "Como mantou.",
+                "pt-BR": "Como mantou."
+              }
+            },
+            {
+              "id": "ex_你要几个",
+              "hanzi": "你要几个？",
+              "pinyin": "Nǐ yào jǐ ge?",
+              "translation": {
+                "ru": "Сколько тебе?",
+                "en": "How many do you want?",
+                "es": "¿Cuántos quieres?",
+                "pt-BR": "Quantos você quer?"
+              }
+            },
+            {
+              "id": "ex_一个_你吃吗",
+              "hanzi": "一个。你吃吗？",
+              "pinyin": "Yí ge. Nǐ chī ma?",
+              "translation": {
+                "ru": "Один. Ты будешь?",
+                "en": "One. Will you eat some?",
+                "es": "Uno. ¿Comes?",
+                "pt-BR": "Um. Você come?"
+              }
+            },
+            {
+              "id": "ex_不吃_我吃米饭_你喝什么",
+              "hanzi": "不吃，我吃米饭。你喝什么？",
+              "pinyin": "Bù chī, wǒ chī mǐfàn. Nǐ hē shénme?",
+              "translation": {
+                "ru": "Нет, я ем рис. Что ты пьёшь?",
+                "en": "No, I'm eating rice. What are you drinking?",
+                "es": "No, como arroz. ¿Qué bebes?",
+                "pt-BR": "Não, como arroz. O que você bebe?"
+              }
+            },
+            {
+              "id": "ex_我要一碗鸡蛋汤_你喝吗",
+              "hanzi": "我要一碗鸡蛋汤。你喝吗？",
+              "pinyin": "Wǒ yào yì wǎn jīdàn tāng. Nǐ hē ma?",
+              "translation": {
+                "ru": "Я хочу миску яичного супа. Ты будешь?",
+                "en": "I want a bowl of egg soup. Will you have some?",
+                "es": "Quiero un bol de sopa de huevo. ¿Bebes?",
+                "pt-BR": "Quero uma tigela de sopa de ovo. Você bebe?"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
     }
   ]
 }

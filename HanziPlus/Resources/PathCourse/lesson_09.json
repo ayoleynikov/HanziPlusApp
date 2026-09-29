@@ -1065,6 +1065,1135 @@
     },
     {
       "kind": "completion"
+    },
+    {
+      "kind": "examples",
+      "id": "reference_additional",
+      "items": [
+        {
+          "id": "ex_先生_我要换钱",
+          "hanzi": "先生，我要换钱。",
+          "pinyin": "Xiānsheng, wǒ yào huàn qián.",
+          "translation": {
+            "ru": "Господин, я хочу поменять деньги.",
+            "en": "Sir, I'd like to exchange money.",
+            "es": "Señor, quiero cambiar dinero.",
+            "pt-BR": "Senhor, quero trocar dinheiro."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_add_huan_shenme",
+          "hanzi": "您换什么钱？",
+          "pinyin": "Nín huàn shénme qián?",
+          "translation": {
+            "ru": "Какие деньги вы хотите поменять?",
+            "en": "What currency would you like to exchange?",
+            "es": "¿Qué dinero quiere cambiar?",
+            "pt-BR": "Que moeda o senhor quer trocar?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_我换五万日元的人民币",
+          "hanzi": "我换五万日元的人民币。",
+          "pinyin": "Wǒ huàn wǔ wàn rìyuán de rénmínbì.",
+          "translation": {
+            "ru": "Я хочу поменять пятьдесят тысяч японских иен на юани.",
+            "en": "I'd like to exchange 50,000 yen for yuan.",
+            "es": "Quiero cambiar cincuenta mil yenes a yuanes.",
+            "pt-BR": "Quero trocar cinquenta mil ienes por yuan."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_add_deng",
+          "hanzi": "请等一会儿……",
+          "pinyin": "Qǐng děng yíhuìr...",
+          "translation": {
+            "ru": "Подождите немного…",
+            "en": "Please wait a moment…",
+            "es": "Espere un momento…",
+            "pt-BR": "Por favor, aguarde um momento…"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_小姐_给您钱_您数数",
+          "hanzi": "小姐，给您钱，您数数。",
+          "pinyin": "Xiǎojiě, gěi nín qián, nín shǔshu.",
+          "translation": {
+            "ru": "Девушка, вот ваши деньги, пересчитайте, пожалуйста.",
+            "en": "Miss, here's your money, please count it.",
+            "es": "Señorita, aquí tiene el dinero, cuente, por favor.",
+            "pt-BR": "Senhorita, aqui está o dinheiro, por favor conte."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_add_duile",
+          "hanzi": "对了。谢谢！",
+          "pinyin": "Duì le. Xièxie!",
+          "translation": {
+            "ru": "Всё верно. Спасибо!",
+            "en": "That's right. Thank you!",
+            "es": "Correcto. ¡Gracias!",
+            "pt-BR": "Está certo. Obrigado!"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_add_bukeqi",
+          "hanzi": "不客气！",
+          "pinyin": "Bú kèqi!",
+          "translation": {
+            "ru": "Пожалуйста!",
+            "en": "You're welcome!",
+            "es": "¡De nada!",
+            "pt-BR": "De nada!"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_先生_给您钱",
+          "hanzi": "先生，给您钱。",
+          "pinyin": "Xiānsheng, gěi nín qián.",
+          "translation": {
+            "ru": "Господин, вот ваши деньги.",
+            "en": "Sir, here's your money.",
+            "es": "Señor, aquí tiene el dinero.",
+            "pt-BR": "Senhor, aqui está o dinheiro."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_请数数",
+          "hanzi": "请数数。",
+          "pinyin": "Qǐng shǔshu.",
+          "translation": {
+            "ru": "Пожалуйста, пересчитайте.",
+            "en": "Please count it.",
+            "es": "Por favor, cuente.",
+            "pt-BR": "Por favor, conte."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_对了_谢谢",
+          "hanzi": "对了。谢谢！",
+          "pinyin": "Duì le. Xièxie!",
+          "translation": {
+            "ru": "Всё верно. Спасибо!",
+            "en": "That's right. Thank you!",
+            "es": "Correcto. ¡Gracias!",
+            "pt-BR": "Está certo. Obrigado!"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_不客气",
+          "hanzi": "不客气！",
+          "pinyin": "Bú kèqi!",
+          "translation": {
+            "ru": "Пожалуйста!",
+            "en": "You're welcome!",
+            "es": "¡De nada!",
+            "pt-BR": "De nada!"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_给你",
+          "hanzi": "给你",
+          "pinyin": "gěi nǐ",
+          "translation": {
+            "ru": "(дать) тебе",
+            "en": "(give) you",
+            "es": "(dar) a ti",
+            "pt-BR": "(dar) a você"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_给我",
+          "hanzi": "给我",
+          "pinyin": "gěi wǒ",
+          "translation": {
+            "ru": "(дать) мне",
+            "en": "(give) me",
+            "es": "(dar) a mí",
+            "pt-BR": "(dar) a mim"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_给他",
+          "hanzi": "给他",
+          "pinyin": "gěi tā",
+          "translation": {
+            "ru": "(дать) ему",
+            "en": "(give) him",
+            "es": "(dar) a él",
+            "pt-BR": "(dar) a ele"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_给你们",
+          "hanzi": "给你们",
+          "pinyin": "gěi nǐmen",
+          "translation": {
+            "ru": "(дать) вам",
+            "en": "(give) you (plural)",
+            "es": "(dar) a ustedes",
+            "pt-BR": "(dar) a vocês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_给他们",
+          "hanzi": "给他们",
+          "pinyin": "gěi tāmen",
+          "translation": {
+            "ru": "(дать) им",
+            "en": "(give) them",
+            "es": "(dar) a ellos",
+            "pt-BR": "(dar) a eles"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_给老师",
+          "hanzi": "给老师",
+          "pinyin": "gěi lǎoshī",
+          "translation": {
+            "ru": "(дать) учителю",
+            "en": "(give) the teacher",
+            "es": "(dar) al profesor",
+            "pt-BR": "(dar) ao professor"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_一百",
+          "hanzi": "一百",
+          "pinyin": "yì bǎi",
+          "translation": {
+            "ru": "сто",
+            "en": "one hundred",
+            "es": "cien",
+            "pt-BR": "cem"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_二百",
+          "hanzi": "二百",
+          "pinyin": "èr bǎi",
+          "translation": {
+            "ru": "двести",
+            "en": "two hundred",
+            "es": "doscientos",
+            "pt-BR": "duzentos"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_三百",
+          "hanzi": "三百",
+          "pinyin": "sān bǎi",
+          "translation": {
+            "ru": "триста",
+            "en": "three hundred",
+            "es": "trescientos",
+            "pt-BR": "trezentos"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_五百",
+          "hanzi": "五百",
+          "pinyin": "wǔ bǎi",
+          "translation": {
+            "ru": "пятьсот",
+            "en": "five hundred",
+            "es": "quinientos",
+            "pt-BR": "quinhentos"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_六百",
+          "hanzi": "六百",
+          "pinyin": "liù bǎi",
+          "translation": {
+            "ru": "шестьсот",
+            "en": "six hundred",
+            "es": "seiscientos",
+            "pt-BR": "seiscentos"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_今天下午",
+          "hanzi": "今天下午",
+          "pinyin": "jīntiān xiàwǔ",
+          "translation": {
+            "ru": "сегодня после обеда",
+            "en": "this afternoon",
+            "es": "esta tarde",
+            "pt-BR": "hoje à tarde"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_明天下午",
+          "hanzi": "明天下午",
+          "pinyin": "míngtiān xiàwǔ",
+          "translation": {
+            "ru": "завтра после обеда",
+            "en": "tomorrow afternoon",
+            "es": "mañana por la tarde",
+            "pt-BR": "amanhã à tarde"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_星期三下午",
+          "hanzi": "星期三下午",
+          "pinyin": "xīngqīsān xiàwǔ",
+          "translation": {
+            "ru": "в среду после обеда",
+            "en": "Wednesday afternoon",
+            "es": "el miércoles por la tarde",
+            "pt-BR": "na quarta-feira à tarde"
+          },
+          "group": "additional"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "lesson_09_ch01",
+      "number": 1,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Изучить новые слова",
+          "showLessonHeader": true,
+          "dialogue": {
+            "id": "dialogue_main",
+            "title": null,
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "下午我去图书馆，你去不去？",
+                "pinyin": "Xiàwǔ wǒ qù túshūguǎn, nǐ qù bu qù?",
+                "translation": {
+                  "ru": "После обеда я иду в библиотеку. Ты идёшь?",
+                  "en": "This afternoon I'm going to the library. Are you coming?",
+                  "es": "Por la tarde voy a la biblioteca. ¿Vienes?",
+                  "pt-BR": "À tarde eu vou à biblioteca. Você vai?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我不去。我要去银行换钱。",
+                "pinyin": "Wǒ bú qù. Wǒ yào qù yínháng huàn qián.",
+                "translation": {
+                  "ru": "Я не иду. Я иду в банк менять деньги.",
+                  "en": "I'm not going. I'm going to the bank to exchange money.",
+                  "es": "No voy. Voy al banco a cambiar dinero.",
+                  "pt-BR": "Não vou. Vou ao banco trocar dinheiro."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "小姐，我换钱。",
+                "pinyin": "Xiǎojiě, wǒ huàn qián.",
+                "translation": {
+                  "ru": "Девушка, я хочу поменять деньги.",
+                  "en": "Miss, I'd like to exchange money.",
+                  "es": "Señorita, quiero cambiar dinero.",
+                  "pt-BR": "Senhorita, quero trocar dinheiro."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "您换什么钱？",
+                "pinyin": "Nín huàn shénme qián?",
+                "translation": {
+                  "ru": "Какие деньги вы хотите поменять?",
+                  "en": "What currency would you like to exchange?",
+                  "es": "¿Qué dinero quiere cambiar?",
+                  "pt-BR": "Que moeda o senhor quer trocar?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "我换人民币。",
+                "pinyin": "Wǒ huàn rénmínbì.",
+                "translation": {
+                  "ru": "Я хочу поменять на юани.",
+                  "en": "I'd like to exchange for yuan.",
+                  "es": "Quiero cambiar a yuanes.",
+                  "pt-BR": "Quero trocar por yuan."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "换多少？",
+                "pinyin": "Huàn duōshao?",
+                "translation": {
+                  "ru": "Сколько менять?",
+                  "en": "How much would you like to exchange?",
+                  "es": "¿Cuánto?",
+                  "pt-BR": "Quanto?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "二百美元。",
+                "pinyin": "Èrbǎi měiyuán.",
+                "translation": {
+                  "ru": "Двести долларов.",
+                  "en": "Two hundred US dollars.",
+                  "es": "Doscientos dólares.",
+                  "pt-BR": "Duzentos dólares."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "请等一会儿……先生，给您钱。",
+                "pinyin": "Qǐng děng yíhuìr... Xiānsheng, gěi nín qián.",
+                "translation": {
+                  "ru": "Подождите немного… Господин, вот ваши деньги.",
+                  "en": "Please wait a moment… Sir, here's your money.",
+                  "es": "Espere un momento… Señor, aquí tiene el dinero.",
+                  "pt-BR": "Por favor, aguarde um momento… Senhor, aqui está o dinheiro."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "请数数。",
+                "pinyin": "Qǐng shǔshu.",
+                "translation": {
+                  "ru": "Пожалуйста, пересчитайте.",
+                  "en": "Please count it.",
+                  "es": "Por favor, cuente.",
+                  "pt-BR": "Por favor, conte."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "对了。谢谢！",
+                "pinyin": "Duì le. Xièxie!",
+                "translation": {
+                  "ru": "Всё верно. Спасибо!",
+                  "en": "That's right. Thank you!",
+                  "es": "Correcto. ¡Gracias!",
+                  "pt-BR": "Está certo. Obrigado!"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "不客气！",
+                "pinyin": "Bú kèqi!",
+                "translation": {
+                  "ru": "Пожалуйста!",
+                  "en": "You're welcome!",
+                  "es": "¡De nada!",
+                  "pt-BR": "De nada!"
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_currency",
+            "title": {
+              "ru": "Валюта",
+              "en": "Currency",
+              "es": "Moneda",
+              "pt-BR": "Moeda"
+            },
+            "items": [
+              {
+                "id": "人民币",
+                "hanzi": "人民币",
+                "pinyin": "rénmínbì",
+                "translation": {
+                  "ru": "юань / жэньминьби",
+                  "en": "yuan / renminbi",
+                  "es": "yuan / renminbi",
+                  "pt-BR": "yuan / renminbi"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "人民",
+                "hanzi": "人民",
+                "pinyin": "rénmín",
+                "translation": {
+                  "ru": "народ",
+                  "en": "people / nation",
+                  "es": "pueblo / nación",
+                  "pt-BR": "povo / nação"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "美元",
+                "hanzi": "美元",
+                "pinyin": "měiyuán",
+                "translation": {
+                  "ru": "доллар США",
+                  "en": "US dollar",
+                  "es": "dólar estadounidense",
+                  "pt-BR": "dólar americano"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "港币",
+                "hanzi": "港币",
+                "pinyin": "gǎngbì",
+                "translation": {
+                  "ru": "гонконгский доллар",
+                  "en": "Hong Kong dollar",
+                  "es": "dólar de Hong Kong",
+                  "pt-BR": "dólar de Hong Kong"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "日元",
+                "hanzi": "日元",
+                "pinyin": "rìyuán",
+                "translation": {
+                  "ru": "японская иена",
+                  "en": "Japanese yen",
+                  "es": "yen japonés",
+                  "pt-BR": "iene japonês"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "欧元",
+                "hanzi": "欧元",
+                "pinyin": "ōuyuán",
+                "translation": {
+                  "ru": "евро",
+                  "en": "euro",
+                  "es": "euro",
+                  "pt-BR": "euro"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_numbers",
+            "title": {
+              "ru": "Числа",
+              "en": "Numbers",
+              "es": "Números",
+              "pt-BR": "Números"
+            },
+            "items": [
+              {
+                "id": "百",
+                "hanzi": "百",
+                "pinyin": "bǎi",
+                "translation": {
+                  "ru": "сто",
+                  "en": "hundred",
+                  "es": "cien",
+                  "pt-BR": "cem"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "千",
+                "hanzi": "千",
+                "pinyin": "qiān",
+                "translation": {
+                  "ru": "тысяча",
+                  "en": "thousand",
+                  "es": "mil",
+                  "pt-BR": "mil"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "万",
+                "hanzi": "万",
+                "pinyin": "wàn",
+                "translation": {
+                  "ru": "десять тысяч",
+                  "en": "ten thousand",
+                  "es": "diez mil",
+                  "pt-BR": "dez mil"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_09_ch02",
+      "number": 2,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_bank",
+            "title": {
+              "ru": "Банк",
+              "en": "Bank",
+              "es": "Banco",
+              "pt-BR": "Banco"
+            },
+            "items": [
+              {
+                "id": "下午",
+                "hanzi": "下午",
+                "pinyin": "xiàwǔ",
+                "translation": {
+                  "ru": "вторая половина дня",
+                  "en": "afternoon",
+                  "es": "tarde",
+                  "pt-BR": "tarde"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "上午",
+                "hanzi": "上午",
+                "pinyin": "shàngwǔ",
+                "translation": {
+                  "ru": "первая половина дня",
+                  "en": "morning",
+                  "es": "mañana",
+                  "pt-BR": "manhã"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "图书馆",
+                "hanzi": "图书馆",
+                "pinyin": "túshūguǎn",
+                "translation": {
+                  "ru": "библиотека",
+                  "en": "library",
+                  "es": "biblioteca",
+                  "pt-BR": "biblioteca"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "要",
+                "hanzi": "要",
+                "pinyin": "yào",
+                "translation": {
+                  "ru": "хотеть / нужно",
+                  "en": "to want / need",
+                  "es": "querer / necesitar",
+                  "pt-BR": "querer / precisar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "换",
+                "hanzi": "换",
+                "pinyin": "huàn",
+                "translation": {
+                  "ru": "менять / обменивать",
+                  "en": "to change / to exchange",
+                  "es": "cambiar / intercambiar",
+                  "pt-BR": "trocar / cambiar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "小姐",
+                "hanzi": "小姐",
+                "pinyin": "xiǎojiě",
+                "translation": {
+                  "ru": "мисс",
+                  "en": "Miss",
+                  "es": "señorita",
+                  "pt-BR": "senhorita"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "营业员",
+                "hanzi": "营业员",
+                "pinyin": "yíngyèyuán",
+                "translation": {
+                  "ru": "служащий / продавец",
+                  "en": "clerk / salesperson",
+                  "es": "empleado / vendedor",
+                  "pt-BR": "funcionário / vendedor"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "等",
+                "hanzi": "等",
+                "pinyin": "děng",
+                "translation": {
+                  "ru": "ждать",
+                  "en": "to wait",
+                  "es": "esperar",
+                  "pt-BR": "esperar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "一会儿",
+                "hanzi": "一会儿",
+                "pinyin": "yíhuìr",
+                "translation": {
+                  "ru": "немного времени / минутку",
+                  "en": "a moment / just a minute",
+                  "es": "un momento",
+                  "pt-BR": "um momento"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "先生",
+                "hanzi": "先生",
+                "pinyin": "xiānsheng",
+                "translation": {
+                  "ru": "господин",
+                  "en": "Mr. / sir",
+                  "es": "señor",
+                  "pt-BR": "senhor"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "数",
+                "hanzi": "数",
+                "pinyin": "shǔ",
+                "translation": {
+                  "ru": "считать",
+                  "en": "to count",
+                  "es": "contar",
+                  "pt-BR": "contar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "quizChineseToTranslation"
+        },
+        {
+          "kind": "quizTranslationToChinese"
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_09_ch03",
+      "number": 3,
+      "title": {
+        "ru": "Итог",
+        "en": "Wrap-up",
+        "es": "Resumen",
+        "pt-BR": "Encerramento"
+      },
+      "goal": null,
+      "estimatedMinutes": 7,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabularySummary",
+          "groups": [
+            {
+              "id": "vocab_currency",
+              "title": {
+                "ru": "Валюта",
+                "en": "Currency",
+                "es": "Moneda",
+                "pt-BR": "Moeda"
+              },
+              "items": []
+            },
+            {
+              "id": "vocab_numbers",
+              "title": {
+                "ru": "Числа",
+                "en": "Numbers",
+                "es": "Números",
+                "pt-BR": "Números"
+              },
+              "items": []
+            },
+            {
+              "id": "vocab_bank",
+              "title": {
+                "ru": "Банк",
+                "en": "Bank",
+                "es": "Banco",
+                "pt-BR": "Banco"
+              },
+              "items": []
+            }
+          ]
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "Прочитай диалог ещё раз",
+          "dialogue": {
+            "id": "dialogue_main",
+            "title": null,
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "下午我去图书馆，你去不去？",
+                "pinyin": "Xiàwǔ wǒ qù túshūguǎn, nǐ qù bu qù?",
+                "translation": {
+                  "ru": "После обеда я иду в библиотеку. Ты идёшь?",
+                  "en": "This afternoon I'm going to the library. Are you coming?",
+                  "es": "Por la tarde voy a la biblioteca. ¿Vienes?",
+                  "pt-BR": "À tarde eu vou à biblioteca. Você vai?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我不去。我要去银行换钱。",
+                "pinyin": "Wǒ bú qù. Wǒ yào qù yínháng huàn qián.",
+                "translation": {
+                  "ru": "Я не иду. Я иду в банк менять деньги.",
+                  "en": "I'm not going. I'm going to the bank to exchange money.",
+                  "es": "No voy. Voy al banco a cambiar dinero.",
+                  "pt-BR": "Não vou. Vou ao banco trocar dinheiro."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "小姐，我换钱。",
+                "pinyin": "Xiǎojiě, wǒ huàn qián.",
+                "translation": {
+                  "ru": "Девушка, я хочу поменять деньги.",
+                  "en": "Miss, I'd like to exchange money.",
+                  "es": "Señorita, quiero cambiar dinero.",
+                  "pt-BR": "Senhorita, quero trocar dinheiro."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "您换什么钱？",
+                "pinyin": "Nín huàn shénme qián?",
+                "translation": {
+                  "ru": "Какие деньги вы хотите поменять?",
+                  "en": "What currency would you like to exchange?",
+                  "es": "¿Qué dinero quiere cambiar?",
+                  "pt-BR": "Que moeda o senhor quer trocar?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "我换人民币。",
+                "pinyin": "Wǒ huàn rénmínbì.",
+                "translation": {
+                  "ru": "Я хочу поменять на юани.",
+                  "en": "I'd like to exchange for yuan.",
+                  "es": "Quiero cambiar a yuanes.",
+                  "pt-BR": "Quero trocar por yuan."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "换多少？",
+                "pinyin": "Huàn duōshao?",
+                "translation": {
+                  "ru": "Сколько менять?",
+                  "en": "How much would you like to exchange?",
+                  "es": "¿Cuánto?",
+                  "pt-BR": "Quanto?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "二百美元。",
+                "pinyin": "Èrbǎi měiyuán.",
+                "translation": {
+                  "ru": "Двести долларов.",
+                  "en": "Two hundred US dollars.",
+                  "es": "Doscientos dólares.",
+                  "pt-BR": "Duzentos dólares."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "请等一会儿……先生，给您钱。",
+                "pinyin": "Qǐng děng yíhuìr... Xiānsheng, gěi nín qián.",
+                "translation": {
+                  "ru": "Подождите немного… Господин, вот ваши деньги.",
+                  "en": "Please wait a moment… Sir, here's your money.",
+                  "es": "Espere un momento… Señor, aquí tiene el dinero.",
+                  "pt-BR": "Por favor, aguarde um momento… Senhor, aqui está o dinheiro."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "请数数。",
+                "pinyin": "Qǐng shǔshu.",
+                "translation": {
+                  "ru": "Пожалуйста, пересчитайте.",
+                  "en": "Please count it.",
+                  "es": "Por favor, cuente.",
+                  "pt-BR": "Por favor, conte."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "对了。谢谢！",
+                "pinyin": "Duì le. Xièxie!",
+                "translation": {
+                  "ru": "Всё верно. Спасибо!",
+                  "en": "That's right. Thank you!",
+                  "es": "Correcto. ¡Gracias!",
+                  "pt-BR": "Está certo. Obrigado!"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "不客气！",
+                "pinyin": "Bú kèqi!",
+                "translation": {
+                  "ru": "Пожалуйста!",
+                  "en": "You're welcome!",
+                  "es": "¡De nada!",
+                  "pt-BR": "De nada!"
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_09_ch04",
+      "number": 4,
+      "title": {
+        "ru": "Продолжение",
+        "en": "Continue",
+        "es": "Continuación",
+        "pt-BR": "Continuação"
+      },
+      "goal": null,
+      "estimatedMinutes": 7,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "examples",
+          "items": [
+            {
+              "id": "ex_下午我去图书馆_你去不去",
+              "hanzi": "下午我去图书馆，你去不去？",
+              "pinyin": "Xiàwǔ wǒ qù túshūguǎn, nǐ qù bu qù?",
+              "translation": {
+                "ru": "После обеда я иду в библиотеку. Ты идёшь?",
+                "en": "This afternoon I'm going to the library. Are you coming?",
+                "es": "Por la tarde voy a la biblioteca. ¿Vienes?",
+                "pt-BR": "À tarde eu vou à biblioteca. Você vai?"
+              }
+            },
+            {
+              "id": "ex_我不去_我要去银行换钱",
+              "hanzi": "我不去。我要去银行换钱。",
+              "pinyin": "Wǒ bú qù. Wǒ yào qù yínháng huàn qián.",
+              "translation": {
+                "ru": "Я не иду. Я иду в банк менять деньги.",
+                "en": "I'm not going. I'm going to the bank to exchange money.",
+                "es": "No voy. Voy al banco a cambiar dinero.",
+                "pt-BR": "Não vou. Vou ao banco trocar dinheiro."
+              }
+            },
+            {
+              "id": "ex_小姐_我换钱",
+              "hanzi": "小姐，我换钱。",
+              "pinyin": "Xiǎojiě, wǒ huàn qián.",
+              "translation": {
+                "ru": "Девушка, я хочу поменять деньги.",
+                "en": "Miss, I'd like to exchange money.",
+                "es": "Señorita, quiero cambiar dinero.",
+                "pt-BR": "Senhorita, quero trocar dinheiro."
+              }
+            },
+            {
+              "id": "ex_您换什么钱",
+              "hanzi": "您换什么钱？",
+              "pinyin": "Nín huàn shénme qián?",
+              "translation": {
+                "ru": "Какие деньги вы хотите поменять?",
+                "en": "What currency would you like to exchange?",
+                "es": "¿Qué dinero quiere cambiar?",
+                "pt-BR": "Que moeda o senhor quer trocar?"
+              }
+            },
+            {
+              "id": "ex_我换人民币",
+              "hanzi": "我换人民币。",
+              "pinyin": "Wǒ huàn rénmínbì.",
+              "translation": {
+                "ru": "Я хочу поменять на юани.",
+                "en": "I'd like to exchange for yuan.",
+                "es": "Quiero cambiar a yuanes.",
+                "pt-BR": "Quero trocar por yuan."
+              }
+            },
+            {
+              "id": "ex_换多少",
+              "hanzi": "换多少？",
+              "pinyin": "Huàn duōshao?",
+              "translation": {
+                "ru": "Сколько менять?",
+                "en": "How much would you like to exchange?",
+                "es": "¿Cuánto?",
+                "pt-BR": "Quanto?"
+              }
+            },
+            {
+              "id": "ex_二百美元",
+              "hanzi": "二百美元。",
+              "pinyin": "Èrbǎi měiyuán.",
+              "translation": {
+                "ru": "Двести долларов.",
+                "en": "Two hundred US dollars.",
+                "es": "Doscientos dólares.",
+                "pt-BR": "Duzentos dólares."
+              }
+            },
+            {
+              "id": "ex_请等一会儿",
+              "hanzi": "请等一会儿……",
+              "pinyin": "Qǐng děng yíhuìr...",
+              "translation": {
+                "ru": "Подождите немного…",
+                "en": "Please wait a moment…",
+                "es": "Espere un momento…",
+                "pt-BR": "Por favor, aguarde um momento…"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
     }
   ]
 }

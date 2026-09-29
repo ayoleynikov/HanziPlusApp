@@ -1290,6 +1290,1998 @@
     },
     {
       "kind": "completion"
+    },
+    {
+      "kind": "examples",
+      "id": "reference_additional",
+      "items": [
+        {
+          "id": "ex12_00",
+          "hanzi": "什么名字",
+          "pinyin": "Shénme míngzi",
+          "translation": {
+            "ru": "какое имя",
+            "en": "what name",
+            "es": "qué nombre",
+            "pt-BR": "que nome"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_01",
+          "hanzi": "什么老师",
+          "pinyin": "Shénme lǎoshī",
+          "translation": {
+            "ru": "какой преподаватель",
+            "en": "which teacher",
+            "es": "qué profesor",
+            "pt-BR": "que professor"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_02",
+          "hanzi": "吃什么",
+          "pinyin": "Chī shénme",
+          "translation": {
+            "ru": "что есть",
+            "en": "what to eat",
+            "es": "qué comer",
+            "pt-BR": "o que comer"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_03",
+          "hanzi": "喝什么",
+          "pinyin": "Hē shénme",
+          "translation": {
+            "ru": "что пить",
+            "en": "what to drink",
+            "es": "qué beber",
+            "pt-BR": "o que beber"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_04",
+          "hanzi": "身体怎么样",
+          "pinyin": "Shēntǐ zěnmeyàng",
+          "translation": {
+            "ru": "как здоровье",
+            "en": "how is your health",
+            "es": "cómo está la salud",
+            "pt-BR": "como está a saúde"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_05",
+          "hanzi": "学习怎么样",
+          "pinyin": "Xuéxí zěnmeyàng",
+          "translation": {
+            "ru": "как учёба",
+            "en": "how are your studies",
+            "es": "cómo van los estudios",
+            "pt-BR": "como estão os estudos"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_06",
+          "hanzi": "爸爸怎么样",
+          "pinyin": "Bàba zěnmeyàng",
+          "translation": {
+            "ru": "как папа",
+            "en": "how is dad",
+            "es": "cómo está papá",
+            "pt-BR": "como está o pai"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_07",
+          "hanzi": "妈妈怎么样",
+          "pinyin": "Māma zěnmeyàng",
+          "translation": {
+            "ru": "как мама",
+            "en": "how is mom",
+            "es": "cómo está mamá",
+            "pt-BR": "como está a mãe"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_08",
+          "hanzi": "谁的书",
+          "pinyin": "Shéi de shū",
+          "translation": {
+            "ru": "чья книга",
+            "en": "whose book",
+            "es": "de quién es el libro",
+            "pt-BR": "de quem é o livro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_09",
+          "hanzi": "谁的老师",
+          "pinyin": "Shéi de lǎoshī",
+          "translation": {
+            "ru": "чей преподаватель",
+            "en": "whose teacher",
+            "es": "de quién es el profesor",
+            "pt-BR": "de quem é o professor"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_10",
+          "hanzi": "谁的词典",
+          "pinyin": "Shéi de cídiǎn",
+          "translation": {
+            "ru": "чей словарь",
+            "en": "whose dictionary",
+            "es": "de quién es el diccionario",
+            "pt-BR": "de quem é o dicionário"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_11",
+          "hanzi": "谁的英文杂志",
+          "pinyin": "Shéi de Yīngwén zázhì",
+          "translation": {
+            "ru": "чей английский журнал",
+            "en": "whose English magazine",
+            "es": "de quién es la revista en inglés",
+            "pt-BR": "de quem é a revista em inglês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_12",
+          "hanzi": "谁的杯",
+          "pinyin": "Shéi de bēi",
+          "translation": {
+            "ru": "чья чашка",
+            "en": "whose cup",
+            "es": "de quién es la taza",
+            "pt-BR": "de quem é a xícara"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_13",
+          "hanzi": "我的英文杂志",
+          "pinyin": "Wǒ de Yīngwén zázhì",
+          "translation": {
+            "ru": "мой английский журнал",
+            "en": "my English magazine",
+            "es": "mi revista en inglés",
+            "pt-BR": "minha revista em inglês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_14",
+          "hanzi": "学习什么",
+          "pinyin": "Xuéxí shénme",
+          "translation": {
+            "ru": "что изучать",
+            "en": "what to study",
+            "es": "qué estudiar",
+            "pt-BR": "o que estudar"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_15",
+          "hanzi": "学习语言",
+          "pinyin": "Xuéxí yǔyán",
+          "translation": {
+            "ru": "изучать язык",
+            "en": "study a language",
+            "es": "estudiar un idioma",
+            "pt-BR": "estudar uma língua"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_16",
+          "hanzi": "学习英语",
+          "pinyin": "Xuéxí Yīngyǔ",
+          "translation": {
+            "ru": "изучать английский язык",
+            "en": "study English",
+            "es": "estudiar inglés",
+            "pt-BR": "estudar inglês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_17",
+          "hanzi": "在中国",
+          "pinyin": "Zài Zhōngguó",
+          "translation": {
+            "ru": "в Китае",
+            "en": "in China",
+            "es": "en China",
+            "pt-BR": "na China"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_18",
+          "hanzi": "在北京",
+          "pinyin": "Zài Běijīng",
+          "translation": {
+            "ru": "в Пекине",
+            "en": "in Beijing",
+            "es": "en Pekín",
+            "pt-BR": "em Pequim"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_19",
+          "hanzi": "在学校",
+          "pinyin": "Zài xuéxiào",
+          "translation": {
+            "ru": "в школе; в университете",
+            "en": "at school",
+            "es": "en la escuela",
+            "pt-BR": "na escola"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_20",
+          "hanzi": "在语言大学",
+          "pinyin": "Zài yǔyán dàxué",
+          "translation": {
+            "ru": "в университете языков",
+            "en": "at the language university",
+            "es": "en la universidad de idiomas",
+            "pt-BR": "na universidade de línguas"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_21",
+          "hanzi": "男同学",
+          "pinyin": "Nán tóngxué",
+          "translation": {
+            "ru": "однокурсник",
+            "en": "male classmate",
+            "es": "compañero de clase",
+            "pt-BR": "colega de classe (homem)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_22",
+          "hanzi": "女同学",
+          "pinyin": "Nǚ tóngxué",
+          "translation": {
+            "ru": "однокурсница",
+            "en": "female classmate",
+            "es": "compañera de clase",
+            "pt-BR": "colega de classe (mulher)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_23",
+          "hanzi": "男老师",
+          "pinyin": "Nán lǎoshī",
+          "translation": {
+            "ru": "преподаватель",
+            "en": "male teacher",
+            "es": "profesor",
+            "pt-BR": "professor (homem)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_24",
+          "hanzi": "女老师",
+          "pinyin": "Nǚ lǎoshī",
+          "translation": {
+            "ru": "преподавательница",
+            "en": "female teacher",
+            "es": "profesora",
+            "pt-BR": "professora"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_25",
+          "hanzi": "中文书",
+          "pinyin": "Zhōngwén shū",
+          "translation": {
+            "ru": "книга на китайском",
+            "en": "Chinese book",
+            "es": "libro en chino",
+            "pt-BR": "livro em chinês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_26",
+          "hanzi": "法文书",
+          "pinyin": "Fǎwén shū",
+          "translation": {
+            "ru": "книга на французском",
+            "en": "French book",
+            "es": "libro en francés",
+            "pt-BR": "livro em francês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_27",
+          "hanzi": "日文杂志",
+          "pinyin": "Rìwén zázhì",
+          "translation": {
+            "ru": "журнал на японском",
+            "en": "Japanese magazine",
+            "es": "revista en japonés",
+            "pt-BR": "revista em japonês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_28",
+          "hanzi": "韩文杂志",
+          "pinyin": "Hánwén zázhì",
+          "translation": {
+            "ru": "журнал на корейском",
+            "en": "Korean magazine",
+            "es": "revista en coreano",
+            "pt-BR": "revista em coreano"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_29",
+          "hanzi": "新同学",
+          "pinyin": "Xīn tóngxué",
+          "translation": {
+            "ru": "новый однокурсник",
+            "en": "new classmate",
+            "es": "nuevo compañero de clase",
+            "pt-BR": "novo colega de classe"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_30",
+          "hanzi": "老同学",
+          "pinyin": "Lǎo tóngxué",
+          "translation": {
+            "ru": "старый однокурсник",
+            "en": "old classmate",
+            "es": "viejo compañero de clase",
+            "pt-BR": "antigo colega de classe"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_31",
+          "hanzi": "新杂志",
+          "pinyin": "Xīn zázhì",
+          "translation": {
+            "ru": "новый журнал",
+            "en": "new magazine",
+            "es": "revista nueva",
+            "pt-BR": "revista nova"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_32",
+          "hanzi": "旧杂志",
+          "pinyin": "Jiù zázhì",
+          "translation": {
+            "ru": "старый журнал",
+            "en": "old magazine",
+            "es": "revista vieja",
+            "pt-BR": "revista velha"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_33",
+          "hanzi": "很多人",
+          "pinyin": "Hěn duō rén",
+          "translation": {
+            "ru": "много людей",
+            "en": "many people",
+            "es": "mucha gente",
+            "pt-BR": "muitas pessoas"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_34",
+          "hanzi": "很多同学",
+          "pinyin": "Hěn duō tóngxué",
+          "translation": {
+            "ru": "много однокурсников",
+            "en": "many classmates",
+            "es": "muchos compañeros de clase",
+            "pt-BR": "muitos colegas de classe"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_35",
+          "hanzi": "很多老师",
+          "pinyin": "Hěn duō lǎoshī",
+          "translation": {
+            "ru": "много преподавателей",
+            "en": "many teachers",
+            "es": "muchos profesores",
+            "pt-BR": "muitos professores"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_36",
+          "hanzi": "很多钱",
+          "pinyin": "Hěn duō qián",
+          "translation": {
+            "ru": "много денег",
+            "en": "a lot of money",
+            "es": "mucho dinero",
+            "pt-BR": "muito dinheiro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_37",
+          "hanzi": "我妈妈",
+          "pinyin": "Wǒ māma",
+          "translation": {
+            "ru": "моя мама",
+            "en": "my mom",
+            "es": "mi mamá",
+            "pt-BR": "minha mãe"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_38",
+          "hanzi": "他哥哥",
+          "pinyin": "Tā gēge",
+          "translation": {
+            "ru": "его старший брат",
+            "en": "his older brother",
+            "es": "su hermano mayor",
+            "pt-BR": "o irmão mais velho dele"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_39",
+          "hanzi": "你弟弟",
+          "pinyin": "Nǐ dìdi",
+          "translation": {
+            "ru": "твой младший брат",
+            "en": "your younger brother",
+            "es": "tu hermano menor",
+            "pt-BR": "seu irmão mais novo"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_40",
+          "hanzi": "我们学校",
+          "pinyin": "Wǒmen xuéxiào",
+          "translation": {
+            "ru": "наша школа; наш университет",
+            "en": "our school",
+            "es": "nuestra escuela",
+            "pt-BR": "nossa escola"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_41",
+          "hanzi": "你学习什么？",
+          "pinyin": "Nǐ xuéxí shénme?",
+          "translation": {
+            "ru": "Что ты изучаешь?",
+            "en": "What do you study?",
+            "es": "¿Qué estudias?",
+            "pt-BR": "O que você estuda?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_42",
+          "hanzi": "我学习汉语。",
+          "pinyin": "Wǒ xuéxí Hànyǔ.",
+          "translation": {
+            "ru": "Я изучаю китайский язык.",
+            "en": "I study Chinese.",
+            "es": "Estudio chino.",
+            "pt-BR": "Estudo chinês."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_43",
+          "hanzi": "你们的老师是谁？",
+          "pinyin": "Nǐmen de lǎoshī shì shéi?",
+          "translation": {
+            "ru": "Кто ваш преподаватель?",
+            "en": "Who is your teacher?",
+            "es": "¿Quién es vuestro profesor?",
+            "pt-BR": "Quem é o professor de vocês?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_44",
+          "hanzi": "我们的老师是王老师。",
+          "pinyin": "Wǒmen de lǎoshī shì Wáng lǎoshī.",
+          "translation": {
+            "ru": "Наш преподаватель — преподаватель Ван.",
+            "en": "Our teacher is Teacher Wang.",
+            "es": "Nuestro profesor es el profesor Wang.",
+            "pt-BR": "Nosso professor é o professor Wang."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_45",
+          "hanzi": "你在哪儿学习？",
+          "pinyin": "Nǐ zài nǎr xuéxí?",
+          "translation": {
+            "ru": "Где ты учишься?",
+            "en": "Where do you study?",
+            "es": "¿Dónde estudias?",
+            "pt-BR": "Onde você estuda?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_46",
+          "hanzi": "语言大学。",
+          "pinyin": "Yǔyán dàxué.",
+          "translation": {
+            "ru": "Университет языков.",
+            "en": "Language University.",
+            "es": "Universidad de idiomas.",
+            "pt-BR": "Universidade de línguas."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_47",
+          "hanzi": "她也在语言大学学习。",
+          "pinyin": "Tā yě zài yǔyán dàxué xuéxí.",
+          "translation": {
+            "ru": "Она тоже учится в университете языков.",
+            "en": "She also studies at the language university.",
+            "es": "Ella también estudia en la universidad de idiomas.",
+            "pt-BR": "Ela também estuda na universidade de línguas."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_48",
+          "hanzi": "语言大学怎么样？",
+          "pinyin": "Yǔyán dàxué zěnmeyàng?",
+          "translation": {
+            "ru": "Как университет языков?",
+            "en": "How is the language university?",
+            "es": "¿Cómo es la universidad de idiomas?",
+            "pt-BR": "Como é a universidade de línguas?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_49",
+          "hanzi": "很好。",
+          "pinyin": "Hěn hǎo.",
+          "translation": {
+            "ru": "Очень хороший.",
+            "en": "Very good.",
+            "es": "Muy bien.",
+            "pt-BR": "Muito bom."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_50",
+          "hanzi": "你觉得学习汉语难吗？",
+          "pinyin": "Nǐ juéde xuéxí Hànyǔ nán ma?",
+          "translation": {
+            "ru": "Как ты думаешь, трудно ли изучать китайский язык?",
+            "en": "Do you think studying Chinese is difficult?",
+            "es": "¿Crees que estudiar chino es difícil?",
+            "pt-BR": "Você acha que estudar chinês é difícil?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_51",
+          "hanzi": "我觉得不太难。",
+          "pinyin": "Wǒ juéde bú tài nán.",
+          "translation": {
+            "ru": "Я думаю, не очень трудно.",
+            "en": "I don't think it's very difficult.",
+            "es": "Creo que no es muy difícil.",
+            "pt-BR": "Acho que não é muito difícil."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_08",
+          "hanzi": "谁的书",
+          "pinyin": "Shéi de shū",
+          "translation": {
+            "ru": "чья книга",
+            "en": "whose book",
+            "es": "de quién es el libro",
+            "pt-BR": "de quem é o livro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_09",
+          "hanzi": "谁的老师",
+          "pinyin": "Shéi de lǎoshī",
+          "translation": {
+            "ru": "чей преподаватель",
+            "en": "whose teacher",
+            "es": "de quién es el profesor",
+            "pt-BR": "de quem é o professor"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_10",
+          "hanzi": "谁的词典",
+          "pinyin": "Shéi de cídiǎn",
+          "translation": {
+            "ru": "чей словарь",
+            "en": "whose dictionary",
+            "es": "de quién es el diccionario",
+            "pt-BR": "de quem é o dicionário"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_11",
+          "hanzi": "谁的英文杂志",
+          "pinyin": "Shéi de Yīngwén zázhì",
+          "translation": {
+            "ru": "чей английский журнал",
+            "en": "whose English magazine",
+            "es": "de quién es la revista en inglés",
+            "pt-BR": "de quem é a revista em inglês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_12",
+          "hanzi": "谁的杯",
+          "pinyin": "Shéi de bēi",
+          "translation": {
+            "ru": "чья чашка",
+            "en": "whose cup",
+            "es": "de quién es la taza",
+            "pt-BR": "de quem é a xícara"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_13",
+          "hanzi": "我的英文杂志",
+          "pinyin": "Wǒ de Yīngwén zázhì",
+          "translation": {
+            "ru": "мой английский журнал",
+            "en": "my English magazine",
+            "es": "mi revista en inglés",
+            "pt-BR": "minha revista em inglês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_14",
+          "hanzi": "学习什么",
+          "pinyin": "Xuéxí shénme",
+          "translation": {
+            "ru": "что изучать",
+            "en": "what to study",
+            "es": "qué estudiar",
+            "pt-BR": "o que estudar"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_15",
+          "hanzi": "学习语言",
+          "pinyin": "Xuéxí yǔyán",
+          "translation": {
+            "ru": "изучать язык",
+            "en": "study a language",
+            "es": "estudiar un idioma",
+            "pt-BR": "estudar uma língua"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_16",
+          "hanzi": "学习英语",
+          "pinyin": "Xuéxí Yīngyǔ",
+          "translation": {
+            "ru": "изучать английский язык",
+            "en": "study English",
+            "es": "estudiar inglés",
+            "pt-BR": "estudar inglês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_17",
+          "hanzi": "在中国",
+          "pinyin": "Zài Zhōngguó",
+          "translation": {
+            "ru": "в Китае",
+            "en": "in China",
+            "es": "en China",
+            "pt-BR": "na China"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_18",
+          "hanzi": "在北京",
+          "pinyin": "Zài Běijīng",
+          "translation": {
+            "ru": "в Пекине",
+            "en": "in Beijing",
+            "es": "en Pekín",
+            "pt-BR": "em Pequim"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_19",
+          "hanzi": "在学校",
+          "pinyin": "Zài xuéxiào",
+          "translation": {
+            "ru": "в школе; в университете",
+            "en": "at school",
+            "es": "en la escuela",
+            "pt-BR": "na escola"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_20",
+          "hanzi": "在语言大学",
+          "pinyin": "Zài yǔyán dàxué",
+          "translation": {
+            "ru": "в университете языков",
+            "en": "at the language university",
+            "es": "en la universidad de idiomas",
+            "pt-BR": "na universidade de línguas"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_21",
+          "hanzi": "男同学",
+          "pinyin": "Nán tóngxué",
+          "translation": {
+            "ru": "однокурсник",
+            "en": "male classmate",
+            "es": "compañero de clase",
+            "pt-BR": "colega de classe (homem)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_22",
+          "hanzi": "女同学",
+          "pinyin": "Nǚ tóngxué",
+          "translation": {
+            "ru": "однокурсница",
+            "en": "female classmate",
+            "es": "compañera de clase",
+            "pt-BR": "colega de classe (mulher)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_23",
+          "hanzi": "男老师",
+          "pinyin": "Nán lǎoshī",
+          "translation": {
+            "ru": "преподаватель",
+            "en": "male teacher",
+            "es": "profesor",
+            "pt-BR": "professor (homem)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_24",
+          "hanzi": "女老师",
+          "pinyin": "Nǚ lǎoshī",
+          "translation": {
+            "ru": "преподавательница",
+            "en": "female teacher",
+            "es": "profesora",
+            "pt-BR": "professora"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_25",
+          "hanzi": "中文书",
+          "pinyin": "Zhōngwén shū",
+          "translation": {
+            "ru": "книга на китайском",
+            "en": "Chinese book",
+            "es": "libro en chino",
+            "pt-BR": "livro em chinês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_26",
+          "hanzi": "法文书",
+          "pinyin": "Fǎwén shū",
+          "translation": {
+            "ru": "книга на французском",
+            "en": "French book",
+            "es": "libro en francés",
+            "pt-BR": "livro em francês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_27",
+          "hanzi": "日文杂志",
+          "pinyin": "Rìwén zázhì",
+          "translation": {
+            "ru": "журнал на японском",
+            "en": "Japanese magazine",
+            "es": "revista en japonés",
+            "pt-BR": "revista em japonês"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_28",
+          "hanzi": "韩文杂志",
+          "pinyin": "Hánwén zázhì",
+          "translation": {
+            "ru": "журнал на корейском",
+            "en": "Korean magazine",
+            "es": "revista en coreano",
+            "pt-BR": "revista em coreano"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_29",
+          "hanzi": "新同学",
+          "pinyin": "Xīn tóngxué",
+          "translation": {
+            "ru": "новый однокурсник",
+            "en": "new classmate",
+            "es": "nuevo compañero de clase",
+            "pt-BR": "novo colega de classe"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_30",
+          "hanzi": "老同学",
+          "pinyin": "Lǎo tóngxué",
+          "translation": {
+            "ru": "старый однокурсник",
+            "en": "old classmate",
+            "es": "viejo compañero de clase",
+            "pt-BR": "antigo colega de classe"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_31",
+          "hanzi": "新杂志",
+          "pinyin": "Xīn zázhì",
+          "translation": {
+            "ru": "новый журнал",
+            "en": "new magazine",
+            "es": "revista nueva",
+            "pt-BR": "revista nova"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_32",
+          "hanzi": "旧杂志",
+          "pinyin": "Jiù zázhì",
+          "translation": {
+            "ru": "старый журнал",
+            "en": "old magazine",
+            "es": "revista vieja",
+            "pt-BR": "revista velha"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_33",
+          "hanzi": "很多人",
+          "pinyin": "Hěn duō rén",
+          "translation": {
+            "ru": "много людей",
+            "en": "many people",
+            "es": "mucha gente",
+            "pt-BR": "muitas pessoas"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_34",
+          "hanzi": "很多同学",
+          "pinyin": "Hěn duō tóngxué",
+          "translation": {
+            "ru": "много однокурсников",
+            "en": "many classmates",
+            "es": "muchos compañeros de clase",
+            "pt-BR": "muitos colegas de classe"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_35",
+          "hanzi": "很多老师",
+          "pinyin": "Hěn duō lǎoshī",
+          "translation": {
+            "ru": "много преподавателей",
+            "en": "many teachers",
+            "es": "muchos profesores",
+            "pt-BR": "muitos professores"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_36",
+          "hanzi": "很多钱",
+          "pinyin": "Hěn duō qián",
+          "translation": {
+            "ru": "много денег",
+            "en": "a lot of money",
+            "es": "mucho dinero",
+            "pt-BR": "muito dinheiro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_37",
+          "hanzi": "我妈妈",
+          "pinyin": "Wǒ māma",
+          "translation": {
+            "ru": "моя мама",
+            "en": "my mom",
+            "es": "mi mamá",
+            "pt-BR": "minha mãe"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_38",
+          "hanzi": "他哥哥",
+          "pinyin": "Tā gēge",
+          "translation": {
+            "ru": "его старший брат",
+            "en": "his older brother",
+            "es": "su hermano mayor",
+            "pt-BR": "o irmão mais velho dele"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_39",
+          "hanzi": "你弟弟",
+          "pinyin": "Nǐ dìdi",
+          "translation": {
+            "ru": "твой младший брат",
+            "en": "your younger brother",
+            "es": "tu hermano menor",
+            "pt-BR": "seu irmão mais novo"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_40",
+          "hanzi": "我们学校",
+          "pinyin": "Wǒmen xuéxiào",
+          "translation": {
+            "ru": "наша школа; наш университет",
+            "en": "our school",
+            "es": "nuestra escuela",
+            "pt-BR": "nossa escola"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_41",
+          "hanzi": "你学习什么？",
+          "pinyin": "Nǐ xuéxí shénme?",
+          "translation": {
+            "ru": "Что ты изучаешь?",
+            "en": "What do you study?",
+            "es": "¿Qué estudias?",
+            "pt-BR": "O que você estuda?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_42",
+          "hanzi": "我学习汉语。",
+          "pinyin": "Wǒ xuéxí Hànyǔ.",
+          "translation": {
+            "ru": "Я изучаю китайский язык.",
+            "en": "I study Chinese.",
+            "es": "Estudio chino.",
+            "pt-BR": "Estudo chinês."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_43",
+          "hanzi": "你们的老师是谁？",
+          "pinyin": "Nǐmen de lǎoshī shì shéi?",
+          "translation": {
+            "ru": "Кто ваш преподаватель?",
+            "en": "Who is your teacher?",
+            "es": "¿Quién es vuestro profesor?",
+            "pt-BR": "Quem é o professor de vocês?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_44",
+          "hanzi": "我们的老师是王老师。",
+          "pinyin": "Wǒmen de lǎoshī shì Wáng lǎoshī.",
+          "translation": {
+            "ru": "Наш преподаватель — преподаватель Ван.",
+            "en": "Our teacher is Teacher Wang.",
+            "es": "Nuestro profesor es el profesor Wang.",
+            "pt-BR": "Nosso professor é o professor Wang."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_45",
+          "hanzi": "你在哪儿学习？",
+          "pinyin": "Nǐ zài nǎr xuéxí?",
+          "translation": {
+            "ru": "Где ты учишься?",
+            "en": "Where do you study?",
+            "es": "¿Dónde estudias?",
+            "pt-BR": "Onde você estuda?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_46",
+          "hanzi": "语言大学。",
+          "pinyin": "Yǔyán dàxué.",
+          "translation": {
+            "ru": "Университет языков.",
+            "en": "Language University.",
+            "es": "Universidad de idiomas.",
+            "pt-BR": "Universidade de línguas."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_47",
+          "hanzi": "她也在语言大学学习。",
+          "pinyin": "Tā yě zài yǔyán dàxué xuéxí.",
+          "translation": {
+            "ru": "Она тоже учится в университете языков.",
+            "en": "She also studies at the language university.",
+            "es": "Ella también estudia en la universidad de idiomas.",
+            "pt-BR": "Ela também estuda na universidade de línguas."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_48",
+          "hanzi": "语言大学怎么样？",
+          "pinyin": "Yǔyán dàxué zěnmeyàng?",
+          "translation": {
+            "ru": "Как университет языков?",
+            "en": "How is the language university?",
+            "es": "¿Cómo es la universidad de idiomas?",
+            "pt-BR": "Como é a universidade de línguas?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_49",
+          "hanzi": "很好。",
+          "pinyin": "Hěn hǎo.",
+          "translation": {
+            "ru": "Очень хороший.",
+            "en": "Very good.",
+            "es": "Muy bien.",
+            "pt-BR": "Muito bom."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_50",
+          "hanzi": "你觉得学习汉语难吗？",
+          "pinyin": "Nǐ juéde xuéxí Hànyǔ nán ma?",
+          "translation": {
+            "ru": "Как ты думаешь, трудно ли изучать китайский язык?",
+            "en": "Do you think studying Chinese is difficult?",
+            "es": "¿Crees que estudiar chino es difícil?",
+            "pt-BR": "Você acha que estudar chinês é difícil?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex12_51",
+          "hanzi": "我觉得不太难。",
+          "pinyin": "Wǒ juéde bú tài nán.",
+          "translation": {
+            "ru": "Я думаю, не очень трудно.",
+            "en": "I don't think it's very difficult.",
+            "es": "Creo que no es muy difícil.",
+            "pt-BR": "Acho que não é muito difícil."
+          },
+          "group": "additional"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "lesson_12_ch01",
+      "number": 1,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Дальше",
+          "showLessonHeader": true,
+          "dialogue": {
+            "id": "dialogue_where_study",
+            "title": "你在哪儿学习汉语",
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "你在哪儿学习汉语？",
+                "pinyin": "Nǐ zài nǎr xuéxí Hànyǔ?",
+                "translation": {
+                  "ru": "Где ты изучаешь китайский язык?",
+                  "en": "Where do you study Chinese?",
+                  "es": "¿Dónde estudias chino?",
+                  "pt-BR": "Onde você estuda chinês?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "在北京语言大学。",
+                "pinyin": "Zài Běijīng Yǔyán Dàxué.",
+                "translation": {
+                  "ru": "В Пекинском университете языка и культуры.",
+                  "en": "At Beijing Language and Culture University.",
+                  "es": "En la Universidad de Lenguas y Cultura de Pekín.",
+                  "pt-BR": "Na Universidade de Línguas e Cultura de Pequim."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "你们的老师怎么样？",
+                "pinyin": "Nǐmen de lǎoshī zěnmeyàng?",
+                "translation": {
+                  "ru": "Как ваш преподаватель?",
+                  "en": "How is your teacher?",
+                  "es": "¿Cómo es vuestro profesor?",
+                  "pt-BR": "Como é o professor de vocês?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "很好！",
+                "pinyin": "Hěn hǎo!",
+                "translation": {
+                  "ru": "Очень хороший!",
+                  "en": "Very good!",
+                  "es": "¡Muy bien!",
+                  "pt-BR": "Muito bom!"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "你觉得学习汉语难吗？",
+                "pinyin": "Nǐ juéde xuéxí Hànyǔ nán ma?",
+                "translation": {
+                  "ru": "Как ты думаешь, трудно ли изучать китайский язык?",
+                  "en": "Do you think studying Chinese is difficult?",
+                  "es": "¿Crees que estudiar chino es difícil?",
+                  "pt-BR": "Você acha que estudar chinês é difícil?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我觉得语法不太难。听和说也比较容易，但是读和写很难。",
+                "pinyin": "Wǒ juéde yǔfǎ bú tài nán. Tīng hé shuō yě bǐjiào róngyì, dànshì dú hé xiě hěn nán.",
+                "translation": {
+                  "ru": "Я думаю, грамматика не очень трудная. Слушать и говорить тоже относительно легко, но читать и писать очень трудно.",
+                  "en": "I think grammar is not too difficult. Listening and speaking are also relatively easy, but reading and writing are very difficult.",
+                  "es": "Creo que la gramática no es muy difícil. Escuchar y hablar también son relativamente fáciles, pero leer y escribir son muy difíciles.",
+                  "pt-BR": "Acho que a gramática não é muito difícil. Ouvir e falar também são relativamente fáceis, mas ler e escrever são muito difíceis."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Изучить новые слова",
+          "showLessonHeader": false,
+          "dialogue": {
+            "id": "dialogue_class",
+            "title": "你们的老师是谁",
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "我给你们介绍一下儿，这位是新同学，是我的同屋。",
+                "pinyin": "Wǒ gěi nǐmen jièshao yíxiàr, zhè wèi shì xīn tóngxué, shì wǒ de tóngwū.",
+                "translation": {
+                  "ru": "Позвольте вам представить: это новый однокурсник, мой сосед по комнате.",
+                  "en": "Let me introduce you: this is a new classmate, my roommate.",
+                  "es": "Permítanme presentarles: este es un nuevo compañero de clase, mi compañero de cuarto.",
+                  "pt-BR": "Deixe-me apresentar: este é um novo colega de classe, meu colega de quarto."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "你在哪个班学习？",
+                "pinyin": "Nǐ zài nǎge bān xuéxí?",
+                "translation": {
+                  "ru": "В каком классе ты учишься?",
+                  "en": "Which class do you study in?",
+                  "es": "¿En qué clase estudias?",
+                  "pt-BR": "Em qual turma você estuda?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "C",
+                "hanzi": "在103班。",
+                "pinyin": "Zài yī líng sān bān.",
+                "translation": {
+                  "ru": "В 103-м классе.",
+                  "en": "In Class 103.",
+                  "es": "En la clase 103.",
+                  "pt-BR": "Na turma 103."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "你们的老师是谁？",
+                "pinyin": "Nǐmen de lǎoshī shì shéi?",
+                "translation": {
+                  "ru": "Кто ваш преподаватель?",
+                  "en": "Who is your teacher?",
+                  "es": "¿Quién es vuestro profesor?",
+                  "pt-BR": "Quem é o professor de vocês?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "C",
+                "hanzi": "我们的老师是林老师。",
+                "pinyin": "Wǒmen de lǎoshī shì Lín lǎoshī.",
+                "translation": {
+                  "ru": "Наш преподаватель — преподаватель Линь.",
+                  "en": "Our teacher is Teacher Lin.",
+                  "es": "Nuestro profesor es el profesor Lin.",
+                  "pt-BR": "Nosso professor é o professor Lin."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_main",
+            "title": {
+              "ru": "Основные слова",
+              "en": "Core words",
+              "es": "Palabras principales",
+              "pt-BR": "Palavras principais"
+            },
+            "items": [
+              {
+                "id": "yuyan",
+                "hanzi": "语言",
+                "pinyin": "yǔyán",
+                "translation": {
+                  "ru": "язык",
+                  "en": "language",
+                  "es": "idioma",
+                  "pt-BR": "língua"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "daxue",
+                "hanzi": "大学",
+                "pinyin": "dàxué",
+                "translation": {
+                  "ru": "университет",
+                  "en": "university",
+                  "es": "universidad",
+                  "pt-BR": "universidade"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "zenmeyang",
+                "hanzi": "怎么样",
+                "pinyin": "zěnmeyàng",
+                "translation": {
+                  "ru": "как",
+                  "en": "how; how about",
+                  "es": "cómo; qué tal",
+                  "pt-BR": "como; que tal"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "juede",
+                "hanzi": "觉得",
+                "pinyin": "juéde",
+                "translation": {
+                  "ru": "чувствовать; считать",
+                  "en": "to feel; to think",
+                  "es": "sentir; pensar",
+                  "pt-BR": "sentir; achar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "yufa",
+                "hanzi": "语法",
+                "pinyin": "yǔfǎ",
+                "translation": {
+                  "ru": "грамматика",
+                  "en": "grammar",
+                  "es": "gramática",
+                  "pt-BR": "gramática"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "ting",
+                "hanzi": "听",
+                "pinyin": "tīng",
+                "translation": {
+                  "ru": "слушать",
+                  "en": "to listen",
+                  "es": "escuchar",
+                  "pt-BR": "ouvir"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "he",
+                "hanzi": "和",
+                "pinyin": "hé",
+                "translation": {
+                  "ru": "и",
+                  "en": "and",
+                  "es": "y",
+                  "pt-BR": "e"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "shuo",
+                "hanzi": "说",
+                "pinyin": "shuō",
+                "translation": {
+                  "ru": "говорить",
+                  "en": "to speak",
+                  "es": "hablar",
+                  "pt-BR": "falar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "bijiao",
+                "hanzi": "比较",
+                "pinyin": "bǐjiào",
+                "translation": {
+                  "ru": "сравнительно; сравнивать",
+                  "en": "relatively; to compare",
+                  "es": "relativamente; comparar",
+                  "pt-BR": "relativamente; comparar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "rongyi",
+                "hanzi": "容易",
+                "pinyin": "róngyì",
+                "translation": {
+                  "ru": "лёгкий",
+                  "en": "easy",
+                  "es": "fácil",
+                  "pt-BR": "fácil"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "du",
+                "hanzi": "读",
+                "pinyin": "dú",
+                "translation": {
+                  "ru": "читать",
+                  "en": "to read",
+                  "es": "leer",
+                  "pt-BR": "ler"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "xie",
+                "hanzi": "写",
+                "pinyin": "xiě",
+                "translation": {
+                  "ru": "писать",
+                  "en": "to write",
+                  "es": "escribir",
+                  "pt-BR": "escrever"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_12_ch02",
+      "number": 2,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_main_part2",
+            "title": {
+              "ru": "Основные слова",
+              "en": "Core words",
+              "es": "Palabras principales",
+              "pt-BR": "Palavras principais"
+            },
+            "items": [
+              {
+                "id": "danshi",
+                "hanzi": "但是",
+                "pinyin": "dànshì",
+                "translation": {
+                  "ru": "но",
+                  "en": "but",
+                  "es": "pero",
+                  "pt-BR": "mas"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "gei",
+                "hanzi": "给",
+                "pinyin": "gěi",
+                "translation": {
+                  "ru": "дать; для",
+                  "en": "to give; for",
+                  "es": "dar; para",
+                  "pt-BR": "dar; para"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "xin",
+                "hanzi": "新",
+                "pinyin": "xīn",
+                "translation": {
+                  "ru": "новый",
+                  "en": "new",
+                  "es": "nuevo",
+                  "pt-BR": "novo"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "tongxue",
+                "hanzi": "同学",
+                "pinyin": "tóngxué",
+                "translation": {
+                  "ru": "однокурсник",
+                  "en": "classmate",
+                  "es": "compañero de clase",
+                  "pt-BR": "colega de classe"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "tongwu",
+                "hanzi": "同屋",
+                "pinyin": "tóngwū",
+                "translation": {
+                  "ru": "сосед по комнате",
+                  "en": "roommate",
+                  "es": "compañero de cuarto",
+                  "pt-BR": "colega de quarto"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "ban",
+                "hanzi": "班",
+                "pinyin": "bān",
+                "translation": {
+                  "ru": "класс; группа",
+                  "en": "class; group",
+                  "es": "clase; grupo",
+                  "pt-BR": "turma; grupo"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_names",
+            "title": {
+              "ru": "Имена",
+              "en": "Names",
+              "es": "Nombres",
+              "pt-BR": "Nomes"
+            },
+            "items": [
+              {
+                "id": "bjyyu",
+                "hanzi": "北京语言大学",
+                "pinyin": "Běijīng Yǔyán Dàxué",
+                "translation": {
+                  "ru": "Пекинский университет языка и культуры",
+                  "en": "Beijing Language and Culture University",
+                  "es": "Universidad de Lenguas y Cultura de Pekín",
+                  "pt-BR": "Universidade de Línguas e Cultura de Pequim"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "lin",
+                "hanzi": "林",
+                "pinyin": "Lín",
+                "translation": {
+                  "ru": "Линь",
+                  "en": "Lin (surname)",
+                  "es": "Lin (apellido)",
+                  "pt-BR": "Lin (sobrenome)"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "quizChineseToTranslation"
+        },
+        {
+          "kind": "quizTranslationToChinese"
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_12_ch03",
+      "number": 3,
+      "title": {
+        "ru": "Итог",
+        "en": "Wrap-up",
+        "es": "Resumen",
+        "pt-BR": "Encerramento"
+      },
+      "goal": null,
+      "estimatedMinutes": 7,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabularySummary",
+          "groups": [
+            {
+              "id": "vocab_main",
+              "title": {
+                "ru": "Основные слова",
+                "en": "Core words",
+                "es": "Palabras principales",
+                "pt-BR": "Palavras principais"
+              },
+              "items": []
+            },
+            {
+              "id": "vocab_names",
+              "title": {
+                "ru": "Имена",
+                "en": "Names",
+                "es": "Nombres",
+                "pt-BR": "Nomes"
+              },
+              "items": []
+            }
+          ]
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "你在哪儿学习汉语",
+          "dialogue": {
+            "id": "dialogue_where_study",
+            "title": "你在哪儿学习汉语",
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "你在哪儿学习汉语？",
+                "pinyin": "Nǐ zài nǎr xuéxí Hànyǔ?",
+                "translation": {
+                  "ru": "Где ты изучаешь китайский язык?",
+                  "en": "Where do you study Chinese?",
+                  "es": "¿Dónde estudias chino?",
+                  "pt-BR": "Onde você estuda chinês?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "在北京语言大学。",
+                "pinyin": "Zài Běijīng Yǔyán Dàxué.",
+                "translation": {
+                  "ru": "В Пекинском университете языка и культуры.",
+                  "en": "At Beijing Language and Culture University.",
+                  "es": "En la Universidad de Lenguas y Cultura de Pekín.",
+                  "pt-BR": "Na Universidade de Línguas e Cultura de Pequim."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "你们的老师怎么样？",
+                "pinyin": "Nǐmen de lǎoshī zěnmeyàng?",
+                "translation": {
+                  "ru": "Как ваш преподаватель?",
+                  "en": "How is your teacher?",
+                  "es": "¿Cómo es vuestro profesor?",
+                  "pt-BR": "Como é o professor de vocês?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "很好！",
+                "pinyin": "Hěn hǎo!",
+                "translation": {
+                  "ru": "Очень хороший!",
+                  "en": "Very good!",
+                  "es": "¡Muy bien!",
+                  "pt-BR": "Muito bom!"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "你觉得学习汉语难吗？",
+                "pinyin": "Nǐ juéde xuéxí Hànyǔ nán ma?",
+                "translation": {
+                  "ru": "Как ты думаешь, трудно ли изучать китайский язык?",
+                  "en": "Do you think studying Chinese is difficult?",
+                  "es": "¿Crees que estudiar chino es difícil?",
+                  "pt-BR": "Você acha que estudar chinês é difícil?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "我觉得语法不太难。听和说也比较容易，但是读和写很难。",
+                "pinyin": "Wǒ juéde yǔfǎ bú tài nán. Tīng hé shuō yě bǐjiào róngyì, dànshì dú hé xiě hěn nán.",
+                "translation": {
+                  "ru": "Я думаю, грамматика не очень трудная. Слушать и говорить тоже относительно легко, но читать и писать очень трудно.",
+                  "en": "I think grammar is not too difficult. Listening and speaking are also relatively easy, but reading and writing are very difficult.",
+                  "es": "Creo que la gramática no es muy difícil. Escuchar y hablar también son relativamente fáciles, pero leer y escribir son muy difíciles.",
+                  "pt-BR": "Acho que a gramática não é muito difícil. Ouvir e falar também são relativamente fáceis, mas ler e escrever são muito difíceis."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "你们的老师是谁",
+          "dialogue": {
+            "id": "dialogue_class",
+            "title": "你们的老师是谁",
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "我给你们介绍一下儿，这位是新同学，是我的同屋。",
+                "pinyin": "Wǒ gěi nǐmen jièshao yíxiàr, zhè wèi shì xīn tóngxué, shì wǒ de tóngwū.",
+                "translation": {
+                  "ru": "Позвольте вам представить: это новый однокурсник, мой сосед по комнате.",
+                  "en": "Let me introduce you: this is a new classmate, my roommate.",
+                  "es": "Permítanme presentarles: este es un nuevo compañero de clase, mi compañero de cuarto.",
+                  "pt-BR": "Deixe-me apresentar: este é um novo colega de classe, meu colega de quarto."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "你在哪个班学习？",
+                "pinyin": "Nǐ zài nǎge bān xuéxí?",
+                "translation": {
+                  "ru": "В каком классе ты учишься?",
+                  "en": "Which class do you study in?",
+                  "es": "¿En qué clase estudias?",
+                  "pt-BR": "Em qual turma você estuda?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "C",
+                "hanzi": "在103班。",
+                "pinyin": "Zài yī líng sān bān.",
+                "translation": {
+                  "ru": "В 103-м классе.",
+                  "en": "In Class 103.",
+                  "es": "En la clase 103.",
+                  "pt-BR": "Na turma 103."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "你们的老师是谁？",
+                "pinyin": "Nǐmen de lǎoshī shì shéi?",
+                "translation": {
+                  "ru": "Кто ваш преподаватель?",
+                  "en": "Who is your teacher?",
+                  "es": "¿Quién es vuestro profesor?",
+                  "pt-BR": "Quem é o professor de vocês?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "C",
+                "hanzi": "我们的老师是林老师。",
+                "pinyin": "Wǒmen de lǎoshī shì Lín lǎoshī.",
+                "translation": {
+                  "ru": "Наш преподаватель — преподаватель Линь.",
+                  "en": "Our teacher is Teacher Lin.",
+                  "es": "Nuestro profesor es el profesor Lin.",
+                  "pt-BR": "Nosso professor é o professor Lin."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_12_ch04",
+      "number": 4,
+      "title": {
+        "ru": "Продолжение",
+        "en": "Continue",
+        "es": "Continuación",
+        "pt-BR": "Continuação"
+      },
+      "goal": null,
+      "estimatedMinutes": 7,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "examples",
+          "items": [
+            {
+              "id": "ex12_00",
+              "hanzi": "什么名字",
+              "pinyin": "Shénme míngzi",
+              "translation": {
+                "ru": "какое имя",
+                "en": "what name",
+                "es": "qué nombre",
+                "pt-BR": "que nome"
+              }
+            },
+            {
+              "id": "ex12_01",
+              "hanzi": "什么老师",
+              "pinyin": "Shénme lǎoshī",
+              "translation": {
+                "ru": "какой преподаватель",
+                "en": "which teacher",
+                "es": "qué profesor",
+                "pt-BR": "que professor"
+              }
+            },
+            {
+              "id": "ex12_02",
+              "hanzi": "吃什么",
+              "pinyin": "Chī shénme",
+              "translation": {
+                "ru": "что есть",
+                "en": "what to eat",
+                "es": "qué comer",
+                "pt-BR": "o que comer"
+              }
+            },
+            {
+              "id": "ex12_03",
+              "hanzi": "喝什么",
+              "pinyin": "Hē shénme",
+              "translation": {
+                "ru": "что пить",
+                "en": "what to drink",
+                "es": "qué beber",
+                "pt-BR": "o que beber"
+              }
+            },
+            {
+              "id": "ex12_04",
+              "hanzi": "身体怎么样",
+              "pinyin": "Shēntǐ zěnmeyàng",
+              "translation": {
+                "ru": "как здоровье",
+                "en": "how is your health",
+                "es": "cómo está la salud",
+                "pt-BR": "como está a saúde"
+              }
+            },
+            {
+              "id": "ex12_05",
+              "hanzi": "学习怎么样",
+              "pinyin": "Xuéxí zěnmeyàng",
+              "translation": {
+                "ru": "как учёба",
+                "en": "how are your studies",
+                "es": "cómo van los estudios",
+                "pt-BR": "como estão os estudos"
+              }
+            },
+            {
+              "id": "ex12_06",
+              "hanzi": "爸爸怎么样",
+              "pinyin": "Bàba zěnmeyàng",
+              "translation": {
+                "ru": "как папа",
+                "en": "how is dad",
+                "es": "cómo está papá",
+                "pt-BR": "como está o pai"
+              }
+            },
+            {
+              "id": "ex12_07",
+              "hanzi": "妈妈怎么样",
+              "pinyin": "Māma zěnmeyàng",
+              "translation": {
+                "ru": "как мама",
+                "en": "how is mom",
+                "es": "cómo está mamá",
+                "pt-BR": "como está a mãe"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
     }
   ]
 }

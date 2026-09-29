@@ -147,6 +147,10 @@ enum DailyLessonPlanner {
             }
         }
 
+        if selected.count > 1 {
+            selected = seededShuffle(selected, seed: seed &+ 47)
+        }
+
         return (selected, false)
     }
 

@@ -153,8 +153,6 @@ struct PathVocabularySummaryView: View {
             }
 
             Spacer(minLength: 0)
-
-            DailyLessonSpeakButton(text: item.speechText, iconOnly: true)
         }
         .padding(.horizontal, 14)
         .padding(.vertical, 11)

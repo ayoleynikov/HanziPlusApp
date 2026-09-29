@@ -45,21 +45,17 @@ struct PathDialogueView: View {
                             )
                         }
                     }
+
+                    Text(PathStrings.dialogueTapToListenHint)
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                 }
             }
 
-            Button(action: onContinue) {
-                Text(buttonTitle)
-                    .font(.body.weight(.semibold))
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 16)
-                    .frame(minHeight: 44)
-                    .background(Capsule(style: .continuous).fill(Color.teal))
-                    .foregroundStyle(.white)
-            }
-            .buttonStyle(.plain)
-            .accessibilityIdentifier("path_continue_button")
+            PathContinueButton(title: buttonTitle, action: onContinue)
         }
+        .accessibilityIdentifier("path_dialogue_view")
     }
 
     private var wordsInDialogueSection: some View {
@@ -70,14 +66,21 @@ struct PathDialogueView: View {
 
             FlowLayout(spacing: 8) {
                 ForEach(wordsInDialogue) { item in
-                    Text(item.hanzi)
-                        .font(.subheadline.weight(.semibold))
-                        .padding(.horizontal, 10)
-                        .padding(.vertical, 6)
-                        .background {
-                            Capsule(style: .continuous)
-                                .fill(Color.teal.opacity(0.14))
-                        }
+                    Button {
+                        PathHanziSpeech.play(item.hanzi)
+                    } label: {
+                        Text(item.hanzi)
+                            .font(.subheadline.weight(.semibold))
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 6)
+                            .background {
+                                Capsule(style: .continuous)
+                                    .fill(Color.teal.opacity(0.14))
+                            }
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel(item.hanzi)
+                    .accessibilityHint(L10n.string("a11y.speaks_chinese_word"))
                 }
             }
         }
@@ -130,35 +133,67 @@ struct PathDialogueLineView: View {
     let line: PathDialogueLine
     let highlightedItems: [PathVocabularyItem]
 
+    private var isSpeakerA: Bool {
+        line.speaker?.uppercased() == "A"
+    }
+
     var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            if let speaker = line.speaker {
-                Text(speaker)
-                    .font(.caption.weight(.bold))
-                    .foregroundStyle(.secondary)
+        Button(action: { PathHanziSpeech.play(line.speechText) }) {
+            HStack(alignment: .top, spacing: 12) {
+                VStack(alignment: .leading, spacing: 10) {
+                    if let speaker = line.speaker {
+                        Text(speaker)
+                            .font(.caption.weight(.bold))
+                            .foregroundStyle(isSpeakerA ? PathCourseAccent.primary : .orange)
+                            .padding(.horizontal, 8)
+                            .padding(.vertical, 3)
+                            .background {
+                                Capsule(style: .continuous)
+                                    .fill((isSpeakerA ? PathCourseAccent.primary : Color.orange).opacity(0.14))
+                            }
+                    }
+
+                    highlightedHanziText
+                        .font(.title2.weight(.semibold))
+
+                    Text(line.pinyin)
+                        .font(.body)
+                        .foregroundStyle(.secondary)
+
+                    if let translation = line.localizedTranslation {
+                        Text(translation)
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                    }
+                }
+
+                Spacer(minLength: 0)
+
+                Image(systemName: "speaker.wave.2.fill")
+                    .font(.body.weight(.semibold))
+                    .foregroundStyle(PathCourseAccent.primary)
+                    .frame(width: 44, height: 44)
+                    .background {
+                        Circle()
+                            .fill(PathCourseAccent.primary.opacity(0.12))
+                    }
             }
-
-            highlightedHanziText
-                .font(.title2.weight(.semibold))
-
-            Text(line.pinyin)
-                .font(.body)
-                .foregroundStyle(.secondary)
-
-            if let translation = line.localizedTranslation {
-                Text(translation)
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(16)
+            .background {
+                RoundedRectangle(cornerRadius: AppRadius.medium, style: .continuous)
+                    .fill(Color(.secondarySystemGroupedBackground))
+                    .overlay(alignment: isSpeakerA ? .leading : .trailing) {
+                        Rectangle()
+                            .fill(isSpeakerA ? PathCourseAccent.primary : Color.orange)
+                            .frame(width: 4)
+                    }
             }
-
-            DailyLessonSpeakButton(text: line.speechText)
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .padding(16)
-        .background {
-            RoundedRectangle(cornerRadius: AppRadius.medium, style: .continuous)
-                .fill(Color(.secondarySystemGroupedBackground))
-        }
+        .buttonStyle(.plain)
+        .accessibilityLabel(line.hanzi)
+        .accessibilityHint(L10n.string("a11y.speaks_chinese_word"))
+        .accessibilityIdentifier("path_dialogue_line_speak")
     }
 
     private var highlightedHanziText: Text {
@@ -206,6 +241,16 @@ struct PathDialogueLineView: View {
         }
 
         return ranges.sorted { $0.lowerBound < $1.lowerBound }
+    }
+}
+
+enum PathHanziSpeech {
+    static func play(_ hanzi: String) {
+        if SpeechService.shared.speakIfAudible(hanzi) {
+            HapticService.light()
+        } else {
+            HapticService.rigid()
+        }
     }
 }
 

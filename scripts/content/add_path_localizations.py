@@ -6,7 +6,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2] / "HanziPlus"  # app source folder
 XCSTRINGS = ROOT / "Localizable.xcstrings"
 
 LOCALES = ("en", "es", "pt-BR", "ru")
@@ -360,6 +360,102 @@ STRINGS: dict[str, dict[str, str]] = {
         "es": "Hanzi+ Path es tu ruta al chino desde cero.\n\nEmpiezas con diálogos simples y palabras básicas, y luego pasas gradualmente a frases más largas, nuevas estructuras y situaciones cotidianas.\n\nEn cada lección:\n• un diálogo con caracteres, pinyin y traducción\n• estudio de palabras nuevas\n• volver al diálogo con contexto\n• comprobación de conocimientos\n\nEl material nuevo aparece solo después de dominar la lección anterior, para que el aprendizaje sea natural y sin sobrecarga.",
         "pt-BR": "Hanzi+ Path é sua rota para o chinês do zero.\n\nVocê começa com diálogos simples e palavras básicas e depois avança gradualmente para frases mais longas, novas estruturas e situações do dia a dia.\n\nEm cada lição:\n• um diálogo com caracteres, pinyin e tradução\n• estudo de palavras novas\n• retorno ao diálogo com contexto\n• verificação de conhecimento\n\nO material novo só aparece depois que você domina a lição anterior — assim o conhecimento se consolida de forma natural, sem sobrecarga.",
         "ru": "Hanzi+ Path — твой маршрут в китайский с нуля.\n\nТы начинаешь с простых диалогов и базовых слов, а затем постепенно переходишь к более длинным фразам, новым конструкциям и повседневным ситуациям.\n\nВ каждом уроке:\n• диалог с иероглифами, pinyin и переводом\n• изучение новых слов\n• повторный диалог с пониманием контекста\n• проверка знаний\n\nНовый материал появляется только после того, как ты освоил предыдущий — так знания закрепляются естественно и без перегруза.",
+    },
+    "path.continue_chapter": {
+        "en": "Continue",
+        "es": "Continuar",
+        "pt-BR": "Continuar",
+        "ru": "Продолжить",
+    },
+    "path.chapter.locked": {
+        "en": "Locked",
+        "es": "Bloqueado",
+        "pt-BR": "Bloqueado",
+        "ru": "Заблокирована",
+    },
+    "path.chapter.available": {
+        "en": "Available",
+        "es": "Disponible",
+        "pt-BR": "Disponível",
+        "ru": "Доступна",
+    },
+    "path.chapter.in_progress": {
+        "en": "In progress",
+        "es": "En curso",
+        "pt-BR": "Em andamento",
+        "ru": "Начата",
+    },
+    "path.chapter.completed": {
+        "en": "Completed",
+        "es": "Completado",
+        "pt-BR": "Concluída",
+        "ru": "Завершена",
+    },
+    "path.chapter.complete_title": {
+        "en": "Chapter complete!",
+        "es": "¡Capítulo completado!",
+        "pt-BR": "Capítulo concluído!",
+        "ru": "Глава завершена!",
+    },
+    "path.mistake_review.title": {
+        "en": "Let's fix mistakes",
+        "es": "Repasemos los errores",
+        "pt-BR": "Vamos corrigir os erros",
+        "ru": "Закрепим ошибки",
+    },
+    "path.mistake_review.remaining %lld": {
+        "en": "%lld words left to review",
+        "es": "Quedan %lld palabras por repasar",
+        "pt-BR": "Faltam %lld palavras para revisar",
+        "ru": "Осталось закрепить %lld слов",
+    },
+    "path.check_answer": {
+        "en": "Check",
+        "es": "Comprobar",
+        "pt-BR": "Verificar",
+        "ru": "Проверить",
+    },
+    "path.correct_answer": {
+        "en": "Correct!",
+        "es": "¡Correcto!",
+        "pt-BR": "Correto!",
+        "ru": "Верно!",
+    },
+    "path.sentence_builder.title": {
+        "en": "Sentence Builder",
+        "es": "Construye la frase",
+        "pt-BR": "Monte a frase",
+        "ru": "Собери предложение",
+    },
+    "path.fill_blank.title": {
+        "en": "Fill in the Blank",
+        "es": "Completa el espacio",
+        "pt-BR": "Preencha o espaço",
+        "ru": "Вставь слово",
+    },
+    "path.dialogue_order.title": {
+        "en": "Dialogue Order",
+        "es": "Orden del diálogo",
+        "pt-BR": "Ordem do diálogo",
+        "ru": "Порядок реплик",
+    },
+    "path.grammar.title": {
+        "en": "Grammar",
+        "es": "Gramática",
+        "pt-BR": "Gramática",
+        "ru": "Грамматика",
+    },
+    "path.tone_guide.title": {
+        "en": "Tones",
+        "es": "Tonos",
+        "pt-BR": "Tons",
+        "ru": "Тоны",
+    },
+    "path.back_to_chapters": {
+        "en": "Chapters",
+        "es": "Capítulos",
+        "pt-BR": "Capítulos",
+        "ru": "Главы",
     },
 }
 

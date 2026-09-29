@@ -922,6 +922,986 @@
     },
     {
       "kind": "completion"
+    },
+    {
+      "kind": "examples",
+      "id": "reference_additional",
+      "items": [
+        {
+          "id": "ex15_08",
+          "hanzi": "我妈妈是大夫，在医院工作，爸爸是一家公司的经理。",
+          "pinyin": "Wǒ māma shì dàifu, zài yīyuàn gōngzuò, bàba shì yì jiā gōngsī de jīnglǐ.",
+          "translation": {
+            "ru": "Моя мама — врач, работает в больнице, а папа — директор компании.",
+            "en": "My mother is a doctor and works in a hospital; my father is a company manager.",
+            "es": "Mi madre es médica y trabaja en un hospital; mi padre es director de una empresa.",
+            "pt-BR": "Minha mãe é médica e trabalha num hospital; meu pai é diretor de uma empresa."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex15_09",
+          "hanzi": "我妈妈在商店工作，爸爸是律师。",
+          "pinyin": "Wǒ māma zài shāngdiàn gōngzuò, bàba shì lǜshī.",
+          "translation": {
+            "ru": "Моя мама работает в магазине, а папа — юрист.",
+            "en": "My mother works in a shop, and my father is a lawyer.",
+            "es": "Mi madre trabaja en una tienda y mi padre es abogado.",
+            "pt-BR": "Minha mãe trabalha numa loja e meu pai é advogado."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex15_10",
+          "hanzi": "你们是一家什么公司？",
+          "pinyin": "Nǐmen shì yì jiā shénme gōngsī?",
+          "translation": {
+            "ru": "Какая у вас компания?",
+            "en": "What kind of company is yours?",
+            "es": "¿Qué tipo de empresa es la suya?",
+            "pt-BR": "Que tipo de empresa é a de vocês?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex15_11",
+          "hanzi": "是一家外贸公司。",
+          "pinyin": "Shì yì jiā wàimào gōngsī.",
+          "translation": {
+            "ru": "Это внешнеторговая компания.",
+            "en": "It's a foreign trade company.",
+            "es": "Es una empresa de comercio exterior.",
+            "pt-BR": "É uma empresa de comércio exterior."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex15_12",
+          "hanzi": "是一家大公司吗？",
+          "pinyin": "Shì yì jiā dà gōngsī ma?",
+          "translation": {
+            "ru": "Это большая компания?",
+            "en": "Is it a big company?",
+            "es": "¿Es una empresa grande?",
+            "pt-BR": "É uma empresa grande?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex15_13",
+          "hanzi": "不大，是一家比较小的公司。",
+          "pinyin": "Bú dà, shì yì jiā bǐjiào xiǎo de gōngsī.",
+          "translation": {
+            "ru": "Нет, это довольно небольшая компания.",
+            "en": "No, it's a relatively small company.",
+            "es": "No, es una empresa bastante pequeña.",
+            "pt-BR": "Não, é uma empresa relativamente pequena."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex15_14",
+          "hanzi": "有多少职员？",
+          "pinyin": "Yǒu duōshao zhíyuán?",
+          "translation": {
+            "ru": "Сколько сотрудников?",
+            "en": "How many employees are there?",
+            "es": "¿Cuántos empleados hay?",
+            "pt-BR": "Quantos funcionários há?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex15_15",
+          "hanzi": "大概有一百多个职员。",
+          "pinyin": "Dàgài yǒu yì bǎi duō ge zhíyuán.",
+          "translation": {
+            "ru": "Примерно больше ста сотрудников.",
+            "en": "There are roughly a little over a hundred employees.",
+            "es": "Hay más o menos un poco más de cien empleados.",
+            "pt-BR": "Há mais ou menos um pouco mais de cem funcionários."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex15_16",
+          "hanzi": "都是中国职员吗？",
+          "pinyin": "Dōu shì Zhōngguó zhíyuán ma?",
+          "translation": {
+            "ru": "Все сотрудники — китайцы?",
+            "en": "Are all the employees Chinese?",
+            "es": "¿Todos los empleados son chinos?",
+            "pt-BR": "Todos os funcionários são chineses?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex15_17",
+          "hanzi": "不都是中国职员，也有外国职员。",
+          "pinyin": "Bù dōu shì Zhōngguó zhíyuán, yě yǒu wàiguó zhíyuán.",
+          "translation": {
+            "ru": "Не все сотрудники китайцы, есть и иностранцы.",
+            "en": "Not all the employees are Chinese; there are foreign employees too.",
+            "es": "No todos los empleados son chinos; también hay empleados extranjeros.",
+            "pt-BR": "Nem todos os funcionários são chineses; há funcionários estrangeiros também."
+          },
+          "group": "additional"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "lesson_15_ch01",
+      "number": 1,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Изучить новые слова",
+          "showLessonHeader": true,
+          "dialogue": {
+            "id": "dialogue_family",
+            "title": "你家有几口人",
+            "lines": [
+              {
+                "speaker": "萨沙",
+                "hanzi": "你家有几口人？",
+                "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+                "translation": {
+                  "ru": "Сколько человек в твоей семье?",
+                  "en": "How many people are in your family?",
+                  "es": "¿Cuántas personas hay en tu familia?",
+                  "pt-BR": "Quantas pessoas há na sua família?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "娜塔莎",
+                "hanzi": "我家有五口人，爸爸、妈妈、哥哥、姐姐和我。",
+                "pinyin": "Wǒ jiā yǒu wǔ kǒu rén, bàba, māma, gēge, jiějie hé wǒ.",
+                "translation": {
+                  "ru": "В нашей семье пять человек: папа, мама, старший брат, старшая сестра и я.",
+                  "en": "There are five people in my family: father, mother, older brother, older sister, and me.",
+                  "es": "En mi familia somos cinco: papá, mamá, hermano mayor, hermana mayor y yo.",
+                  "pt-BR": "Na minha família somos cinco: pai, mãe, irmão mais velho, irmã mais velha e eu."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "萨沙",
+                "hanzi": "你有没有全家的照片？",
+                "pinyin": "Nǐ yǒu méiyǒu quánjiā de zhàopiàn?",
+                "translation": {
+                  "ru": "У тебя есть фотография всей семьи?",
+                  "en": "Do you have a photo of your whole family?",
+                  "es": "¿Tienes una foto de toda la familia?",
+                  "pt-BR": "Você tem uma foto de toda a família?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "娜塔莎",
+                "hanzi": "有一张。你看，这是我们全家的照片。你有哥哥姐姐吗？",
+                "pinyin": "Yǒu yì zhāng. Nǐ kàn, zhè shì wǒmen quánjiā de zhàopiàn. Nǐ yǒu gēge jiějie ma?",
+                "translation": {
+                  "ru": "Есть одна. Смотри, это фотография всей нашей семьи. У тебя есть старший брат или старшая сестра?",
+                  "en": "There is one. Look, this is a photo of our whole family. Do you have an older brother or sister?",
+                  "es": "Hay una. Mira, esta es una foto de toda nuestra familia. ¿Tienes hermano o hermana mayor?",
+                  "pt-BR": "Tem uma. Olha, esta é uma foto de toda a nossa família. Você tem irmão ou irmã mais velhos?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "萨沙",
+                "hanzi": "我没有哥哥，也没有姐姐，只有两个弟弟。",
+                "pinyin": "Wǒ méiyǒu gēge, yě méiyǒu jiějie, zhǐ yǒu liǎng ge dìdi.",
+                "translation": {
+                  "ru": "У меня нет старшего брата и старшей сестры, есть только два младших брата.",
+                  "en": "I don't have an older brother or sister, only two younger brothers.",
+                  "es": "No tengo hermano ni hermana mayor, solo dos hermanos menores.",
+                  "pt-BR": "Não tenho irmão nem irmã mais velhos, só dois irmãos mais novos."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "娜塔莎",
+                "hanzi": "你爸爸、妈妈做什么工作？",
+                "pinyin": "Nǐ bàba, māma zuò shénme gōngzuò?",
+                "translation": {
+                  "ru": "Кем работают твой папа и мама?",
+                  "en": "What do your father and mother do for work?",
+                  "es": "¿A qué se dedican tu padre y tu madre?",
+                  "pt-BR": "O que seu pai e sua mãe fazem?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "萨沙",
+                "hanzi": "我妈妈是大夫，在医院工作，爸爸是一家公司的经理。",
+                "pinyin": "Wǒ māma shì dàifu, zài yīyuàn gōngzuò, bàba shì yì jiā gōngsī de jīnglǐ.",
+                "translation": {
+                  "ru": "Моя мама — врач, работает в больнице, а папа — директор компании.",
+                  "en": "My mother is a doctor and works in a hospital; my father is a company manager.",
+                  "es": "Mi madre es médica y trabaja en un hospital; mi padre es director de una empresa.",
+                  "pt-BR": "Minha mãe é médica e trabalha num hospital; meu pai é diretor de uma empresa."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "娜塔莎",
+                "hanzi": "我妈妈在商店工作，爸爸是律师。",
+                "pinyin": "Wǒ māma zài shāngdiàn gōngzuò, bàba shì lǜshī.",
+                "translation": {
+                  "ru": "Моя мама работает в магазине, а папа — юрист.",
+                  "en": "My mother works in a shop, and my father is a lawyer.",
+                  "es": "Mi madre trabaja en una tienda y mi padre es abogado.",
+                  "pt-BR": "Minha mãe trabalha numa loja e meu pai é advogado."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_lesson15",
+            "title": {
+              "ru": "Словарь урока",
+              "en": "Lesson vocabulary",
+              "es": "Vocabulario de la lección",
+              "pt-BR": "Vocabulário da lição"
+            },
+            "items": [
+              {
+                "id": "quan",
+                "hanzi": "全",
+                "pinyin": "quán",
+                "translation": {
+                  "ru": "весь; полный; целый",
+                  "en": "whole; entire; full",
+                  "es": "todo; entero; completo",
+                  "pt-BR": "todo; inteiro; completo"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "zhaopian",
+                "hanzi": "照片",
+                "pinyin": "zhàopiàn",
+                "translation": {
+                  "ru": "фотография",
+                  "en": "photograph",
+                  "es": "fotografía",
+                  "pt-BR": "fotografia"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "kan",
+                "hanzi": "看",
+                "pinyin": "kàn",
+                "translation": {
+                  "ru": "смотреть",
+                  "en": "to look; to watch",
+                  "es": "mirar; ver",
+                  "pt-BR": "olhar; ver"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "jiejie",
+                "hanzi": "姐姐",
+                "pinyin": "jiějie",
+                "translation": {
+                  "ru": "старшая сестра",
+                  "en": "older sister",
+                  "es": "hermana mayor",
+                  "pt-BR": "irmã mais velha"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "zhi",
+                "hanzi": "只",
+                "pinyin": "zhǐ",
+                "translation": {
+                  "ru": "только",
+                  "en": "only",
+                  "es": "solo; solamente",
+                  "pt-BR": "só; apenas"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "zuo",
+                "hanzi": "做",
+                "pinyin": "zuò",
+                "translation": {
+                  "ru": "делать",
+                  "en": "to do; to make",
+                  "es": "hacer",
+                  "pt-BR": "fazer"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "daifu",
+                "hanzi": "大夫",
+                "pinyin": "dàifu",
+                "translation": {
+                  "ru": "врач; доктор",
+                  "en": "doctor",
+                  "es": "médico",
+                  "pt-BR": "médico"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "yiyuan",
+                "hanzi": "医院",
+                "pinyin": "yīyuàn",
+                "translation": {
+                  "ru": "больница",
+                  "en": "hospital",
+                  "es": "hospital",
+                  "pt-BR": "hospital"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "gongsi",
+                "hanzi": "公司",
+                "pinyin": "gōngsī",
+                "translation": {
+                  "ru": "компания",
+                  "en": "company",
+                  "es": "empresa",
+                  "pt-BR": "empresa"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "shangdian",
+                "hanzi": "商店",
+                "pinyin": "shāngdiàn",
+                "translation": {
+                  "ru": "магазин",
+                  "en": "shop; store",
+                  "es": "tienda",
+                  "pt-BR": "loja"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "lvshi",
+                "hanzi": "律师",
+                "pinyin": "lǜshī",
+                "translation": {
+                  "ru": "юрист",
+                  "en": "lawyer",
+                  "es": "abogado",
+                  "pt-BR": "advogado"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "waimao",
+                "hanzi": "外贸",
+                "pinyin": "wàimào",
+                "translation": {
+                  "ru": "внешняя торговля",
+                  "en": "foreign trade",
+                  "es": "comercio exterior",
+                  "pt-BR": "comércio exterior"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_15_ch02",
+      "number": 2,
+      "title": {
+        "ru": "Итог",
+        "en": "Wrap-up",
+        "es": "Resumen",
+        "pt-BR": "Encerramento"
+      },
+      "goal": null,
+      "estimatedMinutes": 10,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_lesson15_part2",
+            "title": {
+              "ru": "Словарь урока",
+              "en": "Lesson vocabulary",
+              "es": "Vocabulario de la lección",
+              "pt-BR": "Vocabulário da lição"
+            },
+            "items": [
+              {
+                "id": "xiao",
+                "hanzi": "小",
+                "pinyin": "xiǎo",
+                "translation": {
+                  "ru": "маленький",
+                  "en": "small; little",
+                  "es": "pequeño",
+                  "pt-BR": "pequeno"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "dagai",
+                "hanzi": "大概",
+                "pinyin": "dàgài",
+                "translation": {
+                  "ru": "около; приблизительно",
+                  "en": "approximately; about",
+                  "es": "aproximadamente",
+                  "pt-BR": "aproximadamente"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "duo",
+                "hanzi": "多",
+                "pinyin": "duō",
+                "translation": {
+                  "ru": "более; свыше (после числа)",
+                  "en": "more than; over (after a number)",
+                  "es": "más de; más (tras número)",
+                  "pt-BR": "mais de; mais (após número)"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "waiguo",
+                "hanzi": "外国",
+                "pinyin": "wàiguó",
+                "translation": {
+                  "ru": "иностранное государство",
+                  "en": "foreign country",
+                  "es": "país extranjero",
+                  "pt-BR": "país estrangeiro"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Дальше",
+          "showLessonHeader": false,
+          "dialogue": {
+            "id": "dialogue_company",
+            "title": "你们公司有多少职员",
+            "lines": [
+              {
+                "speaker": "王老师",
+                "hanzi": "你们是一家什么公司？",
+                "pinyin": "Nǐmen shì yì jiā shénme gōngsī?",
+                "translation": {
+                  "ru": "Какая у вас компания?",
+                  "en": "What kind of company is yours?",
+                  "es": "¿Qué tipo de empresa es la suya?",
+                  "pt-BR": "Que tipo de empresa é a de vocês?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "是一家外贸公司。",
+                "pinyin": "Shì yì jiā wàimào gōngsī.",
+                "translation": {
+                  "ru": "Это внешнеторговая компания.",
+                  "en": "It's a foreign trade company.",
+                  "es": "Es una empresa de comercio exterior.",
+                  "pt-BR": "É uma empresa de comércio exterior."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王老师",
+                "hanzi": "是一家大公司吗？",
+                "pinyin": "Shì yì jiā dà gōngsī ma?",
+                "translation": {
+                  "ru": "Это большая компания?",
+                  "en": "Is it a big company?",
+                  "es": "¿Es una empresa grande?",
+                  "pt-BR": "É uma empresa grande?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "不大，是一家比较小的公司。",
+                "pinyin": "Bú dà, shì yì jiā bǐjiào xiǎo de gōngsī.",
+                "translation": {
+                  "ru": "Нет, это довольно небольшая компания.",
+                  "en": "No, it's a relatively small company.",
+                  "es": "No, es una empresa bastante pequeña.",
+                  "pt-BR": "Não, é uma empresa relativamente pequena."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王老师",
+                "hanzi": "有多少职员？",
+                "pinyin": "Yǒu duōshao zhíyuán?",
+                "translation": {
+                  "ru": "Сколько сотрудников?",
+                  "en": "How many employees are there?",
+                  "es": "¿Cuántos empleados hay?",
+                  "pt-BR": "Quantos funcionários há?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "大概有一百多个职员。",
+                "pinyin": "Dàgài yǒu yì bǎi duō ge zhíyuán.",
+                "translation": {
+                  "ru": "Примерно больше ста сотрудников.",
+                  "en": "There are roughly a little over a hundred employees.",
+                  "es": "Hay más o menos un poco más de cien empleados.",
+                  "pt-BR": "Há mais ou menos um pouco mais de cem funcionários."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王老师",
+                "hanzi": "都是中国职员吗？",
+                "pinyin": "Dōu shì Zhōngguó zhíyuán ma?",
+                "translation": {
+                  "ru": "Все сотрудники — китайцы?",
+                  "en": "Are all the employees Chinese?",
+                  "es": "¿Todos los empleados son chinos?",
+                  "pt-BR": "Todos os funcionários são chineses?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "不都是中国职员，也有外国职员。",
+                "pinyin": "Bù dōu shì Zhōngguó zhíyuán, yě yǒu wàiguó zhíyuán.",
+                "translation": {
+                  "ru": "Не все сотрудники китайцы, есть и иностранцы.",
+                  "en": "Not all the employees are Chinese; there are foreign employees too.",
+                  "es": "No todos los empleados son chinos; también hay empleados extranjeros.",
+                  "pt-BR": "Nem todos os funcionários são chineses; há funcionários estrangeiros também."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabularySummary",
+          "groups": [
+            {
+              "id": "vocab_lesson15",
+              "title": {
+                "ru": "Словарь урока",
+                "en": "Lesson vocabulary",
+                "es": "Vocabulario de la lección",
+                "pt-BR": "Vocabulário da lição"
+              },
+              "items": []
+            }
+          ]
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "你家有几口人",
+          "dialogue": {
+            "id": "dialogue_family",
+            "title": "你家有几口人",
+            "lines": [
+              {
+                "speaker": "萨沙",
+                "hanzi": "你家有几口人？",
+                "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+                "translation": {
+                  "ru": "Сколько человек в твоей семье?",
+                  "en": "How many people are in your family?",
+                  "es": "¿Cuántas personas hay en tu familia?",
+                  "pt-BR": "Quantas pessoas há na sua família?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "娜塔莎",
+                "hanzi": "我家有五口人，爸爸、妈妈、哥哥、姐姐和我。",
+                "pinyin": "Wǒ jiā yǒu wǔ kǒu rén, bàba, māma, gēge, jiějie hé wǒ.",
+                "translation": {
+                  "ru": "В нашей семье пять человек: папа, мама, старший брат, старшая сестра и я.",
+                  "en": "There are five people in my family: father, mother, older brother, older sister, and me.",
+                  "es": "En mi familia somos cinco: papá, mamá, hermano mayor, hermana mayor y yo.",
+                  "pt-BR": "Na minha família somos cinco: pai, mãe, irmão mais velho, irmã mais velha e eu."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "萨沙",
+                "hanzi": "你有没有全家的照片？",
+                "pinyin": "Nǐ yǒu méiyǒu quánjiā de zhàopiàn?",
+                "translation": {
+                  "ru": "У тебя есть фотография всей семьи?",
+                  "en": "Do you have a photo of your whole family?",
+                  "es": "¿Tienes una foto de toda la familia?",
+                  "pt-BR": "Você tem uma foto de toda a família?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "娜塔莎",
+                "hanzi": "有一张。你看，这是我们全家的照片。你有哥哥姐姐吗？",
+                "pinyin": "Yǒu yì zhāng. Nǐ kàn, zhè shì wǒmen quánjiā de zhàopiàn. Nǐ yǒu gēge jiějie ma?",
+                "translation": {
+                  "ru": "Есть одна. Смотри, это фотография всей нашей семьи. У тебя есть старший брат или старшая сестра?",
+                  "en": "There is one. Look, this is a photo of our whole family. Do you have an older brother or sister?",
+                  "es": "Hay una. Mira, esta es una foto de toda nuestra familia. ¿Tienes hermano o hermana mayor?",
+                  "pt-BR": "Tem uma. Olha, esta é uma foto de toda a nossa família. Você tem irmão ou irmã mais velhos?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "萨沙",
+                "hanzi": "我没有哥哥，也没有姐姐，只有两个弟弟。",
+                "pinyin": "Wǒ méiyǒu gēge, yě méiyǒu jiějie, zhǐ yǒu liǎng ge dìdi.",
+                "translation": {
+                  "ru": "У меня нет старшего брата и старшей сестры, есть только два младших брата.",
+                  "en": "I don't have an older brother or sister, only two younger brothers.",
+                  "es": "No tengo hermano ni hermana mayor, solo dos hermanos menores.",
+                  "pt-BR": "Não tenho irmão nem irmã mais velhos, só dois irmãos mais novos."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "娜塔莎",
+                "hanzi": "你爸爸、妈妈做什么工作？",
+                "pinyin": "Nǐ bàba, māma zuò shénme gōngzuò?",
+                "translation": {
+                  "ru": "Кем работают твой папа и мама?",
+                  "en": "What do your father and mother do for work?",
+                  "es": "¿A qué se dedican tu padre y tu madre?",
+                  "pt-BR": "O que seu pai e sua mãe fazem?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "萨沙",
+                "hanzi": "我妈妈是大夫，在医院工作，爸爸是一家公司的经理。",
+                "pinyin": "Wǒ māma shì dàifu, zài yīyuàn gōngzuò, bàba shì yì jiā gōngsī de jīnglǐ.",
+                "translation": {
+                  "ru": "Моя мама — врач, работает в больнице, а папа — директор компании.",
+                  "en": "My mother is a doctor and works in a hospital; my father is a company manager.",
+                  "es": "Mi madre es médica y trabaja en un hospital; mi padre es director de una empresa.",
+                  "pt-BR": "Minha mãe é médica e trabalha num hospital; meu pai é diretor de uma empresa."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "娜塔莎",
+                "hanzi": "我妈妈在商店工作，爸爸是律师。",
+                "pinyin": "Wǒ māma zài shāngdiàn gōngzuò, bàba shì lǜshī.",
+                "translation": {
+                  "ru": "Моя мама работает в магазине, а папа — юрист.",
+                  "en": "My mother works in a shop, and my father is a lawyer.",
+                  "es": "Mi madre trabaja en una tienda y mi padre es abogado.",
+                  "pt-BR": "Minha mãe trabalha numa loja e meu pai é advogado."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "你们公司有多少职员",
+          "dialogue": {
+            "id": "dialogue_company",
+            "title": "你们公司有多少职员",
+            "lines": [
+              {
+                "speaker": "王老师",
+                "hanzi": "你们是一家什么公司？",
+                "pinyin": "Nǐmen shì yì jiā shénme gōngsī?",
+                "translation": {
+                  "ru": "Какая у вас компания?",
+                  "en": "What kind of company is yours?",
+                  "es": "¿Qué tipo de empresa es la suya?",
+                  "pt-BR": "Que tipo de empresa é a de vocês?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "是一家外贸公司。",
+                "pinyin": "Shì yì jiā wàimào gōngsī.",
+                "translation": {
+                  "ru": "Это внешнеторговая компания.",
+                  "en": "It's a foreign trade company.",
+                  "es": "Es una empresa de comercio exterior.",
+                  "pt-BR": "É uma empresa de comércio exterior."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王老师",
+                "hanzi": "是一家大公司吗？",
+                "pinyin": "Shì yì jiā dà gōngsī ma?",
+                "translation": {
+                  "ru": "Это большая компания?",
+                  "en": "Is it a big company?",
+                  "es": "¿Es una empresa grande?",
+                  "pt-BR": "É uma empresa grande?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "不大，是一家比较小的公司。",
+                "pinyin": "Bú dà, shì yì jiā bǐjiào xiǎo de gōngsī.",
+                "translation": {
+                  "ru": "Нет, это довольно небольшая компания.",
+                  "en": "No, it's a relatively small company.",
+                  "es": "No, es una empresa bastante pequeña.",
+                  "pt-BR": "Não, é uma empresa relativamente pequena."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王老师",
+                "hanzi": "有多少职员？",
+                "pinyin": "Yǒu duōshao zhíyuán?",
+                "translation": {
+                  "ru": "Сколько сотрудников?",
+                  "en": "How many employees are there?",
+                  "es": "¿Cuántos empleados hay?",
+                  "pt-BR": "Quantos funcionários há?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "大概有一百多个职员。",
+                "pinyin": "Dàgài yǒu yì bǎi duō ge zhíyuán.",
+                "translation": {
+                  "ru": "Примерно больше ста сотрудников.",
+                  "en": "There are roughly a little over a hundred employees.",
+                  "es": "Hay más o menos un poco más de cien empleados.",
+                  "pt-BR": "Há mais ou menos um pouco mais de cem funcionários."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王老师",
+                "hanzi": "都是中国职员吗？",
+                "pinyin": "Dōu shì Zhōngguó zhíyuán ma?",
+                "translation": {
+                  "ru": "Все сотрудники — китайцы?",
+                  "en": "Are all the employees Chinese?",
+                  "es": "¿Todos los empleados son chinos?",
+                  "pt-BR": "Todos os funcionários são chineses?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "关经理",
+                "hanzi": "不都是中国职员，也有外国职员。",
+                "pinyin": "Bù dōu shì Zhōngguó zhíyuán, yě yǒu wàiguó zhíyuán.",
+                "translation": {
+                  "ru": "Не все сотрудники китайцы, есть и иностранцы.",
+                  "en": "Not all the employees are Chinese; there are foreign employees too.",
+                  "es": "No todos los empleados son chinos; también hay empleados extranjeros.",
+                  "pt-BR": "Nem todos os funcionários são chineses; há funcionários estrangeiros também."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "quizChineseToTranslation"
+        },
+        {
+          "kind": "quizTranslationToChinese"
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_15_ch03",
+      "number": 3,
+      "title": {
+        "ru": "Продолжение",
+        "en": "Continue",
+        "es": "Continuación",
+        "pt-BR": "Continuação"
+      },
+      "goal": null,
+      "estimatedMinutes": 7,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "examples",
+          "items": [
+            {
+              "id": "ex15_00",
+              "hanzi": "你家有几口人？",
+              "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+              "translation": {
+                "ru": "Сколько человек в твоей семье?",
+                "en": "How many people are in your family?",
+                "es": "¿Cuántas personas hay en tu familia?",
+                "pt-BR": "Quantas pessoas há na sua família?"
+              }
+            },
+            {
+              "id": "ex15_01",
+              "hanzi": "我家有五口人，爸爸、妈妈、哥哥、姐姐和我。",
+              "pinyin": "Wǒ jiā yǒu wǔ kǒu rén, bàba, māma, gēge, jiějie hé wǒ.",
+              "translation": {
+                "ru": "В нашей семье пять человек: папа, мама, старший брат, старшая сестра и я.",
+                "en": "There are five people in my family: father, mother, older brother, older sister, and me.",
+                "es": "En mi familia somos cinco: papá, mamá, hermano mayor, hermana mayor y yo.",
+                "pt-BR": "Na minha família somos cinco: pai, mãe, irmão mais velho, irmã mais velha e eu."
+              }
+            },
+            {
+              "id": "ex15_02",
+              "hanzi": "你有没有全家的照片？",
+              "pinyin": "Nǐ yǒu méiyǒu quánjiā de zhàopiàn?",
+              "translation": {
+                "ru": "У тебя есть фотография всей семьи?",
+                "en": "Do you have a photo of your whole family?",
+                "es": "¿Tienes una foto de toda la familia?",
+                "pt-BR": "Você tem uma foto de toda a família?"
+              }
+            },
+            {
+              "id": "ex15_03",
+              "hanzi": "有一张。",
+              "pinyin": "Yǒu yì zhāng.",
+              "translation": {
+                "ru": "Есть одна.",
+                "en": "There is one.",
+                "es": "Hay una.",
+                "pt-BR": "Tem uma."
+              }
+            },
+            {
+              "id": "ex15_04",
+              "hanzi": "你看，这是我们全家的照片。",
+              "pinyin": "Nǐ kàn, zhè shì wǒmen quánjiā de zhàopiàn.",
+              "translation": {
+                "ru": "Смотри, это фотография всей нашей семьи.",
+                "en": "Look, this is a photo of our whole family.",
+                "es": "Mira, esta es una foto de toda nuestra familia.",
+                "pt-BR": "Olha, esta é uma foto de toda a nossa família."
+              }
+            },
+            {
+              "id": "ex15_05",
+              "hanzi": "你有哥哥姐姐吗？",
+              "pinyin": "Nǐ yǒu gēge jiějie ma?",
+              "translation": {
+                "ru": "У тебя есть старший брат или старшая сестра?",
+                "en": "Do you have an older brother or sister?",
+                "es": "¿Tienes hermano o hermana mayor?",
+                "pt-BR": "Você tem irmão ou irmã mais velhos?"
+              }
+            },
+            {
+              "id": "ex15_06",
+              "hanzi": "我没有哥哥，也没有姐姐，只有两个弟弟。",
+              "pinyin": "Wǒ méiyǒu gēge, yě méiyǒu jiějie, zhǐ yǒu liǎng ge dìdi.",
+              "translation": {
+                "ru": "У меня нет старшего брата и старшей сестры, есть только два младших брата.",
+                "en": "I don't have an older brother or sister, only two younger brothers.",
+                "es": "No tengo hermano ni hermana mayor, solo dos hermanos menores.",
+                "pt-BR": "Não tenho irmão nem irmã mais velhos, só dois irmãos mais novos."
+              }
+            },
+            {
+              "id": "ex15_07",
+              "hanzi": "你爸爸、妈妈做什么工作？",
+              "pinyin": "Nǐ bàba, māma zuò shénme gōngzuò?",
+              "translation": {
+                "ru": "Кем работают твой папа и мама?",
+                "en": "What do your father and mother do for work?",
+                "es": "¿A qué se dedican tu padre y tu madre?",
+                "pt-BR": "O que seu pai e sua mãe fazem?"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
     }
   ]
 }

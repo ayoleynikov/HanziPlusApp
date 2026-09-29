@@ -1127,6 +1127,1197 @@
     },
     {
       "kind": "completion"
+    },
+    {
+      "kind": "examples",
+      "id": "reference_additional",
+      "items": [
+        {
+          "id": "ex_您知道他的电话号码吗",
+          "hanzi": "您知道他的电话号码吗？",
+          "pinyin": "Nín zhīdào tā de diànhuà hàomǎ ma?",
+          "translation": {
+            "ru": "Вы знаете его номер телефона?",
+            "en": "Do you know his phone number?",
+            "es": "¿Sabe su número de teléfono?",
+            "pt-BR": "O senhor sabe o número de telefone dele?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_知道_62931074",
+          "hanzi": "知道，62931074。",
+          "pinyin": "Zhīdào, liù èr jiǔ sān yī líng qī sì.",
+          "translation": {
+            "ru": "Знаю, 62931074.",
+            "en": "Yes, 62931074.",
+            "es": "Sí, 62931074.",
+            "pt-BR": "Sei, 62931074."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_他的手机号码是多少",
+          "hanzi": "他的手机号码是多少？",
+          "pinyin": "Tā de shǒujī hàomǎ shì duōshao?",
+          "translation": {
+            "ru": "Какой у него номер мобильного телефона?",
+            "en": "What's his mobile phone number?",
+            "es": "¿Cuál es su número de móvil?",
+            "pt-BR": "Qual é o número do celular dele?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_不知道",
+          "hanzi": "不知道。",
+          "pinyin": "Bù zhīdào.",
+          "translation": {
+            "ru": "Не знаю.",
+            "en": "I don't know.",
+            "es": "No lo sé.",
+            "pt-BR": "Não sei."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_谢谢您",
+          "hanzi": "谢谢您。",
+          "pinyin": "Xièxie nín.",
+          "translation": {
+            "ru": "Спасибо вам.",
+            "en": "Thank you.",
+            "es": "Gracias.",
+            "pt-BR": "Obrigado."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_不客气",
+          "hanzi": "不客气。",
+          "pinyin": "Bú kèqi.",
+          "translation": {
+            "ru": "Пожалуйста.",
+            "en": "You're welcome.",
+            "es": "De nada.",
+            "pt-BR": "De nada."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_找老师",
+          "hanzi": "找老师",
+          "pinyin": "zhǎo lǎoshī",
+          "translation": {
+            "ru": "искать учителя",
+            "en": "look for the teacher",
+            "es": "buscar al profesor",
+            "pt-BR": "procurar o professor"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_找同学",
+          "hanzi": "找同学",
+          "pinyin": "zhǎo tóngxué",
+          "translation": {
+            "ru": "искать одноклассника",
+            "en": "look for a classmate",
+            "es": "buscar a un compañero de clase",
+            "pt-BR": "procurar um colega de classe"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_找朋友",
+          "hanzi": "找朋友",
+          "pinyin": "zhǎo péngyou",
+          "translation": {
+            "ru": "искать друга",
+            "en": "look for a friend",
+            "es": "buscar a un amigo",
+            "pt-BR": "procurar um amigo"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_找书",
+          "hanzi": "找书",
+          "pinyin": "zhǎo shū",
+          "translation": {
+            "ru": "искать книгу",
+            "en": "look for a book",
+            "es": "buscar un libro",
+            "pt-BR": "procurar um livro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_找食堂",
+          "hanzi": "找食堂",
+          "pinyin": "zhǎo shítáng",
+          "translation": {
+            "ru": "искать столовую",
+            "en": "look for the cafeteria",
+            "es": "buscar el comedor",
+            "pt-BR": "procurar o refeitório"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_在家",
+          "hanzi": "在家",
+          "pinyin": "zài jiā",
+          "translation": {
+            "ru": "дома",
+            "en": "at home",
+            "es": "en casa",
+            "pt-BR": "em casa"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_在学校",
+          "hanzi": "在学校",
+          "pinyin": "zài xuéxiào",
+          "translation": {
+            "ru": "в школе; в университете",
+            "en": "at school",
+            "es": "en la escuela",
+            "pt-BR": "na escola"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_在宿舍",
+          "hanzi": "在宿舍",
+          "pinyin": "zài sùshè",
+          "translation": {
+            "ru": "в общежитии",
+            "en": "in the dorm",
+            "es": "en el dormitorio",
+            "pt-BR": "no dormitório"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_在大楼",
+          "hanzi": "在大楼",
+          "pinyin": "zài dàlóu",
+          "translation": {
+            "ru": "в здании",
+            "en": "in the building",
+            "es": "en el edificio",
+            "pt-BR": "no prédio"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_在办公室",
+          "hanzi": "在办公室",
+          "pinyin": "zài bàngōngshì",
+          "translation": {
+            "ru": "в офисе",
+            "en": "in the office",
+            "es": "en la oficina",
+            "pt-BR": "no escritório"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_我知道",
+          "hanzi": "我知道",
+          "pinyin": "wǒ zhīdào",
+          "translation": {
+            "ru": "Я знаю",
+            "en": "I know",
+            "es": "Yo sé",
+            "pt-BR": "Eu sei"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你知道",
+          "hanzi": "你知道",
+          "pinyin": "nǐ zhīdào",
+          "translation": {
+            "ru": "Ты знаешь",
+            "en": "You know",
+            "es": "Tú sabes",
+            "pt-BR": "Você sabe"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_他知道",
+          "hanzi": "他知道",
+          "pinyin": "tā zhīdào",
+          "translation": {
+            "ru": "Он знает",
+            "en": "He knows",
+            "es": "Él sabe",
+            "pt-BR": "Ele sabe"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_不知道",
+          "hanzi": "不知道",
+          "pinyin": "bù zhīdào",
+          "translation": {
+            "ru": "не знаю",
+            "en": "don't know",
+            "es": "no sé",
+            "pt-BR": "não sei"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_知道吗",
+          "hanzi": "知道吗",
+          "pinyin": "zhīdào ma",
+          "translation": {
+            "ru": "Знаешь?",
+            "en": "Do you know?",
+            "es": "¿Sabes?",
+            "pt-BR": "Sabe?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你是留学生吗",
+          "hanzi": "你是留学生吗？",
+          "pinyin": "Nǐ shì liúxuéshēng ma?",
+          "translation": {
+            "ru": "Ты иностранный студент?",
+            "en": "Are you an international student?",
+            "es": "¿Eres estudiante extranjero?",
+            "pt-BR": "Você é estudante estrangeiro?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你学习什么",
+          "hanzi": "你学习什么？",
+          "pinyin": "Nǐ xuéxí shénme?",
+          "translation": {
+            "ru": "Что ты изучаешь?",
+            "en": "What do you study?",
+            "es": "¿Qué estudias?",
+            "pt-BR": "O que você estuda?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你住哪儿",
+          "hanzi": "你住哪儿？",
+          "pinyin": "Nǐ zhù nǎr?",
+          "translation": {
+            "ru": "Где ты живёшь?",
+            "en": "Where do you live?",
+            "es": "¿Dónde vives?",
+            "pt-BR": "Onde você mora?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你住多少号",
+          "hanzi": "你住多少号？",
+          "pinyin": "Nǐ zhù duōshao hào?",
+          "translation": {
+            "ru": "В какой комнате ты живёшь?",
+            "en": "What room number do you live in?",
+            "es": "¿En qué número vives?",
+            "pt-BR": "Em qual número você mora?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_你的手机号码是多少号",
+          "hanzi": "你的手机号码是多少号？",
+          "pinyin": "Nǐ de shǒujī hàomǎ shì duōshao hào?",
+          "translation": {
+            "ru": "Какой у тебя номер мобильного телефона?",
+            "en": "What's your mobile phone number?",
+            "es": "¿Cuál es tu número de móvil?",
+            "pt-BR": "Qual é o seu número de celular?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex_reading_paragraph",
+          "hanzi": "我去办公室找王老师，办公室的老师说，王老师不在，他在家呢。王老师住18楼1门601号，他家的电话是62931074。",
+          "pinyin": "Wǒ qù bàngōngshì zhǎo Wáng lǎoshī, bàngōngshì de lǎoshī shuō, Wáng lǎoshī bú zài, tā zài jiā ne. Wáng lǎoshī zhù 18 lóu 1 mén 601 hào, tā jiā de diànhuà shì liù èr jiǔ sān yī líng qī sì.",
+          "translation": {
+            "ru": "Я пошёл в офис искать учителя Вана. Учитель в офисе сказал, что учителя Вана нет, он дома. Учитель Ван живёт на 18-м этаже, 1-й подъезд, квартира 601. Его домашний телефон — 62931074.",
+            "en": "I went to the office to look for Teacher Wang. The teacher in the office said Teacher Wang wasn't there; he's at home. Teacher Wang lives on the 18th floor, entrance 1, room 601. His home phone number is 62931074.",
+            "es": "Fui a la oficina a buscar al profesor Wang. El profesor de la oficina dijo que el profesor Wang no estaba, está en casa. El profesor Wang vive en el piso 18, entrada 1, habitación 601. Su teléfono de casa es 62931074.",
+            "pt-BR": "Fui ao escritório procurar o professor Wang. O professor do escritório disse que o professor Wang não estava, ele está em casa. O professor Wang mora no 18º andar, entrada 1, sala 601. O telefone de casa dele é 62931074."
+          },
+          "group": "additional"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "lesson_10_ch01",
+      "number": 1,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Изучить новые слова",
+          "showLessonHeader": true,
+          "dialogue": {
+            "id": "dialogue_main",
+            "title": null,
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "请问，这是办公室吗？",
+                "pinyin": "Qǐngwèn, zhè shì bàngōngshì ma?",
+                "translation": {
+                  "ru": "Скажите, пожалуйста, это офис?",
+                  "en": "Excuse me, is this the office?",
+                  "es": "Disculpe, ¿es esta la oficina?",
+                  "pt-BR": "Com licença, este é o escritório?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "是。你找谁？",
+                "pinyin": "Shì. Nǐ zhǎo shéi?",
+                "translation": {
+                  "ru": "Да. Кого вы ищете?",
+                  "en": "Yes. Who are you looking for?",
+                  "es": "Sí. ¿A quién busca?",
+                  "pt-BR": "Sim. Quem você procura?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "王老师在哪儿？我是他的学生。",
+                "pinyin": "Wáng lǎoshī zài nǎr? Wǒ shì tā de xuésheng.",
+                "translation": {
+                  "ru": "Где учитель Ван? Я его студент.",
+                  "en": "Where is Teacher Wang? I'm his student.",
+                  "es": "¿Dónde está el profesor Wang? Soy su alumno.",
+                  "pt-BR": "Onde está o professor Wang? Sou aluno dele."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "他不在。他在家呢。",
+                "pinyin": "Tā bú zài. Tā zài jiā ne.",
+                "translation": {
+                  "ru": "Его нет. Он дома.",
+                  "en": "He's not here. He's at home.",
+                  "es": "No está. Está en casa.",
+                  "pt-BR": "Ele não está. Ele está em casa."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "他住哪儿？",
+                "pinyin": "Tā zhù nǎr?",
+                "translation": {
+                  "ru": "Где он живёт?",
+                  "en": "Where does he live?",
+                  "es": "¿Dónde vive?",
+                  "pt-BR": "Onde ele mora?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "他住十八楼一门，房间号是601。",
+                "pinyin": "Tā zhù shíbā lóu yì mén, fángjiān hào shì liù líng yī.",
+                "translation": {
+                  "ru": "Он живёт на 18-м этаже, 1-й подъезд, комната 601.",
+                  "en": "He lives on the 18th floor, entrance 1, room 601.",
+                  "es": "Vive en el piso 18, entrada 1, habitación 601.",
+                  "pt-BR": "Ele mora no 18º andar, entrada 1, sala 601."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "您知道他的电话号码吗？",
+                "pinyin": "Nín zhīdào tā de diànhuà hàomǎ ma?",
+                "translation": {
+                  "ru": "Вы знаете его номер телефона?",
+                  "en": "Do you know his phone number?",
+                  "es": "¿Sabe su número de teléfono?",
+                  "pt-BR": "O senhor sabe o número de telefone dele?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "知道，62931074。",
+                "pinyin": "Zhīdào, liù èr jiǔ sān yī líng qī sì.",
+                "translation": {
+                  "ru": "Знаю, 62931074.",
+                  "en": "Yes, 62931074.",
+                  "es": "Sí, 62931074.",
+                  "pt-BR": "Sei, 62931074."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "他的手机号码是多少？",
+                "pinyin": "Tā de shǒujī hàomǎ shì duōshao?",
+                "translation": {
+                  "ru": "Какой у него номер мобильного телефона?",
+                  "en": "What's his mobile phone number?",
+                  "es": "¿Cuál es su número de móvil?",
+                  "pt-BR": "Qual é o número do celular dele?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "不知道。",
+                "pinyin": "Bù zhīdào.",
+                "translation": {
+                  "ru": "Не знаю.",
+                  "en": "I don't know.",
+                  "es": "No lo sé.",
+                  "pt-BR": "Não sei."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "谢谢您。",
+                "pinyin": "Xièxie nín.",
+                "translation": {
+                  "ru": "Спасибо вам.",
+                  "en": "Thank you.",
+                  "es": "Gracias.",
+                  "pt-BR": "Obrigado."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "不客气。",
+                "pinyin": "Bú kèqi.",
+                "translation": {
+                  "ru": "Пожалуйста.",
+                  "en": "You're welcome.",
+                  "es": "De nada.",
+                  "pt-BR": "De nada."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_address",
+            "title": {
+              "ru": "Адрес",
+              "en": "Address",
+              "es": "Dirección",
+              "pt-BR": "Endereço"
+            },
+            "items": [
+              {
+                "id": "办公室",
+                "hanzi": "办公室",
+                "pinyin": "bàngōngshì",
+                "translation": {
+                  "ru": "кабинет",
+                  "en": "office / room",
+                  "es": "oficina / despacho",
+                  "pt-BR": "escritório / sala"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "办公",
+                "hanzi": "办公",
+                "pinyin": "bàngōng",
+                "translation": {
+                  "ru": "работать / заниматься делами",
+                  "en": "to work / to be busy",
+                  "es": "trabajar / ocuparse",
+                  "pt-BR": "trabalhar / ocupar-se"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "家",
+                "hanzi": "家",
+                "pinyin": "jiā",
+                "translation": {
+                  "ru": "дом / семья",
+                  "en": "home / family",
+                  "es": "casa / familia",
+                  "pt-BR": "casa / família"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "呢",
+                "hanzi": "呢",
+                "pinyin": "ne",
+                "translation": {
+                  "ru": "модальная частица",
+                  "en": "modal particle",
+                  "es": "partícula modal",
+                  "pt-BR": "partícula modal"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "住",
+                "hanzi": "住",
+                "pinyin": "zhù",
+                "translation": {
+                  "ru": "жить",
+                  "en": "to live",
+                  "es": "vivir",
+                  "pt-BR": "viver"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "楼",
+                "hanzi": "楼",
+                "pinyin": "lóu",
+                "translation": {
+                  "ru": "здание / этаж",
+                  "en": "building / floor",
+                  "es": "edificio / piso",
+                  "pt-BR": "edifício / andar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "门",
+                "hanzi": "门",
+                "pinyin": "mén",
+                "translation": {
+                  "ru": "дверь / ворота",
+                  "en": "door / gate",
+                  "es": "puerta / portón",
+                  "pt-BR": "porta / portão"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "房间",
+                "hanzi": "房间",
+                "pinyin": "fángjiān",
+                "translation": {
+                  "ru": "комната",
+                  "en": "room",
+                  "es": "habitación",
+                  "pt-BR": "quarto"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "号",
+                "hanzi": "号",
+                "pinyin": "hào",
+                "translation": {
+                  "ru": "номер",
+                  "en": "number",
+                  "es": "número",
+                  "pt-BR": "número"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "在",
+                "hanzi": "在",
+                "pinyin": "zài",
+                "translation": {
+                  "ru": "находиться / быть в",
+                  "en": "to be located / to be in",
+                  "es": "encontrarse / estar en",
+                  "pt-BR": "encontrar-se / estar em"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_10_ch02",
+      "number": 2,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_phone",
+            "title": {
+              "ru": "Телефон",
+              "en": "Phone",
+              "es": "Teléfono",
+              "pt-BR": "Telefone"
+            },
+            "items": [
+              {
+                "id": "知道",
+                "hanzi": "知道",
+                "pinyin": "zhīdào",
+                "translation": {
+                  "ru": "знать",
+                  "en": "to know",
+                  "es": "saber / conocer",
+                  "pt-BR": "saber / conhecer"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "电话",
+                "hanzi": "电话",
+                "pinyin": "diànhuà",
+                "translation": {
+                  "ru": "телефон",
+                  "en": "telephone",
+                  "es": "teléfono",
+                  "pt-BR": "telefone"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "电",
+                "hanzi": "电",
+                "pinyin": "diàn",
+                "translation": {
+                  "ru": "электричество",
+                  "en": "electricity",
+                  "es": "electricidad",
+                  "pt-BR": "eletricidade"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "话",
+                "hanzi": "话",
+                "pinyin": "huà",
+                "translation": {
+                  "ru": "слово / речь",
+                  "en": "word / speech",
+                  "es": "palabra / habla",
+                  "pt-BR": "palavra / fala"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "号码",
+                "hanzi": "号码",
+                "pinyin": "hàomǎ",
+                "translation": {
+                  "ru": "номер",
+                  "en": "number",
+                  "es": "número",
+                  "pt-BR": "número"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "零",
+                "hanzi": "零",
+                "pinyin": "líng",
+                "translation": {
+                  "ru": "ноль",
+                  "en": "zero",
+                  "es": "cero",
+                  "pt-BR": "zero"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "手机",
+                "hanzi": "手机",
+                "pinyin": "shǒujī",
+                "translation": {
+                  "ru": "мобильный телефон",
+                  "en": "mobile phone",
+                  "es": "teléfono móvil",
+                  "pt-BR": "celular"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "手",
+                "hanzi": "手",
+                "pinyin": "shǒu",
+                "translation": {
+                  "ru": "рука",
+                  "en": "hand / arm",
+                  "es": "mano / brazo",
+                  "pt-BR": "mão / braço"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_10_ch03",
+      "number": 3,
+      "title": {
+        "ru": "Итог",
+        "en": "Wrap-up",
+        "es": "Resumen",
+        "pt-BR": "Encerramento"
+      },
+      "goal": null,
+      "estimatedMinutes": 7,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_other",
+            "title": {
+              "ru": "Другие слова",
+              "en": "Other words",
+              "es": "Otras palabras",
+              "pt-BR": "Outras palavras"
+            },
+            "items": [
+              {
+                "id": "职员",
+                "hanzi": "职员",
+                "pinyin": "zhíyuán",
+                "translation": {
+                  "ru": "служащий",
+                  "en": "clerk / employee",
+                  "es": "empleado",
+                  "pt-BR": "funcionário"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "找",
+                "hanzi": "找",
+                "pinyin": "zhǎo",
+                "translation": {
+                  "ru": "искать",
+                  "en": "to search / to look for",
+                  "es": "buscar",
+                  "pt-BR": "procurar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "李昌浩",
+                "hanzi": "李昌浩",
+                "pinyin": "Lǐ Chānghào",
+                "translation": {
+                  "ru": "Ли Чанхо",
+                  "en": "Li Changho",
+                  "es": "Li Changho",
+                  "pt-BR": "Li Changho"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabularySummary",
+          "groups": [
+            {
+              "id": "vocab_address",
+              "title": {
+                "ru": "Адрес",
+                "en": "Address",
+                "es": "Dirección",
+                "pt-BR": "Endereço"
+              },
+              "items": []
+            },
+            {
+              "id": "vocab_phone",
+              "title": {
+                "ru": "Телефон",
+                "en": "Phone",
+                "es": "Teléfono",
+                "pt-BR": "Telefone"
+              },
+              "items": []
+            },
+            {
+              "id": "vocab_other",
+              "title": {
+                "ru": "Другие слова",
+                "en": "Other words",
+                "es": "Otras palabras",
+                "pt-BR": "Outras palavras"
+              },
+              "items": []
+            }
+          ]
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "Прочитай диалог ещё раз",
+          "dialogue": {
+            "id": "dialogue_main",
+            "title": null,
+            "lines": [
+              {
+                "speaker": "A",
+                "hanzi": "请问，这是办公室吗？",
+                "pinyin": "Qǐngwèn, zhè shì bàngōngshì ma?",
+                "translation": {
+                  "ru": "Скажите, пожалуйста, это офис?",
+                  "en": "Excuse me, is this the office?",
+                  "es": "Disculpe, ¿es esta la oficina?",
+                  "pt-BR": "Com licença, este é o escritório?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "是。你找谁？",
+                "pinyin": "Shì. Nǐ zhǎo shéi?",
+                "translation": {
+                  "ru": "Да. Кого вы ищете?",
+                  "en": "Yes. Who are you looking for?",
+                  "es": "Sí. ¿A quién busca?",
+                  "pt-BR": "Sim. Quem você procura?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "王老师在哪儿？我是他的学生。",
+                "pinyin": "Wáng lǎoshī zài nǎr? Wǒ shì tā de xuésheng.",
+                "translation": {
+                  "ru": "Где учитель Ван? Я его студент.",
+                  "en": "Where is Teacher Wang? I'm his student.",
+                  "es": "¿Dónde está el profesor Wang? Soy su alumno.",
+                  "pt-BR": "Onde está o professor Wang? Sou aluno dele."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "他不在。他在家呢。",
+                "pinyin": "Tā bú zài. Tā zài jiā ne.",
+                "translation": {
+                  "ru": "Его нет. Он дома.",
+                  "en": "He's not here. He's at home.",
+                  "es": "No está. Está en casa.",
+                  "pt-BR": "Ele não está. Ele está em casa."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "他住哪儿？",
+                "pinyin": "Tā zhù nǎr?",
+                "translation": {
+                  "ru": "Где он живёт?",
+                  "en": "Where does he live?",
+                  "es": "¿Dónde vive?",
+                  "pt-BR": "Onde ele mora?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "他住十八楼一门，房间号是601。",
+                "pinyin": "Tā zhù shíbā lóu yì mén, fángjiān hào shì liù líng yī.",
+                "translation": {
+                  "ru": "Он живёт на 18-м этаже, 1-й подъезд, комната 601.",
+                  "en": "He lives on the 18th floor, entrance 1, room 601.",
+                  "es": "Vive en el piso 18, entrada 1, habitación 601.",
+                  "pt-BR": "Ele mora no 18º andar, entrada 1, sala 601."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "您知道他的电话号码吗？",
+                "pinyin": "Nín zhīdào tā de diànhuà hàomǎ ma?",
+                "translation": {
+                  "ru": "Вы знаете его номер телефона?",
+                  "en": "Do you know his phone number?",
+                  "es": "¿Sabe su número de teléfono?",
+                  "pt-BR": "O senhor sabe o número de telefone dele?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "知道，62931074。",
+                "pinyin": "Zhīdào, liù èr jiǔ sān yī líng qī sì.",
+                "translation": {
+                  "ru": "Знаю, 62931074.",
+                  "en": "Yes, 62931074.",
+                  "es": "Sí, 62931074.",
+                  "pt-BR": "Sei, 62931074."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "他的手机号码是多少？",
+                "pinyin": "Tā de shǒujī hàomǎ shì duōshao?",
+                "translation": {
+                  "ru": "Какой у него номер мобильного телефона?",
+                  "en": "What's his mobile phone number?",
+                  "es": "¿Cuál es su número de móvil?",
+                  "pt-BR": "Qual é o número do celular dele?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "不知道。",
+                "pinyin": "Bù zhīdào.",
+                "translation": {
+                  "ru": "Не знаю.",
+                  "en": "I don't know.",
+                  "es": "No lo sé.",
+                  "pt-BR": "Não sei."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "A",
+                "hanzi": "谢谢您。",
+                "pinyin": "Xièxie nín.",
+                "translation": {
+                  "ru": "Спасибо вам.",
+                  "en": "Thank you.",
+                  "es": "Gracias.",
+                  "pt-BR": "Obrigado."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "B",
+                "hanzi": "不客气。",
+                "pinyin": "Bú kèqi.",
+                "translation": {
+                  "ru": "Пожалуйста.",
+                  "en": "You're welcome.",
+                  "es": "De nada.",
+                  "pt-BR": "De nada."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "quizChineseToTranslation"
+        },
+        {
+          "kind": "quizTranslationToChinese"
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_10_ch04",
+      "number": 4,
+      "title": {
+        "ru": "Продолжение",
+        "en": "Continue",
+        "es": "Continuación",
+        "pt-BR": "Continuação"
+      },
+      "goal": null,
+      "estimatedMinutes": 7,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "examples",
+          "items": [
+            {
+              "id": "ex_请问_这是办公室吗",
+              "hanzi": "请问，这是办公室吗？",
+              "pinyin": "Qǐngwèn, zhè shì bàngōngshì ma?",
+              "translation": {
+                "ru": "Скажите, пожалуйста, это офис?",
+                "en": "Excuse me, is this the office?",
+                "es": "Disculpe, ¿es esta la oficina?",
+                "pt-BR": "Com licença, este é o escritório?"
+              }
+            },
+            {
+              "id": "ex_是_你找谁",
+              "hanzi": "是。你找谁？",
+              "pinyin": "Shì. Nǐ zhǎo shéi?",
+              "translation": {
+                "ru": "Да. Кого вы ищете?",
+                "en": "Yes. Who are you looking for?",
+                "es": "Sí. ¿A quién busca?",
+                "pt-BR": "Sim. Quem você procura?"
+              }
+            },
+            {
+              "id": "ex_王老师在哪儿",
+              "hanzi": "王老师在哪儿？",
+              "pinyin": "Wáng lǎoshī zài nǎr?",
+              "translation": {
+                "ru": "Где учитель Ван?",
+                "en": "Where is Teacher Wang?",
+                "es": "¿Dónde está el profesor Wang?",
+                "pt-BR": "Onde está o professor Wang?"
+              }
+            },
+            {
+              "id": "ex_我是他的学生",
+              "hanzi": "我是他的学生。",
+              "pinyin": "Wǒ shì tā de xuésheng.",
+              "translation": {
+                "ru": "Я его студент.",
+                "en": "I'm his student.",
+                "es": "Soy su alumno.",
+                "pt-BR": "Sou aluno dele."
+              }
+            },
+            {
+              "id": "ex_他不在",
+              "hanzi": "他不在。",
+              "pinyin": "Tā bú zài.",
+              "translation": {
+                "ru": "Его нет.",
+                "en": "He's not here.",
+                "es": "No está.",
+                "pt-BR": "Ele não está."
+              }
+            },
+            {
+              "id": "ex_他在家呢",
+              "hanzi": "他在家呢。",
+              "pinyin": "Tā zài jiā ne.",
+              "translation": {
+                "ru": "Он дома.",
+                "en": "He's at home.",
+                "es": "Está en casa.",
+                "pt-BR": "Ele está em casa."
+              }
+            },
+            {
+              "id": "ex_他住哪儿",
+              "hanzi": "他住哪儿？",
+              "pinyin": "Tā zhù nǎr?",
+              "translation": {
+                "ru": "Где он живёт?",
+                "en": "Where does he live?",
+                "es": "¿Dónde vive?",
+                "pt-BR": "Onde ele mora?"
+              }
+            },
+            {
+              "id": "ex_他住十八楼一门_房间号是601",
+              "hanzi": "他住十八楼一门，房间号是601。",
+              "pinyin": "Tā zhù shíbā lóu yì mén, fángjiān hào shì liù líng yī.",
+              "translation": {
+                "ru": "Он живёт на 18-м этаже, 1-й подъезд, комната 601.",
+                "en": "He lives on the 18th floor, entrance 1, room 601.",
+                "es": "Vive en el piso 18, entrada 1, habitación 601.",
+                "pt-BR": "Ele mora no 18º andar, entrada 1, sala 601."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
     }
   ]
 }

@@ -1219,6 +1219,1673 @@
     },
     {
       "kind": "completion"
+    },
+    {
+      "kind": "examples",
+      "id": "reference_additional",
+      "items": [
+        {
+          "id": "ex11_00",
+          "hanzi": "你是中国人吗？",
+          "pinyin": "Nǐ shì Zhōngguó rén ma?",
+          "translation": {
+            "ru": "Ты китаец?",
+            "en": "Are you Chinese?",
+            "es": "¿Eres chino?",
+            "pt-BR": "Você é chinês?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_01",
+          "hanzi": "是。（我是中国人。）",
+          "pinyin": "Shì. (Wǒ shì Zhōngguó rén.)",
+          "translation": {
+            "ru": "Да. (Я китаец.)",
+            "en": "Yes. (I am Chinese.)",
+            "es": "Sí. (Soy chino.)",
+            "pt-BR": "Sim. (Sou chinês.)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_02",
+          "hanzi": "你是老师吗？",
+          "pinyin": "Nǐ shì lǎoshī ma?",
+          "translation": {
+            "ru": "Ты преподаватель?",
+            "en": "Are you a teacher?",
+            "es": "¿Eres profesor?",
+            "pt-BR": "Você é professor?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_03",
+          "hanzi": "不是。我是学生。",
+          "pinyin": "Bú shì. Wǒ shì xuésheng.",
+          "translation": {
+            "ru": "Нет. Я студент.",
+            "en": "No. I am a student.",
+            "es": "No. Soy estudiante.",
+            "pt-BR": "Não. Sou estudante."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_04",
+          "hanzi": "他们都是留学生吗？",
+          "pinyin": "Tāmen dōu shì liúxuéshēng ma?",
+          "translation": {
+            "ru": "Они все иностранные студенты?",
+            "en": "Are they all international students?",
+            "es": "¿Todos son estudiantes extranjeros?",
+            "pt-BR": "Todos são estudantes estrangeiros?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_05",
+          "hanzi": "他们都是留学生。",
+          "pinyin": "Tāmen dōu shì liúxuéshēng.",
+          "translation": {
+            "ru": "Они все — иностранные студенты.",
+            "en": "They are all international students.",
+            "es": "Todos son estudiantes extranjeros.",
+            "pt-BR": "Todos são estudantes estrangeiros."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_06",
+          "hanzi": "他们都是学生。",
+          "pinyin": "Tāmen dōu shì xuésheng.",
+          "translation": {
+            "ru": "Они все — студенты.",
+            "en": "They are all students.",
+            "es": "Todos son estudiantes.",
+            "pt-BR": "Todos são estudantes."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_07",
+          "hanzi": "他也是留学生。",
+          "pinyin": "Tā yě shì liúxuéshēng.",
+          "translation": {
+            "ru": "Он тоже иностранный студент.",
+            "en": "He is also an international student.",
+            "es": "Él también es estudiante extranjero.",
+            "pt-BR": "Ele também é estudante estrangeiro."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_08",
+          "hanzi": "她也是留学生。",
+          "pinyin": "Tā yě shì liúxuéshēng.",
+          "translation": {
+            "ru": "Она тоже иностранная студентка.",
+            "en": "She is also an international student.",
+            "es": "Ella también es estudiante extranjera.",
+            "pt-BR": "Ela também é estudante estrangeira."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_09",
+          "hanzi": "他们都是留学生。",
+          "pinyin": "Tāmen dōu shì liúxuéshēng.",
+          "translation": {
+            "ru": "Они все — иностранные студенты.",
+            "en": "They are all international students.",
+            "es": "Todos son estudiantes extranjeros.",
+            "pt-BR": "Todos são estudantes estrangeiros."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_10",
+          "hanzi": "你是留学生吗？",
+          "pinyin": "Nǐ shì liúxuéshēng ma?",
+          "translation": {
+            "ru": "Ты иностранный студент?",
+            "en": "Are you an international student?",
+            "es": "¿Eres estudiante extranjero?",
+            "pt-BR": "Você é estudante estrangeiro?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_11",
+          "hanzi": "是。（我是留学生。）",
+          "pinyin": "Shì. (Wǒ shì liúxuéshēng.)",
+          "translation": {
+            "ru": "Да. (Я иностранный студент.)",
+            "en": "Yes. (I am an international student.)",
+            "es": "Sí. (Soy estudiante extranjero.)",
+            "pt-BR": "Sim. (Sou estudante estrangeiro.)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_12",
+          "hanzi": "她也是留学生吗？",
+          "pinyin": "Tā yě shì liúxuéshēng ma?",
+          "translation": {
+            "ru": "Она тоже иностранная студентка?",
+            "en": "Is she also an international student?",
+            "es": "¿Ella también es estudiante extranjera?",
+            "pt-BR": "Ela também é estudante estrangeira?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_13",
+          "hanzi": "她也是留学生。我们都是留学生。",
+          "pinyin": "Tā yě shì liúxuéshēng. Wǒmen dōu shì liúxuéshēng.",
+          "translation": {
+            "ru": "Она тоже иностранная студентка. Мы все — иностранные студенты.",
+            "en": "She is also an international student. We are all international students.",
+            "es": "Ella también es estudiante extranjera. Todos somos estudiantes extranjeros.",
+            "pt-BR": "Ela também é estudante estrangeira. Todos somos estudantes estrangeiros."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_14",
+          "hanzi": "他是老师吗？",
+          "pinyin": "Tā shì lǎoshī ma?",
+          "translation": {
+            "ru": "Он учитель?",
+            "en": "Is he a teacher?",
+            "es": "¿Es profesor?",
+            "pt-BR": "Ele é professor?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_15",
+          "hanzi": "不是。（他不是老师。）",
+          "pinyin": "Bú shì. (Tā bú shì lǎoshī.)",
+          "translation": {
+            "ru": "Нет. (Он не преподаватель.)",
+            "en": "No. (He is not a teacher.)",
+            "es": "No. (Él no es profesor.)",
+            "pt-BR": "Não. (Ele não é professor.)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_16",
+          "hanzi": "他也是中国人吗？",
+          "pinyin": "Tā yě shì Zhōngguó rén ma?",
+          "translation": {
+            "ru": "Он тоже китаец?",
+            "en": "Is he Chinese too?",
+            "es": "¿Él también es chino?",
+            "pt-BR": "Ele também é chinês?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_17",
+          "hanzi": "不是。（我不是中国人。）",
+          "pinyin": "Bú shì. (Wǒ bú shì Zhōngguó rén.)",
+          "translation": {
+            "ru": "Нет. (Я не китаец.)",
+            "en": "No. (I am not Chinese.)",
+            "es": "No. (No soy chino.)",
+            "pt-BR": "Não. (Não sou chinês.)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_18",
+          "hanzi": "不是",
+          "pinyin": "Bú shì",
+          "translation": {
+            "ru": "нет",
+            "en": "no; is not",
+            "es": "no",
+            "pt-BR": "não"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_19",
+          "hanzi": "也是",
+          "pinyin": "Yě shì",
+          "translation": {
+            "ru": "тоже",
+            "en": "also; too",
+            "es": "también",
+            "pt-BR": "também"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_20",
+          "hanzi": "都是",
+          "pinyin": "Dōu shì",
+          "translation": {
+            "ru": "все",
+            "en": "all are",
+            "es": "todos son",
+            "pt-BR": "todos são"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_21",
+          "hanzi": "先去",
+          "pinyin": "Xiān qù",
+          "translation": {
+            "ru": "сначала пойти",
+            "en": "go first",
+            "es": "ir primero",
+            "pt-BR": "ir primeiro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_22",
+          "hanzi": "先吃",
+          "pinyin": "Xiān chī",
+          "translation": {
+            "ru": "сначала поесть",
+            "en": "eat first",
+            "es": "comer primero",
+            "pt-BR": "comer primeiro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_23",
+          "hanzi": "也是留学生",
+          "pinyin": "Yě shì liúxuéshēng",
+          "translation": {
+            "ru": "тоже иностранный студент",
+            "en": "also an international student",
+            "es": "también estudiante extranjero",
+            "pt-BR": "também estudante estrangeiro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_24",
+          "hanzi": "都是老师",
+          "pinyin": "Dōu shì lǎoshī",
+          "translation": {
+            "ru": "все преподаватели",
+            "en": "all teachers",
+            "es": "todos profesores",
+            "pt-BR": "todos professores"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_25",
+          "hanzi": "都是朋友",
+          "pinyin": "Dōu shì péngyou",
+          "translation": {
+            "ru": "все друзья",
+            "en": "all friends",
+            "es": "todos amigos",
+            "pt-BR": "todos amigos"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_26",
+          "hanzi": "不好",
+          "pinyin": "Bù hǎo",
+          "translation": {
+            "ru": "плохо; нехорошо",
+            "en": "not good",
+            "es": "no bueno",
+            "pt-BR": "não é bom"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_27",
+          "hanzi": "不难",
+          "pinyin": "Bù nán",
+          "translation": {
+            "ru": "не трудно",
+            "en": "not difficult",
+            "es": "no difícil",
+            "pt-BR": "não é difícil"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_28",
+          "hanzi": "也买",
+          "pinyin": "Yě mǎi",
+          "translation": {
+            "ru": "тоже купить",
+            "en": "also buy",
+            "es": "también comprar",
+            "pt-BR": "também comprar"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_29",
+          "hanzi": "也要",
+          "pinyin": "Yě yào",
+          "translation": {
+            "ru": "тоже хотеть; тоже нужно",
+            "en": "also want; also need",
+            "es": "también querer; también necesitar",
+            "pt-BR": "também querer; também precisar"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_30",
+          "hanzi": "都去",
+          "pinyin": "Dōu qù",
+          "translation": {
+            "ru": "все идут",
+            "en": "all go",
+            "es": "todos van",
+            "pt-BR": "todos vão"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_31",
+          "hanzi": "都吃",
+          "pinyin": "Dōu chī",
+          "translation": {
+            "ru": "все едят",
+            "en": "all eat",
+            "es": "todos comen",
+            "pt-BR": "todos comem"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_08",
+          "hanzi": "她也是留学生。",
+          "pinyin": "Tā yě shì liúxuéshēng.",
+          "translation": {
+            "ru": "Она тоже иностранная студентка.",
+            "en": "She is also an international student.",
+            "es": "Ella también es estudiante extranjera.",
+            "pt-BR": "Ela também é estudante estrangeira."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_09",
+          "hanzi": "他们都是留学生。",
+          "pinyin": "Tāmen dōu shì liúxuéshēng.",
+          "translation": {
+            "ru": "Они все — иностранные студенты.",
+            "en": "They are all international students.",
+            "es": "Todos son estudiantes extranjeros.",
+            "pt-BR": "Todos são estudantes estrangeiros."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_10",
+          "hanzi": "你是留学生吗？",
+          "pinyin": "Nǐ shì liúxuéshēng ma?",
+          "translation": {
+            "ru": "Ты иностранный студент?",
+            "en": "Are you an international student?",
+            "es": "¿Eres estudiante extranjero?",
+            "pt-BR": "Você é estudante estrangeiro?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_11",
+          "hanzi": "是。（我是留学生。）",
+          "pinyin": "Shì. (Wǒ shì liúxuéshēng.)",
+          "translation": {
+            "ru": "Да. (Я иностранный студент.)",
+            "en": "Yes. (I am an international student.)",
+            "es": "Sí. (Soy estudiante extranjero.)",
+            "pt-BR": "Sim. (Sou estudante estrangeiro.)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_12",
+          "hanzi": "她也是留学生吗？",
+          "pinyin": "Tā yě shì liúxuéshēng ma?",
+          "translation": {
+            "ru": "Она тоже иностранная студентка?",
+            "en": "Is she also an international student?",
+            "es": "¿Ella también es estudiante extranjera?",
+            "pt-BR": "Ela também é estudante estrangeira?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_13",
+          "hanzi": "她也是留学生。我们都是留学生。",
+          "pinyin": "Tā yě shì liúxuéshēng. Wǒmen dōu shì liúxuéshēng.",
+          "translation": {
+            "ru": "Она тоже иностранная студентка. Мы все — иностранные студенты.",
+            "en": "She is also an international student. We are all international students.",
+            "es": "Ella también es estudiante extranjera. Todos somos estudiantes extranjeros.",
+            "pt-BR": "Ela também é estudante estrangeira. Todos somos estudantes estrangeiros."
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_14",
+          "hanzi": "他是老师吗？",
+          "pinyin": "Tā shì lǎoshī ma?",
+          "translation": {
+            "ru": "Он учитель?",
+            "en": "Is he a teacher?",
+            "es": "¿Es profesor?",
+            "pt-BR": "Ele é professor?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_15",
+          "hanzi": "不是。（他不是老师。）",
+          "pinyin": "Bú shì. (Tā bú shì lǎoshī.)",
+          "translation": {
+            "ru": "Нет. (Он не преподаватель.)",
+            "en": "No. (He is not a teacher.)",
+            "es": "No. (Él no es profesor.)",
+            "pt-BR": "Não. (Ele não é professor.)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_16",
+          "hanzi": "他也是中国人吗？",
+          "pinyin": "Tā yě shì Zhōngguó rén ma?",
+          "translation": {
+            "ru": "Он тоже китаец?",
+            "en": "Is he Chinese too?",
+            "es": "¿Él también es chino?",
+            "pt-BR": "Ele também é chinês?"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_17",
+          "hanzi": "不是。（我不是中国人。）",
+          "pinyin": "Bú shì. (Wǒ bú shì Zhōngguó rén.)",
+          "translation": {
+            "ru": "Нет. (Я не китаец.)",
+            "en": "No. (I am not Chinese.)",
+            "es": "No. (No soy chino.)",
+            "pt-BR": "Não. (Não sou chinês.)"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_18",
+          "hanzi": "不是",
+          "pinyin": "Bú shì",
+          "translation": {
+            "ru": "нет",
+            "en": "no; is not",
+            "es": "no",
+            "pt-BR": "não"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_19",
+          "hanzi": "也是",
+          "pinyin": "Yě shì",
+          "translation": {
+            "ru": "тоже",
+            "en": "also; too",
+            "es": "también",
+            "pt-BR": "também"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_20",
+          "hanzi": "都是",
+          "pinyin": "Dōu shì",
+          "translation": {
+            "ru": "все",
+            "en": "all are",
+            "es": "todos son",
+            "pt-BR": "todos são"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_21",
+          "hanzi": "先去",
+          "pinyin": "Xiān qù",
+          "translation": {
+            "ru": "сначала пойти",
+            "en": "go first",
+            "es": "ir primero",
+            "pt-BR": "ir primeiro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_22",
+          "hanzi": "先吃",
+          "pinyin": "Xiān chī",
+          "translation": {
+            "ru": "сначала поесть",
+            "en": "eat first",
+            "es": "comer primero",
+            "pt-BR": "comer primeiro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_23",
+          "hanzi": "也是留学生",
+          "pinyin": "Yě shì liúxuéshēng",
+          "translation": {
+            "ru": "тоже иностранный студент",
+            "en": "also an international student",
+            "es": "también estudiante extranjero",
+            "pt-BR": "também estudante estrangeiro"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_24",
+          "hanzi": "都是老师",
+          "pinyin": "Dōu shì lǎoshī",
+          "translation": {
+            "ru": "все преподаватели",
+            "en": "all teachers",
+            "es": "todos profesores",
+            "pt-BR": "todos professores"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_25",
+          "hanzi": "都是朋友",
+          "pinyin": "Dōu shì péngyou",
+          "translation": {
+            "ru": "все друзья",
+            "en": "all friends",
+            "es": "todos amigos",
+            "pt-BR": "todos amigos"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_26",
+          "hanzi": "不好",
+          "pinyin": "Bù hǎo",
+          "translation": {
+            "ru": "плохо; нехорошо",
+            "en": "not good",
+            "es": "no bueno",
+            "pt-BR": "não é bom"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_27",
+          "hanzi": "不难",
+          "pinyin": "Bù nán",
+          "translation": {
+            "ru": "не трудно",
+            "en": "not difficult",
+            "es": "no difícil",
+            "pt-BR": "não é difícil"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_28",
+          "hanzi": "也买",
+          "pinyin": "Yě mǎi",
+          "translation": {
+            "ru": "тоже купить",
+            "en": "also buy",
+            "es": "también comprar",
+            "pt-BR": "também comprar"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_29",
+          "hanzi": "也要",
+          "pinyin": "Yě yào",
+          "translation": {
+            "ru": "тоже хотеть; тоже нужно",
+            "en": "also want; also need",
+            "es": "también querer; también necesitar",
+            "pt-BR": "também querer; também precisar"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_30",
+          "hanzi": "都去",
+          "pinyin": "Dōu qù",
+          "translation": {
+            "ru": "все идут",
+            "en": "all go",
+            "es": "todos van",
+            "pt-BR": "todos vão"
+          },
+          "group": "additional"
+        },
+        {
+          "id": "ex11_31",
+          "hanzi": "都吃",
+          "pinyin": "Dōu chī",
+          "translation": {
+            "ru": "все едят",
+            "en": "all eat",
+            "es": "todos comen",
+            "pt-BR": "todos comem"
+          },
+          "group": "additional"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "lesson_11_ch01",
+      "number": 1,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Дальше",
+          "showLessonHeader": true,
+          "dialogue": {
+            "id": "dialogue_professor",
+            "title": "这位是王教授",
+            "lines": [
+              {
+                "speaker": "秘书",
+                "hanzi": "我先介绍一下儿，这位是王教授。这是马校长。",
+                "pinyin": "Wǒ xiān jièshao yíxiàr, zhè wèi shì Wáng jiàoshòu. Zhè shì Mǎ xiàozhǎng.",
+                "translation": {
+                  "ru": "Сначала позвольте представить: это профессор Ван. Это директор Ма.",
+                  "en": "Let me introduce them first: this is Professor Wang. This is Principal Ma.",
+                  "es": "Primero permítanme presentar: este es el profesor Wang. Este es el director Ma.",
+                  "pt-BR": "Primeiro deixe-me apresentar: este é o professor Wang. Este é o diretor Ma."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "校长",
+                "hanzi": "欢迎您，王教授。",
+                "pinyin": "Huānyíng nín, Wáng jiàoshòu.",
+                "translation": {
+                  "ru": "Добро пожаловать, профессор Ван!",
+                  "en": "Welcome, Professor Wang!",
+                  "es": "¡Bienvenido, profesor Wang!",
+                  "pt-BR": "Bem-vindo, professor Wang!"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王教授",
+                "hanzi": "谢谢！",
+                "pinyin": "Xièxie!",
+                "translation": {
+                  "ru": "Спасибо!",
+                  "en": "Thank you!",
+                  "es": "¡Gracias!",
+                  "pt-BR": "Obrigado!"
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Дальше",
+          "showLessonHeader": false,
+          "dialogue": {
+            "id": "dialogue_students",
+            "title": "我们都是留学生",
+            "lines": [
+              {
+                "speaker": "田芳",
+                "hanzi": "你是留学生吗？",
+                "pinyin": "Nǐ shì liúxuéshēng ma?",
+                "translation": {
+                  "ru": "Ты иностранный студент?",
+                  "en": "Are you an international student?",
+                  "es": "¿Eres estudiante extranjero?",
+                  "pt-BR": "Você é estudante estrangeiro?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "罗曼",
+                "hanzi": "是。",
+                "pinyin": "Shì.",
+                "translation": {
+                  "ru": "Да.",
+                  "en": "Yes.",
+                  "es": "Sí.",
+                  "pt-BR": "Sim."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "田芳",
+                "hanzi": "她也是留学生吗？",
+                "pinyin": "Tā yě shì liúxuéshēng ma?",
+                "translation": {
+                  "ru": "Она тоже иностранная студентка?",
+                  "en": "Is she also an international student?",
+                  "es": "¿Ella también es estudiante extranjera?",
+                  "pt-BR": "Ela também é estudante estrangeira?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "罗曼",
+                "hanzi": "她也是留学生。我们都是留学生。",
+                "pinyin": "Tā yě shì liúxuéshēng. Wǒmen dōu shì liúxuéshēng.",
+                "translation": {
+                  "ru": "Она тоже иностранная студентка. Мы все — иностранные студенты.",
+                  "en": "She is also an international student. We are all international students.",
+                  "es": "Ella también es estudiante extranjera. Todos somos estudiantes extranjeros.",
+                  "pt-BR": "Ela também é estudante estrangeira. Todos somos estudantes estrangeiros."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "田芳",
+                "hanzi": "他们俩也都是留学生吗？",
+                "pinyin": "Tāmen liǎ yě dōu shì liúxuéshēng ma?",
+                "translation": {
+                  "ru": "Они оба тоже иностранные студенты?",
+                  "en": "Are they both international students too?",
+                  "es": "¿Los dos también son estudiantes extranjeros?",
+                  "pt-BR": "Os dois também são estudantes estrangeiros?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "罗曼",
+                "hanzi": "不，他们俩不是留学生。他们都是中国学生。",
+                "pinyin": "Bù, tāmen liǎ bú shì liúxuéshēng. Tāmen dōu shì Zhōngguó xuésheng.",
+                "translation": {
+                  "ru": "Нет, они оба не иностранные студенты. Они оба — китайские студенты.",
+                  "en": "No, they are not international students. They are both Chinese students.",
+                  "es": "No, los dos no son estudiantes extranjeros. Los dos son estudiantes chinos.",
+                  "pt-BR": "Não, os dois não são estudantes estrangeiros. Os dois são estudantes chineses."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogue",
+          "continueButtonTitle": "Изучить новые слова",
+          "showLessonHeader": false,
+          "dialogue": {
+            "id": "dialogue_chinese",
+            "title": "你也是中国人吗",
+            "lines": [
+              {
+                "speaker": "爱德华",
+                "hanzi": "他是中国人吗？",
+                "pinyin": "Tā shì Zhōngguó rén ma?",
+                "translation": {
+                  "ru": "Он китаец?",
+                  "en": "Is he Chinese?",
+                  "es": "¿Él es chino?",
+                  "pt-BR": "Ele é chinês?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "李昌浩",
+                "hanzi": "是。",
+                "pinyin": "Shì.",
+                "translation": {
+                  "ru": "Да.",
+                  "en": "Yes.",
+                  "es": "Sí.",
+                  "pt-BR": "Sim."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "爱德华",
+                "hanzi": "你也是中国人吗？",
+                "pinyin": "Nǐ yě shì Zhōngguó rén ma?",
+                "translation": {
+                  "ru": "Ты тоже китаец?",
+                  "en": "Are you Chinese too?",
+                  "es": "¿Tú también eres chino?",
+                  "pt-BR": "Você também é chinês?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "李昌浩",
+                "hanzi": "不是。我是韩国人。",
+                "pinyin": "Bú shì. Wǒ shì Hánguó rén.",
+                "translation": {
+                  "ru": "Нет. Я кореец.",
+                  "en": "No. I am Korean.",
+                  "es": "No. Soy coreano.",
+                  "pt-BR": "Não. Sou coreano."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "爱德华",
+                "hanzi": "对不起。",
+                "pinyin": "Duìbuqǐ.",
+                "translation": {
+                  "ru": "Извините.",
+                  "en": "I'm sorry.",
+                  "es": "Lo siento.",
+                  "pt-BR": "Desculpe."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "李昌浩",
+                "hanzi": "没什么。",
+                "pinyin": "Méi shénme.",
+                "translation": {
+                  "ru": "Ничего страшного.",
+                  "en": "It's nothing.",
+                  "es": "No pasa nada.",
+                  "pt-BR": "Não tem problema."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_intro",
+            "title": {
+              "ru": "Знакомство",
+              "en": "Introduction",
+              "es": "Presentación",
+              "pt-BR": "Apresentação"
+            },
+            "items": [
+              {
+                "id": "mishu",
+                "hanzi": "秘书",
+                "pinyin": "mìshū",
+                "translation": {
+                  "ru": "секретарь",
+                  "en": "secretary",
+                  "es": "secretario/a",
+                  "pt-BR": "secretário/a"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "xian",
+                "hanzi": "先",
+                "pinyin": "xiān",
+                "translation": {
+                  "ru": "прежде всего",
+                  "en": "first; beforehand",
+                  "es": "primero; antes",
+                  "pt-BR": "primeiro; antes"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "jieshao",
+                "hanzi": "介绍",
+                "pinyin": "jièshao",
+                "translation": {
+                  "ru": "познакомить; представить; рекомендовать",
+                  "en": "to introduce; to recommend",
+                  "es": "presentar; recomendar",
+                  "pt-BR": "apresentar; recomendar"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "yixiar",
+                "hanzi": "一下儿",
+                "pinyin": "yíxiàr",
+                "translation": {
+                  "ru": "немного; один раз",
+                  "en": "a bit; once",
+                  "es": "un poco; una vez",
+                  "pt-BR": "um pouco; uma vez"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "wei",
+                "hanzi": "位",
+                "pinyin": "wèi",
+                "translation": {
+                  "ru": "счётное слово для уважаемых людей",
+                  "en": "classifier for people (polite)",
+                  "es": "clasificador de personas (cortés)",
+                  "pt-BR": "classificador de pessoas (cortês)"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "jiaoshou",
+                "hanzi": "教授",
+                "pinyin": "jiàoshòu",
+                "translation": {
+                  "ru": "профессор",
+                  "en": "professor",
+                  "es": "profesor universitario",
+                  "pt-BR": "professor universitário"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "xiaozhang",
+                "hanzi": "校长",
+                "pinyin": "xiàozhǎng",
+                "translation": {
+                  "ru": "директор",
+                  "en": "principal; president (of school)",
+                  "es": "director; rector",
+                  "pt-BR": "diretor; reitor"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "huanying",
+                "hanzi": "欢迎",
+                "pinyin": "huānyíng",
+                "translation": {
+                  "ru": "приветствовать",
+                  "en": "to welcome",
+                  "es": "dar la bienvenida",
+                  "pt-BR": "dar boas-vindas"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_11_ch02",
+      "number": 2,
+      "title": {
+        "ru": "Практика",
+        "en": "Practice",
+        "es": "Práctica",
+        "pt-BR": "Prática"
+      },
+      "goal": null,
+      "estimatedMinutes": 12,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_students",
+            "title": {
+              "ru": "Студенты",
+              "en": "Students",
+              "es": "Estudiantes",
+              "pt-BR": "Estudantes"
+            },
+            "items": [
+              {
+                "id": "liuxuesheng",
+                "hanzi": "留学生",
+                "pinyin": "liúxuéshēng",
+                "translation": {
+                  "ru": "иностранный студент",
+                  "en": "international student",
+                  "es": "estudiante extranjero",
+                  "pt-BR": "estudante estrangeiro"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "liuxue",
+                "hanzi": "留学",
+                "pinyin": "liúxué",
+                "translation": {
+                  "ru": "учиться за границей",
+                  "en": "to study abroad",
+                  "es": "estudiar en el extranjero",
+                  "pt-BR": "estudar no exterior"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "ye",
+                "hanzi": "也",
+                "pinyin": "yě",
+                "translation": {
+                  "ru": "тоже; также",
+                  "en": "also; too",
+                  "es": "también",
+                  "pt-BR": "também"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "women",
+                "hanzi": "我们",
+                "pinyin": "wǒmen",
+                "translation": {
+                  "ru": "мы",
+                  "en": "we; us",
+                  "es": "nosotros",
+                  "pt-BR": "nós"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "nimen",
+                "hanzi": "你们",
+                "pinyin": "nǐmen",
+                "translation": {
+                  "ru": "вы",
+                  "en": "you (plural)",
+                  "es": "ustedes; vosotros",
+                  "pt-BR": "vocês"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "tamen",
+                "hanzi": "他们",
+                "pinyin": "tāmen",
+                "translation": {
+                  "ru": "они",
+                  "en": "they; them",
+                  "es": "ellos; ellas",
+                  "pt-BR": "eles; elas"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "dou",
+                "hanzi": "都",
+                "pinyin": "dōu",
+                "translation": {
+                  "ru": "все",
+                  "en": "all; both",
+                  "es": "todos; ambos",
+                  "pt-BR": "todos; ambos"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "lia",
+                "hanzi": "俩",
+                "pinyin": "liǎ",
+                "translation": {
+                  "ru": "оба; двое",
+                  "en": "two; both (colloquial)",
+                  "es": "dos; ambos (coloquial)",
+                  "pt-BR": "dois; ambos (coloquial)"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "xuesheng",
+                "hanzi": "学生",
+                "pinyin": "xuésheng",
+                "translation": {
+                  "ru": "студент",
+                  "en": "student",
+                  "es": "estudiante",
+                  "pt-BR": "estudante"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "mei_shenme",
+                "hanzi": "没什么",
+                "pinyin": "méi shénme",
+                "translation": {
+                  "ru": "ничего",
+                  "en": "it's nothing",
+                  "es": "no es nada",
+                  "pt-BR": "não foi nada"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_11_ch03",
+      "number": 3,
+      "title": {
+        "ru": "Итог",
+        "en": "Wrap-up",
+        "es": "Resumen",
+        "pt-BR": "Encerramento"
+      },
+      "goal": null,
+      "estimatedMinutes": 8,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "vocabulary",
+          "vocabulary": {
+            "id": "vocab_names",
+            "title": {
+              "ru": "Имена",
+              "en": "Names",
+              "es": "Nombres",
+              "pt-BR": "Nomes"
+            },
+            "items": [
+              {
+                "id": "ma",
+                "hanzi": "马",
+                "pinyin": "Mǎ",
+                "translation": {
+                  "ru": "Ма",
+                  "en": "Ma (surname)",
+                  "es": "Ma (apellido)",
+                  "pt-BR": "Ma (sobrenome)"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "tian_fang",
+                "hanzi": "田芳",
+                "pinyin": "Tián Fāng",
+                "translation": {
+                  "ru": "Тянь Фан",
+                  "en": "Tian Fang",
+                  "es": "Tian Fang",
+                  "pt-BR": "Tian Fang"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "luoman",
+                "hanzi": "罗曼",
+                "pinyin": "Luómàn",
+                "translation": {
+                  "ru": "Роман",
+                  "en": "Luoman",
+                  "es": "Luoman",
+                  "pt-BR": "Luoman"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              },
+              {
+                "id": "aidehua",
+                "hanzi": "爱德华",
+                "pinyin": "Àidéhuá",
+                "translation": {
+                  "ru": "Эдуард",
+                  "en": "Edward",
+                  "es": "Eduardo",
+                  "pt-BR": "Eduardo"
+                },
+                "audioKey": null,
+                "countsInLessonTotal": true,
+                "isPhraseExample": false
+              }
+            ]
+          }
+        },
+        {
+          "kind": "vocabularySummary",
+          "groups": [
+            {
+              "id": "vocab_intro",
+              "title": {
+                "ru": "Знакомство",
+                "en": "Introduction",
+                "es": "Presentación",
+                "pt-BR": "Apresentação"
+              },
+              "items": []
+            },
+            {
+              "id": "vocab_students",
+              "title": {
+                "ru": "Студенты",
+                "en": "Students",
+                "es": "Estudiantes",
+                "pt-BR": "Estudantes"
+              },
+              "items": []
+            },
+            {
+              "id": "vocab_names",
+              "title": {
+                "ru": "Имена",
+                "en": "Names",
+                "es": "Nombres",
+                "pt-BR": "Nomes"
+              },
+              "items": []
+            }
+          ]
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "这位是王教授",
+          "dialogue": {
+            "id": "dialogue_professor",
+            "title": "这位是王教授",
+            "lines": [
+              {
+                "speaker": "秘书",
+                "hanzi": "我先介绍一下儿，这位是王教授。这是马校长。",
+                "pinyin": "Wǒ xiān jièshao yíxiàr, zhè wèi shì Wáng jiàoshòu. Zhè shì Mǎ xiàozhǎng.",
+                "translation": {
+                  "ru": "Сначала позвольте представить: это профессор Ван. Это директор Ма.",
+                  "en": "Let me introduce them first: this is Professor Wang. This is Principal Ma.",
+                  "es": "Primero permítanme presentar: este es el profesor Wang. Este es el director Ma.",
+                  "pt-BR": "Primeiro deixe-me apresentar: este é o professor Wang. Este é o diretor Ma."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "校长",
+                "hanzi": "欢迎您，王教授。",
+                "pinyin": "Huānyíng nín, Wáng jiàoshòu.",
+                "translation": {
+                  "ru": "Добро пожаловать, профессор Ван!",
+                  "en": "Welcome, Professor Wang!",
+                  "es": "¡Bienvenido, profesor Wang!",
+                  "pt-BR": "Bem-vindo, professor Wang!"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "王教授",
+                "hanzi": "谢谢！",
+                "pinyin": "Xièxie!",
+                "translation": {
+                  "ru": "Спасибо!",
+                  "en": "Thank you!",
+                  "es": "¡Gracias!",
+                  "pt-BR": "Obrigado!"
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "我们都是留学生",
+          "dialogue": {
+            "id": "dialogue_students",
+            "title": "我们都是留学生",
+            "lines": [
+              {
+                "speaker": "田芳",
+                "hanzi": "你是留学生吗？",
+                "pinyin": "Nǐ shì liúxuéshēng ma?",
+                "translation": {
+                  "ru": "Ты иностранный студент?",
+                  "en": "Are you an international student?",
+                  "es": "¿Eres estudiante extranjero?",
+                  "pt-BR": "Você é estudante estrangeiro?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "罗曼",
+                "hanzi": "是。",
+                "pinyin": "Shì.",
+                "translation": {
+                  "ru": "Да.",
+                  "en": "Yes.",
+                  "es": "Sí.",
+                  "pt-BR": "Sim."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "田芳",
+                "hanzi": "她也是留学生吗？",
+                "pinyin": "Tā yě shì liúxuéshēng ma?",
+                "translation": {
+                  "ru": "Она тоже иностранная студентка?",
+                  "en": "Is she also an international student?",
+                  "es": "¿Ella también es estudiante extranjera?",
+                  "pt-BR": "Ela também é estudante estrangeira?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "罗曼",
+                "hanzi": "她也是留学生。我们都是留学生。",
+                "pinyin": "Tā yě shì liúxuéshēng. Wǒmen dōu shì liúxuéshēng.",
+                "translation": {
+                  "ru": "Она тоже иностранная студентка. Мы все — иностранные студенты.",
+                  "en": "She is also an international student. We are all international students.",
+                  "es": "Ella también es estudiante extranjera. Todos somos estudiantes extranjeros.",
+                  "pt-BR": "Ela também é estudante estrangeira. Todos somos estudantes estrangeiros."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "田芳",
+                "hanzi": "他们俩也都是留学生吗？",
+                "pinyin": "Tāmen liǎ yě dōu shì liúxuéshēng ma?",
+                "translation": {
+                  "ru": "Они оба тоже иностранные студенты?",
+                  "en": "Are they both international students too?",
+                  "es": "¿Los dos también son estudiantes extranjeros?",
+                  "pt-BR": "Os dois também são estudantes estrangeiros?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "罗曼",
+                "hanzi": "不，他们俩不是留学生。他们都是中国学生。",
+                "pinyin": "Bù, tāmen liǎ bú shì liúxuéshēng. Tāmen dōu shì Zhōngguó xuésheng.",
+                "translation": {
+                  "ru": "Нет, они оба не иностранные студенты. Они оба — китайские студенты.",
+                  "en": "No, they are not international students. They are both Chinese students.",
+                  "es": "No, los dos no son estudiantes extranjeros. Los dos son estudiantes chinos.",
+                  "pt-BR": "Não, os dois não são estudantes estrangeiros. Os dois são estudantes chineses."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "dialogueRepeat",
+          "title": "你也是中国人吗",
+          "dialogue": {
+            "id": "dialogue_chinese",
+            "title": "你也是中国人吗",
+            "lines": [
+              {
+                "speaker": "爱德华",
+                "hanzi": "他是中国人吗？",
+                "pinyin": "Tā shì Zhōngguó rén ma?",
+                "translation": {
+                  "ru": "Он китаец?",
+                  "en": "Is he Chinese?",
+                  "es": "¿Él es chino?",
+                  "pt-BR": "Ele é chinês?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "李昌浩",
+                "hanzi": "是。",
+                "pinyin": "Shì.",
+                "translation": {
+                  "ru": "Да.",
+                  "en": "Yes.",
+                  "es": "Sí.",
+                  "pt-BR": "Sim."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "爱德华",
+                "hanzi": "你也是中国人吗？",
+                "pinyin": "Nǐ yě shì Zhōngguó rén ma?",
+                "translation": {
+                  "ru": "Ты тоже китаец?",
+                  "en": "Are you Chinese too?",
+                  "es": "¿Tú también eres chino?",
+                  "pt-BR": "Você também é chinês?"
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "李昌浩",
+                "hanzi": "不是。我是韩国人。",
+                "pinyin": "Bú shì. Wǒ shì Hánguó rén.",
+                "translation": {
+                  "ru": "Нет. Я кореец.",
+                  "en": "No. I am Korean.",
+                  "es": "No. Soy coreano.",
+                  "pt-BR": "Não. Sou coreano."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "爱德华",
+                "hanzi": "对不起。",
+                "pinyin": "Duìbuqǐ.",
+                "translation": {
+                  "ru": "Извините.",
+                  "en": "I'm sorry.",
+                  "es": "Lo siento.",
+                  "pt-BR": "Desculpe."
+                },
+                "audioKey": null
+              },
+              {
+                "speaker": "李昌浩",
+                "hanzi": "没什么。",
+                "pinyin": "Méi shénme.",
+                "translation": {
+                  "ru": "Ничего страшного.",
+                  "en": "It's nothing.",
+                  "es": "No pasa nada.",
+                  "pt-BR": "Não tem problema."
+                },
+                "audioKey": null
+              }
+            ]
+          }
+        },
+        {
+          "kind": "quizChineseToTranslation"
+        },
+        {
+          "kind": "quizTranslationToChinese"
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
+    },
+    {
+      "id": "lesson_11_ch04",
+      "number": 4,
+      "title": {
+        "ru": "Продолжение",
+        "en": "Continue",
+        "es": "Continuación",
+        "pt-BR": "Continuação"
+      },
+      "goal": null,
+      "estimatedMinutes": 7,
+      "toneGuide": null,
+      "grammarCard": null,
+      "sections": [
+        {
+          "kind": "examples",
+          "items": [
+            {
+              "id": "ex11_00",
+              "hanzi": "你是中国人吗？",
+              "pinyin": "Nǐ shì Zhōngguó rén ma?",
+              "translation": {
+                "ru": "Ты китаец?",
+                "en": "Are you Chinese?",
+                "es": "¿Eres chino?",
+                "pt-BR": "Você é chinês?"
+              }
+            },
+            {
+              "id": "ex11_01",
+              "hanzi": "是。（我是中国人。）",
+              "pinyin": "Shì. (Wǒ shì Zhōngguó rén.)",
+              "translation": {
+                "ru": "Да. (Я китаец.)",
+                "en": "Yes. (I am Chinese.)",
+                "es": "Sí. (Soy chino.)",
+                "pt-BR": "Sim. (Sou chinês.)"
+              }
+            },
+            {
+              "id": "ex11_02",
+              "hanzi": "你是老师吗？",
+              "pinyin": "Nǐ shì lǎoshī ma?",
+              "translation": {
+                "ru": "Ты преподаватель?",
+                "en": "Are you a teacher?",
+                "es": "¿Eres profesor?",
+                "pt-BR": "Você é professor?"
+              }
+            },
+            {
+              "id": "ex11_03",
+              "hanzi": "不是。我是学生。",
+              "pinyin": "Bú shì. Wǒ shì xuésheng.",
+              "translation": {
+                "ru": "Нет. Я студент.",
+                "en": "No. I am a student.",
+                "es": "No. Soy estudiante.",
+                "pt-BR": "Não. Sou estudante."
+              }
+            },
+            {
+              "id": "ex11_04",
+              "hanzi": "他们都是留学生吗？",
+              "pinyin": "Tāmen dōu shì liúxuéshēng ma?",
+              "translation": {
+                "ru": "Они все иностранные студенты?",
+                "en": "Are they all international students?",
+                "es": "¿Todos son estudiantes extranjeros?",
+                "pt-BR": "Todos são estudantes estrangeiros?"
+              }
+            },
+            {
+              "id": "ex11_05",
+              "hanzi": "他们都是留学生。",
+              "pinyin": "Tāmen dōu shì liúxuéshēng.",
+              "translation": {
+                "ru": "Они все — иностранные студенты.",
+                "en": "They are all international students.",
+                "es": "Todos son estudiantes extranjeros.",
+                "pt-BR": "Todos são estudantes estrangeiros."
+              }
+            },
+            {
+              "id": "ex11_06",
+              "hanzi": "他们都是学生。",
+              "pinyin": "Tāmen dōu shì xuésheng.",
+              "translation": {
+                "ru": "Они все — студенты.",
+                "en": "They are all students.",
+                "es": "Todos son estudiantes.",
+                "pt-BR": "Todos são estudantes."
+              }
+            },
+            {
+              "id": "ex11_07",
+              "hanzi": "他也是留学生。",
+              "pinyin": "Tā yě shì liúxuéshēng.",
+              "translation": {
+                "ru": "Он тоже иностранный студент.",
+                "en": "He is also an international student.",
+                "es": "Él también es estudiante extranjero.",
+                "pt-BR": "Ele também é estudante estrangeiro."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "completion"
+        }
+      ],
+      "activities": []
     }
   ]
 }
