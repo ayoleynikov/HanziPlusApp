@@ -1,0 +1,4 @@
+# Keep GitHub's language stats focused on the Swift app:
+# content-generation and localization scripts are tooling, not app code.
+scripts/** linguist-detectable=false
+AppStore/** linguist-detectable=false
